@@ -1,0 +1,2324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Atención al Consumidor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* HEADER ESTILO GOB.ES */
+        .header {
+            background: #ffdb00;
+            color: #000;
+            padding: 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header-top {
+            background: #ffdb00;
+            color: #000;
+            padding: 8px 20px;
+            font-size: 0.85rem;
+        }
+
+        .header-main {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .header-logo {
+            font-size: 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header-title {
+            border-left: 2px solid #00000030;
+            padding-left: 15px;
+        }
+
+        .header-title h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 2px;
+        }
+
+        .header-title p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            font-weight: 400;
+        }
+
+        /* BREADCRUMB */
+        .breadcrumb {
+            background: white;
+            padding: 12px 20px;
+            border-bottom: 1px solid #ddd;
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .breadcrumb a {
+            color: #0563bb;
+            text-decoration: none;
+        }
+
+        .breadcrumb a:hover {
+            text-decoration: underline;
+        }
+
+        /* MAIN LAYOUT */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 0;
+            margin-top: 0;
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            background: white;
+            border-right: 1px solid #ddd;
+            padding: 0;
+            min-height: calc(100vh - 200px);
+        }
+
+        .sidebar-header {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-bottom: 1px solid #ddd;
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: #043263;
+        }
+
+        .sectores-lista {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sector-btn {
+            background: white;
+            border: none;
+            border-bottom: 1px solid #e9ecef;
+            padding: 15px 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 400;
+            text-align: left;
+            font-size: 0.9rem;
+            color: #333;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sector-btn:hover {
+            background: #f8f9fa;
+            color: #0563bb;
+            padding-left: 25px;
+        }
+
+        .sector-btn.active {
+            background: #e7f3ff;
+            color: #043263;
+            font-weight: 600;
+            border-left: 4px solid #0563bb;
+            padding-left: 16px;
+        }
+
+        .sector-icon {
+            font-size: 1.1rem;
+            min-width: 24px;
+        }
+
+        /* ÁREA PRINCIPAL */
+        .main-area {
+            background: white;
+            padding: 0;
+        }
+
+        /* PREGUNTA PRINCIPAL */
+        .pregunta-container {
+            padding: 30px;
+            position: relative;
+        }
+
+        .pregunta-principal {
+            background: #043263;
+            color: white;
+            padding: 30px;
+            border-radius: 4px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-align: center;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.4s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .pregunta-principal.en-conversacion {
+            background: #0563bb;
+        }
+
+        .pregunta-principal.solucion {
+            background: #28a745;
+        }
+
+        /* BOTÓN VOLVER */
+        .btn-volver {
+            position: absolute;
+            top: 35px;
+            left: 35px;
+            background: white;
+            border: 2px solid #043263;
+            color: #043263;
+            padding: 8px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            display: none;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn-volver:hover {
+            background: #043263;
+            color: white;
+        }
+
+        .btn-volver.visible {
+            display: flex;
+        }
+
+        /* BÚSQUEDA */
+        .search-container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 18px 50px 18px 20px;
+            border: 2px solid #043263;
+            border-radius: 4px;
+            font-size: 1.05rem;
+            font-family: 'Open Sans', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #0563bb;
+            box-shadow: 0 0 0 3px rgba(5, 99, 187, 0.1);
+        }
+
+        .search-btn {
+            position: absolute;
+            right: 5px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #043263;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .search-btn:hover {
+            background: #0563bb;
+        }
+
+        .search-results {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .search-result-item {
+            background: #f8f9fa;
+            border-left: 4px solid #0563bb;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .search-result-item:hover {
+            background: #e7f3ff;
+            transform: translateX(5px);
+        }
+
+        .search-result-pregunta {
+            font-weight: 700;
+            color: #043263;
+            margin-bottom: 8px;
+            font-size: 1.05rem;
+        }
+
+        .search-result-respuesta {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        /* CONTENIDO AREA */
+        .contenido-area {
+            padding: 40px 30px;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        .mensaje-inicial {
+            color: #666;
+            font-size: 1.05rem;
+            text-align: center;
+            max-width: 900px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        /* EXPLICACIÓN DETALLADA */
+        .explicacion-detallada {
+            background: #e7f3ff;
+            border-left: 4px solid #0563bb;
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 25px;
+            max-width: 800px;
+            width: 100%;
+            text-align: left;
+        }
+
+        .explicacion-detallada strong {
+            display: block;
+            margin-bottom: 10px;
+            color: #043263;
+            font-size: 1.05rem;
+        }
+
+        .explicacion-detallada ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+
+        .explicacion-detallada a {
+            color: #0563bb;
+            text-decoration: underline;
+        }
+
+        /* FAQs DEL SECTOR */
+        .faqs-sector {
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 25px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .faqs-sector h3 {
+            color: #043263;
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .faq-item {
+            background: white;
+            border-left: 3px solid #0563bb;
+            padding: 15px;
+            margin-bottom: 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            background: #e7f3ff;
+            transform: translateX(5px);
+        }
+
+        .faq-pregunta {
+            font-weight: 600;
+            color: #043263;
+            font-size: 0.95rem;
+        }
+
+        /* LISTA DE SECTORES INICIAL */
+        .sectores-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 15px;
+            width: 100%;
+            max-width: 1000px;
+        }
+
+        .sector-option {
+            background: white;
+            border: 2px solid #043263;
+            border-radius: 4px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .sector-option:hover {
+            background: #043263;
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(4, 50, 99, 0.3);
+        }
+
+        .sector-option-icon {
+            font-size: 2rem;
+            min-width: 50px;
+            text-align: center;
+        }
+
+        .sector-option-text {
+            flex: 1;
+        }
+
+        .sector-option-title {
+            font-weight: 700;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .sector-option-pregunta {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        .sector-option:hover .sector-option-pregunta {
+            opacity: 1;
+        }
+
+        /* BOTONES DE OPCIONES */
+        .opciones-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 600px;
+        }
+
+        .opcion-btn {
+            padding: 16px 50px;
+            border: 2px solid #043263;
+            background: white;
+            color: #043263;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 1.05rem;
+            transition: all 0.3s ease;
+            min-width: 160px;
+            font-family: 'Open Sans', sans-serif;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .opcion-btn:hover:not(:disabled) {
+            background: #043263;
+            color: white;
+            box-shadow: 0 2px 6px rgba(4, 50, 99, 0.3);
+            transform: translateY(-1px);
+        }
+
+        .opcion-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        /* SOLUCIÓN FINAL */
+        .solucion-container {
+            max-width: 800px;
+            width: 100%;
+            animation: fadeIn 0.4s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .solucion-final {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-left: 4px solid #28a745;
+            padding: 25px;
+            border-radius: 4px;
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #155724;
+        }
+
+        .solucion-final strong {
+            color: #155724;
+            display: block;
+            margin-bottom: 12px;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .recursos-links {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .recurso-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: #0563bb;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+        }
+
+        .recurso-btn:hover {
+            background: #043263;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transform: translateY(-1px);
+        }
+
+        .recurso-btn.modelo {
+            background: #28a745;
+        }
+
+        .recurso-btn.modelo:hover {
+            background: #218838;
+        }
+
+        .recurso-btn.reclamar {
+            background: #dc3545;
+            font-size: 1rem;
+            padding: 12px 30px;
+        }
+
+        .recurso-btn.reclamar:hover {
+            background: #c82333;
+        }
+
+        /* BOTÓN REINICIAR */
+        .reiniciar-container {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .reset-btn {
+            padding: 12px 35px;
+            background: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            font-family: 'Open Sans', sans-serif;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+        }
+
+        .reset-btn:hover {
+            background: #5a6268;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            transform: translateY(-1px);
+        }
+
+        /* FOOTER */
+        .footer {
+            background: #043263;
+            color: white;
+            padding: 30px 20px 20px 20px;
+            margin-top: 0;
+            font-size: 0.85rem;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+
+        .footer-section h4 {
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer-section a {
+            color: #ffffff90;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-section a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid #ffffff20;
+            padding-top: 15px;
+            text-align: center;
+            color: #ffffff70;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 1024px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+                min-height: auto;
+            }
+
+            .sectores-lista {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .sector-btn {
+                flex: 1 1 calc(50% - 1px);
+                border-right: 1px solid #e9ecef;
+            }
+
+            .sector-btn:hover {
+                padding-left: 20px;
+            }
+
+            .sector-btn.active {
+                border-left: none;
+                border-top: 4px solid #0563bb;
+                padding-left: 20px;
+            }
+
+            .sectores-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-main {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .header-title {
+                border-left: none;
+                border-top: 2px solid #00000030;
+                padding-left: 0;
+                padding-top: 10px;
+            }
+
+            .header-title h1 {
+                font-size: 1.3rem;
+            }
+
+            .pregunta-principal {
+                font-size: 1.2rem;
+                padding: 25px 20px;
+                min-height: 80px;
+            }
+
+            .btn-volver {
+                position: static;
+                margin-bottom: 15px;
+            }
+
+            .opciones-container {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .opcion-btn {
+                width: 100%;
+            }
+
+            .sector-btn {
+                flex: 1 1 100%;
+            }
+
+            .sector-option {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="header-top">
+            Gobierno de España
+        </div>
+        <div class="header-main">
+            <div class="header-logo">
+                <img src="https://www.dsca.gob.es/themes/custom/pinst_theme/logo.svg" alt="Gobierno de España" style="max-width: 240px; height: auto;">
+            </div>
+            <div class="header-title">
+                <h1>Sistema de Atención al Consumidor</h1>
+                <p>Dirección General de Consumo</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- BREADCRUMB -->
+    <div class="breadcrumb">
+        <a href="#">Inicio</a> / <a href="#">Atención al Consumidor</a> / <span>Sistema de Consultas</span>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <div class="container">
+        <div class="main-layout">
+            <!-- SIDEBAR -->
+            <aside class="sidebar">
+                <div class="sidebar-header">
+                    Sectores de consulta
+                </div>
+                <div class="sectores-lista" id="sectoresLista"></div>
+            </aside>
+
+            <!-- ÁREA PRINCIPAL -->
+            <main class="main-area">
+                <div class="pregunta-container">
+                    <button class="btn-volver" id="btnVolver" onclick="volverAtras()">
+                        ← Volver
+                    </button>
+                    <div class="pregunta-principal" id="preguntaPrincipal">
+                        ¿En qué podemos ayudarte?
+                    </div>
+                </div>
+
+                <div class="contenido-area" id="contenidoArea">
+                    <!-- Se cargará dinámicamente -->
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Enlaces de interés</h4>
+                <ul>
+                    <li><a href="https://consumo.gob.es">Portal del Consumidor</a></li>
+                    <li><a href="#">Normativa de Consumo</a></li>
+                    <li><a href="https://cidoc.consumo.gob.es">OMIC</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <ul>
+                    <li><a href="#">Formulario de contacto</a></li>
+                    <li><a href="#">Sedes</a></li>
+                    <li><a href="#">Teléfono de atención</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Información</h4>
+                <ul>
+                    <li><a href="#">Aviso legal</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Accesibilidad</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2024 Ministerio - Gobierno de España
+        </div>
+    </div>
+
+    <script>
+        // DATOS BASE DE CONOCIMIENTO (FAQs extraídas del Word)
+        const BASE_CONOCIMIENTO = {
+            "Vivienda": [
+                {
+                    pregunta: "¿Existe un límite al precio al que se puede vender una vivienda?",
+                    respuesta: "Los precios son libres, salvo que el inmueble pertenezca a algún plan público de promoción de vivienda, en cuyo caso puede tener alguna limitación para la venta o un precio máximo.",
+                    keywords: ["precio", "límite", "vender", "vivienda", "venta"]
+                },
+                {
+                    pregunta: "¿Es obligatorio que el contrato de compraventa de una casa se haga ante notario?",
+                    respuesta: "No es obligatorio, pero sí muy conveniente puesto que si no se hace así no se puede inscribir la compraventa en el Registro de la Propiedad y puede conllevar muchos problemas.",
+                    keywords: ["notario", "contrato", "compraventa", "obligatorio", "escritura"]
+                },
+                {
+                    pregunta: "¿Qué impuestos tengo que pagar si compro una vivienda?",
+                    respuesta: "Si el inmueble es de obra nueva habrá que hacer frente al IVA y al impuesto de Actos Jurídicos Documentados (IAJD). Si el inmueble es de segunda mano, se debe liquidar el Impuesto de Transmisiones Patrimoniales (ITP).",
+                    keywords: ["impuestos", "IVA", "ITP", "compra", "vivienda", "pagar"]
+                }
+            ],
+            "Banca y seguros": [
+                {
+                    pregunta: "¿Qué información debe facilitar una compañía aseguradora antes de contratar?",
+                    respuesta: "Debe proporcionar información clara sobre las coberturas, exclusiones, plazos de carencia, y el precio total del seguro incluyendo impuestos y gastos.",
+                    keywords: ["seguro", "información", "contratar", "compañía", "aseguradora"]
+                },
+                {
+                    pregunta: "¿Cómo tengo que dar de baja un seguro?",
+                    respuesta: "Debes notificar a la aseguradora con al menos un mes de antelación a la fecha de vencimiento del contrato, preferiblemente por escrito con acuse de recibo.",
+                    keywords: ["baja", "seguro", "cancelar", "dar de baja"]
+                },
+                {
+                    pregunta: "¿Puede el banco obligarme a contratar un seguro junto con la hipoteca?",
+                    respuesta: "El banco puede ofrecértelo, pero no puede obligarte. Tienes derecho a contratar el seguro con la compañía que prefieras.",
+                    keywords: ["banco", "hipoteca", "seguro", "obligar", "contratar"]
+                }
+            ],
+            "Viajes y transportes": [
+                {
+                    pregunta: "¿Qué derechos tengo si mi vuelo se cancela?",
+                    respuesta: "Tienes derecho a reembolso del billete, vuelo alternativo, y compensación económica según la distancia del vuelo (de 250€ a 600€), salvo circunstancias extraordinarias.",
+                    keywords: ["vuelo", "cancelación", "cancelado", "derechos", "compensación"]
+                },
+                {
+                    pregunta: "¿Qué hago si mi equipaje se pierde en un vuelo?",
+                    respuesta: "Debes presentar un parte de irregularidad (PIR) inmediatamente en el aeropuerto. La aerolínea es responsable hasta un máximo de aproximadamente 1.400€.",
+                    keywords: ["equipaje", "perdido", "maleta", "vuelo", "PIR"]
+                },
+                {
+                    pregunta: "¿Tengo derechos si mi tren se retrasa?",
+                    respuesta: "Sí, tienes derecho a compensación: 25% del billete si el retraso es de 60-119 minutos, y 50% si supera las 2 horas.",
+                    keywords: ["tren", "retraso", "compensación", "derechos"]
+                }
+            ],
+            "Suministros": [
+                {
+                    pregunta: "¿Me pueden cortar la luz sin previo aviso?",
+                    respuesta: "No. Antes de cortar el suministro, la compañía debe notificarte con 15 días de antelación si el motivo es impago de facturas.",
+                    keywords: ["cortar", "luz", "electricidad", "suministro", "aviso", "eléctrica"]
+                },
+                {
+                    pregunta: "¿Puedo cambiar de compañía eléctrica cuando quiera?",
+                    respuesta: "Sí, puedes cambiar de comercializadora en cualquier momento sin coste y el cambio debe producirse en un máximo de 15 días.",
+                    keywords: ["cambiar", "compañía", "eléctrica", "comercializadora", "luz", "electricidad"]
+                },
+                {
+                    pregunta: "¿Qué hago si me cobran de más en la factura de la luz?",
+                    respuesta: "Presenta reclamación a la compañía eléctrica por escrito. Si no responde satisfactoriamente, puedes reclamar ante el organismo regulador de tu Comunidad Autónoma o usar la plataforma Justo Para Eso.",
+                    keywords: ["factura", "luz", "electricidad", "cobrar", "más", "error", "eléctrica", "cobro"]
+                },
+                {
+                    pregunta: "¿Qué hago si me cobran de más en la factura del gas?",
+                    respuesta: "Presenta reclamación a la empresa. Si no responde satisfactoriamente, puedes reclamar ante el organismo regulador de tu Comunidad Autónoma.",
+                    keywords: ["factura", "gas", "cobrar", "más", "error", "suministro gas"]
+                }
+            ],
+            "Compras": [
+                {
+                    pregunta: "¿Puedo devolver una compra online?",
+                    respuesta: "Sí, tienes derecho de desistimiento durante 14 días naturales desde la recepción del producto, sin necesidad de justificación.",
+                    keywords: ["devolver", "compra", "online", "internet", "desistimiento"]
+                },
+                {
+                    pregunta: "¿Cuánto dura la garantía de un producto?",
+                    respuesta: "La garantía legal es de 3 años para productos nuevos (2 años para segunda mano) desde la entrega del producto.",
+                    keywords: ["garantía", "duración", "producto", "defecto"]
+                },
+                {
+                    pregunta: "¿Qué hago si un producto tiene un defecto?",
+                    respuesta: "Debes reclamar al vendedor, que debe repararlo o sustituirlo. Si no es posible, tienes derecho a rebaja del precio o devolución.",
+                    keywords: ["defecto", "producto", "reparación", "garantía", "fallo"]
+                }
+            ],
+            "Protección de datos personales": [
+                {
+                    pregunta: "¿Cómo puedo ejercer mi derecho de supresión de datos?",
+                    respuesta: "Debes dirigirte por escrito a la empresa que tiene tus datos solicitando su eliminación. Tienen un mes para responder.",
+                    keywords: ["datos", "supresión", "borrar", "eliminar", "RGPD"]
+                },
+                {
+                    pregunta: "¿Puedo oponerme a recibir publicidad?",
+                    respuesta: "Sí, tienes derecho a oponerte en cualquier momento al tratamiento de tus datos para fines de marketing directo.",
+                    keywords: ["publicidad", "oposición", "marketing", "spam"]
+                },
+                {
+                    pregunta: "¿Qué es el derecho de acceso a mis datos?",
+                    respuesta: "Es tu derecho a saber qué datos personales tiene una empresa sobre ti y cómo los está usando.",
+                    keywords: ["acceso", "datos", "información", "RGPD"]
+                }
+            ]
+        };
+
+        // ÁRBOL DE DECISIONES CON EXPLICACIONES DETALLADAS
+        const ARBOL_DECISIONES = {
+            // === VIVIENDA ===
+            "VIV-ORIENT": {
+                "id": "VIV-ORIENT",
+                "sector": "Vivienda",
+                "pregunta": "¿Tu consulta es sobre compraventa o alquiler de vivienda?",
+                "primera_pregunta_sector": true,
+                "opciones_custom": [
+                    { texto: "Compraventa", siguiente: "VIV-001" },
+                    { texto: "Alquiler", siguiente: "VIV-001" }
+                ],
+                "es_solucion": false
+            },
+            "VIV-001": {
+                "id": "VIV-001",
+                "sector": "Vivienda",
+                "pregunta": "¿Tienes un problema con tu vivienda (compra, alquiler, defectos)?",
+                "opcion_si": "VIV-002",
+                "opcion_no": "SOL-VIV-INFO",
+                "es_solucion": false
+            },
+            "VIV-002": {
+                "id": "VIV-002",
+                "sector": "Vivienda",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "VIV-003",
+                "opcion_no": "SOL-VIV-NO-CONSUMIDOR",
+                "explicacion": "Actúas como consumidor si adquieres la vivienda para uso personal o familiar, no para actividad empresarial o profesional.",
+                "es_solucion": false
+            },
+            "VIV-003": {
+                "id": "VIV-003",
+                "sector": "Vivienda",
+                "pregunta": "¿Has presentado reclamación a la empresa o arrendador?",
+                "opcion_si": "VIV-004",
+                "opcion_no": "SOL-VIV-RECLAMAR",
+                "explicacion": "Antes de acudir a otras instancias, es obligatorio presentar reclamación formal a la otra parte.",
+                "es_solucion": false
+            },
+            "VIV-004": {
+                "id": "VIV-004",
+                "sector": "Vivienda",
+                "pregunta": "¿Has recibido respuesta satisfactoria?",
+                "opcion_si": "SOL-VIV-RESUELTO",
+                "opcion_no": "SOL-VIV-OPCIONES",
+                "es_solucion": false
+            },
+            
+            // === BANCA Y SEGUROS - ORIENTACIÓN ===
+            "BS-ORIENT": {
+                "id": "BS-ORIENT",
+                "sector": "Banca y seguros",
+                "pregunta": "¿Tu consulta es sobre banca o seguros?",
+                "primera_pregunta_sector": true,
+                "opciones_custom": [
+                    { texto: "Banca", siguiente: "BANCA-001" },
+                    { texto: "Seguros", siguiente: "SEG-001" }
+                ],
+                "es_solucion": false
+            },
+            
+            // SEGUROS (extraído del Word)
+            "SEG-001": {
+                "id": "SEG-001",
+                "sector": "Banca y seguros",
+                "subsector": "Seguros",
+                "pregunta": "¿Tienes un problema con seguro o fondo de pensiones?",
+                "opcion_si": "SEG-002",
+                "opcion_no": "SOL-SEG-FIN",
+                "es_solucion": false
+            },
+            "SEG-002": {
+                "id": "SEG-002",
+                "sector": "Banca y seguros",
+                "subsector": "Seguros",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "SEG-003",
+                "opcion_no": "SOL-SEG-FIN",
+                "explicacion": "Actúas como consumidor si contratas el seguro para uso personal o familiar, no empresarial.",
+                "es_solucion": false
+            },
+            "SEG-003": {
+                "id": "SEG-003",
+                "sector": "Banca y seguros",
+                "subsector": "Seguros",
+                "pregunta": "¿Has presentado reclamación a la empresa?",
+                "opcion_si": "SEG-004",
+                "opcion_no": "SOL-SEG-RECLAMAR",
+                "explicacion": "Debes presentar reclamación al Servicio de Atención al Cliente de la aseguradora por escrito: correo postal con acuse de recibo, burofax, email con confirmación de recepción, o teléfono con justificante.",
+                "es_solucion": false
+            },
+            "SEG-004": {
+                "id": "SEG-004",
+                "sector": "Banca y seguros",
+                "subsector": "Seguros",
+                "pregunta": "¿Has recibido respuesta satisfactoria en el plazo de un mes?",
+                "opcion_si": "SOL-SEG-RESUELTO",
+                "opcion_no": "SEG-005",
+                "es_solucion": false
+            },
+            "SEG-005": {
+                "id": "SEG-005",
+                "sector": "Banca y seguros",
+                "subsector": "Seguros",
+                "pregunta": "¿Tiene la entidad la figura del Defensor del Asegurado?",
+                "opcion_si": "SOL-SEG-DEFENSOR",
+                "opcion_no": "SOL-SEG-OPCIONES",
+                "explicacion": "El Defensor del Asegurado es una figura independiente que media en conflictos entre asegurados y compañías.",
+                "es_solucion": false
+            },
+            
+            // BANCA (extraído del Word)
+            "BANCA-001": {
+                "id": "BANCA-001",
+                "sector": "Banca y seguros",
+                "subsector": "Banca",
+                "pregunta": "¿Tienes un problema con un banco?",
+                "opcion_si": "BANCA-002",
+                "opcion_no": "SOL-BANCA-FIN",
+                "es_solucion": false
+            },
+            "BANCA-002": {
+                "id": "BANCA-002",
+                "sector": "Banca y seguros",
+                "subsector": "Banca",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "BANCA-003",
+                "opcion_no": "SOL-BANCA-FIN",
+                "explicacion": "Actúas como consumidor si contratas productos bancarios para uso personal o familiar, no para negocio.",
+                "es_solucion": false
+            },
+            "BANCA-003": {
+                "id": "BANCA-003",
+                "sector": "Banca y seguros",
+                "subsector": "Banca",
+                "pregunta": "¿Has presentado reclamación al banco?",
+                "opcion_si": "BANCA-004",
+                "opcion_no": "SOL-BANCA-RECLAMAR",
+                "explicacion": "Debes presentar reclamación al Servicio de Atención al Cliente del banco por correo postal, burofax, email con confirmación, o teléfono con justificante.",
+                "es_solucion": false
+            },
+            "BANCA-004": {
+                "id": "BANCA-004",
+                "sector": "Banca y seguros",
+                "subsector": "Banca",
+                "pregunta": "¿Has recibido respuesta satisfactoria en el plazo de 15 días?",
+                "opcion_si": "SOL-BANCA-RESUELTO",
+                "opcion_no": "BANCA-005",
+                "explicacion": "El banco tiene 15 días hábiles para responder reclamaciones sobre servicios de pago, un mes para otras reclamaciones, o dos meses para servicios de inversión.",
+                "es_solucion": false
+            },
+            "BANCA-005": {
+                "id": "BANCA-005",
+                "sector": "Banca y seguros",
+                "subsector": "Banca",
+                "pregunta": "¿El problema es por un servicio de inversión?",
+                "opcion_si": "SOL-BANCA-CNMV",
+                "opcion_no": "SOL-BANCA-BDE",
+                "es_solucion": false
+            },
+            
+            // === VIAJES Y TRANSPORTES - ORIENTACIÓN ===
+            "VT-ORIENT": {
+                "id": "VT-ORIENT",
+                "sector": "Viajes y transportes",
+                "pregunta": "¿Tu consulta es sobre vuelos o transporte terrestre?",
+                "primera_pregunta_sector": true,
+                "opciones_custom": [
+                    { texto: "Vuelos", siguiente: "VUELO-001" },
+                    { texto: "Transporte terrestre (tren/autobús)", siguiente: "TRANS-001" }
+                ],
+                "es_solucion": false
+            },
+            
+            // VUELOS (extraído del Word)
+            "VUELO-001": {
+                "id": "VUELO-001",
+                "sector": "Viajes y transportes",
+                "subsector": "Vuelos",
+                "pregunta": "¿Tienes un problema con un vuelo?",
+                "opcion_si": "VUELO-002",
+                "opcion_no": "SOL-VUELO-FIN",
+                "es_solucion": false
+            },
+            "VUELO-002": {
+                "id": "VUELO-002",
+                "sector": "Viajes y transportes",
+                "subsector": "Vuelos",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "VUELO-003",
+                "opcion_no": "SOL-VUELO-FIN",
+                "explicacion": "Actúas como consumidor si viajas por motivos personales o familiares, no por negocios con factura a empresa.",
+                "es_solucion": false
+            },
+            "VUELO-003": {
+                "id": "VUELO-003",
+                "sector": "Viajes y transportes",
+                "subsector": "Vuelos",
+                "pregunta": "¿Has presentado reclamación a la compañía?",
+                "opcion_si": "VUELO-004",
+                "opcion_no": "SOL-VUELO-RECLAMAR",
+                "explicacion": "Presenta reclamación a la aerolínea por correo postal, email, o formulario web de la compañía. Conserva todos los documentos (billetes, tarjetas embarque).",
+                "es_solucion": false
+            },
+            "VUELO-004": {
+                "id": "VUELO-004",
+                "sector": "Viajes y transportes",
+                "subsector": "Vuelos",
+                "pregunta": "¿Has recibido respuesta satisfactoria en el plazo de un mes?",
+                "opcion_si": "SOL-VUELO-RESUELTO",
+                "opcion_no": "VUELO-005",
+                "es_solucion": false
+            },
+            "VUELO-005": {
+                "id": "VUELO-005",
+                "sector": "Viajes y transportes",
+                "subsector": "Vuelos",
+                "pregunta": "¿El problema es por retraso, cancelación o denegación de embarque?",
+                "opcion_si": "SOL-VUELO-AESA",
+                "opcion_no": "SOL-VUELO-OPCIONES",
+                "es_solucion": false
+            },
+            
+            // TRANSPORTE TERRESTRE (extraído del Word)
+            "TRANS-001": {
+                "id": "TRANS-001",
+                "sector": "Viajes y transportes",
+                "subsector": "Transporte terrestre",
+                "pregunta": "¿Tienes un problema con un viaje en tren, autobús o alquiler de vehículo?",
+                "opcion_si": "TRANS-002",
+                "opcion_no": "SOL-TRANS-FIN",
+                "es_solucion": false
+            },
+            "TRANS-002": {
+                "id": "TRANS-002",
+                "sector": "Viajes y transportes",
+                "subsector": "Transporte terrestre",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "TRANS-003",
+                "opcion_no": "SOL-TRANS-FIN",
+                "explicacion": "Actúas como consumidor si viajas por motivos personales, no profesionales.",
+                "es_solucion": false
+            },
+            "TRANS-003": {
+                "id": "TRANS-003",
+                "sector": "Viajes y transportes",
+                "subsector": "Transporte terrestre",
+                "pregunta": "¿Has presentado reclamación a la empresa de transporte?",
+                "opcion_si": "TRANS-004",
+                "opcion_no": "SOL-TRANS-RECLAMAR",
+                "explicacion": "Presenta reclamación por escrito con acuse de recibo. Muchas empresas tienen hojas de reclamaciones.",
+                "es_solucion": false
+            },
+            "TRANS-004": {
+                "id": "TRANS-004",
+                "sector": "Viajes y transportes",
+                "subsector": "Transporte terrestre",
+                "pregunta": "¿Has recibido respuesta satisfactoria en el plazo de un mes?",
+                "opcion_si": "SOL-TRANS-RESUELTO",
+                "opcion_no": "SOL-TRANS-OPCIONES",
+                "es_solucion": false
+            },
+            
+            // === SUMINISTROS ===
+            "SUM-ORIENT": {
+                "id": "SUM-ORIENT",
+                "sector": "Suministros",
+                "pregunta": "¿Tienes un problema con tus suministros (electricidad, agua, gas, teléfono)?",
+                "primera_pregunta_sector": true,
+                "opcion_si": "SUM-001",
+                "opcion_no": "SUM-001",
+                "es_solucion": false
+            },
+            "SUM-001": {
+                "id": "SUM-001",
+                "sector": "Suministros",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "SUM-002",
+                "opcion_no": "SOL-SUM-NO-CONSUMIDOR",
+                "explicacion": "Actúas como consumidor si el suministro es para tu vivienda particular, no para actividad empresarial.",
+                "es_solucion": false
+            },
+            "SUM-002": {
+                "id": "SUM-002",
+                "sector": "Suministros",
+                "pregunta": "¿Has presentado reclamación a la empresa?",
+                "opcion_si": "SUM-003",
+                "opcion_no": "SOL-SUM-RECLAMAR",
+                "explicacion": "Presenta reclamación a la compañía suministradora. Muchas tienen formularios específicos en sus webs.",
+                "es_solucion": false
+            },
+            "SUM-003": {
+                "id": "SUM-003",
+                "sector": "Suministros",
+                "pregunta": "¿Has recibido respuesta satisfactoria?",
+                "opcion_si": "SOL-SUM-RESUELTO",
+                "opcion_no": "SOL-SUM-OPCIONES",
+                "es_solucion": false
+            },
+            
+            // === COMPRAS ===
+            "COM-ORIENT": {
+                "id": "COM-ORIENT",
+                "sector": "Compras",
+                "pregunta": "¿Tienes un problema con una compra (tienda física, online, garantías)?",
+                "primera_pregunta_sector": true,
+                "opcion_si": "COM-001",
+                "opcion_no": "COM-001",
+                "es_solucion": false
+            },
+            "COM-001": {
+                "id": "COM-001",
+                "sector": "Compras",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "COM-002",
+                "opcion_no": "SOL-COM-NO-CONSUMIDOR",
+                "explicacion": "Actúas como consumidor si compras para uso personal o familiar, no para revender o usar en negocio.",
+                "es_solucion": false
+            },
+            "COM-002": {
+                "id": "COM-002",
+                "sector": "Compras",
+                "pregunta": "¿Has presentado reclamación a la empresa?",
+                "opcion_si": "COM-003",
+                "opcion_no": "SOL-COM-RECLAMAR",
+                "explicacion": "Presenta reclamación al vendedor por escrito. Si es online, guarda todos los emails y capturas de pantalla.",
+                "es_solucion": false
+            },
+            "COM-003": {
+                "id": "COM-003",
+                "sector": "Compras",
+                "pregunta": "¿Has recibido respuesta satisfactoria?",
+                "opcion_si": "SOL-COM-RESUELTO",
+                "opcion_no": "SOL-COM-OPCIONES",
+                "es_solucion": false
+            },
+            
+            // === PROTECCIÓN DE DATOS ===
+            "DAT-ORIENT": {
+                "id": "DAT-ORIENT",
+                "sector": "Protección de datos personales",
+                "pregunta": "¿Tienes un problema relacionado con protección de datos personales?",
+                "primera_pregunta_sector": true,
+                "opcion_si": "DAT-001",
+                "opcion_no": "DAT-001",
+                "es_solucion": false
+            },
+            "DAT-001": {
+                "id": "DAT-001",
+                "sector": "Protección de datos personales",
+                "pregunta": "¿Has intentado ejercer tus derechos RGPD ante la empresa?",
+                "opcion_si": "DAT-002",
+                "opcion_no": "SOL-DAT-EJERCER",
+                "explicacion": "Tienes derecho de acceso, rectificación, supresión, oposición, limitación y portabilidad de tus datos personales.",
+                "es_solucion": false
+            },
+            "DAT-002": {
+                "id": "DAT-002",
+                "sector": "Protección de datos personales",
+                "pregunta": "¿Has recibido respuesta satisfactoria?",
+                "opcion_si": "SOL-DAT-RESUELTO",
+                "opcion_no": "SOL-DAT-AEPD",
+                "es_solucion": false
+            },
+            
+            // === TURISMO ===
+            "TUR-ORIENT": {
+                "id": "TUR-ORIENT",
+                "sector": "Turismo",
+                "pregunta": "¿Tienes un problema con servicios turísticos (hotel, camping, restaurante)?",
+                "primera_pregunta_sector": true,
+                "opcion_si": "TUR-001",
+                "opcion_no": "TUR-001",
+                "es_solucion": false
+            },
+            "TUR-001": {
+                "id": "TUR-001",
+                "sector": "Turismo",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "TUR-002",
+                "opcion_no": "SOL-TUR-NO-CONSUMIDOR",
+                "explicacion": "Actúas como consumidor si contratas servicios turísticos para uso personal o familiar.",
+                "es_solucion": false
+            },
+            "TUR-002": {
+                "id": "TUR-002",
+                "sector": "Turismo",
+                "pregunta": "¿Has presentado reclamación al establecimiento?",
+                "opcion_si": "TUR-003",
+                "opcion_no": "SOL-TUR-RECLAMAR",
+                "explicacion": "Los establecimientos turísticos deben tener hojas de reclamaciones disponibles para clientes.",
+                "es_solucion": false
+            },
+            "TUR-003": {
+                "id": "TUR-003",
+                "sector": "Turismo",
+                "pregunta": "¿Has recibido respuesta satisfactoria?",
+                "opcion_si": "SOL-TUR-RESUELTO",
+                "opcion_no": "SOL-TUR-OPCIONES",
+                "es_solucion": false
+            },
+            
+            // === SERVICIOS VARIOS ===
+            "SER-ORIENT": {
+                "id": "SER-ORIENT",
+                "sector": "Servicios varios",
+                "pregunta": "¿Tienes un problema con servicios (reparaciones, mudanzas, academias)?",
+                "primera_pregunta_sector": true,
+                "opcion_si": "SER-001",
+                "opcion_no": "SER-001",
+                "es_solucion": false
+            },
+            "SER-001": {
+                "id": "SER-001",
+                "sector": "Servicios varios",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "SER-002",
+                "opcion_no": "SOL-SER-NO-CONSUMIDOR",
+                "explicacion": "Actúas como consumidor si contratas el servicio para uso personal o familiar.",
+                "es_solucion": false
+            },
+            "SER-002": {
+                "id": "SER-002",
+                "sector": "Servicios varios",
+                "pregunta": "¿Has presentado reclamación a la empresa?",
+                "opcion_si": "SER-003",
+                "opcion_no": "SOL-SER-RECLAMAR",
+                "explicacion": "Presenta reclamación por escrito. Exige siempre factura y presupuesto detallado antes del servicio.",
+                "es_solucion": false
+            },
+            "SER-003": {
+                "id": "SER-003",
+                "sector": "Servicios varios",
+                "pregunta": "¿Has recibido respuesta satisfactoria?",
+                "opcion_si": "SOL-SER-RESUELTO",
+                "opcion_no": "SOL-SER-OPCIONES",
+                "es_solucion": false
+            },
+            
+            // === OTROS ===
+            "OTR-ORIENT": {
+                "id": "OTR-ORIENT",
+                "sector": "Otros",
+                "pregunta": "¿Tienes una consulta de consumo que no encaja en las categorías anteriores?",
+                "primera_pregunta_sector": true,
+                "opcion_si": "OTR-001",
+                "opcion_no": "OTR-001",
+                "es_solucion": false
+            },
+            "OTR-001": {
+                "id": "OTR-001",
+                "sector": "Otros",
+                "pregunta": "¿Actúas como persona consumidora?",
+                "opcion_si": "OTR-002",
+                "opcion_no": "SOL-OTR-NO-CONSUMIDOR",
+                "es_solucion": false
+            },
+            "OTR-002": {
+                "id": "OTR-002",
+                "sector": "Otros",
+                "pregunta": "¿Has presentado reclamación a la empresa?",
+                "opcion_si": "OTR-003",
+                "opcion_no": "SOL-OTR-RECLAMAR",
+                "es_solucion": false
+            },
+            "OTR-003": {
+                "id": "OTR-003",
+                "sector": "Otros",
+                "pregunta": "¿Has recibido respuesta satisfactoria?",
+                "opcion_si": "SOL-OTR-RESUELTO",
+                "opcion_no": "SOL-OTR-OPCIONES",
+                "es_solucion": false
+            },
+            
+            // === SOLUCIONES ===
+            // Vivienda
+            "SOL-VIV-INFO": {
+                "id": "SOL-VIV-INFO",
+                "es_solucion": true,
+                "texto_solucion": "Puedes consultar nuestro portal de información al consumidor para conocer tus derechos en materia de vivienda."
+            },
+            "SOL-VIV-NO-CONSUMIDOR": {
+                "id": "SOL-VIV-NO-CONSUMIDOR",
+                "es_solucion": true,
+                "texto_solucion": "Si no actúas como consumidor, deberás dirigir tu consulta a la jurisdicción civil ordinaria."
+            },
+            "SOL-VIV-RECLAMAR": {
+                "id": "SOL-VIV-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación formal a la empresa por correo con acuse de recibo, burofax o correo electrónico. También puedes solicitar apoyo de OMIC o tu Comunidad Autónoma.",
+                "sector_reclamacion": "Vivienda"
+            },
+            "SOL-VIV-RESUELTO": {
+                "id": "SOL-VIV-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Excelente! Tu problema se ha resuelto satisfactoriamente."
+            },
+            "SOL-VIV-OPCIONES": {
+                "id": "SOL-VIV-OPCIONES",
+                "es_solucion": true,
+                "texto_solucion": "Puedes acudir al arbitraje de consumo (gratuito), mediación o vía judicial. También consulta con OMIC o tu Comunidad Autónoma para orientación específica.",
+                "sector_reclamacion": "Vivienda"
+            },
+            
+            // Seguros
+            "SOL-SEG-FIN": {
+                "id": "SOL-SEG-FIN",
+                "es_solucion": true,
+                "texto_solucion": "Si no tienes un problema con seguros o no actúas como consumidor, este procedimiento no aplica."
+            },
+            "SOL-SEG-RECLAMAR": {
+                "id": "SOL-SEG-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación al Servicio de Atención al Cliente de la aseguradora de forma escrita y fehaciente: correo postal con acuse, burofax, o email con confirmación.",
+                "sector_reclamacion": "Seguros"
+            },
+            "SOL-SEG-RESUELTO": {
+                "id": "SOL-SEG-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Perfecto! Tu problema con el seguro se ha resuelto."
+            },
+            "SOL-SEG-DEFENSOR": {
+                "id": "SOL-SEG-DEFENSOR",
+                "es_solucion": true,
+                "texto_solucion": "Puedes dirigirte al Defensor del Asegurado de tu entidad o pasar directamente a reclamar ante la Dirección General de Seguros y Fondos de Pensiones.",
+                "sector_reclamacion": "Seguros"
+            },
+            "SOL-SEG-OPCIONES": {
+                "id": "SOL-SEG-OPCIONES",
+                "es_solucion": true,
+                "texto_solucion": "Puedes reclamar ante la Dirección General de Seguros y Fondos de Pensiones, acudir al arbitraje de consumo, mediación o vía judicial.",
+                "sector_reclamacion": "Seguros"
+            },
+            
+            // Banca
+            "SOL-BANCA-FIN": {
+                "id": "SOL-BANCA-FIN",
+                "es_solucion": true,
+                "texto_solucion": "Si no tienes un problema con un banco o no actúas como consumidor, este procedimiento no aplica."
+            },
+            "SOL-BANCA-RECLAMAR": {
+                "id": "SOL-BANCA-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación al Servicio de Atención al Cliente del banco de forma escrita y fehaciente.",
+                "sector_reclamacion": "Banca"
+            },
+            "SOL-BANCA-RESUELTO": {
+                "id": "SOL-BANCA-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Perfecto! Tu problema bancario se ha resuelto."
+            },
+            "SOL-BANCA-CNMV": {
+                "id": "SOL-BANCA-CNMV",
+                "es_solucion": true,
+                "texto_solucion": "Para servicios de inversión, puedes reclamar ante la Comisión Nacional del Mercado de Valores (CNMV), acudir al arbitraje de consumo o la vía judicial.",
+                "sector_reclamacion": "Banca-CNMV"
+            },
+            "SOL-BANCA-BDE": {
+                "id": "SOL-BANCA-BDE",
+                "es_solucion": true,
+                "texto_solucion": "Puedes reclamar ante el Banco de España, acudir al arbitraje de consumo, mediación o vía judicial.",
+                "sector_reclamacion": "Banca"
+            },
+            
+            // Vuelos
+            "SOL-VUELO-FIN": {
+                "id": "SOL-VUELO-FIN",
+                "es_solucion": true,
+                "texto_solucion": "Si no tienes un problema con un vuelo o no actúas como consumidor, este procedimiento no aplica."
+            },
+            "SOL-VUELO-RECLAMAR": {
+                "id": "SOL-VUELO-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación a la compañía aérea de forma escrita y fehaciente (correo postal, email, formulario web).",
+                "sector_reclamacion": "Vuelos"
+            },
+            "SOL-VUELO-RESUELTO": {
+                "id": "SOL-VUELO-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Perfecto! Tu problema con el vuelo se ha resuelto."
+            },
+            "SOL-VUELO-AESA": {
+                "id": "SOL-VUELO-AESA",
+                "es_solucion": true,
+                "texto_solucion": "Puedes reclamar ante la Agencia Estatal de Seguridad Aérea (AESA) por retrasos, cancelaciones o denegación de embarque. También está el arbitraje de consumo o vía judicial.",
+                "sector_reclamacion": "Vuelos"
+            },
+            "SOL-VUELO-OPCIONES": {
+                "id": "SOL-VUELO-OPCIONES",
+                "es_solucion": true,
+                "texto_solucion": "Puedes acudir al arbitraje de consumo, mediación, Centro Europeo del Consumidor (si es vuelo internacional) o vía judicial.",
+                "sector_reclamacion": "Vuelos"
+            },
+            
+            // Transporte terrestre
+            "SOL-TRANS-FIN": {
+                "id": "SOL-TRANS-FIN",
+                "es_solucion": true,
+                "texto_solucion": "Si no tienes un problema con transporte terrestre o no actúas como consumidor, este procedimiento no aplica."
+            },
+            "SOL-TRANS-RECLAMAR": {
+                "id": "SOL-TRANS-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación a la empresa de transporte de forma escrita y fehaciente.",
+                "sector_reclamacion": "Transporte"
+            },
+            "SOL-TRANS-RESUELTO": {
+                "id": "SOL-TRANS-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Perfecto! Tu problema con el transporte se ha resuelto."
+            },
+            "SOL-TRANS-OPCIONES": {
+                "id": "SOL-TRANS-OPCIONES",
+                "es_solucion": true,
+                "texto_solucion": "Puedes acudir a las Juntas Arbitrales de Transporte, arbitraje de consumo, mediación o vía judicial.",
+                "sector_reclamacion": "Transporte"
+            },
+            
+            // Suministros
+            "SOL-SUM-NO-CONSUMIDOR": {
+                "id": "SOL-SUM-NO-CONSUMIDOR",
+                "es_solucion": true,
+                "texto_solucion": "Si no actúas como consumidor, deberás dirigir tu reclamación directamente a la empresa o a la jurisdicción civil."
+            },
+            "SOL-SUM-RECLAMAR": {
+                "id": "SOL-SUM-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación a la compañía suministradora de forma escrita y fehaciente.",
+                "sector_reclamacion": "Suministros"
+            },
+            "SOL-SUM-RESUELTO": {
+                "id": "SOL-SUM-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Excelente! Tu problema con el suministro se ha resuelto."
+            },
+            "SOL-SUM-OPCIONES": {
+                "id": "SOL-SUM-OPCIONES",
+                "es_solucion": true,
+                "texto_solucion": "Puedes reclamar ante el órgano competente de tu Comunidad Autónoma para suministros, acudir al arbitraje de consumo o vía judicial.",
+                "sector_reclamacion": "Suministros"
+            },
+            
+            // Compras
+            "SOL-COM-NO-CONSUMIDOR": {
+                "id": "SOL-COM-NO-CONSUMIDOR",
+                "es_solucion": true,
+                "texto_solucion": "Si no actúas como consumidor, deberás dirigir tu reclamación a la jurisdicción civil ordinaria."
+            },
+            "SOL-COM-RECLAMAR": {
+                "id": "SOL-COM-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación a la empresa vendedora de forma escrita y fehaciente. Si es comercio electrónico, también puedes usar Confianza Online.",
+                "sector_reclamacion": "Compras"
+            },
+            "SOL-COM-RESUELTO": {
+                "id": "SOL-COM-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Excelente! Tu problema con la compra se ha resuelto."
+            },
+            "SOL-COM-OPCIONES": {
+                "id": "SOL-COM-OPCIONES",
+                "es_solucion": true,
+                "texto_solucion": "Puedes acudir al arbitraje de consumo, mediación, Confianza Online (si es e-commerce) o vía judicial.",
+                "sector_reclamacion": "Compras"
+            },
+            
+            // Protección de datos
+            "SOL-DAT-EJERCER": {
+                "id": "SOL-DAT-EJERCER",
+                "es_solucion": true,
+                "texto_solucion": "Debes ejercer tus derechos RGPD (acceso, rectificación, supresión, etc.) ante la empresa de forma escrita y fehaciente. La empresa tiene un mes para responder.",
+                "sector_reclamacion": "Datos"
+            },
+            "SOL-DAT-RESUELTO": {
+                "id": "SOL-DAT-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Perfecto! Tu problema de protección de datos se ha resuelto."
+            },
+            "SOL-DAT-AEPD": {
+                "id": "SOL-DAT-AEPD",
+                "es_solucion": true,
+                "texto_solucion": "Puedes presentar reclamación ante la Agencia Española de Protección de Datos (AEPD) a través de su sede electrónica.",
+                "sector_reclamacion": "Datos"
+            },
+            
+            // Turismo
+            "SOL-TUR-NO-CONSUMIDOR": {
+                "id": "SOL-TUR-NO-CONSUMIDOR",
+                "es_solucion": true,
+                "texto_solucion": "Si no actúas como consumidor, deberás dirigir tu reclamación a la jurisdicción civil ordinaria."
+            },
+            "SOL-TUR-RECLAMAR": {
+                "id": "SOL-TUR-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación al establecimiento turístico de forma escrita y fehaciente. También puedes contactar con el órgano de turismo de tu Comunidad Autónoma.",
+                "sector_reclamacion": "Turismo"
+            },
+            "SOL-TUR-RESUELTO": {
+                "id": "SOL-TUR-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Excelente! Tu problema turístico se ha resuelto."
+            },
+            "SOL-TUR-OPCIONES": {
+                "id": "SOL-TUR-OPCIONES",
+                "es_solucion": true,
+                "texto_solucion": "Puedes reclamar ante el órgano de turismo de tu Comunidad Autónoma, acudir al arbitraje de consumo o vía judicial.",
+                "sector_reclamacion": "Turismo"
+            },
+            
+            // Servicios varios
+            "SOL-SER-NO-CONSUMIDOR": {
+                "id": "SOL-SER-NO-CONSUMIDOR",
+                "es_solucion": true,
+                "texto_solucion": "Si no actúas como consumidor, deberás dirigir tu reclamación a la jurisdicción civil ordinaria."
+            },
+            "SOL-SER-RECLAMAR": {
+                "id": "SOL-SER-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación a la empresa prestadora del servicio de forma escrita y fehaciente.",
+                "sector_reclamacion": "Servicios"
+            },
+            "SOL-SER-RESUELTO": {
+                "id": "SOL-SER-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Excelente! Tu problema con el servicio se ha resuelto."
+            },
+            "SOL-SER-OPCIONES": {
+                "id": "SOL-SER-OPCIONES",
+                "es_solucion": true,
+                "texto_solucion": "Puedes acudir al arbitraje de consumo, mediación o vía judicial.",
+                "sector_reclamacion": "Servicios"
+            },
+            
+            // Otros
+            "SOL-OTR-NO-CONSUMIDOR": {
+                "id": "SOL-OTR-NO-CONSUMIDOR",
+                "es_solucion": true,
+                "texto_solucion": "Si no actúas como consumidor, deberás dirigir tu reclamación a la jurisdicción civil ordinaria."
+            },
+            "SOL-OTR-RECLAMAR": {
+                "id": "SOL-OTR-RECLAMAR",
+                "es_solucion": true,
+                "texto_solucion": "Presenta reclamación a la empresa de forma escrita y fehaciente. También puedes solicitar apoyo de OMIC.",
+                "sector_reclamacion": "General"
+            },
+            "SOL-OTR-RESUELTO": {
+                "id": "SOL-OTR-RESUELTO",
+                "es_solucion": true,
+                "texto_solucion": "¡Excelente! Tu problema se ha resuelto."
+            },
+            "SOL-OTR-OPCIONES": {
+                "id": "SOL-OTR-OPCIONES",
+                "es_solucion": true,
+                "texto_solucion": "Puedes acudir al arbitraje de consumo, mediación o vía judicial. Consulta con OMIC para orientación específica.",
+                "sector_reclamacion": "General"
+            }
+        };
+
+        // ENLACES DE RECLAMACIÓN POR SECTOR
+        const ENLACES_RECLAMACION = {
+            "Vivienda": "https://consumo.gob.es/sites/consumo.gob.es/files/modelo_reclamacion.pdf",
+            "Seguros": "https://dgsfp.mineco.gob.es/es/Consumidor/Reclamaciones/Paginas/InformacionProcedimiento.aspx",
+            "Banca": "https://clientebancario.bde.es/pcb/es/menu-horizontal/productosservici/relacionados/reclamaciones/",
+            "Banca-CNMV": "https://www.cnmv.es/portal/Oficina-Inversora/Reclamaciones.aspx",
+            "Vuelos": "https://www.seguridadaerea.gob.es/es/ambitos/derechos-de-los-pasajeros/procedimiento-para-reclamar",
+            "Transporte": "https://www.mitma.gob.es/transporte-terrestre/servicios-al-transportista/juntas-arbitrales/juntas-arbitrales-del-transporte-funcionamiento",
+            "Suministros": "https://justoparaeso.consumo.gob.es/",
+            "Compras": "https://www.confianzaonline.es/consumidores/como-reclamar.html",
+            "Datos": "https://sedeagpd.gob.es/sede-electronica-web/",
+            "Turismo": "https://consumo.gob.es/arbitrajeConsumo",
+            "Servicios": "https://consumo.gob.es/arbitrajeConsumo",
+            "General": "https://consumo.gob.es/sites/consumo.gob.es/files/modelo_reclamacion.pdf"
+        };
+
+        const RECURSOS = {
+            "SOL-VIV-RECLAMAR": [
+                { nombre: "Modelo de reclamación", url: "https://consumo.gob.es/sites/consumo.gob.es/files/modelo_reclamacion.pdf", tipo: "modelo" },
+                { nombre: "Directorio OMIC", url: "https://cidoc.consumo.gob.es/directorio-mapas/oficinas-municipales-informacion-consumidor", tipo: "enlace" }
+            ],
+            "SOL-SEG-OPCIONES": [
+                { nombre: "DG Seguros y Fondos", url: "https://dgsfp.mineco.gob.es/", tipo: "enlace" },
+                { nombre: "Solicitud arbitraje", url: "https://consumo.gob.es/arbitrajeConsumo", tipo: "modelo" }
+            ],
+            "SOL-BANCA-CNMV": [
+                { nombre: "CNMV", url: "https://www.cnmv.es/", tipo: "enlace" }
+            ],
+            "SOL-BANCA-BDE": [
+                { nombre: "Banco de España", url: "https://clientebancario.bde.es/pcb/es/", tipo: "enlace" }
+            ],
+            "SOL-VUELO-AESA": [
+                { nombre: "AESA Reclamaciones", url: "https://www.seguridadaerea.gob.es/es/ambitos/derechos-de-los-pasajeros", tipo: "enlace" }
+            ],
+            "SOL-TRANS-OPCIONES": [
+                { nombre: "Juntas Arbitrales Transporte", url: "https://www.mitma.gob.es/transporte-terrestre/servicios-al-transportista/juntas-arbitrales", tipo: "enlace" }
+            ],
+            "SOL-DAT-AEPD": [
+                { nombre: "AEPD Sede Electrónica", url: "https://sedeagpd.gob.es/", tipo: "enlace" }
+            ]
+        };
+
+        const SECTORES = [
+            { 
+                nombre: "Vivienda", 
+                icono: "🏠",
+                pregunta: "¿Tu consulta es sobre compraventa o alquiler de vivienda?",
+                nodo_inicial: "VIV-ORIENT"
+            },
+            { 
+                nombre: "Banca y seguros", 
+                icono: "🏦",
+                pregunta: "¿Tu consulta es sobre banca o seguros?",
+                nodo_inicial: "BS-ORIENT"
+            },
+            { 
+                nombre: "Viajes y transportes", 
+                icono: "✈️",
+                pregunta: "¿Tu consulta es sobre vuelos o transporte terrestre?",
+                nodo_inicial: "VT-ORIENT"
+            },
+            { 
+                nombre: "Suministros", 
+                icono: "⚡",
+                pregunta: "¿Tienes un problema con tus suministros?",
+                nodo_inicial: "SUM-ORIENT"
+            },
+            { 
+                nombre: "Compras", 
+                icono: "🛒",
+                pregunta: "¿Tienes un problema con una compra?",
+                nodo_inicial: "COM-ORIENT"
+            },
+            { 
+                nombre: "Protección de datos personales", 
+                icono: "🔒",
+                pregunta: "¿Tienes un problema con protección de datos?",
+                nodo_inicial: "DAT-ORIENT"
+            },
+            { 
+                nombre: "Turismo", 
+                icono: "🏖️",
+                pregunta: "¿Tienes un problema con servicios turísticos?",
+                nodo_inicial: "TUR-ORIENT"
+            },
+            { 
+                nombre: "Servicios varios", 
+                icono: "🔧",
+                pregunta: "¿Tienes un problema con servicios profesionales?",
+                nodo_inicial: "SER-ORIENT"
+            },
+            { 
+                nombre: "Otros", 
+                icono: "📋",
+                pregunta: "¿Tienes otra consulta de consumo?",
+                nodo_inicial: "OTR-ORIENT"
+            }
+        ];
+
+        let nodoActual = null;
+        let historial = [];
+        let sectorActual = null;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            cargarSectores();
+            mostrarBusquedaInicial();
+        });
+
+        // SISTEMA DE BÚSQUEDA
+        function mostrarBusquedaInicial() {
+            const preguntaEl = document.getElementById('preguntaPrincipal');
+            const contenido = document.getElementById('contenidoArea');
+            const btnVolver = document.getElementById('btnVolver');
+            
+            preguntaEl.className = 'pregunta-principal';
+            preguntaEl.textContent = '¿En qué podemos ayudarte?';
+            btnVolver.classList.remove('visible');
+            historial = [];
+            
+            let html = `
+                <div class="search-container">
+                    <p class="mensaje-inicial">Describe tu consulta en lenguaje natural o selecciona un sector:</p>
+                    <div class="search-box">
+                        <input type="text" class="search-input" id="searchInput" placeholder="Ej: Me han cobrado de más en la factura de la luz...">
+                        <button class="search-btn" onclick="buscarConsulta()">Buscar</button>
+                    </div>
+                    <div id="searchResults" class="search-results"></div>
+                </div>
+            `;
+            
+            html += '<p class="mensaje-inicial" style="margin-top: 40px;">O selecciona directamente un sector:</p>';
+            html += '<div class="sectores-grid">';
+            
+            SECTORES.forEach(sector => {
+                html += `
+                    <div class="sector-option" onclick="iniciarPorSector('${sector.nombre}')">
+                        <div class="sector-option-icon">${sector.icono}</div>
+                        <div class="sector-option-text">
+                            <div class="sector-option-title">${sector.nombre}</div>
+                            <div class="sector-option-pregunta">${sector.pregunta}</div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            html += '</div>';
+            contenido.innerHTML = html;
+            
+            // Permitir buscar con Enter
+            document.getElementById('searchInput').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    buscarConsulta();
+                }
+            });
+        }
+
+        function buscarConsulta() {
+            const query = document.getElementById('searchInput').value.trim().toLowerCase();
+            if (!query) return;
+            
+            const resultados = [];
+            const palabrasBusqueda = query.split(' ').filter(p => p.length > 2);
+            
+            // Sinónimos comunes
+            const sinonimos = {
+                'luz': ['electricidad', 'eléctrica', 'eléctrico'],
+                'electricidad': ['luz', 'eléctrica', 'eléctrico'],
+                'agua': ['suministro agua'],
+                'gas': ['suministro gas'],
+                'banco': ['bancario', 'banca', 'entidad financiera'],
+                'seguro': ['aseguradora', 'póliza'],
+                'vuelo': ['avión', 'aéreo', 'aerolínea'],
+                'tren': ['ferrocarril', 'renfe'],
+                'compra': ['comprar', 'adquirir', 'producto'],
+                'factura': ['cobro', 'pago', 'recibo']
+            };
+            
+            // Buscar en base de conocimiento
+            for (const sector in BASE_CONOCIMIENTO) {
+                BASE_CONOCIMIENTO[sector].forEach(item => {
+                    let puntuacion = 0;
+                    const preguntaLower = item.pregunta.toLowerCase();
+                    const respuestaLower = item.respuesta.toLowerCase();
+                    
+                    // Buscar coincidencia exacta de toda la query
+                    if (preguntaLower.includes(query)) {
+                        puntuacion += 20;
+                    }
+                    if (respuestaLower.includes(query)) {
+                        puntuacion += 10;
+                    }
+                    
+                    // Buscar cada palabra
+                    palabrasBusqueda.forEach(palabra => {
+                        // Coincidencia exacta en pregunta
+                        if (preguntaLower.includes(palabra)) {
+                            puntuacion += 8;
+                        }
+                        
+                        // Coincidencia exacta en respuesta
+                        if (respuestaLower.includes(palabra)) {
+                            puntuacion += 4;
+                        }
+                        
+                        // Buscar sinónimos
+                        if (sinonimos[palabra]) {
+                            sinonimos[palabra].forEach(sinonimo => {
+                                if (preguntaLower.includes(sinonimo)) {
+                                    puntuacion += 7;
+                                }
+                                if (respuestaLower.includes(sinonimo)) {
+                                    puntuacion += 3;
+                                }
+                            });
+                        }
+                        
+                        // Buscar en keywords
+                        item.keywords.forEach(keyword => {
+                            if (keyword === palabra) {
+                                puntuacion += 5; // Coincidencia exacta
+                            } else if (keyword.includes(palabra) || palabra.includes(keyword)) {
+                                puntuacion += 2;
+                            }
+                        });
+                    });
+                    
+                    // Penalizar si hay palabras contradictorias
+                    if (query.includes('luz') || query.includes('electricidad')) {
+                        if (preguntaLower.includes('gas') && !preguntaLower.includes('luz') && !preguntaLower.includes('electricidad')) {
+                            puntuacion = puntuacion * 0.3; // Reducir drásticamente
+                        }
+                    }
+                    if (query.includes('gas')) {
+                        if (preguntaLower.includes('luz') || preguntaLower.includes('electricidad')) {
+                            if (!preguntaLower.includes('gas')) {
+                                puntuacion = puntuacion * 0.3;
+                            }
+                        }
+                    }
+                    
+                    if (puntuacion > 0) {
+                        resultados.push({
+                            sector: sector,
+                            pregunta: item.pregunta,
+                            respuesta: item.respuesta,
+                            puntuacion: puntuacion
+                        });
+                    }
+                });
+            }
+            
+            // Ordenar por puntuación
+            resultados.sort((a, b) => b.puntuacion - a.puntuacion);
+            
+            // Mostrar resultados
+            const resultsDiv = document.getElementById('searchResults');
+            if (resultados.length === 0) {
+                resultsDiv.innerHTML = '<p style="text-align: center; color: #666; margin-top: 20px;">No se encontraron resultados. Intenta con otras palabras o selecciona un sector directamente.</p>';
+            } else {
+                let html = '<h3 style="color: #043263; margin-bottom: 20px; text-align: center;">📋 Resultados de búsqueda:</h3>';
+                resultados.slice(0, 5).forEach((resultado, index) => {
+                    html += `
+                        <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${resultado.sector}', ${index})">
+                            <div class="search-result-pregunta">${resultado.sector}: ${resultado.pregunta}</div>
+                            <div class="search-result-respuesta">${resultado.respuesta}</div>
+                        </div>
+                    `;
+                });
+                resultsDiv.innerHTML = html;
+            }
+            
+            // Guardar resultados para acceso posterior
+            window.ultimosResultados = resultados;
+        }
+
+        function mostrarRespuestaBusqueda(sector, index) {
+            const resultado = window.ultimosResultados[index];
+            const preguntaEl = document.getElementById('preguntaPrincipal');
+            const contenido = document.getElementById('contenidoArea');
+            const btnVolver = document.getElementById('btnVolver');
+            
+            preguntaEl.className = 'pregunta-principal solucion';
+            preguntaEl.textContent = 'Información encontrada';
+            btnVolver.classList.add('visible');
+            
+            historial.push({ tipo: 'busqueda' });
+            
+            let html = '<div class="solucion-container">';
+            html += '<div class="solucion-final">';
+            html += `<strong>${resultado.pregunta}</strong>`;
+            html += resultado.respuesta;
+            html += '</div>';
+            
+            // Preguntas relacionadas del mismo sector
+            const preguntasRelacionadas = BASE_CONOCIMIENTO[sector].filter((item, i) => i !== index).slice(0, 3);
+            if (preguntasRelacionadas.length > 0) {
+                html += '<div class="faqs-sector">';
+                html += '<h3>💡 Preguntas relacionadas:</h3>';
+                preguntasRelacionadas.forEach((item, i) => {
+                    html += `
+                        <div class="faq-item" onclick="mostrarFAQ('${sector}', ${i})">
+                            <div class="faq-pregunta">${item.pregunta}</div>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            }
+            
+            html += '<div class="reiniciar-container">';
+            html += '<button class="reset-btn" onclick="reiniciar()">Nueva búsqueda</button>';
+            html += '</div>';
+            html += '</div>';
+            
+            contenido.innerHTML = html;
+            window.faqsActuales = BASE_CONOCIMIENTO[sector];
+        }
+
+        function mostrarFAQ(sector, index) {
+            const faq = BASE_CONOCIMIENTO[sector][index];
+            const preguntaEl = document.getElementById('preguntaPrincipal');
+            const contenido = document.getElementById('contenidoArea');
+            
+            preguntaEl.className = 'pregunta-principal solucion';
+            preguntaEl.textContent = 'Información encontrada';
+            
+            historial.push({ tipo: 'faq', sector: sector, index: index });
+            
+            let html = '<div class="solucion-container">';
+            html += '<div class="solucion-final">';
+            html += `<strong>${faq.pregunta}</strong>`;
+            html += faq.respuesta;
+            html += '</div>';
+            
+            html += '<div class="reiniciar-container">';
+            html += '<button class="reset-btn" onclick="volverAtras()">Volver</button>';
+            html += '<button class="reset-btn" onclick="reiniciar()" style="margin-left: 10px;">Nueva búsqueda</button>';
+            html += '</div>';
+            html += '</div>';
+            
+            contenido.innerHTML = html;
+        }
+
+        function cargarSectores() {
+            const lista = document.getElementById('sectoresLista');
+            
+            SECTORES.forEach(sector => {
+                const btn = document.createElement('button');
+                btn.className = 'sector-btn';
+                btn.innerHTML = `<span class="sector-icon">${sector.icono}</span>${sector.nombre}`;
+                btn.onclick = () => iniciarPorSector(sector.nombre);
+                lista.appendChild(btn);
+            });
+        }
+
+        function iniciarPorSector(sectorNombre) {
+            const sector = SECTORES.find(s => s.nombre === sectorNombre);
+            if (!sector) return;
+            
+            sectorActual = sectorNombre;
+            const preguntaEl = document.getElementById('preguntaPrincipal');
+            const btnVolver = document.getElementById('btnVolver');
+            preguntaEl.className = 'pregunta-principal en-conversacion';
+            btnVolver.classList.add('visible');
+            
+            document.querySelectorAll('.sector-btn').forEach(btn => {
+                const texto = btn.textContent.trim();
+                btn.classList.toggle('active', texto.includes(sectorNombre));
+            });
+            
+            nodoActual = ARBOL_DECISIONES[sector.nodo_inicial];
+            historial = [{ nodo: nodoActual.id, sector: sectorNombre }];
+            
+            mostrarPreguntaConFAQs(nodoActual, sectorNombre);
+        }
+
+        function mostrarPreguntaConFAQs(nodo, sectorNombre) {
+            const preguntaEl = document.getElementById('preguntaPrincipal');
+            const contenido = document.getElementById('contenidoArea');
+            
+            preguntaEl.textContent = nodo.pregunta;
+            contenido.innerHTML = '';
+            
+            // Mostrar explicación detallada si existe
+            if (nodo.explicacion) {
+                const explicacionDiv = document.createElement('div');
+                explicacionDiv.className = 'explicacion-detallada';
+                explicacionDiv.innerHTML = `<strong>ℹ️ Información:</strong>${nodo.explicacion}`;
+                contenido.appendChild(explicacionDiv);
+            }
+            
+            // Botones de opciones PRIMERO
+            if (nodo.opciones_custom) {
+                const opcionesDiv = document.createElement('div');
+                opcionesDiv.className = 'opciones-container';
+                
+                nodo.opciones_custom.forEach(opcion => {
+                    const btn = document.createElement('button');
+                    btn.className = 'opcion-btn';
+                    btn.textContent = opcion.texto;
+                    btn.onclick = () => {
+                        nodoActual = ARBOL_DECISIONES[opcion.siguiente];
+                        historial.push({ nodo: nodoActual.id });
+                        mostrarPregunta(nodoActual);
+                    };
+                    opcionesDiv.appendChild(btn);
+                });
+                
+                contenido.appendChild(opcionesDiv);
+            } else {
+                const opcionesDiv = document.createElement('div');
+                opcionesDiv.className = 'opciones-container';
+
+                const btnSi = document.createElement('button');
+                btnSi.className = 'opcion-btn';
+                btnSi.textContent = 'Sí';
+                btnSi.onclick = () => navegarArbol('si');
+
+                const btnNo = document.createElement('button');
+                btnNo.className = 'opcion-btn';
+                btnNo.textContent = 'No';
+                btnNo.onclick = () => navegarArbol('no');
+
+                opcionesDiv.appendChild(btnSi);
+                opcionesDiv.appendChild(btnNo);
+                contenido.appendChild(opcionesDiv);
+            }
+            
+            // Mostrar FAQs DESPUÉS de los botones (solo en primera pregunta del sector)
+            if (nodo.primera_pregunta_sector && BASE_CONOCIMIENTO[sectorNombre]) {
+                const todasFAQs = BASE_CONOCIMIENTO[sectorNombre];
+                const faqsIniciales = 3;
+                
+                const faqsDiv = document.createElement('div');
+                faqsDiv.className = 'faqs-sector';
+                faqsDiv.innerHTML = '<h3>❓ Preguntas frecuentes de ' + sectorNombre + ':</h3>';
+                faqsDiv.id = 'faqsContainer';
+                
+                // Mostrar primeras 3 FAQs
+                for (let i = 0; i < Math.min(faqsIniciales, todasFAQs.length); i++) {
+                    const faqItem = document.createElement('div');
+                    faqItem.className = 'faq-item';
+                    faqItem.innerHTML = `<div class="faq-pregunta">${todasFAQs[i].pregunta}</div>`;
+                    faqItem.onclick = () => mostrarFAQ(sectorNombre, i);
+                    faqsDiv.appendChild(faqItem);
+                }
+                
+                // Botón "Ver más" si hay más de 3 FAQs
+                if (todasFAQs.length > faqsIniciales) {
+                    const btnVerMas = document.createElement('button');
+                    btnVerMas.className = 'opcion-btn';
+                    btnVerMas.style.marginTop = '15px';
+                    btnVerMas.style.fontSize = '0.9rem';
+                    btnVerMas.textContent = `Ver más preguntas (${todasFAQs.length - faqsIniciales} más)`;
+                    btnVerMas.onclick = () => mostrarTodasFAQs(sectorNombre, faqsDiv, todasFAQs, faqsIniciales);
+                    faqsDiv.appendChild(btnVerMas);
+                }
+                
+                contenido.appendChild(faqsDiv);
+            }
+        }
+
+        function mostrarTodasFAQs(sectorNombre, contenedor, todasFAQs, yaVisible) {
+            // Limpiar contenedor manteniendo el título
+            const titulo = contenedor.querySelector('h3').outerHTML;
+            contenedor.innerHTML = titulo;
+            
+            // Mostrar TODAS las FAQs
+            todasFAQs.forEach((faq, index) => {
+                const faqItem = document.createElement('div');
+                faqItem.className = 'faq-item';
+                faqItem.innerHTML = `<div class="faq-pregunta">${faq.pregunta}</div>`;
+                faqItem.onclick = () => mostrarFAQ(sectorNombre, index);
+                contenedor.appendChild(faqItem);
+            });
+            
+            // Botón "Ver menos"
+            const btnVerMenos = document.createElement('button');
+            btnVerMenos.className = 'opcion-btn';
+            btnVerMenos.style.marginTop = '15px';
+            btnVerMenos.style.fontSize = '0.9rem';
+            btnVerMenos.textContent = 'Ver menos';
+            btnVerMenos.onclick = () => {
+                // Restaurar vista inicial
+                contenedor.innerHTML = titulo;
+                for (let i = 0; i < Math.min(yaVisible, todasFAQs.length); i++) {
+                    const faqItem = document.createElement('div');
+                    faqItem.className = 'faq-item';
+                    faqItem.innerHTML = `<div class="faq-pregunta">${todasFAQs[i].pregunta}</div>`;
+                    faqItem.onclick = () => mostrarFAQ(sectorNombre, i);
+                    contenedor.appendChild(faqItem);
+                }
+                
+                const btnVerMasNuevo = document.createElement('button');
+                btnVerMasNuevo.className = 'opcion-btn';
+                btnVerMasNuevo.style.marginTop = '15px';
+                btnVerMasNuevo.style.fontSize = '0.9rem';
+                btnVerMasNuevo.textContent = `Ver más preguntas (${todasFAQs.length - yaVisible} más)`;
+                btnVerMasNuevo.onclick = () => mostrarTodasFAQs(sectorNombre, contenedor, todasFAQs, yaVisible);
+                contenedor.appendChild(btnVerMasNuevo);
+            };
+            contenedor.appendChild(btnVerMenos);
+        }
+
+        function mostrarPregunta(nodo) {
+            const preguntaEl = document.getElementById('preguntaPrincipal');
+            const contenido = document.getElementById('contenidoArea');
+            
+            preguntaEl.textContent = nodo.pregunta;
+            contenido.innerHTML = '';
+            
+            // Mostrar explicación detallada si existe
+            if (nodo.explicacion) {
+                const explicacionDiv = document.createElement('div');
+                explicacionDiv.className = 'explicacion-detallada';
+                explicacionDiv.innerHTML = `<strong>ℹ️ Información:</strong>${nodo.explicacion}`;
+                contenido.appendChild(explicacionDiv);
+            }
+            
+            // Botones de opciones
+            if (nodo.opciones_custom) {
+                const opcionesDiv = document.createElement('div');
+                opcionesDiv.className = 'opciones-container';
+                
+                nodo.opciones_custom.forEach(opcion => {
+                    const btn = document.createElement('button');
+                    btn.className = 'opcion-btn';
+                    btn.textContent = opcion.texto;
+                    btn.onclick = () => {
+                        nodoActual = ARBOL_DECISIONES[opcion.siguiente];
+                        historial.push({ nodo: nodoActual.id });
+                        mostrarPregunta(nodoActual);
+                    };
+                    opcionesDiv.appendChild(btn);
+                });
+                
+                contenido.appendChild(opcionesDiv);
+            } else {
+                const opcionesDiv = document.createElement('div');
+                opcionesDiv.className = 'opciones-container';
+
+                const btnSi = document.createElement('button');
+                btnSi.className = 'opcion-btn';
+                btnSi.textContent = 'Sí';
+                btnSi.onclick = () => navegarArbol('si');
+
+                const btnNo = document.createElement('button');
+                btnNo.className = 'opcion-btn';
+                btnNo.textContent = 'No';
+                btnNo.onclick = () => navegarArbol('no');
+
+                opcionesDiv.appendChild(btnSi);
+                opcionesDiv.appendChild(btnNo);
+                contenido.appendChild(opcionesDiv);
+            }
+        }
+
+        function navegarArbol(respuesta) {
+            const siguienteId = respuesta === 'si' ? nodoActual.opcion_si : nodoActual.opcion_no;
+            const siguienteNodo = ARBOL_DECISIONES[siguienteId];
+
+            if (!siguienteNodo) {
+                alert('Esta ruta del árbol aún no está completa.');
+                return;
+            }
+
+            if (siguienteNodo.es_solucion) {
+                mostrarSolucion(siguienteNodo);
+            } else {
+                nodoActual = siguienteNodo;
+                historial.push({ nodo: nodoActual.id });
+                mostrarPregunta(siguienteNodo);
+            }
+        }
+
+        function mostrarSolucion(nodo) {
+            const preguntaEl = document.getElementById('preguntaPrincipal');
+            const contenido = document.getElementById('contenidoArea');
+            
+            preguntaEl.className = 'pregunta-principal solucion';
+            preguntaEl.textContent = 'Solución encontrada';
+            
+            let html = '<div class="solucion-container">';
+            html += '<div class="solucion-final">';
+            html += '<strong>Solución a su consulta:</strong>';
+            html += nodo.texto_solucion;
+            html += '</div>';
+
+            // Botón "Quiero reclamar" específico por sector
+            if (nodo.sector_reclamacion && ENLACES_RECLAMACION[nodo.sector_reclamacion]) {
+                html += '<div class="recursos-links" style="justify-content: center; margin-top: 30px;">';
+                html += `<a href="${ENLACES_RECLAMACION[nodo.sector_reclamacion]}" target="_blank" class="recurso-btn reclamar">🚨 Quiero reclamar</a>`;
+                html += '</div>';
+            }
+
+            // Recursos adicionales
+            if (RECURSOS[nodo.id]) {
+                html += '<div class="recursos-links" style="margin-top: 20px;">';
+                RECURSOS[nodo.id].forEach(recurso => {
+                    const clase = recurso.tipo === 'modelo' ? 'recurso-btn modelo' : 'recurso-btn';
+                    const icono = recurso.tipo === 'modelo' ? '📄' : '🔗';
+                    html += `<a href="${recurso.url}" target="_blank" class="${clase}">${icono} ${recurso.nombre}</a>`;
+                });
+                html += '</div>';
+            }
+
+            html += '<div class="reiniciar-container">';
+            html += '<button class="reset-btn" onclick="reiniciar()">Nueva consulta</button>';
+            html += '</div>';
+            
+            html += '</div>';
+            contenido.innerHTML = html;
+            
+            nodoActual = null;
+        }
+
+        function volverAtras() {
+            if (historial.length <= 1) {
+                reiniciar();
+                return;
+            }
+            
+            historial.pop(); // Eliminar estado actual
+            const estadoAnterior = historial[historial.length - 1];
+            
+            if (estadoAnterior.tipo === 'busqueda') {
+                mostrarBusquedaInicial();
+            } else if (estadoAnterior.tipo === 'faq') {
+                mostrarRespuestaBusqueda(estadoAnterior.sector, 0);
+            } else if (estadoAnterior.nodo) {
+                nodoActual = ARBOL_DECISIONES[estadoAnterior.nodo];
+                if (historial.length === 1 && estadoAnterior.sector) {
+                    mostrarPreguntaConFAQs(nodoActual, estadoAnterior.sector);
+                } else {
+                    mostrarPregunta(nodoActual);
+                }
+            }
+        }
+
+        function reiniciar() {
+            document.querySelectorAll('.sector-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            nodoActual = null;
+            historial = [];
+            sectorActual = null;
+            
+            mostrarBusquedaInicial();
+        }
+    </script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 # Selenium para automatización web
 selenium>=4.16.0
 
-# WebDriver Manager para gestión automática de drivers
+# WebDriver Manager para gestión automática de drivers (Firefox GeckoDriver)
 webdriver-manager>=4.0.1
 
 # Pandas para manejo de datos y Excel

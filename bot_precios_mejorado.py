@@ -11,13 +11,13 @@ import schedule
 import pandas as pd
 from datetime import datetime
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 import logging
 
 # Configurar logging
@@ -132,37 +132,47 @@ OBJETIVOS = {
 
 
 def iniciar_driver(perfil):
-    """Inicializa el driver de Chrome con el perfil especificado"""
-    opts = Options()
+    """Inicializa el driver de Firefox con el perfil especificado"""
+    opts = FirefoxOptions()
 
     # Descomenta la siguiente línea para ejecutar sin ventana visible (headless)
-    # opts.add_argument("--headless=new")
+    # opts.add_argument("--headless")
 
-    opts.add_argument(f"user-agent={perfil['ua']}")
-    opts.add_argument(f"--window-size={perfil['window']}")
+    # Configurar user agent
+    opts.set_preference("general.useragent.override", perfil['ua'])
 
-    # Opciones anti-detección
-    opts.add_argument("--disable-blink-features=AutomationControlled")
-    opts.add_experimental_option("excludeSwitches", ["enable-automation"])
-    opts.add_experimental_option('useAutomationExtension', False)
+    # Configurar tamaño de ventana
+    width, height = perfil['window'].split(',')
+    opts.add_argument(f"--width={width}")
+    opts.add_argument(f"--height={height}")
+
+    # Opciones anti-detección para Firefox
+    opts.set_preference("dom.webdriver.enabled", False)
+    opts.set_preference("useAutomationExtension", False)
+
+    # Deshabilitar notificaciones y otras opciones
+    opts.set_preference("dom.webnotifications.enabled", False)
+    opts.set_preference("dom.push.enabled", False)
 
     # Opciones adicionales para estabilidad
     opts.add_argument("--no-sandbox")
     opts.add_argument("--disable-dev-shm-usage")
-    opts.add_argument("--disable-gpu")
 
     try:
-        driver = webdriver.Chrome(
-            service=Service(ChromeDriverManager().install()),
+        driver = webdriver.Firefox(
+            service=FirefoxService(GeckoDriverManager().install()),
             options=opts
         )
+
+        # Configurar tamaño de ventana después de iniciar
+        driver.set_window_size(int(width), int(height))
 
         # Script para ocultar webdriver
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
         return driver
     except Exception as e:
-        logger.error(f"Error al iniciar driver: {e}")
+        logger.error(f"Error al iniciar driver de Firefox: {e}")
         raise
 
 

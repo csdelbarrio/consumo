@@ -1,0 +1,34 @@
+# Dependencias para el bot de scraping de aerolíneas
+
+# Selenium para automatización web
+selenium>=4.16.0
+
+# WebDriver Manager para gestión automática de drivers (Firefox GeckoDriver)
+webdriver-manager>=4.0.1
+
+# Pandas para manejo de datos y Excel
+pandas>=2.1.4
+
+# OpenPyXL para escribir archivos Excel con formato
+openpyxl>=3.1.2
+
+# Schedule para programación de tareas
+schedule>=1.2.0
+
+# Requests (útil para peticiones HTTP directas)
+requests>=2.31.0
+
+# Beautiful Soup para parsing HTML (opcional, útil para análisis)
+beautifulsoup4>=4.12.2
+
+# Lxml parser (más rápido que html.parser)
+lxml>=5.0.0
+
+# Python-dotenv para variables de entorno (opcional)
+python-dotenv>=1.0.0
+
+# Logging mejorado (opcional)
+colorlog>=6.8.0
+
+# Para notificaciones (opcional)
+# python-telegram-bot>=20.7  # Descomenta si quieres notificaciones por Telegram

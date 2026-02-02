@@ -309,8 +309,21 @@ function mostrarRespuestaBusqueda(sector, index) {
     // Escapar el nombre del sector para onclick
     const sectorEscaped = sector.replace(/'/g, "\\'");
     
-    // Mostrar la pregunta seleccionada con su respuesta expandida
+    // Determinar el sector de reclamación
+    let sectorReclamacion = sector;
+    if (sector === 'Banca y seguros') {
+        sectorReclamacion = faq.subcategoria === 'Banca' ? 'Banca' : 'Seguros';
+    } else if (sector === 'Viajes y transportes') {
+        sectorReclamacion = faq.subcategoria && faq.subcategoria.includes('Aéreo') ? 'Vuelos' : 'Transporte';
+    } else if (sector === 'Protección de datos personales') {
+        sectorReclamacion = 'Datos';
+    } else if (sector === 'Servicios varios') {
+        sectorReclamacion = 'Servicios';
+    }
+    
     let html = '<div class="respuesta-expandida">';
+    
+    // 1. Pregunta y respuesta
     html += `<div class="pregunta-seleccionada">
         <h3 style="color: #043263; margin-bottom: 15px;">📌 ${faq.pregunta}</h3>
         <div class="respuesta-contenido" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #28a745; margin-bottom: 20px;">
@@ -318,7 +331,23 @@ function mostrarRespuestaBusqueda(sector, index) {
         </div>
     </div>`;
     
-    // Preguntas relacionadas del mismo sector
+    // 2. Solucion-container (recursos y botón reclamar)
+    html += '<div class="solucion-container" style="margin-bottom: 25px;">';
+    html += '<div class="recursos-links" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">';
+    
+    // Botón reclamar
+    if (ENLACES_RECLAMACION[sectorReclamacion] || ENLACES_RECLAMACION['General']) {
+        const enlaceReclamar = ENLACES_RECLAMACION[sectorReclamacion] || ENLACES_RECLAMACION['General'];
+        html += `<a href="${enlaceReclamar}" target="_blank" class="recurso-btn reclamar">🚨 Quiero reclamar</a>`;
+    }
+    
+    // Enlace a más información del sector
+    html += `<a href="#" onclick="mostrarPreguntasPopularesSector('${sectorEscaped}'); return false;" class="recurso-btn">📚 Más preguntas de ${sector}</a>`;
+    
+    html += '</div>';
+    html += '</div>';
+    
+    // 3. Preguntas relacionadas del mismo sector
     const relacionadas = BASE_CONOCIMIENTO[sector]
         .map((item, i) => ({ ...item, originalIndex: i }))
         .filter((item, i) => i !== index)
@@ -629,8 +658,21 @@ function mostrarFAQ(sector, index) {
     // Escapar el nombre del sector para onclick
     const sectorEscaped = sector.replace(/'/g, "\\'");
     
-    // Mostrar la pregunta seleccionada con su respuesta expandida
+    // Determinar el sector de reclamación
+    let sectorReclamacion = sector;
+    if (sector === 'Banca y seguros') {
+        sectorReclamacion = faq.subcategoria === 'Banca' ? 'Banca' : 'Seguros';
+    } else if (sector === 'Viajes y transportes') {
+        sectorReclamacion = faq.subcategoria && faq.subcategoria.includes('Aéreo') ? 'Vuelos' : 'Transporte';
+    } else if (sector === 'Protección de datos personales') {
+        sectorReclamacion = 'Datos';
+    } else if (sector === 'Servicios varios') {
+        sectorReclamacion = 'Servicios';
+    }
+    
     let html = '<div class="respuesta-expandida">';
+    
+    // 1. Pregunta y respuesta
     html += `<div class="pregunta-seleccionada">
         <h3 style="color: #043263; margin-bottom: 15px;">📌 ${faq.pregunta}</h3>
         <div class="respuesta-contenido" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #28a745; margin-bottom: 20px;">
@@ -638,7 +680,23 @@ function mostrarFAQ(sector, index) {
         </div>
     </div>`;
     
-    // Preguntas relacionadas del mismo sector
+    // 2. Solucion-container (recursos y botón reclamar)
+    html += '<div class="solucion-container" style="margin-bottom: 25px;">';
+    html += '<div class="recursos-links" style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">';
+    
+    // Botón reclamar
+    if (ENLACES_RECLAMACION[sectorReclamacion] || ENLACES_RECLAMACION['General']) {
+        const enlaceReclamar = ENLACES_RECLAMACION[sectorReclamacion] || ENLACES_RECLAMACION['General'];
+        html += `<a href="${enlaceReclamar}" target="_blank" class="recurso-btn reclamar">🚨 Quiero reclamar</a>`;
+    }
+    
+    // Enlace a más información del sector
+    html += `<a href="#" onclick="mostrarPreguntasPopularesSector('${sectorEscaped}'); return false;" class="recurso-btn">📚 Más preguntas de ${sector}</a>`;
+    
+    html += '</div>';
+    html += '</div>';
+    
+    // 3. Preguntas relacionadas del mismo sector
     const relacionadas = BASE_CONOCIMIENTO[sector]
         .map((item, i) => ({ ...item, originalIndex: i }))
         .filter((item, i) => i !== index)

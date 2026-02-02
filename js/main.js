@@ -30,6 +30,81 @@ const sinonimos = {
     'factura': ['cobro', 'pago', 'recibo']
 };
 
+// ============================================
+// SISTEMA DE ESTADÍSTICAS (localStorage)
+// ============================================
+const STATS_KEY = 'consumo_faq_stats';
+
+function cargarEstadisticas() {
+    try {
+        const data = localStorage.getItem(STATS_KEY);
+        return data ? JSON.parse(data) : { terminos: {}, preguntas: {} };
+    } catch (e) {
+        console.warn('No se pudieron cargar estadísticas:', e);
+        return { terminos: {}, preguntas: {} };
+    }
+}
+
+function guardarEstadisticas(stats) {
+    try {
+        localStorage.setItem(STATS_KEY, JSON.stringify(stats));
+    } catch (e) {
+        console.warn('No se pudieron guardar estadísticas:', e);
+    }
+}
+
+function registrarBusqueda(termino) {
+    if (!termino || termino.length < 2) return;
+    termino = termino.toLowerCase().trim();
+    
+    const stats = cargarEstadisticas();
+    stats.terminos[termino] = (stats.terminos[termino] || 0) + 1;
+    guardarEstadisticas(stats);
+}
+
+function registrarClickPregunta(sector, index) {
+    const stats = cargarEstadisticas();
+    const key = `${sector}:${index}`;
+    stats.preguntas[key] = (stats.preguntas[key] || 0) + 1;
+    guardarEstadisticas(stats);
+}
+
+function obtenerPreguntasPopulares(sector, limite = 5) {
+    const stats = cargarEstadisticas();
+    const preguntasSector = [];
+    
+    // Filtrar preguntas del sector
+    for (const key in stats.preguntas) {
+        if (key.startsWith(sector + ':')) {
+            const index = parseInt(key.split(':')[1]);
+            preguntasSector.push({
+                index: index,
+                clicks: stats.preguntas[key]
+            });
+        }
+    }
+    
+    // Ordenar por clicks (más populares primero)
+    preguntasSector.sort((a, b) => b.clicks - a.clicks);
+    
+    return preguntasSector.slice(0, limite);
+}
+
+function obtenerTerminosPopulares(limite = 10) {
+    const stats = cargarEstadisticas();
+    const terminos = [];
+    
+    for (const termino in stats.terminos) {
+        terminos.push({
+            termino: termino,
+            busquedas: stats.terminos[termino]
+        });
+    }
+    
+    terminos.sort((a, b) => b.busquedas - a.busquedas);
+    return terminos.slice(0, limite);
+}
+
 // Inicialización
 document.addEventListener('DOMContentLoaded', async function() {
     console.log('Inicializando Sistema de Atención al Consumidor...');
@@ -174,6 +249,11 @@ function buscarConsultaFija(query, resultsContainer) {
     // Ordenar por puntuación
     resultados.sort((a, b) => b.puntuacion - a.puntuacion);
     
+    // Registrar búsqueda si hay resultados
+    if (resultados.length > 0) {
+        registrarBusqueda(query);
+    }
+    
     // Mostrar resultados en el contenedor proporcionado
     if (resultados.length === 0) {
         resultsContainer.innerHTML = '<p style="text-align: center; color: #666; margin-top: 20px;">No se encontraron resultados. Intenta con otras palabras o selecciona un sector directamente.</p>';
@@ -199,6 +279,9 @@ function mostrarRespuestaBusqueda(sector, index) {
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
     const btnVolver = document.getElementById('btnVolver');
+    
+    // Registrar clic en esta pregunta
+    registrarClickPregunta(sector, index);
     
     preguntaEl.className = 'pregunta-principal solucion';
     preguntaEl.textContent = 'Información encontrada';
@@ -258,7 +341,51 @@ function iniciarPorSector(nombreSector) {
     const btnVolver = document.getElementById('btnVolver');
     if (btnVolver) btnVolver.classList.add('visible');
     
+    // Mostrar preguntas populares en el área de búsqueda
+    mostrarPreguntasPopularesSector(nombreSector);
+    
     mostrarPreguntaConFAQs(nodoActual, nombreSector);
+}
+
+function mostrarPreguntasPopularesSector(nombreSector) {
+    const searchResults = document.getElementById('searchResults');
+    if (!searchResults || !BASE_CONOCIMIENTO[nombreSector]) return;
+    
+    // Obtener preguntas populares del sector
+    const populares = obtenerPreguntasPopulares(nombreSector, 5);
+    const preguntas = BASE_CONOCIMIENTO[nombreSector];
+    
+    let html = `<h3 style="color: #043263; margin-bottom: 20px; text-align: center;">🔥 Preguntas más consultadas de ${nombreSector}:</h3>`;
+    
+    if (populares.length > 0) {
+        // Mostrar las preguntas populares según estadísticas
+        populares.forEach(item => {
+            if (preguntas[item.index]) {
+                const faq = preguntas[item.index];
+                const subcatInfo = faq.subcategoria ? ` (${faq.subcategoria})` : '';
+                html += `
+                    <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${nombreSector}', ${item.index})">
+                        <div class="search-result-pregunta">${nombreSector}${subcatInfo}: ${faq.pregunta}</div>
+                        <div class="search-result-respuesta">${faq.respuesta}</div>
+                    </div>
+                `;
+            }
+        });
+    } else {
+        // Si no hay estadísticas, mostrar las primeras 5 preguntas del sector
+        html = `<h3 style="color: #043263; margin-bottom: 20px; text-align: center;">📋 Preguntas destacadas de ${nombreSector}:</h3>`;
+        preguntas.slice(0, 5).forEach((faq, index) => {
+            const subcatInfo = faq.subcategoria ? ` (${faq.subcategoria})` : '';
+            html += `
+                <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${nombreSector}', ${index})">
+                    <div class="search-result-pregunta">${nombreSector}${subcatInfo}: ${faq.pregunta}</div>
+                    <div class="search-result-respuesta">${faq.respuesta}</div>
+                </div>
+            `;
+        });
+    }
+    
+    searchResults.innerHTML = html;
 }
 
 function mostrarPreguntaConFAQs(nodo, sectorNombre) {
@@ -449,6 +576,9 @@ function mostrarFAQ(sector, index) {
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
     
+    // Registrar clic en esta pregunta
+    registrarClickPregunta(sector, index);
+    
     preguntaEl.className = 'pregunta-principal solucion';
     preguntaEl.textContent = 'Información encontrada';
     
@@ -559,6 +689,12 @@ function reiniciar() {
     nodoActual = null;
     historial = [];
     sectorActual = null;
+    
+    // Limpiar búsqueda
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    if (searchInput) searchInput.value = '';
+    if (searchResults) searchResults.innerHTML = '';
     
     mostrarBusquedaInicial();
 }

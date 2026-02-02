@@ -82,18 +82,11 @@ function mostrarBusquedaInicial() {
         btn.classList.remove('active');
     });
     
-    let html = `
-        <div class="search-container">
-            <p class="mensaje-inicial">Describe tu consulta en lenguaje natural o selecciona un sector:</p>
-            <div class="search-box">
-                <input type="text" class="search-input" id="searchInput" placeholder="Ej: Me han cobrado de más en la factura de la luz...">
-                <button class="search-btn" onclick="buscarConsulta()">Buscar</button>
-            </div>
-            <div id="searchResults" class="search-results"></div>
-        </div>
-    `;
+    // Limpiar resultados de búsqueda fija
+    const resultsFijo = document.getElementById('searchResultsFijo');
+    if (resultsFijo) resultsFijo.innerHTML = '';
     
-    html += '<p class="mensaje-inicial" style="margin-top: 40px;">O selecciona directamente un sector:</p>';
+    let html = '<p class="mensaje-inicial">Describe tu consulta o selecciona un sector:</p>';
     html += '<div class="sectores-grid">';
     
     SECTORES.forEach(sector => {
@@ -110,42 +103,13 @@ function mostrarBusquedaInicial() {
     
     html += '</div>';
     contenido.innerHTML = html;
-    
-    // Búsqueda en tiempo real mientras escribes
-    const searchInput = document.getElementById('searchInput');
-    let timeoutBusqueda = null;
-    
-    if (searchInput) {
-        // Evento input: buscar mientras escribes (con debounce)
-        searchInput.addEventListener('input', function(e) {
-            clearTimeout(timeoutBusqueda);
-            const valor = e.target.value.trim();
-            
-            if (valor.length >= 3) {
-                // Esperar 300ms después de que el usuario deje de escribir
-                timeoutBusqueda = setTimeout(() => {
-                    buscarConsulta();
-                }, 300);
-            } else if (valor.length === 0) {
-                // Limpiar resultados si se borra todo
-                document.getElementById('searchResults').innerHTML = '';
-            }
-        });
-        
-        // Mantener Enter para búsqueda inmediata
-        searchInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                clearTimeout(timeoutBusqueda);
-                buscarConsulta();
-            }
-        });
-    }
 }
 
-function buscarConsulta() {
-    const query = document.getElementById('searchInput').value.trim().toLowerCase();
-    if (!query) return;
+// Función de búsqueda para el input fijo
+function buscarConsultaFija(query, resultsContainer) {
+    if (!query || query.trim().length < 2) return;
     
+    query = query.trim().toLowerCase();
     const resultados = [];
     const palabrasBusqueda = query.split(' ').filter(p => p.length > 2);
     
@@ -210,10 +174,9 @@ function buscarConsulta() {
     // Ordenar por puntuación
     resultados.sort((a, b) => b.puntuacion - a.puntuacion);
     
-    // Mostrar resultados
-    const resultsDiv = document.getElementById('searchResults');
+    // Mostrar resultados en el contenedor proporcionado
     if (resultados.length === 0) {
-        resultsDiv.innerHTML = '<p style="text-align: center; color: #666; margin-top: 20px;">No se encontraron resultados. Intenta con otras palabras o selecciona un sector directamente.</p>';
+        resultsContainer.innerHTML = '<p style="text-align: center; color: #666; margin-top: 20px;">No se encontraron resultados. Intenta con otras palabras o selecciona un sector directamente.</p>';
     } else {
         let html = '<h3 style="color: #043263; margin-bottom: 20px; text-align: center;">📋 Resultados de búsqueda:</h3>';
         resultados.slice(0, 5).forEach((resultado, i) => {
@@ -225,7 +188,7 @@ function buscarConsulta() {
                 </div>
             `;
         });
-        resultsDiv.innerHTML = html;
+        resultsContainer.innerHTML = html;
     }
     
     window.ultimosResultados = resultados;
@@ -601,9 +564,48 @@ function reiniciar() {
 }
 
 // Exponer funciones globalmente para onclick en HTML
-window.buscarConsulta = buscarConsulta;
+window.buscarConsultaFija = buscarConsultaFija;
 window.mostrarRespuestaBusqueda = mostrarRespuestaBusqueda;
 window.iniciarPorSector = iniciarPorSector;
 window.mostrarFAQ = mostrarFAQ;
 window.volverAtras = volverAtras;
 window.reiniciar = reiniciar;
+
+// Función buscarConsulta para el input fijo del HTML
+window.buscarConsulta = function() {
+    const input = document.getElementById('searchInput');
+    const results = document.getElementById('searchResults');
+    if (input && results) {
+        buscarConsultaFija(input.value, results);
+    }
+};
+
+// Configurar eventos de búsqueda en tiempo real
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    let timeoutBusqueda = null;
+    
+    if (searchInput) {
+        // Búsqueda en tiempo real mientras escribes
+        searchInput.addEventListener('input', function(e) {
+            clearTimeout(timeoutBusqueda);
+            const valor = e.target.value.trim();
+            
+            if (valor.length >= 3) {
+                timeoutBusqueda = setTimeout(() => {
+                    window.buscarConsulta();
+                }, 300);
+            } else if (valor.length === 0) {
+                document.getElementById('searchResults').innerHTML = '';
+            }
+        });
+        
+        // Enter para búsqueda inmediata
+        searchInput.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                clearTimeout(timeoutBusqueda);
+                window.buscarConsulta();
+            }
+        });
+    }
+});

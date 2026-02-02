@@ -1,0 +1,1462 @@
+{
+  "sector": "Banca y seguros",
+  "total_preguntas": 112,
+  "preguntas": [
+    {
+      "pregunta": "He contratado un seguro multirriesgo para mi cafetería, ¿puedo hacer una reclamación de consumo como persona consumidora si la aseguradora no cumple lo pactado?",
+      "respuesta": "No. Al contratar el seguro en el contexto de una actividad empresarial, como es el caso de tu cafetería, no actúas como consumidor. Por tanto, no se te aplican los derechos previstos en la normativa de consumo, como el derecho de desistimiento o las garantías específicas frente a cláusulas abusivas.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguro",
+        "cafetería",
+        "consumo",
+        "contratado",
+        "multirriesgo",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Es fácil para un ciudadano medio entender las condiciones de un seguro?",
+      "respuesta": "No. Como los contratos, coberturas y cláusulas suelen estar redactados con términos técnicos y pueden resultar difíciles de entender, la empresa debe entregar al cliente toda la información necesaria de forma clara y completa antes de la contratación.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "entender",
+        "fácil",
+        "ciudadano",
+        "medio",
+        "condiciones",
+        "seguro"
+      ]
+    },
+    {
+      "pregunta": "¿Qué información debe facilitar una compañía aseguradora antes de suscribir un contrato de seguro?",
+      "respuesta": "Antes de contratar un seguro, la aseguradora debe proporcionar información clara sobre: su identidad y domicilio, el precio total (incluidos impuestos y recargos) o cómo se calcula, la duración del contrato y condiciones para cancelarlo, la existencia de compromisos de permanencia o exclusividad, el derecho de desistimiento (plazo y forma), las coberturas incluidas y el procedimiento para presentar reclamaciones, incluyendo posibles vías extrajudiciales y códigos de conducta aplicables.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "información",
+        "aseguradora",
+        "antes",
+        "contrato",
+        "seguro",
+        "facilitar"
+      ]
+    },
+    {
+      "pregunta": "¿Qué son las condiciones generales de contratación de un seguro?:",
+      "respuesta": "Son aquellas que recogerán las condiciones básicas aplicables a todos los seguros del mismo ramo (daños, vehículos, seguros de vida, etc.). Ejemplo: *Objeto del seguro:* *El asegurador cubre los daños materiales y personales derivados de accidentes en los que esté implicado el vehículo asegurado, conforme a los límites y condiciones establecidas en el contrato.* *Ámbito territorial* *Las garantías de este seguro serán válidas dentro del territorio nacional y en aquellos países recogidos en la Carta Verde o documento equivalente.*",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "condiciones",
+        "seguro",
+        "seguros",
+        "daños",
+        "generales",
+        "contratación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué son las condiciones particulares de un seguro?:",
+      "respuesta": "Son aquellas que serán aplicables en cada seguro en concreto. Ejemplo: > *Coberturas contratadas* - *Responsabilidad civil obligatoria* - *Responsabilidad civil voluntaria hasta 50.000 €* - *Asistencia en viaje ️* - *Lunas* *Coberturas no contratadas* - *Robo* - *Daños propios* *Importe de la prima* - *Prima anual total: 386,45 €* - *Forma de pago: anual* - *Fecha de efecto: 15/10/2025* - *Fecha de vencimiento: 15/10/2026*",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguro",
+        "*coberturas",
+        "contratadas*",
+        "*responsabilidad",
+        "civil",
+        "*fecha"
+      ]
+    },
+    {
+      "pregunta": "¿Qué son las cláusulas especiales o limitativas de derecho en un seguro?:",
+      "respuesta": "Son aquellas que restringen, condicionan o modifican el derecho del asegurado a la indemnización. Éstas deben constar de forma destacada en el contrato (subrayada o en negrita) y ser aceptadas expresamente por el tomador. En caso contrario no serán de aplicación.). Ejemplo: *Cláusula 7. Exclusión de cobertura por conducción bajo los efectos del alcohol o drogas* *El asegurador no asumirá ninguna obligación de indemnización cuando el siniestro haya sido causado por el conductor del vehículo asegurado bajo los efectos del alcohol, drogas tóxicas, estupefacientes o sustancias psicotrópicas, según los límites establecidos en la normativa vigente.* *Esta cláusula ha sido expresamente leída, entendida y aceptada por el tomador del seguro, y forma parte integrante del contrato.*",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "derecho",
+        "seguro",
+        "asegurado",
+        "indemnización",
+        "contrato",
+        "expresamente"
+      ]
+    },
+    {
+      "pregunta": "Contraté un seguro, pero me lo he pensado mejor y quiero darlo de baja ¿Puedo hacerlo y que me devuelvan lo que me han cobrado?:",
+      "respuesta": "Si el contrato ha sido celebrado a distancia (contratación por internet, telefónica, etc.), tendrás un plazo 14 días naturales para desistir del contrato (30 días en caso de seguros de vida) aunque se te podrá descontar la parte proporcional correspondiente al tiempo durante el cual hayas estado asegurado. Si el contrato ha sido celebrado en las propias oficinas de la aseguradora, este derecho operará únicamente si es reconocido previamente por la entidad.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "contrato",
+        "celebrado",
+        "días",
+        "contraté",
+        "seguro",
+        "pensado"
+      ]
+    },
+    {
+      "pregunta": "¿Se me puede obligar legalmente a contratar un seguro?",
+      "respuesta": "Sí. Algunos seguros son obligatorios según la actividad, como el seguro de automóvil o de caza, para cubrir responsabilidades legales.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguro",
+        "obligar",
+        "legalmente",
+        "contratar",
+        "algunos",
+        "seguros"
+      ]
+    },
+    {
+      "pregunta": "¿Me puede obligar el banco que me va a conceder una hipoteca a contratar un seguro de vida o a qué asegure con una determinada compañía?",
+      "respuesta": "No, el único seguro que me puede obligar a contratar es el seguro de hogar, específicamente la cobertura contra daños en la vivienda (como incendios o daños estructurales) y, en esos seguros tienes derecho a elegir libremente la compañía aseguradora. Lo que puede suceder es que el banco te rebaje el tipo de interés del préstamo si contratas un determinado seguro. En ese caso, tienes que valorarlo y si te interesa, contratarlo.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguro",
+        "obligar",
+        "banco",
+        "contratar",
+        "compañía",
+        "daños"
+      ]
+    },
+    {
+      "pregunta": "¿Todas las aseguradoras ofrecen las mismas coberturas y precios?",
+      "respuesta": "No, cada aseguradora ofrece distintas coberturas y precios, por lo que es importante comparar opciones antes de contratar.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "coberturas",
+        "precios",
+        "aseguradoras",
+        "ofrecen",
+        "aseguradora",
+        "ofrece"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo tengo que dar de baja un seguro?",
+      "respuesta": "Normalmente los seguros tienen una duración de un año y se renuevan automáticamente si ninguna de las dos partes manifiesta lo contrario. Si no quieres que se renueve, comunícalo fehacientemente con un plazo no inferior a un mes antes de la conclusión del contrato o la prórroga.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "baja",
+        "seguro",
+        "normalmente",
+        "seguros",
+        "duración",
+        "renuevan"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una compañía no renovar el seguro que tenemos suscrito?",
+      "respuesta": "Puede hacerlo, pero para ello, el asegurador deberá comunicarte, al menos con dos meses de antelación a la conclusión del período en curso, cualquier modificación del contrato de seguro.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguro",
+        "compañía",
+        "renovar",
+        "tenemos",
+        "suscrito",
+        "hacerlo"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una compañía aumentarme la prima del seguro sin previo aviso?",
+      "respuesta": "Solamente si se ha recogido en el contrato, así como su importe o los medios automáticos para su cálculo. Si esta modificación no está prevista, deberá ser aceptada expresamente por ti.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "compañía",
+        "aumentarme",
+        "prima",
+        "seguro",
+        "previo",
+        "aviso"
+      ]
+    },
+    {
+      "pregunta": "Dentro de dos meses vence mi seguro del coche y la compañía me ha avisado que para la renovación se me va a subir más de 100 euros ¿Es esto legal?",
+      "respuesta": "Si, dado que te lo ha comunicado con al menos dos meses de antelación, dándote la oportunidad de no aceptar la subida y causar baja. Si te lo comunican con menos plazo, la póliza se renovará, respetando la prima que venías pagando.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "meses",
+        "dentro",
+        "vence",
+        "seguro",
+        "coche",
+        "compañía"
+      ]
+    },
+    {
+      "pregunta": "¿Qué sucede si no he pagado la primera prima y se produce un siniestro?",
+      "respuesta": "Si no se paga la prima antes de que ocurra el siniestro, el asegurador no está obligado a indemnizar, salvo que en la póliza se diga lo contrario.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "prima",
+        "siniestro",
+        "sucede",
+        "pagado",
+        "produce",
+        "paga"
+      ]
+    },
+    {
+      "pregunta": "He tenido un siniestro, ¿en qué plazo se lo tengo que comunicar a mi compañía aseguradora?",
+      "respuesta": "Debes informar en un plazo máximo de siete días desde que lo conoces, salvo que tu póliza establezca un plazo mayor.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "plazo",
+        "tenido",
+        "siniestro",
+        "comunicar",
+        "compañía",
+        "aseguradora"
+      ]
+    },
+    {
+      "pregunta": "Si no comunico el siniestro en un tiempo razonable a mi compañía, ¿puede reclamarme daños y perjuicios?",
+      "respuesta": "Sí. La aseguradora puede reclamar daños si no informas dentro del plazo, a menos que ya haya conocido el siniestro por otro medio.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "siniestro",
+        "daños",
+        "comunico",
+        "tiempo",
+        "razonable",
+        "compañía"
+      ]
+    },
+    {
+      "pregunta": "He tenido una inundación en casa por rotura de una tubería, ¿qué información tengo que dar a mi compañía de seguros?",
+      "respuesta": "Tienes que darle toda la información relevante para que la aseguradora pueda evaluar correctamente el siniestro.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "información",
+        "tenido",
+        "inundación",
+        "casa",
+        "rotura",
+        "tubería"
+      ]
+    },
+    {
+      "pregunta": "Si no doy toda la información de un siniestro a la compañía, ¿pierdo el derecho a la indemnización?",
+      "respuesta": "No, solo perderás el derecho a la indemnización si se demuestra que actuaste con dolo o culpa grave, no por un incumplimiento leve.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "derecho",
+        "indemnización",
+        "toda",
+        "información",
+        "siniestro",
+        "compañía"
+      ]
+    },
+    {
+      "pregunta": "He sufrido un daño en mi casa, pero no estoy seguro de que esté cubierto por el seguro, ¿qué debo hacer?",
+      "respuesta": "Debes revisar la póliza para comprobar las coberturas que tienes contratadas o llamar a la compañía. Si te dice que no está cubierto, revisa para saber si es cierto.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguro",
+        "cubierto",
+        "sufrido",
+        "daño",
+        "casa",
+        "esté"
+      ]
+    },
+    {
+      "pregunta": "He sufrido un daño en mi casa, pero la compañía dice que no está cubierto por la póliza ¿qué debo hacer?",
+      "respuesta": "Debes revisar la póliza para comprobar las coberturas que tienes contratadas. Si crees que el siniestro está cubierto, asesórate en una asociación de consumidores, servicio público de información al consumidor (municipal, provincial o autonómico) y de ser preciso, haz una reclamación ante el Servicio de Atención al Cliente. En caso de que no le den respuesta satisfactoria en un mes, podrá poner una reclamación ante la Dirección General de Seguros y Fondos de Pensiones del Ministerio de Economía.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "cubierto",
+        "póliza",
+        "servicio",
+        "reclamación",
+        "sufrido",
+        "daño"
+      ]
+    },
+    {
+      "pregunta": "Tuve un siniestro y la compañía me lo cubrió parcialmente, dándome una cantidad que creo que es insuficiente ¿qué debo hacer?",
+      "respuesta": "En primer lugar, reclama ante el Servicio de Atención al Cliente. Si en un mes no te responde o lo hace denegando tu reclamación, se recomienda contactar con una Asociación de Consumidores o una OMIC, para que te informen sobre los pasos a seguir. > En este caso. los siguientes pasos serían, reclamar ante el Defensor del Asegurado de dicha antidad, ante la Dirección General de Seguros y Fondos de Pensiones del Ministerio de Economía o presentar una demanda judicial, que en caso de reclamar un importe no superior a 2.000 €, no necesitarías abogado ni procurador. Tienes que iniciar un procedimiento de reclamación En primer lugar, dirígete al Servicio de Atención al Cliente, si en un mes no te responde o lo hace insatisfactoriamente, te aconsejamos que te dirijas a una Asociación de Consumidores o entidad pública de protección del consumidor para que te asesoren de los pasos a seguir que pasarán por reclamar, si la entidad lo tiene ante su Defensor del Asegurado, ante la Dirección General de Seguros y Fondos de Pensiones del Ministerio de Economía o presentar una demanda judicial, incluso sin abogado si el importe es menor de 2.000 €.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "pasos",
+        "reclamar",
+        "lugar",
+        "servicio",
+        "atención",
+        "cliente"
+      ]
+    },
+    {
+      "pregunta": "Tuve un accidente con mi coche que ocasionó una serie de daños. La compañía de seguros realizó un peritaje de los daños con el que yo no estaba conforme dado que no incluyó la rotura del retrovisor, al decir que ese daño no tiene que ver con el accidente. Por ese motivo presenté una reclamación ante el Servicio de Atención al Cliente de la compañía y no me han dado la razón ¿Qué puedo hacer ahora?",
+      "respuesta": "Puedes designar un perito adicional para que revise la valoración del daño y con ese Informe, puedes presentar una reclamación ante la Dirección General de Seguros y Fondos de Pensiones del Ministerio de Economía. Si finalmente tienes que presentar una demanda judicial, podrás reclamar a la compañía los costes del perito.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "compañía",
+        "accidente",
+        "daños",
+        "seguros",
+        "daño",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Tuve un accidente con mi coche, y la compañía ha declarado el vehículo en siniestro total y me dice que no me lo repara y que me paga el valor venal, que en mi opinión es muy bajo dado que mi coche era viejo, pero estaba bien conservado ¿qué puedo hacer?",
+      "respuesta": "La indemnización por un siniestro debe garantizar que no quedes en peor situación de la que tenías antes del daño. Esto implica debería reparar el vehículo o indemnizarte para adquirir uno similar, además de compensarte por la falta de uso hasta el pago. > No obstante, si el costo de reparación y el valor venal difieren mucho, el valor venal puede ajustarse para reflejar la utilidad real del vehículo en función del estado en que se encontraba. > Si se reclama la reparación sin culpa de terceros, esta limitación debe estar clara y aceptada en la póliza por ti, incluyendo cómo se calcula el valor venal.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "valor",
+        "venal",
+        "vehículo",
+        "coche",
+        "siniestro",
+        "reparación"
+      ]
+    },
+    {
+      "pregunta": "Si asumo la reparación del vehículo tras cobrar el valor venal, ¿el seguro obligatorio sigue vigente?",
+      "respuesta": "Sí, aunque recibas una indemnización, si decides reparar el coche por tu cuenta, el seguro obligatorio debe mantenerse hasta que acabe el periodo contratado.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguro",
+        "obligatorio",
+        "asumo",
+        "reparación",
+        "vehículo",
+        "cobrar"
+      ]
+    },
+    {
+      "pregunta": "Tuve un accidente con mi coche y ha quedado destruido",
+      "respuesta": ", ¿tengo que seguir pagando las cuotas fraccionadas del seguro? Sí, aunque el contrato se extinga, debes pagar las fracciones pendientes y si pagaste todo al inicio, no tienes derecho a recuperar parte de la prima. No obstante, las compañías suelen ofrecer guardar esos pagos si compras un nuevo coche y lo aseguras con ellos. También en algunos casos, las compañías hacen extornos (devolución) de la parte no consumida.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "coche",
+        "compañías",
+        "tuve",
+        "accidente",
+        "quedado",
+        "destruido"
+      ]
+    },
+    {
+      "pregunta": "Tuve un accidente y el coche que lo originó se dio a la fuga ¿a quién puedo reclamar?",
+      "respuesta": "El Consorcio de compensación de seguros cubre los daños personales y materiales causados por vehículos desconocidos, sin seguro o robados.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "tuve",
+        "accidente",
+        "coche",
+        "originó",
+        "fuga",
+        "quién"
+      ]
+    },
+    {
+      "pregunta": "Una compañía de seguros tiene que indemnizarme, pero está en liquidación ¿qué puedo hacer?",
+      "respuesta": "Si la aseguradora está en quiebra, suspensión de pagos o insolvencia con liquidación intervenida, el Consorcio de compensación de seguros asume las indemnizaciones.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguros",
+        "liquidación",
+        "compañía",
+        "indemnizarme",
+        "aseguradora",
+        "quiebra"
+      ]
+    },
+    {
+      "pregunta": "Me han dicho que otro seguro tiene las mismas coberturas, pero es mucho más barato, ¿debería fiarme?",
+      "respuesta": "Puede que sean parecidas, pero pueden variar en calidad del servicio, asesoramiento y asistencia debes comparar detenidamente todos los elementos.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguro",
+        "coberturas",
+        "mucho",
+        "barato",
+        "debería",
+        "fiarme"
+      ]
+    },
+    {
+      "pregunta": "¿Debe estar el contrato de seguro siempre por escrito?",
+      "respuesta": "Sí, el contrato tiene que formalizarse por escrito para que el asegurado tenga constancia de la póliza o, al menos, un documento provisional que confirme su vigencia.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "contrato",
+        "escrito",
+        "seguro",
+        "formalizarse",
+        "asegurado",
+        "tenga"
+      ]
+    },
+    {
+      "pregunta": "¿Qué pasa si hago el contrato por internet o por teléfono?",
+      "respuesta": "La aseguradora debe facilitarme una confirmación del contrato en un soporte duradero dentro de un plazo razonable, como máximo antes de iniciar el servicio.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "contrato",
+        "pasa",
+        "internet",
+        "teléfono",
+        "aseguradora",
+        "facilitarme"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo tener un seguro válido sin recibir ningún documento que lo confirme?",
+      "respuesta": "No, la ley exige que el asegurado reciba al menos un comprobante provisional para acreditar la existencia y vigencia del seguro.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "seguro",
+        "válido",
+        "recibir",
+        "documento",
+        "confirme",
+        "exige"
+      ]
+    },
+    {
+      "pregunta": "¿Qué plazo tiene la aseguradora para pagarme una indemnización por un siniestro?",
+      "respuesta": "La indemnización se abona una vez realizadas las investigaciones y peritaciones para confirmar el siniestro y valorar los daños, pero, en cualquier caso, debe pagarse al menos una cantidad mínima en un plazo de 40 días desde que recibe el parte del siniestro.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "siniestro",
+        "plazo",
+        "indemnización",
+        "aseguradora",
+        "pagarme",
+        "abona"
+      ]
+    },
+    {
+      "pregunta": "¿Puede la aseguradora reparar o reponer el objeto siniestrado en lugar de pagar dinero?",
+      "respuesta": "Sí. siempre que el seguro lo permita y el asegurado esté de acuerdo, el pago puede ser sustituido por la reparación o reposición del bien dañado.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "aseguradora",
+        "reparar",
+        "reponer",
+        "objeto",
+        "siniestrado",
+        "lugar"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es el derecho al olvido oncológico?",
+      "respuesta": "El derecho al olvido oncológico es el derecho a que no se tenga en cuenta que alguien ha padecido un cáncer en diferentes situaciones como la contratación de un seguro de vida o la solicitud de un préstamo. Así, este derecho evita que estas personas tengan que justificar su historial médico y evita que sean discriminadas.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "derecho",
+        "olvido",
+        "oncológico",
+        "evita",
+        "tenga",
+        "cuenta"
+      ]
+    },
+    {
+      "pregunta": "¿Qué implica el derecho al olvido oncológico?",
+      "respuesta": "Permite que cinco años después de finalizar el tratamiento sin recaída, los pacientes de cáncer puedan contratar seguros y productos bancarios sin que su historial oncológico sea considerado. Esto implica: - Las cláusulas que excluyan a alguien por haber tenido cáncer son nulas. - No se pueden hacer diferencias en la contratación de seguros por antecedentes oncológicos. - No es obligatorio declarar haber tenido cáncer para suscribir un seguro de vida, y estos antecedentes no pueden influir en el trámite.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "cáncer",
+        "implica",
+        "oncológico",
+        "seguros",
+        "tenido",
+        "antecedentes"
+      ]
+    },
+    {
+      "pregunta": "¿A qué seguros se aplica el derecho al olvido oncológico?",
+      "respuesta": "A cualquier seguro cuando la persona que lo contrata tiene la condición de persona consumidora, esto es, de manera ajena al ejercicio de cualquier actividad comercial o empresarial.",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "persona",
+        "seguros",
+        "aplica",
+        "derecho",
+        "olvido",
+        "oncológico"
+      ]
+    },
+    {
+      "pregunta": "Tuve cáncer hace 7 años y quiero borrar los datos médicos antiguos de las bases de datos de las aseguradoras, ¿puedo pedirlo?",
+      "respuesta": "Sí, puedes pedirlo amparándote en el Reglamento General de Protección de Datos (RGPD).",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "datos",
+        "pedirlo",
+        "tuve",
+        "cáncer",
+        "hace",
+        "años"
+      ]
+    },
+    {
+      "pregunta": "¿Qué ocurre si una persona tiene una recaída en un cáncer después de haber contratado un seguro?",
+      "respuesta": "No está obligada a informar de esta circunstancia. Sin embargo, en algunos casos la aseguradora podría negarse a renovar o prorrogar el contrato. **",
+      "subcategoria": "Seguros",
+      "keywords": [
+        "ocurre",
+        "persona",
+        "recaída",
+        "cáncer",
+        "después",
+        "contratado"
+      ]
+    },
+    {
+      "pregunta": "Pedí un préstamo personal y posteriormente le entregué ese dinero a mi hija para abrir una clínica veterinaria. Revisando las condiciones del préstamo, he visto que tiene cláusulas abusivas ¿puedo reclamar?",
+      "respuesta": "Al suscribir el préstamo para un fin ajeno a una actividad comercial o profesional (dado que pediste el préstamo para ti, no para abrir la clínica), adquieres la condición de persona consumidora y, por tanto, se aplica la legislación de consumo en materia de cláusulas abusivas.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "préstamo",
+        "abrir",
+        "clínica",
+        "cláusulas",
+        "abusivas",
+        "pedí"
+      ]
+    },
+    {
+      "pregunta": "Quiero abrir una cuenta bancaria pero la entidad me obliga a domiciliar mi nómina, ¿es esto legal?",
+      "respuesta": "No, las entidades no pueden obligarte a domiciliar ingresos para abrir una cuenta.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "abrir",
+        "cuenta",
+        "domiciliar",
+        "quiero",
+        "bancaria",
+        "entidad"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a recibir el contrato de mi cuenta corriente antes de abrirla?",
+      "respuesta": "Sí, la entidad debe entregarte el contrato para que lo revises antes de la firma.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "contrato",
+        "antes",
+        "derecho",
+        "recibir",
+        "cuenta",
+        "corriente"
+      ]
+    },
+    {
+      "pregunta": "¿Puede mi banco cambiar las condiciones de mi cuenta sin avisarme con antelación?",
+      "respuesta": "No, deben comunicarte cualquier cambio con al menos dos meses de antelación dándote la posibilidad de aceptarlas y seguir o darte de baja sin cobrar penalización alguna.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "antelación",
+        "banco",
+        "cambiar",
+        "condiciones",
+        "cuenta",
+        "avisarme"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es una cuenta de pago?",
+      "respuesta": "Es una cuenta abierta a nombre de uno o varios usuarios utilizada para realizar operaciones de pago. Sirve para ingresar dinero en una entidad, y realizar otras operaciones como son las transferencias, la domiciliación de recibos, la retirada de efectivo, etc. Las más conocidas son la cuenta de ahorro y la cuenta corriente.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "cuenta",
+        "pago",
+        "realizar",
+        "operaciones",
+        "abierta",
+        "nombre"
+      ]
+    },
+    {
+      "pregunta": "¿Quién puede abrir una cuenta de pago?",
+      "respuesta": "Toda persona mayor de edad o con capacidad de obrar.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "quién",
+        "abrir",
+        "cuenta",
+        "pago",
+        "toda",
+        "persona"
+      ]
+    },
+    {
+      "pregunta": "¿Puede haber varios titulares en una cuenta de pago?",
+      "respuesta": "Sí. La titularidad puede ser individual o colectiva.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "varios",
+        "titulares",
+        "cuenta",
+        "pago",
+        "titularidad",
+        "individual"
+      ]
+    },
+    {
+      "pregunta": "¿Es necesario que todas las personas firmantes acepten las condiciones de la cuenta?",
+      "respuesta": "Sí. Todas deben dar su consentimiento expreso y aceptar las condiciones.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "condiciones",
+        "necesario",
+        "personas",
+        "firmantes",
+        "acepten",
+        "cuenta"
+      ]
+    },
+    {
+      "pregunta": "¿Se puede abrir una cuenta de pago sin firmar un contrato?",
+      "respuesta": "No. Es necesario formalizar el contrato y aceptar sus términos.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "contrato",
+        "abrir",
+        "cuenta",
+        "pago",
+        "firmar",
+        "necesario"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo pedir información al banco antes de contratar una cuenta de pago?",
+      "respuesta": "Sí. Debes recibir toda la información relativa al servicio por escrito y de forma gratuita. La ley exige que la información sea clara, suficiente, objetiva y no engañosa.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "información",
+        "pedir",
+        "banco",
+        "antes",
+        "contratar",
+        "cuenta"
+      ]
+    },
+    {
+      "pregunta": "¿Debe informarme el banco sobre las comisiones que pretende cobrarme si contrato una cuenta de pago?",
+      "respuesta": "Sí. Debe darte un documento con las comisiones de los servicios más representativos.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "comisiones",
+        "informarme",
+        "banco",
+        "pretende",
+        "cobrarme",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "¿Qué requisitos debe cumplir el contrato de cuenta de pago para ser válido?",
+      "respuesta": "Debe hacerse por escrito y la letra no podrá tener una altura inferior a 1,5 milímetros. Además de eso, el contrato deberá evitar el uso de tecnicismos y, cuando ello no sea posible, explicará adecuadamente el significado de los mismos.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "contrato",
+        "requisitos",
+        "cumplir",
+        "cuenta",
+        "pago",
+        "válido"
+      ]
+    },
+    {
+      "pregunta": "¿Qué tiene que contener el contrato de cuenta de pago?",
+      "respuesta": "Las condiciones a través de las que el titular puede disponer del dinero y realizar ingresos y, en general, otras operaciones de pago que puede llevar a cabo en la cuenta. Si la apertura de la cuenta proporciona un servicio asociado, como por ejemplo la entrega de tarjetas de crédito, también se deben recoger en el documento las condiciones de uso y el coste que tiene cada servicio.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "cuenta",
+        "pago",
+        "condiciones",
+        "servicio",
+        "contener",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo debe informar el banco de las comisiones que cobra en las cuentas de pago?",
+      "respuesta": "A los clientes nuevos, les tiene que entregar un documento informativo de las comisiones y, a los que ya son clientes, debe entregarles anualmente el \"estado de comisiones donde recogerá el estado de las comisiones en las que haya incurrido durante el año natural anterior por los servicios asociados a una cuenta de pago.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "comisiones",
+        "pago",
+        "clientes",
+        "estado",
+        "informar",
+        "banco"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo solicitar el traslado de mi cuenta de pago a otra entidad dentro de España, con las domiciliaciones que tengo en ella?",
+      "respuesta": "Sí. Tienes derecho a trasladar tu cuenta, incluyendo información sobre transferencias, adeudos y saldo, con o sin cierre de la cuenta.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "cuenta",
+        "solicitar",
+        "traslado",
+        "pago",
+        "entidad",
+        "dentro"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el banco negarse a transferir el saldo a otra cuenta si tengo deudas pendientes en la cuenta?",
+      "respuesta": "Sí. El banco puede denegar la transferencia si existen obligaciones pendientes con ella o con terceros.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "banco",
+        "cuenta",
+        "pendientes",
+        "negarse",
+        "transferir",
+        "saldo"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo cancelar el contrato de mi cuenta de pago en cualquier momento y sin preaviso?",
+      "respuesta": "Sí. Puedes cancelar el contrato en cualquier momento y la entidad debe hacerlo efectivo en un máximo de 24 horas. Debiendo devolverte la entidad el saldo que tengas en la cuenta, salvo que tengas contratado otro producto que requiera mantener la cuenta activa.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "cuenta",
+        "cancelar",
+        "contrato",
+        "momento",
+        "entidad",
+        "tengas"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el banco cancelar unilateralmente una cuenta con contrato indefinido sin avisar?",
+      "respuesta": "No. Solo puede hacerlo si está previsto en el contrato y debe avisarte con al menos dos meses de antelación.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "contrato",
+        "banco",
+        "cancelar",
+        "unilateralmente",
+        "cuenta",
+        "indefinido"
+      ]
+    },
+    {
+      "pregunta": "¿Debe facilitarme el banco información acerca de los movimientos de mi cuenta corriente?",
+      "respuesta": "Sí. Debe mantener un registro de todas las operaciones y si se lo pides, debe facilitarte esta información de forma clara y detallada.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "información",
+        "facilitarme",
+        "banco",
+        "acerca",
+        "movimientos",
+        "cuenta"
+      ]
+    },
+    {
+      "pregunta": "¿Está obligada la entidad a realizar pagos si no hay saldo suficiente en la cuenta?",
+      "respuesta": "No. La entidad no tiene obligación de atender pagos sin fondos suficientes.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "entidad",
+        "pagos",
+        "obligada",
+        "realizar",
+        "saldo",
+        "suficiente"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el banco adelantar fondos de una cuenta corriente aunque no tenga obligación legal de hacerlo?",
+      "respuesta": "Sí. Puede hacerlo voluntariamente o si ambas partes lo acuerdan.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "hacerlo",
+        "banco",
+        "adelantar",
+        "fondos",
+        "cuenta",
+        "corriente"
+      ]
+    },
+    {
+      "pregunta": "¿Debo devolver el dinero adelantado si el banco me concede un descubierto?",
+      "respuesta": "Sí. El consumidor debe devolver el anticipo y pagar intereses, comisiones y gastos asociados.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "devolver",
+        "dinero",
+        "adelantado",
+        "banco",
+        "concede",
+        "descubierto"
+      ]
+    },
+    {
+      "pregunta": "¿Quién es responsable de un acceso no autorizado a mi cuenta si no he sido negligente?",
+      "respuesta": "La entidad debe asegurar que sólo el titular de los servicios tenga acceso a claves, tarjetas o PIN, así si por ejemplo me clonan la tarjeta, la responsabilidad será del banco y deberá restituirme el dinero",
+      "subcategoria": "Banca",
+      "keywords": [
+        "acceso",
+        "quién",
+        "responsable",
+        "autorizado",
+        "cuenta",
+        "negligente"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es la autenticación reforzada?",
+      "respuesta": "Es un sistema que obliga a bancos y proveedores de pago a usar al menos dos métodos independientes para identificar al usuario, combinando algo que sabe, posee o es, para proteger la confidencialidad de sus datos.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "autenticación",
+        "reforzada",
+        "sistema",
+        "obliga",
+        "bancos",
+        "proveedores"
+      ]
+    },
+    {
+      "pregunta": "¿Qué plazo tengo para devolver un recibo?",
+      "respuesta": "8 semanas desde la fecha del cargo en la cuenta. En el plazo de los 10 días hábiles siguientes a la solicitud, el banco deberá devolver el importe íntegro de la operación o bien, comunicar las razones objetivas que justifican la denegación e indicarle los mecanismos de reclamación, judiciales y extrajudiciales con los que cuentas si no estás de acuerdo con ello.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "plazo",
+        "devolver",
+        "recibo",
+        "semanas",
+        "fecha",
+        "cargo"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden las empresas cobrar cargo adicional por usar un medio de pago al comprar un producto o contratar un servicio?",
+      "respuesta": "No. No pueden exigir gastos o cuotas adicionales por el uso de cualquier instrumento de pago.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "pago",
+        "empresas",
+        "cobrar",
+        "cargo",
+        "adicional",
+        "usar"
+      ]
+    },
+    {
+      "pregunta": "¿Es legal que una empresa ofrezca un descuento si pago en efectivo?",
+      "respuesta": "Sí. Pueden incentivar el uso de ciertos medios de pago mediante descuentos u otras ventajas.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "pago",
+        "legal",
+        "empresa",
+        "ofrezca",
+        "descuento",
+        "efectivo"
+      ]
+    },
+    {
+      "pregunta": "¿Es obligatorio tener una cuenta corriente abierta en un banco para que me den una tarjeta de crédito?",
+      "respuesta": "No. Pueden pasarte recibos correspondientes a la cuenta corriente y entidad que indiques.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "cuenta",
+        "corriente",
+        "obligatorio",
+        "abierta",
+        "banco",
+        "tarjeta"
+      ]
+    },
+    {
+      "pregunta": "¿Se puede realizar un pago con la tarjeta de crédito sin tener saldo suficiente en la cuenta bancaria asociada?",
+      "respuesta": "Sí. La tarjeta permite disponer de dinero hasta un límite acordado, incluso si no hay saldo suficiente en la cuenta. El límite del crédito disponible debe figurar expresamente en el contrato.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "tarjeta",
+        "crédito",
+        "saldo",
+        "suficiente",
+        "cuenta",
+        "límite"
+      ]
+    },
+    {
+      "pregunta": "¿Puede modificarse el límite de crédito establecido en el contrato de una tarjeta de crédito?",
+      "respuesta": "Sí. El contrato puede ser modificado, incluyendo el límite del crédito.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "crédito",
+        "límite",
+        "contrato",
+        "modificarse",
+        "establecido",
+        "tarjeta"
+      ]
+    },
+    {
+      "pregunta": "¿Se puede realizar un pago con la tarjeta de débito sin tener saldo suficiente en la cuenta bancaria asociada?",
+      "respuesta": "No. Las tarjetas de débito sirven para utilizar el dinero depositado en la cuenta a la que está asociada.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "débito",
+        "cuenta",
+        "asociada",
+        "realizar",
+        "pago",
+        "tarjeta"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo funcionan las tarjetas monedero o prepago?",
+      "respuesta": "Antes de utilizarla, tienes que cargar la tarjeta ingresando dinero en la cuenta. Cuando se agota el importe se puede recargarla de nuevo, pero si no hay dinero, no te da dinero a crédito.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "dinero",
+        "funcionan",
+        "tarjetas",
+        "monedero",
+        "prepago",
+        "antes"
+      ]
+    },
+    {
+      "pregunta": "¿Qué son las tarjetas revolving?",
+      "respuesta": "Son un tipo de tarjeta de crédito que permiten que compres y devuelvas el dinero a plazos a través de cuotas periódicas que incluyen el pago de unos intereses y comisiones. Tienen establecido un límite de crédito disponible y con cada cuota que se paga, se puede volver a disponer del importe del capital que se amortiza. Se debe tener cuidado con el uso de este tipo de tarjetas, ya que los intereses que se aplican al son muy elevados y además, por norma general, tienen una cuota mensual pequeña respecto de la deuda acumulada, que provoca que la amortización total se realice en un plazo muy largo y la cifra de intereses vaya aumentando.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "intereses",
+        "tarjetas",
+        "crédito",
+        "cuota",
+        "revolving",
+        "tarjeta"
+      ]
+    },
+    {
+      "pregunta": "¿Qué hago si me roban la tarjeta de crédito?",
+      "respuesta": "Si te roban, la tarjeta (igual que si la pierdes o te la clonan) debes avisar inmediatamente a la entidad emisora de la tarjeta para que la bloquee y presentar denuncia. Revisa los movimientos de tu cuenta y comunica cualquier cargo fraudulento. Tras tu aviso, no asumirás pérdidas por usos no autorizados, salvo hasta 50 € si la tarjeta fue robada (o extraviada) antes de notificar, o 0 € (en el caso de que hubiera sido clonada). Solo tendrás que asumir las pérdidas si actuaste con negligencia grave (por ejemplo, guardar el PIN junto a la tarjeta o no avisar a tiempo). La entidad debe devolverte de inmediato los importes cargados de forma fraudulenta mientras investiga.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "tarjeta",
+        "roban",
+        "avisar",
+        "entidad",
+        "pérdidas",
+        "crédito"
+      ]
+    },
+    {
+      "pregunta": "Tengo 68 años ¿Puede el banco cobrarme una comisión por retirar dinero en ventanilla?",
+      "respuesta": "No. Está prohibido por ley cobrar comisiones por este servicio a mayores de 65 años y a personas con discapacidad del 33 % o más.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "años",
+        "banco",
+        "cobrarme",
+        "comisión",
+        "retirar",
+        "dinero"
+      ]
+    },
+    {
+      "pregunta": "¿Debe informarse al usuario en la pantalla del cajero automático sobre la comisión que se cobrará?",
+      "respuesta": "Sí. Debe indicarse la comisión que se cobrará al emisor antes de completar la operación y se tiene que advertir de que el banco puede trasladarle, total o parcialmente, la comisión aplicada.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "comisión",
+        "cobrará",
+        "informarse",
+        "usuario",
+        "pantalla",
+        "cajero"
+      ]
+    },
+    {
+      "pregunta": "Contraté un depósito con un banco a través de internet ¿Puedo desistir del mismo?",
+      "respuesta": "Sí. Puedes cancelar el contrato en 14 días y si pagaste algo, recibir el reembolso por el mismo medio de pago o uno preferido.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "contraté",
+        "depósito",
+        "banco",
+        "internet",
+        "desistir",
+        "puedes"
+      ]
+    },
+    {
+      "pregunta": "¿Se permite el derecho de desistimiento en cualquier contrato bancario celebrado a distancia?",
+      "respuesta": "No. Están excluidos aquellos servicios cuyo precio depende de fluctuaciones de los mercados financieros que el proveedor no puede controlar, como acciones, hipotecas, cambio de divisas o fondos de inversión, etc o en los planes de pensiones.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "permite",
+        "derecho",
+        "desistimiento",
+        "contrato",
+        "bancario",
+        "celebrado"
+      ]
+    },
+    {
+      "pregunta": "¿Se puede interpretar el silencio del usuario como aceptación de una oferta?",
+      "respuesta": "No. No responder nunca implica aceptación.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "aceptación",
+        "interpretar",
+        "silencio",
+        "usuario",
+        "oferta",
+        "responder"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden las empresas enviar ofertas comerciales por llamadas automáticas sin consentimiento previo?",
+      "respuesta": "No. Se requiere el consentimiento previo del usuario para enviar esas comunicaciones.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "enviar",
+        "consentimiento",
+        "previo",
+        "empresas",
+        "ofertas",
+        "comerciales"
+      ]
+    },
+    {
+      "pregunta": "He visto un anuncio de una tarjeta bancaria con una buena promoción, pero no indican cuál es el plazo para suscribir la oferta ¿Es esto legal?",
+      "respuesta": "No, debe informarse de la duración de la oferta. Además, si el plazo depende de la disponibilidad, el banco tiene que indicar cuántos productos hay.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "plazo",
+        "oferta",
+        "visto",
+        "anuncio",
+        "tarjeta",
+        "bancaria"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el anuncio de un banco afirmar que una inversión en depósitos está garantizada?",
+      "respuesta": "No, salvo que la entidad tenga un seguro distinto al Fondo de Garantía de Depósitos.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "depósitos",
+        "anuncio",
+        "banco",
+        "afirmar",
+        "inversión",
+        "garantizada"
+      ]
+    },
+    {
+      "pregunta": "Quiero contratar un producto de inversión ¿Dónde puedo ver las entidades autorizadas para prestar ese servicio?",
+      "respuesta": "La Comisión Nacional del Mercado de Valores (CNMV), organismo encargado de la supervisión e inspección de los mercados de valores españoles y la protección de los inversores, dispone de un registro de entidades autorizadas y aconseja en su web sobre los pasos a seguir a la hora de tomar decisiones de inversión.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "inversión",
+        "entidades",
+        "autorizadas",
+        "valores",
+        "quiero",
+        "contratar"
+      ]
+    },
+    {
+      "pregunta": "¿Qué información tienen que dar las entidades que presten servicios de inversión?",
+      "respuesta": "La Comisión Nacional del Mercado de Valores (CNMV), organismo encargado de la supervisión e inspección de los mercados de valores españoles y la protección de los inversores, dispone de un registro de entidades autorizadas y aconseja en su web sobre los pasos a seguir a la hora de tomar decisiones de inversión.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "entidades",
+        "inversión",
+        "valores",
+        "información",
+        "presten",
+        "servicios"
+      ]
+    },
+    {
+      "pregunta": "¿Tiene que informarse del riesgo que tienen los servicios de inversión?",
+      "respuesta": "Si, las entidades que presten servicios de inversión y comercialización de productos financieros deben realizar su clasificación en función de un indicador de riesgo del producto. Además, existe la obligación de asegurar que existe información públicamente disponible que permita que los usuarios puedan formarse una opinión sobre los instrumentos financieros, teniendo en cuenta tanto los tipos de los usuarios y de instrumentos.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "riesgo",
+        "servicios",
+        "inversión",
+        "financieros",
+        "existe",
+        "usuarios"
+      ]
+    },
+    {
+      "pregunta": "No estoy conforme con el cobro de unas comisiones en mi tarjeta de crédito ¿Qué puedo hacer ante este o cualquier otro problema con un banco?",
+      "respuesta": "- Presenta tu reclamación ante el Servicio de Atención al Cliente del banco. - Si no recibes respuesta o esta no es satisfactoria, puedes acudir al Defensor del Cliente, si la entidad cuenta con uno (no es obligatorio). - Después, si aún no se resuelve el problema, puedes dirigirte al Servicio de Reclamaciones del Banco de España o a los tribunales ordinarios de justicia (si la reclamación es inferior a 2.000 euros, no tendrás que contratar a un abogado). Acudir al Defensor del Cliente no es obligatorio, puedes ir directamente al Servicio de Reclamaciones del [Banco de España](https://clientebancario.bde.es/pcb/es/) o a los tribunales ordinarios de justicia.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "banco",
+        "servicio",
+        "cliente",
+        "puedes",
+        "problema",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es una cuenta de pago básica?",
+      "respuesta": "Una cuenta que ofrece los mismos servicios que una cuenta de pago normal a un precio más barato (actualmente no puede ser superior a 3 euros/mes. Para los consumidores en riesgo de exclusión financiera y para las personas víctimas de trata o violencia sexual es gratuita.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "cuenta",
+        "pago",
+        "básica",
+        "ofrece",
+        "servicios",
+        "normal"
+      ]
+    },
+    {
+      "pregunta": "¿Todos los bancos deben ofrecer cuentas de pago básicas?",
+      "respuesta": "Sí. Están obligados a ofrecerlas en las condiciones establecidas por la ley.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "bancos",
+        "ofrecer",
+        "cuentas",
+        "pago",
+        "básicas",
+        "obligados"
+      ]
+    },
+    {
+      "pregunta": "¿Deben los bancos publicitar las cuentas de pago básicas en su web y oficinas?",
+      "respuesta": "Sí. Deben informarlo claramente bajo el nombre \"cuenta de pago básica\".",
+      "subcategoria": "Banca",
+      "keywords": [
+        "pago",
+        "bancos",
+        "publicitar",
+        "cuentas",
+        "básicas",
+        "oficinas"
+      ]
+    },
+    {
+      "pregunta": "¿Tienen las entidades libertad para fijar los intereses y comisiones de un préstamo?",
+      "respuesta": "El principio de libertad de precios permite que las entidades establezcan estos costes, aunque: - Existen excepciones donde el importe de las comisiones está limitado por ley, como en la cancelación anticipada de hipotecas, créditos al consumo, comisiones. vinculadas a hipotecas anteriores a 2012 y las cuentas de pago básico. - Los tribunales de justicia pueden determinar que un interés es usurario o abusivo.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "comisiones",
+        "entidades",
+        "libertad",
+        "hipotecas",
+        "fijar",
+        "intereses"
+      ]
+    },
+    {
+      "pregunta": "¿Qué información debe dar un banco sobre el interés aplicado en un préstamo?",
+      "respuesta": "Debe explicar no solo el interés o TAE, sino también cómo se aplica, la información debe ser clara, preferiblemente con ejemplos, para que el consumidor entienda el coste real.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "información",
+        "interés",
+        "banco",
+        "aplicado",
+        "préstamo",
+        "explicar"
+      ]
+    },
+    {
+      "pregunta": "¿Qué sucede si no pago las cuotas de un préstamo?",
+      "respuesta": "El impago generará intereses de demora y posibles comisiones por devolución. Si el impago es reiterado y hay una garantía (por ejemplo, una casa si el préstamo es hipotecario), la entidad puede ejecutarla ante el juzgado.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "préstamo",
+        "impago",
+        "sucede",
+        "pago",
+        "cuotas",
+        "generará"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden embargarme si no devuelvo un préstamo y la garantía no cubre toda la deuda?",
+      "respuesta": "Sí. Si queda deuda pendiente, pueden embargar tu nómina u otros ingresos como devoluciones de hacienda o ahorros del banco.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "deuda",
+        "embargarme",
+        "devuelvo",
+        "préstamo",
+        "garantía",
+        "cubre"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si hay cláusulas abusivas en mi contrato de préstamo formalizado como persona consumidora?",
+      "respuesta": "Las cláusulas abusivas son nulas y por ello no pueden aplicarse; no obstante, sólo un juez puede declararlas como tales, por ello es importante hacer una reclamación al Servicio de Atención al Cliente con una buena fundamentación jurídica a fin de evitar tener que acudir a los tribunales de justicia.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "cláusulas",
+        "abusivas",
+        "contrato",
+        "préstamo",
+        "formalizado",
+        "persona"
+      ]
+    },
+    {
+      "pregunta": "He pedido un préstamo hipotecario para comprar mi casa y he puesto a mis padres como avalistas ¿Puede el banco reclamarles si yo no pago?",
+      "respuesta": "Sí. Podrá reclamarles si no pagas, e incluso reclamarles directamente si firman como fiadores solidarios. El banco debe explicarles claramente su responsabilidad y las condiciones antes de firmar el contrato.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "reclamarles",
+        "banco",
+        "pedido",
+        "préstamo",
+        "hipotecario",
+        "comprar"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el avalista de un préstamo hipotecario limitar su responsabilidad?",
+      "respuesta": "Sí. El aval puede ser limitado o ilimitado, dependiendo de lo que se haya pactado en el contrato.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "avalista",
+        "préstamo",
+        "hipotecario",
+        "limitar",
+        "responsabilidad",
+        "aval"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el banco reclamar toda la deuda a un solo fiador si hay varios en un contrato de préstamo hipotecario?",
+      "respuesta": "Sí. Si hay solidaridad y renuncia a beneficios, puede exigir la totalidad a cualquiera de ellos, sin importar si el deudor tiene bienes.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "banco",
+        "reclamar",
+        "toda",
+        "deuda",
+        "fiador",
+        "varios"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es una oferta vinculante y cuándo debe entregarla el prestamista?",
+      "respuesta": "Es un documento con todas las condiciones del crédito que el prestamista debe entregar si el consumidor lo solicita. En préstamos hipotecarios, debe emitirla tras realizar la tasación, comprobaciones registrales y análisis de solvencia, salvo que deniegue el préstamo, en cuyo caso debe comunicarlo.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "prestamista",
+        "oferta",
+        "vinculante",
+        "entregarla",
+        "documento",
+        "condiciones"
+      ]
+    },
+    {
+      "pregunta": "¿Durante cuánto tiempo debe mantener el prestamista las condiciones de la oferta vinculante?",
+      "respuesta": "En general, la oferta debe mantenerse al menos 14 días naturales. En el caso de préstamos hipotecarios, su validez no puede ser inferior a 10 días hábiles desde la entrega al consumidor.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "oferta",
+        "días",
+        "tiempo",
+        "mantener",
+        "prestamista",
+        "condiciones"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es una ejecución hipotecaria?",
+      "respuesta": "Es un proceso judicial que inicia el banco cuando el deudor deja de pagar su hipoteca. Su objetivo es recuperar el dinero adeudado mediante la subasta de la vivienda hipotecada.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "ejecución",
+        "hipotecaria",
+        "proceso",
+        "judicial",
+        "inicia",
+        "banco"
+      ]
+    },
+    {
+      "pregunta": "Dejé de pagar las cuotas del préstamo hipotecario y el banco ha presentado una demanda de ejecución hipotecaria ¿Cuánto tiempo tengo antes de perder la vivienda?",
+      "respuesta": "Cuando el banco presenta la demanda, recibirás una notificación. A partir de ese momento, tienes 10 días para presentar oposición y defenderte. e.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "banco",
+        "demanda",
+        "dejé",
+        "pagar",
+        "cuotas",
+        "préstamo"
+      ]
+    },
+    {
+      "pregunta": "¿Se puede detener la ejecución hipotecaria?",
+      "respuesta": "Sí, hay varias opciones para intentarlo: - Negociar con el banco una reestructuración de la deuda. - Solicitar la aplicación del Código de Buenas Prácticas Bancarias. - Impugnar cláusulas abusivas, como intereses de demora muy altos o cláusulas suelo. - Acudir a los procedimientos de segunda oportunidad, si corresponde.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "cláusulas",
+        "detener",
+        "ejecución",
+        "hipotecaria",
+        "varias",
+        "opciones"
+      ]
+    },
+    {
+      "pregunta": "El banco me está cobrando una comisión por una tarjeta que no le he solicitado ¿es legal?",
+      "respuesta": "No. Los bancos solo pueden cobrar por servicios que realmente se han prestado o que el cliente haya solicitado. No es legal cobrar por servicios inexistentes o no requeridos.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "solicitado",
+        "legal",
+        "cobrar",
+        "servicios",
+        "banco",
+        "cobrando"
+      ]
+    },
+    {
+      "pregunta": "El banco me cobraba una comisión de mantenimiento de cuenta de 2 euros y ahora he visto que lleva 3 meses cobrándome 6 euros ¿es legal?",
+      "respuesta": "No. Antes de cambiar una comisión, el banco debería informarte con suficiente antelación: al menos 2 meses en servicios de pago y 1 mes en otros servicios. Si no estás de acuerdo, puedes cancelar el contrato sin penalización.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "banco",
+        "comisión",
+        "euros",
+        "meses",
+        "servicios",
+        "cobraba"
+      ]
+    },
+    {
+      "pregunta": "¿Hay forma de evitar algunas comisiones bancarias?",
+      "respuesta": "Sí. Contratar servicios complementarios, domiciliar la nómina o utilizar cuentas digitales puede reducir o eliminar algunas comisiones, aunque en ciertos casos puede implicar nuevas obligaciones o requisitos tecnológicos.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "algunas",
+        "comisiones",
+        "evitar",
+        "bancarias",
+        "contratar",
+        "servicios"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es un crédito vinculado?",
+      "respuesta": "Es un préstamo que se concede exclusivamente para financiar la compra de un bien o la contratación de un servicio específico. Es decir, no se puede usar para otro propósito: el crédito está \"vinculado\" al contrato de compra o servicio. Por ejemplo, si compras un coche a plazos con financiación del concesionario.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "crédito",
+        "vinculado",
+        "compra",
+        "servicio",
+        "préstamo",
+        "concede"
+      ]
+    },
+    {
+      "pregunta": "Tenía un tratamiento dental financiado por la entidad que propuso la clínica, pero la clínica ha cerrado ¿Qué puedo hacer?",
+      "respuesta": "Si la clínica dental ha cerrado y el tratamiento estaba financiado por la entidad propuesta por la propia clínica, estás ante un crédito vinculado. En estos casos, si el servicio no se presta, puedes exigir a la financiera la suspensión de los pagos y la resolución del contrato, ya que la financiación depende directamente de la ejecución del tratamiento. Debes comunicar por escrito el cierre de la clínica, aportar la documentación y reclamar ante el Servicio de Atención al Cliente de la financiera. Si no responden o lo hacen insatisfactoriamente, puedes acudir al Servicio de Reclamaciones del [Banco de España](https://clientebancario.bde.es/pcb/es/) o a los tribunales ordinarios de justicia.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "clínica",
+        "tratamiento",
+        "servicio",
+        "dental",
+        "financiado",
+        "entidad"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia entre un crédito al consumo y un crédito vinculado?",
+      "respuesta": "Un crédito personal es un préstamo que pides directamente a un banco para cualquier gasto personal, y debes devolverlo con intereses, respondiendo con tus propios bienes si no lo haces. > Un crédito al consumo está vinculado directamente a la compra de un bien o servicio y se gestiona a través del vendedor o proveedor que lo financia.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "crédito",
+        "consumo",
+        "vinculado",
+        "personal",
+        "directamente",
+        "cuál"
+      ]
+    },
+    {
+      "pregunta": "Al comprar un lavavajillas, me ofrecieron financiar la compra con un crédito con una entidad bancaria con la que trabaja la tienda, pero los intereses eran altos ¿puedo contratar con otra entidad?",
+      "respuesta": "Sí, puedes elegir libremente la entidad prestamista que otorgue el crédito.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "entidad",
+        "crédito",
+        "comprar",
+        "lavavajillas",
+        "ofrecieron",
+        "financiar"
+      ]
+    },
+    {
+      "pregunta": "Me han sustraído la tarjeta y han sacado 200 euros. Lo he comunicado al banco y dice que no me devuelve nada porque he sido negligente ¿es esto legal?",
+      "respuesta": "No, el banco tendrá que demostrar que tú has sido negligente, por ejemplo, teniendo el pin apuntado junto con la tarjeta.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "tarjeta",
+        "banco",
+        "negligente",
+        "sustraído",
+        "sacado",
+        "euros"
+      ]
+    },
+    {
+      "pregunta": "Me han clonado la tarjeta en el cajero y han sacado dinero ¿qué puedo hacer?",
+      "respuesta": "Si te clonan la tarjeta (o si te la roban o pierdes), debes avisar inmediatamente a la entidad emisora de la tarjeta para que la bloquee y presentar denuncia. Revisa los movimientos de tu cuenta y comunica cualquier cargo fraudulento. Tras tu aviso, no asumirás pérdidas por usos no autorizados, salvo hasta 50 € si la tarjeta fue robada o extraviada antes de notificar, o 0 € si fue clonada comno en el caso que cuentas. Solo tendrás que asumir las pérdidas si actuaste con negligencia grave (por ejemplo, guardar el PIN junto a la tarjeta o no avisar a tiempo). La entidad debe devolverte de inmediato los importes cargados de forma fraudulenta mientras investiga. > Si te clonan la tarjeta, te la roban o pierdes, debes avisar inmediatamente a la entidad emisora de la tarjeta para que la bloquee y presentar denuncia. Revisa los movimientos de tu cuenta y comunica cualquier cargo fraudulento. Tras tu aviso, no asumirás pérdidas por usos no autorizados > La entidad bancaria debe reembolsar de forma inmediata el dinero gastado o sustraido salvo que pueda acreditar que hubo una actuación deliberada, es decir, voluntariedad o fraude, o negligencia grave del titular de la tarjeta > En caso de que la tarjeta hubiese sido robada o extraviada, el titular podría tener que suportar hasta un máximo de 50 €, salvo que no fuese capaz de idenficar el momento en que se produjo la pérdida o robo. Es decir, se exige la comunicación inmediata desde el momento en que sabemos que hemos perdido la tarjeta o esta fue robada.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "tarjeta",
+        "entidad",
+        "avisar",
+        "pérdidas",
+        "salvo",
+        "robada"
+      ]
+    },
+    {
+      "pregunta": "El otro día me llamaron por teléfono haciéndose pasar por mi banco y me sonsacaron una serie de datos que llevó a que vaciaran mi cuenta, he reclamado al banco y dice que no es responsable ¿es legal?",
+      "respuesta": "Es un tema controvertido sobre el que los juzgados han tenido pronunciamientos diferentes. No obstante, en 2025, el Tribunal Supremo ha confirmado que los bancos son responsables de los fraudes digitales, incluso si se usan las credenciales del cliente al decir que: - El uso de contraseñas o códigos no implica consentimiento del cliente; el banco debe demostrar que la operación fue autorizada o que hubo negligencia grave del usuario. - Las cláusulas que eximen al banco de responsabilidad son inválidas si contravienen la ley. - Los bancos deben contar con sistemas que detecten y bloqueen operaciones sospechosas automáticamente. - Si el cliente actúa con diligencia (alerta al banco, cambia contraseñas, denuncia el fraude), tiene derecho a que le devuelvan el dinero.",
+      "subcategoria": "Banca",
+      "keywords": [
+        "banco",
+        "cliente",
+        "bancos",
+        "contraseñas",
+        "llamaron",
+        "teléfono"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con un producto de inversión contratado como persona consumidora ¿Qué puedo hacer?",
+      "respuesta": "- Presenta tu reclamación ante el Servicio de Atención al Cliente de la compañía. - Si no recibes respuesta o esta no es satisfactoria, puedes acudir al Defensor del Cliente, si la entidad cuenta con uno (no es obligatorio). - Si el problema sigue sin resolverse puedes poner la reclamación ante la Comisión Nacional del Mercado de Valores. - Después, si aún no se resuelve el problema, puedes dirigirte o a los tribunales ordinarios de justicia (si reclamas una cantidad inferior a 2.000 euros, no tendrás que contratar un abogado).",
+      "subcategoria": "Banca",
+      "keywords": [
+        "problema",
+        "puedes",
+        "reclamación",
+        "cliente",
+        "tenido",
+        "producto"
+      ]
+    }
+  ]
+}

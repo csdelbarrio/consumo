@@ -1,0 +1,1046 @@
+{
+  "sector": "Vivienda",
+  "total_preguntas": 80,
+  "preguntas": [
+    {
+      "pregunta": "¿Existe un límite al precio al que se puede vender una vivienda?",
+      "respuesta": "Los precios son libres, salvo que el inmueble pertenezca a algún plan público de promoción de vivienda, en cuyo caso puede tener alguna limitación para la venta o un precio máximo al que se puede vender.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "precio",
+        "vender",
+        "vivienda",
+        "existe",
+        "límite",
+        "precios"
+      ]
+    },
+    {
+      "pregunta": "Estoy interesado en comprar una vivienda y el vendedor me ha dicho que le tengo que pagar una parte en B ¿Es esto legal?",
+      "respuesta": "Es ilegal el pago de cantidades en B y supone una infracción de la normativa tributaria que puede conllevar sanciones contempladas en la Ley.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "interesado",
+        "comprar",
+        "vivienda",
+        "vendedor",
+        "pagar",
+        "legal"
+      ]
+    },
+    {
+      "pregunta": "En la oficina de venta de la promotora no me hacen entrega de ningún folleto ni planos de las viviendas. ¿Puedo exigirlo?",
+      "respuesta": "Sí. Es obligatoria la entrega de información detallada de la promoción y la vivienda interesada. Esa información, además, ha de estar a disposición de las autoridades que lo soliciten.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "entrega",
+        "información",
+        "oficina",
+        "venta",
+        "promotora",
+        "hacen"
+      ]
+    },
+    {
+      "pregunta": "¿Debo recibir planos y descripción detallada de la vivienda y sus instalaciones?",
+      "respuesta": "Sí. El vendedor debe proporcionar planos, descripción de redes eléctricas, agua, gas, calefacción y medidas de seguridad. Te tienen que facilitar copia de autorizaciones legales y licencias de construcción para garantizar la legalidad de la vivienda.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "planos",
+        "descripción",
+        "vivienda",
+        "recibir",
+        "detallada",
+        "instalaciones"
+      ]
+    },
+    {
+      "pregunta": "¿Tiene que facilitar información el vendedor sobre su nombre y domicilio?",
+      "respuesta": "Sí. Es obligatorio que el vendedor dé sus datos identificativos.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "vendedor",
+        "facilitar",
+        "información",
+        "nombre",
+        "domicilio",
+        "obligatorio"
+      ]
+    },
+    {
+      "pregunta": "Realicé la compra de una vivienda sobre plano, y cuando me la han entregado he comprobado que las medidas de la casa son diferentes a la que establecía los folletos publicitarios. He hablado con la promotora y me ha dicho que esas medidas finalmente se modificaron en el contrato ¿Puedo reclamar?",
+      "respuesta": "Si, las características, condiciones y prestaciones del inmueble contenidas en la oferta, promoción o publicidad son exigibles, aun cuando no figuren expresamente en el contrato.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "medidas",
+        "contrato",
+        "realicé",
+        "compra",
+        "vivienda",
+        "plano"
+      ]
+    },
+    {
+      "pregunta": "Cuando leí el contrato para la compra de una casa, entendí que contenía una plaza de trastero privativa. Ahora me dice el vendedor que, aunque es dudoso, se entiende que lo que tenía era acceso a un trastero comunitario ¿Qué debe prevalecer?",
+      "respuesta": "Aunque habría que analizar el caso para ver si efectivamente es interpretable, en caso de que contenga lagunas o plantee dudas, se integrará en beneficio del consumidor, de acuerdo con el principio de buena fe.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "trastero",
+        "contrato",
+        "compra",
+        "casa",
+        "entendí",
+        "contenía"
+      ]
+    },
+    {
+      "pregunta": "Estoy pensando en comprar una vivienda de segunda mano y me han dicho que pida una nota simple en el Registro de la Propiedad ¿Qué es eso?",
+      "respuesta": "Es un documento que permite verificar que quien la vende es el verdadero propietario y si la vivienda tiene cargas tales como hipotecas o embargos.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "vivienda",
+        "pensando",
+        "comprar",
+        "mano",
+        "pida",
+        "nota"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a revisar una casa de antes de la compra?",
+      "respuesta": "Si, antes de realizar cualquier pago o firmar cualquier documento, deberías revisar el estado material de la vivienda mediante una visita en la que, sin prisas, se compruebe el estado general de la vivienda.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "revisar",
+        "antes",
+        "estado",
+        "vivienda",
+        "derecho",
+        "casa"
+      ]
+    },
+    {
+      "pregunta": "¿Qué debo hacer para verificar si una casa que quiero comprar de segunda mano tiene deudas?",
+      "respuesta": "Antes de realizar cualquier pago o firmar cualquier documento, deberías verificar que la vivienda está al corriente de las obligaciones económicas que recaen sobre la misma, solicitando al vendedor el último recibo del Impuesto sobre Bienes Inmuebles (IBI) y el último recibo de pago de la cuota de la comunidad de propietarios. También conviene preguntar al presidente de la Comunidad si hay derramas aprobadas para pagar en un futuro y porqué importe.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "verificar",
+        "pago",
+        "último",
+        "recibo",
+        "comunidad",
+        "casa"
+      ]
+    },
+    {
+      "pregunta": "Estoy dispuesto a comprar una vivienda y me han dicho que firme un contrato de arras ¿Qué significa esto?",
+      "respuesta": "Que, si finalmente no realizo la compra de la vivienda, perderé la cantidad entregada en concepto de arras, por eso es importante asegurar que se dispone del precio total de la compra, o si se está pendiente de la aprobación bancaria del préstamo hipotecario que se señale en el contrato de arras como una condición, de tal forma que, si finalmente no se otorga, no pierda las arras.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "arras",
+        "vivienda",
+        "contrato",
+        "finalmente",
+        "compra",
+        "dispuesto"
+      ]
+    },
+    {
+      "pregunta": "Estoy dispuesto a comprar una vivienda y me dice el vendedor que no firmemos el contrato ante notario ¿Qué debo tener en cuenta?",
+      "respuesta": "Si bien no es necesario elevar a público, esto es, hacer el contrato ante notario, es altamente recomendable, puesto que es imprescindible para cualquier nueva transmisión del inmueble y porque protege al comprador de posibles fraudes de segundas ventas por parte del anterior propietario.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "contrato",
+        "notario",
+        "dispuesto",
+        "comprar",
+        "vivienda",
+        "dice"
+      ]
+    },
+    {
+      "pregunta": "¿Es obligatorio que el contrato de compraventa de una casa se haga ante notario?",
+      "respuesta": "No es obligatorio, pero si es muy conveniente puesto que, si no se hace así, no se puede inscribir la compraventa en el Registro de la Propiedad y puede conllevar muchos problemas (Ejemplo: si el vendedor tiene embargos, podrías perder la vivienda; no puedes pedir una hipoteca sobre ese inmueble, ni venderlo legalmente a otra persona, etc).",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "obligatorio",
+        "compraventa",
+        "contrato",
+        "casa",
+        "haga",
+        "notario"
+      ]
+    },
+    {
+      "pregunta": "Vamos a firmar la compraventa de una casa ante notario ¿Puedo pedirle que me aclare alguna duda?",
+      "respuesta": "Si, el notario está obligado a aclarar cualquier duda que surja a las partes. Es recomendable pedir un borrador de la escritura a firmar unos días antes para poder examinarlo reposadamente y pedir asesoramiento si se precisa.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "firmar",
+        "notario",
+        "duda",
+        "pedir",
+        "vamos",
+        "compraventa"
+      ]
+    },
+    {
+      "pregunta": "¿Quién debe asumir los gastos de la notaría si elevamos a pública la compraventa?",
+      "respuesta": "Puede pactarse quien los asume entre las partes, si no se hace, el vendedor debe hacerse cargo del coste de la matriz de la escritura (original) y el comprador está obligado al pago del coste de la primera y sucesivas copias. La compradora tiene derecho a elegir notario con conexión territorial razonable al negocio.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "coste",
+        "quién",
+        "asumir",
+        "gastos",
+        "notaría",
+        "elevamos"
+      ]
+    },
+    {
+      "pregunta": "¿Qué impuestos tengo que pagar si compro una vivienda?",
+      "respuesta": "Si el inmueble es de obra nueva habrá que hacer frente al IVA y al impuesto de Actos Jurídicos Documentados (IAJD). Si el inmueble es de segunda mano, se debe liquidar el Impuesto de Transmisiones Patrimoniales (ITP).",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "inmueble",
+        "impuesto",
+        "impuestos",
+        "pagar",
+        "compro",
+        "vivienda"
+      ]
+    },
+    {
+      "pregunta": "Voy a comprar una casa y se me impone el pago de la plusvalía ¿Es esto legal?:",
+      "respuesta": "No, la plusvalía es un impuesto que debe pagar el vendedor de un terreno por el incremento de precio que haya podido experimentar desde que lo compró.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "plusvalía",
+        "comprar",
+        "casa",
+        "impone",
+        "pago",
+        "legal"
+      ]
+    },
+    {
+      "pregunta": "¿Es obligatorio que se me entregue el certificado de eficiencia energética al comprar una vivienda?",
+      "respuesta": "Sí. El propietario o el promotor deben realizar el certificado de eficiencia energética y entregármelo en el momento de la venta.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "certificado",
+        "eficiencia",
+        "energética",
+        "obligatorio",
+        "entregue",
+        "comprar"
+      ]
+    },
+    {
+      "pregunta": "¿El certificado de eficiencia energética tiene validez indefinida?",
+      "respuesta": "No. Tiene una validez máxima de 10 años.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "validez",
+        "certificado",
+        "eficiencia",
+        "energética",
+        "indefinida",
+        "máxima"
+      ]
+    },
+    {
+      "pregunta": "¿Tiene obligación el promotor de una vivienda de incluir la etiqueta de eficiencia energética en la publicidad de venta?",
+      "respuesta": "Sí. Toda oferta, promoción o publicidad debe incluir la etiqueta energética, indicando claramente si es del proyecto o del edificio terminado.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "incluir",
+        "etiqueta",
+        "energética",
+        "publicidad",
+        "obligación",
+        "promotor"
+      ]
+    },
+    {
+      "pregunta": "¿Si compro una vivienda antes de que esté construida, recibiré el certificado final directamente?",
+      "respuesta": "No. Primero recibirás la calificación energética del proyecto, y una vez construido, el certificado del edificio terminado. El certificado debe indicar que el edificio cumple lo establecido en el proyecto. Si no, deberá modificarse la calificación inicial.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "certificado",
+        "calificación",
+        "proyecto",
+        "edificio",
+        "compro",
+        "vivienda"
+      ]
+    },
+    {
+      "pregunta": "¿Qué debe contener el certificado de eficiencia energética?:",
+      "respuesta": "- Identificación de la vivienda. - Procedimiento usado para la calificación. - Indicación de la normativa aplicable sobre ahorro y eficiencia en el momento de su construcción. - Características energéticas (aislamiento, instalaciones, iluminación, etc.). - Recomendaciones de mejora de eficiencia energética. - Descripción de las pruebas y comprobaciones llevadas a cabo, por el técnico competente durante la fase de calificación energética. - Cumplimiento de los requisitos medioambientales exigidos a las instalaciones térmicas.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "eficiencia",
+        "energética",
+        "calificación",
+        "instalaciones",
+        "contener",
+        "certificado"
+      ]
+    },
+    {
+      "pregunta": "Voy a comprar un piso a una promotora y en el contrato figuran penalizaciones si yo incumplo, pero no si incumple ella ¿Es esto legal?:",
+      "respuesta": "No. Los contratos y sus condiciones han de ser recíprocas, por lo que las mismas penalizaciones que se prevean para el comprador se podrán exigir al vendedor si es este quien incumple.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "penalizaciones",
+        "incumple",
+        "comprar",
+        "piso",
+        "promotora",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "Voy a comprar un piso a una promotora y me dice que debo subrogarme en la hipoteca que pidió ella para la construcción ¿Es esto legal?:",
+      "respuesta": "No, la persona que compra tiene, en todo caso, derecho a elegir la entidad financiera que desee y decantarse por esa, si le ofrece condiciones más ventajosas.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "comprar",
+        "piso",
+        "promotora",
+        "dice",
+        "subrogarme",
+        "hipoteca"
+      ]
+    },
+    {
+      "pregunta": "¿Me pueden obligar a pagar los gastos para establecer accesos a suministros si la vivienda debe entregarse habitable?",
+      "respuesta": "No. Es obligación del vendedor entregar la vivienda con los suministros básicos en condiciones.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "suministros",
+        "vivienda",
+        "obligar",
+        "pagar",
+        "gastos",
+        "establecer"
+      ]
+    },
+    {
+      "pregunta": "Compré una vivienda sobre plano y me dijeron que estaría para una determinada fecha. Ahora ha llegado el día y no se me ha entregado y me dicen que tardará 3 meses ¿Puedo reclamar?",
+      "respuesta": "Si, el plazo es un elemento esencial del contrato.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "compré",
+        "vivienda",
+        "plano",
+        "dijeron",
+        "estaría",
+        "determinada"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo reclamar si se me entrega tarde la vivienda?",
+      "respuesta": "Los daños y perjuicios que se me han ocasionado y que pueda acreditar, por ejemplo, si he tenido que pagar durante los 3 meses de retraso un alquiler.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "reclamar",
+        "entrega",
+        "tarde",
+        "vivienda",
+        "daños",
+        "perjuicios"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el contrato excluir la responsabilidad del vendedor por retrasos en la entrega?",
+      "respuesta": "No, esa cláusula es ilegal y se considera nula por limitar tus derechos como consumidor.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "contrato",
+        "excluir",
+        "responsabilidad",
+        "vendedor",
+        "retrasos",
+        "entrega"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar si lo que se entrega no coincide con la memoria de calidades del contrato?",
+      "respuesta": "Si, puedes exigir lo pactado, incluso si algunas calidades aparecen solo en publicidad o documentos técnicos.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "calidades",
+        "reclamar",
+        "entrega",
+        "coincide",
+        "memoria",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "Compré una casa nueva hace cinco años y han aparecido grietas profundas en los muros de carga ¿Puedo reclamar?",
+      "respuesta": "Sí, las grietas en elementos estructurales como muros de carga son defectos graves cubiertos hasta 10 años después de la entrega.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "años",
+        "grietas",
+        "muros",
+        "carga",
+        "compré",
+        "casa"
+      ]
+    },
+    {
+      "pregunta": "Compré una casa nueva hace dos años y hay filtraciones de agua que causan moho en las paredes ¿Puedo reclamar?",
+      "respuesta": "Si, las filtraciones afectan a la habitabilidad y pueden reclamarse durante los 3 primeros años tras la entrega de la vivienda.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "años",
+        "filtraciones",
+        "compré",
+        "casa",
+        "hace",
+        "agua"
+      ]
+    },
+    {
+      "pregunta": "Compré una casa nueva hace 6 meses y se despegan las baldosas del suelo ¿Puedo reclamar?",
+      "respuesta": "Si, los defectos de acabado como baldosas sueltas se pueden reclamar durante el primer año desde la entrega de la vivienda.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "baldosas",
+        "reclamar",
+        "compré",
+        "casa",
+        "hace",
+        "meses"
+      ]
+    },
+    {
+      "pregunta": "Compré una casa nueva hace 6 meses y se despegan las baldosas del suelo ¿Puedo reclamar?",
+      "respuesta": "Si, los defectos de acabado como baldosas sueltas se pueden reclamar durante el primer año desde la entrega de la vivienda.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "baldosas",
+        "reclamar",
+        "compré",
+        "casa",
+        "hace",
+        "meses"
+      ]
+    },
+    {
+      "pregunta": "¿Qué incluye la factura del notario?",
+      "respuesta": "Generlamente incluye los honorarios notariales, pero también suele contener una provisión para impuestos, honorarios de otros profesionales y otros gastos que el notario paga en nombre del cliente.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "incluye",
+        "notario",
+        "honorarios",
+        "factura",
+        "generlamente",
+        "notariales"
+      ]
+    },
+    {
+      "pregunta": "Estoy buscando un notario para escriturar la compra de una casa ¿Cobran todos lo mismo?",
+      "respuesta": "Todos los notarios de España deben cobran lo mismo por idéntico servicio (aunque pueden hacerte un descuento del 10 por ciento) ya que viene fijado por arancel establecido por Real Decreto 1426/89 de 17 de noviembre, publicado el 28 de noviembre en el BOE.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "cobran",
+        "noviembre",
+        "buscando",
+        "notario",
+        "escriturar",
+        "compra"
+      ]
+    },
+    {
+      "pregunta": "Hice una escritura de compraventa de un piso hace 5 años y el notario me cobró 1.000 euros, ahora hice otra para vender otro piso y me han cobrado 1.300 ¿Es esto legal?",
+      "respuesta": "Lo que puede cobrar un notario aparece fijado en el arancel publicado en el BOE que determina que mayor complejidad del documento mayor es el arancel. La complejidad se mide por criterios objetivos, tales como el precio que se pagan las partes contratantes o el número de folios. Por eso es lógico que dos escrituras de compraventa no cuesten lo mismo, si por ejemplo una se hizo en 10 folios y otra en 100.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "hice",
+        "compraventa",
+        "piso",
+        "notario",
+        "arancel",
+        "mayor"
+      ]
+    },
+    {
+      "pregunta": "¿Puede cobrarme un notario por asesorarme sobre la escrituración de la compra de un piso?",
+      "respuesta": "No, el asesoramiento notarial es gratuito.",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "cobrarme",
+        "notario",
+        "asesorarme",
+        "escrituración",
+        "compra",
+        "piso"
+      ]
+    },
+    {
+      "pregunta": "Tuve un problema al comprar una casa como persona consumidora a una empresa ¿Qué puedo hacer?",
+      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes intentar acudir a un sistema alternativo de resolución de conflictos o a la Junta Arbitral de Consumo si la empresa acepta. Como última opción, puedes presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. **",
+      "subcategoria": "Compraventa",
+      "keywords": [
+        "empresa",
+        "consumo",
+        "puedes",
+        "tuve",
+        "problema",
+        "comprar"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una inmobiliaria cobrarme el mes de agencia o gastos similares por alquilar una vivienda?",
+      "respuesta": "No, desde el 26 de mayo de 2023, esos gastos deben pagarlos los propietarios, ya que el servicio se presta a ellos, no a las personas inquilinas.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "gastos",
+        "inmobiliaria",
+        "cobrarme",
+        "agencia",
+        "similares",
+        "alquilar"
+      ]
+    },
+    {
+      "pregunta": "Alquilé un piso a través de una agencia inmobiliaria antes del 26 de mayo de 2023 ¿Puedo reclamar que se me devuelva?",
+      "respuesta": "Si el propietario era persona jurídica (una empresa), se lo puedes reclamar, si sucedió después del 6 de marzo de 2019.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "reclamar",
+        "alquilé",
+        "piso",
+        "agencia",
+        "inmobiliaria",
+        "antes"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es la duración de un contrato de alquiler?",
+      "respuesta": "Hay que ver lo que establece la Ley de Arrendamientos Urbanos en el momento en el que firmas el contrato. Actualmente, la Ley dice que la duración será libremente pactada por las partes., pero si fuera inferior a cinco años, o inferior a siete años si el arrendador fuese persona jurídica, llegado el día del vencimiento del contrato, se prorrogará obligatoriamente por plazos anuales hasta que el arrendamiento alcance una duración mínima de cinco años, o de siete años si el arrendador fuese persona jurídica, salvo que el arrendatario manifieste al arrendador, con treinta días de antelación como mínimo a la fecha de terminación del contrato o de cualquiera de las prórrogas, su voluntad de no renovarlo.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "contrato",
+        "años",
+        "duración",
+        "arrendador",
+        "inferior",
+        "cinco"
+      ]
+    },
+    {
+      "pregunta": "Transcurridos 7 años de mi contrato de alquiler a mi casero (empresa) ¿Se renueva automáticamente si no aviso con tiempo?",
+      "respuesta": "Sí. Si no avisas con al menos 2 meses de antelación, o el arrendador no lo hace con 4 meses, el contrato se prorroga por años hasta un máximo de 3 más.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "años",
+        "contrato",
+        "meses",
+        "transcurridos",
+        "alquiler",
+        "casero"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo pedir una prórroga si estoy en una situación de vulnerabilidad económica y social?",
+      "respuesta": "Puedes solicitar un año adicional si presentas un informe de servicios sociales. Si el arrendador es un gran tenedor, debe aceptarlo.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "pedir",
+        "prórroga",
+        "situación",
+        "vulnerabilidad",
+        "económica",
+        "social"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo alargar mi contrato hasta 3 años más (cumplidos las 7 iniciales) si vivo en una zona de mercado tensionado?",
+      "respuesta": "Sí. Si mi contrato finaliza y solicito la prórroga, el arrendador (que debe ser una empresa) debe aceptarla salvo que haya acuerdo distinto, nuevo contrato o necesidad de ocupar la vivienda.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "contrato",
+        "alargar",
+        "años",
+        "cumplidos",
+        "iniciales",
+        "vivo"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el propietario (siendo empresa) negarse a la prórroga (cumplidos las 7 iniciales) si necesita la vivienda para él o su familia?",
+      "respuesta": "Sí. Puede hacerlo si te lo comunica en los plazos legales y cumple con los requisitos establecidos.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "propietario",
+        "empresa",
+        "negarse",
+        "prórroga",
+        "cumplidos",
+        "iniciales"
+      ]
+    },
+    {
+      "pregunta": "Cumplidos mis 7 años iniciales de contrato (siendo el casero una empresa) si se producen prórrogas de contrato ¿Se mantienen las mismas condiciones del contrato?",
+      "respuesta": "Sí. Las condiciones legales y pactadas siguen siendo las mismas durante la prórroga del contrato.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "contrato",
+        "condiciones",
+        "cumplidos",
+        "años",
+        "iniciales",
+        "casero"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el casero echarme de mi piso antes de que termine el contrato?",
+      "respuesta": "Solo puede hacerlo por causas legales expresamente previstas; de lo contrario, debe respetar el plazo pactado o el mínimo legal. Las causas previstas son las que siguen: - Por impago de la renta o la fianza (o su actualización). - Por subarrendar la casa o cederla sin permiso. - Por provocar daños intencionados u obras sin autorización. - Por desarrollar actividades molestas, peligrosas o ilegales en la vivienda. - Si el casero necesita la vivienda para uso propio o de familiares cercanos.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "casero",
+        "causas",
+        "previstas",
+        "vivienda",
+        "echarme",
+        "piso"
+      ]
+    },
+    {
+      "pregunta": "¿Cuáles son las causas por las que el inquilino puede resolver el contrato antes de llegar al término fijado en el contrato?",
+      "respuesta": "- Por la no realización de las debidas reparaciones por parte del arrendador. - Porque la vivienda sea inhabitable y no se realicen las obras pertinentes.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "contrato",
+        "cuáles",
+        "causas",
+        "inquilino",
+        "resolver",
+        "antes"
+      ]
+    },
+    {
+      "pregunta": "Me he ido del piso y el casero no me devuelve la fianza sin justificarme el motivo, ¿es legal?",
+      "respuesta": "No, el casero debe devolver la fianza al finalizar el contrato, salvo que tenga una causa justificada para retenerla, como daños en la vivienda.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "casero",
+        "fianza",
+        "piso",
+        "devuelve",
+        "justificarme",
+        "motivo"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si han pasado más de 30 días desde que me fui del piso que tenía alquilado y el casero no me ha devuelto la fianza?",
+      "respuesta": "Puedes reclamárselo formalmente. Tras un mes sin devolución, la fianza empieza a generar intereses legales a favor del inquilino. Si no te responde y es empresa puedes acudir a los servicios públicos de consumo y el arbitraje, y si no, al juzgado de primera instancia del domicilio de la vivienda.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "fianza",
+        "puedes",
+        "pasado",
+        "días",
+        "piso",
+        "tenía"
+      ]
+    },
+    {
+      "pregunta": "¿Qué hay que hacer cuando finaliza el contrato de alquiler de un piso para evitar problemas?",
+      "respuesta": "Es recomendable entregar las llaves en mano y revisar el piso con el casero firmando un documento en el que consta que se entregan las llaves y el estado del piso.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "piso",
+        "llaves",
+        "finaliza",
+        "contrato",
+        "alquiler",
+        "evitar"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo alquilar una habitación si soy inquilino de toda la casa?",
+      "respuesta": "Solo si te autoriza el propietario, bien expresamente, bien en el contrato.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "alquilar",
+        "habitación",
+        "inquilino",
+        "toda",
+        "casa",
+        "autoriza"
+      ]
+    },
+    {
+      "pregunta": "El propietario me autorizó a subarrendar una habitación del piso y mi contrato vence el mes que viene ¿Puede continuar el subarriendo?",
+      "respuesta": "No, el subarriendo en todo caso, cuando lo haga el contrato de principal.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "contrato",
+        "subarriendo",
+        "propietario",
+        "autorizó",
+        "subarrendar",
+        "habitación"
+      ]
+    },
+    {
+      "pregunta": "Tengo un contrato de alquiler por el que pago 600 euros, ¿Puedo subarrendar una habitación por 650 euros si el casero me autoriza?",
+      "respuesta": "No, el precio del subarriendo no puede superar el del contrato principal.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "contrato",
+        "euros",
+        "alquiler",
+        "pago",
+        "subarrendar",
+        "habitación"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden obligarme a pagar el IBI de la casa en la que vivo de alquiler?",
+      "respuesta": "Únicamente si en el contrato está acordado que asumes esos gastos y se determina el importe anual de los mismos a la fecha del contrato.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "contrato",
+        "obligarme",
+        "pagar",
+        "casa",
+        "vivo",
+        "alquiler"
+      ]
+    },
+    {
+      "pregunta": "Nunca firmé un acuerdo para pagar una derrama y ahora me la exige el casero, ¿debo pagarla?",
+      "respuesta": "No, sin un pacto escrito y específico en el contrato, no debe cobrarte esos gastos extra.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "firmé",
+        "acuerdo",
+        "pagar",
+        "derrama",
+        "exige",
+        "casero"
+      ]
+    },
+    {
+      "pregunta": "¿Puede obligarme el casero a contratar algún tipo un seguro de la casa?",
+      "respuesta": "Sólo si tal obligación constase en el contrato, se hubiese informado de forma previa a la contratación y su finalidad fuera análoga a la de la fianza.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "obligarme",
+        "casero",
+        "contratar",
+        "seguro",
+        "casa",
+        "obligación"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo resolver el contrato de alquiler antes de que pasen seis meses?",
+      "respuesta": "Sí, pero el casero puede exigirte el pago de las mensualidades restantes hasta completar seis meses.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "seis",
+        "meses",
+        "resolver",
+        "contrato",
+        "alquiler",
+        "antes"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo seguir en la vivienda en la que estoy de alquiler si el propietario la pierde por ejecución hipotecaria?",
+      "respuesta": "Si tu contrato es posterior al 6 de marzo de 2019, tienes derecho a seguir hasta cumplir 5 años o 7 años (si el casero es empresa) de alquiler. Esto también será de aplicación en los contratos firmados entre el 19 de diciembre de 2018 y el 23 de enero 2019. > Para los contratos firmados entre el 6 de junio de 2013 y el 6 de marzo de 2019, salvo en el plazo antes indicado, si el casero perdiese su vivienda por la ejecución hipotecaria el contrato quedará extinguido, a no ser que se hubiese inscrito previamente en el Registro de la Propiedad.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "2019",
+        "seguir",
+        "vivienda",
+        "alquiler",
+        "ejecución",
+        "hipotecaria"
+      ]
+    },
+    {
+      "pregunta": "En mi contrato pone que, si tengo un conflicto con el propietario y quiero ir a juicio, será en los juzgados de Valencia, a pesar de que el piso está en Zaragoza ¿Es esto legal?",
+      "respuesta": "No, los juzgados competentes son los del lugar donde está la casa y si consta en el contrato una cláusula que dice otra cosa, se tendrá por no puesta.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "contrato",
+        "juzgados",
+        "pone",
+        "conflicto",
+        "propietario",
+        "quiero"
+      ]
+    },
+    {
+      "pregunta": "Llevo 7 años de alquiler siendo el casero una empresa ¿Se prorroga el contrato?",
+      "respuesta": "Sí, si ninguna parte notifica su intención de finalizarlo, el contrato se prorroga automáticamente por plazos anuales hasta un mínimo de 3 años. Si el contrato es anterior al 6 de marzo de 2019, esta prórroga será de un año, salvo para los contratos firmados entre el 19 de diciembre de 2018 y el 23 de enero 2019, cuya prórroga será por un plazo de tres años.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "años",
+        "contrato",
+        "prorroga",
+        "2019",
+        "prórroga",
+        "será"
+      ]
+    },
+    {
+      "pregunta": "¿Qué tengo que hacer si se acerca el final del séptimo año de contrato de alquiler siendo el casero una empresa y no quiero que se renueve?",
+      "respuesta": "Tienes que comunicarlo con al menos dos meses de antelación.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "acerca",
+        "final",
+        "séptimo",
+        "contrato",
+        "alquiler",
+        "casero"
+      ]
+    },
+    {
+      "pregunta": "¿Qué tiene que hacer el casero (empresa) si no quiere que se prorrogue por 3 años el contrato de alquiler cuando llevo siete años contrato de alquiler siendo el casero una empresa y no quiero que se renueve?",
+      "respuesta": "Tiene que notificar su intención de no renovar con 4 meses de antelación.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "casero",
+        "empresa",
+        "años",
+        "contrato",
+        "alquiler",
+        "quiere"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el contrato de alquiler (siendo el casero una empresa) remitirse en determinados aspectos a otros documentos no entregados previamente?",
+      "respuesta": "No, no se pueden incluir referencias a textos o documentos que no se hayan facilitado antes o en el momento de la firma.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "documentos",
+        "contrato",
+        "alquiler",
+        "casero",
+        "empresa",
+        "remitirse"
+      ]
+    },
+    {
+      "pregunta": "Firmé un alquiler siendo el casero una empresa y ha puesto cláusulas que contradicen lo dispuesto en la Ley de Arrendamientos Urbanos (LAU). En caso de discusión ¿Qué prevalece?",
+      "respuesta": "Lo dispuesto en la LAU en aquello que fija que es imperativo (duración, renta...).",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "dispuesto",
+        "firmé",
+        "alquiler",
+        "casero",
+        "empresa",
+        "puesto"
+      ]
+    },
+    {
+      "pregunta": "¿Quién debe hacerse cargo de las reparaciones necesarias para mantener la vivienda habitable?",
+      "respuesta": "El arrendador tiene la obligación de conservar la vivienda en condiciones de habitabilidad, sin que esto le permita aumentar la renta.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "vivienda",
+        "quién",
+        "hacerse",
+        "cargo",
+        "reparaciones",
+        "necesarias"
+      ]
+    },
+    {
+      "pregunta": "Hay que hacer unas obras de manera urgente en la casa que vivo alquilado ¿tengo que aceptarlo o debe esperar el casero a hacerlo cuando acabe el contrato?",
+      "respuesta": "Si la urgencia impide que se pueda esperar, debes soportarlas, pero si duran más de 20 días, tendrás derecho a una rebaja proporcional de la renta según la parte de la vivienda inutilizable.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "esperar",
+        "obras",
+        "urgente",
+        "casa",
+        "vivo",
+        "alquilado"
+      ]
+    },
+    {
+      "pregunta": "Ha dicho mi casero que quiere hacer unas obras de mejora en la vivienda en la que vivo ¿puede hacerlas sin comunicármelo?",
+      "respuesta": "No, debe comunicarte la naturaleza, duración, coste y fecha de inicio de las obras pudiendo en tu caso optar entre soportarlas (exigiendo una rebaja proporcional de la renta y una indemnización por gastos derivados de las mismas) o resolver el contrato.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "obras",
+        "casero",
+        "quiere",
+        "mejora",
+        "vivienda",
+        "vivo"
+      ]
+    },
+    {
+      "pregunta": "¿Quién debe hacerse cargo de las pequeñas reparaciones por el uso normal de la vivienda, como cambiar una bombilla?",
+      "respuesta": "Las pequeñas reparaciones por desgaste ordinario corren a cargo del inquilino.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "cargo",
+        "pequeñas",
+        "reparaciones",
+        "quién",
+        "hacerse",
+        "normal"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo realizar obras que modifiquen la vivienda?",
+      "respuesta": "No. necesitas el consentimiento del arrendador. Si no lo obtienes, te puede exigir la reposición del estado original sin pagar compensación.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "realizar",
+        "obras",
+        "modifiquen",
+        "vivienda",
+        "necesitas",
+        "consentimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Hay un precio máximo a los alquileres?",
+      "respuesta": "La renta se acuerda libremente entre arrendador y arrendatario, salvo que el inmueble se encuentre en una zona declarada residencial tensionada.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "precio",
+        "máximo",
+        "alquileres",
+        "renta",
+        "acuerda",
+        "libremente"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo puedo saber si el piso que quiero alquilar está en una zona tensionada?",
+      "respuesta": "El Ministerio de Vivienda y Agenda Urbana publica de manera trimestral una resolución en la que se recoge la relación de zonas de mercado residencial tensionado que hayan sido declaradas de acuerdo con el procedimiento establecido.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "piso",
+        "quiero",
+        "alquilar",
+        "zona",
+        "tensionada",
+        "ministerio"
+      ]
+    },
+    {
+      "pregunta": "¿Qué precio pagaré si alquilo un piso en una zona residencial tensionada?",
+      "respuesta": "Dependerá de quién es el propietario y del historial del inmueble: - Si el casero es un gran tenedor: el precio debe ajustarse al índice oficial de alquiler del Gobierno. - Si es un pequeño propietario: el precio no puede superar el del contrato anterior, actualizado con el índice del INE (aunque sea mayor que el índice oficial). - El contrato debe reflejar por escrito el precio anterior y su actualización. - Si es la primera vez que se alquila la vivienda (o la primera vez en 5 años): se aplica el índice del Gobierno, sin importar quién sea el propietario.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "precio",
+        "índice",
+        "propietario",
+        "quién",
+        "oficial",
+        "gobierno"
+      ]
+    },
+    {
+      "pregunta": "¿Qué documentos me deben entregar si alquilo un piso en una zona residencial tensionada?",
+      "respuesta": "- Nota simple del Registro de la Propiedad. - Cédula de habitabilidad. - Información catastral del inmueble. - Certificado de Eficiencia Energética - El precio del último alquiler que hubiese estado vigente en los últimos 5 años. - El precio correspondiente de acuerdo con el índice de referencia de precios del alquiler que se aplicase.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "precio",
+        "alquiler",
+        "documentos",
+        "entregar",
+        "alquilo",
+        "piso"
+      ]
+    },
+    {
+      "pregunta": "¿Cuándo tengo que pagar el alquiler?",
+      "respuesta": "En el plazo que se fije en el contrato. Si no se dice nada, la ley establece que se debe pagar durante los primeros siete días del mes.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "pagar",
+        "alquiler",
+        "plazo",
+        "fije",
+        "contrato",
+        "dice"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo tengo que pagar el alquiler?",
+      "respuesta": "Como se fije en el contrato (transferencia, domiciliación, efectivo, etc.). Si se indica que sea en efectivo, el casero está obligado a entregar un recibo desglosado con los conceptos pagados.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "efectivo",
+        "pagar",
+        "alquiler",
+        "fije",
+        "contrato",
+        "transferencia"
+      ]
+    },
+    {
+      "pregunta": "¿Puede pactarse que el inquilino pague la renta haciendo reformas en la vivienda?",
+      "respuesta": "Sí, es posible sustituir total o parcialmente la renta por el compromiso del arrendatario de reformar o rehabilitar la vivienda, si así se acuerda por escrito.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "renta",
+        "vivienda",
+        "pactarse",
+        "inquilino",
+        "pague",
+        "haciendo"
+      ]
+    },
+    {
+      "pregunta": "¿Es legal que el casero me actualice la renta de alquiler?",
+      "respuesta": "Sí, pero solo si se pactó en el contrato. En contratos posteriores al 5 de marzo de 2019, la renta solo puede actualizarse anualmente y según lo pactado. Deberá comunicarse escrito, indicando el porcentaje aplicado.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "renta",
+        "legal",
+        "casero",
+        "actualice",
+        "alquiler",
+        "pactó"
+      ]
+    },
+    {
+      "pregunta": "¿Hay algún límite a la actualización de la renta de alquiler?",
+      "respuesta": "Sí, en contratos firmados desde el 1 de enero de 2025, la actualización no puede superar el Índice de Referencia de Arrendamientos de Vivienda (IRAV) publicado por el INE.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "actualización",
+        "límite",
+        "renta",
+        "alquiler",
+        "contratos",
+        "firmados"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con mi casero (empresa) ¿Dónde puedo reclamar?",
+      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes intentar acudir a un sistema alternativo de resolución de conflictos o a la Junta Arbitral de Consumo si la empresa acepta. Como última opción, puedes presentar una demanda judicial, incluso sin abogado si el importe es menor de 2.000 €.",
+      "subcategoria": "Arrendamiento",
+      "keywords": [
+        "empresa",
+        "consumo",
+        "puedes",
+        "tenido",
+        "problema",
+        "casero"
+      ]
+    }
+  ]
+}

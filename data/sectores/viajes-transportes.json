@@ -1,0 +1,1540 @@
+{
+  "sector": "Viajes y transportes",
+  "total_preguntas": 118,
+  "preguntas": [
+    {
+      "pregunta": "¿Puede volar solo un menor de edad?",
+      "respuesta": "Los niños de 2 a 4 años deben viajar acompañados por un adulto de al menos 18 años. A partir de los 5 años, pueden volar solos si un adulto responsable firma un Descargo de Responsabilidad y se asegura de que alguien los reciba en el aeropuerto de destino con identificación. Los menores de 2 años no ocupan asiento ni tienen equipaje asignado.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "años",
+        "volar",
+        "adulto",
+        "menor",
+        "edad",
+        "niños"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden negarme la reserva de un vuelo por tener discapacidad o movilidad reducida?",
+      "respuesta": "No. La aerolínea no puede rechazar tu reserva solo por tu discapacidad, salvo que sea necesario por razones de seguridad.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "reserva",
+        "discapacidad",
+        "negarme",
+        "vuelo",
+        "movilidad",
+        "reducida"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden obligarme a volar acompañado si tengo movilidad reducida?",
+      "respuesta": "Sí. Si la seguridad lo requiere, pueden pedirte que viajes con otra persona capaz de prestarte asistencia.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "obligarme",
+        "volar",
+        "acompañado",
+        "movilidad",
+        "reducida",
+        "seguridad"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una aerolínea limitar el número de personas con movilidad reducida en un vuelo?",
+      "respuesta": "Sí. La normativa de seguridad puede restringir cuántas personas con movilidad reducida pueden viajar en la misma aeronave, pero si no aceptan tu reserva, deben comunicarte los motivos de inmediato. Además, la aerolínea debe hacer esfuerzos razonables para proponerte una alternativa o, si procede, reembolsarte el precio del billete.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "aerolínea",
+        "personas",
+        "movilidad",
+        "reducida",
+        "limitar",
+        "número"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una compañía aérea cambiarme de clase en el vuelo?",
+      "respuesta": "Sí, la compañía puede cambiarte de clase. Si te asignan una plaza de clase superior, no tendrás que pagar nada adicional. Si te colocan en una clase inferior, te reembolsarán una parte del precio del billete según la distancia del vuelo.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "clase",
+        "compañía",
+        "vuelo",
+        "aérea",
+        "cambiarme",
+        "cambiarte"
+      ]
+    },
+    {
+      "pregunta": "¿Qué reembolso tiene que hacerme la compañía aérea si me cambia la categoría de billete a una clase inferior?",
+      "respuesta": "El reembolso varía entre el 30% y el 75% según la distancia del vuelo y el tipo de trayecto (intra o extracomunitario). ---------------------------- --------------------- --------------------- ---------------------------- --------------------- --------------------- ------------------------------------------------------------------------ Distancia del vuelo en km Intracomunitarios Extracomunitarios ---------------------------- --------------------- --------------------- 0 -- 1500 km 30% 30% 1500 -- 3500 km 50%* 50% + 3500 km 50%* 75% ------------------------------------------------------------------------ * Excepto vuelos entre el territorio europeo y los territorios franceses de ultramar, que se les reembolsará el 75% del importe del billete.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "reembolso",
+        "billete",
+        "distancia",
+        "vuelo",
+        "1500",
+        "3500"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es un viaje combinado?",
+      "respuesta": "Es un paquete turístico que incluye, al menos, dos servicios de viaje principales (como son el transporte, el alojamiento u otro servicio turístico importante) siempre que se contraten por un precio global o dentro del mismo contrato. (Ejemplo: cuando una persona contrata en una agencia de viajes un paquete turístico a Roma para pasar 6 días y 5 noches incluyendo el paquete el vuelo de ida y vuelta, el alojamiento en un hotel de 4 estrellas con desayuno, y dos excursiones guiadas: una al Coliseo y otra al Vaticano).",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "paquete",
+        "turístico",
+        "viaje",
+        "alojamiento",
+        "combinado",
+        "incluye"
+      ]
+    },
+    {
+      "pregunta": "Entré en la web de una aerolínea y contraté un vuelo de ida y vuela a Venecia ¿Pueden subirme el precio antes de la salida?",
+      "respuesta": "No, las revisiones de precio solo están permitidas en los viajes combinados, donde además del vuelo se contrata conjuntamente otro servicio turístico y siempre que esta posibilidad esté prevista en el contrato. Incluso en esos casos, la subida solo puede deberse a cambios en el coste del transporte, carburante, tasas o tipo de cambio, y nunca puede aplicarse dentro de los veinte días anteriores a la salida, periodo en el que cualquier incremento carece de validez.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "vuelo",
+        "precio",
+        "salida",
+        "entré",
+        "aerolínea",
+        "contraté"
+      ]
+    },
+    {
+      "pregunta": "He sufrido un retraso de 8 horas en mi vuelo a París, pero la compañía dice que no me va a indemnizar porque el retraso se debió a circunstancias extraordinarias ¿Es esto legal?",
+      "respuesta": "Si, no tendrás derecho a indemnización si la cancelación o el retraso se deben a circunstancias extraordinarias. Estas son situaciones que no podrían haberse evitado incluso tomando todas las medidas razonables y la compañía debe probar que han sucedido.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "retraso",
+        "compañía",
+        "circunstancias",
+        "extraordinarias",
+        "sufrido",
+        "horas"
+      ]
+    },
+    {
+      "pregunta": "¿Se consideran circunstancias extraordinarias que eximen de responsabilidad a las compañías aéreas los problemas técnicos del avión?",
+      "respuesta": "No, en general no. Solo se consideran extraordinarios si el fallo técnico proviene de causas ajenas a la aerolínea y que escapan totalmente a su control, como un defecto de fabricación inesperado.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "consideran",
+        "circunstancias",
+        "extraordinarias",
+        "eximen",
+        "responsabilidad",
+        "compañías"
+      ]
+    },
+    {
+      "pregunta": "¿Podría ser una circunstancia extraordinaria que permite a la compañía aérea no indemnizar por retraso o cancelación de un vuelo, una huelga?",
+      "respuesta": "Depende. Es un tema controvertido que han tenido que resolver en muchos casos los tribunales analizando las circunstancias de cada caso. Si la huelga está convocada con mucha antelación, se entiende que la compañía podría haber reubicado los vuelos y por tanto no le exime de responsabilidad. Por el contrario, si es una huelga imprevista e inesperada si que suele entenderse como una circunstancia extraordinaria.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "huelga",
+        "podría",
+        "circunstancia",
+        "extraordinaria",
+        "compañía",
+        "permite"
+      ]
+    },
+    {
+      "pregunta": "¿Podría ser una circunstancia extraordinaria que permite a la compañía aérea no indemnizar por retraso o cancelación de un vuelo, las condiciones climatológicas adversas?",
+      "respuesta": "Depende. Es un tema controvertido que han tenido que resolver en muchos casos los tribunales analizando las circunstancias de cada caso. Por ejemplo, no cabe alegar como circunstancia extraordinaria que haya una nevada normal en Suiza, en cambio las nevadas por el fenómeno climatológico de Filomena en España sí.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "circunstancia",
+        "extraordinaria",
+        "podría",
+        "permite",
+        "compañía",
+        "aérea"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a indemnización si mi vuelo se retrasa por circunstancias extraordinarias?",
+      "respuesta": "No, el Reglamento CE 261/2004 establece que en esos casos no procede indemnización. Sin embargo, la aerolínea sigue obligada a ofrecerte asistencia, como comida, bebida o alojamiento si fuera necesario.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "indemnización",
+        "derecho",
+        "vuelo",
+        "retrasa",
+        "circunstancias",
+        "extraordinarias"
+      ]
+    },
+    {
+      "pregunta": "¿Qué se entiende por circunstancias extraordinarias en la cancelación o el retraso de vuelos?",
+      "respuesta": "En el ámbito del transporte aéreo se consideran circunstancias extraordinarias aquellas situaciones ajenas a la aerolínea, imprevisibles o inevitables, incluso aplicando todas las medidas razonables, y que por tanto eximen a la compañía de pagar compensación por cancelación o gran retraso del vuelo. > Son ejemplos de circunstancias extraordinarias el mal tiempo extremo, los riesgos para la seguridad (incluidas amenazas o cierres del espacio aéreo), las restricciones impuestas por autoridades, los impactos de aves que obligan a realizar revisiones especiales o los defectos inesperados de fabricación del avión. > En cambio, no se consideran circunstancias extraordinarias los problemas técnicos normales de mantenimiento, la falta de personal o la mala organización de la aerolínea, incluido el overbooking.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "circunstancias",
+        "extraordinarias",
+        "cancelación",
+        "retraso",
+        "aéreo",
+        "consideran"
+      ]
+    },
+    {
+      "pregunta": "Volé a Málaga desde Barcelona y mi maleta llegó con retraso por lo que tuve que comprar ropa, y productos de primera necesidad como champú, cepillo de dientes...) ¿Puedo reclamar estos gastos?",
+      "respuesta": "Sí, puedes reclamar esos gastos. Debes rellenar el PIR (Parte de Irregularidad de Equipaje) en el mostrador de la aerolínea o de AENA antes de salir del aeropuerto para dejar constancia del problema, si no lo haces, se entenderá que el equipaje fue entregado correctamente y será difícil demostrar la pérdida o el retraso. Después, tienes que guardar las facturas de las compras que hagas.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "retraso",
+        "reclamar",
+        "gastos",
+        "equipaje",
+        "volé",
+        "málaga"
+      ]
+    },
+    {
+      "pregunta": "¿De qué plazo dispongo para presentar una reclamación a la aerolínea por daños, retraso o pérdida de mi equipaje?",
+      "respuesta": "El plazo depende del tipo de incidencia. Si el equipaje presenta daños, debes reclamar dentro de los 7 días desde que lo recibes. En caso de retraso del equipaje, el plazo es de 21 días a partir de su entrega. Para la pérdida del equipaje, el Convenio no fija un límite concreto, pero se recomienda reclamar tan pronto como sea posible, especialmente una vez hayan pasado los 21 días en que la maleta se ha considerado retrasada o cuando la aerolínea confirme que el equipaje está definitivamente perdido.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "equipaje",
+        "plazo",
+        "días",
+        "aerolínea",
+        "daños",
+        "retraso"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo un plazo para presentar la reclamación por el retraso en la entrega de mi equipaje?",
+      "respuesta": "Sí, dispones de 21 días desde la entrega de la maleta para reclamar por escrito. En cualquier caso, la aerolínea está obligada a informarte de estos plazos.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "entrega",
+        "plazo",
+        "presentar",
+        "reclamación",
+        "retraso",
+        "equipaje"
+      ]
+    },
+    {
+      "pregunta": "Han pasado más de 21 días desde que hice un vuelo y no apareció mi maleta y sigue sin aparecer ¿Qué puedo hacer para reclamar?",
+      "respuesta": "Transcurridos 21 días, puedes reclamar ya no por retraso sino por pérdida del equipaje. Podrás pedir una compensación por los objetos perdidos, la propia maleta y los daños sufridos.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "días",
+        "maleta",
+        "reclamar",
+        "pasado",
+        "hice",
+        "vuelo"
+      ]
+    },
+    {
+      "pregunta": "Al recoger mi maleta al llegar al aeropuerto de destino vi que una rueda estaba rota ¿Qué puedo hacer para reclamar?",
+      "respuesta": "Debes formalizar el PIR y reclamar lo antes posible y siempre dentro de los siete días siguientes a la entrega del equipaje.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "reclamar",
+        "recoger",
+        "maleta",
+        "aeropuerto",
+        "destino",
+        "rueda"
+      ]
+    },
+    {
+      "pregunta": "Llevaba joyas en mi maleta perdida y la compañía no me compensa por su valor sino por un importe mucho más bajo ¿Qué puedo hacer?",
+      "respuesta": "Para el caso en que una compañía pierda una maleta, ésta llegue a su destino con retraso o se causen daños en la misma, el pasajero tendrá derecho a una compensación por los daños ocasionados de hasta 1.519 Derechos Especiales de Giro, unos 2.000 euros. Si vas a transportar en la maleta algo de un valor elevado, tienes que hacer una declaración especial de valor antes del vuelo y pagar la suma adicional correspondiente.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "maleta",
+        "valor",
+        "compañía",
+        "daños",
+        "llevaba",
+        "joyas"
+      ]
+    },
+    {
+      "pregunta": "Compré un vuelo a Mallorca en una conocida página web que se dedica a buscar vuelos y tuve un retraso de 6 horas ¿Puedo reclamar a la web?",
+      "respuesta": "Si solo compraste el vuelo la reclamación por el retraso debe dirigirse directamente a la aerolínea, no a la página web. En cambio, si reservaste un viaje combinado a través de la plataforma, es decir, el vuelo junto con otros servicios como hotel o coche de alquiler, entonces la web o agencia online también tiene responsabilidades como organizadora del viaje y podrías reclamarles a ellos.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "vuelo",
+        "página",
+        "retraso",
+        "viaje",
+        "compré",
+        "mallorca"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar a la web donde compré un billete para un vuelo?",
+      "respuesta": "Si compraste tu billete a través de una web que no es la propia de la aerolínea, podrás reclamar solo por los servicios que ella presta, como la correcta tramitación de la compra, la gestión de datos personales o la información sobre precios. No es responsable de retrasos o cancelaciones del uelo, sino que lo es la compañía aérea. En esos casos reclama tus derechos directamente frente a la aerolinea. Visita el apartado \"vuelos\"",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "reclamar",
+        "billete",
+        "compré",
+        "vuelo",
+        "compraste",
+        "propia"
+      ]
+    },
+    {
+      "pregunta": "Sufrí un gran retraso para un vuelo a Roma por parte de una compañía extranjera ¿Puedo reclamar en el aeropuerto si la compañía no tiene oficina en España?",
+      "respuesta": "Sí, si la aerolínea tiene mostrador o venta de billetes en el aeropuerto, puedes presentar la reclamación allí mismo.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "compañía",
+        "aeropuerto",
+        "sufrí",
+        "gran",
+        "retraso",
+        "vuelo"
+      ]
+    },
+    {
+      "pregunta": "Sufrí un gran retraso para un vuelo a Roma por parte de una compañía extranjera ¿Puedo reclamar si no tiene ninguna sucursal abierta en España?",
+      "respuesta": "Sí, puedes enviar la reclamación directamente a la aerolínea (a través de su página web, por correo electrónico o por carta a su domicilio social que suele estar disponible en su web) o gestionarla a través del Centro Europeo del Consumidor.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "sufrí",
+        "gran",
+        "retraso",
+        "vuelo",
+        "roma",
+        "compañía"
+      ]
+    },
+    {
+      "pregunta": "Compré por internet un billete para volar a Polonia y sufrí una cancelación del vuelo. He reclamado extrajudicialmente y no he llegado a ningún acuerdo ¿En qué país tengo que presentar la demanda?",
+      "respuesta": "Al comprar por internet, se considera que el contrato se celebró en tu lugar de residencia habitual. Por tanto, puedes presentar la demanda en los juzgados de tu domicilio.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "internet",
+        "presentar",
+        "demanda",
+        "compré",
+        "billete",
+        "volar"
+      ]
+    },
+    {
+      "pregunta": "Compré por internet un billete para volar desde Australia a Italia y sufrí una cancelación del vuelo. He reclamado extrajudicialmente y no he llegado a ningún acuerdo ¿En qué país tengo que presentar la demanda? ¿se aplican las normas europeas que imponen a la compañía la obligación automática de indemnizarme?",
+      "respuesta": "Al comprar por internet, se considera que el contrato se celebró en tu lugar de residencia habitual. Por tanto, puedes presentar la demanda en los juzgados de tu domicilio. En cuanto a las normas aplicables, si serían las europeas por tener el avión como destino el aeropuerto de un país de la Unión Europea.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "internet",
+        "país",
+        "presentar",
+        "demanda",
+        "normas",
+        "europeas"
+      ]
+    },
+    {
+      "pregunta": "¿Ante qué juzgados puede poner la persona consumidora una demanda frente a una compañía aérea?",
+      "respuesta": "Puede elegir entre ponerla: - Ante los juzgados de su domicilio. - Ante los juzgados de la sede social de la aerolinea. - Antes los juzgados del lugar donde la relación haya nacido o deba surtir efectos si hay establecimiento abierto al público o representante autorizado para actuar en nombre de la entidad. - Ante los juzgados de partida o llegada del avión.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "juzgados",
+        "persona",
+        "consumidora",
+        "demanda",
+        "frente",
+        "compañía"
+      ]
+    },
+    {
+      "pregunta": "Compré por internet un billete para un vuelo interno dentro de Tailandia y sufrió una cancelación ¿puedo reclamar la indemnización automática recogida en la normativa europea?",
+      "respuesta": "No, los derechos de los pasajeros aéreos de la UE solo se aplican si estás en uno de los siguientes supuestos: - Si tu vuelo se realiza dentro de la UE y está operado por una compañía aérea de la UE o de fuera de la UE. - Si tu vuelo llega a la UE desde fuera de la UE y está operado por una compañía aérea de la UE. - Si tu vuelo sale de la UE hacia un país de fuera de la UE y está operado por una compañía aérea de dentro o de fuera de la UE. - Si no has recibido aún prestaciones (indemnización, transporte alternativo, asistencia de la compañía aérea, etc.) por problemas relacionados con tu vuelo según la legislación aplicable de un país de fuera de la UE.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "vuelo",
+        "fuera",
+        "compañía",
+        "aérea",
+        "dentro",
+        "operado"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cobrarme por el equipaje de mano?",
+      "respuesta": "No, no pueden cobrar por el equipaje de mano que no comprometa la seguridad del vuelo, por ejemplo, invadiendo los pasillos. Este tipo de equipaje se considera indispensable para el transporte del pasajero.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "equipaje",
+        "mano",
+        "cobrarme",
+        "cobrar",
+        "comprometa",
+        "seguridad"
+      ]
+    },
+    {
+      "pregunta": "¿Puede cobrarme la aerolínea si mi equipaje de mano supera las medidas permitidas?",
+      "respuesta": "Sí, si excede las dimensiones o peso autorizados, la aerolínea puede considerarlo equipaje a facturar y cobrar el importe correspondiente. La información acerca de las dimensiones del equipaje de mano debe ser clara y no engañosa para el pasajero.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "equipaje",
+        "aerolínea",
+        "mano",
+        "dimensiones",
+        "cobrarme",
+        "supera"
+      ]
+    },
+    {
+      "pregunta": "Contraté un viaje de 7 días a Grecia con los vuelos, las estancias en el hotel y las excursiones. Sufrí diferentes problemas como son retrasos, mala comida, excursiones que no se hicieron ¿A quién tengo que reclamar?",
+      "respuesta": "Según el Tribunal Supremo, puedes reclamar tanto a la agencia que vendió el viaje como al mayorista que lo organizó, y ellos se encargarán de reclamar al responsable real.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "reclamar",
+        "viaje",
+        "excursiones",
+        "contraté",
+        "días",
+        "grecia"
+      ]
+    },
+    {
+      "pregunta": "Cometí un error al hacer la reserva por internet de un vuelo al poner en mi nombre \"Ricaro\" en lugar de Ricardo\"¿Pueden cobrarme por corregirlo?",
+      "respuesta": "No, si se trata de un error involuntario y no implica cambiar al pasajero, la corrección de datos personales es gratuita según el \"Derecho de rectificación\" del Reglamento General de Protección de Datos. Solo si la solicitud es manifiestamente infundada o excesiva, por ejemplo, si se repite muchas veces. Incluso entonces, el cobro se limitaría a los costes administrativos justificados no una penalización desproporcionada.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "error",
+        "datos",
+        "cometí",
+        "reserva",
+        "internet",
+        "vuelo"
+      ]
+    },
+    {
+      "pregunta": "Compré un billete de avión por 200 euros y ahora me dicen que son 254 porque no estaba incluido un impuesto ¿Es esto legal?",
+      "respuesta": "No, el precio debe reflejar la tarifa, impuestos, cánones, recargos y derechos obligatorios o previsibles.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "compré",
+        "billete",
+        "avión",
+        "euros",
+        "dicen",
+        "estaba"
+      ]
+    },
+    {
+      "pregunta": "¿Qué norma regula los derechos de los pasajeros aéreos en la Unión Europea?",
+      "respuesta": "El Reglamento (ce) no 261/2004 del Parlamento europeo y del Consejo de 11 de febrero de 2004 por el que se establecen normas comunes sobre compensación y asistencia a los pasajeros aéreos en caso de denegación de embarque y de cancelación o gran retraso de los vuelos, y se deroga el Reglamento (CEE) no 295/91 y también hay que tener en cuenta lo dispuesto en el Reglamento (CE) no 1107/2006 del Parlamento Europeo y del Consejo, de 5 de julio de 2006 , sobre los derechos de las personas con discapacidad o movilidad reducida en el transporte aéreo",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "reglamento",
+        "derechos",
+        "pasajeros",
+        "aéreos",
+        "2004",
+        "parlamento"
+      ]
+    },
+    {
+      "pregunta": "¿A qué vuelos se aplica el Reglamento CE 261/2004 que contiene los derechos de los pasajeros cuando hay denegación de embarque, cancelación o gran retraso?",
+      "respuesta": "A los pasajeros que partan de un aeropuerto situado en el territorio de un país de la UE o Islandia, Noruega o Liechtenstein y a los pasajeros que partan de un aeropuerto situado en un tercer país con destino a otro situado en el territorio de un Estado miembro o Islandia, Noruega o Liechtenstein.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "pasajeros",
+        "situado",
+        "partan",
+        "aeropuerto",
+        "territorio",
+        "país"
+      ]
+    },
+    {
+      "pregunta": "Quedando 24 horas para volar a Marruecos desde Vigo, han cancelado mi vuelo ¿Puedo reclamar?",
+      "respuesta": "Si, en ese caso, la compañía debe ofrecerte: - El reembolso del coste del billete, así como un vuelo al primer punto de partida, o - el traslado hasta el punto de destino a través otro medio de transporte en condiciones comparables. Además, tienes derecho a ser compensado por dicha cancelación. El importe de ésta variará en función de la distancia del vuelo. - 250 € si el vuelo es inferior a 1.500 kms. - de 400 € si es de entre 1.500 y 3.500 kms - y de 600 euros si el vuelo es superior a 3.500 kms.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "vuelo",
+        "punto",
+        "quedando",
+        "horas",
+        "volar",
+        "marruecos"
+      ]
+    },
+    {
+      "pregunta": "¿Está exenta una compañía aérea de compensar por la cancelación de un vuelo en algún caso?",
+      "respuesta": "No habrá derecho a compensación en los siguientes casos: - Fuerza mayor, siempre que la aerolínea lo pueda acreditar. - Cancelaciones con aviso previo: - Con dos semanas de antelación. - Entre 7 días y 2 semanas, si se ofrece transporte alternativo con salida ≤2 horas antes y llegada ≤4 horas después. - Menos de 7 días, si se ofrece transporte alternativo con salida ≤1 hora antes y llegada ≤2 horas después.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "horas",
+        "semanas",
+        "días",
+        "ofrece",
+        "transporte",
+        "alternativo"
+      ]
+    },
+    {
+      "pregunta": "Me he presentado en el aeropuerto para tomar mi vuelo a Valencia y la aerolínea me dice que hay overbooking ¿Qué es esto?",
+      "respuesta": "Es la situación que se produce cuando la compañía vende más billetes de los que tiene plazas en el avión.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "presentado",
+        "aeropuerto",
+        "tomar",
+        "vuelo",
+        "valencia",
+        "aerolínea"
+      ]
+    },
+    {
+      "pregunta": "¿Qué tiene que hacer una compañía aérea cuando hay overbooking?",
+      "respuesta": "Primero tiene que buscar pasajeros voluntarios que renuncien al vuelo, ofreciéndoles atención como comida, alojamiento y una compensación. Quien no pueda volar tendrá los mismos derechos que en una cancelación de vuelo, incluyendo reembolso, transporte alternativo e indemnización si corresponde.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "vuelo",
+        "compañía",
+        "aérea",
+        "overbooking",
+        "primero",
+        "buscar"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a asistencia si mi vuelo sufre un retraso?",
+      "respuesta": "Sí, la aerolínea debe prestar asistencia que incluyen comida, bebidas, llamadas, correos electrónicos y alojamiento si es necesario en los siguientes casos: - En vuelos de hasta 1.500 km: cuando el retraso es superior a 2 horas. - En vuelos de entre 1.500 y 3.500 km o vuelos extracomunitarios de esa distancia: cuando el retraso es superior a 3 horas. - En otros vuelos: cuando el retraso es superior a 4 horas.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "retraso",
+        "vuelos",
+        "superior",
+        "horas",
+        "asistencia",
+        "derecho"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar indemnización económica por un retraso aéreo?",
+      "respuesta": "Sí, si el retraso supera las 3 horas, tendrás derecho a las mismas indemnizaciones que en caso de cancelación, salvo fuerza mayor acreditada por la compañía. Siendo estas: - 250 € si el vuelo es inferior a 1.500 kms. - de 400 € si es de entre 1.500 y 3.500 kms - y de 600 euros si el vuelo es superior a 3.500 kms.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "retraso",
+        "vuelo",
+        "reclamar",
+        "indemnización",
+        "económica",
+        "aéreo"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si sufro un retraso de 8 horas? ¿Cómo puedo reclamar?",
+      "respuesta": "Si el retraso supera las 5 horas puedes desistir del vuelo y recuperar el coste del billete. Además, puedes reclamar por los daños y perjuicios ocasionados, como pérdida de vacaciones, excursiones o conexiones con otros transportes. > Para presentar una reclamación por un gran retraso como en este caso, pero también por denegación de embarque (overbooking), cancelación del vuelo, cambio de clase o asistencia a personas con movilidad reducida, primero debes dirigirte a la aerolínea. Si no responde en un mes o la respuesta es insatisfactoria, puedes acudir a la Agencia Española de Seguridad Aérea (AESA) dentro del plazo de un año desde la reclamación inicial. > El procedimiento ante AESA dura 90 días, ampliables otros 90 si es necesario. Si no hay resolución en ese plazo, la reclamación se considera desestimada. La resolución es vinculante para la aerolínea y debe cumplirse en un mes. Si no se cumple, el pasajero puede acudir a los juzgados (sin abogado si reclama menos de 2.000 euros), y el incumplimiento constituye una infracción según la Ley de Seguridad Aérea. Podrán recurrir a este procedimiento los pasajeros independientemente de su nacionalidad que partan de un aeropuerto situado en territorio español o de un aeropuerto situado en un país que no sea miembro de la Unión Europea, con destino a otro situado en territorio español, cuando participe en la operación de transporte una compañía aérea comunitaria.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "retraso",
+        "puedes",
+        "reclamación",
+        "aérea",
+        "situado",
+        "horas"
+      ]
+    },
+    {
+      "pregunta": "Se canceló mi vuelo a Praga hace ya 10 días y no he tenido ninguna noticia de la compañía ¿Qué puedo hacer?",
+      "respuesta": "Para presentar una reclamación por cancelación como en este caso, pero también por retraso, denegación de embarque, cambio de clase o asistencia a personas con movilidad reducida, primero debes dirigirte a la aerolínea. Si no responde en un mes o la respuesta es insatisfactoria, puedes acudir a la Agencia Española de Seguridad Aérea (AESA) dentro del plazo de un año desde la reclamación inicial. > El procedimiento ante AESA dura 90 días, ampliables otros 90 si es necesario. Si no hay resolución en ese plazo, la reclamación se considera desestimada. La resolución es vinculante para la aerolínea y debe cumplirse en un mes. Si no se cumple, el pasajero puede acudir a los juzgados (sin abogado si reclama menos de 2.000 euros), y el incumplimiento constituye una infracción según la Ley de Seguridad Aérea. Podrán recurrir a este procedimiento los pasajeros independientemente de su nacionalidad que partan de un aeropuerto situado en territorio español o de un aeropuerto situado en un país que no sea miembro de la Unión Europea, con destino a otro situado en territorio español, cuando participe en la operación de transporte una compañía aérea comunitaria.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "reclamación",
+        "aérea",
+        "situado",
+        "días",
+        "compañía",
+        "aerolínea"
+      ]
+    },
+    {
+      "pregunta": "Contraté con un vuelo a Francia, pero estoy hospitalizado en la fecha del viaje tras sufrir una operación por rotura del peroné ¿Puedo cancelar el viaje?",
+      "respuesta": "Sí. Al haber circunstancias inevitables o extraordinarias que afectan de forma importante al viaje, puedes cancelarlo sin pagar penalización.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "viaje",
+        "contraté",
+        "vuelo",
+        "francia",
+        "hospitalizado",
+        "fecha"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a las compensaciones de la normativa europea si pierdo un vuelo de conexión?",
+      "respuesta": "Sí, si los vuelos forman parte de una reserva única, y llegas a tu destino final con un retraso de tres horas o más, y el retraso no se debe a circunstancias extraordinarias, siempre que el vuelo -inicial o de conexión- salga de un país de la UE, o aterrice -con independencia del país de partida- en un país de la UE .",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "país",
+        "vuelo",
+        "conexión",
+        "retraso",
+        "derecho",
+        "compensaciones"
+      ]
+    },
+    {
+      "pregunta": "Compré un billete de avión para volar con una compañía, pero finalmente viajé en un vuelo con otra. Sufrí un overbooking, ¿a quién debo reclamar? ¿cómo hago la reclamación?",
+      "respuesta": "Aunque la compañía que opera el vuelo no sea la misma con la que compraste el billete, la aerolínea operadora es la responsable y a ella debes dirigir tu reclamación. En los vuelos de código compartido, donde varias aerolíneas venden el mismo vuelo, pero solo una lo opera, la responsable es la aerolínea que efectivamente realiza el vuelo. > Para presentar una reclamación por denegación de embarque u overbooing como en este caso, pero también por retraso, cancelación del vuelo, cambio de clase o asistencia a personas con movilidad reducida, primero debes dirigirte a la aerolínea. Si no responde en un mes o la respuesta es insatisfactoria, puedes acudir a la Agencia Española de Seguridad Aérea (AESA) dentro del plazo de un año desde la reclamación inicial. > El procedimiento ante AESA dura 90 días, ampliables otros 90 si es necesario. Si no hay resolución en ese plazo, la reclamación se considera desestimada. La resolución es vinculante para la aerolínea y debe cumplirse en un mes. Si no se cumple, el pasajero puede acudir a los juzgados (sin abogado si reclama menos de 2.000 euros), y el incumplimiento constituye una infracción según la Ley de Seguridad Aérea. Podrán recurrir a este procedimiento los pasajeros independientemente de su nacionalidad que partan de un aeropuerto situado en territorio español o de un aeropuerto situado en un país que no sea miembro de la Unión Europea, con destino a otro situado en territorio español, cuando participe en la operación de transporte una compañía aérea comunitaria.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "vuelo",
+        "reclamación",
+        "aerolínea",
+        "compañía",
+        "aérea",
+        "situado"
+      ]
+    },
+    {
+      "pregunta": "Compré un billete de avión para volar con una compañía, pero",
+      "respuesta": "finalmente viajé en un vuelo con otra y he tenido un problema. ¿a quién debo reclamar? ¿cómo hago la reclamación? Aunque la compañía que opera el vuelo no sea la misma con la que compraste el billete, la aerolínea operadora es la responsable y a ella debes dirigir tu reclamación. En los vuelos de código compartido, donde varias aerolíneas venden el mismo vuelo, pero solo una lo opera, la responsable es la aerolínea que efectivamente realiza el vuelo. > Si en el plazo de un mes no recibes respuesta satisfactoria a tu reclamación, podrás acudir a la AESA en caso de denegacion de embarque, retraso o cancelación del vuelo; y, a los tribunales de justicia en el resto de los casos. No necesitarás abogado ni procurador si la reclamación no supera 2.000 euros.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "vuelo",
+        "reclamación",
+        "billete",
+        "compañía",
+        "opera",
+        "aerolínea"
+      ]
+    },
+    {
+      "pregunta": "La compañía no me ha permitido embarcar ¿a quién debo",
+      "respuesta": "reclamar? ¿cómo hago la reclamación? En primer lugar deberás reclamar a aerolínea. Si en el plazo de un mes no recibes respuesta satisfactoria, puedes acudir a la Agencia Española de Seguridad Aérea (AESA) dentro del plazo de un año desde la reclamación inicial. > El procedimiento ante AESA dura 90 días, ampliables otros 90 si es necesario. Si no hay resolución en ese plazo, la reclamación se considera desestimada. La resolución es vinculante para la aerolínea y debe cumplirse en un mes. Si no se cumple, el pasajero puede acudir a los juzgados (sin abogado si reclama menos de 2.000 euros), y el incumplimiento constituye una infracción según la Ley de Seguridad Aérea. > Podrán recurrir a este procedimiento los pasajeros independientemente de su nacionalidad que partan de un aeropuerto situado en territorio español o de un aeropuerto situado en un país que no sea miembro de la Unión Europea, con destino a otro situado en territorio español, cuando participe en la operación de transporte una compañía aérea comunitaria.",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "reclamación",
+        "plazo",
+        "aérea",
+        "situado",
+        "compañía",
+        "reclamar"
+      ]
+    },
+    {
+      "pregunta": "Compré un billete de avión para salir desde París a Alicante, pero me han dicho que hay un cambio y el vuelo va a salir desde Bruselas. ¿Qué debo hacer en este caso?",
+      "respuesta": "Cuando la aerolínea cambia el aeropuerto de salida respecto al plan original, la situación se trata igual que si el vuelo se hubiera desviado a otro aeropuerto. El vuelo se considerará cancelado, salvo que la compañía ofrezca traslado de los pasajeros desde el aeropuerto inicialmente previsto hasta el nuevo aeropuerto de salida. > **",
+      "subcategoria": "Transporte aéreo",
+      "keywords": [
+        "aeropuerto",
+        "vuelo",
+        "salir",
+        "salida",
+        "compré",
+        "billete"
+      ]
+    },
+    {
+      "pregunta": "¿Si cancelo un billete de tren o autobús, tengo derecho al reembolso del dinero pagado?",
+      "respuesta": "Legalmente no está previsto salvo en los viajes combinados en los términos legalmente previstos debiendo abonar una compensación. No obstante, si en la publicidad de los transportistas se recoge este derecho o en contrato, podrás ejercerlo en las condiciones indicadas.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "derecho",
+        "legalmente",
+        "cancelo",
+        "billete",
+        "tren",
+        "autobús"
+      ]
+    },
+    {
+      "pregunta": "¿Cuánto equipaje puedo llevar como viajero en un autobús o en el tren?",
+      "respuesta": "Tendrás derecho a viajar con equipaje en las condiciones y con el coste que el transportista fije en el contrato.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "equipaje",
+        "llevar",
+        "viajero",
+        "autobús",
+        "tren",
+        "tendrás"
+      ]
+    },
+    {
+      "pregunta": "¿Qué debo hacer en caso de daño o accidente durante un viaje en tren o autobús?",
+      "respuesta": "En caso de daño o accidente en tren o autobús, primero informa al transportista y deja constancia de tu presencia. Recoge pruebas como fotos, referencias del vehículo y datos de testigos. Si necesitas asistencia médica, conserva informes y facturas. Con toda la documentación, presenta la reclamación que deberá atender el transportista como obligado a contratar un Seguro Obligatorio de Viajeros.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "daño",
+        "accidente",
+        "tren",
+        "autobús",
+        "transportista",
+        "viaje"
+      ]
+    },
+    {
+      "pregunta": "¿Qué información debe dar el transportista o la agencia de viajes antes de contratar un billete de tren o autobús?",
+      "respuesta": "Debe darte información completa sobre precios, horarios, paradas, categoría y servicios del transporte, equipaje, cancelaciones, accesibilidad y posibilidad de llevar animales. > En viajes en tren, además se debe informar sobre horarios de los viajes más rápidos, tarifas económicas, acceso para bicicletas, vagones para fumadores/no fumadores, clases, literas y coches-cama. > También se debe informar sobre los derechos del pasajero ante retrasos, cancelaciones, accidentes, daños o pérdida de equipaje, y sobre los mecanismos de reclamación disponibles.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "viajes",
+        "información",
+        "tren",
+        "horarios",
+        "equipaje",
+        "cancelaciones"
+      ]
+    },
+    {
+      "pregunta": "Han cancelado mi billete de autobús con destino a Galicia porque hay un incendio que atraviesa la carretera ¿Tengo derecho a reclamar una indemnización?",
+      "respuesta": "Tienes derecho a que te reembolsen el dinero abonado por el billete o darte un bono para otro viaje. No tendrías derecho a indemnización porque se entiende que es una causa de fuerza mayor ajena a la compañía de transporte.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "derecho",
+        "billete",
+        "indemnización",
+        "cancelado",
+        "autobús",
+        "destino"
+      ]
+    },
+    {
+      "pregunta": "Me ha dicho la compañía de autobús que hay previsión de llegar con más de 3 horas de retraso a mi destino ¿Qué derechos tengo?",
+      "respuesta": "Tendrás derecho a elegir entre: > a) continuación o recorrido alternativo hasta el destino final sin coste adicional y en la primera ocasión posible, en condiciones comparables a las estipuladas en el contrato de transporte; > b) reembolso del precio del billete y, si procede, un servicio de vuelta gratuito en autobús o autocar en la primera ocasión posible, al primer punto de partida mencionado en el contrato de transporte. > Si el transportista no ofrece la opción de continuar el viaje el viajero tendrás derecho a percibir una indemnización del 50 % del precio del billete, que deberá abonarte en un mes desde la reclamación; además del reembolso del billete, que deberá abonarse en 14 días.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "billete",
+        "autobús",
+        "destino",
+        "tendrás",
+        "derecho",
+        "ocasión"
+      ]
+    },
+    {
+      "pregunta": "Voy a viajar en autobús y tengo una discapacidad. Al pedir ayuda para el desplazamiento, me informan de que debo pagar un suplemento. ¿Está permitido que me cobren por este servicio?",
+      "respuesta": "No. Las empresas de autobuses no pueden cobrar un suplemento a las personas con discapacidad o movilidad reducida por la reserva ni por la asistencia. Este servicio debe ser gratuito en las estaciones designadas. Para recibirlo, se debe avisar con al menos 36 horas de antelación y presentarse en el punto indicado con hasta 60 minutos de margen antes de la salida, o 30 minutos si no se ha fijado una hora concreta.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "discapacidad",
+        "suplemento",
+        "servicio",
+        "minutos",
+        "viajar",
+        "autobús"
+      ]
+    },
+    {
+      "pregunta": "Voy a hacer un viaje en tren y estando en la estación en la estación se me ha dicho que tendrá un retraso de 70 minutos ¿Cuáles son mis derechos?",
+      "respuesta": "En caso de que se prevea un retraso superior a 60 minutos como el que refieres, podrás elegir entre: - El reintegro del importe total del billete más la indemnización legalmente prevista, y cuando proceda, un servicio de regreso lo antes posible al punto de partida - La continuación del viaje o la conducción por una vía alternativa al punto de destino final, en condiciones de transporte comparables y lo antes posible; o en una fecha posterior que convenga al viajero. Además, en ese caso, se te ofrecerá asistencia gratuita a los viajeros: comidas y refrigerios; alojamiento y transporte al lugar de alojamiento.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "viaje",
+        "estación",
+        "retraso",
+        "minutos",
+        "antes",
+        "posible"
+      ]
+    },
+    {
+      "pregunta": "¿Cuáles son las indemnizaciones por retraso del tren?",
+      "respuesta": "Si el viajero decide continuar el viaje pese al retraso, el Reglamento Europeo concede una compensación del 25% del billete por demoras de 60 a 119 minutos y del 50% a partir de 120 minutos, pagadera en un mes. En España, la normativa fija una indemnización del 50% si el retraso supera una hora y del 100% si excede los 90 minutos. > Si la compañía tiene un compromiso de puntualidad en el que establece indemnizaciones más altas, el pasajero podrá exigir estas.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "retraso",
+        "minutos",
+        "indemnizaciones",
+        "cuáles",
+        "tren",
+        "viajero"
+      ]
+    },
+    {
+      "pregunta": "¿Cuáles son mis derechos por la cancelación de un viaje de tren?",
+      "respuesta": "Tienes derecho a que se te devuelva el precio pagado por el servicio. Si la cancelación se produce en las 48h previas al viaje podrás elegir entre en un transporte alternativo o a la devolución del precio del billete. Si fueras informado de la cancelación en las cuatro horas antes de la salida, tendrás derecho, además, a una indemnización del doble del importe del billete.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "cancelación",
+        "viaje",
+        "derecho",
+        "precio",
+        "billete",
+        "cuáles"
+      ]
+    },
+    {
+      "pregunta": "Hice una reclamación a la compañía de autocares por un retraso y pasado un mes no me ha contestado ¿Qué puedo hacer?",
+      "respuesta": "Puedes acudir a las Juntas Arbitrales de Transporte, son un sistema gratuito y voluntario para resolver conflictos sin necesidad de abogado. Su decisión, llamada laudo, es de obligado cumplimiento. Solo se aplica si ambas partes aceptan y la reclamación no supera los 15.000 €. Si la empresa no acepta el arbitraje, podrás interponer una demanda judicial en la que si reclamas menos de 2.000 euros, no necesitarás contratar abogado. Es importante saber eso si, que la acción judicial y la arbitral, son incompatibles entre sí, hay que decidirse por una o por otra.",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "reclamación",
+        "abogado",
+        "judicial",
+        "hice",
+        "compañía",
+        "autocares"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con una compañía de tren que me canceló un viaje solo 3 horas antes de la salida y sin alegar circunstancias excepcionales ¿Qué puedo hacer?",
+      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes intentar acudir a un sistema alternativo de resolución de conflictos o a la Junta Arbitral de Transporte si la empresa acepta y la reclamación no supera los 15.000 €. Como última opción, puedes presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. **",
+      "subcategoria": "Transporte terrestre",
+      "keywords": [
+        "empresa",
+        "reclamación",
+        "puedes",
+        "tenido",
+        "problema",
+        "compañía"
+      ]
+    },
+    {
+      "pregunta": "Tenía un viaje en barco y se ha retrasado ¿Puedo reclamar?",
+      "respuesta": "Sí. Si el barco llega tarde, puedes solicitar la devolución del 25% del precio del billete, siempre que el retraso supere: - 1 hora en trayectos de hasta 4 horas. - 2 horas en viajes de entre 4 y 8 horas. - 3 horas si dura entre 8 y 24 horas. - 6 horas cuando el trayecto supera las 24 horas. Si el retraso es más del doble del tiempo indicado, puedes reclamar una indemnización del 50% del importe del billete.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "horas",
+        "barco",
+        "reclamar",
+        "puedes",
+        "billete",
+        "retraso"
+      ]
+    },
+    {
+      "pregunta": "Tenía contratado un viaje en barco para ir de Algeciras a Melilla, pero la empresa me dice que se ha cancelado ¿Puedo reclamar?",
+      "respuesta": "Puedes reclamar el: - Reembolso en 7 días del coste íntegro del billete - Transporte, sin coste adicional, hasta el destino final en condiciones de transporte comparables, lo más rápido posible. Además, podrás pedir una indemnización de daños y perjuicios siempre que los acredites (por ejemplo, si pierdes una noche de hotel que ya habías pagado).",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "reclamar",
+        "coste",
+        "transporte",
+        "tenía",
+        "contratado",
+        "viaje"
+      ]
+    },
+    {
+      "pregunta": "¿Cuento con los mismos derechos que un viajero de tren o avión cuando viajo en barco?",
+      "respuesta": "Sí. En caso de retraso o cancelación, tienes derechos similares a los de otros medios de transporte, siempre que se trate de embarcaciones con más de doce pasajeros, más de tres tripulantes o que ofrezcan un servicio comercial, como los ferris.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "derechos",
+        "cuento",
+        "viajero",
+        "tren",
+        "avión",
+        "viajo"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo los mismos derechos como pasajero de un crucero que como pasajero de un barco comercial?",
+      "respuesta": "No las normas que se aplican en un caso y otro son diferentes, así por ejemplo, en el caso de los cruceros, los pasajeros no tienen derecho a transporte alternativo, reembolso por cancelación o retraso de salidas, ni indemnización por retrasos en la llegada. No obstante, quedan protegidos por la legislación de viajes combinados: deber de información, información precontractual vinculante, limitación en la modificación del precio, derecho a resolver el contrato en caso de modificación sustancial del viaje, a cancelar el viaje a cambio de una penalizacióń adecuada y justificable, a recibir asistencia, etc. .",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "pasajero",
+        "derecho",
+        "información",
+        "modificación",
+        "viaje",
+        "derechos"
+      ]
+    },
+    {
+      "pregunta": "He comprado un billete para un viaje en ferri y voy en silla de ruedas ¿Puedo pedir asistencia a la compañía el día del viaje?",
+      "respuesta": "Si. Tienes derecho a una asistencia gratuita, tanto en las terminales portuarias como a bordo de los buques, incluido el embarque y desembarque, aunque debes advertírselo al transportista antes de comprar el billete.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "billete",
+        "viaje",
+        "asistencia",
+        "comprado",
+        "ferri",
+        "silla"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a compensación o transporte alternativo si mi crucero se retrasa o se cancela?",
+      "respuesta": "No. Los cruceros no están cubiertos por esas compensaciones; esos casos se regulan por la normativa de viajes combinados, no por la de transporte marítimo comercial.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "transporte",
+        "derecho",
+        "compensación",
+        "alternativo",
+        "crucero",
+        "retrasa"
+      ]
+    },
+    {
+      "pregunta": "¿Qué normas se aplican a los viajes en crucero?",
+      "respuesta": "La legislación de viajes combinados y, además, si el puerto de embarque pertenece a un estado miembro de la Unión Europea, también se les aplica lo recogido en el [Reglamento 1177/2010](https://www.boe.es/buscar/doc.php?id=DOUE-L-2010-82361), excepto en lo referente a los servicios de conexión, transporte alternativo y reembolso en cancelaciones o retrasos en la salida, así como a la indemnización en retrasos en la llegada. > Asi si por ejemplo reservas un crucero que sale desde Barcelona hacia las Islas Baleares. Como Barcelona está en la UE, se aplican las normas del Reglamento 1177/2010 en cuanto a asistencia y derechos de los pasajeros, además de la legislación de viajes combinados que protege su reserva de hotel y excursiones incluidas en el paquete. Sin embargo, si su vuelo de conexión a Barcelona llega tarde y provoca que pierda el embarque, esas reglas específicas de transporte alternativo o compensación no se aplican; la aerolínea, y no la compañía del crucero, sería responsable.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "aplican",
+        "viajes",
+        "crucero",
+        "2010",
+        "barcelona",
+        "normas"
+      ]
+    },
+    {
+      "pregunta": "Contraté un crucero por el mediterráneo hace 5 meses y cuando quedan 10 días para el inicio me han dicho que tengo que pagar 200 euros más, ¿es esto legal?",
+      "respuesta": "No, tras la firma del contrato, los precios únicamente pueden modificarse si se producen gastos específicos, si viene indicada expresamente esa posibilidad en el contrato y si se producen hasta 20 días naturales antes de la salida del crucero.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "crucero",
+        "días",
+        "contrato",
+        "producen",
+        "contraté",
+        "mediterráneo"
+      ]
+    },
+    {
+      "pregunta": "¿En qué casos pueden aumentar el precio de un crucero que ya tenía contratado?",
+      "respuesta": "Cuando cambian los impuestos o tasas del servicio o varían los tipos de cambio de divisa aplicables al crucero.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "crucero",
+        "casos",
+        "aumentar",
+        "precio",
+        "tenía",
+        "contratado"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo cancelar el viaje si me aumentan el precio de un crucero ya contratado por subida de las tasas de servicio?",
+      "respuesta": "Sí. Si la subida supera el 8% del precio total, puedes decidir entre aceptar el nuevo precio o cancelar el contrato sin pagar penalización. La empresa siempre tiene que avisar del posible aumento y si no contestas a tiempo, se entiende que cancelas sin penalización y devolverte el dinero en un plazo máximo de 14 días naturales.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "precio",
+        "cancelar",
+        "subida",
+        "penalización",
+        "viaje",
+        "aumentan"
+      ]
+    },
+    {
+      "pregunta": "Tuve un problema por un retraso con un viaje en ferri ¿Tengo un plazo para presentar una reclamación?",
+      "respuesta": "Sí, dispones de dos meses desde que ocurre el incidente para presentar tu reclamación por escrito ante la empresa o el operador de la terminal. Si no responden o la respuesta no te convence, puedes acudir a otros organismos.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "presentar",
+        "reclamación",
+        "tuve",
+        "problema",
+        "retraso",
+        "viaje"
+      ]
+    },
+    {
+      "pregunta": "Contraté un crucero en una agencia de viajes y sufrí un retraso de 12 horas en la salida ¿Dónde puedo reclamar?",
+      "respuesta": "Primero directamente a la Agencia y si en un mes no responde o lo hace insatisfactoriamente, ante el órgano con competencias en turismo de tu Comunidad Autónoma.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "agencia",
+        "contraté",
+        "crucero",
+        "viajes",
+        "sufrí",
+        "retraso"
+      ]
+    },
+    {
+      "pregunta": "No pude acceder a un ferri en silla de ruedas ¿Dónde puedo reclamar?",
+      "respuesta": "Primero directamente al transportista, operador o agencia. Si no estás conforme con la respuesta, puedes acudir a la Dirección General de la Marina Mercante del Ministerio de Fomento.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "pude",
+        "acceder",
+        "ferri",
+        "silla",
+        "ruedas",
+        "reclamar"
+      ]
+    },
+    {
+      "pregunta": "Contraté un crucero y tuve varios problemas como son que no había barra libre pese a haberla contratado y se hicieron menos excursiones de las contratadas ¿Qué puedo hacer?",
+      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir al organismo de tu comunidad autónoma con competencias en turismo, aunque en muchos casos pueden sancionar a la agencia, pero no reintegrarte cantidades que solicites a modo de compensación. En ese caso, puedes intentar acudir a un sistema alternativo de resolución de conflictos o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En este caso puedes presentar una reclamación ante el organizador o ante la agencia de viajes, solicitando una compensación por los servicios contratados no prestados. > Puedes hacerlo solicitando la hoja de reclamaciones, por correo postal o electrónico, a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles de usuario en la web, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero si la utilizas solicita un justificante de tu reclamación y un número de referencia. > También podrás presentar tu reclamación a través de la OMIC o acudir a una asociación de consumidores (ponemos enlaces a directorio y definición?) > Si en el plazo de un mes no recibes respuesta satisfactoria podrás solicitar un arbitraje de consumo (voluntario para la empresa salvo que esté previamente adherida) o acudir a la vía judicial (en caso de reclamaciones no superiores a 2.000 euros, no necesitarás abogado ni procurador). (ponemos enlaces a definiciones?) > También puedes denunciar los hechos ante la Dirección General de Turismo, u organismo compentente, de tu Comunidad Autónoma, En este caso no resolverán sobre tu reclamación ni tu derecho a compensación, pero sí podrán sancionar a la entidad por incumplimiento.",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "reclamación",
+        "puedes",
+        "acudir",
+        "empresa",
+        "organismo",
+        "compensación"
+      ]
+    },
+    {
+      "pregunta": "Contraté un viaje en ferri y sufrí problemas de acceso con mi silla de ruedas, además de que había serios defectos que afectaban a la seguridad de la embarcación ¿Qué puedo hacer?",
+      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir al Ministerio de Fomento. No obstante, es posible que sancione a la empresa, pero no te reintegre cantidades que solicites a modo de compensación. En ese caso, puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. Soy una persona que va en silla de ruedas, reservé un billete para un ferry/crucero, pero las instalaciones no estaban adaptadas para poder realizar el mismo. ¿Qué puedo hacer? Debe presentarse reclamación ante la entidad transportista, agencia de viajes u operador turístico, según proceda, requiriendo la debida compensación por daños y perjuicios, en el plazo de dos meses desde que se prestó el servicio. En el plazo de un mes deberán notificarle si su reclamación ha sido atendida o desestimada o es todavía objeto de estudio. El plazo de respuesta definitiva no deberá superar dos meses. Si su reclamación es desestimada o no atendida en el plazo indicado podrá acudir a la Dirección General de la Marina Mercante ¿Como persona con discapacidad, qué asistencia puedo solicitar al viajar en barco o crucero? Tienes derecho a que exista un punto de recepción para comunicar tu llegada y solicitar asistencia. Además, tendrás derecho ser asistida para: - Desplazarte en el puerto y en el barco - Embarcar y desembarcar -Para las gestiones necesarias en un viaje: la comprobación del billete, la facturación del equipaje, acceder a determinados espacios -baño, habitación, comedor-, -Guardar el equipaje, recuperarlo, acceder a él en cualquier momento -Poder embarcar con un asistente personal o un perro autorizado, -Acceder con tu equipo de movilidad y a uno de sustitución en en caso de avería o rotura -Acceso a toda la información en formatos accesibles. **",
+      "subcategoria": "Transporte marítimo",
+      "keywords": [
+        "reclamación",
+        "plazo",
+        "empresa",
+        "acudir",
+        "acceder",
+        "viaje"
+      ]
+    },
+    {
+      "pregunta": "Hice un viaje de trabajo a Granada y alquilé un coche a nombre de la empresa, ¿me aplican los derechos de los consumidores?",
+      "respuesta": "No. Solo se considera relación de consumo cuando la operación es entre una empresa y un consumidor final, sin vincularla a ninguna actividad profesional o empresarial.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "empresa",
+        "hice",
+        "viaje",
+        "trabajo",
+        "granada",
+        "alquilé"
+      ]
+    },
+    {
+      "pregunta": "Alquilé un coche y tiempo después me ha llegado una multa de velocidad y a parte, la empresa de alquiler del coche pretende cobrarme 60 euros de gastos de gestión ¿Es esto legal?",
+      "respuesta": "No. La justicia ha declarado nulas las cláusulas que permiten a las empresas cobrar por estos conceptos, porque son costes propios de la actividad empresarial y no un servicio solicitado por el cliente.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "coche",
+        "alquilé",
+        "tiempo",
+        "después",
+        "llegado",
+        "multa"
+      ]
+    },
+    {
+      "pregunta": "Debía devolver el coche de alquiler a las 15, pero debido a un atasco, lo entregué a las 15,25, ahora la empresa pretende cobrarme un día entero de alquiler ¿Es legal?",
+      "respuesta": "No. La legislación de consumo considera abusivo cobrar por periodos no disfrutados, por lo que solo pueden facturarte por el tiempo efectivamente utilizado según las tarifas.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "alquiler",
+        "debía",
+        "devolver",
+        "coche",
+        "debido",
+        "atasco"
+      ]
+    },
+    {
+      "pregunta": "Alquile un coche y he tenido un accidente ¿Qué debo hacer?",
+      "respuesta": "Debes informar a la compañía de alquiler para que te indiquen los pasos a seguir y gestionen lo necesario.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "alquile",
+        "coche",
+        "tenido",
+        "accidente",
+        "debes",
+        "informar"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cobrarme de la tarjeta un daño en el coche de alquiler después de entregarlo sin que se registrara a la entrega?",
+      "respuesta": "No. Antes de cualquier recargo, la empresa debe informarte y justificarlo, y no puede cobrar automáticamente de tu tarjeta, cuenta o fianza.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "tarjeta",
+        "cobrarme",
+        "daño",
+        "coche",
+        "alquiler",
+        "después"
+      ]
+    },
+    {
+      "pregunta": "Alquilé un coche para mis vacaciones en Málaga, pero finalmente un amigo va a llevar su coche y no me hace falta ¿Puedo cancelar la reserva?",
+      "respuesta": "La ley no permite desistimiento para reservas con fecha concreta, de tal forma, que podrían cobrarte lo acordado, aunque la empresa puede concederlo voluntariamente. Tienes que revisar el contrato para ver si se recoge este aspecto.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "coche",
+        "alquilé",
+        "vacaciones",
+        "málaga",
+        "finalmente",
+        "amigo"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden darme un coche diferente al que aparece en la reserva de alquiler?",
+      "respuesta": "Depende de lo que figure en la reserva. Si al reservar se elige una categoría de vehículo y no un coche concreto, el vehículo entregado puede variar dentro de esa categoría. En ese caso, la empresa debe indicar claramente los vehículos que podrían entregarse dentro de la categoría seleccionada.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "categoría",
+        "coche",
+        "reserva",
+        "vehículo",
+        "dentro",
+        "darme"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cobrarme un recargo por devolver el vehículo en otra oficina?",
+      "respuesta": "Sí, siempre que se informe de forma previa a la suscripción del contrato y que quede recogido en el mismo.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "cobrarme",
+        "recargo",
+        "devolver",
+        "vehículo",
+        "oficina",
+        "informe"
+      ]
+    },
+    {
+      "pregunta": "Alquilé una autocaravana para mis vacaciones y al devolverlo, me quieren cobrar por superar un límite de kilómetros ¿es legal?",
+      "respuesta": "Depende, pueden cobrarte por los kilómetros excedidos, siempre que te hayan informado antes y esté indicado en el contrato.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "kilómetros",
+        "alquilé",
+        "autocaravana",
+        "vacaciones",
+        "devolverlo",
+        "quieren"
+      ]
+    },
+    {
+      "pregunta": "Alquilé una autocaravana para mis vacaciones y al devolverlo, me quieren cobrar por salir de España ¿es legal?",
+      "respuesta": "Depende, pueden establecerse límites geográficos, pero deben comunicártelo antes del contrato y reflejarlo en el mismo.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "alquilé",
+        "autocaravana",
+        "vacaciones",
+        "devolverlo",
+        "quieren",
+        "cobrar"
+      ]
+    },
+    {
+      "pregunta": "Alquilé una autocaravana y quiero turnarme conduciendo con mi marido ¿es posible?",
+      "respuesta": "Tienes que informarte, y deberá quedar recogido en el contrato.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "alquilé",
+        "autocaravana",
+        "quiero",
+        "turnarme",
+        "conduciendo",
+        "marido"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cobrarme un recargo por devolver un coche de alquiler en el aeropuerto?",
+      "respuesta": "Si, pero debe informarse claramente con carácter previo.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "cobrarme",
+        "recargo",
+        "devolver",
+        "coche",
+        "alquiler",
+        "aeropuerto"
+      ]
+    },
+    {
+      "pregunta": "La promoción de alquiler de un coche decía que costaba 25 euros al día pero cuando lo contraté me dijeron que eran 40 ya que en el precio anunciado no se incluía el importe del seguro ¿es legal?",
+      "respuesta": "No, el precio debe incluir el total (impuestos, seguros, servicios adicionales, así como cualquier otro recargo adicional que pudiese realizarse tras la devolución del vehículo) debidamente desglosado. Deberá indicarse la forma en que se calcularán los costes que no puedan ser determinados previamente.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "precio",
+        "promoción",
+        "alquiler",
+        "coche",
+        "decía",
+        "costaba"
+      ]
+    },
+    {
+      "pregunta": "Devolví el coche con más gasolina de la que tenía al alquilarlo ¿puedo reclamar una compensación?",
+      "respuesta": "La empresa debe informar claramente sobre la política de combustible y, en su caso, el coste que puede suponer para el usuario devolver el vehículo con el depósito con más o menos combustible que cuando lo recogió.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "combustible",
+        "devolví",
+        "coche",
+        "gasolina",
+        "tenía",
+        "alquilarlo"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a saber qué seguro tiene el coche que estoy alquilando?",
+      "respuesta": "La empresa debe informar del seguro con el que cuenta el vehículo y las coberturas de éste. Así mismo deberá informarte de la posibilidad de contratar seguros adicionales, la cobertura y el importe de los mismos.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "seguro",
+        "derecho",
+        "coche",
+        "alquilando",
+        "empresa",
+        "informar"
+      ]
+    },
+    {
+      "pregunta": "Alquilé un coche por internet ¿puedo desistir del contrato?",
+      "respuesta": "No, la Ley de Consumidores y Usuarios establece expresamente que no existe derecho de desistimiento en caso de alquiler de vehículos salvo que no se hubiese especificado una fecha o periodo concreto para la prestación del servicio. > No obstante, la compañía puede, si así lo quiere, otorgar ese derecho al consumidor y podrá imponer las condiciones bajo las que lo concede.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "derecho",
+        "alquilé",
+        "coche",
+        "internet",
+        "desistir",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "Alquilé un coche por internet, tuvo un fallo mecánico que provocó un accidente con daños para mi persona ¿puedo reclamar?",
+      "respuesta": "Si, podré reclamar a la compañía de alquiler la correspondiente indemnización en función de los daños y gastos que me origine.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "daños",
+        "reclamar",
+        "alquilé",
+        "coche",
+        "internet",
+        "tuvo"
+      ]
+    },
+    {
+      "pregunta": "Alquilé un coche y al devolverlo me dicen que he ocasionado unos daños que no existían antes ¿puedo reclamar?",
+      "respuesta": "Si, aunque conviene que revises el estado del vehículo antes de retirarlo y que señales posibles deterioros. > Para hacer la reclamación, preséntala directamente a la empresa por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes intentar acudir a un sistema alternativo de resolución de conflictos o a la Junta Arbitral de Transporte si la empresa acepta y la reclamación no supera los 15.000 €. Como última opción, puedes presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "empresa",
+        "antes",
+        "reclamación",
+        "puedes",
+        "alquilé",
+        "coche"
+      ]
+    },
+    {
+      "pregunta": "Alquilé un coche a través de un intermediario, concretamente un comparador ¿ante quién tengo que reclamar?",
+      "respuesta": "Normalmente el responsable del contrato es la empresa de alquiler y no el intermediario, por lo que es siempre importante leer atentamente los términos y condiciones para identificar al responsable del contrato.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "intermediario",
+        "responsable",
+        "contrato",
+        "alquilé",
+        "coche",
+        "concretamente"
+      ]
+    },
+    {
+      "pregunta": "Voy a alquilar un coche ¿Qué seguro o seguros debe tener el vehículo?",
+      "respuesta": "El seguro de responsabilidad civil es obligatorio y tiene que estar integrado en el precio básico del alquiler, ya que protege frente a daños o lesiones causados a terceros y a los ocupantes del vehículo. > Además, las compañías de alquiler pueden ofrecer seguros extra con un coste diario, por lo que conviene asegurarse de que estas opciones no aparezcan marcadas por defecto y de que se facilite información transparente sobre qué cubren, qué excluyen y cuánto cuestan. También es importante comprobar que no se estén contratando nuevamente coberturas que ya se hayan adquirido a través del intermediario.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "seguro",
+        "seguros",
+        "vehículo",
+        "alquiler",
+        "alquilar",
+        "coche"
+      ]
+    },
+    {
+      "pregunta": "Contraté el alquiler de un coche a través de un intermediario, con seguro. Al llegar al mostrador me dicen que tengo que pagar otro seguro o hacer un depósito de 1000€ ¿Qué puedo hacer?",
+      "respuesta": "El único seguro obligatorio es seguro de responsabilidad civil y tiene que estar integrado en el precio básico del alquiler. Al margen de éste, no te pueden obligar a contratar otro seguro y más si ya lo tengo a través del intermediario. En ocasiones, podrán requerirte el pago de un depósito o fienza al no contratar el seguro, pero esta opción es más económica ya que no hay un gasto fijo como un seguro. No deben existir discrepancias entre la oferta online del intermediario y la oferta del proveedor del servicio en la tienda física donde se firma el contrato.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "seguro",
+        "intermediario",
+        "alquiler",
+        "depósito",
+        "contratar",
+        "oferta"
+      ]
+    },
+    {
+      "pregunta": "¿Puede cobrarse un precio distinto al alquilar un vehículo dependiendo del país de origen de quien lo alquile?",
+      "respuesta": "No, el precio y las condiciones deberán ser las mismas para todos los ciudadanos de la Unión Europea, independientemente de su nacionalidad o país de residencia.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "precio",
+        "país",
+        "cobrarse",
+        "distinto",
+        "alquilar",
+        "vehículo"
+      ]
+    },
+    {
+      "pregunta": "¿En qué consiste el depósito en un alquiler de coche?",
+      "respuesta": "El depósito en un alquiler de vehículo es una suma de dinero que la empresa de alquiler bloquea de manera temporal durante el periodo en que utilizas el coche. Sirve como garantía económica por posibles daños, costes extra o retrasos en la devolución. Normalmente, este importe queda retenido en tu tarjeta de crédito y se libera cuando entregas el vehículo sin incidencias.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "alquiler",
+        "depósito",
+        "coche",
+        "vehículo",
+        "consiste",
+        "suma"
+      ]
+    },
+    {
+      "pregunta": "Al alquilar un coche me dijeron que entregara una cantidad como depósito, pero al devolver el coche en perfecto estado no me lo reintegraron porque según me dijeron en ese momento se trataba de un dinero dedicado a un seguro ¿Qué puedo hacer?",
+      "respuesta": "Debes tramitar una reclamación por la información defectuosa, tratando de acreditarlo. Para hacer la reclamación, preséntala directamente a la empresa por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes intentar acudir a un sistema alternativo de resolución de conflictos o a la Junta Arbitral de Transporte si la empresa acepta y la reclamación no supera los 15.000 €. Como última opción, puedes presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €.",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "reclamación",
+        "empresa",
+        "coche",
+        "dijeron",
+        "puedes",
+        "alquilar"
+      ]
+    },
+    {
+      "pregunta": "Tenía contratado un vuelo de Pontevedra a Málaga y en el aeropuerto de Málaga tenía contratado el alquiler de un coche. El vuelo se retrasó 3 horas y al ir a retirar el coche la oficina estaba cerrada ¿Qué puedo hacer?",
+      "respuesta": "Puedes tramitar una reclamación frente a la compañía aérea dado que su incumplimiento del contrato de transporte ha hecho que se te ocasione un perjuicio. **",
+      "subcategoria": "Alquiler de vehículos",
+      "keywords": [
+        "tenía",
+        "contratado",
+        "vuelo",
+        "málaga",
+        "coche",
+        "pontevedra"
+      ]
+    },
+    {
+      "pregunta": "Contraté en una agencia un paquete para un viaje de empresa que incluía el vuelo, el alquiler de un coche y el hotel. Tuve muchos problemas y quiero reclamar una devolución parcial ¿puedo ir a la OMIC a poner la reclamación?",
+      "respuesta": "No, si se realiza la contratación del servicio como empresa, no pueden actuar los organismos de defensa del consumidor ni la legislación que les ampara.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "empresa",
+        "contraté",
+        "agencia",
+        "paquete",
+        "viaje",
+        "incluía"
+      ]
+    },
+    {
+      "pregunta": "Contraté un viaje a Nueva York más el alojamiento y las excursiones en una agencia de viajes ¿Puedo rechazar el viaje si cambian el hotel a uno peor antes de salir?",
+      "respuesta": "Sí. Si la modificación es sustancial, puedes resolver el contrato sin penalización o aceptar el cambio con una rebaja en el precio.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "viaje",
+        "contraté",
+        "york",
+        "alojamiento",
+        "excursiones",
+        "agencia"
+      ]
+    },
+    {
+      "pregunta": "Contraté en una agencia un viaje de 7 días a México que incluía el transporte, alojamiento y excursiones, pero me han dicho en la agencia que no se puede hacer, que si quiero cambiarlo por otro a República Dominicana ¿Es esto legal?",
+      "respuesta": "Sí. Puedes aceptar un viaje sustituto de igual o mayor calidad sin coste adicional, o con descuento si es de menor calidad.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "agencia",
+        "viaje",
+        "calidad",
+        "contraté",
+        "días",
+        "méxico"
+      ]
+    },
+    {
+      "pregunta": "Contraté un viaje por la antigua Yugoslavia que incluía el transporte, alojamiento y excursiones en una agencia de viajes ¿Pueden subirme el precio del viaje antes de realizarlo?",
+      "respuesta": "Sí, pero solo hasta un 8% y si está previsto en el contrato, justificado por combustible, impuestos o divisas, y comunicado con al menos 20 días de antelación.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "viaje",
+        "contraté",
+        "antigua",
+        "yugoslavia",
+        "incluía",
+        "transporte"
+      ]
+    },
+    {
+      "pregunta": "Contraté con 6 meses de antelación un viaje por la Patagonia que incluía el transporte, alojamiento y excursiones, en una agencia de viajes ¿Tengo derecho a una rebaja si bajan los costes del viaje?",
+      "respuesta": "Sí. Si disminuyen los gastos que motivan el precio, puedes beneficiarte de una reducción proporcional en el importe total del viaje.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "viaje",
+        "contraté",
+        "meses",
+        "antelación",
+        "patagonia",
+        "incluía"
+      ]
+    },
+    {
+      "pregunta": "Contraté con un viaje por Portugal que incluía el transporte, alojamiento y excursiones, en una agencia de viajes. Iba a hacerlo con mi novia y hemos roto ¿Puedo cancelar el viaje?",
+      "respuesta": "Sí. Puedes hacerlo en cualquier momento, aunque el organizador puede cobrarte una penalización razonable y justificada, que debe figurar claramente en el contrato.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "viaje",
+        "hacerlo",
+        "contraté",
+        "portugal",
+        "incluía",
+        "transporte"
+      ]
+    },
+    {
+      "pregunta": "¿Qué se considera una penalización razonable a aplicar por la Agencia de Viajes si cancelo un viaje combinado?",
+      "respuesta": "La agencia debe explicar cómo calcula la indemnización, y el importe variará en función de la antelación con que canceles y en los costes o ingresos que la empresa ahorre o recupere.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "agencia",
+        "considera",
+        "penalización",
+        "razonable",
+        "aplicar",
+        "viajes"
+      ]
+    },
+    {
+      "pregunta": "Contraté con un viaje por los fiordos noruegos que incluía el transporte, alojamiento y excursiones en una agencia de viajes, pero estoy hospitalizado por un mes ¿Puedo cancelar el viaje?",
+      "respuesta": "Sí. Al haber circunstancias inevitables o extraordinarias que afectan de forma importante al viaje, puedes cancelarlo sin pagar penalización.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "viaje",
+        "contraté",
+        "fiordos",
+        "noruegos",
+        "incluía",
+        "transporte"
+      ]
+    },
+    {
+      "pregunta": "Contraté un viaje combinado por Australia y está siendo un desastre dado que las comidas contratadas no se han dado, no se han celebrado algunas excursiones, etc. ¿Puedo reclamar?",
+      "respuesta": "Sí. Debes avisar cuanto antes al organizador o minorista, quienes deben corregir el problema salvo que sea imposible o muy costoso. Si no lo hacen, tienes derecho a una reducción del precio o puedes contratar tú las excursiones o las comidas y pedir el reembolso de los gastos ocasionados.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "comidas",
+        "excursiones",
+        "contraté",
+        "viaje",
+        "combinado",
+        "australia"
+      ]
+    },
+    {
+      "pregunta": "Quiero reclamar a una agencia de viajes, pero ha cerrado ¿Qué puedo hacer?",
+      "respuesta": "Los organizadores y minoristas deben tener una garantía de insolvencia que te permite recuperar el dinero de los servicios no prestados.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "quiero",
+        "reclamar",
+        "agencia",
+        "viajes",
+        "cerrado",
+        "organizadores"
+      ]
+    },
+    {
+      "pregunta": "¿Dónde reclamo mi dinero si la agencia de viajes con la que contraté se declara en concurso de acreedores (antiguamente denominado quiebra)?",
+      "respuesta": "En el contrato debe figurar la compañía responsable de la garantía, a la que podrás dirigirte para obtener el reembolso o la continuación del viaje.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "reclamo",
+        "dinero",
+        "agencia",
+        "viajes",
+        "contraté",
+        "declara"
+      ]
+    },
+    {
+      "pregunta": "En el folleto de una agencia de viajes, vi una serie de servicios que luego no se han cumplido cuando lo contraté. La compañía me dice que no puedo exigirlos porque no se pusieron en el contrato ¿Es legal?",
+      "respuesta": "No, tienes derecho a exigir lo que figuraba en la publicidad como si fuera parte integrante del contrato.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "contrato",
+        "folleto",
+        "agencia",
+        "viajes",
+        "serie",
+        "servicios"
+      ]
+    },
+    {
+      "pregunta": "Contraté un viaje a Colombia que incluía alojamiento y excursiones en una agencia de viajes, pero tengo mucho trabajo y no me viene ir ¿Puedo ceder mi reserva de viaje a otra persona?",
+      "respuesta": "Sí. Puedes transferirla gratuitamente a alguien que cumpla las condiciones del organizador, avisando por escrito con al menos siete días de antelación y asumiendo los costes que puedan reclamarse a la agencia de viajes por el resto de las empresas implicadas.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "viaje",
+        "agencia",
+        "viajes",
+        "contraté",
+        "colombia",
+        "incluía"
+      ]
+    },
+    {
+      "pregunta": "He cedido a un amigo un viaje combinado contratado en una agencia de viajes ¿Quién se hace responsable del pago pendiente tras la cesión?",
+      "respuesta": "Ambas partes, quien cede y quien recibe la reserva, responden solidariamente de los pagos pendientes y de los costes razonables asociados a la cesión.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "cesión",
+        "cedido",
+        "amigo",
+        "viaje",
+        "combinado",
+        "contratado"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es un servicio de viaje vinculado?",
+      "respuesta": "Es cuando contrato al menos dos servicios de viaje diferentes (como transporte, alojamiento, alquiler de vehículo o servicio turístico) mediante contratos distintos con diferentes empresas, pero comprados desde el mismo punto de venta.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "servicio",
+        "viaje",
+        "diferentes",
+        "vinculado",
+        "contrato",
+        "servicios"
+      ]
+    },
+    {
+      "pregunta": "¿En qué se diferencia un viaje vinculado de un viaje combinado?",
+      "respuesta": "En un viaje combinado todos los servicios se venden como un solo paquete con derechos específicos para el consumidor, mientras que en un viaje vinculado los servicios son contratos separados y no se aplican automáticamente los derechos de los viajes combinados. > Así, por ejemplo, si Ana compra un viaje combinado a Grecia que incluye vuelo, hotel y excursiones, todos esos servicios se venden como un solo paquete y tiene derechos específicos como consumidor, por ejemplo, reembolso si se cancela el paquete completo. En cambio, si Alfredo reserva por separado su vuelo a Grecia, luego su hotel y finalmente una excursión local, está contratando un viaje vinculado. Cada servicio tiene su propio contrato y los derechos de los viajes combinados no se aplican automáticamente, por lo que tendría que reclamar a cada proveedor por separado si surge algún problema. Los servicios vinculados se dan cuando se contratan dos servicios de viaje (transporte y alojamiento, transporte y actividad, etc.), para un mismo viaje, a partir de una misma web pero que da lugar contratos y pagos independientes. Es decir, cuando al contratar, por ejemplo, un servicio de transporte, a través de la web se ofrece la opción de contratar otros servicios: alojamiento, excursiones, alquiler de vehículos, etc. pero este contrato es independiente. Para que pueda calificarse de viaje vinculado, el propietario de la web del servicio inicial contratado debe permitir la selección y el pago de ese servicio adicional por separado; o, si ofrece un servicio concreto, este se contrate en un plazo de 24horas desde que se contrató el servicio original (transporte).",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "viaje",
+        "servicios",
+        "servicio",
+        "vinculado",
+        "derechos",
+        "transporte"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con un paquete turístico contratado con una agencia de viajes, porque esta no ha efectuado bien las reservas que le pedí ¿Qué puedo hacer?",
+      "respuesta": "Presenta la reclamación directamente a la agencia por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir al organismo de tu comunidad autónoma con competencias en turismo, aunque en muchos casos pueden sancionar a la agencia, pero no reintegrarte cantidades que solicites a modo de compensación. En ese caso, puedes intentar acudir a un sistema alternativo de resolución de conflictos o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €.",
+      "subcategoria": "Viajes combinados",
+      "keywords": [
+        "agencia",
+        "organismo",
+        "puedes",
+        "acudir",
+        "tenido",
+        "problema"
+      ]
+    }
+  ]
+}

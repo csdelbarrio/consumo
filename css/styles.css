@@ -1,0 +1,14 @@
+/**
+ * Sistema de Atención al Consumidor
+ * Archivo CSS Principal
+ */
+
+/* Base */
+@import './base/variables.css';
+@import './base/reset.css';
+
+/* Layouts */
+@import './layouts/main-layout.css';
+
+/* Componentes */
+@import './components/components.css';

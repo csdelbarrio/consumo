@@ -277,75 +277,75 @@ function buscarConsultaFija(query, resultsContainer) {
 
 function mostrarRespuestaBusqueda(sector, index) {
     console.log('mostrarRespuestaBusqueda llamada con:', sector, index);
-    console.log('BASE_CONOCIMIENTO sectores:', Object.keys(BASE_CONOCIMIENTO));
     
     // Validar que existen los datos ANTES de modificar el DOM
     if (!BASE_CONOCIMIENTO[sector]) {
         console.error('Sector no encontrado:', sector);
-        console.error('Sectores disponibles:', Object.keys(BASE_CONOCIMIENTO));
         alert('Error: Sector no encontrado. Por favor, recarga la página.');
         return;
     }
     
     if (!BASE_CONOCIMIENTO[sector][index]) {
         console.error('Índice no encontrado:', index, 'en sector:', sector);
-        console.error('Total preguntas en sector:', BASE_CONOCIMIENTO[sector].length);
         alert('Error: Pregunta no encontrada. Por favor, recarga la página.');
         return;
     }
     
     const faq = BASE_CONOCIMIENTO[sector][index];
-    const preguntaEl = document.getElementById('preguntaPrincipal');
-    const contenido = document.getElementById('contenidoArea');
+    const searchResults = document.getElementById('searchResults');
     const btnVolver = document.getElementById('btnVolver');
     
-    if (!preguntaEl || !contenido) {
-        console.error('Elementos del DOM no encontrados');
+    if (!searchResults) {
+        console.error('Elemento searchResults no encontrado');
         return;
     }
     
     // Registrar clic en esta pregunta
     registrarClickPregunta(sector, index);
     
-    preguntaEl.className = 'pregunta-principal solucion';
-    preguntaEl.textContent = 'Información encontrada';
     if (btnVolver) btnVolver.classList.add('visible');
-    
-    historial.push({ tipo: 'busqueda' });
+    historial.push({ tipo: 'busqueda', sector: sector });
     
     // Escapar el nombre del sector para onclick
     const sectorEscaped = sector.replace(/'/g, "\\'");
     
-    let html = '<div class="solucion-container">';
-    html += '<div class="solucion-final">';
-    html += `<strong>${faq.pregunta}</strong>`;
-    html += `<p>${faq.respuesta}</p>`;
-    html += '</div>';
+    // Mostrar la pregunta seleccionada con su respuesta expandida
+    let html = '<div class="respuesta-expandida">';
+    html += `<div class="pregunta-seleccionada">
+        <h3 style="color: #043263; margin-bottom: 15px;">📌 ${faq.pregunta}</h3>
+        <div class="respuesta-contenido" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #28a745; margin-bottom: 20px;">
+            <p style="line-height: 1.7; color: #333;">${faq.respuesta}</p>
+        </div>
+    </div>`;
     
-    // Preguntas relacionadas
-    const relacionadas = BASE_CONOCIMIENTO[sector].filter((item, i) => i !== index).slice(0, 3);
+    // Preguntas relacionadas del mismo sector
+    const relacionadas = BASE_CONOCIMIENTO[sector]
+        .map((item, i) => ({ ...item, originalIndex: i }))
+        .filter((item, i) => i !== index)
+        .slice(0, 5);
+    
     if (relacionadas.length > 0) {
-        html += '<div class="faqs-sector">';
-        html += '<h3>💡 Preguntas relacionadas:</h3>';
+        html += '<div class="preguntas-relacionadas" style="margin-top: 25px;">';
+        html += '<h3 style="color: #043263; margin-bottom: 15px;">💡 Preguntas relacionadas:</h3>';
         relacionadas.forEach((item) => {
-            const realIndex = BASE_CONOCIMIENTO[sector].indexOf(item);
+            const subcatInfo = item.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${item.subcategoria})</span>` : '';
             html += `
-                <div class="faq-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${realIndex})">
-                    <div class="faq-pregunta">${item.pregunta}</div>
+                <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${item.originalIndex})">
+                    <div class="search-result-pregunta">${item.pregunta}${subcatInfo}</div>
                 </div>
             `;
         });
         html += '</div>';
     }
     
-    html += '<div class="reiniciar-container">';
-    html += '<button class="reset-btn" onclick="reiniciar()">Nueva búsqueda</button>';
-    html += '</div>';
+    // Botón para volver a buscar
+    html += `<div style="text-align: center; margin-top: 25px;">
+        <button class="reset-btn" onclick="limpiarRespuesta()">← Volver a resultados</button>
+    </div>`;
+    
     html += '</div>';
     
-    console.log('Asignando HTML a contenido...');
-    contenido.innerHTML = html;
-    console.log('HTML asignado correctamente');
+    searchResults.innerHTML = html;
 }
 
 // ============================================
@@ -612,53 +612,60 @@ function mostrarFAQ(sector, index) {
     }
     
     const faq = BASE_CONOCIMIENTO[sector][index];
-    const preguntaEl = document.getElementById('preguntaPrincipal');
-    const contenido = document.getElementById('contenidoArea');
+    const searchResults = document.getElementById('searchResults');
+    const btnVolver = document.getElementById('btnVolver');
     
-    if (!preguntaEl || !contenido) {
-        console.error('Elementos del DOM no encontrados');
+    if (!searchResults) {
+        console.error('Elemento searchResults no encontrado');
         return;
     }
     
     // Registrar clic en esta pregunta
     registrarClickPregunta(sector, index);
     
-    preguntaEl.className = 'pregunta-principal solucion';
-    preguntaEl.textContent = 'Información encontrada';
-    
+    if (btnVolver) btnVolver.classList.add('visible');
     historial.push({ tipo: 'faq', sector: sector, index: index });
     
     // Escapar el nombre del sector para onclick
     const sectorEscaped = sector.replace(/'/g, "\\'");
     
-    let html = '<div class="solucion-container">';
-    html += '<div class="solucion-final">';
-    html += `<strong>${faq.pregunta}</strong>`;
-    html += `<p>${faq.respuesta}</p>`;
-    html += '</div>';
+    // Mostrar la pregunta seleccionada con su respuesta expandida
+    let html = '<div class="respuesta-expandida">';
+    html += `<div class="pregunta-seleccionada">
+        <h3 style="color: #043263; margin-bottom: 15px;">📌 ${faq.pregunta}</h3>
+        <div class="respuesta-contenido" style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 4px solid #28a745; margin-bottom: 20px;">
+            <p style="line-height: 1.7; color: #333;">${faq.respuesta}</p>
+        </div>
+    </div>`;
     
-    // Preguntas relacionadas
-    const relacionadas = BASE_CONOCIMIENTO[sector].filter((item, i) => i !== index).slice(0, 3);
+    // Preguntas relacionadas del mismo sector
+    const relacionadas = BASE_CONOCIMIENTO[sector]
+        .map((item, i) => ({ ...item, originalIndex: i }))
+        .filter((item, i) => i !== index)
+        .slice(0, 5);
+    
     if (relacionadas.length > 0) {
-        html += '<div class="faqs-sector">';
-        html += '<h3>💡 Preguntas relacionadas:</h3>';
+        html += '<div class="preguntas-relacionadas" style="margin-top: 25px;">';
+        html += '<h3 style="color: #043263; margin-bottom: 15px;">💡 Preguntas relacionadas:</h3>';
         relacionadas.forEach((item) => {
-            const realIndex = BASE_CONOCIMIENTO[sector].indexOf(item);
+            const subcatInfo = item.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${item.subcategoria})</span>` : '';
             html += `
-                <div class="faq-item" onclick="mostrarFAQ('${sectorEscaped}', ${realIndex})">
-                    <div class="faq-pregunta">${item.pregunta}</div>
+                <div class="search-result-item" onclick="mostrarFAQ('${sectorEscaped}', ${item.originalIndex})">
+                    <div class="search-result-pregunta">${item.pregunta}${subcatInfo}</div>
                 </div>
             `;
         });
         html += '</div>';
     }
     
-    html += '<div class="reiniciar-container">';
-    html += '<button class="reset-btn" onclick="reiniciar()">Nueva consulta</button>';
-    html += '</div>';
+    // Botón para volver
+    html += `<div style="text-align: center; margin-top: 25px;">
+        <button class="reset-btn" onclick="limpiarRespuesta()">← Volver a resultados</button>
+    </div>`;
+    
     html += '</div>';
     
-    contenido.innerHTML = html;
+    searchResults.innerHTML = html;
     window.faqsActuales = BASE_CONOCIMIENTO[sector];
 }
 
@@ -746,6 +753,34 @@ function reiniciar() {
     mostrarBusquedaInicial();
 }
 
+// Función para volver a los resultados de búsqueda
+function limpiarRespuesta() {
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    
+    // Quitar del historial primero
+    if (historial.length > 0) {
+        const ultimo = historial.pop();
+        // Si venía de una búsqueda o FAQ, guardar el sector para volver
+        if (ultimo && ultimo.sector) {
+            sectorActual = ultimo.sector;
+        }
+    }
+    
+    if (searchInput && searchInput.value.trim().length >= 2) {
+        // Si hay texto en la búsqueda, volver a buscar
+        window.buscarConsulta();
+    } else if (sectorActual) {
+        // Si hay un sector seleccionado, mostrar sus preguntas populares
+        mostrarPreguntasPopularesSector(sectorActual);
+    } else {
+        // Si no, limpiar resultados y mostrar mensaje inicial
+        if (searchResults) {
+            searchResults.innerHTML = '<p class="mensaje-inicial" style="text-align: center; color: #666;">Escribe en la caja de búsqueda o selecciona un sector para ver preguntas frecuentes.</p>';
+        }
+    }
+}
+
 // Exponer funciones globalmente para onclick en HTML
 window.buscarConsultaFija = buscarConsultaFija;
 window.mostrarRespuestaBusqueda = mostrarRespuestaBusqueda;
@@ -753,6 +788,7 @@ window.iniciarPorSector = iniciarPorSector;
 window.mostrarFAQ = mostrarFAQ;
 window.volverAtras = volverAtras;
 window.reiniciar = reiniciar;
+window.limpiarRespuesta = limpiarRespuesta;
 
 // Función buscarConsulta para el input fijo del HTML
 window.buscarConsulta = function() {

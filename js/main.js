@@ -261,8 +261,9 @@ function buscarConsultaFija(query, resultsContainer) {
         let html = '<h3 style="color: #043263; margin-bottom: 20px; text-align: center;">📋 Resultados de búsqueda:</h3>';
         resultados.slice(0, 5).forEach((resultado, i) => {
             const subcatInfo = resultado.subcategoria ? ` (${resultado.subcategoria})` : '';
+            const sectorEscaped = resultado.sector.replace(/'/g, "\\'");
             html += `
-                <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${resultado.sector}', ${resultado.index})">
+                <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${resultado.index})">
                     <div class="search-result-pregunta">${resultado.sector}${subcatInfo}: ${resultado.pregunta}</div>
                     <div class="search-result-respuesta">${resultado.respuesta}</div>
                 </div>
@@ -275,19 +276,45 @@ function buscarConsultaFija(query, resultsContainer) {
 }
 
 function mostrarRespuestaBusqueda(sector, index) {
+    console.log('mostrarRespuestaBusqueda llamada con:', sector, index);
+    console.log('BASE_CONOCIMIENTO sectores:', Object.keys(BASE_CONOCIMIENTO));
+    
+    // Validar que existen los datos ANTES de modificar el DOM
+    if (!BASE_CONOCIMIENTO[sector]) {
+        console.error('Sector no encontrado:', sector);
+        console.error('Sectores disponibles:', Object.keys(BASE_CONOCIMIENTO));
+        alert('Error: Sector no encontrado. Por favor, recarga la página.');
+        return;
+    }
+    
+    if (!BASE_CONOCIMIENTO[sector][index]) {
+        console.error('Índice no encontrado:', index, 'en sector:', sector);
+        console.error('Total preguntas en sector:', BASE_CONOCIMIENTO[sector].length);
+        alert('Error: Pregunta no encontrada. Por favor, recarga la página.');
+        return;
+    }
+    
     const faq = BASE_CONOCIMIENTO[sector][index];
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
     const btnVolver = document.getElementById('btnVolver');
+    
+    if (!preguntaEl || !contenido) {
+        console.error('Elementos del DOM no encontrados');
+        return;
+    }
     
     // Registrar clic en esta pregunta
     registrarClickPregunta(sector, index);
     
     preguntaEl.className = 'pregunta-principal solucion';
     preguntaEl.textContent = 'Información encontrada';
-    btnVolver.classList.add('visible');
+    if (btnVolver) btnVolver.classList.add('visible');
     
     historial.push({ tipo: 'busqueda' });
+    
+    // Escapar el nombre del sector para onclick
+    const sectorEscaped = sector.replace(/'/g, "\\'");
     
     let html = '<div class="solucion-container">';
     html += '<div class="solucion-final">';
@@ -300,10 +327,10 @@ function mostrarRespuestaBusqueda(sector, index) {
     if (relacionadas.length > 0) {
         html += '<div class="faqs-sector">';
         html += '<h3>💡 Preguntas relacionadas:</h3>';
-        relacionadas.forEach((item, i) => {
+        relacionadas.forEach((item) => {
             const realIndex = BASE_CONOCIMIENTO[sector].indexOf(item);
             html += `
-                <div class="faq-item" onclick="mostrarRespuestaBusqueda('${sector}', ${realIndex})">
+                <div class="faq-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${realIndex})">
                     <div class="faq-pregunta">${item.pregunta}</div>
                 </div>
             `;
@@ -316,7 +343,9 @@ function mostrarRespuestaBusqueda(sector, index) {
     html += '</div>';
     html += '</div>';
     
+    console.log('Asignando HTML a contenido...');
     contenido.innerHTML = html;
+    console.log('HTML asignado correctamente');
 }
 
 // ============================================
@@ -351,6 +380,9 @@ function mostrarPreguntasPopularesSector(nombreSector) {
     const searchResults = document.getElementById('searchResults');
     if (!searchResults || !BASE_CONOCIMIENTO[nombreSector]) return;
     
+    // Escapar el nombre del sector para onclick
+    const sectorEscaped = nombreSector.replace(/'/g, "\\'");
+    
     // Obtener preguntas populares del sector
     const populares = obtenerPreguntasPopulares(nombreSector, 5);
     const preguntas = BASE_CONOCIMIENTO[nombreSector];
@@ -364,7 +396,7 @@ function mostrarPreguntasPopularesSector(nombreSector) {
                 const faq = preguntas[item.index];
                 const subcatInfo = faq.subcategoria ? ` (${faq.subcategoria})` : '';
                 html += `
-                    <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${nombreSector}', ${item.index})">
+                    <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${item.index})">
                         <div class="search-result-pregunta">${nombreSector}${subcatInfo}: ${faq.pregunta}</div>
                         <div class="search-result-respuesta">${faq.respuesta}</div>
                     </div>
@@ -377,7 +409,7 @@ function mostrarPreguntasPopularesSector(nombreSector) {
         preguntas.slice(0, 5).forEach((faq, index) => {
             const subcatInfo = faq.subcategoria ? ` (${faq.subcategoria})` : '';
             html += `
-                <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${nombreSector}', ${index})">
+                <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${index})">
                     <div class="search-result-pregunta">${nombreSector}${subcatInfo}: ${faq.pregunta}</div>
                     <div class="search-result-respuesta">${faq.respuesta}</div>
                 </div>
@@ -572,9 +604,21 @@ function navegarArbol(respuesta) {
 }
 
 function mostrarFAQ(sector, index) {
+    // Validar que existen los datos ANTES de modificar el DOM
+    if (!BASE_CONOCIMIENTO[sector] || !BASE_CONOCIMIENTO[sector][index]) {
+        console.error('FAQ no encontrada:', sector, index);
+        alert('Error: No se encontró la pregunta. Por favor, recarga la página.');
+        return;
+    }
+    
     const faq = BASE_CONOCIMIENTO[sector][index];
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
+    
+    if (!preguntaEl || !contenido) {
+        console.error('Elementos del DOM no encontrados');
+        return;
+    }
     
     // Registrar clic en esta pregunta
     registrarClickPregunta(sector, index);
@@ -583,6 +627,9 @@ function mostrarFAQ(sector, index) {
     preguntaEl.textContent = 'Información encontrada';
     
     historial.push({ tipo: 'faq', sector: sector, index: index });
+    
+    // Escapar el nombre del sector para onclick
+    const sectorEscaped = sector.replace(/'/g, "\\'");
     
     let html = '<div class="solucion-container">';
     html += '<div class="solucion-final">';
@@ -598,7 +645,7 @@ function mostrarFAQ(sector, index) {
         relacionadas.forEach((item) => {
             const realIndex = BASE_CONOCIMIENTO[sector].indexOf(item);
             html += `
-                <div class="faq-item" onclick="mostrarFAQ('${sector}', ${realIndex})">
+                <div class="faq-item" onclick="mostrarFAQ('${sectorEscaped}', ${realIndex})">
                     <div class="faq-pregunta">${item.pregunta}</div>
                 </div>
             `;

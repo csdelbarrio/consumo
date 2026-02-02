@@ -30,9 +30,21 @@
     <!-- BREADCRUMB -->
     <nav class="breadcrumb">
         <div class="container">
-            <a href="#">Inicio</a> &gt; <span>Consulta de consumo</span>
+            <a href="index.html">Inicio</a> &gt; <span>Consulta de consumo</span>
         </div>
     </nav>
+
+    <!-- BÚSQUEDA FIJA -->
+    <div class="container" style="margin-top: 20px;">
+        <div class="search-container">
+            <p class="mensaje-inicial">Describe tu consulta o selecciona un sector:</p>
+            <div class="search-box">
+                <input type="text" class="search-input" id="searchInput" placeholder="Ej: Me han cobrado de más en la factura de la luz...">
+                <button class="search-btn" onclick="buscarConsulta()">Buscar</button>
+            </div>
+            <div id="searchResults" class="search-results"></div>
+        </div>
+    </div>
 
     <!-- LAYOUT PRINCIPAL -->
     <div class="container">

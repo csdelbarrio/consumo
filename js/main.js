@@ -144,12 +144,14 @@ function mostrarBusquedaInicial() {
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
     const btnVolver = document.getElementById('btnVolver');
+    const opcionesContainer = document.getElementById('opcionesContainer');
     
     if (!preguntaEl || !contenido) return;
     
     preguntaEl.className = 'pregunta-principal';
     preguntaEl.textContent = '¿En qué podemos ayudarte?';
     if (btnVolver) btnVolver.classList.remove('visible');
+    if (opcionesContainer) opcionesContainer.innerHTML = '';
     historial = [];
     
     // Quitar active de sectores
@@ -514,54 +516,56 @@ function mostrarTodasPreguntasSector(nombreSector) {
 
 function mostrarPreguntaConFAQs(nodo, sectorNombre) {
     const preguntaEl = document.getElementById('preguntaPrincipal');
+    const opcionesContainer = document.getElementById('opcionesContainer');
     const contenido = document.getElementById('contenidoArea');
     
     preguntaEl.className = 'pregunta-principal en-conversacion';
     preguntaEl.textContent = nodo.pregunta;
-    contenido.innerHTML = '';
+    if (contenido) contenido.innerHTML = '';
     
-    // Explicación si existe
-    if (nodo.explicacion) {
+    // Explicación si existe (en contenidoArea)
+    if (nodo.explicacion && contenido) {
         const explicacionDiv = document.createElement('div');
         explicacionDiv.className = 'explicacion-detallada';
         explicacionDiv.innerHTML = `<strong>ℹ️ Información:</strong> ${nodo.explicacion}`;
         contenido.appendChild(explicacionDiv);
     }
     
-    // Botones de opciones
-    const opcionesDiv = document.createElement('div');
-    opcionesDiv.className = 'opciones-container';
-    
-    if (nodo.opciones_custom) {
-        nodo.opciones_custom.forEach(opcion => {
-            const btn = document.createElement('button');
-            btn.className = 'opcion-btn';
-            btn.textContent = opcion.texto;
-            btn.onclick = () => {
-                nodoActual = ARBOL_DECISIONES[opcion.siguiente];
-                historial.push({ nodo: nodoActual.id });
-                mostrarPregunta(nodoActual);
-            };
-            opcionesDiv.appendChild(btn);
-        });
-    } else {
-        const btnSi = document.createElement('button');
-        btnSi.className = 'opcion-btn';
-        btnSi.textContent = 'Sí';
-        btnSi.onclick = () => navegarArbol('si');
+    // Botones de opciones (en opcionesContainer, encima de searchResults)
+    if (opcionesContainer) {
+        const opcionesDiv = document.createElement('div');
+        opcionesDiv.className = 'opciones-container';
         
-        const btnNo = document.createElement('button');
-        btnNo.className = 'opcion-btn';
-        btnNo.textContent = 'No';
-        btnNo.onclick = () => navegarArbol('no');
+        if (nodo.opciones_custom) {
+            nodo.opciones_custom.forEach(opcion => {
+                const btn = document.createElement('button');
+                btn.className = 'opcion-btn';
+                btn.textContent = opcion.texto;
+                btn.onclick = () => {
+                    nodoActual = ARBOL_DECISIONES[opcion.siguiente];
+                    historial.push({ nodo: nodoActual.id });
+                    mostrarPregunta(nodoActual);
+                };
+                opcionesDiv.appendChild(btn);
+            });
+        } else {
+            const btnSi = document.createElement('button');
+            btnSi.className = 'opcion-btn';
+            btnSi.textContent = 'Sí';
+            btnSi.onclick = () => navegarArbol('si');
+            
+            const btnNo = document.createElement('button');
+            btnNo.className = 'opcion-btn';
+            btnNo.textContent = 'No';
+            btnNo.onclick = () => navegarArbol('no');
+            
+            opcionesDiv.appendChild(btnSi);
+            opcionesDiv.appendChild(btnNo);
+        }
         
-        opcionesDiv.appendChild(btnSi);
-        opcionesDiv.appendChild(btnNo);
+        opcionesContainer.innerHTML = '';
+        opcionesContainer.appendChild(opcionesDiv);
     }
-    contenido.appendChild(opcionesDiv);
-    
-    // Las FAQs se muestran en searchResults (preguntas más consultadas)
-    // por lo que no es necesario duplicarlas aquí
 }
 
 function mostrarPregunta(nodo) {
@@ -820,11 +824,13 @@ function reiniciar() {
     historial = [];
     sectorActual = null;
     
-    // Limpiar búsqueda
+    // Limpiar búsqueda y opciones
     const searchInput = document.getElementById('searchInput');
     const searchResults = document.getElementById('searchResults');
+    const opcionesContainer = document.getElementById('opcionesContainer');
     if (searchInput) searchInput.value = '';
     if (searchResults) searchResults.innerHTML = '';
+    if (opcionesContainer) opcionesContainer.innerHTML = '';
     
     mostrarBusquedaInicial();
 }

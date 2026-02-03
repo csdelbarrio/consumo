@@ -16,6 +16,13 @@ let historial = [];
 let sectorActual = null;
 let BASE_CONOCIMIENTO = {};
 
+// Función para quitar HTML del preview de respuestas
+function stripHtml(html) {
+    const tmp = document.createElement('div');
+    tmp.innerHTML = html;
+    return tmp.textContent || tmp.innerText || '';
+}
+
 // Sinónimos para búsqueda
 const sinonimos = {
     'luz': ['electricidad', 'eléctrica', 'eléctrico'],
@@ -264,10 +271,11 @@ function buscarConsultaFija(query, resultsContainer) {
         resultados.slice(0, 5).forEach((resultado, i) => {
             const subcatInfo = resultado.subcategoria ? ` (${resultado.subcategoria})` : '';
             const sectorEscaped = resultado.sector.replace(/'/g, "\\'");
+            const respuestaPreview = stripHtml(resultado.respuesta);
             html += `
                 <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${resultado.index})">
                     <div class="search-result-pregunta">${resultado.sector}${subcatInfo}: ${resultado.pregunta}</div>
-                    <div class="search-result-respuesta">${resultado.respuesta}</div>
+                    <div class="search-result-respuesta">${respuestaPreview}</div>
                 </div>
             `;
         });
@@ -451,10 +459,11 @@ function mostrarPreguntasPopularesSector(nombreSector) {
             if (preguntas[item.index]) {
                 const faq = preguntas[item.index];
                 const subcatInfo = faq.subcategoria ? ` (${faq.subcategoria})` : '';
+                const respuestaPreview = stripHtml(faq.respuesta);
                 html += `
                     <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${item.index})">
                         <div class="search-result-pregunta">${nombreSector}${subcatInfo}: ${faq.pregunta}</div>
-                        <div class="search-result-respuesta">${faq.respuesta}</div>
+                        <div class="search-result-respuesta">${respuestaPreview}</div>
                     </div>
                 `;
             }
@@ -464,10 +473,11 @@ function mostrarPreguntasPopularesSector(nombreSector) {
         html = `<h3 style="color: #043263; margin-bottom: 20px; text-align: center;">📋 Preguntas destacadas de ${nombreSector}:</h3>`;
         preguntas.slice(0, 5).forEach((faq, index) => {
             const subcatInfo = faq.subcategoria ? ` (${faq.subcategoria})` : '';
+            const respuestaPreview = stripHtml(faq.respuesta);
             html += `
                 <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${index})">
                     <div class="search-result-pregunta">${nombreSector}${subcatInfo}: ${faq.pregunta}</div>
-                    <div class="search-result-respuesta">${faq.respuesta}</div>
+                    <div class="search-result-respuesta">${respuestaPreview}</div>
                 </div>
             `;
         });

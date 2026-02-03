@@ -348,7 +348,7 @@ function mostrarRespuestaBusqueda(sector, index) {
     
     // 3. Preguntas frecuentes del sector (excluyendo la actual)
     const preguntas = BASE_CONOCIMIENTO[sector];
-    const populares = obtenerPreguntasPopulares(sector, 6);
+    const populares = obtenerPreguntasPopulares(sector, 4);
     
     html += '<div class="preguntas-frecuentes" style="margin-top: 25px;">';
     html += `<h3 style="color: #043263; margin-bottom: 15px;">🔥 Otras preguntas frecuentes de ${sector}:</h3>`;
@@ -356,7 +356,7 @@ function mostrarRespuestaBusqueda(sector, index) {
     if (populares.length > 0) {
         let mostradas = 0;
         populares.forEach(item => {
-            if (item.index !== index && preguntas[item.index] && mostradas < 5) {
+            if (item.index !== index && preguntas[item.index] && mostradas < 3) {
                 const pregunta = preguntas[item.index];
                 const subcatInfo = pregunta.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${pregunta.subcategoria})</span>` : '';
                 html += `
@@ -371,7 +371,7 @@ function mostrarRespuestaBusqueda(sector, index) {
         // Si no hay estadísticas, mostrar otras preguntas del sector
         let mostradas = 0;
         preguntas.forEach((pregunta, i) => {
-            if (i !== index && mostradas < 5) {
+            if (i !== index && mostradas < 3) {
                 const subcatInfo = pregunta.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${pregunta.subcategoria})</span>` : '';
                 html += `
                     <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${i})">
@@ -696,7 +696,7 @@ function mostrarFAQ(sector, index) {
     
     // 3. Preguntas frecuentes del sector (excluyendo la actual)
     const preguntas = BASE_CONOCIMIENTO[sector];
-    const populares = obtenerPreguntasPopulares(sector, 6);
+    const populares = obtenerPreguntasPopulares(sector, 4);
     
     html += '<div class="preguntas-frecuentes" style="margin-top: 25px;">';
     html += `<h3 style="color: #043263; margin-bottom: 15px;">🔥 Otras preguntas frecuentes de ${sector}:</h3>`;
@@ -704,7 +704,7 @@ function mostrarFAQ(sector, index) {
     if (populares.length > 0) {
         let mostradas = 0;
         populares.forEach(item => {
-            if (item.index !== index && preguntas[item.index] && mostradas < 5) {
+            if (item.index !== index && preguntas[item.index] && mostradas < 3) {
                 const pregunta = preguntas[item.index];
                 const subcatInfo = pregunta.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${pregunta.subcategoria})</span>` : '';
                 html += `
@@ -719,7 +719,7 @@ function mostrarFAQ(sector, index) {
         // Si no hay estadísticas, mostrar otras preguntas del sector
         let mostradas = 0;
         preguntas.forEach((pregunta, i) => {
-            if (i !== index && mostradas < 5) {
+            if (i !== index && mostradas < 3) {
                 const subcatInfo = pregunta.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${pregunta.subcategoria})</span>` : '';
                 html += `
                     <div class="search-result-item" onclick="mostrarFAQ('${sectorEscaped}', ${i})">

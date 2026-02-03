@@ -277,8 +277,8 @@
     position: absolute;
     top: 35px;
     left: 35px;
-    background: var(--color-white);
-    border: 2px solid var(--color-primary);
+    background: transparent;
+    border: none;
     color: var(--color-primary);
     padding: var(--spacing-sm) var(--spacing-lg);
     border-radius: var(--border-radius-sm);
@@ -289,11 +289,12 @@
     display: none;
     align-items: center;
     gap: 5px;
+    opacity: 0.8;
 }
 
 .btn-volver:hover {
-    background: var(--color-primary);
-    color: var(--color-white);
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .btn-volver.visible {
@@ -471,16 +472,20 @@
 }
 
 .reset-btn {
-    background: var(--color-gray-600);
-    color: var(--color-white);
+    background: transparent;
+    color: var(--color-primary);
     padding: var(--spacing-sm) var(--spacing-xl);
+    border: none;
     border-radius: var(--border-radius-sm);
     font-weight: var(--font-weight-semibold);
-    transition: background var(--transition-fast);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: all var(--transition-fast);
 }
 
 .reset-btn:hover {
-    background: var(--color-gray-700);
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.05);
 }
 
 /* ========================================

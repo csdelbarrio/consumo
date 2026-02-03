@@ -34,10 +34,6 @@
         </div>
     </nav>
 
-    <!-- BÚSQUEDA FIJA -->
-    <div class="container" style="margin-top: 20px;">
-    </div>
-
     <!-- LAYOUT PRINCIPAL -->
     <div class="container">
         <div class="main-layout">
@@ -61,6 +57,8 @@
                         ¿En qué podemos ayudarte?
                     </div>                    
                     <div class="search-container">
+                    <!-- BÚSQUEDA FIJA -->
+                    <div class="container" style="margin-top: 20px;">
                         <p class="mensaje-inicial">Describe tu consulta o selecciona un sector:</p>
                         <div class="search-box">
                             <input type="text" class="search-input" id="searchInput" placeholder="Ej: Me han cobrado de más en la factura de la luz...">
@@ -70,13 +68,15 @@
                         <div id="opcionesContainer"></div>
                         <!-- Resultados de búsqueda -->
                         <div id="searchResults" class="search-results"></div>
-                    </div>                    
+                    </div>     
+                    </div>               
                 </div>
                 <div id="contenidoArea" style="padding: 0 30px 30px 30px;">
                     <!-- Contenido dinámico -->
                 </div>
             </main>
-        </div>
+
+    </div>
     </div>
 
     <!-- Scripts -->

@@ -472,20 +472,18 @@
 }
 
 .reset-btn {
-    background: transparent;
-    color: var(--color-primary);
+    background: var(--color-gray-600);
+    color: var(--color-white);
     padding: var(--spacing-sm) var(--spacing-xl);
     border: none;
     border-radius: var(--border-radius-sm);
     font-weight: var(--font-weight-semibold);
-    opacity: 0.8;
     cursor: pointer;
-    transition: all var(--transition-fast);
+    transition: background var(--transition-fast);
 }
 
 .reset-btn:hover {
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.05);
+    background: var(--color-gray-700);
 }
 
 /* ========================================

@@ -207,6 +207,18 @@
     overflow: hidden;
 }
 
+.search-result-respuesta ul,
+.respuesta-contenido ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.search-result-respuesta li,
+.respuesta-contenido li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
 /* ========================================
    PREGUNTA PRINCIPAL
    ======================================== */

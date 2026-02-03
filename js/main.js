@@ -341,37 +341,58 @@ function mostrarRespuestaBusqueda(sector, index) {
         html += `<a href="${enlaceReclamar}" target="_blank" class="recurso-btn reclamar">🚨 Quiero reclamar</a>`;
     }
     
-    // Enlace a más información del sector
-    html += `<a href="#" onclick="mostrarPreguntasPopularesSector('${sectorEscaped}'); return false;" class="recurso-btn">📚 Más preguntas de ${sector}</a>`;
-    
     html += '</div>';
     html += '</div>';
     
-    // 3. Preguntas relacionadas del mismo sector
-    const relacionadas = BASE_CONOCIMIENTO[sector]
-        .map((item, i) => ({ ...item, originalIndex: i }))
-        .filter((item, i) => i !== index)
-        .slice(0, 5);
+    // 3. Preguntas frecuentes del sector (excluyendo la actual)
+    const preguntas = BASE_CONOCIMIENTO[sector];
+    const populares = obtenerPreguntasPopulares(sector, 6);
     
-    if (relacionadas.length > 0) {
-        html += '<div class="preguntas-relacionadas" style="margin-top: 25px;">';
-        html += '<h3 style="color: #043263; margin-bottom: 15px;">💡 Preguntas relacionadas:</h3>';
-        relacionadas.forEach((item) => {
-            const subcatInfo = item.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${item.subcategoria})</span>` : '';
-            html += `
-                <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${item.originalIndex})">
-                    <div class="search-result-pregunta">${item.pregunta}${subcatInfo}</div>
-                </div>
-            `;
+    html += '<div class="preguntas-frecuentes" style="margin-top: 25px;">';
+    html += `<h3 style="color: #043263; margin-bottom: 15px;">🔥 Otras preguntas frecuentes de ${sector}:</h3>`;
+    
+    if (populares.length > 0) {
+        let mostradas = 0;
+        populares.forEach(item => {
+            if (item.index !== index && preguntas[item.index] && mostradas < 5) {
+                const pregunta = preguntas[item.index];
+                const subcatInfo = pregunta.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${pregunta.subcategoria})</span>` : '';
+                html += `
+                    <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${item.index})">
+                        <div class="search-result-pregunta">${pregunta.pregunta}${subcatInfo}</div>
+                    </div>
+                `;
+                mostradas++;
+            }
         });
-        html += '</div>';
+    } else {
+        // Si no hay estadísticas, mostrar otras preguntas del sector
+        let mostradas = 0;
+        preguntas.forEach((pregunta, i) => {
+            if (i !== index && mostradas < 5) {
+                const subcatInfo = pregunta.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${pregunta.subcategoria})</span>` : '';
+                html += `
+                    <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${i})">
+                        <div class="search-result-pregunta">${pregunta.pregunta}${subcatInfo}</div>
+                    </div>
+                `;
+                mostradas++;
+            }
+        });
     }
     
-    // Botón para volver a buscar
-    html += `<div style="text-align: center; margin-top: 25px;">
-        <button class="reset-btn" onclick="limpiarRespuesta()">← Volver a resultados</button>
-    </div>`;
+    // Botón para ver todas las preguntas del sector
+    if (preguntas.length > 5) {
+        html += `
+            <div style="text-align: center; margin-top: 15px;">
+                <button class="opcion-btn" onclick="mostrarTodasPreguntasSector('${sectorEscaped}')">
+                    📋 Ver todas las preguntas (${preguntas.length})
+                </button>
+            </div>
+        `;
+    }
     
+    html += '</div>';
     html += '</div>';
     
     searchResults.innerHTML = html;
@@ -446,6 +467,48 @@ function mostrarPreguntasPopularesSector(nombreSector) {
         });
     }
     
+    // Botón para ver todas las preguntas del sector
+    if (preguntas.length > 5) {
+        html += `
+            <div style="text-align: center; margin-top: 20px;">
+                <button class="opcion-btn" onclick="mostrarTodasPreguntasSector('${sectorEscaped}')">
+                    📋 Ver todas las preguntas de ${nombreSector} (${preguntas.length})
+                </button>
+            </div>
+        `;
+    }
+    
+    searchResults.innerHTML = html;
+}
+
+// Función para mostrar todas las preguntas de un sector
+function mostrarTodasPreguntasSector(nombreSector) {
+    const searchResults = document.getElementById('searchResults');
+    if (!searchResults || !BASE_CONOCIMIENTO[nombreSector]) return;
+    
+    const sectorEscaped = nombreSector.replace(/'/g, "\\'");
+    const preguntas = BASE_CONOCIMIENTO[nombreSector];
+    
+    let html = `<h3 style="color: #043263; margin-bottom: 20px; text-align: center;">📋 Todas las preguntas de ${nombreSector} (${preguntas.length}):</h3>`;
+    
+    preguntas.forEach((faq, index) => {
+        const subcatInfo = faq.subcategoria ? ` (${faq.subcategoria})` : '';
+        html += `
+            <div class="search-result-item" onclick="mostrarRespuestaBusqueda('${sectorEscaped}', ${index})">
+                <div class="search-result-pregunta">${faq.pregunta}${subcatInfo}</div>
+            </div>
+        `;
+    });
+    
+    // Botón para volver a las más consultadas
+    html += `
+        <div style="text-align: center; margin-top: 20px;">
+            <button class="opcion-btn" onclick="mostrarPreguntasPopularesSector('${sectorEscaped}')">
+                ← Volver a preguntas más consultadas
+            </button>
+        </div>
+    `;
+    
     searchResults.innerHTML = html;
 }
 
@@ -497,74 +560,8 @@ function mostrarPreguntaConFAQs(nodo, sectorNombre) {
     }
     contenido.appendChild(opcionesDiv);
     
-    // FAQs del sector
-    if (nodo.primera_pregunta_sector && BASE_CONOCIMIENTO[sectorNombre]) {
-        const todasFAQs = BASE_CONOCIMIENTO[sectorNombre];
-        const faqsIniciales = 3;
-        
-        const faqsDiv = document.createElement('div');
-        faqsDiv.className = 'faqs-sector';
-        faqsDiv.innerHTML = `<h3>❓ Preguntas frecuentes de ${sectorNombre}:</h3>`;
-        faqsDiv.id = 'faqsContainer';
-        
-        for (let i = 0; i < Math.min(faqsIniciales, todasFAQs.length); i++) {
-            const faqItem = document.createElement('div');
-            faqItem.className = 'faq-item';
-            faqItem.innerHTML = `<div class="faq-pregunta">${todasFAQs[i].pregunta}</div>`;
-            faqItem.onclick = () => mostrarFAQ(sectorNombre, i);
-            faqsDiv.appendChild(faqItem);
-        }
-        
-        if (todasFAQs.length > faqsIniciales) {
-            const btnVerMas = document.createElement('button');
-            btnVerMas.className = 'opcion-btn';
-            btnVerMas.style.marginTop = '15px';
-            btnVerMas.style.fontSize = '0.9rem';
-            btnVerMas.textContent = `Ver más preguntas (${todasFAQs.length - faqsIniciales} más)`;
-            btnVerMas.onclick = () => mostrarTodasFAQs(sectorNombre, faqsDiv, todasFAQs, faqsIniciales);
-            faqsDiv.appendChild(btnVerMas);
-        }
-        
-        contenido.appendChild(faqsDiv);
-    }
-}
-
-function mostrarTodasFAQs(sectorNombre, contenedor, todasFAQs, yaVisible) {
-    const titulo = contenedor.querySelector('h3').outerHTML;
-    contenedor.innerHTML = titulo;
-    
-    todasFAQs.forEach((faq, index) => {
-        const faqItem = document.createElement('div');
-        faqItem.className = 'faq-item';
-        faqItem.innerHTML = `<div class="faq-pregunta">${faq.pregunta}</div>`;
-        faqItem.onclick = () => mostrarFAQ(sectorNombre, index);
-        contenedor.appendChild(faqItem);
-    });
-    
-    const btnVerMenos = document.createElement('button');
-    btnVerMenos.className = 'opcion-btn';
-    btnVerMenos.style.marginTop = '15px';
-    btnVerMenos.style.fontSize = '0.9rem';
-    btnVerMenos.textContent = 'Ver menos';
-    btnVerMenos.onclick = () => {
-        contenedor.innerHTML = titulo;
-        for (let i = 0; i < Math.min(yaVisible, todasFAQs.length); i++) {
-            const faqItem = document.createElement('div');
-            faqItem.className = 'faq-item';
-            faqItem.innerHTML = `<div class="faq-pregunta">${todasFAQs[i].pregunta}</div>`;
-            faqItem.onclick = () => mostrarFAQ(sectorNombre, i);
-            contenedor.appendChild(faqItem);
-        }
-        
-        const btnVerMasNuevo = document.createElement('button');
-        btnVerMasNuevo.className = 'opcion-btn';
-        btnVerMasNuevo.style.marginTop = '15px';
-        btnVerMasNuevo.style.fontSize = '0.9rem';
-        btnVerMasNuevo.textContent = `Ver más preguntas (${todasFAQs.length - yaVisible} más)`;
-        btnVerMasNuevo.onclick = () => mostrarTodasFAQs(sectorNombre, contenedor, todasFAQs, yaVisible);
-        contenedor.appendChild(btnVerMasNuevo);
-    };
-    contenedor.appendChild(btnVerMenos);
+    // Las FAQs se muestran en searchResults (preguntas más consultadas)
+    // por lo que no es necesario duplicarlas aquí
 }
 
 function mostrarPregunta(nodo) {
@@ -690,37 +687,58 @@ function mostrarFAQ(sector, index) {
         html += `<a href="${enlaceReclamar}" target="_blank" class="recurso-btn reclamar">🚨 Quiero reclamar</a>`;
     }
     
-    // Enlace a más información del sector
-    html += `<a href="#" onclick="mostrarPreguntasPopularesSector('${sectorEscaped}'); return false;" class="recurso-btn">📚 Más preguntas de ${sector}</a>`;
-    
     html += '</div>';
     html += '</div>';
     
-    // 3. Preguntas relacionadas del mismo sector
-    const relacionadas = BASE_CONOCIMIENTO[sector]
-        .map((item, i) => ({ ...item, originalIndex: i }))
-        .filter((item, i) => i !== index)
-        .slice(0, 5);
+    // 3. Preguntas frecuentes del sector (excluyendo la actual)
+    const preguntas = BASE_CONOCIMIENTO[sector];
+    const populares = obtenerPreguntasPopulares(sector, 6);
     
-    if (relacionadas.length > 0) {
-        html += '<div class="preguntas-relacionadas" style="margin-top: 25px;">';
-        html += '<h3 style="color: #043263; margin-bottom: 15px;">💡 Preguntas relacionadas:</h3>';
-        relacionadas.forEach((item) => {
-            const subcatInfo = item.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${item.subcategoria})</span>` : '';
-            html += `
-                <div class="search-result-item" onclick="mostrarFAQ('${sectorEscaped}', ${item.originalIndex})">
-                    <div class="search-result-pregunta">${item.pregunta}${subcatInfo}</div>
-                </div>
-            `;
+    html += '<div class="preguntas-frecuentes" style="margin-top: 25px;">';
+    html += `<h3 style="color: #043263; margin-bottom: 15px;">🔥 Otras preguntas frecuentes de ${sector}:</h3>`;
+    
+    if (populares.length > 0) {
+        let mostradas = 0;
+        populares.forEach(item => {
+            if (item.index !== index && preguntas[item.index] && mostradas < 5) {
+                const pregunta = preguntas[item.index];
+                const subcatInfo = pregunta.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${pregunta.subcategoria})</span>` : '';
+                html += `
+                    <div class="search-result-item" onclick="mostrarFAQ('${sectorEscaped}', ${item.index})">
+                        <div class="search-result-pregunta">${pregunta.pregunta}${subcatInfo}</div>
+                    </div>
+                `;
+                mostradas++;
+            }
         });
-        html += '</div>';
+    } else {
+        // Si no hay estadísticas, mostrar otras preguntas del sector
+        let mostradas = 0;
+        preguntas.forEach((pregunta, i) => {
+            if (i !== index && mostradas < 5) {
+                const subcatInfo = pregunta.subcategoria ? ` <span style="color: #666; font-size: 0.85em;">(${pregunta.subcategoria})</span>` : '';
+                html += `
+                    <div class="search-result-item" onclick="mostrarFAQ('${sectorEscaped}', ${i})">
+                        <div class="search-result-pregunta">${pregunta.pregunta}${subcatInfo}</div>
+                    </div>
+                `;
+                mostradas++;
+            }
+        });
     }
     
-    // Botón para volver
-    html += `<div style="text-align: center; margin-top: 25px;">
-        <button class="reset-btn" onclick="limpiarRespuesta()">← Volver a resultados</button>
-    </div>`;
+    // Botón para ver todas las preguntas del sector
+    if (preguntas.length > 5) {
+        html += `
+            <div style="text-align: center; margin-top: 15px;">
+                <button class="opcion-btn" onclick="mostrarTodasPreguntasSector('${sectorEscaped}')">
+                    📋 Ver todas las preguntas (${preguntas.length})
+                </button>
+            </div>
+        `;
+    }
     
+    html += '</div>';
     html += '</div>';
     
     searchResults.innerHTML = html;
@@ -847,6 +865,8 @@ window.mostrarFAQ = mostrarFAQ;
 window.volverAtras = volverAtras;
 window.reiniciar = reiniciar;
 window.limpiarRespuesta = limpiarRespuesta;
+window.mostrarPreguntasPopularesSector = mostrarPreguntasPopularesSector;
+window.mostrarTodasPreguntasSector = mostrarTodasPreguntasSector;
 
 // Función buscarConsulta para el input fijo del HTML
 window.buscarConsulta = function() {

@@ -874,6 +874,14 @@ window.limpiarRespuesta = limpiarRespuesta;
 window.mostrarPreguntasPopularesSector = mostrarPreguntasPopularesSector;
 window.mostrarTodasPreguntasSector = mostrarTodasPreguntasSector;
 
+// Función para subir arriba
+window.subirArriba = function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+};
+
 // Función buscarConsulta para el input fijo del HTML
 window.buscarConsulta = function() {
     const input = document.getElementById('searchInput');
@@ -908,6 +916,18 @@ document.addEventListener('DOMContentLoaded', function() {
             if (e.key === 'Enter') {
                 clearTimeout(timeoutBusqueda);
                 window.buscarConsulta();
+            }
+        });
+    }
+    
+    // Mostrar/ocultar botón subir según scroll
+    const btnSubir = document.getElementById('btnSubir');
+    if (btnSubir) {
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                btnSubir.classList.add('visible');
+            } else {
+                btnSubir.classList.remove('visible');
             }
         });
     }

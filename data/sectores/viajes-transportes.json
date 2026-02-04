@@ -342,7 +342,7 @@
     },
     {
       "pregunta": "¿Ante qué juzgados puede poner la persona consumidora una demanda frente a una compañía aérea?",
-      "respuesta": "Puede elegir entre ponerla: - Ante los juzgados de su domicilio. - Ante los juzgados de la sede social de la aerolinea. - Antes los juzgados del lugar donde la relación haya nacido o deba surtir efectos si hay establecimiento abierto al público o representante autorizado para actuar en nombre de la entidad. - Ante los juzgados de partida o llegada del avión.",
+      "respuesta": "Puede elegir entre ponerla:<ul><li>Ante los juzgados de su domicilio.</li><li>Ante los juzgados de la sede social de la aerolinea.</li><li>Antes los juzgados del lugar donde la relación haya nacido o deba surtir efectos si hay establecimiento abierto al público o representante autorizado para actuar en nombre de la entidad.</li><li>Ante los juzgados de partida o llegada del avión.</li></ul>",
       "subcategoria": "Transporte aéreo",
       "keywords": [
         "juzgados",
@@ -355,7 +355,7 @@
     },
     {
       "pregunta": "Compré por internet un billete para un vuelo interno dentro de Tailandia y sufrió una cancelación ¿puedo reclamar la indemnización automática recogida en la normativa europea?",
-      "respuesta": "No, los derechos de los pasajeros aéreos de la UE solo se aplican si estás en uno de los siguientes supuestos: - Si tu vuelo se realiza dentro de la UE y está operado por una compañía aérea de la UE o de fuera de la UE. - Si tu vuelo llega a la UE desde fuera de la UE y está operado por una compañía aérea de la UE. - Si tu vuelo sale de la UE hacia un país de fuera de la UE y está operado por una compañía aérea de dentro o de fuera de la UE. - Si no has recibido aún prestaciones (indemnización, transporte alternativo, asistencia de la compañía aérea, etc.) por problemas relacionados con tu vuelo según la legislación aplicable de un país de fuera de la UE.",
+      "respuesta": "No, los derechos de los pasajeros aéreos de la UE solo se aplican si estás en uno de los siguientes supuestos:<ul><li>Si tu vuelo se realiza dentro de la UE y está operado por una compañía aérea de la UE o de fuera de la UE.</li><li>Si tu vuelo llega a la UE desde fuera de la UE y está operado por una compañía aérea de la UE.</li><li>Si tu vuelo sale de la UE hacia un país de fuera de la UE y está operado por una compañía aérea de dentro o de fuera de la UE.</li><li>Si no has recibido aún prestaciones (indemnización, transporte alternativo, asistencia de la compañía aérea, etc.) por problemas relacionados con tu vuelo según la legislación aplicable de un país de fuera de la UE.</li></ul>",
       "subcategoria": "Transporte aéreo",
       "keywords": [
         "vuelo",
@@ -459,7 +459,7 @@
     },
     {
       "pregunta": "Quedando 24 horas para volar a Marruecos desde Vigo, han cancelado mi vuelo ¿Puedo reclamar?",
-      "respuesta": "Si, en ese caso, la compañía debe ofrecerte: - El reembolso del coste del billete, así como un vuelo al primer punto de partida, o - el traslado hasta el punto de destino a través otro medio de transporte en condiciones comparables. Además, tienes derecho a ser compensado por dicha cancelación. El importe de ésta variará en función de la distancia del vuelo. - 250 € si el vuelo es inferior a 1.500 kms. - de 400 € si es de entre 1.500 y 3.500 kms - y de 600 euros si el vuelo es superior a 3.500 kms.",
+      "respuesta": "Si, en ese caso, la compañía debe ofrecerte:<ul><li>El reembolso del coste del billete, así como un vuelo al primer punto de partida, o</li><li>el traslado hasta el punto de destino a través otro medio de transporte en condiciones comparables. Además, tienes derecho a ser compensado por dicha cancelación. El importe de ésta variará en función de la distancia del vuelo.</li><li>250 € si el vuelo es inferior a 1.500 kms.</li><li>de 400 € si es de entre 1.500 y 3.500 kms</li><li>y de 600 euros si el vuelo es superior a 3.500 kms.</li></ul>",
       "subcategoria": "Transporte aéreo",
       "keywords": [
         "vuelo",
@@ -472,7 +472,7 @@
     },
     {
       "pregunta": "¿Está exenta una compañía aérea de compensar por la cancelación de un vuelo en algún caso?",
-      "respuesta": "No habrá derecho a compensación en los siguientes casos: - Fuerza mayor, siempre que la aerolínea lo pueda acreditar. - Cancelaciones con aviso previo: - Con dos semanas de antelación. - Entre 7 días y 2 semanas, si se ofrece transporte alternativo con salida ≤2 horas antes y llegada ≤4 horas después. - Menos de 7 días, si se ofrece transporte alternativo con salida ≤1 hora antes y llegada ≤2 horas después.",
+      "respuesta": "No habrá derecho a compensación en los siguientes casos:<ul><li>Fuerza mayor, siempre que la aerolínea lo pueda acreditar.</li><li>Cancelaciones con aviso previo:</li><li>Con dos semanas de antelación.</li><li>Entre 7 días y 2 semanas, si se ofrece transporte alternativo con salida ≤2 horas antes y llegada ≤4 horas después.</li><li>Menos de 7 días, si se ofrece transporte alternativo con salida ≤1 hora antes y llegada ≤2 horas después.</li></ul>",
       "subcategoria": "Transporte aéreo",
       "keywords": [
         "horas",
@@ -511,7 +511,7 @@
     },
     {
       "pregunta": "¿Tengo derecho a asistencia si mi vuelo sufre un retraso?",
-      "respuesta": "Sí, la aerolínea debe prestar asistencia que incluyen comida, bebidas, llamadas, correos electrónicos y alojamiento si es necesario en los siguientes casos: - En vuelos de hasta 1.500 km: cuando el retraso es superior a 2 horas. - En vuelos de entre 1.500 y 3.500 km o vuelos extracomunitarios de esa distancia: cuando el retraso es superior a 3 horas. - En otros vuelos: cuando el retraso es superior a 4 horas.",
+      "respuesta": "Sí, la aerolínea debe prestar asistencia que incluyen comida, bebidas, llamadas, correos electrónicos y alojamiento si es necesario en los siguientes casos:<ul><li>En vuelos de hasta 1.500 km: cuando el retraso es superior a 2 horas.</li><li>En vuelos de entre 1.500 y 3.500 km o vuelos extracomunitarios de esa distancia: cuando el retraso es superior a 3 horas.</li><li>En otros vuelos: cuando el retraso es superior a 4 horas.</li></ul>",
       "subcategoria": "Transporte aéreo",
       "keywords": [
         "retraso",
@@ -524,7 +524,7 @@
     },
     {
       "pregunta": "¿Puedo reclamar indemnización económica por un retraso aéreo?",
-      "respuesta": "Sí, si el retraso supera las 3 horas, tendrás derecho a las mismas indemnizaciones que en caso de cancelación, salvo fuerza mayor acreditada por la compañía. Siendo estas: - 250 € si el vuelo es inferior a 1.500 kms. - de 400 € si es de entre 1.500 y 3.500 kms - y de 600 euros si el vuelo es superior a 3.500 kms.",
+      "respuesta": "Sí, si el retraso supera las 3 horas, tendrás derecho a las mismas indemnizaciones que en caso de cancelación, salvo fuerza mayor acreditada por la compañía. Siendo estas:<ul><li>250 € si el vuelo es inferior a 1.500 kms.</li><li>de 400 € si es de entre 1.500 y 3.500 kms</li><li>y de 600 euros si el vuelo es superior a 3.500 kms.</li></ul>",
       "subcategoria": "Transporte aéreo",
       "keywords": [
         "retraso",
@@ -732,7 +732,7 @@
     },
     {
       "pregunta": "Voy a hacer un viaje en tren y estando en la estación en la estación se me ha dicho que tendrá un retraso de 70 minutos ¿Cuáles son mis derechos?",
-      "respuesta": "En caso de que se prevea un retraso superior a 60 minutos como el que refieres, podrás elegir entre: - El reintegro del importe total del billete más la indemnización legalmente prevista, y cuando proceda, un servicio de regreso lo antes posible al punto de partida - La continuación del viaje o la conducción por una vía alternativa al punto de destino final, en condiciones de transporte comparables y lo antes posible; o en una fecha posterior que convenga al viajero. Además, en ese caso, se te ofrecerá asistencia gratuita a los viajeros: comidas y refrigerios; alojamiento y transporte al lugar de alojamiento.",
+      "respuesta": "En caso de que se prevea un retraso superior a 60 minutos como el que refieres, podrás elegir entre:<ul><li>El reintegro del importe total del billete más la indemnización legalmente prevista, y cuando proceda, un servicio de regreso lo antes posible al punto de partida</li><li>La continuación del viaje o la conducción por una vía alternativa al punto de destino final, en condiciones de transporte comparables y lo antes posible; o en una fecha posterior que convenga al viajero. Además, en ese caso, se te ofrecerá asistencia gratuita a los viajeros: comidas y refrigerios; alojamiento y transporte al lugar de alojamiento.</li></ul>",
       "subcategoria": "Transporte terrestre",
       "keywords": [
         "viaje",
@@ -797,7 +797,7 @@
     },
     {
       "pregunta": "Tenía un viaje en barco y se ha retrasado ¿Puedo reclamar?",
-      "respuesta": "Sí. Si el barco llega tarde, puedes solicitar la devolución del 25% del precio del billete, siempre que el retraso supere: - 1 hora en trayectos de hasta 4 horas. - 2 horas en viajes de entre 4 y 8 horas. - 3 horas si dura entre 8 y 24 horas. - 6 horas cuando el trayecto supera las 24 horas. Si el retraso es más del doble del tiempo indicado, puedes reclamar una indemnización del 50% del importe del billete.",
+      "respuesta": "Sí. Si el barco llega tarde, puedes solicitar la devolución del 25% del precio del billete, siempre que el retraso supere:<ul><li>1 hora en trayectos de hasta 4 horas.</li><li>2 horas en viajes de entre 4 y 8 horas.</li><li>3 horas si dura entre 8 y 24 horas.</li><li>6 horas cuando el trayecto supera las 24 horas. Si el retraso es más del doble del tiempo indicado, puedes reclamar una indemnización del 50% del importe del billete.</li></ul>",
       "subcategoria": "Transporte marítimo",
       "keywords": [
         "horas",
@@ -810,7 +810,7 @@
     },
     {
       "pregunta": "Tenía contratado un viaje en barco para ir de Algeciras a Melilla, pero la empresa me dice que se ha cancelado ¿Puedo reclamar?",
-      "respuesta": "Puedes reclamar el: - Reembolso en 7 días del coste íntegro del billete - Transporte, sin coste adicional, hasta el destino final en condiciones de transporte comparables, lo más rápido posible. Además, podrás pedir una indemnización de daños y perjuicios siempre que los acredites (por ejemplo, si pierdes una noche de hotel que ya habías pagado).",
+      "respuesta": "Puedes reclamar el:<ul><li>Reembolso en 7 días del coste íntegro del billete</li><li>Transporte, sin coste adicional, hasta el destino final en condiciones de transporte comparables, lo más rápido posible. Además, podrás pedir una indemnización de daños y perjuicios siempre que los acredites (por ejemplo, si pierdes una noche de hotel que ya habías pagado).</li></ul>",
       "subcategoria": "Transporte marítimo",
       "keywords": [
         "reclamar",
@@ -875,7 +875,7 @@
     },
     {
       "pregunta": "¿Qué normas se aplican a los viajes en crucero?",
-      "respuesta": "La legislación de viajes combinados y, además, si el puerto de embarque pertenece a un estado miembro de la Unión Europea, también se les aplica lo recogido en el [Reglamento 1177/2010](https://www.boe.es/buscar/doc.php?id=DOUE-L-2010-82361), excepto en lo referente a los servicios de conexión, transporte alternativo y reembolso en cancelaciones o retrasos en la salida, así como a la indemnización en retrasos en la llegada. > Asi si por ejemplo reservas un crucero que sale desde Barcelona hacia las Islas Baleares. Como Barcelona está en la UE, se aplican las normas del Reglamento 1177/2010 en cuanto a asistencia y derechos de los pasajeros, además de la legislación de viajes combinados que protege su reserva de hotel y excursiones incluidas en el paquete. Sin embargo, si su vuelo de conexión a Barcelona llega tarde y provoca que pierda el embarque, esas reglas específicas de transporte alternativo o compensación no se aplican; la aerolínea, y no la compañía del crucero, sería responsable.",
+      "respuesta": "La legislación de viajes combinados y, además, si el puerto de embarque pertenece a un estado miembro de la Unión Europea, también se les aplica lo recogido en el [Reglamento 1177/2010](https://www.boe.es/buscar/doc.php?id=DOUE-L-2010-82361), excepto en lo referente a los servicios de conexión, transporte alternativo y reembolso en cancelaciones o retrasos en la salida, así como a la indemnización en retrasos en la llegada. > Así si por ejemplo reservas un crucero que sale desde Barcelona hacia las Islas Baleares. Como Barcelona está en la UE, se aplican las normas del Reglamento 1177/2010 en cuanto a asistencia y derechos de los pasajeros, además de la legislación de viajes combinados que protege su reserva de hotel y excursiones incluidas en el paquete. Sin embargo, si su vuelo de conexión a Barcelona llega tarde y provoca que pierda el embarque, esas reglas específicas de transporte alternativo o compensación no se aplican; la aerolínea, y no la compañía del crucero, sería responsable.",
       "subcategoria": "Transporte marítimo",
       "keywords": [
         "aplican",
@@ -979,7 +979,7 @@
     },
     {
       "pregunta": "Contraté un viaje en ferri y sufrí problemas de acceso con mi silla de ruedas, además de que había serios defectos que afectaban a la seguridad de la embarcación ¿Qué puedo hacer?",
-      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir al Ministerio de Fomento. No obstante, es posible que sancione a la empresa, pero no te reintegre cantidades que solicites a modo de compensación. En ese caso, puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. Soy una persona que va en silla de ruedas, reservé un billete para un ferry/crucero, pero las instalaciones no estaban adaptadas para poder realizar el mismo. ¿Qué puedo hacer? Debe presentarse reclamación ante la entidad transportista, agencia de viajes u operador turístico, según proceda, requiriendo la debida compensación por daños y perjuicios, en el plazo de dos meses desde que se prestó el servicio. En el plazo de un mes deberán notificarle si su reclamación ha sido atendida o desestimada o es todavía objeto de estudio. El plazo de respuesta definitiva no deberá superar dos meses. Si su reclamación es desestimada o no atendida en el plazo indicado podrá acudir a la Dirección General de la Marina Mercante ¿Como persona con discapacidad, qué asistencia puedo solicitar al viajar en barco o crucero? Tienes derecho a que exista un punto de recepción para comunicar tu llegada y solicitar asistencia. Además, tendrás derecho ser asistida para: - Desplazarte en el puerto y en el barco - Embarcar y desembarcar -Para las gestiones necesarias en un viaje: la comprobación del billete, la facturación del equipaje, acceder a determinados espacios -baño, habitación, comedor-, -Guardar el equipaje, recuperarlo, acceder a él en cualquier momento -Poder embarcar con un asistente personal o un perro autorizado, -Acceder con tu equipo de movilidad y a uno de sustitución en en caso de avería o rotura -Acceso a toda la información en formatos accesibles. **",
+      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir al Ministerio de Fomento. No obstante, es posible que sancione a la empresa, pero no te reintegre cantidades que solicites a modo de compensación. En ese caso, puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. Soy una persona que va en silla de ruedas, reservé un billete para un ferry/crucero, pero las instalaciones no estaban adaptadas para poder realizar el mismo. ¿Qué puedo hacer? Debe presentarse reclamación ante la entidad transportista, agencia de viajes u operador turístico, según proceda, requiriendo la debida compensación por daños y perjuicios, en el plazo de dos meses desde que se prestó el servicio. En el plazo de un mes deberán notificarle si su reclamación ha sido atendida o desestimada o es todavía objeto de estudio. El plazo de respuesta definitiva no deberá superar dos meses. Si su reclamación es desestimada o no atendida en el plazo indicado podrá acudir a la Dirección General de la Marina Mercante ¿Como persona con discapacidad, qué asistencia puedo solicitar al viajar en barco o crucero? Tienes derecho a que exista un punto de recepción para comunicar tu llegada y solicitar asistencia. Además, tendrás derecho ser asistida para:<ul><li>Desplazarte en el puerto y en el barco</li><li>Embarcar y desembarcar -Para las gestiones necesarias en un viaje: la comprobación del billete, la facturación del equipaje, acceder a determinados espacios -baño, habitación, comedor-, -Guardar el equipaje, recuperarlo, acceder a él en cualquier momento -Poder embarcar con un asistente personal o un perro autorizado, -Acceder con tu equipo de movilidad y a uno de sustitución en en caso de avería o rotura -Acceso a toda la información en formatos accesibles. **</li></ul>",
       "subcategoria": "Transporte marítimo",
       "keywords": [
         "reclamación",

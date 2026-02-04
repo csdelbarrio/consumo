@@ -56,7 +56,7 @@
     },
     {
       "pregunta": "¿Qué son las condiciones particulares de un seguro?:",
-      "respuesta": "Son aquellas que serán aplicables en cada seguro en concreto. Ejemplo: > *Coberturas contratadas* - *Responsabilidad civil obligatoria* - *Responsabilidad civil voluntaria hasta 50.000 €* - *Asistencia en viaje ️* - *Lunas* *Coberturas no contratadas* - *Robo* - *Daños propios* *Importe de la prima* - *Prima anual total: 386,45 €* - *Forma de pago: anual* - *Fecha de efecto: 15/10/2025* - *Fecha de vencimiento: 15/10/2026*",
+      "respuesta": "Son aquellas que serán aplicables en cada seguro en concreto. Ejemplo: > *Coberturas contratadas*:<ul><li>*Responsabilidad civil obligatoria*</li><li>*Responsabilidad civil voluntaria hasta 50.000 €*</li><li>*Asistencia en viaje ️*</li><li>*Lunas* *Coberturas no contratadas*</li><li>*Robo*</li><li>*Daños propios* *Importe de la prima*</li><li>*Prima anual total: 386,45 €*</li><li>*Forma de pago: anual*</li><li>*Fecha de efecto: 15/10/2025*</li><li>*Fecha de vencimiento: 15/10/2026*</li></ul>",
       "subcategoria": "Seguros",
       "keywords": [
         "seguro",
@@ -459,7 +459,7 @@
     },
     {
       "pregunta": "¿Qué implica el derecho al olvido oncológico?",
-      "respuesta": "Permite que cinco años después de finalizar el tratamiento sin recaída, los pacientes de cáncer puedan contratar seguros y productos bancarios sin que su historial oncológico sea considerado. Esto implica: - Las cláusulas que excluyan a alguien por haber tenido cáncer son nulas. - No se pueden hacer diferencias en la contratación de seguros por antecedentes oncológicos. - No es obligatorio declarar haber tenido cáncer para suscribir un seguro de vida, y estos antecedentes no pueden influir en el trámite.",
+      "respuesta": "Permite que cinco años después de finalizar el tratamiento sin recaída, los pacientes de cáncer puedan contratar seguros y productos bancarios sin que su historial oncológico sea considerado. Esto implica:<ul><li>Las cláusulas que excluyan a alguien por haber tenido cáncer son nulas.</li><li>No se pueden hacer diferencias en la contratación de seguros por antecedentes oncológicos.</li><li>No es obligatorio declarar haber tenido cáncer para suscribir un seguro de vida, y estos antecedentes no pueden influir en el trámite.</li></ul>",
       "subcategoria": "Seguros",
       "keywords": [
         "cáncer",
@@ -1096,7 +1096,7 @@
     },
     {
       "pregunta": "No estoy conforme con el cobro de unas comisiones en mi tarjeta de crédito ¿Qué puedo hacer ante este o cualquier otro problema con un banco?",
-      "respuesta": "- Presenta tu reclamación ante el Servicio de Atención al Cliente del banco. - Si no recibes respuesta o esta no es satisfactoria, puedes acudir al Defensor del Cliente, si la entidad cuenta con uno (no es obligatorio). - Después, si aún no se resuelve el problema, puedes dirigirte al Servicio de Reclamaciones del Banco de España o a los tribunales ordinarios de justicia (si la reclamación es inferior a 2.000 euros, no tendrás que contratar a un abogado). Acudir al Defensor del Cliente no es obligatorio, puedes ir directamente al Servicio de Reclamaciones del [Banco de España](https://clientebancario.bde.es/pcb/es/) o a los tribunales ordinarios de justicia.",
+      "respuesta": "- Presenta tu reclamación ante el Servicio de Atención al Cliente del banco.:<ul><li>Si no recibes respuesta o esta no es satisfactoria, puedes acudir al Defensor del Cliente, si la entidad cuenta con uno (no es obligatorio).</li><li>Después, si aún no se resuelve el problema, puedes dirigirte al Servicio de Reclamaciones del Banco de España o a los tribunales ordinarios de justicia (si la reclamación es inferior a 2.000 euros, no tendrás que contratar a un abogado). Acudir al Defensor del Cliente no es obligatorio, puedes ir directamente al Servicio de Reclamaciones del [Banco de España](https://clientebancario.bde.es/pcb/es/) o a los tribunales ordinarios de justicia.</li></ul>",
       "subcategoria": "Banca",
       "keywords": [
         "banco",
@@ -1148,7 +1148,7 @@
     },
     {
       "pregunta": "¿Tienen las entidades libertad para fijar los intereses y comisiones de un préstamo?",
-      "respuesta": "El principio de libertad de precios permite que las entidades establezcan estos costes, aunque: - Existen excepciones donde el importe de las comisiones está limitado por ley, como en la cancelación anticipada de hipotecas, créditos al consumo, comisiones. vinculadas a hipotecas anteriores a 2012 y las cuentas de pago básico. - Los tribunales de justicia pueden determinar que un interés es usurario o abusivo.",
+      "respuesta": "El principio de libertad de precios permite que las entidades establezcan estos costes, aunque:<ul><li>Existen excepciones donde el importe de las comisiones está limitado por ley, como en la cancelación anticipada de hipotecas, créditos al consumo, comisiones. vinculadas a hipotecas anteriores a 2012 y las cuentas de pago básico.</li><li>Los tribunales de justicia pueden determinar que un interés es usurario o abusivo.</li></ul>",
       "subcategoria": "Banca",
       "keywords": [
         "comisiones",
@@ -1304,7 +1304,7 @@
     },
     {
       "pregunta": "¿Se puede detener la ejecución hipotecaria?",
-      "respuesta": "Sí, hay varias opciones para intentarlo: - Negociar con el banco una reestructuración de la deuda. - Solicitar la aplicación del Código de Buenas Prácticas Bancarias. - Impugnar cláusulas abusivas, como intereses de demora muy altos o cláusulas suelo. - Acudir a los procedimientos de segunda oportunidad, si corresponde.",
+      "respuesta": "Sí, hay varias opciones para intentarlo:<ul><li>Negociar con el banco una reestructuración de la deuda.</li><li>Solicitar la aplicación del Código de Buenas Prácticas Bancarias.</li><li>Impugnar cláusulas abusivas, como intereses de demora muy altos o cláusulas suelo.</li><li>Acudir a los procedimientos de segunda oportunidad, si corresponde.</li></ul>",
       "subcategoria": "Banca",
       "keywords": [
         "cláusulas",
@@ -1434,7 +1434,7 @@
     },
     {
       "pregunta": "El otro día me llamaron por teléfono haciéndose pasar por mi banco y me sonsacaron una serie de datos que llevó a que vaciaran mi cuenta, he reclamado al banco y dice que no es responsable ¿es legal?",
-      "respuesta": "Es un tema controvertido sobre el que los juzgados han tenido pronunciamientos diferentes. No obstante, en 2025, el Tribunal Supremo ha confirmado que los bancos son responsables de los fraudes digitales, incluso si se usan las credenciales del cliente al decir que: - El uso de contraseñas o códigos no implica consentimiento del cliente; el banco debe demostrar que la operación fue autorizada o que hubo negligencia grave del usuario. - Las cláusulas que eximen al banco de responsabilidad son inválidas si contravienen la ley. - Los bancos deben contar con sistemas que detecten y bloqueen operaciones sospechosas automáticamente. - Si el cliente actúa con diligencia (alerta al banco, cambia contraseñas, denuncia el fraude), tiene derecho a que le devuelvan el dinero.",
+      "respuesta": "Es un tema controvertido sobre el que los juzgados han tenido pronunciamientos diferentes. No obstante, en 2025, el Tribunal Supremo ha confirmado que los bancos son responsables de los fraudes digitales, incluso si se usan las credenciales del cliente al decir que:<ul><li>El uso de contraseñas o códigos no implica consentimiento del cliente; el banco debe demostrar que la operación fue autorizada o que hubo negligencia grave del usuario.</li><li>Las cláusulas que eximen al banco de responsabilidad son inválidas si contravienen la ley.</li><li>Los bancos deben contar con sistemas que detecten y bloqueen operaciones sospechosas automáticamente.</li><li>Si el cliente actúa con diligencia (alerta al banco, cambia contraseñas, denuncia el fraude), tiene derecho a que le devuelvan el dinero.</li></ul>",
       "subcategoria": "Banca",
       "keywords": [
         "banco",
@@ -1447,7 +1447,7 @@
     },
     {
       "pregunta": "He tenido un problema con un producto de inversión contratado como persona consumidora ¿Qué puedo hacer?",
-      "respuesta": "- Presenta tu reclamación ante el Servicio de Atención al Cliente de la compañía. - Si no recibes respuesta o esta no es satisfactoria, puedes acudir al Defensor del Cliente, si la entidad cuenta con uno (no es obligatorio). - Si el problema sigue sin resolverse puedes poner la reclamación ante la Comisión Nacional del Mercado de Valores. - Después, si aún no se resuelve el problema, puedes dirigirte o a los tribunales ordinarios de justicia (si reclamas una cantidad inferior a 2.000 euros, no tendrás que contratar un abogado).",
+      "respuesta": "- Presenta tu reclamación ante el Servicio de Atención al Cliente de la compañía.:<ul><li>Si no recibes respuesta o esta no es satisfactoria, puedes acudir al Defensor del Cliente, si la entidad cuenta con uno (no es obligatorio).</li><li>Si el problema sigue sin resolverse puedes poner la reclamación ante la Comisión Nacional del Mercado de Valores.</li><li>Después, si aún no se resuelve el problema, puedes dirigirte o a los tribunales ordinarios de justicia (si reclamas una cantidad inferior a 2.000 euros, no tendrás que contratar un abogado).</li></ul>",
       "subcategoria": "Banca",
       "keywords": [
         "problema",

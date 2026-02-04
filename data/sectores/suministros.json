@@ -108,7 +108,7 @@
     },
     {
       "pregunta": "¿Qué son los derechos de acceso, extensión, acometida, enganche y verificación en el suministro eléctrico?",
-      "respuesta": "Son pagos regulados que se aplican al solicitar, modificar o verificar un suministro eléctrico: - Acceso: por conectarse y usar la capacidad de la red. - Extensión: por ampliar o reforzar la red para dar suministro. - Acometida: por construir o adaptar la conexión física al inmueble. - Enganche: por activar el suministro y conectar la instalación al contador. - Verificación: por inspeccionar que la instalación y los equipos cumplen la normativa y funcionan correctamente.",
+      "respuesta": "Son pagos regulados que se aplican al solicitar, modificar o verificar un suministro eléctrico:<ul><li>Acceso: por conectarse y usar la capacidad de la red.</li><li>Extensión: por ampliar o reforzar la red para dar suministro.</li><li>Acometida: por construir o adaptar la conexión física al inmueble.</li><li>Enganche: por activar el suministro y conectar la instalación al contador.</li><li>Verificación: por inspeccionar que la instalación y los equipos cumplen la normativa y funcionan correctamente.</li></ul>",
       "subcategoria": "Electricidad",
       "keywords": [
         "suministro",
@@ -173,7 +173,7 @@
     },
     {
       "pregunta": "¿Cuáles son los elementos de una factura de electricidad?",
-      "respuesta": "Tiene los siguientes componentes: A) Variables: - Potencia contratada: Es el máximo de electricidad que se puede usar al mismo tiempo en una vivienda. - Peaje de acceso: Son los costes que se pagan por usar la red eléctrica para transportar y distribuir la energía hasta el hogar. - Alquiler de equipos de medida y control: Es el importe que se paga por el uso de los contadores que registran el consumo eléctrico. B) Fijos: - Energía consumida: representa la energía que consume la vivienda en el periodo de la factura.",
+      "respuesta": "Tiene los siguientes componentes: A) Variables:<ul><li>Potencia contratada: Es el máximo de electricidad que se puede usar al mismo tiempo en una vivienda.</li><li>Peaje de acceso: Son los costes que se pagan por usar la red eléctrica para transportar y distribuir la energía hasta el hogar.</li><li>Alquiler de equipos de medida y control: Es el importe que se paga por el uso de los contadores que registran el consumo eléctrico. B) Fijos:</li><li>Energía consumida: representa la energía que consume la vivienda en el periodo de la factura.</li></ul>",
       "subcategoria": "Electricidad",
       "keywords": [
         "energía",
@@ -329,7 +329,7 @@
     },
     {
       "pregunta": "¿A quién debo acudir si tengo problemas con la lectura, la potencia o el acceso al suministro, o si mi comercializadora en mercado libre no me aplica los descuentos prometidos?",
-      "respuesta": "Depende del tipo de problema: - Para cuestiones técnicas relacionadas con la lectura del contador, > la potencia o el acceso al suministro, debes acudir al organismo > de Industria de tu Comunidad Autónoma, que gestiona reclamaciones > sobre control y medida del consumo. - Para problemas con descuentos no aplicados por tu comercializadora > en mercado libre, debes dirigirte a tu asociación de consumidores > o a los servicios públicos de consumo de tu localidad o Comunidad > Autónoma.",
+      "respuesta": "Depende del tipo de problema:<ul><li>Para cuestiones técnicas relacionadas con la lectura del contador, > la potencia o el acceso al suministro, debes acudir al organismo > de Industria de tu Comunidad Autónoma, que gestiona reclamaciones > sobre control y medida del consumo.</li><li>Para problemas con descuentos no aplicados por tu comercializadora > en mercado libre, debes dirigirte a tu asociación de consumidores > o a los servicios públicos de consumo de tu localidad o Comunidad > Autónoma.</li></ul>",
       "subcategoria": "Electricidad",
       "keywords": [
         "acudir",
@@ -433,7 +433,7 @@
     },
     {
       "pregunta": "¿Qué tipos de gas existen según la forma de suministrarlo?",
-      "respuesta": "Podemos diferenciar tres tipos de suministro: - El suministro canalizado, que consiste en el transporte del gas hacia las viviendas o industrias a través de redes de tuberías, siendo el método más habitual para el gas natural. - El suministro a granel, en el que el gas se almacena en un depósito o tanque fijo instalado en el lugar de consumo y se reposta periódicamente mediante un camión cisterna. - El suministro envasado se realiza mediante cilindros portátiles o bombonas que contienen gas GLP.",
+      "respuesta": "Podemos diferenciar tres tipos de suministro:<ul><li>El suministro canalizado, que consiste en el transporte del gas hacia las viviendas o industrias a través de redes de tuberías, siendo el método más habitual para el gas natural.</li><li>El suministro a granel, en el que el gas se almacena en un depósito o tanque fijo instalado en el lugar de consumo y se reposta periódicamente mediante un camión cisterna.</li><li>El suministro envasado se realiza mediante cilindros portátiles o bombonas que contienen gas GLP.</li></ul>",
       "subcategoria": "Gas",
       "keywords": [
         "suministro",
@@ -1083,7 +1083,7 @@
     },
     {
       "pregunta": "He recibido mi factura telefónica ¿Qué conceptos deben aparecer dentro del servicio telefónico?",
-      "respuesta": "- El período de facturación. - La cuota mensual fija, el precio de la línea y el del aparato, si es de alquiler (en telefonía fija). - Otros cargos mensuales fijos, en el caso de que se tengan contratados, (ejemplo- el servicio de contestador). - El consumo, que debe especificar tanto el tipo de llamadas efectuadas (metropolitanas, nacionales, internacionales, a móviles o a servicios de tarificación adicional) así como el número de minutos hablados y el coste de cada llamada. - Total, facturado e impuestos indirectos (IVA). - Importe total de la factura, impuestos incluidos.",
+      "respuesta": "- El período de facturación.:<ul><li>La cuota mensual fija, el precio de la línea y el del aparato, si es de alquiler (en telefonía fija).</li><li>Otros cargos mensuales fijos, en el caso de que se tengan contratados, (ejemplo- el servicio de contestador).</li><li>El consumo, que debe especificar tanto el tipo de llamadas efectuadas (metropolitanas, nacionales, internacionales, a móviles o a servicios de tarificación adicional) así como el número de minutos hablados y el coste de cada llamada.</li><li>Total, facturado e impuestos indirectos (IVA).</li><li>Importe total de la factura, impuestos incluidos.</li></ul>",
       "subcategoria": "Teléfono e internet",
       "keywords": [
         "factura",
@@ -1187,7 +1187,7 @@
     },
     {
       "pregunta": "¿Por qué números empiezan las llamadas de tarificación adicional?",
-      "respuesta": "- 905: llamadas masivas, utilizadas para servicios con gran volumen de llamadas en un periodo determinado, como programas de televisión, concursos, sondeos o servicios profesionales. - 807: servicios profesionales, como consultas de abogados, notarios y otros expertos. - 803: líneas de contenido adulto, incluyendo juegos de azar, servicios eróticos o de contacto. - 907: servicios a través de internet, que pueden ofrecer entretenimiento, contenido adulto o servicios profesionales. - 806: servicios de ocio y entretenimiento, que incluyen predicciones astrológicas, esotéricas y otros contenidos similares.",
+      "respuesta": "- 905: llamadas masivas, utilizadas para servicios con gran volumen de llamadas en un periodo determinado, como programas de televisión, concursos, sondeos o servicios profesionales.:<ul><li>807: servicios profesionales, como consultas de abogados, notarios y otros expertos.</li><li>803: líneas de contenido adulto, incluyendo juegos de azar, servicios eróticos o de contacto.</li><li>907: servicios a través de internet, que pueden ofrecer entretenimiento, contenido adulto o servicios profesionales.</li><li>806: servicios de ocio y entretenimiento, que incluyen predicciones astrológicas, esotéricas y otros contenidos similares.</li></ul>",
       "subcategoria": "Teléfono e internet",
       "keywords": [
         "servicios",
@@ -1200,7 +1200,7 @@
     },
     {
       "pregunta": "¿Cuáles son los números de los SMS premium?",
-      "respuesta": "Los números de estos mensajes tienen cinco, seis o siete cifras. Los distintos rangos de numeración se usan según el tipo de servicio y su coste máximo: - Los que empiezan por 99: corresponden a servicios de contenido adulto, con un coste máximo de 6 euros por mensaje enviado, informativo o de confirmación. - Los que empiezan por 79: son servicios de suscripción, con un coste por mensaje recibido de hasta 1,2 euros. - Los que empiezan por 3: se usan para servicios diversos, con un coste por mensaje enviado, informativo o de confirmación entre 1,2 y 6 euros. - Los que empiezan por 2: se destinan a concursos, votaciones y similares, con un coste máximo de 1,2 euros; el subrango 280AB se reserva para campañas benéficas o solidarias.",
+      "respuesta": "Los números de estos mensajes tienen cinco, seis o siete cifras. Los distintos rangos de numeración se usan según el tipo de servicio y su coste máximo:<ul><li>Los que empiezan por 99: corresponden a servicios de contenido adulto, con un coste máximo de 6 euros por mensaje enviado, informativo o de confirmación.</li><li>Los que empiezan por 79: son servicios de suscripción, con un coste por mensaje recibido de hasta 1,2 euros.</li><li>Los que empiezan por 3: se usan para servicios diversos, con un coste por mensaje enviado, informativo o de confirmación entre 1,2 y 6 euros.</li><li>Los que empiezan por 2: se destinan a concursos, votaciones y similares, con un coste máximo de 1,2 euros; el subrango 280AB se reserva para campañas benéficas o solidarias.</li></ul>",
       "subcategoria": "Teléfono e internet",
       "keywords": [
         "coste",
@@ -1213,7 +1213,7 @@
     },
     {
       "pregunta": "¿Cuáles son los números de los servicios especiales de llamada?",
-      "respuesta": "- El 112 es totalmente gratuito y se utiliza para emergencias. - Los números que comienzan por 900 y 800 también son totalmente gratuitos para el usuario. - Los que empiezan por 901 tienen facturación compartida, de manera que el coste se divide entre quien llama y quien recibe la llamada. - Por otro lado, los números que empiezan por 902 tienen un coste superior al de una llamada local, similar al de una llamada provincial. En estos casos, el operador debe informar claramente del precio de la llamada, incluyendo el establecimiento de la llamada, el coste por minuto, impuestos incluidos y si la llamada está cubierta por tarifas planas o cuotas fijas.",
+      "respuesta": "- El 112 es totalmente gratuito y se utiliza para emergencias.:<ul><li>Los números que comienzan por 900 y 800 también son totalmente gratuitos para el usuario.</li><li>Los que empiezan por 901 tienen facturación compartida, de manera que el coste se divide entre quien llama y quien recibe la llamada.</li><li>Por otro lado, los números que empiezan por 902 tienen un coste superior al de una llamada local, similar al de una llamada provincial. En estos casos, el operador debe informar claramente del precio de la llamada, incluyendo el establecimiento de la llamada, el coste por minuto, impuestos incluidos y si la llamada está cubierta por tarifas planas o cuotas fijas.</li></ul>",
       "subcategoria": "Teléfono e internet",
       "keywords": [
         "llamada",

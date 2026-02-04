@@ -277,7 +277,7 @@
     },
     {
       "pregunta": "¿Qué debe contener el certificado de eficiencia energética?:",
-      "respuesta": "- Identificación de la vivienda. - Procedimiento usado para la calificación. - Indicación de la normativa aplicable sobre ahorro y eficiencia en el momento de su construcción. - Características energéticas (aislamiento, instalaciones, iluminación, etc.). - Recomendaciones de mejora de eficiencia energética. - Descripción de las pruebas y comprobaciones llevadas a cabo, por el técnico competente durante la fase de calificación energética. - Cumplimiento de los requisitos medioambientales exigidos a las instalaciones térmicas.",
+      "respuesta": "- Identificación de la vivienda.:<ul><li>Procedimiento usado para la calificación.</li><li>Indicación de la normativa aplicable sobre ahorro y eficiencia en el momento de su construcción.</li><li>Características energéticas (aislamiento, instalaciones, iluminación, etc.).</li><li>Recomendaciones de mejora de eficiencia energética.</li><li>Descripción de las pruebas y comprobaciones llevadas a cabo, por el técnico competente durante la fase de calificación energética.</li><li>Cumplimiento de los requisitos medioambientales exigidos a las instalaciones térmicas.</li></ul>",
       "subcategoria": "Compraventa",
       "keywords": [
         "eficiencia",
@@ -602,7 +602,7 @@
     },
     {
       "pregunta": "¿Puede el casero echarme de mi piso antes de que termine el contrato?",
-      "respuesta": "Solo puede hacerlo por causas legales expresamente previstas; de lo contrario, debe respetar el plazo pactado o el mínimo legal. Las causas previstas son las que siguen: - Por impago de la renta o la fianza (o su actualización). - Por subarrendar la casa o cederla sin permiso. - Por provocar daños intencionados u obras sin autorización. - Por desarrollar actividades molestas, peligrosas o ilegales en la vivienda. - Si el casero necesita la vivienda para uso propio o de familiares cercanos.",
+      "respuesta": "Solo puede hacerlo por causas legales expresamente previstas; de lo contrario, debe respetar el plazo pactado o el mínimo legal. Las causas previstas son las que siguen:<ul><li>Por impago de la renta o la fianza (o su actualización).</li><li>Por subarrendar la casa o cederla sin permiso.</li><li>Por provocar daños intencionados u obras sin autorización.</li><li>Por desarrollar actividades molestas, peligrosas o ilegales en la vivienda.</li><li>Si el casero necesita la vivienda para uso propio o de familiares cercanos.</li></ul>",
       "subcategoria": "Arrendamiento",
       "keywords": [
         "casero",
@@ -940,7 +940,7 @@
     },
     {
       "pregunta": "¿Qué precio pagaré si alquilo un piso en una zona residencial tensionada?",
-      "respuesta": "Dependerá de quién es el propietario y del historial del inmueble: - Si el casero es un gran tenedor: el precio debe ajustarse al índice oficial de alquiler del Gobierno. - Si es un pequeño propietario: el precio no puede superar el del contrato anterior, actualizado con el índice del INE (aunque sea mayor que el índice oficial). - El contrato debe reflejar por escrito el precio anterior y su actualización. - Si es la primera vez que se alquila la vivienda (o la primera vez en 5 años): se aplica el índice del Gobierno, sin importar quién sea el propietario.",
+      "respuesta": "Dependerá de quién es el propietario y del historial del inmueble:<ul><li>Si el casero es un gran tenedor: el precio debe ajustarse al índice oficial de alquiler del Gobierno.</li><li>Si es un pequeño propietario: el precio no puede superar el del contrato anterior, actualizado con el índice del INE (aunque sea mayor que el índice oficial).</li><li>El contrato debe reflejar por escrito el precio anterior y su actualización.</li><li>Si es la primera vez que se alquila la vivienda (o la primera vez en 5 años): se aplica el índice del Gobierno, sin importar quién sea el propietario.</li></ul>",
       "subcategoria": "Arrendamiento",
       "keywords": [
         "precio",
@@ -953,7 +953,7 @@
     },
     {
       "pregunta": "¿Qué documentos me deben entregar si alquilo un piso en una zona residencial tensionada?",
-      "respuesta": "- Nota simple del Registro de la Propiedad. - Cédula de habitabilidad. - Información catastral del inmueble. - Certificado de Eficiencia Energética - El precio del último alquiler que hubiese estado vigente en los últimos 5 años. - El precio correspondiente de acuerdo con el índice de referencia de precios del alquiler que se aplicase.",
+      "respuesta": "- Nota simple del Registro de la Propiedad.:<ul><li>Cédula de habitabilidad.</li><li>Información catastral del inmueble.</li><li>Certificado de Eficiencia Energética</li><li>El precio del último alquiler que hubiese estado vigente en los últimos 5 años.</li><li>El precio correspondiente de acuerdo con el índice de referencia de precios del alquiler que se aplicase.</li></ul>",
       "subcategoria": "Arrendamiento",
       "keywords": [
         "precio",

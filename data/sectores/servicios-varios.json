@@ -69,7 +69,7 @@
     },
     {
       "pregunta": "¿Puede eximir su responsabilidad una empresa de mudanzas en algún caso?",
-      "respuesta": "Si, si se da alguno de los siguientes supuestos: - Deficiencias en el embalaje o marcado de los bienes realizado por el usuario. - Manipulación efectuada por el usuario. - Cuando se transporten animales vivos o plantas. - La carga o descarga de bienes cuya dimensión o peso no sea adecuado para los medios de transporte acordados, siempre que la empresa le haya avisado del riesgo de daños en estos y aún así el usuario haya insistido en la realización de la misma. - Falsedad o incorrección en la información proporcionada. - Naturaleza propia de los bienes objeto de la mudanza.",
+      "respuesta": "Si, si se da alguno de los siguientes supuestos:<ul><li>Deficiencias en el embalaje o marcado de los bienes realizado por el usuario.</li><li>Manipulación efectuada por el usuario.</li><li>Cuando se transporten animales vivos o plantas.</li><li>La carga o descarga de bienes cuya dimensión o peso no sea adecuado para los medios de transporte acordados, siempre que la empresa le haya avisado del riesgo de daños en estos y aún así el usuario haya insistido en la realización de la misma.</li><li>Falsedad o incorrección en la información proporcionada.</li><li>Naturaleza propia de los bienes objeto de la mudanza.</li></ul>",
       "subcategoria": "Mudanzas",
       "keywords": [
         "bienes",
@@ -381,7 +381,7 @@
     },
     {
       "pregunta": "¿Qué sucede si pido un presupuesto a un SAT y no acepto la reparación",
-      "respuesta": "Pueden cobrar si lo tienen previsto en un aviso en la tienda o web. El importe máximo a cobrar depende del tipo de aparato: - Pequeños aparatos: 15 minutos del valor del tiempo de trabajo. - Línea blanca: 30 minutos. - Línea marrón y electrónica: 60 minutos.",
+      "respuesta": "Pueden cobrar si lo tienen previsto en un aviso en la tienda o web. El importe máximo a cobrar depende del tipo de aparato:<ul><li>Pequeños aparatos: 15 minutos del valor del tiempo de trabajo.</li><li>Línea blanca: 30 minutos.</li><li>Línea marrón y electrónica: 60 minutos.</li></ul>",
       "subcategoria": "Reparaciones de electrodomésticos",
       "keywords": [
         "minutos",

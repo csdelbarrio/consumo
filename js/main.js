@@ -305,14 +305,23 @@ function mostrarRespuestaBusqueda(sector, index) {
     const searchResults = document.getElementById('searchResults');
     const btnVolver = document.getElementById('btnVolver');
     const opcionesContainer = document.getElementById('opcionesContainer');
+    const contenidoArea = document.getElementById('contenidoArea');
     
     if (!searchResults) {
         console.error('Elemento searchResults no encontrado');
         return;
     }
     
-    // Limpiar opciones al mostrar respuesta
+    // Limpiar opciones y contenido del árbol al mostrar respuesta de FAQ
     if (opcionesContainer) opcionesContainer.innerHTML = '';
+    if (contenidoArea) contenidoArea.innerHTML = '';
+    
+    // Resetear título principal
+    const preguntaEl = document.getElementById('preguntaPrincipal');
+    if (preguntaEl) {
+        preguntaEl.className = 'pregunta-principal';
+        preguntaEl.textContent = '¿En qué podemos ayudarte?';
+    }
     
     // Registrar clic en esta pregunta
     registrarClickPregunta(sector, index);
@@ -664,14 +673,23 @@ function mostrarFAQ(sector, index) {
     const searchResults = document.getElementById('searchResults');
     const btnVolver = document.getElementById('btnVolver');
     const opcionesContainer = document.getElementById('opcionesContainer');
+    const contenidoArea = document.getElementById('contenidoArea');
     
     if (!searchResults) {
         console.error('Elemento searchResults no encontrado');
         return;
     }
     
-    // Limpiar opciones al mostrar FAQ
+    // Limpiar opciones y contenido del árbol al mostrar FAQ
     if (opcionesContainer) opcionesContainer.innerHTML = '';
+    if (contenidoArea) contenidoArea.innerHTML = '';
+    
+    // Resetear título principal
+    const preguntaEl = document.getElementById('preguntaPrincipal');
+    if (preguntaEl) {
+        preguntaEl.className = 'pregunta-principal';
+        preguntaEl.textContent = '¿En qué podemos ayudarte?';
+    }
     
     // Registrar clic en esta pregunta
     registrarClickPregunta(sector, index);
@@ -776,12 +794,14 @@ function mostrarSolucion(nodo) {
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
     const opcionesContainer = document.getElementById('opcionesContainer');
+    const searchResults = document.getElementById('searchResults');
     
     preguntaEl.className = 'pregunta-principal solucion';
     preguntaEl.textContent = 'Solución encontrada';
     
-    // Limpiar opciones al mostrar solución
+    // Limpiar opciones y FAQs al mostrar solución
     if (opcionesContainer) opcionesContainer.innerHTML = '';
+    if (searchResults) searchResults.innerHTML = '';
     
     let html = '<div class="solucion-container">';
     html += '<div class="solucion-final">';

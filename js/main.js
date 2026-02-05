@@ -152,6 +152,7 @@ function mostrarBusquedaInicial() {
     const contenido = document.getElementById('contenidoArea');
     const btnVolver = document.getElementById('btnVolver');
     const opcionesContainer = document.getElementById('opcionesContainer');
+    const explicacionContainer = document.getElementById('explicacionContainer');
     
     if (!preguntaEl || !contenido) return;
     
@@ -159,6 +160,7 @@ function mostrarBusquedaInicial() {
     preguntaEl.textContent = '¿En qué podemos ayudarte?';
     if (btnVolver) btnVolver.classList.remove('visible');
     if (opcionesContainer) opcionesContainer.innerHTML = '';
+    if (explicacionContainer) explicacionContainer.innerHTML = '';
     historial = [];
     
     // Quitar active de sectores
@@ -306,15 +308,17 @@ function mostrarRespuestaBusqueda(sector, index) {
     const btnVolver = document.getElementById('btnVolver');
     const opcionesContainer = document.getElementById('opcionesContainer');
     const contenidoArea = document.getElementById('contenidoArea');
+    const explicacionContainer = document.getElementById('explicacionContainer');
     
     if (!searchResults) {
         console.error('Elemento searchResults no encontrado');
         return;
     }
     
-    // Limpiar opciones y contenido del árbol al mostrar respuesta de FAQ
+    // Limpiar opciones, explicaciones y contenido del árbol al mostrar respuesta de FAQ
     if (opcionesContainer) opcionesContainer.innerHTML = '';
     if (contenidoArea) contenidoArea.innerHTML = '';
+    if (explicacionContainer) explicacionContainer.innerHTML = '';
     
     // Resetear título principal
     const preguntaEl = document.getElementById('preguntaPrincipal');
@@ -540,18 +544,20 @@ function mostrarTodasPreguntasSector(nombreSector) {
 function mostrarPreguntaConFAQs(nodo, sectorNombre) {
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const opcionesContainer = document.getElementById('opcionesContainer');
+    const explicacionContainer = document.getElementById('explicacionContainer');
     const contenido = document.getElementById('contenidoArea');
     
     preguntaEl.className = 'pregunta-principal en-conversacion';
     preguntaEl.textContent = nodo.pregunta;
     if (contenido) contenido.innerHTML = '';
+    if (explicacionContainer) explicacionContainer.innerHTML = '';
     
-    // Explicación si existe (en contenidoArea)
-    if (nodo.explicacion && contenido) {
+    // Explicación si existe (en explicacionContainer, encima de searchResults)
+    if (nodo.explicacion && explicacionContainer) {
         const explicacionDiv = document.createElement('div');
         explicacionDiv.className = 'explicacion-detallada';
         explicacionDiv.innerHTML = `<strong>ℹ️ Información:</strong> ${nodo.explicacion}`;
-        contenido.appendChild(explicacionDiv);
+        explicacionContainer.appendChild(explicacionDiv);
     }
     
     // Botones de opciones (en opcionesContainer, encima de searchResults)
@@ -595,15 +601,18 @@ function mostrarPregunta(nodo) {
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
     const opcionesContainer = document.getElementById('opcionesContainer');
+    const explicacionContainer = document.getElementById('explicacionContainer');
     
     preguntaEl.textContent = nodo.pregunta;
     if (contenido) contenido.innerHTML = '';
+    if (explicacionContainer) explicacionContainer.innerHTML = '';
     
-    if (nodo.explicacion && contenido) {
+    // Explicación si existe (en explicacionContainer, encima de searchResults)
+    if (nodo.explicacion && explicacionContainer) {
         const explicacionDiv = document.createElement('div');
         explicacionDiv.className = 'explicacion-detallada';
         explicacionDiv.innerHTML = `<strong>ℹ️ Información:</strong> ${nodo.explicacion}`;
-        contenido.appendChild(explicacionDiv);
+        explicacionContainer.appendChild(explicacionDiv);
     }
     
     // Usar opcionesContainer (el mismo que mostrarPreguntaConFAQs)
@@ -674,15 +683,17 @@ function mostrarFAQ(sector, index) {
     const btnVolver = document.getElementById('btnVolver');
     const opcionesContainer = document.getElementById('opcionesContainer');
     const contenidoArea = document.getElementById('contenidoArea');
+    const explicacionContainer = document.getElementById('explicacionContainer');
     
     if (!searchResults) {
         console.error('Elemento searchResults no encontrado');
         return;
     }
     
-    // Limpiar opciones y contenido del árbol al mostrar FAQ
+    // Limpiar opciones, explicaciones y contenido del árbol al mostrar FAQ
     if (opcionesContainer) opcionesContainer.innerHTML = '';
     if (contenidoArea) contenidoArea.innerHTML = '';
+    if (explicacionContainer) explicacionContainer.innerHTML = '';
     
     // Resetear título principal
     const preguntaEl = document.getElementById('preguntaPrincipal');
@@ -795,13 +806,15 @@ function mostrarSolucion(nodo) {
     const contenido = document.getElementById('contenidoArea');
     const opcionesContainer = document.getElementById('opcionesContainer');
     const searchResults = document.getElementById('searchResults');
+    const explicacionContainer = document.getElementById('explicacionContainer');
     
     preguntaEl.className = 'pregunta-principal solucion';
     preguntaEl.textContent = 'Solución encontrada';
     
-    // Limpiar opciones y FAQs al mostrar solución
+    // Limpiar opciones, explicaciones y FAQs al mostrar solución
     if (opcionesContainer) opcionesContainer.innerHTML = '';
     if (searchResults) searchResults.innerHTML = '';
+    if (explicacionContainer) explicacionContainer.innerHTML = '';
     
     let html = '<div class="solucion-container">';
     html += '<div class="solucion-final">';
@@ -871,13 +884,15 @@ function reiniciar() {
     historial = [];
     sectorActual = null;
     
-    // Limpiar búsqueda y opciones
+    // Limpiar búsqueda, opciones y explicaciones
     const searchInput = document.getElementById('searchInput');
     const searchResults = document.getElementById('searchResults');
     const opcionesContainer = document.getElementById('opcionesContainer');
+    const explicacionContainer = document.getElementById('explicacionContainer');
     if (searchInput) searchInput.value = '';
     if (searchResults) searchResults.innerHTML = '';
     if (opcionesContainer) opcionesContainer.innerHTML = '';
+    if (explicacionContainer) explicacionContainer.innerHTML = '';
     
     mostrarBusquedaInicial();
 }

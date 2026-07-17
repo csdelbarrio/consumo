@@ -2,7 +2,7 @@
 
 Sistema web para información y asistencia sobre derechos del consumidor.
 
-🌐 **Demo online:** https://csdelbarrio.github.io/consumo-faq
+🌐 **Demo online:** https://csdelbarrio.github.io/consumo
 
 ## 📂 Estructura del Proyecto
 

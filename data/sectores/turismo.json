@@ -1,213 +1,245 @@
 {
   "sector": "Turismo",
-  "total_preguntas": 41,
+  "total_preguntas": 78,
+  "generado": "2026-09-07T14:00:02",
   "preguntas": [
     {
-      "pregunta": "Fui de viaje de trabajo a un congreso en Sevilla y tuve problemas con la reserva del hotel ¿puedo hacer una reclamación de consumo como persona consumidora?",
-      "respuesta": "No. Al contratar la habitación el contexto de una actividad empresarial, no actúas como consumidor. Por tanto, no se te aplican los derechos previstos en la normativa de consumo, como el derecho de desistimiento o las garantías específicas frente a cláusulas abusivas.",
+      "pregunta": "Fui de viaje de trabajo a un congreso y tuve problemas con la reserva del hotel, ¿puedo reclamar como consumidor?",
+      "respuesta": "No. Cuando contratas un servicio en el contexto de una actividad profesional o empresarial (como un viaje de trabajo), no se te considera legalmente una persona consumidora. Por tanto, no puedes acogerte a la normativa de protección de los consumidores, como el derecho de desistimiento o las protecciones especiales frente a cláusulas abusivas.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "consumo",
-        "viaje",
-        "trabajo",
+        "consumidor",
+        "viaje de trabajo",
+        "viaje de negocios",
+        "hotel",
+        "reclamación",
+        "actividad empresarial",
         "congreso",
-        "sevilla",
-        "tuve"
+        "persona jurídica"
       ]
     },
     {
-      "pregunta": "¿En cualquier comunidad autónoma tendré los mismos derechos cuando me hospedo en un hotel?",
-      "respuesta": "No. Te encontrarás con normativas distintas según la región que visites. Cada comunidad regula aspectos como aparcamiento, toallas o cambio de sabanas.",
+      "pregunta": "¿Tengo los mismos derechos cuando me hospedo en un hotel, con independencia de la comunidad autónoma en la que se encuentre?",
+      "respuesta": "Existe un marco común estatal y europeo de protección de las personas consumidoras, pero los requisitos turísticos específicos de los hoteles pueden variar según la comunidad autónoma. Por ejemplo, pueden existir diferencias en la clasificación de los establecimientos, las instalaciones exigibles, determinados servicios o la frecuencia mínima de cambio de ropa de cama y baño. Por tanto, para saber qué requisitos concretos debe cumplir un hotel hay que consultar también la normativa turística de la comunidad autónoma donde se encuentre.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "comunidad",
-        "autónoma",
-        "tendré",
-        "derechos",
-        "hospedo",
-        "hotel"
+        "derechos hotel",
+        "normativa autonómica",
+        "comunidad autónoma",
+        "alojamiento turístico",
+        "regulación hotelera",
+        "diferencias regionales",
+        "legislación turismo"
       ]
     },
     {
-      "pregunta": "He ido a reservar una pernocta en un establecimiento, pero no sé si es un hotel o un hostal ¿Es obligatorio que los alojamientos faciliten esa información?",
-      "respuesta": "Sí. Es obligatorio mostrar la placa con el tipo y categoría del alojamiento, así como ofrecer información clara y gratuita antes de la reserva.",
+      "pregunta": "¿Es obligatorio que los hoteles, hostales y otros alojamientos indiquen su tipo y categoría?",
+      "respuesta": "Depende de la normativa turística de cada comunidad autónoma. Los alojamientos sujetos a clasificación deben informar correctamente de su tipo y, cuando exista, de su categoría, y muchas normativas autonómicas exigen además exhibir un distintivo o placa en la forma que establezcan. No puede afirmarse, sin embargo, que todos los alojamientos turísticos de España estén sometidos a un mismo sistema de placas, denominaciones o categorías. Antes de contratar, la empresa debe facilitar información clara sobre las características esenciales del alojamiento.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "obligatorio",
-        "información",
-        "reservar",
-        "pernocta",
-        "establecimiento",
-        "hotel"
+        "categoría hotel",
+        "placa hotel",
+        "estrellas hotel",
+        "información obligatoria",
+        "alojamiento turístico",
+        "tipo de alojamiento",
+        "hostal",
+        "apartamento turístico"
       ]
     },
     {
-      "pregunta": "¿Deben cambiar mis toallas y sábanas a diario cuando me hospedo en un hotel?",
-      "respuesta": "Depende de la normativa local y de la política del alojamiento. Algunas comunidades exigen cambios diarios y otras lo dejan a elección del hotel. Lo que es exigible siempre es que independientemente de la categoría debe estar en perfectas condiciones de limpieza e higiene.",
+      "pregunta": "¿Deben cambiarme las toallas y sábanas a diario cuando me hospedo en un hotel?",
+      "respuesta": "Depende de la normativa turística de la comunidad autónoma, de la categoría del hotel y de las condiciones ofrecidas por el alojamiento. No puede afirmarse que siempre deban cambiarse a diario. Lo exigible en todo caso es que la habitación, las sábanas y las toallas se entreguen en condiciones adecuadas de limpieza e higiene, y que se respeten la frecuencia mínima de cambio prevista en la normativa aplicable o en la información ofrecida por el establecimiento. Si la ropa de cama o baño está sucia, deteriorada o no se cambia cuando corresponde, puedes reclamar en el propio hotel.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "toallas",
+        "sábanas",
+        "hotel",
+        "limpieza",
+        "higiene",
+        "cambio",
+        "categoría",
+        "comunidad autónoma",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Están obligados los hoteles a tener aparcamiento?",
+      "respuesta": "Depende. La obligación de disponer de aparcamiento para los clientes depende de la normativa turística de cada comunidad autónoma y, a menudo, de la categoría del hotel (su número de estrellas). No es una exigencia para todos los hoteles de España.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "aparcamiento hotel",
+        "parking hotel",
+        "garaje hotel",
+        "obligación aparcamiento",
+        "normativa hotelera",
+        "categoría hotel",
+        "servicios hotel"
+      ]
+    },
+    {
+      "pregunta": "¿Es obligatorio que el hotel tenga recepción 24 horas?",
+      "respuesta": "No siempre. La obligación de disponer de recepción, su horario y los medios de atención exigibles dependen de la normativa turística de la comunidad autónoma, del tipo de establecimiento y, en su caso, de su categoría. El hotel debe cumplir los requisitos de atención que establezca la normativa aplicable y respetar los servicios y horarios que haya ofrecido al contratar.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "recepción hotel",
+        "horario recepción",
+        "recepción 24 horas",
+        "categoría hotel",
+        "estrellas hotel",
+        "normativa autonómica",
+        "atención al cliente hotel"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden los hoteles cobrar el precio que quieran? ¿Hay un límite?",
+      "respuesta": "Sí, los precios de los alojamientos turísticos son libres y no existe un límite máximo fijado por ley. Sin embargo, tienen la obligación de informar de forma clara y visible sobre todas sus tarifas antes de la contratación. Los precios que muestren deben ser finales, incluyendo impuestos (como el IVA) y cualquier otro cargo obligatorio.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "precio hotel",
+        "tarifas hotel",
+        "precios libres",
+        "publicidad precios",
+        "lista de precios",
+        "precio final",
+        "impuestos incluidos",
+        "coste habitación"
+      ]
+    },
+    {
+      "pregunta": "¿Es legal que me cobren un 'impuesto turístico' o 'tasa turística' en el hotel?",
+      "respuesta": "Sí, cuando exista un tributo sobre las estancias turísticas legalmente establecido y resulte aplicable a tu estancia. Su importe, las posibles exenciones y la forma de cobro dependen de la normativa tributaria correspondiente, que puede atribuir al establecimiento obligaciones de cobro o ingreso. Antes de contratar deben informarte de la existencia de los impuestos o tasas aplicables y de su importe cuando pueda calcularse de antemano; si no puede calcularse razonablemente, deben informarte de que puede ser necesario abonarlos.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "tasa turística",
+        "impuesto turístico",
+        "impuesto estancia",
+        "cataluña",
+        "islas baleares",
+        "cobro hotel",
+        "es legal",
+        "ecotasa"
+      ]
+    },
+    {
+      "pregunta": "¿Es obligatorio que un hotel me dé folletos o planos con información turística?",
+      "respuesta": "Con carácter general, los establecimientos hoteleros deben poner a disposición de las personas usuarias información turística sobre la zona cuando así lo establezca la normativa turística de la comunidad autónoma correspondiente. Esta información puede facilitarse mediante folletos, planos u otros medios equivalentes. No obstante, la obligación concreta puede variar según la comunidad autónoma y la categoría del establecimiento, y no siempre implica necesariamente la entrega de folletos o planos en papel.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
         "hotel",
-        "cambiar",
-        "toallas",
-        "sábanas",
-        "diario",
-        "hospedo"
+        "información turística",
+        "folletos",
+        "planos",
+        "obligación",
+        "normativa autonómica",
+        "categoría hotel"
       ]
     },
     {
-      "pregunta": "¿Deben disponer los hoteles de aparcamiento propio?",
-      "respuesta": "Depende de la normativa de la comunidad Autónoma donde se encuentre. Algunos territorios lo exigen para ciertas categorías, otros no.",
+      "pregunta": "La habitación de hotel que reservé por internet no se parece en nada a las fotos, ¿qué puedo hacer?",
+      "respuesta": "Si la habitación no se corresponde con las fotografías, la descripción o las características contratadas, puede existir un incumplimiento del contrato, ya que la información ofrecida durante la reserva forma parte de lo contratado. En ese caso, puedes exigir al hotel que te facilite una habitación equivalente a la reservada, con las características pactadas —por ejemplo, categoría, tamaño, vistas, equipamiento o servicios incluidos—.\n\nSi no fuera posible, puedes solicitar una reducción proporcional del precio. Si la diferencia es especialmente relevante, podrías pedir la resolución del contrato y la devolución de las cantidades abonadas. Además, si el incumplimiento te ha causado gastos o perjuicios concretos y acreditables —por ejemplo, tener que contratar otro alojamiento—, también podrías reclamarlos.\n\nEs importante dejar constancia de la queja por escrito en el propio hotel. Si el establecimiento dispone de hoja oficial de reclamaciones, puedes solicitarla y cumplimentarla en ese momento. Si no la facilita, no dispone de ella o la normativa autonómica prevé otros cauces, conserva pruebas —capturas de la reserva, fotografías de la habitación, justificantes de pago y comunicaciones— y presenta la reclamación ante el organismo competente en consumo o turismo de la comunidad autónoma donde se encuentre el hotel.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "disponer",
-        "hoteles",
-        "aparcamiento",
-        "propio",
-        "depende",
+        "hotel",
+        "reserva online",
+        "habitación diferente",
+        "fotos engañosas",
+        "incumplimiento contrato",
+        "reclamar",
+        "hoja de reclamaciones",
+        "devolución dinero"
+      ]
+    },
+    {
+      "pregunta": "Si voy en silla de ruedas, ¿están los hoteles obligados a ser accesibles y tener habitaciones adaptadas?",
+      "respuesta": "Sí. Los hoteles deben cumplir las condiciones de accesibilidad que les resulten aplicables. La normativa estatal exige que los establecimientos turísticos de uso residencial público reúnan condiciones de accesibilidad en sus elementos de uso común y general y dispongan del número de alojamientos accesibles establecido en el Código Técnico de la Edificación. La normativa autonómica puede establecer requisitos adicionales. Si necesitas una habitación accesible, el establecimiento debe facilitar información clara sobre sus condiciones de accesibilidad antes de la contratación.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "hotel accesible",
+        "silla de ruedas",
+        "habitación adaptada",
+        "accesibilidad",
+        "barreras arquitectónicas",
+        "rampa",
+        "turismo accesible",
         "normativa"
       ]
     },
     {
-      "pregunta": "¿Es obligatorio que el hotel tenga una recepción?",
-      "respuesta": "Sí, debe estar ubicada en la entrada o vestíbulo del hotel con instalaciones adecuadas a su capacidad para prestar el servicio con normalidad. Tiene que estar abierta las 24 horas del día, accesible por teléfono 24 horas desde dentro y fuera del hotel.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "hotel",
-        "horas",
-        "obligatorio",
-        "tenga",
-        "recepción",
-        "ubicada"
-      ]
-    },
-    {
-      "pregunta": "He estado en un hotel y me han cobrado un precio altísimo ¿Hay alguna regulación sobre lo que pueden cobrar?",
-      "respuesta": "No, los precios son libres, lo que sí es obligatorio es que exhiban en la recepción los precios completos, con impuestos, descuentos y posibles suplementos incluidos.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "precios",
-        "estado",
-        "hotel",
-        "cobrado",
-        "precio",
-        "altísimo"
-      ]
-    },
-    {
-      "pregunta": "Me he alojado en un Hotel y dicen que me tienen que cobrar el impuesto turístico ¿es legal?",
-      "respuesta": "En España, cada comunidad autónoma puede imponer un impuesto turístico que varía según la región, el tipo de alojamiento, la temporada y la edad del visitante, tendrás que verificar si existe en la comunidad autónoma donde te hospedas.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "impuesto",
-        "turístico",
-        "comunidad",
-        "autónoma",
-        "alojado",
-        "hotel"
-      ]
-    },
-    {
-      "pregunta": "¿Es obligatorio que el hotel te ofrezca información turística en folletos o planos?",
-      "respuesta": "Sí. Tendrán que darte acceso a material informativo sobre la zona para orientarte mejor.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "obligatorio",
-        "hotel",
-        "ofrezca",
-        "información",
-        "turística",
-        "folletos"
-      ]
-    },
-    {
-      "pregunta": "Reservé una habitación de hotel por internet y al llegar, he comprobado que no se parece en nada ¿Qué pudo hacer?",
-      "respuesta": "Tienes derecho a solicitar que te asignen una habitación que cumpla con lo que contrataste o a reclamar un descuento. Si el hotel no accede, puedes exigir que te devuelvan el dinero que ya pagaste.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "habitación",
-        "hotel",
-        "reservé",
-        "internet",
-        "comprobado",
-        "parece"
-      ]
-    },
-    {
-      "pregunta": "¿Es obligatorio que el hotel disponga de rampa de acceso y que las habitaciones estén adaptadas si me quiero hospedar en un hotel con silla de ruedas?",
-      "respuesta": "Sí. Es obligatorio que haya zonas comunes accesibles y un número de habitaciones adaptadas.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "obligatorio",
-        "hotel",
-        "habitaciones",
-        "adaptadas",
-        "disponga",
-        "rampa"
-      ]
-    },
-    {
       "pregunta": "¿Es obligatorio que un camping disponga de personal de seguridad?",
-      "respuesta": "Las disposiciones relativas a seguridad, igual que otras características como son las autorizaciones, categorías de estrellas, duración de estancias, dependen de normativas autonómicas.",
+      "respuesta": "Depende de la normativa turística de la comunidad autónoma donde se encuentre el camping, de su categoría, capacidad, instalaciones y servicios ofrecidos. Algunos requisitos de seguridad pueden referirse a vigilancia, control de accesos, planes de emergencia, prevención de incendios, iluminación, señalización, botiquín, asistencia o normas internas, pero no siempre implican disponer de personal de seguridad privada. Antes de reservar, puedes pedir información sobre las medidas de seguridad y atención disponibles en el establecimiento.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "seguridad",
-        "obligatorio",
         "camping",
-        "disponga",
+        "seguridad",
         "personal",
-        "disposiciones"
+        "vigilancia",
+        "categoría",
+        "emergencias",
+        "comunidad autónoma",
+        "servicios"
       ]
     },
     {
-      "pregunta": "¿Está permitido construir viviendas o alojamientos turísticos fijos dentro de un camping?",
-      "respuesta": "No. La normativa prohíbe cualquier edificación que no sea para servicios colectivos o personal como supermercados, duchas, lavabos, etc. Con ello se evita transformar los campamentos en complejos residenciales.",
+      "pregunta": "¿Se pueden instalar bungalows, casas móviles o construcciones fijas en un camping?",
+      "respuesta": "Depende. Muchas normativas autonómicas permiten que los campings incluyan alojamientos fijos o semimóviles, como bungalows, cabañas, casas móviles o mobile-homes, siempre que estén previstos en la autorización del establecimiento y cumplan los requisitos turísticos, urbanísticos y de seguridad aplicables. Estas instalaciones pueden estar sujetas a límites de número, superficie, ubicación, características técnicas y condiciones de uso. Su utilización debe ajustarse al carácter turístico del establecimiento y a las limitaciones sobre uso residencial o permanente que establezca la normativa aplicable.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "permitido",
-        "construir",
-        "viviendas",
-        "alojamientos",
-        "turísticos",
-        "fijos"
+        "camping",
+        "bungalow",
+        "mobile home",
+        "casa móvil",
+        "construcción fija",
+        "vivienda permanente",
+        "normativa autonómica",
+        "parcela"
       ]
     },
     {
-      "pregunta": "¿Qué es el derecho de aprovechamiento por turnos, conocido popularmente como multipropiedad (aunque es un término erróneo porque se tiene la posesión, no la propiedad)?",
-      "respuesta": "Es el sistema por el que el titular tiene la facultad de disfrutar, con carácter exclusivo, durante un período específico de cada año, habitualmente una semana.",
+      "pregunta": "¿Qué es el derecho de aprovechamiento por turnos, conocido popularmente como multipropiedad?",
+      "respuesta": "Es un contrato de duración superior a un año por el que una persona consumidora adquiere, a cambio de un precio, el derecho a utilizar uno o varios alojamientos para pernoctar durante más de un periodo de ocupación. Aunque popularmente se le llama “multipropiedad”, ese término puede inducir a error, porque no implica necesariamente adquirir la propiedad del inmueble. Estos contratos tienen una regulación específica, con obligaciones de información previa, forma escrita, derecho de desistimiento y prohibición de anticipos durante el plazo legal de desistimiento.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "derecho",
-        "aprovechamiento",
+        "aprovechamiento por turnos",
+        "multipropiedad",
+        "alojamiento turístico",
+        "derecho uso",
+        "contrato",
         "turnos",
-        "conocido",
-        "popularmente",
-        "multipropiedad"
-      ]
-    },
-    {
-      "pregunta": "Estoy interesado en adquirir una semana en un sistema de aprovechamiento por turnos ¿Es obligatorio que me proporcionen información sobre la vivienda y su situación antes de firmar el contrato?",
-      "respuesta": "Sí. Debes una descripción completa del inmueble y su localización para conocer exactamente lo que contratas. Deberás saber cuánto tiempo dura el contrato, la fecha de firma y la cantidad que pagarás anualmente con IVA incluido.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "contrato",
-        "interesado",
-        "adquirir",
-        "semana",
-        "sistema",
-        "aprovechamiento"
-      ]
-    },
-    {
-      "pregunta": "He adquirido una semana en un sistema de aprovechamiento por turnos ¿Qué información debe constar en el contrato?",
-      "respuesta": "Debe figurar en el contrato:<ul><li>La identidad, el domicilio y la firma de cada una de las partes.</li><li>La fecha y el lugar de celebración del contrato.</li><li>Las cláusulas contractuales correspondientes al derecho de desistimiento (14 días) y a la prohibición del pago de anticipos que serán firmadas aparte por la persona consumidora. El contrato incluirá un formulario normalizado de desistimiento en documento aparte.</li></ul>",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "contrato",
         "desistimiento",
-        "aparte",
-        "adquirido",
-        "semana",
-        "sistema"
+        "información previa"
+      ]
+    },
+    {
+      "pregunta": "Estoy interesado en adquirir una semana en un sistema de aprovechamiento por turnos. ¿Es obligatorio que me proporcionen información sobre la vivienda y su situación antes de firmar el contrato?",
+      "respuesta": "Sí. Antes de que firmes o prestes tu consentimiento, deben facilitarte con suficiente antelación información precontractual clara y suficiente mediante el formulario normalizado previsto legalmente y en un soporte duradero. Debe incluir, entre otros datos, la identidad de la empresa, la descripción y ubicación del alojamiento, el periodo de uso, la duración del contrato, el precio y los costes adicionales, las cuotas y gastos de mantenimiento, los servicios e instalaciones disponibles, las condiciones de uso, la posibilidad de intercambio si existe y tu derecho de desistimiento. Además, durante el plazo legal de desistimiento no pueden exigirte anticipos, garantías, reservas de dinero ni pagos similares.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "aprovechamiento por turnos",
+        "multipropiedad",
+        "información previa",
+        "alojamiento",
+        "contrato",
+        "precio",
+        "cuotas",
+        "desistimiento",
+        "anticipos"
+      ]
+    },
+    {
+      "pregunta": "He adquirido una semana en un sistema de aprovechamiento por turnos. ¿Qué información debe constar en el contrato?",
+      "respuesta": "El contrato debe recoger de forma clara, entre otros datos, la identidad y domicilio de las partes, la fecha y lugar de firma, la descripción del alojamiento, su ubicación, el turno o periodo de uso, la duración del contrato, el precio total, impuestos, cuotas periódicas, gastos de mantenimiento, servicios e instalaciones incluidos y las condiciones de uso. También deben constar las cláusulas sobre el derecho de desistimiento de 14 días naturales y la prohibición de pagos anticipados durante ese plazo, que deben firmarse por separado. Además, debe entregarse un formulario normalizado de desistimiento en documento aparte.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "aprovechamiento por turnos",
+        "multipropiedad",
+        "contrato",
+        "alojamiento",
+        "precio",
+        "cuotas",
+        "desistimiento",
+        "anticipos",
+        "formulario"
       ]
     },
     {
@@ -224,315 +256,929 @@
       ]
     },
     {
-      "pregunta": "Voy a estar un durante un mes en Valencia ¿Está obligado el propietario a renovarme el contrato si es mi deseo?",
-      "respuesta": "Depende de lo que figure en el contrato. Los arrendamientos de temporada no tienen un límite máximo o mínimo de duración del contrato, y sus condiciones quedan sometidas a lo que acuerden las partes.",
+      "pregunta": "Voy a estar durante un mes en Valencia. ¿Está obligado el propietario a renovarme el contrato si yo quiero?",
+      "respuesta": "Si se trata realmente de un arrendamiento de temporada, el propietario no está obligado a renovarlo cuando termina el plazo acordado, salvo que el propio contrato prevea una prórroga o renovación. Estos contratos no tienen las prórrogas obligatorias propias del alquiler de vivienda habitual. No obstante, la naturaleza del contrato no depende únicamente de cómo se haya denominado: si, por su finalidad y circunstancias reales, la vivienda está destinada a satisfacer la necesidad permanente de vivienda del arrendatario, podría tratarse de un arrendamiento de vivienda habitual y resultar aplicable el régimen de prórrogas previsto para estos contratos.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "contrato",
+        "arrendamiento temporada",
         "valencia",
-        "obligado",
+        "renovación",
+        "contrato",
+        "prórroga",
+        "vivienda habitual",
         "propietario",
-        "renovarme",
-        "deseo"
+        "alquiler"
       ]
     },
     {
-      "pregunta": "He firmado un contrato de arrendamiento de temporada y el propietario me pide una fianza de dos meses ¿Es legal?",
-      "respuesta": "Sí. Tú debes entregar una fianza equivalente a dos meses de renta según la Ley de Arrendamientos Urbanos.",
+      "pregunta": "He firmado un contrato de arrendamiento de temporada y el propietario me pide una fianza de dos meses. ¿Es legal?",
+      "respuesta": "Con carácter general, sí, si se trata realmente de un arrendamiento de temporada. La Ley de Arrendamientos Urbanos considera estos contratos como arrendamientos para uso distinto del de vivienda y establece para ellos una fianza equivalente a dos mensualidades de renta. La normativa autonómica aplicable puede establecer reglas específicas. Al finalizar el contrato, debe devolverse el saldo de la fianza que corresponda una vez descontadas, en su caso, las cantidades debidamente justificadas que deba asumir la persona arrendataria.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
         "fianza",
-        "meses",
-        "firmado",
-        "contrato",
-        "arrendamiento",
-        "temporada"
-      ]
-    },
-    {
-      "pregunta": "¿Puede prohibir una comunidad de propietarios la explotación como apartamento turístico de un piso?",
-      "respuesta": "Para realizar la actividad económica de arrendamiento turístico, el propietario deberá obtener previamente la aprobación expresa de su comunidad por mayoría de tres quintos de propietarios y cuotas.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "comunidad",
-        "propietarios",
-        "turístico",
-        "prohibir",
-        "explotación",
-        "apartamento"
-      ]
-    },
-    {
-      "pregunta": "¿Es obligatorio que los contratos de alojamientos turísticos incluyan el número de registro y características del alojamiento?",
-      "respuesta": "Sí. Debes recibir información clara sobre el registro, las características del alojamiento y tus obligaciones. Los contratos de alquiler deben ser comprensibles y las plataformas no pueden incluir condiciones que perjudiquen a la persona consumidora.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "contratos",
-        "registro",
-        "características",
-        "alojamiento",
-        "obligatorio",
-        "alojamientos"
-      ]
-    },
-    {
-      "pregunta": "He alquilado un apartamento turístico para ir de vacaciones con mi familia y en el contrato hay una cláusula que dice que renuncio a mi derecho a reclamar desperfectos después del check-in ¿es legal?",
-      "respuesta": "No. Tú siempre puedes reclamar por daños o incumplimientos, incluso si el contrato incluye una cláusula que intente impedirlo. Renunciar a este derecho se considera abusivo y no tiene efecto legal.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "contrato",
-        "cláusula",
-        "derecho",
-        "reclamar",
-        "legal",
-        "alquilado"
-      ]
-    },
-    {
-      "pregunta": "He alquilado un apartamento turístico para ir de vacaciones con mi familia y en el contrato hay una cláusula que dice que la empresa se exonerase totalmente de responsabilidad por daños, robos o accidentes durante mi estancia ¿es legal?",
-      "respuesta": "No. Tienes derecho a que el propietario o la plataforma responda por daños causados por falta de mantenimiento o negligencia.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "daños",
-        "alquilado",
-        "apartamento",
-        "turístico",
-        "vacaciones",
-        "familia"
-      ]
-    },
-    {
-      "pregunta": "He alquilado un apartamento turístico para ir de vacaciones con mi familia a una empresa ¿Puede quedarse con mi fianza sin justificar daños?",
-      "respuesta": "No. Puedes exigir pruebas objetivas de cualquier daño antes de que se retenga la fianza. La retención automática sin justificación se considera abusiva y puede reclamarse legalmente.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "fianza",
-        "alquilado",
-        "apartamento",
-        "turístico",
-        "vacaciones",
-        "familia"
-      ]
-    },
-    {
-      "pregunta": "Hice la contratación de un apartamento turístico a una empresa y se establecía que podía salir de la casa a las 18 horas. Ahora me ha dicho que hay un cambio y tengo que salir a las 12 horas ¿es legal?",
-      "respuesta": "No. Tú puedes reclamar si las condiciones cambian sin previo aviso y el nuevo alojamiento no cumple con las mismas características. Modificar unilateralmente el contrato se considera abusivo si perjudica tus derechos como consumidor.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "salir",
-        "horas",
-        "hice",
-        "contratación",
-        "apartamento",
-        "turístico"
-      ]
-    },
-    {
-      "pregunta": "¿Qué es el Número de Registro de Alquiler?",
-      "respuesta": "Un número de registro que deben tener los alquileres de temporada y que las plataformas deben mostrar y verificar, retirando anuncios irregulares en 24 horas.",
-      "subcategoria": "Turismo - Alojamientos",
-      "keywords": [
-        "número",
-        "registro",
+        "arrendamiento temporada",
+        "dos meses",
+        "lau",
         "alquiler",
-        "alquileres",
-        "temporada",
-        "plataformas"
+        "garantías",
+        "devolución",
+        "renta"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una comunidad de propietarios prohibir o limitar que una vivienda del edificio se destine a uso turístico?",
+      "respuesta": "Sí. La comunidad de propietarios puede aprobar, limitar, condicionar o prohibir el ejercicio de la actividad de vivienda de uso turístico mediante un acuerdo adoptado por una mayoría de tres quintas partes del total de propietarios que, a su vez, representen tres quintas partes de las cuotas de participación. Además, desde el 3 de abril de 2025, quien quiera iniciar esta actividad debe obtener previamente la aprobación expresa de la comunidad. Estos acuerdos no tienen efectos retroactivos y existe un régimen específico para determinadas actividades que ya se ejercían antes de esa fecha. En todo caso, también debe cumplirse la normativa turística autonómica y la normativa urbanística o municipal que resulte aplicable.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "comunidad propietarios",
+        "apartamento turístico",
+        "vivienda turística",
+        "prohibición",
+        "limitación",
+        "tres quintos",
+        "ley propiedad horizontal",
+        "comunidad autónoma",
+        "municipio"
+      ]
+    },
+    {
+      "pregunta": "He alquilado un apartamento turístico para ir de vacaciones con mi familia y en el contrato hay una cláusula que dice que renuncio a reclamar desperfectos después del check-in. ¿Es legal?",
+      "respuesta": "Si has contratado el alojamiento con una empresa o profesional, no es válida una cláusula que te obligue a renunciar previamente a reclamar por defectos o incumplimientos que sean responsabilidad del prestador del alojamiento. Si al entrar detectas desperfectos, falta de limpieza, averías o diferencias respecto de lo contratado, conviene comunicarlo cuanto antes por escrito a la empresa o profesional responsable y conservar pruebas, como fotografías, vídeos y la información de la reserva; si la contratación se realizó mediante una plataforma, también puede utilizarse esta para dejar constancia de la incidencia. Una cláusula general de renuncia no elimina tus derechos como persona consumidora.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "apartamento turístico",
+        "cláusula abusiva",
+        "desperfectos",
+        "check-in",
+        "reclamación",
+        "pruebas",
+        "reserva",
+        "consumidor",
+        "incumplimiento"
+      ]
+    },
+    {
+      "pregunta": "He alquilado un apartamento turístico para ir de vacaciones con mi familia y en el contrato hay una cláusula que dice que la empresa se exonera totalmente de responsabilidad por daños, robos o accidentes durante mi estancia. ¿Es legal?",
+      "respuesta": "No. Una cláusula que exonere totalmente a la empresa de cualquier responsabilidad no puede privarte de reclamar por daños derivados de un incumplimiento del contrato, falta de mantenimiento, defectos de seguridad o una actuación negligente que sea responsabilidad de la empresa. Ahora bien, no todo robo, accidente o daño ocurrido durante la estancia genera automáticamente responsabilidad: habrá que valorar las circunstancias y la causa del daño. Si sufres algún perjuicio, conserva las pruebas y reclama a la empresa responsable del alojamiento; si contrataste mediante una plataforma, también puedes utilizarla como canal para dejar constancia de la incidencia.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "apartamento turístico",
+        "responsabilidad",
+        "daños",
+        "robos",
+        "accidentes",
+        "negligencia",
+        "mantenimiento",
+        "plataforma",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He alquilado un apartamento turístico para ir de vacaciones con mi familia a una empresa. ¿Puede quedarse con mi fianza sin justificar daños?",
+      "respuesta": "No. Si la empresa retiene total o parcialmente la fianza, debe justificar la causa y la cuantía de la retención mediante daños, consumos pendientes u otras cantidades que sean legal o contractualmente exigibles y estén debidamente acreditadas. Puedes solicitar un desglose y la documentación o pruebas que justifiquen el descuento. Una retención automática, injustificada o basada en una cláusula que imponga indebidamente al consumidor la carga de probar que no causó los daños puede ser abusiva. Si no estás de acuerdo, reclama por escrito a la empresa y, si contrataste a través de una plataforma, también puedes utilizarla como canal para dejar constancia de la reclamación.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "apartamento turístico",
+        "fianza",
+        "daños",
+        "retención",
+        "pruebas",
+        "facturas",
+        "reclamación",
+        "empresa",
+        "plataforma"
+      ]
+    },
+    {
+      "pregunta": "Contraté un apartamento turístico con salida a las 18:00 horas y ahora me dicen que tengo que salir a las 12:00. ¿Es legal?",
+      "respuesta": "Si en la reserva, en la oferta o en el contrato constaba que la salida era a las 18:00 horas, la empresa debe respetar esa condición y no puede cambiarla unilateralmente sin una base válida. Adelantar la salida a las 12:00 puede constituir un incumplimiento contractual. Puedes exigir que se respete la hora pactada y, si finalmente no se cumple, reclamar, según las circunstancias, la devolución de la parte del precio que corresponda y los perjuicios que puedas acreditar. Conserva la confirmación de la reserva, el contrato, los mensajes y las capturas donde figure la hora de salida y, si contrataste mediante una plataforma, también puedes utilizarla como canal para dejar constancia de la reclamación.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "apartamento turístico",
+        "hora salida",
+        "check-out",
+        "contrato",
+        "reserva",
+        "modificación",
+        "incumplimiento",
+        "compensación",
+        "reclamación"
       ]
     },
     {
       "pregunta": "¿Es legal que un hotel me pida una fotocopia de mi DNI para hacer el registro?",
-      "respuesta": "No. El hotel solo está obligado a anotar los datos exigidos para el registro de viajeros del Ministerio de Interior. Puede visionar el DNI para confirmar la veracidad de los datos, pero conservar una copia vulneraría el RGPD al tratar más información de la necesaria.",
+      "respuesta": "No, con carácter general el hotel no debe pedir ni conservar una fotocopia del DNI o pasaporte para cumplir la obligación de registro de viajeros. Puede pedirte que muestres el documento para comprobar tu identidad y recoger los datos exigidos por la normativa, pero no debe tratar más datos de los necesarios. Conservar una copia completa del documento puede vulnerar el principio de minimización de datos del Reglamento General de Protección de Datos, porque el DNI contiene información que no es necesaria para el registro.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
         "hotel",
-        "registro",
-        "datos",
-        "legal",
-        "pida",
-        "fotocopia"
+        "dni",
+        "fotocopia",
+        "registro viajeros",
+        "protección datos",
+        "rgpd",
+        "minimización",
+        "identidad"
       ]
     },
     {
-      "pregunta": "¿Es legal que un hotel escanee mi DNI con un escáner o impresora?",
-      "respuesta": "Solo son válidas las herramientas que leen los datos sin guardar copia del DNI y sirven para agilizar el check-in.",
+      "pregunta": "¿Es legal que un hotel escanee mi DNI con un escáner o una herramienta digital?",
+      "respuesta": "Depende de cómo se haga. No es correcto escanear o fotografiar el DNI para conservar una copia completa del documento si no existe una base legal específica que lo permita. Sí pueden utilizarse herramientas digitales que lean los datos necesarios para el registro y agilicen el check-in, siempre que no guarden una imagen completa del documento ni recojan más datos de los exigidos. El hotel debe informarte del tratamiento de tus datos y aplicar medidas de seguridad adecuadas.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "legal",
         "hotel",
-        "escanee",
-        "escáner",
-        "impresora",
-        "válidas"
+        "dni",
+        "escaneo",
+        "herramienta digital",
+        "registro viajeros",
+        "protección datos",
+        "check-in",
+        "minimización"
       ]
     },
     {
-      "pregunta": "¿Qué datos me pueden pedir al registrarme en un camping, hotel u otro establecimiento que se dedique profesionalmente a dar hospedaje?",
-      "respuesta": "Nombre, primer apellido, segundo apellido, sexo, número de documento de identidad, número de soporte del documento, tipo de documento (DNI, pasaporte, TIE), nacionalidad, fecha de nacimiento, lugar de residencia habitual (dirección completa, localidad, país), teléfono fijo, teléfono móvil, correo electrónico, número de viajeros y relación de parentesco entre los viajeros (si alguno es menor de edad).:<ul><li>He reservado a través de una plataforma de alquileres turísticos, pero el alojamiento no cumplia con las caracteristicas anunciadas. ¿Qué puedo hacer? ¿A quién reclamo? El responsable de cualquier problema que pueda surgir con el alojamiento sería el arrendador, por lo que deberás dirigirte a él, reclamando una compensación. Este deberá responderte en el plazo de un mes. Revisa las condiciones de la web, por si tuviera políticas de protección del usuario. En caso de no obtener respuesta satisfactoria en un mes, podrás solicitar arbitraje de consumo, que solo será obligatorio si el alojamiento está previamente adherido; o acudir a la vía judicial. También puedes denunciarlo ante la Dirección General de Turismo u organismo competente de tu Comunidad Autónoma, que podrá iniciar un expediente sancionador, pero no resolverá sobre tu reclamación. Si el alojamiento se encuentra en un país de la Unión distinto al de tu residencia, puedes contactar con el Centro Europeo del Consumidor, para que te informen sobre las vías de denuncia y reclamación en el país donde se encuentra el alojamiento. Si el arrendador es una persona física, no te quedará más remedio que acudir a la vía judicial tras la reclamación inicial.</li><li>He reservado a través de una plataforma de alquileres turísticos, pero el alojamiento estaba muy sucio. ¿Qué puedo hacer? ¿A quién reclamo? El responsable de cualquier problema que pueda surgir con el alojamiento sería el arrendador, por lo que deberás dirigirte a él, reclamando una compensación. Este deberá responderte en el plazo de un mes. Revisa las condiciones de la web, por si tuviera políticas de protección del usuario. En caso de no obtener respuesta satisfactoria en un mes, podrás solicitar arbitraje de consumo, que solo será obligatorio si el alojamiento está previamente adherido; o acudir a la vía judicial. También puedes denunciarlo ante la Dirección General de Turismo u organismo competente de tu Comunidad Autónoma, que podrá iniciar un expediente sancionador, pero no resolverá sobre tu reclamación. Si el alojamiento se encuentra en un país de la Unión distinto al de tu residencia, puedes contactar con el Centro Europeo del Consumidor, para que te informen sobre las vías de denuncia y reclamación en el país donde se encuentra el alojamiento. Si el arrendador es una persona física, no te quedará más remedio que acudir a la vía judicial tras la reclamación inicial.</li><li>He reservado a través de una plataforma de alquileres turísticos, pero he tenido problema a la hora de acceder al alojamiento. ¿Qué puedo hacer? ¿A quién reclamo? El responsable de cualquier problema que pueda surgir con el alojamiento sería el arrendador, por lo que deberás dirigirte a él, reclamando una compensación. Este deberá responderte en el plazo de un mes. Revisa las condiciones de la web, por si tuviera políticas de protección del usuario. En caso de no obtener respuesta satisfactoria en un mes, podrás solicitar arbitraje de consumo, que solo será obligatorio si el alojamiento está previamente adherido; o acudir a la vía judicial. También puedes denunciarlo ante la Dirección General de Turismo u organismo competente de tu Comunidad Autónoma, que podrá iniciar un expediente sancionador, pero no resolverá sobre tu reclamación. Si el alojamiento se encuentra en un país de la Unión distinto al de tu residencia, puedes contactar con el Centro Europeo del Consumidor, para que te informen sobre las vías de denuncia y reclamación en el país donde se encuentra el alojamiento. Si el arrendador es una persona física, no te quedará más remedio que acudir a la vía judicial tras la reclamación inicial.</li><li>He reservado a través de una plataforma cuya sede social está en otro país, luego he tenido X problema con el alojamiento, localizado en España. A quién reclamo? Al alojamiento en primer lugar, luego a la CCAA... El responsable de cualquier problema que pueda surgir con el alojamiento sería el arrendador, por lo que deberás dirigirte a él, reclamando una compensación. Este deberá responderte en el plazo de un mes. Revisa las condiciones de la web, por si tuviera políticas de protección del usuario. En caso de no obtener respuesta satisfactoria en un mes, podrás solicitar arbitraje de consumo, que solo será obligatorio si el alojamiento está previamente adherido; o acudir a la vía judicial. También puedes denunciarlo ante la Dirección General de Turismo u organismo competente de tu Comunidad Autónoma, que podrá iniciar un expediente sancionador, pero no resolverá sobre tu reclamación. Si el arrendador es una persona física, no te quedará más remedio que acudir a la vía judicial tras la reclamación inicial.</li><li>He reservado a través de una plataforma un alojamiento, luego he tenido un problema a la hora de hacer efecitivo con el pago a través de la pasarela. ¿A quién reclamo? Al tratarse de un problema de la plataforma, a la plataforma. Debes reclamar a la plataforma a través de la cual realizarse la reserva y el pago.</li><li>He reservado a través de una plataforma, luego he tenido X problema con el alojamiento. ¿qué derechos tengo? En estas plataformas operan anfitriones profesionales y particulares... y tus derechos van a depender de esa condición. Profesionales, derechos de consumidor. Particulares, no. No obstante, a veces las plataformas ofrecen garantías adicionales. En caso de que tengas un problema con el alojamiento (calidad del mismo, servicios o prestaciones anunciadas, precios, etc.) deberás reclamar al arrendador. Revisa las condiciones de contratación de la propia web, ya que en ocasiones cuenta con mecanismo de protección al usuario. En caso de ser una empresa, deberá contar con hojas de reclamaciones. Además, podrás reclamar a través de la OMIC y, en caso de que no te den una respuesta satisfactoria en el plazo de un mes, podrás solicitar arbitraje. Si el arrendador es personas física, no habrá una relación de consumo, por lo que no podrás utilizar los cauces de protección al consumidor. Si el arrendador no atiende tu reclamación, tendrás que acudir a la vía judicial. **</li></ul>",
+      "pregunta": "¿Qué datos me pueden pedir al registrarme en un camping, hotel u otro establecimiento de hospedaje?",
+      "respuesta": "Pueden pedirte los datos necesarios para cumplir la normativa de registro de viajeros, como nombre y apellidos, sexo, tipo y número de documento de identidad, número de soporte del documento cuando proceda, nacionalidad, fecha de nacimiento, residencia habitual, datos de contacto, número de viajeros y relación de parentesco si viajas con menores. También pueden recogerse datos de la reserva o de la transacción cuando sean exigidos por la normativa aplicable. No deben pedir ni conservar una copia completa del DNI o pasaporte si basta con comprobar el documento y registrar los datos obligatorios.",
       "subcategoria": "Turismo - Alojamientos",
       "keywords": [
-        "alojamiento",
-        "reclamación",
-        "arrendador",
-        "problema",
-        "plataforma",
-        "acudir"
+        "registro viajeros",
+        "hotel",
+        "camping",
+        "hospedaje",
+        "datos personales",
+        "dni",
+        "menores",
+        "protección datos",
+        "comunidad autónoma"
       ]
     },
     {
-      "pregunta": "¿Pueden impedirme realizar fotos en una obra de teatro?",
-      "respuesta": "Si, debes consultar las condiciones de admisión y restricciones de un espectáculo en la web, el recinto o los puntos de venta antes de asistir. Allí se deben incluir reglas sobre edad mínima, acceso con cámaras u otros elementos.",
+      "pregunta": "¿Pueden impedirme hacer fotos en una obra de teatro?",
+      "respuesta": "Sí. El organizador o el recinto pueden prohibir o limitar la realización de fotografías, vídeos o grabaciones durante una obra de teatro, entre otras razones, para proteger derechos de propiedad intelectual o de imagen y evitar molestias o interferencias durante el espectáculo. La prohibición debe comunicarse de forma adecuada y ajustarse a la normativa aplicable sobre espectáculos y condiciones de admisión. Si incumples una prohibición válida, pueden pedirte que dejes de fotografiar o grabar y, cuando proceda conforme a las condiciones aplicables, exigirte que abandones la sala.",
       "subcategoria": "Turismo - Entradas y restauración",
       "keywords": [
-        "impedirme",
-        "realizar",
-        "fotos",
-        "obra",
         "teatro",
-        "debes"
-      ]
-    },
-    {
-      "pregunta": "Compré la entrada a un concierto a un particular en una página de reventa y he tenido problemas ¿Puedo reclamar ante los organismos municipales de consumo (OMIC)?",
-      "respuesta": "No, al tratarse de una transacción entre particulares no se aplica la legislación de protección al consumidor ni pueden intervenir las autoridades de defensa del consumidor. > No obstante, revisa las condiciones de la web de reventa de entradas. En ocasiones cuentan con mecanimos de protección para los compradores en caso de problemas con el vendedor.",
-      "subcategoria": "Turismo - Entradas y restauración",
-      "keywords": [
-        "reventa",
-        "problemas",
-        "protección",
-        "consumidor",
-        "compré",
-        "entrada"
-      ]
-    },
-    {
-      "pregunta": "Compré la entrada a una fiesta en una discoteca, pero no me dejaron entrar por no cumplir el código de vestimenta ¿es legal?",
-      "respuesta": "El derecho de admisión permite a los responsables de un establecimiento negar el acceso a un espectáculo para garantizar seguridad y buen desarrollo, pero no de manera arbitraria ni discriminatoria. Las condiciones de admisión deben ser claras y visibles en el recinto, taquillas y publicidad. Cada comunidad autónoma regula este derecho de forma específica, por lo que es importante consultar la normativa local antes del evento.",
-      "subcategoria": "Turismo - Entradas y restauración",
-      "keywords": [
-        "derecho",
-        "admisión",
-        "compré",
-        "entrada",
-        "fiesta",
-        "discoteca"
-      ]
-    },
-    {
-      "pregunta": "Compré la entrada a un festival hace seis meses y ahora que se acerca la fecha, ha cambiado considerablemente el cartel ¿es legal?",
-      "respuesta": "Si algún artista no actúa o se cambia la fecha o el lugar del evento, la organización debe informar al público en los mismos medios donde se anunció. Estos cambios se consideran sustanciales, y si no los aceptas, puedes reclamar y solicitar la devolución del dinero de la entrada.",
-      "subcategoria": "Turismo - Entradas y restauración",
-      "keywords": [
-        "entrada",
-        "fecha",
-        "compré",
-        "festival",
-        "hace",
-        "seis"
-      ]
-    },
-    {
-      "pregunta": "Compré la entrada para un festival, pero me he arrepentido, ¿puedo pedir la devolución del dinero?",
-      "respuesta": "No, las entradas para espectáculos no están sujetas al derecho de desistimiento. Solo podrás pedir la devolución por una causa de fuerza mayor o si hay una modificación sustancial en las condiciones del festival.",
-      "subcategoria": "Turismo - Entradas y restauración",
-      "keywords": [
-        "festival",
-        "pedir",
-        "devolución",
-        "compré",
-        "entrada",
-        "arrepentido"
-      ]
-    },
-    {
-      "pregunta": "Unos días antes de un festival, han comunicado la cancelación del mismo ¿en qué plazo deben devolverme el dinero?",
-      "respuesta": "No hay una norma estatal que imponga un plazo, aunque algunas normas autonómicas si lo hacen. En cualquier caso, debe ser en un plazo razonable.",
-      "subcategoria": "Turismo - Entradas y restauración",
-      "keywords": [
-        "plazo",
-        "días",
-        "antes",
-        "festival",
-        "comunicado",
-        "cancelación"
-      ]
-    },
-    {
-      "pregunta": "He pedido un vaso de agua en una cafetería y me han cobrado un euro, ¿es legal?",
-      "respuesta": "No. Desde abril de 2022, todos los bares, cafeterías y restaurantes de España tienen la obligación legal de ofrecer agua no envasada de forma gratuita a sus clientes.",
-      "subcategoria": "Turismo - Entradas y restauración",
-      "keywords": [
-        "agua",
-        "legal",
-        "pedido",
-        "vaso",
-        "cafetería",
-        "cobrado"
-      ]
-    },
-    {
-      "pregunta": "Adquirí la entrada para un festival que dura todo un día, y al salir del recinto y volver a entrar, me han cobrado un recargo, ¿es legal?",
-      "respuesta": "No. Debe considerarse una práctica abusiva en tanto en cuanto supondría una infracción del artículo 47.1.j del texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios y otras leyes complementarias.",
-      "subcategoria": "Turismo - Entradas y restauración",
-      "keywords": [
-        "adquirí",
-        "entrada",
-        "festival",
-        "dura",
-        "salir",
+        "fotografías",
+        "grabación",
+        "condiciones admisión",
+        "espectáculo",
+        "propiedad intelectual",
+        "derechos imagen",
         "recinto"
       ]
     },
     {
-      "pregunta": "Me han registrado al entrar en un parque de atracciones y me han impedido acceder con comida ¿es legal?",
-      "respuesta": "No. Debe considerarse una práctica abusiva en tanto en cuanto supondría una infracción del artículo 47.1.j del texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios y otras leyes complementarias. Las prohibiciones por razones de seguridad, como impedir el ingreso de envases de vidrio o bebidas alcohólicas, son válidas siempre que se informen de manera clara y justificada. Además, los organizadores tienen la obligación de garantizar que los asistentes puedan acceder gratuitamente a agua potable durante todo el evento.",
+      "pregunta": "Compré la entrada a un concierto a un particular en una página de reventa y he tenido problemas. ¿Puedo reclamar ante los organismos municipales de consumo?",
+      "respuesta": "Depende de contra quién quieras reclamar. Si compraste realmente la entrada a un particular, no existe una relación de consumo entre ambos, por lo que los organismos municipales de consumo no pueden tramitar el conflicto como una reclamación de consumo frente a ese vendedor y, si no alcanzáis un acuerdo, tendrás que acudir en su caso a la vía civil. En cambio, si la página de reventa actúa como empresa, sí puedes reclamar ante los servicios de consumo por problemas relacionados con los servicios que ella misma presta, como cargos no informados, información incorrecta o el incumplimiento de las garantías u obligaciones asumidas por la plataforma. Si el vendedor actuaba realmente como profesional o la propia plataforma vendía la entrada, también puede existir una relación de consumo. Conserva el anuncio, la entrada, los justificantes de pago y los mensajes. Además, la reventa de entradas puede estar sujeta a la normativa autonómica sobre espectáculos públicos.",
       "subcategoria": "Turismo - Entradas y restauración",
       "keywords": [
-        "acceder",
-        "registrado",
-        "entrar",
-        "parque",
-        "atracciones",
-        "impedido"
+        "reventa",
+        "entrada",
+        "particular",
+        "plataforma",
+        "consumo",
+        "omic",
+        "concierto",
+        "reclamación",
+        "espectáculos"
       ]
     },
     {
-      "pregunta": "Asistí a un festival y me impusieron un sistema de pago con pulsera cashless, sobrándome 3 euros, ahora me dicen que esa cantidad no la pueden devolver, ¿es legal?",
-      "respuesta": "Establecer como obligatorio un sistema de pago a través de pulseras cashless para poder hacer pagos dentro del recinto, pero sin admitir la devolución del reembolso de la cantidad sobrante por debajo de una cantidad mínima, e imponiendo gastos de gestión para llevar a cabo el reembolso; así como estableciendo un tiempo limitado para que los asistentes puedan hacer uso de este reembolso debe considerarse una práctica abusiva y por tanto, ilegal.",
+      "pregunta": "Compré una entrada para una fiesta en una discoteca, pero no me dejaron entrar por no cumplir el código de vestimenta. ¿Pueden hacerlo?",
+      "respuesta": "Puede ser legal si el código de vestimenta constituye una condición de admisión válida conforme a la normativa aplicable, se ha informado de ella en la forma exigida y se aplica mediante criterios objetivos y no discriminatorios. El derecho de admisión no permite impedir el acceso de forma arbitraria ni discriminatoria. Si la condición no estaba debidamente informada, no era válida conforme a la normativa aplicable o se aplicó de forma desigual o discriminatoria, puedes solicitar una hoja de reclamaciones y reclamar, en su caso, la devolución del importe de la entrada y los perjuicios que puedas acreditar. La regulación concreta del derecho de admisión corresponde en buena medida a las comunidades autónomas.",
       "subcategoria": "Turismo - Entradas y restauración",
       "keywords": [
-        "cantidad",
-        "reembolso",
-        "sistema",
-        "pago",
+        "derecho admisión",
+        "discoteca",
+        "código vestimenta",
+        "entrada",
+        "discriminación",
+        "condiciones",
+        "reclamación",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "Compré la entrada a un festival hace seis meses y ahora, al acercarse la fecha, ha cambiado considerablemente el cartel. ¿Es legal?",
+      "respuesta": "Depende de la importancia del cambio y de la normativa aplicable. No cualquier modificación del cartel da derecho automáticamente a la devolución, pero si se produce un cambio sustancial respecto de lo anunciado, por ejemplo porque se cancelan artistas principales o se altera de forma relevante el contenido del festival, puedes tener derecho a la devolución total o parcial del importe de la entrada. La organización debe informar adecuadamente de los cambios. La existencia de una cláusula que prevea posibles modificaciones del cartel no elimina por sí sola los derechos que te correspondan; habrá que valorar su contenido, la importancia del cambio y la normativa autonómica de espectáculos públicos aplicable.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "festival",
+        "entrada",
+        "cartel",
+        "artistas",
+        "modificación sustancial",
+        "devolución",
+        "organización",
+        "reclamación",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "Compré la entrada para un festival, pero me he arrepentido. ¿Puedo pedir la devolución del dinero?",
+      "respuesta": "En general, no. Las entradas para espectáculos con una fecha o periodo de ejecución concreto no están sujetas al derecho legal de desistimiento de 14 días. Solo podrás pedir la devolución si las condiciones de venta lo permiten, si contrataste un seguro o garantía de cancelación que cubra tu caso, o si el organizador cancela el festival o modifica de forma sustancial condiciones esenciales, como fecha, lugar o parte relevante del cartel. Si no puedes asistir por una causa personal, no siempre existe derecho a devolución; habrá que revisar las condiciones de la entrada y la normativa autonómica aplicable.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "festival",
+        "entrada",
+        "desistimiento",
+        "devolución",
+        "arrepentimiento",
+        "cancelación",
+        "modificación sustancial",
+        "condiciones venta",
+        "seguro"
+      ]
+    },
+    {
+      "pregunta": "Unos días antes de un festival han comunicado su cancelación. ¿En qué plazo deben devolverme el dinero?",
+      "respuesta": "Si el festival se cancela antes de su celebración, tienes derecho a la devolución del importe de la entrada, salvo que aceptes voluntariamente otra solución, como una nueva fecha o un bono. No existe un plazo estatal único de devolución aplicable a todos los espectáculos: la normativa de cada comunidad autónoma puede establecer plazos y procedimientos específicos. Si no existe una regla específica, habrá que atender a la normativa general aplicable y a las condiciones de venta válidamente establecidas, que no pueden limitar los derechos reconocidos al consumidor. Si no recibes la devolución, reclama al organizador y, si compraste la entrada mediante una plataforma, puedes utilizar también sus canales de reclamación.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "festival",
+        "cancelación",
+        "entrada",
+        "devolución",
+        "plazo",
+        "organizador",
+        "plataforma",
+        "reclamación",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "He pedido un vaso de agua en una cafetería y me han cobrado un euro. ¿Es legal?",
+      "respuesta": "No deberían cobrarte por agua no envasada si eres cliente del establecimiento. Los bares, cafeterías y restaurantes deben ofrecer siempre a sus clientes la posibilidad de consumir agua no envasada de forma gratuita y complementaria a su oferta. Otra cosa distinta es que pidas agua embotellada u otro producto envasado, que sí puede cobrarse si se informa del precio. Si te cobran por un vaso de agua del grifo, puedes pedir explicación, conservar el ticket y presentar una reclamación.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "agua",
+        "cafetería",
+        "bar",
+        "restaurante",
+        "gratuita",
+        "agua no envasada",
+        "ticket",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Adquirí una entrada para un festival que dura todo el día y, al salir del recinto y volver a entrar, me han cobrado un recargo. ¿Es legal?",
+      "respuesta": "Depende de las condiciones de la entrada y de la información facilitada antes de la compra. Si la entrada permitía salir y volver a entrar, o no se informó de forma clara y previa de que la reentrada estaba prohibida o tenía un coste adicional, puedes reclamar el recargo. Si se había informado correctamente de esa condición y del precio aplicable, habrá que atender también a la normativa autonómica sobre espectáculos y condiciones de admisión para determinar si el cobro es válido. Conserva la entrada, las condiciones de compra, las capturas de la web y el justificante del recargo.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "festival",
+        "entrada",
+        "reentrada",
+        "recargo",
+        "condiciones",
+        "información previa",
+        "reclamación",
+        "práctica abusiva"
+      ]
+    },
+    {
+      "pregunta": "Al entrar en un parque de atracciones me han revisado la mochila y me han impedido acceder con comida. ¿Es legal?",
+      "respuesta": "Son dos cuestiones distintas. Los controles de seguridad sobre bolsos u objetos personales pueden realizarse en los términos previstos por la normativa de seguridad privada, siempre de forma justificada y proporcionada. En cambio, una prohibición general de introducir comida o bebida no es necesariamente válida por el mero hecho de estar anunciada: puede resultar abusiva si obliga en la práctica a adquirir dentro del recinto un servicio de restauración no solicitado, aunque pueden existir restricciones justificadas por razones de seguridad, por ejemplo respecto de determinados envases u objetos. La validez de estas condiciones debe valorarse también conforme a la normativa autonómica aplicable. Si no estás de acuerdo, puedes solicitar una hoja de reclamaciones.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "parque atracciones",
+        "comida",
+        "bebida",
+        "registro",
+        "derecho admisión",
+        "seguridad",
+        "reclamación",
+        "condiciones"
+      ]
+    },
+    {
+      "pregunta": "Asistí a un festival y me impusieron un sistema de pago con pulsera cashless. Me sobraron 3 euros y ahora me dicen que no pueden devolver esa cantidad. ¿Es legal?",
+      "respuesta": "No. Si el sistema de pago cashless era obligatorio, la organización no puede quedarse con el saldo procedente del dinero que hayas recargado y no consumido por el mero hecho de que sea inferior a una determinada cantidad. También pueden ser abusivas condiciones que dificulten injustificadamente recuperar ese dinero, como cobrar gastos de gestión no justificados o establecer restricciones desproporcionadas para solicitar el reembolso. Reclama la devolución a la organización o a la empresa responsable del sistema de pago y conserva la entrada, los justificantes de recarga, el saldo restante y las condiciones aplicables. Si no te devuelven el importe, puedes acudir a los servicios de consumo.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
         "cashless",
-        "asistí"
+        "pulsera",
+        "festival",
+        "saldo",
+        "reembolso",
+        "gastos gestión",
+        "reclamación",
+        "práctica abusiva"
       ]
     },
     {
       "pregunta": "¿Es legal que una página web de venta de entradas a espectáculos cobre gastos de gestión?",
-      "respuesta": "Si, pero teniendo en cuenta que los costes adicionales en la compra de entradas deben referirse solo a servicios para la persona consumidora y estar incluidos en el precio final, desglosados claramente con impuestos. No pueden variar según el precio de la entrada ni superar los costes de la compra presencial, salvo justificación por servicios extra y que no se pueden cobrar recargos por correcciones de nombres, impresión o envío de entradas.",
+      "respuesta": "Sí, pueden cobrarse gastos de gestión, pero deben responder a servicios prestados al consumidor e informarse de forma clara y transparente. El precio anunciado debe incluir el precio final completo, con impuestos, y desglosar los gastos adicionales, incluidos los gastos de gestión, por lo que no pueden añadirse de forma sorpresiva durante el proceso de compra. Si corresponden a un servicio opcional, no pueden imponerse sin tu consentimiento. Si no se informaron correctamente o se cobran por servicios que no recibes como consumidor, puedes reclamar.",
       "subcategoria": "Turismo - Entradas y restauración",
       "keywords": [
         "entradas",
-        "costes",
-        "compra",
-        "servicios",
-        "precio",
-        "legal"
+        "gastos gestión",
+        "precio final",
+        "web",
+        "espectáculos",
+        "cargos adicionales",
+        "información previa",
+        "reclamación"
       ]
     },
     {
-      "pregunta": "He tenido un problema con un Hotel que no tenía los servicios que anunciaba por internet ¿Qué puedo hacer?",
-      "respuesta": "Presenta la reclamación directamente al Hotel por un medio que permita acreditar la recepción, como correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si no responde o la respuesta no es satisfactoria, puedes acudir al organismo de tu comunidad autónoma con competencias en turismo, aunque en muchos casos pueden sancionar al Hotel, pero no reintegrarte cantidades que solicites a modo de compensación. En ese caso, puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En primer lugar debes reclamar al hotel con el que hiciste la reserva: > Puedes hacerlo por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de consumo -voluntario para la entidad salvo que esté adherida- Esta información debe aparecer en la web de la entidad y en el contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Turismo de la Comunidad Autónoma donde se encuentre el Hotel. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -Si el hotel se encuentra en otro Estado de la Unión, puedes contactar con el Centro Europeo del Consumidor, que te ayudará con tu reclamación en el país donde se encuentra el hotel. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador.",
+      "pregunta": "He tenido un problema con un hotel que no tenía los servicios que anunciaba por internet. ¿Qué puedo hacer?",
+      "respuesta": "Si el hotel no tenía los servicios anunciados, puedes reclamar porque la información publicitaria y las condiciones de la reserva forman parte de lo contratado. Reclama primero al hotel por un medio que deje constancia, aportando la reserva, capturas de la web, fotografías, facturas y cualquier comunicación. Si reservaste a través de una plataforma, reclama también por ese canal, especialmente si la información incorrecta aparecía allí o si la plataforma gestionó el pago. Si no recibes una respuesta satisfactoria, puedes acudir a los servicios públicos de consumo, a una asociación de consumidores o al arbitraje de consumo si la empresa está adherida o acepta someterse. También puedes presentar una denuncia ante el organismo turístico competente de la comunidad autónoma donde esté el hotel; este organismo puede sancionar incumplimientos turísticos, aunque normalmente no resuelve la devolución o indemnización individual. Para reclamar cantidades, puedes acudir a la vía judicial; si la reclamación no supera 2.000 euros, no necesitas abogado ni procurador. Si el hotel está en otro Estado de la Unión Europea, puedes contactar con el Centro Europeo del Consumidor.",
       "subcategoria": "Turismo - Entradas y restauración",
       "keywords": [
         "hotel",
+        "servicios anunciados",
+        "publicidad",
+        "reserva",
+        "plataforma",
         "reclamación",
-        "puedes",
-        "entidad",
-        "correo",
-        "consumo"
+        "consumo",
+        "turismo",
+        "indemnización"
+      ]
+    },
+    {
+      "pregunta": "El hotel ha cancelado mi reserva poco antes del viaje. ¿Qué derechos tengo?",
+      "respuesta": "Si la reserva estaba confirmada, el hotel debe respetar las condiciones contratadas. Si finalmente no puede prestarte el alojamiento, puedes reclamar la devolución de las cantidades pagadas y, cuando proceda, los daños y gastos que puedas acreditar, por ejemplo la diferencia razonable de precio si tuviste que contratar otro alojamiento por una causa imputable al hotel. El establecimiento puede ofrecerte un alojamiento alternativo y la normativa turística de algunas comunidades autónomas puede establecer obligaciones específicas al respecto. Si la reserva se hizo a través de una plataforma, comunica también la cancelación cuanto antes por ese canal.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "hotel",
+        "cancelación",
+        "reserva",
+        "alojamiento alternativo",
+        "devolución",
+        "daños",
+        "plataforma",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Llegué al hotel con reserva confirmada y me dicen que no hay habitación. ¿Qué puedo hacer?",
+      "respuesta": "Si tienes una reserva confirmada y el hotel no puede proporcionarte la habitación contratada por sobreventa u otra causa que le sea imputable, reclama una solución inmediata y deja constancia de la incidencia. El establecimiento puede ofrecerte otro alojamiento y la normativa turística de la comunidad autónoma puede establecer obligaciones específicas de realojamiento. Si no se presta el servicio contratado, puedes reclamar la devolución de las cantidades que correspondan y, en su caso, los gastos y daños que puedas acreditar, como el coste razonable de tener que buscar otro alojamiento. Conserva la reserva, las comunicaciones, las facturas y los justificantes. Si la reserva se hizo a través de una plataforma, comunica también la incidencia cuanto antes por ese canal.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "overbooking",
+        "hotel",
+        "reserva confirmada",
+        "habitación",
+        "alojamiento alternativo",
+        "devolución",
+        "daños",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Reservé un hotel con tarifa no reembolsable. ¿Puedo recuperar el dinero si no puedo viajar?",
+      "respuesta": "Depende de las condiciones aceptadas al reservar. Si se informó claramente de que la tarifa era no reembolsable, en principio el hotel puede aplicar esa condición. Aun así, conviene revisar si la reserva permite cambios, si contrataste un seguro de cancelación o si el hotel ofrece una alternativa comercial. Si la causa de no viajar se debe a un incumplimiento del hotel, a una cancelación del propio alojamiento o a una falta de información clara sobre la tarifa, sí podrías reclamar. Este extremo puede depender de las condiciones concretas de contratación.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "tarifa no reembolsable",
+        "hotel",
+        "cancelación",
+        "reserva",
+        "devolución",
+        "seguro",
+        "condiciones",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Reservé un alojamiento por internet. ¿Tengo derecho de desistimiento de 14 días?",
+      "respuesta": "Con carácter general, no hay derecho legal de desistimiento de 14 días en reservas de alojamiento para una fecha o periodo concreto. Esto se aplica aunque la reserva se haya hecho por internet. Lo que sí deben respetarse son las condiciones de cancelación informadas antes de contratar. Si el alojamiento no informó correctamente de esas condiciones, canceló la reserva o incumplió lo contratado, puedes reclamar.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "desistimiento",
+        "alojamiento",
+        "reserva internet",
+        "14 días",
+        "cancelación",
+        "hotel",
+        "apartamento turístico",
+        "condiciones"
+      ]
+    },
+    {
+      "pregunta": "La plataforma de reservas me cobró, pero el alojamiento dice que no tiene mi reserva. ¿A quién reclamo?",
+      "respuesta": "Comunica la incidencia cuanto antes tanto a la plataforma como al alojamiento, especialmente si la plataforma confirmó la reserva o gestionó el pago. Pide que comprueben qué ha ocurrido y que te proporcionen una solución inmediata, y conserva los justificantes de pago, correos, capturas y mensajes. Si el servicio contratado finalmente no se presta, puedes reclamar la devolución de las cantidades que correspondan y, en su caso, los gastos o daños que puedas acreditar frente a quien resulte responsable del incumplimiento. La responsabilidad de la plataforma dependerá del papel que haya asumido en la reserva, el pago y la confirmación y de las obligaciones que le correspondan conforme al contrato y a la normativa aplicable.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "plataforma",
+        "reserva",
+        "pago",
+        "alojamiento",
+        "hotel",
+        "intermediaria",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He reservado un alojamiento a través de una plataforma. ¿Qué derechos tengo si surge algún problema?",
+      "respuesta": "Tus derechos dependen, entre otras cuestiones, de si quien ofrece el alojamiento actúa como empresa o profesional o realmente como particular, y de qué servicio haya causado el problema. La plataforma debe informarte de si el oferente declara actuar como empresario y, si declara que no lo es, advertirte de que la normativa específica de protección de consumidores no se aplica al contrato celebrado con él. Esta declaración no determina por sí sola su verdadera condición jurídica. Si contratas con una empresa o profesional, dispones de los derechos reconocidos por la normativa de consumo; si contratas realmente con un particular, se aplicarán al contrato las normas civiles correspondientes. En todo caso, la plataforma responde de las obligaciones que le correspondan por los servicios que ella misma presta y puede ofrecer además mecanismos propios de asistencia o protección. Si el problema surge durante la estancia, conviene comunicarlo cuanto antes tanto al responsable del alojamiento como a la plataforma.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "plataforma",
+        "alojamiento",
+        "empresa",
+        "profesional",
+        "particular",
+        "consumo",
+        "anfitrión",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema al realizar el pago de un alojamiento a través de una plataforma. ¿A quién reclamo?",
+      "respuesta": "Depende de quién haya intervenido en el pago y de dónde se haya producido el problema. Si el error corresponde al sistema de reserva o pago gestionado por la propia plataforma, reclama a la plataforma. Si el cargo lo ha realizado directamente el alojamiento, reclama a su responsable; y si el problema procede de tu tarjeta, cuenta bancaria o servicio de pago, puede ser necesario reclamar también al banco o proveedor de servicios de pago. Comunica la incidencia cuanto antes y conserva la confirmación de la reserva, los justificantes de pago, los mensajes y las capturas de la operación.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "plataforma",
+        "alojamiento",
+        "pago",
+        "reserva",
+        "tarjeta",
+        "banco",
+        "cargo",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He reservado un alojamiento turístico a través de una plataforma, pero no cumple las características anunciadas. ¿Qué puedo hacer y a quién reclamo?",
+      "respuesta": "Comunica cuanto antes las diferencias a la persona o empresa responsable del alojamiento y, si reservaste mediante una plataforma, deja también constancia de la incidencia en ella, preferiblemente durante la estancia para facilitar una posible solución. Conserva el anuncio, la confirmación de la reserva, fotografías, vídeos y mensajes. Si el alojamiento lo presta una empresa o profesional, las características ofrecidas forman parte de lo contratado y puedes reclamar por su incumplimiento y, según su importancia, exigir la solución que corresponda, incluida en su caso una reducción o devolución del precio y los perjuicios que puedas acreditar. Si presentas una reclamación formal a una empresa, esta debe responder en un plazo máximo de 15 días.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "alojamiento turístico",
+        "plataforma",
+        "características anunciadas",
+        "publicidad",
+        "incumplimiento",
+        "empresa",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He reservado un apartamento turístico a través de una plataforma y estaba sucio o en mal estado. ¿A quién reclamo?",
+      "respuesta": "Comunica la incidencia cuanto antes a la persona o empresa responsable del alojamiento y, si reservaste a través de una plataforma, deja también constancia por ese canal, preferiblemente mientras todavía estás en el alojamiento, ya que puede facilitar una solución inmediata. Conserva fotografías, vídeos, mensajes y la descripción del anuncio. Si el alojamiento lo presta una empresa o profesional, puedes reclamar por el incumplimiento y, según su gravedad, exigir la solución que corresponda, incluida en su caso una reducción o devolución del precio y los perjuicios que puedas acreditar. Si quien presta el alojamiento es realmente un particular, la normativa específica de protección de consumidores no se aplica al contrato entre ambos, aunque conservas los derechos que te correspondan conforme a la normativa civil y pueden resultar aplicables las garantías ofrecidas por la plataforma.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "apartamento turístico",
+        "plataforma",
+        "suciedad",
+        "mal estado",
+        "anfitrión",
+        "empresa",
+        "consumo",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "No he podido acceder al apartamento turístico porque no funcionaban las llaves o el código. ¿Qué puedo hacer?",
+      "respuesta": "Contacta inmediatamente con la persona o empresa responsable del alojamiento y, si reservaste mediante una plataforma, comunica también la incidencia por ese canal para intentar solucionarla mientras se está produciendo. Deja constancia por escrito y conserva mensajes, llamadas, capturas y justificantes de los gastos que tengas que asumir. Si por una causa imputable al prestador no puedes acceder al alojamiento contratado, puedes reclamar la devolución de las cantidades que correspondan y, en su caso, los gastos y perjuicios que puedas acreditar, como el coste razonable de otro alojamiento. Si el prestador es una empresa o profesional, se aplica además la normativa de consumo; si es realmente un particular, la reclamación se regirá por la normativa civil, sin perjuicio de las garantías que pueda ofrecer la plataforma.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "apartamento turístico",
+        "acceso",
+        "llaves",
+        "código",
+        "plataforma",
+        "anfitrión",
+        "reembolso",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "El alojamiento turístico me cobra gastos de limpieza o suplementos que no aparecían al reservar. ¿Es legal?",
+      "respuesta": "No pueden cobrarte cargos obligatorios sobre los que no se te haya informado correctamente antes de contratar. Debe informarse del precio total, incluidos los impuestos y tasas, y de los gastos o suplementos adicionales; si alguno no puede calcularse razonablemente de antemano, debe informarse de que puede ser necesario abonarlo. Por tanto, si un gasto de limpieza, gestión, llegada tardía u otro suplemento era obligatorio, debía haberse comunicado claramente antes de confirmar la reserva. Si se trata de un servicio opcional, no puede imponerse sin tu consentimiento. Puedes reclamar los cargos que no se hayan informado o aceptado correctamente.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "gastos limpieza",
+        "suplementos",
+        "precio total",
+        "apartamento turístico",
+        "hotel",
+        "reserva",
+        "cargos",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "El hotel me pide una tarjeta como garantía o hace una preautorización. ¿Puede hacerlo?",
+      "respuesta": "Sí. Un hotel puede pedir una tarjeta como garantía o realizar una preautorización si esta condición se ha comunicado de forma clara antes de contratar o forma parte válidamente de las condiciones de la reserva. Debe informarte adecuadamente del importe y de la finalidad de la retención y no puede realizar cargos definitivos que no estén autorizados o debidamente justificados. Si posteriormente te cobran daños, consumos u otros conceptos, puedes solicitar un desglose y la justificación correspondiente. Conserva la reserva, las condiciones de contratación y los movimientos de la tarjeta.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "hotel",
+        "tarjeta",
+        "preautorización",
+        "garantía",
+        "cargo",
+        "fianza",
+        "daños",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He tenido una plaga de chinches u otros insectos en el hotel. ¿Puedo reclamar?",
+      "respuesta": "Sí. Si detectas chinches, cucarachas u otra plaga, comunícalo inmediatamente al hotel y solicita que solucione el problema. Conserva fotografías, vídeos y, si procede, informes médicos y facturas de los gastos que hayas tenido que asumir. Según la gravedad de la incidencia y la solución ofrecida, puedes reclamar una reducción o devolución del precio y, en su caso, los daños y gastos que puedas acreditar. También puedes poner los hechos en conocimiento del organismo turístico y, cuando proceda, de la autoridad sanitaria competente.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "chinches",
+        "plaga",
+        "hotel",
+        "higiene",
+        "seguridad",
+        "cambio habitación",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He sufrido un accidente en el hotel por una instalación en mal estado. ¿Puedo reclamar una indemnización?",
+      "respuesta": "Sí. Si el accidente está relacionado con una instalación en mal estado, falta de mantenimiento, defectos de seguridad, señalización insuficiente u otra actuación imputable al hotel, puedes reclamar los daños y perjuicios sufridos. Comunica lo ocurrido cuanto antes, pide que quede constancia de la incidencia y conserva fotografías, datos de testigos, informes médicos, facturas y demás pruebas. La indemnización dependerá de los daños sufridos y de las circunstancias del accidente. Si el hotel no atiende tu reclamación, puedes acudir, cuando proceda, al arbitraje de consumo o a la vía judicial; además, puedes poner los hechos en conocimiento de las autoridades competentes si pudiera existir una infracción en materia de consumo, turismo o seguridad.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "accidente",
+        "hotel",
+        "indemnización",
+        "mantenimiento",
+        "seguridad",
+        "negligencia",
+        "pruebas",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿El hotel responde si me roban objetos de la habitación?",
+      "respuesta": "Depende de las circunstancias. La ley establece reglas específicas sobre la responsabilidad de los establecimientos de hospedaje por los efectos que los viajeros introducen en ellos, por lo que el hotel puede responder en determinados supuestos aunque habrá que valorar las circunstancias del robo, las medidas de custodia y seguridad y las indicaciones dadas al cliente. Si sufres un robo, comunícalo inmediatamente al hotel, conserva las pruebas y presenta denuncia cuando proceda. Una cláusula que pretenda excluir de forma absoluta cualquier responsabilidad del hotel no puede impedirte reclamar cuando legalmente le corresponda responder.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "robo",
+        "hotel",
+        "habitación",
+        "objetos",
+        "caja fuerte",
+        "custodia",
+        "responsabilidad",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el hotel cobrarme por cancelar la reserva si no me informó de las condiciones de cancelación?",
+      "respuesta": "Si no te informaron de forma clara antes de contratar de que la reserva estaba sujeta a una penalización, gastos de cancelación o una tarifa no reembolsable, no pueden aplicarte posteriormente esa condición como si la hubieras aceptado. Las condiciones de cancelación deben facilitarse de forma clara y accesible antes de confirmar la reserva. Si te cobran una penalización que no fue debidamente informada, reclama su devolución y conserva la confirmación de la reserva y las condiciones que se te mostraron al contratar. Si reservaste mediante una plataforma, también puedes dejar constancia de la reclamación por ese canal.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "cancelación",
+        "reserva",
+        "hotel",
+        "penalización",
+        "condiciones",
+        "información previa",
+        "plataforma",
+        "devolución"
+      ]
+    },
+    {
+      "pregunta": "Me han cambiado a otro hotel distinto del que reservé. ¿Tengo que aceptarlo?",
+      "respuesta": "No tienes que aceptar cualquier cambio. Si el hotel no puede proporcionarte el alojamiento que reservaste, puede ofrecerte una alternativa, pero habrá que valorar si resulta adecuada conforme a las condiciones contratadas y a la normativa turística aplicable. Si la alternativa supone un perjuicio relevante respecto de lo reservado o no la aceptas por no resultar adecuada, puedes reclamar la devolución de las cantidades que correspondan y, en su caso, los daños y gastos que puedas acreditar. Conserva la reserva original, la propuesta de cambio y los justificantes de cualquier gasto ocasionado.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "cambio hotel",
+        "alojamiento alternativo",
+        "reserva",
+        "categoría",
+        "ubicación",
+        "servicios",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "El hotel me exige pagar en efectivo y no me da factura. ¿Es legal?",
+      "respuesta": "El hotel puede establecer el efectivo como medio de pago si esa condición es compatible con lo informado y contratado, pero debe respetar los límites legales aplicables a los pagos en efectivo. Cuando interviene un empresario o profesional, con carácter general no pueden pagarse en efectivo operaciones de importe igual o superior a 1.000 euros, salvo las excepciones previstas legalmente. Además, el hotel debe documentar correctamente el cobro mediante la factura o justificante que corresponda. Si se niega a hacerlo, conserva cualquier prueba de la reserva y del pago y presenta una reclamación.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "efectivo",
+        "factura",
+        "justificante",
+        "alojamiento",
+        "hotel",
+        "precio",
+        "pago",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden echarme del hotel o cancelar mi estancia por incumplir normas internas?",
+      "respuesta": "Puede estar justificado en determinados casos, según la gravedad del incumplimiento y la normativa turística aplicable. Los establecimientos pueden establecer normas de régimen interior sobre convivencia, seguridad y uso de sus instalaciones, siempre que se comuniquen adecuadamente y sean conformes con la ley. Un incumplimiento grave que altere la convivencia, cause daños o ponga en riesgo la seguridad puede justificar la resolución de la estancia en los términos previstos por la normativa aplicable. En cambio, no pueden expulsarte de forma arbitraria, desproporcionada o discriminatoria. Si consideras que la expulsión fue injustificada, pide que te indiquen el motivo, conserva las pruebas y reclama.",
+      "subcategoria": "Turismo - Alojamientos",
+      "keywords": [
+        "expulsión",
+        "hotel",
+        "normas internas",
+        "cancelación estancia",
+        "convivencia",
+        "seguridad",
+        "discriminación",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué derechos tengo si contrato un viaje combinado en una agencia o web?",
+      "respuesta": "Un viaje combinado existe cuando se contratan al menos dos tipos de servicios de viaje para el mismo viaje o vacaciones, como transporte y alojamiento, en las condiciones previstas legalmente. En ese caso tienes derechos específicos, entre ellos recibir información previa y un contrato claro, obtener asistencia durante el viaje, reclamar por la correcta ejecución de los servicios contratados y disponer de protección frente a la insolvencia. Si antes de salir se producen cambios importantes o una cancelación, o durante el viaje existen incumplimientos, puedes tener derecho, según el caso, a resolver el contrato, obtener una solución alternativa, una reducción del precio o una indemnización.",
+      "subcategoria": "Turismo - Viajes combinados",
+      "keywords": [
+        "viaje combinado",
+        "agencia",
+        "transporte",
+        "alojamiento",
+        "organizador",
+        "contrato",
+        "asistencia",
+        "indemnización"
+      ]
+    },
+    {
+      "pregunta": "La agencia ha cambiado el hotel o el horario de mi viaje combinado. ¿Puedo cancelar sin penalización?",
+      "respuesta": "Si el cambio afecta de forma sustancial a las características principales del viaje, la agencia u organizador debe informarte y ofrecerte opciones: aceptar el cambio, aceptar un viaje sustitutivo si se ofrece, o resolver el contrato sin penalización y recuperar las cantidades pagadas. Si el cambio es menor y estaba previsto en el contrato, puede que no dé derecho a cancelar. Habrá que valorar la importancia del cambio en el conjunto del viaje.",
+      "subcategoria": "Turismo - Viajes combinados",
+      "keywords": [
+        "viaje combinado",
+        "cambio",
+        "hotel",
+        "horario",
+        "cancelación",
+        "penalización",
+        "agencia",
+        "devolución"
+      ]
+    },
+    {
+      "pregunta": "Si contrato un viaje combinado y la agencia cancela el viaje, ¿tengo derecho a devolución?",
+      "respuesta": "Sí. Si el organizador cancela el viaje combinado antes del inicio, debe devolverte las cantidades pagadas, salvo que aceptes voluntariamente una alternativa. Además, puede haber derecho a indemnización si la cancelación no está justificada por las causas previstas legalmente. No siempre hay indemnización: por ejemplo, puede no proceder si la cancelación se debe a circunstancias inevitables y extraordinarias o a falta de número mínimo de participantes comunicada correctamente.",
+      "subcategoria": "Turismo - Viajes combinados",
+      "keywords": [
+        "viaje combinado",
+        "cancelación",
+        "agencia",
+        "devolución",
+        "indemnización",
+        "organizador",
+        "circunstancias extraordinarias",
+        "participantes"
+      ]
+    },
+    {
+      "pregunta": "¿Qué pasa si la agencia de viajes quiebra antes o durante mi viaje combinado?",
+      "respuesta": "Los organizadores y minoristas de viajes combinados deben disponer de una garantía frente a su insolvencia. Si por esa insolvencia dejan de prestarse servicios incluidos en el viaje, la garantía debe permitir recuperar los pagos correspondientes a los servicios no ejecutados y, si el viaje ya ha comenzado e incluye transporte, cubrir también la repatriación cuando sea necesaria. En la documentación del viaje deben figurar los datos de la entidad garante, a la que puedes dirigirte para solicitar la protección correspondiente. Conserva el contrato, los justificantes de pago y las comunicaciones y, si tienes problemas para hacer efectiva la garantía, puedes acudir a la autoridad competente.",
+      "subcategoria": "Turismo - Viajes combinados",
+      "keywords": [
+        "agencia viajes",
+        "quiebra",
+        "insolvencia",
+        "viaje combinado",
+        "garantía",
+        "repatriación",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es un servicio de viaje vinculado y en qué se diferencia de un viaje combinado?",
+      "respuesta": "Un servicio de viaje vinculado se produce cuando contratas por separado al menos dos tipos de servicios para el mismo viaje, mediante alguna de las formas previstas legalmente, sin que lleguen a constituir un viaje combinado. A diferencia de este, cada prestador es, con carácter general, responsable de la correcta prestación de su propio servicio. El empresario que facilita los servicios de viaje vinculados debe informarte claramente de esta circunstancia y ofrecer la protección frente a su insolvencia prevista legalmente. Si incumple estas obligaciones de información o garantía, pueden resultar aplicables derechos adicionales previstos para los viajes combinados.",
+      "subcategoria": "Turismo - Viajes combinados",
+      "keywords": [
+        "servicio viaje vinculado",
+        "viaje combinado",
+        "agencia",
+        "reserva",
+        "información",
+        "insolvencia",
+        "protección",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Compré una entrada y el recinto estaba tan lleno que no podía ver el espectáculo. ¿Puedo reclamar?",
+      "respuesta": "Puedes reclamar si no pudiste disfrutar del espectáculo en las condiciones contratadas, por ejemplo porque no se respetaron las características anunciadas de tu localidad o zona, o porque se superó el aforo autorizado. Conserva la entrada y, si es posible, fotografías, vídeos y cualquier información sobre las condiciones anunciadas. Según la entidad del incumplimiento, puedes reclamar la devolución total o parcial del precio y, en su caso, los perjuicios que puedas acreditar. Si consideras que se incumplieron las normas de aforo o seguridad, también puedes ponerlo en conocimiento de la autoridad competente en materia de espectáculos de la comunidad autónoma.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "entrada",
+        "aforo",
+        "visibilidad",
+        "espectáculo",
+        "recinto",
+        "seguridad",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "El concierto empezó con mucho retraso. ¿Tengo derecho a devolución o compensación?",
+      "respuesta": "Depende de la duración y de las circunstancias del retraso. Un retraso breve no implica necesariamente derecho a devolución, pero uno importante puede constituir un incumplimiento. Si, por ese motivo, decides no asistir o abandonar el recinto antes de que comience el espectáculo, puedes reclamar la devolución cuando proceda conforme a la gravedad del retraso y a la normativa autonómica aplicable. Si finalmente asistes al espectáculo, no pierdes automáticamente cualquier derecho a reclamar, pero la devolución del precio no procede por el mero hecho del retraso; en su caso, podrás reclamar los perjuicios que este te haya causado y puedas acreditar. Conserva la entrada, las comunicaciones de la organización y, si es posible, pruebas de la hora real de inicio.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "concierto",
+        "retraso",
+        "entrada",
+        "devolución",
+        "compensación",
+        "organización",
+        "horario",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Compré entradas numeradas y al llegar mi asiento no existía o estaba ocupado. ¿Qué puedo hacer?",
+      "respuesta": "Reclama inmediatamente al personal del recinto o a la organización y exige que se respete la localidad que has contratado. Si esto no es posible, pueden ofrecerte otra localidad que resulte adecuada, pero no tienes que aceptar una alternativa que suponga un perjuicio relevante respecto de la entrada adquirida. Si no se soluciona la incidencia, puedes reclamar, según las circunstancias, la devolución total o parcial del precio y los perjuicios que puedas acreditar. Conserva la entrada, el justificante de compra y las pruebas de lo ocurrido. Si el problema procede de un error imputable al vendedor o a la plataforma, reclama también por ese canal.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "entrada numerada",
+        "asiento",
+        "sobreventa",
+        "recinto",
+        "organizador",
+        "plataforma",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cobrarme por imprimir o descargar una entrada electrónica?",
+      "respuesta": "Pueden existir cargos relacionados con determinadas formas de entrega o impresión de la entrada, pero deben informarse claramente antes de contratar. Si el cargo es obligatorio para obtener la entrada, debe estar incluido o debidamente reflejado en la información sobre el precio total y no puede aparecer de forma sorpresiva al final de la compra. Si corresponde a un servicio adicional u opcional, solo puede cobrarse si lo has aceptado expresamente. Si no se informó correctamente del cargo o se añadió sin tu consentimiento cuando este era necesario, puedes reclamar su devolución.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "entrada electrónica",
+        "impresión",
+        "descarga",
+        "gastos gestión",
+        "precio final",
+        "cargo adicional",
+        "transparencia",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si compré una entrada en una web falsa o fraudulenta?",
+      "respuesta": "No pulses más enlaces ni facilites más datos. Guarda capturas de la web, justificantes de pago, correos, mensajes y la entrada recibida. Contacta de inmediato con tu banco si pagaste con tarjeta o transferencia para intentar bloquear el pago o solicitar retrocesión si procede. Denuncia ante Policía Nacional, Guardia Civil o juzgado de guardia. Si la web suplantaba a una empresa real, informa también a esa empresa. Si se trataron tus datos personales indebidamente, puedes acudir a la Agencia Española de Protección de Datos.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "entrada",
+        "web falsa",
+        "fraude",
+        "pago",
+        "banco",
+        "denuncia",
+        "suplantación",
+        "protección datos"
+      ]
+    },
+    {
+      "pregunta": "En un restaurante, ¿tienen que mostrarme los precios antes de consumir?",
+      "respuesta": "Sí. Los establecimientos de restauración deben informar de los precios de forma clara antes de contratar o consumir, incluidos impuestos y suplementos obligatorios. La forma concreta de exhibir cartas, listas de precios o información puede variar según la comunidad autónoma o el municipio. Si te cobran un precio que no estaba informado o aplican suplementos no anunciados, puedes pedir explicación, conservar el ticket y presentar reclamación.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "restaurante",
+        "precios",
+        "carta",
+        "suplementos",
+        "iva",
+        "ticket",
+        "información previa",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un restaurante cobrarme suplemento por terraza, pan, cubierto o servicio?",
+      "respuesta": "Pueden cobrarse determinados suplementos, como terraza, pan o cubierto, si están permitidos por la normativa aplicable y se informa de forma clara y previa de su importe. No pueden añadirse cargos obligatorios de forma sorpresiva una vez realizado el consumo. Si un producto o servicio es opcional, tampoco puede imponerse sin tu consentimiento. La regulación concreta sobre cartas, precios y suplementos puede variar según la comunidad autónoma. Si te cobran un concepto del que no se informó correctamente, conserva el ticket y reclama.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "restaurante",
+        "suplemento",
+        "terraza",
+        "pan",
+        "cubierto",
+        "servicio",
+        "precio",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un restaurante negarse a darme el ticket o factura?",
+      "respuesta": "No. Deben entregarte un justificante de pago o factura simplificada con los datos y conceptos exigibles. El ticket es importante para comprobar lo cobrado y reclamar si hay errores. Si se niegan, puedes pedir hoja de reclamaciones y denunciar ante consumo o ante la administración competente. Además, la obligación de emitir justificante tiene también relevancia tributaria.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "restaurante",
+        "ticket",
+        "factura",
+        "justificante",
+        "pago",
+        "reclamación",
+        "consumo",
+        "precio"
+      ]
+    },
+    {
+      "pregunta": "He sufrido una intoxicación alimentaria en un restaurante. ¿Qué puedo hacer?",
+      "respuesta": "Si sospechas una intoxicación alimentaria, acude a un centro sanitario y conserva los informes médicos, el ticket, fotografías y, si las hay, pruebas o datos de otras personas afectadas. Comunica el problema al restaurante y presenta una reclamación. También puedes poner los hechos en conocimiento de la autoridad sanitaria competente para que valore si procede realizar actuaciones de control o inspección. Si quieres reclamar una indemnización, habrá que acreditar el daño sufrido y su relación con los alimentos consumidos.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "intoxicación alimentaria",
+        "restaurante",
+        "salud",
+        "ticket",
+        "informe médico",
+        "autoridad sanitaria",
+        "indemnización",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un restaurante impedirme pagar con tarjeta?",
+      "respuesta": "Sí. Un restaurante puede no aceptar pagos con tarjeta o establecer un importe mínimo para utilizarla, siempre que informe de ello de forma clara y visible antes de consumir. Si no se informó previamente y ya has realizado el consumo, puedes reclamar. Además, no pueden cobrarte un recargo adicional por el hecho de pagar con tarjeta.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "restaurante",
+        "tarjeta",
+        "efectivo",
+        "medio pago",
+        "importe mínimo",
+        "recargo",
+        "información previa",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un restaurante cobrarme un recargo por pagar con tarjeta?",
+      "respuesta": "No. El establecimiento no puede cobrarte un recargo adicional por el hecho de pagar con tarjeta. Sí puede decidir no aceptar este medio de pago o establecer un importe mínimo para utilizarlo, siempre que informe de ello claramente antes de consumir, pero no puede incrementar el precio por utilizar la tarjeta. Si aparece un recargo de este tipo en el ticket, puedes reclamar su devolución.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "tarjeta",
+        "recargo",
+        "restaurante",
+        "pago",
+        "ticket",
+        "información previa",
+        "instrumento pago",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un restaurante negarse a atenderme por ir con un perro de asistencia?",
+      "respuesta": "Con carácter general, no. Las personas usuarias de perros de asistencia reconocidos tienen derecho a acceder y permanecer con ellos en los establecimientos de hostelería y restauración, sin que pueda cobrárseles un importe adicional por este motivo. Existen algunas excepciones específicas, como las zonas de manipulación de alimentos y de acceso exclusivo del personal.  Si te deniegan injustificadamente el acceso, puedes solicitar una hoja de reclamaciones y conservar pruebas de lo ocurrido.",
+      "subcategoria": "Turismo - Entradas y restauración",
+      "keywords": [
+        "perro asistencia",
+        "restaurante",
+        "acceso",
+        "discapacidad",
+        "discriminación",
+        "mascota",
+        "comunidad autónoma",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Están obligados los hoteles, restaurantes o espectáculos a tener hojas de reclamaciones?",
+      "respuesta": "En general, los establecimientos abiertos al público deben disponer de hojas o formularios de reclamaciones cuando lo exige la normativa de consumo o turística aplicable. La forma, modelo, obligación de anuncio visible y tramitación varían por comunidad autónoma. Si el establecimiento se niega a entregarla, puedes dejar constancia por otro medio, conservar pruebas y reclamar ante la administración de consumo o turismo competente. Que no te den la hoja no impide reclamar.",
+      "subcategoria": "Turismo - Reclamaciones",
+      "keywords": [
+        "hojas reclamaciones",
+        "hotel",
+        "restaurante",
+        "espectáculo",
+        "consumo",
+        "turismo",
+        "comunidad autónoma",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿A quién reclamo si el problema es con una plataforma de reservas situada en otro país de la Unión Europea?",
+      "respuesta": "Reclama primero por escrito a la plataforma y conserva la reserva, los justificantes de pago y las comunicaciones. Si resides en España y la plataforma está establecida en otro Estado de la Unión Europea, Islandia o Noruega, puedes solicitar la asistencia del Centro Europeo del Consumidor en España si no obtienes una solución satisfactoria. La responsabilidad de la plataforma dependerá de las funciones que haya asumido, por ejemplo en la reserva, el pago o las garantías ofrecidas. Si el problema corresponde en realidad al alojamiento situado en España, deberás reclamar también a la persona o empresa responsable de este y, cuando proceda, acudir a los organismos españoles competentes.",
+      "subcategoria": "Turismo - Reclamaciones",
+      "keywords": [
+        "plataforma",
+        "reserva",
+        "unión europea",
+        "centro europeo consumidor",
+        "alojamiento",
+        "reclamación",
+        "intermediación",
+        "pago"
+      ]
+    },
+    {
+      "pregunta": "¿Qué pruebas conviene guardar si quiero reclamar por un hotel, apartamento turístico, restaurante o espectáculo?",
+      "respuesta": "Conviene guardar todo lo que permita probar lo contratado y lo ocurrido: reserva o entrada, condiciones de venta, capturas de la web o anuncio, facturas y tickets, justificantes de pago, fotografías, vídeos, mensajes, correos, ubicación, fechas, nombres de personas que atendieron la incidencia y, si hay daños físicos o materiales, informes médicos o facturas de reparación. También es útil reclamar por escrito cuanto antes para dejar constancia.",
+      "subcategoria": "Turismo - Reclamaciones",
+      "keywords": [
+        "pruebas",
+        "reclamación",
+        "hotel",
+        "apartamento turístico",
+        "restaurante",
+        "entrada",
+        "factura",
+        "capturas"
       ]
     }
   ]

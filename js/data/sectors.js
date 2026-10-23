@@ -6,49 +6,49 @@ export const SECTORES = [
     { 
         nombre: "Vivienda", 
         icono: "🏠",
-        pregunta: "¿Tu consulta es sobre compraventa o alquiler de vivienda?",
+        pregunta: "¿Con quién tienes el problema de vivienda?",
         nodo_inicial: "VIV-ORIENT"
     },
     { 
         nombre: "Banca y seguros", 
         icono: "🏦",
-        pregunta: "¿Tu consulta es sobre banca o seguros?",
+        pregunta: "¿Sobre qué producto o servicio quieres reclamar?",
         nodo_inicial: "BS-ORIENT"
     },
     { 
         nombre: "Viajes y transportes", 
         icono: "✈️",
-        pregunta: "¿Tu consulta es sobre vuelos o transporte terrestre?",
+        pregunta: "¿Con qué servicio tienes el problema?",
         nodo_inicial: "VT-ORIENT"
     },
     { 
         nombre: "Suministros", 
         icono: "⚡",
-        pregunta: "¿Tienes un problema con tus suministros?",
+        pregunta: "¿Con qué suministro tienes el problema?",
         nodo_inicial: "SUM-ORIENT"
     },
     { 
         nombre: "Compras", 
         icono: "🛒",
-        pregunta: "¿Tienes un problema con una compra?",
+        pregunta: "¿En qué punto está tu reclamación?",
         nodo_inicial: "COM-ORIENT"
     },
     { 
         nombre: "Protección de datos personales", 
         icono: "🔒",
-        pregunta: "¿Tienes un problema relacionado con tus datos personales?",
+        pregunta: "¿Qué quieres hacer respecto a tus datos personales?",
         nodo_inicial: "DAT-ORIENT"
     },
     { 
         nombre: "Turismo", 
         icono: "🏨",
-        pregunta: "¿Tienes un problema con alojamiento o restauración?",
+        pregunta: "¿Con qué servicio turístico tienes el problema?",
         nodo_inicial: "TUR-ORIENT"
     },
     { 
         nombre: "Servicios varios", 
         icono: "🔧",
-        pregunta: "¿Tienes un problema con algún servicio?",
+        pregunta: "¿De qué servicio se trata?",
         nodo_inicial: "SER-ORIENT"
     }
 ];

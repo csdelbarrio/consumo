@@ -1,23 +1,26 @@
 {
   "sector": "Compras",
-  "total_preguntas": 90,
+  "total_preguntas": 127,
+  "generado": "2026-09-03T14:31:36",
   "preguntas": [
     {
       "pregunta": "¿Debo recibir información antes de comprar un artículo en una tienda?",
-      "respuesta": "Sí. El vendedor debe darte toda la información necesaria para conocer el producto, incluyendo el precio final total y el etiquetado obligatorio, que varía según se trate de un producto industrial o un alimento.",
+      "respuesta": "Sí. Antes de comprar, la tienda debe darte información clara y suficiente sobre las características principales del producto, su precio final, incluidos impuestos, y el etiquetado obligatorio. La información exigible puede variar según el tipo de producto, por ejemplo si es un alimento, un producto industrial,  un juguete o un producto con normativa específica.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
         "información",
         "producto",
-        "recibir",
-        "antes",
-        "comprar",
-        "artículo"
+        "precio",
+        "etiquetado",
+        "tienda",
+        "compra",
+        "características",
+        "consumidor"
       ]
     },
     {
-      "pregunta": "¿Puedo devolver un producto comprado en una tienda solo porque me arrepiento de la compra?",
-      "respuesta": "No. La ley no obliga al vendedor a aceptar devoluciones salvo que el producto sea defectuoso o que anuncie que acepta devoluciones.",
+      "pregunta": "¿Puedo devolver un producto comprado en una tienda física solo porque me arrepiento de la compra?",
+      "respuesta": "No. Si el producto es conforme y simplemente te arrepientes de la compra, la ley no obliga con carácter general al vendedor a aceptar su devolución en una tienda física, salvo que la propia tienda haya ofrecido esa posibilidad. Si el producto presenta una falta de conformidad, no se trata de una devolución por arrepentimiento: se aplican los derechos de la garantía legal.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
         "producto",
@@ -29,203 +32,233 @@
       ]
     },
     {
-      "pregunta": "Compre un teléfono móvil en una tienda porque decían que tenía un medidor de pulso, pero no ha sido así ¿Puedo devolverlo?",
-      "respuesta": "Sí. Si el producto no se ajusta a la descripción, no es apto para su uso normal o para un uso especial que el vendedor aceptó, puedes reclamar que se deshaga la compra (devuelvas el producto y te den el dinero).",
+      "pregunta": "Compré un teléfono móvil en una tienda porque decían que tenía un medidor de pulso, pero no es así. ¿Puedo devolverlo?",
+      "respuesta": "Puedes reclamar porque el producto no se ajusta a lo anunciado. En principio, puedes exigir la reparación o la sustitución, salvo que alguna de esas opciones sea imposible o desproporcionada. Si el producto no puede ponerse en conformidad, la empresa no lo hace en un plazo razonable, el problema persiste o la falta es suficientemente grave, puedes pedir una rebaja del precio o resolver el contrato, devolviendo el producto y recuperando el dinero.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "producto",
-        "compre",
         "teléfono",
         "móvil",
-        "tienda",
-        "decían"
+        "medidor",
+        "pulso",
+        "publicidad",
+        "descripción",
+        "conformidad",
+        "devolución",
+        "garantía"
       ]
     },
     {
-      "pregunta": "Compré en una tienda unas zapatillas que según se anunciaba en un cartel eran impermeables, pero no ha sido así ¿Puedo devolver el producto?",
-      "respuesta": "Sí. El producto debe ofrecer la calidad y características que razonablemente se esperan según su naturaleza, publicidad o etiquetado.",
+      "pregunta": "Compré en una tienda unas zapatillas que, según se anunciaba en un cartel, eran impermeables, pero no ha sido así. ¿Puedo devolver el producto?",
+      "respuesta": "Puedes reclamar porque el producto no se ajusta a una característica anunciada. Si las zapatillas no son impermeables y esa característica formaba parte de la publicidad o del etiquetado, puedes exigir una solución adecuada. Si no se soluciona, no es posible hacerlo o la falta de conformidad es importante, puedes pedir una rebaja del precio o resolver el contrato, devolviendo el producto y recuperando el dinero.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "producto",
-        "compré",
-        "tienda",
         "zapatillas",
-        "anunciaba",
-        "cartel"
+        "impermeables",
+        "cartel",
+        "publicidad",
+        "tienda",
+        "producto",
+        "conformidad",
+        "devolución",
+        "garantía"
       ]
     },
     {
-      "pregunta": "¿Por qué algunas tiendas permiten devolver un producto, aunque no esté defectuoso?",
-      "respuesta": "Por motivos comerciales; buscan superar lo que exige la ley (que no obliga a devolver el dinero del producto si no es defectuoso) como estrategia para aumentar las ventas. Las devoluciones pueden hacerse mediante reembolso del dinero, cambio por otro producto o entrega de un vale para futuras compras.",
+      "pregunta": "¿Por qué algunas tiendas físicas permiten devolver un producto, aunque no esté defectuoso?",
+      "respuesta": "Porque ofrecen una política comercial más favorable que la exigida por la ley. En una tienda física, si el producto no es defectuoso, la ley no obliga con carácter general a aceptar la devolución por simple cambio de opinión. Si la tienda anuncia que acepta devoluciones, debe cumplir las condiciones que haya ofrecido, por ejemplo devolución del dinero, cambio por otro producto o entrega de un vale.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
+        "devolución",
         "producto",
-        "devolver",
         "defectuoso",
-        "dinero",
-        "algunas",
-        "tiendas"
-      ]
-    },
-    {
-      "pregunta": "En una tienda al devolver un producto que no me gustaba, me dieron un vale para una futura compra ¿Caduca ese vale?",
-      "respuesta": "Existen sentencias que determinan que el dinero efectivo «no caduca» y por ello no procede dar caducidad a algo que por su naturaleza carece de ello. De esta forma descartan que los vales caduquen.",
-      "subcategoria": "Compra en tienda física",
-      "keywords": [
+        "tienda",
+        "política",
+        "comercial",
+        "reembolso",
         "vale",
-        "tienda",
-        "devolver",
-        "producto",
-        "gustaba",
-        "dieron"
+        "cambio"
       ]
     },
     {
-      "pregunta": "Compré una lavadora en una tienda física y al llegar a casa he visto que no cabe en el hueco que tenía destinado para ella ¿Puedo exigir legalmente que me entreguen otra?",
-      "respuesta": "No, salvo que la tienda anunciara que acepta cambios. Esto es así porque la ley solo obliga a sustituir el producto si es defectuoso.",
+      "pregunta": "Compré una lavadora en una tienda física y, al llegar a casa, he visto que no cabe en el hueco que tenía destinado para ella. ¿Puedo exigir legalmente que me entreguen otra?",
+      "respuesta": "No, salvo que la tienda anunciara que acepta cambios o devoluciones, o que el vendedor te hubiera garantizado expresamente que esa lavadora cabía en ese espacio. Si el producto no es defectuoso y la tienda no asumió ese compromiso, la ley no obliga con carácter general a cambiarlo por otro solo porque no encaje en el hueco previsto.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "tienda",
-        "compré",
         "lavadora",
-        "física",
-        "casa",
-        "visto"
+        "tienda",
+        "cambio",
+        "devolución",
+        "medidas",
+        "hueco",
+        "producto",
+        "defectuoso",
+        "vendedor"
       ]
     },
     {
-      "pregunta": "Compré una cartera en una tienda para regalarla por un cumpleaños, pero a la persona no le gustó. Fui al establecimiento para solicitar la devolución del dinero, pero me informaron de que únicamente pueden ofrecerme un vale. ¿Es legal que actúen así?",
-      "respuesta": "Si el producto no es defectuoso, la tienda no está obligada a reembolsar el dinero salvo que así lo anuncie. Si tienen una política de aceptar entregar vales de compra, estarán actuado dentro de la legalidad.",
+      "pregunta": "Compré una cartera en una tienda para regalarla por un cumpleaños, pero a la persona no le gustó. Fui al establecimiento para solicitar la devolución del dinero, pero me informaron de que únicamente podían ofrecerme un vale. ¿Es legal que actúen así?",
+      "respuesta": "Sí, con carácter general. Si el producto no es defectuoso, la tienda física no está obligada a devolver el dinero por un simple cambio de opinión, salvo que lo haya anunciado así. Si su política comercial permite la devolución mediante un vale, puede hacerlo, siempre que esa condición se informe de forma clara y se respeten las condiciones ofrecidas.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "tienda",
-        "dinero",
-        "compré",
         "cartera",
-        "regalarla",
-        "cumpleaños"
+        "tienda",
+        "vale",
+        "dinero",
+        "devolución",
+        "regalo",
+        "producto",
+        "defectuoso",
+        "política"
       ]
     },
     {
-      "pregunta": "He ido a una tienda a comprar un refresco y no me quieren cobrar con tarjeta ¿Es esto legal?",
-      "respuesta": "Sí. Puedes elegir el medio de pago que prefieras, siempre que esté entre los disponibles en la tienda. El establecimiento está obligado a aceptar pagos en efectivo y, en caso de no admitir pagos con tarjeta, debe informarlo de forma clara mediante un cartel visible.",
+      "pregunta": "He ido a una tienda a comprar un refresco y no me quieren cobrar con tarjeta. ¿Es esto legal?",
+      "respuesta": "Sí, en general. La tienda no está obligada a aceptar pagos con tarjeta, salvo que haya anunciado u ofrecido ese medio de pago o exista una norma específica aplicable. Lo que sí debe aceptar, con las excepciones y dentro de los límites legales, es el pago en efectivo.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "tienda",
         "tarjeta",
-        "pagos",
-        "comprar",
+        "efectivo",
+        "pago",
+        "tienda",
         "refresco",
-        "quieren"
+        "compra",
+        "información",
+        "medio",
+        "legal"
       ]
     },
     {
-      "pregunta": "Oí en la radio que se vendían televisores en una tienda a un precio de 100 euros pero al ir me han dicho que se han agotado ¿es esto legal?",
-      "respuesta": "Para que no se considere una práctica comercial desleal, la tienda debe contar con suficiente stock para atender la demanda prevista durante una promoción. En el caso de que la oferta esté limitada a un plazo de tiempo concreto o a un número de unidades concreto, debe informarse claramente. En algunas comunidades autónomas, si no hay suficientes productos para todos los clientes, la tienda debe ofrecer un artículo similar o entregar un vale de reserva hasta que lleguen más unidades.",
+      "pregunta": "Oí en la radio que se vendían televisores en una tienda a un precio de 100 euros, pero al ir me han dicho que se han agotado. ¿Es esto legal?",
+      "respuesta": "Depende. Si la tienda anuncia una oferta, debe informar claramente de sus condiciones, especialmente si está limitada a un número de unidades o a un plazo concreto. Además, no debe usar una oferta llamativa si no tiene existencias razonables para atender la demanda previsible. Si la promoción no indicaba límites y el producto se agotó de forma inmediata, podrías reclamar por publicidad engañosa o práctica comercial desleal. En algunas comunidades autónomas puede haber reglas adicionales sobre promociones, reservas, sustitución por productos similares o entrega de vales.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "tienda",
-        "concreto",
-        "unidades",
+        "televisores",
+        "oferta",
         "radio",
-        "vendían",
-        "televisores"
+        "precio",
+        "stock",
+        "existencias",
+        "promoción",
+        "publicidad",
+        "engañosa",
+        "comunidad"
       ]
     },
     {
       "pregunta": "Fui a comprar frutos secos a una tienda y, al pagar, el precio resultó ser más alto de lo que interpreté en el cartel. ¿De qué forma debe el establecimiento mostrar los precios correctamente?",
-      "respuesta": "Todos los productos deben tener el precio indicado de manera clara, visible y legible; por ejemplo, en una tienda de alimentación debe indicarse el precio por kilo, litro u otra unidad correspondiente para poder comparar productos de distinto tamaño.",
+      "respuesta": "El establecimiento debe mostrar los precios de forma clara, visible, legible y no ambigua. El precio debe ser el precio final, con impuestos incluidos. En productos vendidos a granel, como frutos secos, debe indicarse normalmente el precio por unidad de medida, por ejemplo por kilo, para que la persona consumidora pueda saber cuánto pagará y comparar con otros productos.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
         "precio",
         "tienda",
-        "productos",
-        "comprar",
         "frutos",
-        "secos"
+        "secos",
+        "cartel",
+        "kilo",
+        "unidad",
+        "medida",
+        "información"
       ]
     },
     {
-      "pregunta": "En un folleto publicitario se indicaba que unos zapatos valían 50 euros, al ir a la tienda me han dicho que era un error y que valen 100 ¿Es esto legal?",
-      "respuesta": "No. Todo lo que se indica en la publicidad obliga al vendedor, igual que las condiciones acordadas en la venta, excepto que sea un error manifiesto (un error evidente, craso e indiscutible que no requiere interpretación ni juicio de valor para ser detectado: por ejemplo, un ordenador que pone que vale 10 euros.",
+      "pregunta": "En un folleto publicitario se indicaba que unos zapatos valían 50 euros, pero al ir a la tienda me han dicho que era un error y que valen 100. ¿Es esto legal?",
+      "respuesta": "En principio, no. La publicidad vincula al vendedor y las condiciones anunciadas deben respetarse. Ahora bien, si se trata de un error manifiesto, es decir, un error evidente, grave e indiscutible que una persona consumidora media podía detectar fácilmente, la tienda podría no quedar obligada por ese precio. Por ejemplo, sería distinto anunciar unos zapatos a 50 euros que anunciar por error un producto de alto valor a un precio claramente irreal.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "error",
-        "euros",
         "folleto",
-        "publicitario",
-        "indicaba",
-        "zapatos"
+        "publicidad",
+        "zapatos",
+        "precio",
+        "error",
+        "tienda",
+        "oferta",
+        "consumidor",
+        "vendedor"
       ]
     },
     {
       "pregunta": "¿Pueden las tiendas liquidar todas sus existencias cuando cierran o cambian de actividad?",
-      "respuesta": "Sí. La liquidación permite vender todas las existencias de un establecimiento o de una categoría concreta, siempre anunciando el motivo y durante un máximo de un año.",
+      "respuesta": "Sí, siempre que se trate de una verdadera liquidación por una causa justificada, como el cierre del establecimiento, el cambio de actividad, el cambio de local o circunstancias similares. La tienda debe informar claramente del motivo de la liquidación y respetar los requisitos aplicables. La duración máxima general es de un año, aunque pueden existir obligaciones adicionales según la normativa de comercio de cada comunidad autónoma.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
+        "liquidación",
         "existencias",
-        "tiendas",
-        "liquidar",
-        "cierran",
-        "cambian",
-        "actividad"
+        "tienda",
+        "cierre",
+        "actividad",
+        "comercio",
+        "duración",
+        "comunidad",
+        "autónoma"
       ]
     },
     {
       "pregunta": "¿Puede una tienda ofrecer rebajas de productos deteriorados o comprados solo para las rebajas?",
-      "respuesta": "No. Las rebajas deben aplicarse a productos habituales en venta y en buen estado; solo se reduce el precio, sin afectar otros derechos de las personas consumidoras.",
+      "respuesta": "No. No pueden presentarse como rebajados los productos deteriorados ni los adquiridos expresamente para venderlos a un precio inferior como si fueran una rebaja. Para calificarse como venta en rebajas, los productos deben haber sido puestos a la venta a precio ordinario con anterioridad. La rebaja afecta al precio, pero no reduce los derechos de la persona consumidora ni las garantías del producto.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
         "rebajas",
         "productos",
-        "tienda",
-        "ofrecer",
         "deteriorados",
-        "comprados"
+        "tienda",
+        "precio",
+        "garantía",
+        "oferta",
+        "habitual",
+        "consumidor"
       ]
     },
     {
       "pregunta": "¿Qué son los saldos y cómo deben informarse al consumidor?",
-      "respuesta": "Son productos defectuosos, obsoletos o deteriorados vendidos a precio reducido, y el establecimiento debe indicar claramente la causa del descuento.",
+      "respuesta": "Los saldos son productos cuyo valor de mercado ha disminuido manifiestamente por deterioro, desperfecto, desuso u obsolescencia. La venta debe anunciarse como «saldos» o «venta de restos» y, si los artículos están deteriorados o defectuosos, esa circunstancia debe indicarse de forma precisa y ostensible. En todo caso, no pueden venderse como saldos productos cuya venta implique un riesgo o engaño para la persona consumidora.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
         "saldos",
-        "informarse",
-        "consumidor",
         "productos",
-        "defectuosos",
-        "obsoletos"
+        "deterioro",
+        "desperfecto",
+        "obsolescencia",
+        "precio",
+        "rebaja",
+        "información",
+        "consumidor"
       ]
     },
     {
-      "pregunta": "El otro día me dieron un folleto publicitario donde se indicaba que si compraba más de 1.000 euros en un supermercado me regalarían un fin de semana en un hotel rural, pero resulta que, luego me dijeron que tenía que pagar 50 euros cada noche ¿Es esto legal?",
-      "respuesta": "No. Es ilegal indicar que un bien o servicio es gratuito si la persona consumidora debe pagar algo más que el coste inevitable de la entrega o respuesta a la promoción.",
+      "pregunta": "El otro día me dieron un folleto publicitario donde se indicaba que, si compraba más de 1.000 euros en un supermercado, me regalarían un fin de semana en un hotel rural, pero luego me dijeron que tenía que pagar 50 euros cada noche. ¿Es esto legal?",
+      "respuesta": "No, en principio no es legal anunciar un bien o servicio como gratuito si después la persona consumidora debe pagar cantidades adicionales, salvo los costes inevitables para responder a la promoción, recoger el regalo o recibirlo. Si el folleto anunciaba un fin de semana gratis y después exigían pagar 50 euros por noche, podría tratarse de una práctica comercial engañosa.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "euros",
-        "pagar",
-        "dieron",
         "folleto",
-        "publicitario",
-        "indicaba"
+        "publicidad",
+        "promoción",
+        "gratis",
+        "regalo",
+        "hotel",
+        "supermercado",
+        "pago",
+        "engañoso"
       ]
     },
     {
-      "pregunta": "El otro día quise pagar mi compra en efectivo, ¿puedo usar cualquier billete o moneda?",
-      "respuesta": "No. Por ejemplo, no sería correcto pagar una barra de pan con un billete de 200 €, ni abonar 80 € con monedas de 2 céntimos, porque no se ajusta a las costumbres de buena fe.",
+      "pregunta": "El otro día quise pagar mi compra en efectivo. ¿Puedo usar cualquier billete o moneda?",
+      "respuesta": "No siempre. Los billetes y monedas en euros son medios de pago de curso legal, pero el establecimiento puede rechazar un pago si existe una razón justificada y proporcionada, por ejemplo si se pretende pagar una compra de importe muy bajo con un billete de valor muy alto y no hay cambio suficiente. Además, con carácter general no existe obligación de aceptar más de 50 monedas en un mismo pago, salvo en las cajas públicas y otros supuestos legalmente previstos.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "pagar",
-        "billete",
-        "quise",
-        "compra",
         "efectivo",
-        "usar"
+        "billete",
+        "moneda",
+        "pago",
+        "tienda",
+        "cambio",
+        "curso",
+        "legal",
+        "compra"
       ]
     },
     {
       "pregunta": "¿Puedo pagar más de 50 monedas en un solo pago?",
-      "respuesta": "No. Salvo las entidades financieras, ningún comercio está obligado a aceptar más de 50 monedas en un mismo pago.",
+      "respuesta": "Puedes ofrecer más de 50 monedas, pero el comercio no está obligado a aceptarlas. Con carácter general, ninguna parte está obligada a aceptar más de 50 monedas en un mismo pago, salvo en las cajas públicas y otros supuestos legalmente previstos.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
         "monedas",
@@ -237,939 +270,1731 @@
       ]
     },
     {
-      "pregunta": "Si mi compra supera los 1.500 €, ¿puedo pagar en efectivo o con cheque al portador?",
-      "respuesta": "No. Los pagos superiores a 1.000 € no pueden hacerse en efectivo.",
+      "pregunta": "Si mi compra supera los 1.500 euros, ¿puedo pagar en efectivo o con cheque al portador?",
+      "respuesta": "Con carácter general, no si en la operación interviene un empresario o profesional: no pueden pagarse en efectivo operaciones de importe igual o superior a 1.000 euros. A estos efectos, el efectivo incluye medios como el cheque al portador y no puede eludirse el límite fraccionando el pago. Existe una excepción relevante: cuando paga una persona física que no actúa como empresario o profesional y acredita que no tiene su domicilio fiscal en España, el límite es de 10.000 euros.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
         "efectivo",
-        "compra",
-        "supera",
-        "pagar",
         "cheque",
-        "portador"
+        "portador",
+        "compra",
+        "límite",
+        "pago",
+        "empresario",
+        "profesional",
+        "mil"
       ]
     },
     {
       "pregunta": "¿Puede un establecimiento anunciar rebajas si menos de la mitad de sus productos están rebajados?",
-      "respuesta": "No. Para anunciar rebajas de manera general, al menos el 50% de los productos debe estar rebajado.",
+      "respuesta": "Sí, pero debe hacerlo con precisión. Para anunciar rebajas de forma general en todo el establecimiento, la reducción debe afectar al menos a la mitad de los productos puestos a la venta. Si solo están rebajados algunos productos o secciones, la tienda debe anunciarlo de forma limitada y clara, por ejemplo indicando qué artículos o zonas están realmente en rebajas. La normativa autonómica puede añadir requisitos específicos.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "anunciar",
         "rebajas",
-        "productos",
         "establecimiento",
+        "productos",
         "mitad",
-        "rebajados"
+        "anuncio",
+        "tienda",
+        "secciones",
+        "descuento",
+        "comunidad",
+        "autónoma"
       ]
     },
     {
       "pregunta": "¿Un artículo rebajado puede estar a la venta si nunca se ha vendido a precio normal en la tienda?",
-      "respuesta": "No. Solo se consideran rebajas los productos que antes se hayan vendido a precio ordinario en el establecimiento.",
+      "respuesta": "No puede anunciarse como venta en rebajas un artículo que no se hubiera puesto a la venta a precio ordinario con anterioridad. Otra cosa es que la tienda pueda vender un producto nuevo a un precio promocional o reducido, siempre que lo identifique correctamente y no cree una impresión engañosa de descuento respecto de un precio anterior que no existió. Cuando sea exigible indicar un precio anterior, debe respetarse la regla del precio más bajo aplicado durante los 30 días anteriores.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "vendido",
-        "precio",
+        "rebaja",
         "artículo",
-        "rebajado",
-        "venta",
-        "normal"
+        "precio",
+        "tienda",
+        "oferta",
+        "habitual",
+        "promoción",
+        "publicidad",
+        "engaño"
       ]
     },
     {
       "pregunta": "¿Tengo derecho a pagar el precio más bajo si hay un error en la etiqueta de un producto rebajado?",
-      "respuesta": "Si el precio indicado tiene un error, el consumidor puede pagar el importe inferior que figure en la etiqueta excepto que sea un error manifiesto (un error evidente, craso e indiscutible que no requiere interpretación ni juicio de valor para ser detectado: por ejemplo, un ordenador que pone que vale 10 euros.",
+      "respuesta": "En principio, la tienda debe respetar el precio anunciado o indicado en la etiqueta. Sin embargo, si se trata de un error manifiesto, es decir, un error evidente, grave e indiscutible que una persona consumidora media podía detectar fácilmente, la tienda podría no quedar obligada por ese precio. Por ejemplo, no es lo mismo una diferencia razonable entre dos precios que un producto de alto valor marcado por error a un precio claramente irreal.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "error",
-        "pagar",
         "precio",
         "etiqueta",
-        "derecho",
-        "producto"
+        "error",
+        "producto",
+        "rebajado",
+        "tienda",
+        "anuncio",
+        "consumidor",
+        "importe"
       ]
     },
     {
       "pregunta": "¿Debe indicarse la duración del periodo de rebajas en la tienda?",
-      "respuesta": "Sí. El periodo de rebajas debe mostrarse en un lugar visible del establecimiento, incluso si la tienda está cerrada.",
+      "respuesta": "Sí. En los anuncios de las rebajas debe especificarse su duración y, en su caso, las reglas especiales aplicables. La forma concreta en que debe mostrarse esta información al público puede estar además regulada por la normativa de comercio de cada comunidad autónoma.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
-        "periodo",
         "rebajas",
-        "tienda",
-        "indicarse",
         "duración",
-        "mostrarse"
+        "periodo",
+        "tienda",
+        "fechas",
+        "información",
+        "visible",
+        "comunidad",
+        "autónoma"
       ]
     },
     {
-      "pregunta": "He tenido un problema con una relojería porque me vendió un reloj que se me ha estropeado a los 2 meses y no quieren asumir la reparación en garantía ¿cómo puedo reclamar?",
-      "respuesta": "Presenta la reclamación directamente ante la tienda por un medio que permita acreditar la recepción, como una hoja de reclamaciones, correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la tienda no responde o la respuesta no es satisfactoria, puedes acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo si la empresa lo acepta o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €, siendo estas dos últimas vías incompatibles, o se acude a un arbitraje o a se pone una demanda judicial. > **",
+      "pregunta": "He tenido un problema con una relojería porque me vendió un reloj que se me ha estropeado a los 2 meses y no quieren asumir la reparación en garantía. ¿Cómo puedo reclamar?",
+      "respuesta": "Debes reclamar primero a la tienda, preferiblemente por un medio que deje constancia, como una hoja de reclamaciones, correo electrónico o burofax. Explica el problema, aporta el justificante de compra y pide la reparación o sustitución en garantía. Si la tienda no responde o rechaza la reclamación, puedes acudir a los servicios públicos de consumo de tu municipio, provincia o comunidad autónoma, a una asociación de consumidores o al arbitraje de consumo si la empresa está adherida o acepta someterse, si bien esta última vía es incompatible con la judicial. Si no se resuelve, puedes acudir a los tribunales. Para reclamaciones de hasta 2.000 euros, con carácter general no es obligatorio abogado ni procurador.",
       "subcategoria": "Compra en tienda física",
       "keywords": [
+        "relojería",
+        "reloj",
+        "garantía",
+        "reparación",
+        "reclamación",
         "tienda",
         "consumo",
         "arbitraje",
-        "demanda",
-        "judicial",
-        "tenido"
+        "demanda"
       ]
     },
     {
-      "pregunta": "¿Qué indicaciones tienen obligatoriamente que facilitar las empresas que comercian por internet?",
-      "respuesta": "- Identificarse correctamente, indicando su nombre o razón social, dirección, medios de contacto y registro mercantil.:<ul><li>Informar sobre los productos o servicios que ofrecen, sus características, condiciones, limitaciones y duración del contrato.</li><li>Mostrar los precios de forma transparente, incluyendo impuestos, gastos adicionales y condiciones de pago o envío.</li><li>Explicar las condiciones de prestación del servicio, horarios, medios de comunicación y restricciones de entrega.</li><li>Detallar los derechos del consumidor, como el derecho de desistimiento, las garantías legales y los servicios posventa.</li><li>Facilitar información sobre reclamaciones, códigos de conducta y posibles mecanismos extrajudiciales de resolución de conflictos.</li><li>Indicar la lengua del contrato y, en caso de contenidos digitales, su funcionalidad y compatibilidad técnica.</li></ul>",
+      "pregunta": "¿Qué información tienen que facilitar obligatoriamente las empresas que venden por internet?",
+      "respuesta": "Deben informar de forma clara, antes de contratar, sobre su identidad, nombre o razón social, dirección y medios de contacto; las características principales del producto o servicio; el precio total, incluidos impuestos y gastos adicionales; las formas de pago, entrega y ejecución del contrato; la duración del contrato, si procede; el derecho de desistimiento, cuando exista, o su ausencia; las garantías legales y servicios posventa; el sistema para presentar reclamaciones; y, cuando proceda, la funcionalidad, compatibilidad e interoperabilidad de contenidos o servicios digitales. También deben indicar la lengua del contrato y otros datos exigidos por la normativa de comercio electrónico.",
       "subcategoria": "Compra a distancia",
       "keywords": [
-        "condiciones",
-        "facilitar",
-        "medios",
-        "servicios",
-        "contrato",
-        "indicaciones"
-      ]
-    },
-    {
-      "pregunta": "Compré un aspirador a través de una página web ¿Cuándo comienza a contar el plazo de desistimiento?",
-      "respuesta": "El plazo empieza a contarse desde el momento en que la persona consumidora o un tercero designado por él, que no sea el transportista, reciba físicamente los bienes solicitados.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "plazo",
-        "compré",
-        "aspirador",
-        "página",
-        "comienza",
-        "contar"
-      ]
-    },
-    {
-      "pregunta": "Cuál es el momento de inicio del plazo de desistimiento en los contratos a distancia de bienes compuestos por múltiples componentes o piezas?",
-      "respuesta": "Comienza el día en que adquieras la posesión material del último componente o pieza. Así, si por ejemplo compras un sofá por piezas, el plazo para desistir empezará a contar desde que recibes la última.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "plazo",
-        "piezas",
-        "cuál",
-        "momento",
-        "inicio",
-        "desistimiento"
-      ]
-    },
-    {
-      "pregunta": "Compré una cafetera en una tienda online y quiero devolverla porque no me interesa ¿Puedo devolverla?",
-      "respuesta": "Sí, puedes devolver la cafetera ejerciendo tu derecho de desistimiento. Este derecho permite cancelar una compra online sin necesidad de justificar el motivo dentro de los 14 días naturales tras recibir el producto. Solo debes comunicarlo al vendedor y devolver la cafetera en buen estado.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "cafetera",
-        "online",
-        "devolverla",
-        "devolver",
-        "derecho",
-        "compré"
-      ]
-    },
-    {
-      "pregunta": "¿Cuál es el plazo para ejercer el derecho de desistimiento?",
-      "respuesta": "El plazo general para desistir de una compra es de 14 días naturales desde que recibes el producto, salvo que se indique otro plazo. En contratos de seguros de vida, el plazo es de 30 días. Si el vendedor no facilita la información sobre el desistimiento, el plazo comienza a contar desde que recibes esa información o hasta 12 meses después de que finalice el plazo inicial de 14 días.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "plazo",
-        "días",
-        "desistimiento",
-        "recibes",
-        "información",
-        "cuál"
-      ]
-    },
-    {
-      "pregunta": "Compré a un comercio online una lámpara. A los 7 días de la entrega desistí de la compra y me dicen que tengo que pagar los gastos de envío, ¿es legal?",
-      "respuesta": "Los gastos de devolución solo serán asumidos por el comprador si el comercio informó previamente y de manera clara de ello. En caso contrario, el comercio no puede exigir su pago.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "comercio",
-        "gastos",
-        "compré",
-        "online",
-        "lámpara",
-        "días"
-      ]
-    },
-    {
-      "pregunta": "¿Cuál es la diferencia entre el derecho de desistimiento y la garantía?",
-      "respuesta": "El derecho de desistimiento permite devolver un producto comprado online, a distancia o fuera del establecimiento, sin dar explicaciones dentro de 14 días, mientras que la garantía se aplica a todas las compras, en tienda o por Internet, y protege frente a defectos de fabricación o incumplimiento del contrato.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "derecho",
-        "desistimiento",
-        "garantía",
-        "cuál",
-        "diferencia",
-        "permite"
-      ]
-    },
-    {
-      "pregunta": "¿Siempre que compro como persona consumidora a un comercio online puedo ejercer el derecho de desistimiento?",
-      "respuesta": "No, la ley contempla algunas excepciones al derecho de desistimiento:<ul><li>Servicios completamente ejecutados, cuando la ejecución haya > comenzado con el consentimiento expreso del consumidor y con > conocimiento de la pérdida del derecho de desistimiento.</li><li>Bienes o servicios cuyo precio dependa de fluctuaciones del mercado > financiero que el empresario no pueda controlar.</li><li>Bienes confeccionados conforme a las especificaciones del > consumidor o claramente personalizados.</li><li>Bienes que puedan deteriorarse o caducar con rapidez.</li><li>Bienes precintados que no sean aptos para su devolución por razones > de salud o higiene, cuando hayan sido desprecintados tras la > entrega.</li><li>Bienes que, por su naturaleza, se hayan mezclado de forma > indisociable con otros bienes tras la entrega.</li><li>Bebidas alcohólicas cuyo precio se haya acordado al celebrar el > contrato, cuya entrega no pueda realizarse antes de 30 días y cuyo > valor dependa de fluctuaciones del mercado.</li><li>Contratos de reparación o mantenimiento urgente solicitados por el > consumidor, respecto de los servicios o bienes adicionales no > solicitados expresamente.</li><li>Grabaciones sonoras o de vídeo, o programas informáticos > precintados, que hayan sido desprecintados tras la > entrega.</li><li>Prensa diaria, publicaciones periódicas o revistas, salvo los > contratos de suscripción.</li><li>Contratos celebrados mediante subastas públicas.</li><li>Servicios de alojamiento (distintos de vivienda), transporte de > bienes, alquiler de vehículos, restauración o actividades de ocio, > cuando tengan una fecha o periodo de ejecución > específicos.</li><li>Contenido digital no suministrado en soporte material, cuando la > ejecución haya comenzado con el consentimiento previo del > consumidor y con conocimiento de la pérdida del derecho de > desistimiento.</li></ul>",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "bienes",
-        "derecho",
-        "desistimiento",
-        "servicios",
-        "consumidor",
-        "entrega"
-      ]
-    },
-    {
-      "pregunta": "Alquilé un coche a través de una página web y ahora quiero desistir ¿es posible?",
-      "respuesta": "No, es uno de los casos en los que la ley no permite desistir de la compra.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "desistir",
-        "alquilé",
-        "coche",
-        "página",
-        "quiero",
-        "posible"
-      ]
-    },
-    {
-      "pregunta": "Compré una entrada para un partido de fútbol a través de una página web y ahora quiero desistir ¿es posible?",
-      "respuesta": "No, es uno de los casos en los que la ley no permite desistir de la compra.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "desistir",
-        "compré",
-        "entrada",
-        "partido",
-        "fútbol",
-        "página"
-      ]
-    },
-    {
-      "pregunta": "¿Cómo se tiene que ejercitar el derecho de desistimiento?",
-      "respuesta": "Se puede ejercer simplemente mostrando la intención de desistir de la compra o del contrato por cualquier medio legalmente válido. El derecho se considera ejercido de forma correcta cuando se envía el formulario de desistimiento o se devuelven los productos. No obstante, dado que es responsabilidad de la persona consumidora demostrar que lo ha realizado, conviene hacerlo por cualquier medio que permita dejar constancia de su decisión de cancelar el contrato dentro del plazo legal como puede ser, aparte del formulario web de desistimiento, el correo electrónico o cualquier canal de comunicación que tenga habilitado la empresa que deje constancia de en soporte duradero o mediante Burofax.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "desistimiento",
-        "derecho",
-        "contrato",
-        "medio",
-        "formulario",
-        "constancia"
-      ]
-    },
-    {
-      "pregunta": "He realizado una compra por Internet a una tienda online, ¿tienen obligación de enviarme copia de mi contrato?",
-      "respuesta": "Sí. El vendedor debe facilitarte la confirmación del contrato en un soporte duradero (por ejemplo, una factura o comprobante) en un plazo razonable, como máximo al entregar el producto o antes de que empiece el servicio. Si no recibes el justificante, puedes usar el registro del pago para solicitarlo al vendedor.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "contrato",
-        "vendedor",
-        "realizado",
-        "compra",
         "internet",
-        "tienda"
-      ]
-    },
-    {
-      "pregunta": "He realizado una compra de una cámara de fotos a una tienda de internet, ¿qué plazo tienen para entregármela?",
-      "respuesta": "El vendedor debe informarte antes de la compra de la fecha prevista de entrega. Si no se indica una fecha concreta, los productos deben entregarse sin retrasos injustificados y, como máximo, dentro de los 30 días naturales siguientes a la compra.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "compra",
-        "fecha",
-        "realizado",
-        "cámara",
-        "fotos",
-        "tienda"
-      ]
-    },
-    {
-      "pregunta": "Compré un abrigo por internet y la tienda me dijo que se entregaría en 30 días, sin embargo, ha pasado ese plazo y no se ha realizado la entrega ¿qué puedo hacer?",
-      "respuesta": "Si el vendedor no cumple el plazo de entrega, primero debes darle un plazo adicional razonable para que entregue el producto. Si aún así no lo entrega, puedes cancelar el contrato y exigir el reembolso inmediato del importe pagado. Si el plazo era esencial o el vendedor se niega desde el inicio, puedes resolver el contrato sin esperar un plazo extra.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "plazo",
-        "entrega",
-        "vendedor",
-        "puedes",
-        "contrato",
-        "compré"
-      ]
-    },
-    {
-      "pregunta": "He comprado en una tienda online que está fuera de la UE, ¿qué hago si tengo un problema?",
-      "respuesta": "En ese caso, se aplicará la ley del país donde esté registrada la empresa. Si no llegas a un acuerdo, tendrás que contactar con el organismo de consumo de ese país (puedes consultar la Red Internacional de Protección al Consumidor) para saber dónde presentar tu reclamación.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "país",
-        "comprado",
-        "tienda",
-        "online",
-        "fuera",
-        "problema"
-      ]
-    },
-    {
-      "pregunta": "He comprado en una tienda online que está en Francia, ¿qué hago si tengo un problema?",
-      "respuesta": "En ese caso, podrás tramitar tu reclamación a través del Centro Europeo del Consumidor.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "comprado",
-        "tienda",
-        "online",
-        "francia",
-        "problema",
-        "podrás"
-      ]
-    },
-    {
-      "pregunta": "¿Qué debo revisar antes de comprar por internet?",
-      "respuesta": "- Lee el aviso legal de la página web: debe indicar claramente el domicilio y datos de la empresa.:<ul><li>Si no hay aviso legal, desconfía, ya que incumple la ley.</li><li>Si compras en un marketplace o plataforma, revisa si el vendedor es un particular o una empresa, y desde dónde vende.</li></ul>",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "aviso",
-        "legal",
         "empresa",
-        "revisar",
-        "antes",
-        "comprar"
-      ]
-    },
-    {
-      "pregunta": "¿Qué es un marketplace?",
-      "respuesta": "El market place o plataforma de venta en línea es un espacio digital (página web o aplicación) donde se ponen en contacto compradores y vendedores para realizar transacciones de productos o servicios. La plataforma puede actuar de dos maneras:<ul><li>Como market place puramente: actúa como intermedia limitándose a facilitar el intercambio y cobrar una comisión.</li><li>Como market place mixto: si vende sus productos directamente y a parte alberga un espacio para que un tercero venda sus propios productos</li></ul>",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "market",
-        "place",
-        "productos",
-        "plataforma",
-        "espacio",
-        "marketplace"
-      ]
-    },
-    {
-      "pregunta": "He entrado en una página web y al interesarme por un producto he visto que está \"vendido por...\" y figura un nombre que no es el de la página web ¿Entonces no está vendiéndome el producto la empresa de la página web?",
-      "respuesta": "No, probablemente la página sea una plataforma o marketplace que funciona de intermediario. Tienes que tener en cuenta que el vendedor es quien se indica específicamente en la página web.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "página",
-        "producto",
-        "entrado",
-        "interesarme",
-        "visto",
-        "vendido"
-      ]
-    },
-    {
-      "pregunta": "Compré una aspiradora a través de un market place y se ha estropeado a los dos meses ¿A quién tengo que reclamar?",
-      "respuesta": "Al vendedor al que le compraste el producto, el cual aparecerá en el justificante de confirmación de compra o en la factura. Normalmente suele poner \"vendido por\"",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "compré",
-        "aspiradora",
-        "market",
-        "place",
-        "estropeado",
-        "meses"
-      ]
-    },
-    {
-      "pregunta": "¿Qué obligaciones de información tienen los market place o plataformas de venta en línea?",
-      "respuesta": "Los marketplaces deben informar al consumidor sobre:<ul><li>Criterios de clasificación de productos en los resultados de búsqueda.</li><li>Naturaleza del vendedor, indicando si es una empresa o un particular (en este último caso no se aplica la legislación de consumo).</li><li>Responsabilidades de la plataforma y del vendedor.</li><li>Si ofrecen garantías comerciales o seguros adicionales a la garantía legal.</li><li>Si participan en sistemas de resolución de conflictos, como el arbitraje, y qué papel desempeñan.</li></ul>",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "vendedor",
-        "obligaciones",
         "información",
-        "market",
-        "place",
-        "plataformas"
-      ]
-    },
-    {
-      "pregunta": "He visto muchas opiniones acerca de que en un market place se venden productos falsificados y la plataforma no hace nada ¿es legal?",
-      "respuesta": "La persona perjudicada puede exigir responsabilidades al market place por no actuar diligentemente ante los productos o servicios que oferta en su página y que no cumplen con la normativa. Podrá pedir la devolución del importe abonado para adquirir el producto y denunciar penalmente ante las fuerzas y cuerpos de seguridad del estado o el juzgado de instrucción.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "market",
-        "place",
-        "productos",
-        "visto",
-        "muchas",
-        "opiniones"
-      ]
-    },
-    {
-      "pregunta": "Compré un teléfono móvil a través del market place de una conocida plataforma a una empresa que está en Estados Unidos ¿Puedo reclamar?",
-      "respuesta": "Sí. Pero tendrás que hacerlo a la empresa de Estados Unidos conforme a la ley y con los organismos de ese país. Por eso es muy importante verificar dónde está registrada la empresa antes de comprar.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "empresa",
-        "estados",
-        "unidos",
-        "compré",
-        "teléfono",
-        "móvil"
-      ]
-    },
-    {
-      "pregunta": "Compré un teléfono móvil a través del market place de un supermercado a una un particular ¿Puedo reclamar?",
-      "respuesta": "La normativa de consumo se aplica a las relaciones entre consumidores o usuarios y empresarios, de modo que, si el contrato se ha producido entre particulares, no se aplicaría la normativa de consumo ni podría acudir a los organismos de consumo y por lo tanto tendría que acudir a la vía judicial para la resolución del conflicto.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "consumo",
-        "normativa",
-        "acudir",
-        "compré",
-        "teléfono",
-        "móvil"
-      ]
-    },
-    {
-      "pregunta": "He comprado un ordenador en black friday en una tienda online pero según me ha mostrado un amigo, la tienda tenía hace quince días el mismo ordenador a un precio más bajo ¿es legal?",
-      "respuesta": "No, el precio de venta debe ser el más bajo de los últimos 30 días. Podrías reclamar que se te aplique ese precio y denunciar al establecimiento a las autoridades de consumo.",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
+        "contrato",
         "precio",
-        "ordenador",
-        "tienda",
-        "días",
-        "comprado",
-        "black"
+        "desistimiento",
+        "garantía",
+        "reclamaciones",
+        "comercio",
+        "electrónico"
       ]
     },
     {
-      "pregunta": "Compré desde mi casa de España unas sartenes a un comercio web que resultó estar en Hungría pero que está centrado en vender sus productos en España ¿qué ley se aplicaría?",
-      "respuesta": "Se aplicaría la ley española, aunque si se pactó que se aplicara la Ley húngara y es más beneficiosa, me podré acoger a ésta.",
+      "pregunta": "Compré un aspirador a través de una página web. ¿Cuándo comienza a contar el plazo de desistimiento?",
+      "respuesta": "El plazo empieza a contar desde el día en que la persona consumidora, o un tercero indicado por ella que no sea el transportista, recibe físicamente el producto.",
       "subcategoria": "Compra a distancia",
       "keywords": [
-        "españa",
-        "aplicaría",
-        "compré",
-        "casa",
-        "sartenes",
-        "comercio"
-      ]
-    },
-    {
-      "pregunta": "He tenido un problema con una web en la que compré un teléfono móvil que se me ha roto a los dos meses y no quieren reparar conforme a la garantía ¿cómo puedo reclamar?",
-      "respuesta": "Presenta la reclamación directamente ante la tienda online por un medio que permita acreditar la recepción, como puede ser un correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la tienda no responde o la respuesta no es satisfactoria, puedes acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo si la empresa lo acepta, confianza online o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €, siendo estas dos últimas vías incompatibles, o se acude a un arbitraje o a se pone una demanda judicial. > En primer lugar debes reclamar con la empresa a la que compraste el móvil. > Puedes hacerlo por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de consumo -voluntario para la entidad salvo que esté adherida-; o a Confianza Online, si la entidad está previamente adherida. Esta información debe aparecer en la web de la entidad y en contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Consumo de la Comunidad Autónoma donde se encuentre la sede de la entidad. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador. > **",
-      "subcategoria": "Compra a distancia",
-      "keywords": [
-        "entidad",
-        "reclamación",
-        "consumo",
-        "reclamar",
-        "online",
-        "correo"
-      ]
-    },
-    {
-      "pregunta": "¿Qué es una compraventa fuera de establecimiento mercantil?",
-      "respuesta": "Es un concepto del derecho del consumidor que se refiere a la compra de bienes o servicios realizada fuera del local comercial habitual del vendedor. Son ejemplos, las ventas realizadas en la puerta de la casa de la persona consumidora, compras hechas en ferias, mercados temporales o exposiciones fuera del establecimiento.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "fuera",
-        "establecimiento",
-        "compraventa",
-        "mercantil",
-        "concepto",
-        "derecho"
-      ]
-    },
-    {
-      "pregunta": "¿En qué se diferencia una compraventa a distancia y una compraventa fuera de establecimiento mercantil?",
-      "respuesta": "La diferencia principal radica en la forma y el lugar del contrato. La compraventa a distancia se realiza sin presencia física, usando medios como internet, teléfono o correo. La compraventa fuera de establecimiento mercantil implica presencia física del empresario y consumidor, pero fuera del local comercial, como en ventas a domicilio o stands temporales. Ambos tipos reconocen, por lo general, el derecho de desistimiento de 14 días, salvo excepciones legales.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "compraventa",
-        "fuera",
-        "diferencia",
-        "distancia",
-        "establecimiento",
-        "mercantil"
-      ]
-    },
-    {
-      "pregunta": "¿Qué derechos asisten a la persona consumidora que realiza una compra fuera de establecimiento mercantil?",
-      "respuesta": "Dado que la persona consumidora puede encontrarse en un contexto más vulnerable o presionado, se impone una mayor obligación de información al vendedor y se concede a la persona consumidora el derecho de desistimiento que le permite cancelar la compra sin penalización dentro de un periodo de 14 días. > En los supuestos de contratos celebrados en el contexto de visitas no solicitadas efectuadas por el empresario en el domicilio de la persona consumidora o usuaria, o de excursiones organizadas por el empresario con el objetivo o efecto de promocionar sus servicios el plazo se amplía a 30 días.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "persona",
-        "consumidora",
-        "compra",
-        "contexto",
-        "días",
-        "empresario"
-      ]
-    },
-    {
-      "pregunta": "¿De qué tiene que informar el vendedor a la persona consumidora antes de celebrar una compra fuera de establecimiento mercantil?",
-      "respuesta": "Sobre su derecho de desistimiento, incluyendo las condiciones, el plazo y los procedimientos para ejercerlo, así como facilitarle un modelo de formulario de desistimiento.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "desistimiento",
-        "informar",
-        "vendedor",
-        "persona",
-        "consumidora",
-        "antes"
-      ]
-    },
-    {
-      "pregunta": "¿Cuál es el plazo que tiene el consumidor para ejercer el derecho de desistimiento en los contratos celebrados fuera del establecimiento mercantil?",
-      "respuesta": "14 días desde que recibe el producto sin necesidad de justificar su decisión y sin incurrir en costes adicionales, salvo los previstos legalmente. Si el comerciante no facilita la información sobre el derecho de desistimiento, este plazo se extiende hasta 12 meses adicionales después de la finalización del plazo inicial.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "plazo",
-        "derecho",
-        "desistimiento",
-        "adicionales",
-        "cuál",
-        "consumidor"
-      ]
-    },
-    {
-      "pregunta": "¿Desde qué momento se computa el plazo de desistimiento en los contratos celebrados fuera de establecimiento mercantil cuyo objeto es la prestación de servicios como por ejemplo la recepción de un curso de guitarra?",
-      "respuesta": "Se computa desde la celebración del contrato.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "computa",
-        "momento",
         "plazo",
         "desistimiento",
-        "contratos",
-        "celebrados"
-      ]
-    },
-    {
-      "pregunta": "¿Cuándo comienza a contar el plazo de desistimiento en los contratos de venta de bienes fuera de establecimiento mercantil?",
-      "respuesta": "Comienza a contar desde el día en que la persona consumidora o un tercero por ella indicado, distinto del transportista, adquiera la posesión material de los bienes solicitados.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "comienza",
-        "contar",
-        "bienes",
-        "plazo",
-        "desistimiento",
-        "contratos"
-      ]
-    },
-    {
-      "pregunta": "Quiero comprar un teléfono móvil en un stand temporal que hay en un centro comercial, ¿Qué información me tienen que facilitar?",
-      "respuesta": "Deben comunicarte tu derecho de desistimiento, explicando las condiciones, el plazo y los pasos a seguir para ejercerlo, y además proporcionarte un modelo de formulario para realizar la devolución.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "quiero",
-        "comprar",
-        "teléfono",
-        "móvil",
-        "stand",
-        "temporal"
-      ]
-    },
-    {
-      "pregunta": "¿Cómo se determina el inicio del plazo de desistimiento en una compraventa fuera de establecimiento mercantil cuando se entregan múltiples bienes encargados en un mismo pedido y entregados por separado?",
-      "respuesta": "Comienza a contar el día en que la persona consumidora o un tercero por ella indicado adquiera la posesión material del último de los bienes.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "bienes",
-        "determina",
-        "inicio",
-        "plazo",
-        "desistimiento",
-        "compraventa"
-      ]
-    },
-    {
-      "pregunta": "¿Cuál es el momento de inicio del plazo de desistimiento en los contratos de venta de un bien fuera de establecimiento mercantil compuesto por múltiples componentes o piezas?",
-      "respuesta": "Comienza el día en que la persona consumidora o un tercero por ella indicado adquiera la posesión material del último componente o pieza.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "cuál",
-        "momento",
-        "inicio",
-        "plazo",
-        "desistimiento",
-        "contratos"
-      ]
-    },
-    {
-      "pregunta": "¿Cuándo comienza el plazo de desistimiento en los contratos celebrados fuera de establecimiento mercantil para la entrega periódica de bienes durante un plazo determinado?",
-      "respuesta": "Comienza el día en que la persona consumidora o un tercero por él indicado adquiera la posesión material del primer bien de la serie.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "comienza",
-        "plazo",
-        "desistimiento",
-        "contratos",
-        "celebrados",
-        "fuera"
-      ]
-    },
-    {
-      "pregunta": "Compré una enciclopedia a un señor de una empresa que se presentó a mi casa. Dos días después ejercí mi derecho de desistimiento, pero me dicen que no se puede admitir porque en el contrato que firmé había una cláusula que decía que renunciaba a este derecho ¿Es legal?",
-      "respuesta": "No, el derecho de desistimiento es irrenunciable por lo que cualquier cláusula que así lo establezca es nula de pleno derecho y se debe tener por no puesta.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "derecho",
-        "desistimiento",
-        "cláusula",
-        "compré",
-        "enciclopedia",
-        "señor"
-      ]
-    },
-    {
-      "pregunta": "Compré un aspirador a una persona que acudió a mi domicilio ¿Cuándo comienza a contar el plazo de desistimiento?",
-      "respuesta": "El plazo empieza a contarse desde el momento en que la persona consumidora o un tercero designado por él, que no sea el transportista, reciba físicamente los bienes solicitados.",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "persona",
-        "plazo",
-        "compré",
         "aspirador",
-        "acudió",
-        "domicilio"
+        "página",
+        "web",
+        "entrega",
+        "producto",
+        "recepción"
       ]
     },
     {
-      "pregunta": "¿Hay algún caso en el que celebre un contrato fuera de establecimiento mercantil y no pueda ejercer el derecho de desistimiento?",
-      "respuesta": "Si, no se aplica a contratos que incluyan la prestación completa de un servicio con consentimiento previo de la persona consumidora, bienes o servicios cuyo precio dependa de fluctuaciones de mercado, bienes hechos a medida o personalizados, productos perecederos, bienes precintados por razones de salud o higiene desprecintados, bienes mezclados de forma inseparable, bebidas alcohólicas con entrega futura y precio variable, servicios de reparación o mantenimiento urgente solicitados expresamente, grabaciones o software precintados desprecintados, prensa o publicaciones periódicas salvo suscripciones, contratos en subastas públicas, servicios de alojamiento u ocio con fecha específica, y contenido digital sin soporte material cuyo suministro haya comenzado con obligación de pago.",
-      "subcategoria": "Compra fuera de establecimiento",
+      "pregunta": "¿Cuál es el momento de inicio del plazo de desistimiento en los contratos a distancia de bienes compuestos por múltiples componentes o piezas?",
+      "respuesta": "El plazo comienza desde el día en que recibes físicamente el último componente o pieza. Por ejemplo, si compras un sofá por piezas y se entregan en días distintos, el plazo para desistir empieza a contar desde que recibes la última pieza.",
+      "subcategoria": "Compra a distancia",
       "keywords": [
-        "bienes",
-        "servicios",
-        "contratos",
-        "cuyo",
-        "precio",
-        "precintados"
-      ]
-    },
-    {
-      "pregunta": "Compré una enciclopedia a un señor que vino a mi domicilio, quise desistir a los 7 días y lo hice por correo, pero no han recogido la mercancía ni me han devuelto el dinero ¿cómo puedo reclamar?",
-      "respuesta": "- Presenta la reclamación directamente ante la empresa por un medio que permita acreditar la recepción, como correo postal con acuse de recibo, email o redes sociales (también puedes hacerlo con ayuda de un organismo público de consumo municipal, provincial o autonómico; o de una asociación de consumidores.:<ul><li>Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir a un sistema alternativo de resolución de conflictos, como el arbitraje de consumo, siempre que la empresa lo acepte.</li><li>Otra opción es presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En primer lugar debes reclamar al vendedor > Puedes hacerlo por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras y usuarias ></li><li>Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de consumo, voluntario para la entidad salvo que esté adherida. Reclamar por esta vía es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Consumo de la Comunidad Autónoma donde se encuentre la sede de la entidad. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador. > Ten en cuenta que el arbitraje y la vía judicial son incompatibles: o se acude a un arbitraje o se presenta una demanda.</li></ul>",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "reclamación",
-        "correo",
-        "empresa",
-        "puedes",
-        "consumo",
-        "arbitraje"
-      ]
-    },
-    {
-      "pregunta": "En un viaje comercial, nos llevaron a un hotel en el que nos dieron una charla y compré una manta térmica que decían que era buena para el reúma ¿puedo desistir de la compra",
-      "respuesta": "Si, estás ante una compraventa fuera de establecimiento mercantil y te asiste el derecho de desistimiento por 14 días. **",
-      "subcategoria": "Compra fuera de establecimiento",
-      "keywords": [
-        "viaje",
-        "comercial",
-        "llevaron",
-        "hotel",
-        "dieron",
-        "charla"
-      ]
-    },
-    {
-      "pregunta": "Compré un teléfono móvil a un particular hace 14 meses y se ha estropeado, ¿puedo reclamar que me lo repare en garantía?",
-      "respuesta": "No, el derecho de garantía se aplica cuando quien compra es una persona consumidora y quien vende es un empresario. No obstante, sí existe un plazo de seis meses en los que el vendedor responde ante el comprador por posibles defectos ocultos del artículo, según el Código Civil.",
-      "subcategoria": "Garantías",
-      "keywords": [
-        "meses",
-        "garantía",
-        "compré",
-        "teléfono",
-        "móvil",
-        "particular"
-      ]
-    },
-    {
-      "pregunta": "Compré hace cinco meses una videoconsola a través de una app de segunda mano, en la que las personas físicas ponen a la venta directamente sus productos y se ha estropeado, ¿puedo reclamar que me lo repare en garantía?",
-      "respuesta": "El derecho de garantía se aplica cuando quien compra es una persona consumidora y quien vende es un empresario. No obstante, puedes reclamar dado que, al margen de esta ley, el Código Civil establece un plazo de seis meses en los que el vendedor responde ante el comprador por posibles defectos ocultos del artículo, dando igual que se tenga la condición de persona consumidora o empresaria.",
-      "subcategoria": "Garantías",
-      "keywords": [
-        "meses",
-        "reclamar",
-        "garantía",
-        "persona",
-        "consumidora",
-        "compré"
-      ]
-    },
-    {
-      "pregunta": "Compré un coche a nombre de mi empresa hace 14 meses y se ha estropeado, ¿puedo reclamar que me lo repare en garantía?",
-      "respuesta": "No, el derecho de garantía se aplica cuando quien compra es una persona consumidora y quien vende es un empresario. No obstante, sí existe un plazo de seis meses en los que el vendedor responde ante el comprador por posibles defectos ocultos del artículo, según el Código Civil.",
-      "subcategoria": "Garantías",
-      "keywords": [
-        "meses",
-        "garantía",
-        "compré",
-        "coche",
-        "nombre",
-        "empresa"
-      ]
-    },
-    {
-      "pregunta": "¿Tienen garantía los productos de segunda mano?",
-      "respuesta": "Si, 3 años, aunque se puede pactar un plazo menor, nunca inferior a un año y siempre que quien compre sea una persona consumidora y quien venda, un profesional o empresa.",
-      "subcategoria": "Garantías",
-      "keywords": [
-        "garantía",
-        "productos",
-        "mano",
-        "años",
-        "pactar",
-        "plazo"
-      ]
-    },
-    {
-      "pregunta": "¿Cuál es el plazo de garantía de un producto comprado por una persona consumidora a una empresa?",
-      "respuesta": "La garantía general es de 3 años y para contenidos o servicios digitales es de 2 años. En los bienes de segunda mano, la garantía también es de 3 años, aunque se puede pactar un plazo menor, nunca inferior a un año. En el caso de productos fungibles, como pueden ser los alimentos, plantas o productos de consumo rápido, no se aplica este plazo de garantía.",
-      "subcategoria": "Garantías",
-      "keywords": [
-        "garantía",
         "plazo",
-        "años",
-        "productos",
-        "cuál",
+        "desistimiento",
+        "contrato",
+        "distancia",
+        "piezas",
+        "componentes",
+        "entrega",
         "producto"
       ]
     },
     {
-      "pregunta": "Compré un teléfono móvil hace un año y se ha roto. He ido a reclamar a la tienda en la que lo compré y ha cerrado ¿Qué puedo hacer?",
-      "respuesta": "Puedes reclamar la reparación o sustitución del artículo al fabricante.",
-      "subcategoria": "Garantías",
+      "pregunta": "Compré una cafetera en una tienda online y quiero devolverla porque no me interesa. ¿Puedo devolverla?",
+      "respuesta": "Sí, con carácter general. En una compra online puedes ejercer el derecho de desistimiento sin tener que justificar el motivo dentro de los 14 días naturales desde que recibes el producto. Debes comunicarlo al vendedor y devolver la cafetera. Puedes manipularla lo necesario para comprobar sus características y funcionamiento, pero si la usas más de lo necesario, podrían descontarte la pérdida de valor.",
+      "subcategoria": "Compra a distancia",
       "keywords": [
-        "compré",
-        "reclamar",
-        "teléfono",
-        "móvil",
-        "hace",
-        "roto"
+        "cafetera",
+        "online",
+        "devolución",
+        "desistimiento",
+        "tienda",
+        "plazo",
+        "producto",
+        "valor",
+        "vendedor"
       ]
     },
     {
-      "pregunta": "¿Puedo reclamar piezas de repuesto, aunque el producto deje de fabricarse?",
-      "respuesta": "Sí. Los fabricantes deben mantener piezas disponibles durante 10 años desde que el producto deja de fabricarse.",
+      "pregunta": "¿Cuál es el plazo para ejercer el derecho de desistimiento?",
+      "respuesta": "El plazo general para desistir en una compra a distancia es de 14 días naturales. En la compra de bienes, normalmente empieza desde que recibes el producto. Si el empresario ofrece voluntariamente un plazo más largo, debe respetarlo. Si no te informa correctamente sobre el derecho de desistimiento, el plazo se amplía hasta 12 meses después de que termine el plazo inicial de 14 días. Si te informa durante esos 12 meses, tendrás 14 días naturales desde que recibas esa información.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "plazo",
+        "desistimiento",
+        "días",
+        "naturales",
+        "compra",
+        "distancia",
+        "información",
+        "producto",
+        "empresario"
+      ]
+    },
+    {
+      "pregunta": "Compré a un comercio online una lámpara. A los 7 días de la entrega desistí de la compra y me dicen que tengo que pagar los gastos de envío. ¿Es legal?",
+      "respuesta": "Depende de a qué gastos se refieran. Si son los gastos de devolución del producto al comercio, solo debes pagarlos si el vendedor te informó previamente y de forma clara de que te correspondía asumirlos. Si se refiere a los gastos de envío iniciales que pagaste para recibir la lámpara, el comercio debe devolverte el coste de la modalidad de entrega ordinaria. No tiene que devolverte los costes adicionales si elegiste expresamente una modalidad de entrega más cara, como envío urgente.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "lámpara",
+        "online",
+        "desistimiento",
+        "gastos",
+        "envío",
+        "devolución",
+        "entrega",
+        "vendedor",
+        "reembolso"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es la diferencia entre el derecho de desistimiento y la garantía?",
+      "respuesta": "El derecho de desistimiento permite cancelar determinadas compras realizadas online, a distancia o fuera del establecimiento, sin tener que justificar el motivo, normalmente dentro de los 14 días naturales. La garantía, en cambio, protege cuando el producto no es conforme con el contrato, por ejemplo porque tiene un defecto, no funciona correctamente o no coincide con lo anunciado. La garantía se aplica tanto en compras en tienda física como por internet.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "desistimiento",
+        "garantía",
+        "compra",
+        "online",
+        "tienda",
+        "defecto",
+        "contrato",
+        "producto",
+        "devolución"
+      ]
+    },
+    {
+      "pregunta": "¿Siempre que compro como persona consumidora a un comercio online puedo ejercer el derecho de desistimiento?",
+      "respuesta": "No. Aunque en las compras online existe con carácter general un derecho de desistimiento de 14 días naturales, la ley prevé excepciones. Por ejemplo, no suele haber desistimiento en productos personalizados, productos que caducan o se deterioran rápidamente, bienes precintados que no puedan devolverse por razones de salud o higiene si se han desprecintado, grabaciones o programas informáticos precintados si se han abierto, prensa diaria o revistas sueltas, servicios ya ejecutados completamente con consentimiento previo y conocimiento de la pérdida del derecho, contenido digital iniciado con consentimiento previo y conocimiento de esa pérdida, alojamiento distinto de vivienda, transporte de bienes, alquiler de vehículos, restauración o actividades de ocio con fecha concreta, y otros supuestos específicos previstos legalmente.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "desistimiento",
+        "online",
+        "excepciones",
+        "productos",
+        "servicios",
+        "personalizados",
+        "higiene",
+        "contenido",
+        "digital",
+        "consumidor"
+      ]
+    },
+    {
+      "pregunta": "Alquilé un coche a través de una página web y ahora quiero desistir. ¿Es posible?",
+      "respuesta": "No, si el alquiler del vehículo estaba previsto para una fecha o periodo concreto. En ese caso, la ley excluye el derecho de desistimiento. Aun así, pueden existir condiciones de cancelación o modificación en el contrato o en la política comercial de la empresa, por lo que conviene revisarlas.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "alquiler",
+        "coche",
+        "vehículo",
+        "web",
+        "desistimiento",
+        "cancelación",
+        "fecha",
+        "contrato",
+        "empresa"
+      ]
+    },
+    {
+      "pregunta": "Compré una entrada para un partido de fútbol a través de una página web y ahora quiero desistir. ¿Es posible?",
+      "respuesta": "No, con carácter general. Las entradas para espectáculos, eventos deportivos o actividades de ocio con una fecha concreta están excluidas del derecho de desistimiento. No obstante, puede haber condiciones de cancelación, cambio o reembolso en las condiciones de venta, o derechos específicos si el evento se cancela, se aplaza o se modifica de forma relevante.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "entrada",
+        "partido",
+        "fútbol",
+        "web",
+        "desistimiento",
+        "evento",
+        "ocio",
+        "fecha",
+        "reembolso"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo se tiene que ejercer el derecho de desistimiento?",
+      "respuesta": "Debes comunicar al empresario, dentro del plazo legal, tu decisión de desistir del contrato. Puedes usar el formulario de desistimiento que te facilite la empresa o cualquier otra declaración clara, por ejemplo un correo electrónico. No basta con dejar de pagar o con no recoger el producto. Como corresponde a la persona consumidora probar que ha desistido dentro de plazo, conviene usar un medio que deje constancia, como el formulario web con confirmación, correo electrónico, burofax u otro canal habilitado por la empresa que permita conservar la comunicación.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "desistimiento",
+        "derecho",
+        "contrato",
+        "formulario",
+        "comunicación",
+        "plazo",
+        "constancia",
+        "correo",
+        "empresa"
+      ]
+    },
+    {
+      "pregunta": "He realizado una compra por internet a una tienda online. ¿Tienen obligación de enviarme copia de mi contrato?",
+      "respuesta": "Sí. El vendedor debe facilitarte la confirmación del contrato en un soporte duradero, es decir, un medio que puedas conservar, como un correo electrónico, una factura o un justificante de compra. Debe hacerlo en un plazo razonable y, como máximo, en el momento de entrega del producto o antes de que empiece la prestación del servicio. Si no recibes ningún justificante, puedes solicitárselo al vendedor usando también el comprobante del pago.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "contrato",
+        "compra",
+        "internet",
+        "tienda",
+        "online",
+        "confirmación",
+        "soporte",
+        "duradero",
+        "justificante"
+      ]
+    },
+    {
+      "pregunta": "He realizado una compra de una cámara de fotos a una tienda de internet. ¿Qué plazo tienen para entregármela?",
+      "respuesta": "El vendedor debe informarte antes de la compra de la fecha o plazo de entrega. Si no se ha acordado una fecha concreta, debe entregarte el producto sin retrasos indebidos y, como máximo, en el plazo de 30 días naturales desde la celebración del contrato.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "compra",
+        "cámara",
+        "fotos",
+        "tienda",
+        "internet",
+        "entrega",
+        "plazo",
+        "fecha",
+        "producto"
+      ]
+    },
+    {
+      "pregunta": "Compré un abrigo por internet y la tienda me dijo que se entregaría en 30 días, pero ha pasado ese plazo y no se ha realizado la entrega. ¿Qué puedo hacer?",
+      "respuesta": "Si el vendedor no cumple el plazo de entrega, puedes exigirle que entregue el producto en un plazo adicional adecuado a las circunstancias. Si tampoco cumple ese nuevo plazo, puedes resolver el contrato y exigir la devolución del dinero pagado sin demora indebida. No tienes que conceder ese plazo adicional si el vendedor se ha negado a entregar el producto, si el plazo era esencial para ti y así se lo hiciste saber, o si de las circunstancias resulta claro que la entrega en la fecha acordada era esencial.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "abrigo",
+        "internet",
+        "entrega",
+        "plazo",
+        "retraso",
+        "vendedor",
+        "contrato",
+        "devolución",
+        "dinero"
+      ]
+    },
+    {
+      "pregunta": "He comprado en una tienda online que está fuera de la Unión Europea. ¿Qué hago si tengo un problema?",
+      "respuesta": "Depende del caso. Si resides en España y la tienda dirige su actividad comercial a España, pueden resultar aplicables las normas imperativas españolas de protección de las personas consumidoras aunque la empresa esté fuera de la Unión Europea. Si no dirige su actividad a España ni tiene presencia aquí, reclamar puede ser más difícil y normalmente tendrás que acudir a los canales de atención de la empresa, al sistema de pago utilizado, a la plataforma donde compraste, si intervino una, o a los organismos de consumo o autoridades del país donde esté establecida. La aplicación de una norma no garantiza por sí sola que sea fácil hacerla efectiva frente a una empresa situada fuera de la Unión Europea.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "tienda",
+        "online",
+        "fuera",
+        "unión",
+        "europea",
+        "reclamación",
+        "consumo",
+        "país",
+        "plataforma",
+        "pago"
+      ]
+    },
+    {
+      "pregunta": "He comprado en una tienda online que está en Francia. ¿Qué hago si tengo un problema?",
+      "respuesta": "Si resides en España y la empresa está en Francia, puedes intentar reclamar primero ante la tienda. Si no obtienes solución, puedes acudir al Centro Europeo del Consumidor en España, que informa y ayuda en reclamaciones transfronterizas de consumo dentro de la Unión Europea.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "tienda",
+        "online",
+        "francia",
+        "reclamación",
+        "centro",
+        "europeo",
+        "consumidor",
+        "transfronteriza",
+        "unión",
+        "europea"
+      ]
+    },
+    {
+      "pregunta": "He visto muchas opiniones acerca de que en un marketplace se venden productos falsificados y la plataforma no hace nada. ¿Es legal?",
+      "respuesta": "No debería permitirse la venta de productos falsificados. Si compras un producto y resulta ser falso, debes reclamar al vendedor para pedir la devolución del dinero y, en su caso, puedes comunicarlo a la plataforma para que retire el anuncio o actúe frente al vendedor. La responsabilidad de la plataforma dependerá de su papel concreto: no es lo mismo que venda directamente, que actúe como intermediaria o que haya sido avisada de forma suficiente y no actúe con diligencia. También puedes denunciar los hechos ante las autoridades de consumo o, si puede existir delito, ante las fuerzas y cuerpos de seguridad o el juzgado.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "marketplace",
+        "productos",
+        "falsificados",
+        "plataforma",
+        "vendedor",
+        "reclamación",
+        "devolución",
+        "denuncia",
+        "consumo"
+      ]
+    },
+    {
+      "pregunta": "Compré un teléfono móvil a través del marketplace de una conocida plataforma a una empresa que está en Estados Unidos. ¿Puedo reclamar?",
+      "respuesta": "Sí, puedes reclamar, pero puede ser más difícil si el vendedor está fuera de la Unión Europea. En primer lugar, reclama al vendedor y usa también los canales de reclamación de la plataforma. Si resides en España y la empresa dirige su actividad comercial a España, pueden resultar aplicables las normas imperativas españolas de protección de las personas consumidoras aunque la empresa esté en Estados Unidos. Si no dirige su actividad a España ni tiene presencia en la Unión Europea, puede que tengas que acudir a los mecanismos de reclamación del país donde esté establecida o a los sistemas de protección del medio de pago utilizado.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "teléfono",
+        "móvil",
+        "marketplace",
+        "estados",
+        "unidos",
+        "reclamación",
+        "plataforma",
+        "vendedor",
+        "consumo"
+      ]
+    },
+    {
+      "pregunta": "Compré un teléfono móvil a través del marketplace de un supermercado a un particular. ¿Puedo reclamar?",
+      "respuesta": "Puedes reclamar, pero no como en una compra de consumo frente a una empresa. Si el vendedor es realmente un particular, no se aplica la normativa de consumo sobre compraventa entre empresa y consumidor, y el conflicto se resolvería por la vía civil. Aun así, revisa si el vendedor actúa en realidad como profesional, aunque figure como particular, y si la plataforma informó claramente de que comprabas a un particular. Si la plataforma no informó correctamente o asumió compromisos propios, podrías reclamar también frente a ella en lo que corresponda.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "teléfono",
+        "móvil",
+        "marketplace",
+        "particular",
+        "consumo",
+        "vendedor",
+        "plataforma",
+        "reclamación",
+        "civil"
+      ]
+    },
+    {
+      "pregunta": "He comprado un ordenador en Black Friday en una tienda online, pero, según me ha mostrado un amigo, la tienda tenía hace quince días el mismo ordenador a un precio más bajo. ¿Es legal?",
+      "respuesta": "Si la tienda anunció una rebaja o descuento, debe indicar como precio anterior el precio más bajo aplicado al mismo producto durante los 30 días anteriores a la reducción. Si hace quince días el ordenador estaba más barato y la tienda usa un precio anterior más alto para aparentar una rebaja mayor, podría tratarse de una práctica engañosa. Puedes reclamar a la tienda y ponerlo en conocimiento de las autoridades de consumo. Que exista una infracción en la información del descuento no significa siempre que tengas automáticamente derecho a que se te aplique el precio más bajo anterior, aunque puedes solicitarlo en tu reclamación.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "black",
+        "friday",
+        "ordenador",
+        "precio",
+        "rebaja",
+        "descuento",
+        "treinta",
+        "días",
+        "engañoso",
+        "consumo"
+      ]
+    },
+    {
+      "pregunta": "Compré desde mi casa en España unas sartenes a un comercio web situado en Hungría, pero centrado en vender sus productos en España. ¿Qué ley se aplicaría?",
+      "respuesta": "Si el comercio dirige su actividad a España y tú compras como persona consumidora desde España, se aplicará la protección obligatoria prevista para las personas consumidoras en España. Aunque el contrato diga que se aplica la ley húngara, esa elección no puede privarte de las normas imperativas de protección del consumidor que te corresponderían por residir en España. En la práctica, al tratarse de una empresa de otro país de la Unión Europea, también puedes acudir al Centro Europeo del Consumidor si no consigues resolver el problema con la empresa.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "españa",
+        "hungría",
+        "ley",
+        "comercio",
+        "web",
+        "consumidor",
+        "contrato",
+        "protección",
+        "centro",
+        "europeo"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con una web en la que compré un teléfono móvil que se me ha roto a los dos meses y no quieren repararlo conforme a la garantía. ¿Cómo puedo reclamar?",
+      "respuesta": "En primer lugar, reclama al vendedor al que compraste el móvil, preferiblemente por un medio que deje constancia, como correo electrónico, formulario web con justificante, correo certificado o burofax. Indica el problema, aporta el justificante de compra y pide la reparación o sustitución en garantía. Si no responde en el plazo legal o la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo de tu municipio, provincia o comunidad autónoma, a una asociación de consumidores o al arbitraje de consumo si la empresa está adherida o acepta someterse. Como última opción, puedes presentar una demanda judicial; si la reclamación no supera 2.000 euros, con carácter general no necesitas abogado ni procurador.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "móvil",
+        "garantía",
+        "reparación",
+        "tienda",
+        "online",
+        "reclamación",
+        "consumo",
+        "arbitraje",
+        "demanda"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es una compraventa fuera de establecimiento mercantil?",
+      "respuesta": "Es una compra o contratación que entra en alguno de los supuestos que la ley considera celebrados fuera del establecimiento mercantil. Incluye, por ejemplo, contratos celebrados con presencia física simultánea de la empresa y la persona consumidora en el domicilio de esta u otro lugar distinto del establecimiento; ofertas realizadas por la persona consumidora en esas mismas circunstancias; contratos cerrados en la tienda o a distancia inmediatamente después de un contacto personal e individual fuera del establecimiento; y compras durante excursiones organizadas por la empresa para promocionar o vender. No toda venta en una feria, mercado o stand temporal tiene necesariamente esta consideración, porque algunos de esos lugares pueden ser establecimiento mercantil del vendedor.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "compraventa",
+        "fuera",
+        "establecimiento",
+        "mercantil",
+        "domicilio",
+        "empresa",
+        "consumidor",
+        "contrato",
+        "venta"
+      ]
+    },
+    {
+      "pregunta": "¿En qué se diferencia una compraventa a distancia de una compraventa fuera de establecimiento mercantil?",
+      "respuesta": "La compraventa a distancia se celebra, dentro de un sistema organizado de venta a distancia, sin presencia física simultánea de la empresa y la persona consumidora, utilizando medios como internet, teléfono o correo. La compraventa fuera de establecimiento comprende, entre otros supuestos, contratos celebrados con presencia física fuera del establecimiento y también algunos contratos concluidos inmediatamente después de un contacto personal e individual realizado fuera de él. En ambos casos existe con carácter general derecho de desistimiento, salvo las excepciones legales.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "compraventa",
+        "distancia",
+        "fuera",
+        "establecimiento",
+        "internet",
+        "domicilio",
+        "desistimiento",
+        "contrato",
+        "consumidor"
+      ]
+    },
+    {
+      "pregunta": "¿Qué derechos asisten a la persona consumidora que realiza una compra fuera de establecimiento mercantil?",
+      "respuesta": "La persona consumidora tiene derecho a recibir información clara antes de contratar, a que se le entregue la confirmación del contrato en un soporte duradero y, con carácter general, a desistir del contrato sin necesidad de justificar el motivo. El plazo general de desistimiento es de 14 días naturales. En contratos celebrados durante visitas no solicitadas al domicilio de la persona consumidora o en excursiones organizadas por la empresa para promocionar o vender productos o servicios, el plazo es de 30 días naturales. Existen excepciones legales en las que no hay derecho de desistimiento.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "derechos",
+        "compra",
+        "fuera",
+        "establecimiento",
+        "información",
+        "contrato",
+        "desistimiento",
+        "días",
+        "domicilio",
+        "excursiones"
+      ]
+    },
+    {
+      "pregunta": "¿De qué tiene que informar el vendedor a la persona consumidora antes de celebrar una compra fuera de establecimiento mercantil?",
+      "respuesta": "Debe informar de forma clara sobre su identidad y datos de contacto, las características principales del producto o servicio, el precio total con impuestos y gastos incluidos, las formas de pago y entrega, la duración del contrato si procede, la garantía legal, los servicios posventa y las vías de reclamación. Además, debe informar sobre el derecho de desistimiento, sus condiciones, plazo y forma de ejercicio, y facilitar un modelo de formulario de desistimiento. Si no existe derecho de desistimiento por una excepción legal, también debe indicarlo claramente.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "información",
+        "vendedor",
+        "consumidor",
+        "fuera",
+        "establecimiento",
+        "precio",
+        "garantía",
+        "desistimiento",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es el plazo que tiene la persona consumidora para ejercer el derecho de desistimiento en los contratos celebrados fuera del establecimiento mercantil?",
+      "respuesta": "El plazo general es de 14 días naturales, sin necesidad de justificar la decisión. En la venta de bienes, normalmente empieza a contar desde que recibes el producto; en los contratos de servicios, desde la celebración del contrato. En contratos celebrados durante visitas no solicitadas al domicilio de la persona consumidora o en excursiones organizadas por la empresa para promocionar o vender productos o servicios, el plazo es de 30 días naturales. Si la empresa no informa correctamente sobre el derecho de desistimiento, el plazo se amplía hasta 12 meses después de que termine el plazo inicial. Si informa durante ese periodo, dispondrás de 14 días naturales, o de 30 días naturales en los supuestos especiales, desde que recibas la información.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "plazo",
+        "desistimiento",
+        "contrato",
+        "fuera",
+        "establecimiento",
+        "días",
+        "domicilio",
+        "excursiones",
+        "información"
+      ]
+    },
+    {
+      "pregunta": "¿Desde qué momento se computa el plazo de desistimiento en los contratos celebrados fuera de establecimiento mercantil cuyo objeto es la prestación de servicios, como por ejemplo la recepción de un curso de guitarra?",
+      "respuesta": "En los contratos de servicios, el plazo de desistimiento empieza a contar desde el día de celebración del contrato. Si la empresa no informó correctamente sobre el derecho de desistimiento, el plazo puede ampliarse conforme a las reglas legales.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "plazo",
+        "desistimiento",
+        "servicios",
+        "curso",
+        "guitarra",
+        "contrato",
+        "fuera",
+        "establecimiento",
+        "celebración"
+      ]
+    },
+    {
+      "pregunta": "¿Cuándo comienza a contar el plazo de desistimiento en los contratos de venta de bienes fuera de establecimiento mercantil?",
+      "respuesta": "Comienza a contar desde el día en que la persona consumidora, o un tercero indicado por ella que no sea el transportista, recibe físicamente el producto.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "plazo",
+        "desistimiento",
+        "bienes",
+        "venta",
+        "fuera",
+        "establecimiento",
+        "producto",
+        "recepción",
+        "consumidor"
+      ]
+    },
+    {
+      "pregunta": "Quiero comprar un teléfono móvil en un stand temporal que hay en un centro comercial. ¿Qué información me tienen que facilitar?",
+      "respuesta": "Deben informarte de forma clara sobre quién vende el producto, sus datos de contacto, las características principales del móvil, el precio total, la forma de pago y entrega, la garantía y las vías de reclamación. Además, si por las características del stand la compra se considera realizada fuera del establecimiento mercantil, tienes derechos adicionales: deben informarte, entre otras cuestiones, sobre el derecho de desistimiento, normalmente de 14 días, y facilitarte la información contractual y una copia o confirmación del contrato en papel o, si estás de acuerdo, en otro soporte duradero. Que el stand sea temporal no significa por sí solo que la venta sea fuera de establecimiento; dependerá de cómo y con qué habitualidad opere el vendedor en él.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "teléfono",
+        "móvil",
+        "stand",
+        "temporal",
+        "centro",
+        "comercial",
+        "información",
+        "precio",
+        "garantía",
+        "desistimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo se determina el inicio del plazo de desistimiento en una compraventa fuera de establecimiento mercantil cuando se entregan múltiples bienes encargados en un mismo pedido y entregados por separado?",
+      "respuesta": "El plazo comienza a contar desde el día en que la persona consumidora, o un tercero indicado por ella que no sea el transportista, recibe físicamente el último de los bienes del pedido.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "plazo",
+        "desistimiento",
+        "bienes",
+        "pedido",
+        "entrega",
+        "separado",
+        "último",
+        "fuera",
+        "establecimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es el momento de inicio del plazo de desistimiento en los contratos de venta de un bien fuera de establecimiento mercantil compuesto por múltiples componentes o piezas?",
+      "respuesta": "Comienza el día en que la persona consumidora, o un tercero indicado por ella que no sea el transportista, recibe físicamente el último componente o pieza.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "plazo",
+        "desistimiento",
+        "bien",
+        "componentes",
+        "piezas",
+        "entrega",
+        "último",
+        "establecimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Cuándo comienza el plazo de desistimiento en los contratos celebrados fuera de establecimiento mercantil para la entrega periódica de bienes durante un plazo determinado?",
+      "respuesta": "Comienza el día en que la persona consumidora, o un tercero indicado por ella que no sea el transportista, recibe físicamente el primer bien de la serie.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "plazo",
+        "desistimiento",
+        "entrega",
+        "periódica",
+        "bienes",
+        "serie",
+        "primer",
+        "establecimiento"
+      ]
+    },
+    {
+      "pregunta": "Compré una enciclopedia a una persona de una empresa que se presentó en mi casa. Dos días después ejercí mi derecho de desistimiento, pero me dicen que no pueden admitirlo porque en el contrato que firmé había una cláusula en la que renunciaba a este derecho. ¿Es legal?",
+      "respuesta": "No. El derecho de desistimiento es irrenunciable: no puedes perderlo por una cláusula incluida en el contrato. Si una cláusula dice que renuncias a ese derecho, no será válida y se tendrá por no puesta. Además, en contratos celebrados durante visitas no solicitadas al domicilio de la persona consumidora, el plazo de desistimiento es de 30 días naturales.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "enciclopedia",
+        "domicilio",
+        "desistimiento",
+        "renuncia",
+        "cláusula",
+        "contrato",
+        "empresa",
+        "visita",
+        "plazo"
+      ]
+    },
+    {
+      "pregunta": "Compré un aspirador a una persona que acudió a mi domicilio. ¿Cuándo comienza a contar el plazo de desistimiento?",
+      "respuesta": "En la compra de un producto, el plazo empieza a contar desde el día en que la persona consumidora, o un tercero indicado por ella que no sea el transportista, recibe físicamente el producto. Si el contrato se celebró durante una visita no solicitada a tu domicilio, el plazo para desistir es de 30 días naturales.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "aspirador",
+        "domicilio",
+        "plazo",
+        "desistimiento",
+        "producto",
+        "entrega",
+        "visita",
+        "consumidor",
+        "días"
+      ]
+    },
+    {
+      "pregunta": "¿Hay algún caso en el que celebre un contrato fuera de establecimiento mercantil y no pueda ejercer el derecho de desistimiento?",
+      "respuesta": "Sí. La ley prevé excepciones al derecho de desistimiento. Por ejemplo, puede no aplicarse a servicios completamente ejecutados con consentimiento previo de la persona consumidora y conocimiento de que perdía el derecho; bienes personalizados o hechos a medida; productos que puedan caducar o deteriorarse rápidamente; bienes precintados que no sean aptos para devolución por razones de salud o higiene si se han desprecintado; bienes mezclados de forma inseparable con otros; reparaciones o mantenimiento urgentes solicitados expresamente; grabaciones, vídeos o programas informáticos precintados si se han abierto; prensa diaria o revistas, salvo suscripciones; alojamiento distinto de vivienda, transporte de bienes, alquiler de vehículos, restauración o actividades de ocio con fecha concreta; y contenido digital no suministrado en soporte material cuando su ejecución haya comenzado con consentimiento previo y conocimiento de la pérdida del derecho. Conviene revisar cada caso concreto, porque algunas excepciones exigen que la empresa haya informado correctamente y que la persona consumidora haya dado su consentimiento previo.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "desistimiento",
+        "excepciones",
+        "bienes",
+        "servicios",
+        "personalizados",
+        "higiene",
+        "reparación",
+        "contenido",
+        "digital",
+        "consentimiento"
+      ]
+    },
+    {
+      "pregunta": "Compré una enciclopedia a una persona que vino a mi domicilio, quise desistir a los 7 días y lo hice por correo, pero no han recogido la mercancía ni me han devuelto el dinero. ¿Cómo puedo reclamar?",
+      "respuesta": "Si comunicaste el desistimiento dentro de plazo, la empresa debe devolverte el dinero sin demora indebida y, como máximo, en 14 días naturales desde que fue informada de tu decisión. No obstante, salvo que la empresa se haya ofrecido a recoger los bienes, puede retener el reembolso hasta recibirlos o hasta que acredites que los has devuelto. En contratos celebrados durante visitas no solicitadas al domicilio, el plazo para desistir es de 30 días naturales. Para reclamar, envía una reclamación escrita por un medio que deje constancia, como burofax, correo certificado o correo electrónico con acuse, adjuntando la prueba del desistimiento. Si no responden o no solucionan el problema, puedes acudir a la OMIC, a los servicios de consumo de tu comunidad autónoma, a una asociación de consumidores, al arbitraje de consumo si la empresa está adherida o lo acepta, o a la vía judicial. Para reclamaciones de hasta 2.000 euros, con carácter general no necesitas abogado ni procurador.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "enciclopedia",
+        "domicilio",
+        "desistimiento",
+        "reembolso",
+        "devolución",
+        "empresa",
+        "reclamación",
+        "consumo",
+        "arbitraje",
+        "demanda"
+      ]
+    },
+    {
+      "pregunta": "En un viaje comercial, nos llevaron a un hotel en el que nos dieron una charla y compré una manta térmica que decían que era buena para el reúma. ¿Puedo desistir de la compra?",
+      "respuesta": "Sí. Si la compra se realizó durante una excursión o viaje organizado por la empresa con el objetivo o efecto de promocionar o vender productos, se considera un contrato fuera de establecimiento mercantil y tienes derecho de desistimiento. En estos casos, el plazo para desistir es de 30 días naturales. Además, si se atribuyeron al producto propiedades para tratar o aliviar una enfermedad, como el reúma, puede haber también un problema de publicidad engañosa o de información no acreditada, según las circunstancias.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "viaje",
+        "comercial",
+        "hotel",
+        "charla",
+        "manta",
+        "térmica",
+        "desistimiento",
+        "reúma",
+        "publicidad",
+        "engaño"
+      ]
+    },
+    {
+      "pregunta": "Compré un teléfono móvil a un particular hace 14 meses y se ha estropeado. ¿Puedo reclamar que me lo repare en garantía?",
+      "respuesta": "No puedes reclamar la garantía legal de consumo si compraste el móvil a un particular que no actuaba como empresario. Esa garantía se aplica a las ventas entre una empresa y una persona consumidora. En una compraventa entre particulares podrían aplicarse las reglas del Código Civil sobre defectos ocultos, pero la acción debe ejercitarse, con carácter general, dentro de los 6 meses desde la entrega. Si han pasado 14 meses, normalmente ese plazo ya habría transcurrido.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "teléfono",
+        "móvil",
+        "particular",
+        "garantía",
+        "defectos",
+        "ocultos",
+        "código",
+        "civil",
+        "plazo"
+      ]
+    },
+    {
+      "pregunta": "Compré hace cinco meses una videoconsola a través de una app de segunda mano, en la que las personas físicas ponen a la venta directamente sus productos, y se ha estropeado. ¿Puedo reclamar que me la reparen en garantía?",
+      "respuesta": "Si compraste la videoconsola a un particular que no actuaba como empresario, no se aplica la garantía legal de consumo, porque esa garantía protege las compras realizadas a empresas. Aun así, podrías reclamar por la vía civil si el producto tenía un defecto oculto anterior a la venta y se cumplen los requisitos del Código Civil. Con carácter general, la acción por defectos ocultos debe ejercitarse dentro de los 6 meses desde la entrega. Si quien vendía en la app actuaba realmente como profesional, aunque figurara como particular, sí podría aplicarse la normativa de consumo.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "videoconsola",
+        "app",
+        "segunda",
+        "mano",
+        "particular",
+        "garantía",
+        "defectos",
+        "ocultos",
+        "profesional"
+      ]
+    },
+    {
+      "pregunta": "Compré un coche a nombre de mi empresa hace 14 meses y se ha estropeado. ¿Puedo reclamar que me lo reparen en garantía?",
+      "respuesta": "No puedes invocar la garantía legal de consumo si el coche se compró para una actividad empresarial o profesional. Esa garantía está prevista para las relaciones entre personas consumidoras y empresarios. Podrían existir otros derechos derivados del contrato, de una garantía comercial o de las normas civiles o mercantiles aplicables, pero sus requisitos y plazos son distintos y deben analizarse según el caso.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "coche",
+        "empresa",
+        "garantía",
+        "consumo",
+        "defectos",
+        "ocultos",
+        "contrato",
+        "plazo",
+        "reparación"
+      ]
+    },
+    {
+      "pregunta": "¿Tienen garantía los productos de segunda mano?",
+      "respuesta": "Sí, si los compras a una empresa o profesional. La garantía legal es de 3 años, pero en productos de segunda mano la persona consumidora y el vendedor pueden pactar un plazo menor, siempre que no sea inferior a un año desde la entrega. Si compras el producto a un particular que no actúa como profesional, no se aplica la garantía legal de consumo, aunque podrían existir acciones civiles por defectos ocultos.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "garantía",
+        "segunda",
+        "mano",
+        "producto",
+        "profesional",
+        "empresa",
+        "particular",
+        "plazo",
+        "defectos"
+      ]
+    },
+    {
+      "pregunta": "¿Cuál es el plazo de garantía de un producto comprado por una persona consumidora a una empresa?",
+      "respuesta": "En la compra de bienes a una empresa, la garantía legal general es de 3 años desde la entrega. En bienes de segunda mano también es de 3 años, aunque puede pactarse un plazo menor, nunca inferior a un año. En contenidos o servicios digitales, el plazo depende de cómo se suministren: si se suministran en un acto único o en actos individuales, la empresa responde durante 2 años; si el suministro es continuo, responde durante todo el periodo contratado. En productos perecederos o de consumo rápido, los derechos de garantía se aplican teniendo en cuenta su naturaleza, fecha de caducidad o vida útil razonable.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "garantía",
+        "plazo",
+        "producto",
+        "empresa",
+        "bienes",
+        "segunda",
+        "mano",
+        "digital",
+        "perecederos"
+      ]
+    },
+    {
+      "pregunta": "Compré un teléfono móvil hace un año y se ha roto. He ido a reclamar a la tienda en la que lo compré y ha cerrado. ¿Qué puedo hacer?",
+      "respuesta": "La garantía legal se reclama normalmente frente al vendedor. Si la tienda ha cerrado y resulta imposible o muy difícil reclamarle, puedes dirigirte al productor, por ejemplo el fabricante o importador, para pedir la reparación o sustitución del teléfono cuando proceda. Conserva el justificante de compra y cualquier prueba del cierre de la tienda. Si el fabricante rechaza la reclamación, puedes acudir a los servicios públicos de consumo o valorar la vía judicial.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "teléfono",
+        "móvil",
+        "garantía",
+        "tienda",
+        "cerrada",
+        "fabricante",
+        "productor",
+        "reparación",
+        "sustitución"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar piezas de repuesto aunque el producto deje de fabricarse?",
+      "respuesta": "Sí. El productor debe garantizar un servicio técnico adecuado y la existencia de piezas de repuesto durante un plazo mínimo de 10 años desde que el producto deja de fabricarse. Antes del 1 de enero de 2022, la normativa establecía con carácter general un plazo de 5 años. Esto no significa que los repuestos deban entregarse gratuitamente: dependerá de si la reparación está cubierta por la garantía legal o comercial o se realiza fuera de garantía.",
       "subcategoria": "Garantías",
       "keywords": [
         "piezas",
+        "repuesto",
         "producto",
         "fabricarse",
-        "reclamar",
-        "repuesto",
-        "deje"
+        "fabricante",
+        "productor",
+        "servicio",
+        "técnico",
+        "garantía"
       ]
     },
     {
-      "pregunta": "Compré una lavadora y se ha estropeado a los 5 meses de la compra ¿Puedo elegir entre reparar o cambiarlo?",
-      "respuesta": "Sí. El puedes decidir entre reparación o sustitución, salvo que alguna de las opciones sea imposible de ejecutar o suponga costes desproporcionados para el empresario.",
+      "pregunta": "Compré una lavadora y se ha estropeado a los 5 meses de la compra. ¿Puedo elegir entre repararla o cambiarla?",
+      "respuesta": "Sí, en principio puedes elegir entre reparación o sustitución. El vendedor solo puede rechazar la opción elegida si resulta imposible o supone costes desproporcionados frente a la otra solución. La devolución del dinero puede solicitarse en determinados casos, por ejemplo si la reparación o sustitución no es posible, no se realiza correctamente o en un plazo razonable, el defecto reaparece o es suficientemente grave. Como la avería aparece a los 5 meses, se presume que la falta de conformidad ya existía cuando se entregó la lavadora, salvo prueba en contrario o que esa presunción sea incompatible con la naturaleza del producto o del defecto.",
       "subcategoria": "Garantías",
       "keywords": [
-        "compré",
         "lavadora",
-        "estropeado",
-        "meses",
-        "compra",
-        "elegir"
+        "garantía",
+        "reparación",
+        "sustitución",
+        "avería",
+        "vendedor",
+        "conformidad",
+        "costes",
+        "presunción"
       ]
     },
     {
-      "pregunta": "Compré un coche hace 3 meses y se ha averiado. Lo comuniqué al concesionario donde lo compré y me pide pagar los gastos de reparación, aunque no la mano de obra ¿Es legal?",
-      "respuesta": "No. Todos los gastos necesarios para subsanar el defecto (transporte, mano de obra, materiales) deben ser gratuitos para la persona consumidora.",
+      "pregunta": "Compré un coche hace 3 meses y se ha averiado. Lo comuniqué al concesionario donde lo compré y me pide pagar los gastos de reparación, aunque no la mano de obra. ¿Es legal?",
+      "respuesta": "No, si se trata de una avería cubierta por la garantía legal. La reparación o sustitución por falta de conformidad debe ser gratuita para la persona consumidora e incluir los gastos necesarios, como transporte, mano de obra y materiales. Si el vendedor considera que la avería se debe a un mal uso o a una causa no cubierta, tendría que justificarlo.",
       "subcategoria": "Garantías",
       "keywords": [
-        "compré",
+        "coche",
+        "garantía",
+        "concesionario",
+        "reparación",
         "gastos",
         "mano",
         "obra",
-        "coche",
-        "hace"
+        "avería",
+        "conformidad"
       ]
     },
     {
-      "pregunta": "¿Quién tiene la carga de probar que el producto tenía el defecto de fabricación?",
-      "respuesta": "Sin un producto se estropea durante los primeros dos años de su compra, se presume que el defecto es de fabricación, por lo que el vendedor debe repararlo o sustituirlo; a partir de ahí, y hasta el tercer año, será el consumidor quien tendrá que probar que el defecto era de origen.",
+      "pregunta": "¿Quién tiene la carga de probar que el producto tenía el defecto de origen?",
+      "respuesta": "Si una falta de conformidad aparece durante los 2 primeros años desde la entrega del producto, se presume que ya existía cuando se entregó, salvo prueba en contrario o que esa presunción sea incompatible con la naturaleza del producto o del defecto. En ese periodo, corresponde al vendedor probar que el problema no era de origen. Desde ese momento y hasta que finalice el plazo de garantía legal, normalmente será la persona consumidora quien tenga que acreditar que el defecto ya existía al entregarse el producto.",
       "subcategoria": "Garantías",
       "keywords": [
-        "defecto",
-        "probar",
-        "producto",
-        "fabricación",
-        "quién",
-        "carga"
-      ]
-    },
-    {
-      "pregunta": "Compré hace 25 meses un teléfono móvil y se ha estropeado. Dado que han pasado más de dos años, me dicen que para que se aplique la garantía tengo que demostrar que el defecto era de origen ¿es esto legal? ¿cómo puedo probar que el defecto era de origen?",
-      "respuesta": "Si, lo que te han dicho es lo que establece la ley. Para probar que el defecto es de origen, tendrás que recabar un informe técnico de un experto en telefonía móvil que acredite este hecho.",
-      "subcategoria": "Garantías",
-      "keywords": [
+        "carga",
+        "prueba",
         "defecto",
         "origen",
+        "producto",
+        "garantía",
+        "vendedor",
+        "conformidad",
+        "entrega"
+      ]
+    },
+    {
+      "pregunta": "Compré hace 25 meses un teléfono móvil y se ha estropeado. Como han pasado más de dos años, me dicen que para que se aplique la garantía tengo que demostrar que el defecto era de origen. ¿Es esto legal? ¿Cómo puedo probarlo?",
+      "respuesta": "La garantía legal sigue vigente durante 3 años: la empresa no puede rechazar tu reclamación automáticamente porque hayan pasado más de 2 años. Lo que cambia después de los 2 primeros años es la prueba: deja de presumirse que el defecto ya existía cuando se entregó el producto y puede corresponderte acreditarlo. Puedes hacerlo mediante un informe técnico u otras pruebas o indicios, como la naturaleza de la avería, informes del fabricante o antecedentes de fallos similares. La empresa debe valorar tu reclamación y no puede considerar extinguido el tercer año de garantía por el mero transcurso de los dos primeros.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "teléfono",
         "móvil",
-        "probar",
-        "compré",
-        "hace"
+        "garantía",
+        "defecto",
+        "origen",
+        "prueba",
+        "informe",
+        "técnico",
+        "avería"
       ]
     },
     {
       "pregunta": "¿Son lo mismo la garantía legal y la garantía comercial de un producto?",
-      "respuesta": "No. La garantía legal es obligatoria y protege al consumidor frente a defectos o falta de conformidad del producto según la ley. La garantía comercial, en cambio, es voluntaria, ofrecida por el vendedor o fabricante, y puede ofrecer plazos más largos, servicios adicionales o condiciones más favorables, pero solo se aplica según lo que se publicite o acuerde.",
+      "respuesta": "No. La garantía legal es obligatoria y protege a la persona consumidora cuando el producto no es conforme con el contrato, por ejemplo porque tiene un defecto, no funciona correctamente o no coincide con lo anunciado. La garantía comercial es voluntaria y puede ofrecerla el vendedor, el fabricante u otro garante. Puede ampliar plazos, añadir servicios o mejorar los derechos legales, pero nunca puede reducir ni sustituir la garantía legal. Además, lo que se anuncie en la garantía comercial vincula a quien la ofrece.",
       "subcategoria": "Garantías",
       "keywords": [
         "garantía",
         "legal",
         "comercial",
         "producto",
-        "obligatoria",
-        "protege"
+        "defecto",
+        "conformidad",
+        "fabricante",
+        "vendedor",
+        "derechos"
       ]
     },
     {
       "pregunta": "¿Qué debe contener la garantía comercial si un vendedor o fabricante la ofrece?",
-      "respuesta": "Deben aparecer en un documento que obligatoriamente se tiene que entregar una identificación clara del producto, los datos del vendedor, las condiciones de la garantía, el plazo de duración y las vías de reclamación. Podrás reclamar esta garantía hasta pasados seis meses desde su finalización.",
+      "respuesta": "La declaración de garantía comercial debe entregarse en un soporte duradero, a más tardar en el momento de la entrega, y redactarse al menos en castellano de forma clara y comprensible. Debe indicar, como mínimo, el nombre y dirección del garante, el producto, contenido o servicio digital cubierto, el procedimiento para hacerla efectiva, sus condiciones, duración y alcance territorial, y dejar claro que la garantía comercial no afecta a los derechos gratuitos que reconoce la garantía legal. El incumplimiento de estos requisitos formales no impide que la garantía comercial siga siendo vinculante para quien la ofrece.",
       "subcategoria": "Garantías",
       "keywords": [
         "garantía",
-        "vendedor",
-        "contener",
         "comercial",
+        "vendedor",
         "fabricante",
-        "ofrece"
+        "producto",
+        "duración",
+        "reclamación",
+        "derechos",
+        "plazo"
       ]
     },
     {
-      "pregunta": "Contraté la garantía extendida de un coche, durante 7 años y al sexto año se me ha estropeado. Me dice el vendedor que la garantía cubre solo la mano de obra ¿Es esto legal?",
-      "respuesta": "Depende de lo que figure en el contrato de garantía. Al tratarse de la garantía comercial hay que examinar lo acordado.",
+      "pregunta": "Contraté la garantía extendida de un coche durante 7 años y, al sexto año, se me ha estropeado. El vendedor me dice que la garantía cubre solo la mano de obra. ¿Es esto legal?",
+      "respuesta": "Depende de las condiciones de la garantía comercial o garantía extendida que contrataste. Al haber pasado 6 años, normalmente ya no estarías dentro de la garantía legal general, sino dentro de la garantía comercial ofrecida. Esa garantía puede tener límites, como cubrir solo la mano de obra, siempre que esa condición se hubiera informado de forma clara antes de contratar y no contradiga lo anunciado. Si la publicidad o el contrato daban a entender una cobertura más amplia, puedes reclamar que se respete la condición más favorable.",
       "subcategoria": "Garantías",
       "keywords": [
         "garantía",
-        "contraté",
         "extendida",
         "coche",
-        "años",
-        "sexto"
+        "comercial",
+        "mano",
+        "obra",
+        "cobertura",
+        "contrato",
+        "publicidad"
       ]
     },
     {
-      "pregunta": "¿Una garantía comercial publicitada es vinculante para el vendedor?",
-      "respuesta": "Sí. Si se anuncia, el vendedor está obligado a cumplirla desde la firma del contrato, ofreciendo condiciones que beneficien al consumidor.",
+      "pregunta": "¿Una garantía comercial publicitada es vinculante para quien la ofrece?",
+      "respuesta": "Sí. La garantía comercial vincula a quien la ofrece en las condiciones anunciadas en la publicidad y en la propia declaración de garantía. Si la publicidad ofrece condiciones más favorables que el documento de garantía, puedes exigir las anunciadas. En todo caso, la garantía comercial es adicional a la garantía legal y no puede limitar los derechos que esta reconoce a la persona consumidora.",
       "subcategoria": "Garantías",
       "keywords": [
-        "vendedor",
         "garantía",
         "comercial",
-        "publicitada",
-        "vinculante",
-        "anuncia"
+        "publicidad",
+        "vendedor",
+        "fabricante",
+        "condiciones",
+        "consumidor",
+        "contrato",
+        "vinculante"
       ]
     },
     {
-      "pregunta": "¿Compré una lavadora cuyo anuncio dice que tiene 5 años de garantía, sin embargo, he leído que la garantía legal son 3... ¿cuál sería realmente la garantía?",
-      "respuesta": "La garantía legal de todos los productos es de 3 años, pero los fabricantes o vendedores pueden ofrecer una garantía adicional. De ser este el caso, podremos acogernos a ésta por ser más favorable al ser más larga.",
+      "pregunta": "Compré una lavadora cuyo anuncio dice que tiene 5 años de garantía, pero he leído que la garantía legal son 3 años. ¿Cuál sería realmente la garantía?",
+      "respuesta": "Tienes, como mínimo, la garantía legal de 3 años frente al vendedor. Si el anuncio ofrece 5 años de garantía, se trata de una garantía comercial adicional y quien la haya ofrecido debe respetarla en los términos anunciados. Esa garantía comercial puede mejorar o ampliar tus derechos, pero nunca reducir la garantía legal de 3 años.",
       "subcategoria": "Garantías",
       "keywords": [
-        "garantía",
-        "años",
-        "legal",
-        "compré",
         "lavadora",
-        "cuyo"
+        "garantía",
+        "legal",
+        "comercial",
+        "años",
+        "anuncio",
+        "vendedor",
+        "fabricante",
+        "derechos"
       ]
     },
     {
-      "pregunta": "Compré un coche y dice que tengo una garantía de 7 años pero que tengo que pasar las revisiones en los talleres oficiales de la marca ¿Es esto legal?",
-      "respuesta": "Podrás exigir la garantía legal durante los 3 primeros años sin que te puedan imponer que pases esas revisiones en los talleres oficiales. Transcurrido ese plazo de tiempo, se aplicará la garantía comercial ofrecida por el fabricante, y en ese caso, si que puede someterla a condiciones como que pases las revisiones en los talleres oficiales.",
+      "pregunta": "Compré un coche y dice que tengo una garantía de 7 años, pero que tengo que pasar las revisiones en los talleres oficiales de la marca. ¿Es esto legal?",
+      "respuesta": "Durante la garantía legal, el vendedor no puede negarte tus derechos solo porque hayas hecho el mantenimiento fuera de la red oficial, salvo que demuestre que la avería se debe a un mantenimiento incorrecto o a una intervención que causó el problema. En una garantía comercial adicional, como una garantía de 7 años ofrecida por la marca, pueden establecerse condiciones de mantenimiento, siempre que sean claras, proporcionadas y se hayan informado antes de contratar. En todo caso, esas condiciones no pueden reducir los derechos de la garantía legal.",
       "subcategoria": "Garantías",
       "keywords": [
+        "coche",
         "garantía",
         "revisiones",
         "talleres",
         "oficiales",
-        "años",
-        "legal"
+        "mantenimiento",
+        "legal",
+        "comercial",
+        "avería"
       ]
     },
     {
-      "pregunta": "Compré un libro electrónico hace un año, pero no funciona bien ¿Tengo derecho a exigir una sustitución conforme a la garantía?",
-      "respuesta": "Sí. La ley protege a las personas consumidoras en la compra de programas, aplicaciones, archivos, juegos, libros electrónicos y otros servicios digitales, incluso si son gratuitos y se obtienen a cambio de mis datos personales.",
+      "pregunta": "Compré hace un año un libro en formato digital y no funciona correctamente. ¿Qué puedo exigir conforme a la garantía?",
+      "respuesta": "Si el contenido digital presenta una falta de conformidad, puedes exigir a la empresa que lo ponga en conformidad de forma gratuita, por ejemplo corrigiendo el fallo o facilitándote de nuevo el contenido en condiciones adecuadas. Si no lo hace, resulta imposible o concurren otros supuestos previstos legalmente, puedes pedir una reducción del precio o resolver el contrato. Esta protección también puede aplicarse cuando el contenido se obtiene a cambio de facilitar datos personales, con las excepciones previstas legalmente.",
       "subcategoria": "Garantías",
       "keywords": [
-        "compré",
         "libro",
         "electrónico",
-        "hace",
-        "funciona",
-        "derecho"
+        "contenido",
+        "digital",
+        "garantía",
+        "conformidad",
+        "sustitución",
+        "datos",
+        "reclamación"
       ]
     },
     {
-      "pregunta": "Me descargué un juego para el móvil y no funciona bien. He reclamado a la empresa y me dice que, dado que no pagué un precio por ella, no tengo derecho a exigir la reparación o sustitución en garantía ¿es esto legal?",
-      "respuesta": "No. La ley protege a las personas consumidoras incluso si los servicios digitales gratuitos y se obtienen a cambio de mis datos personales.",
+      "pregunta": "Me descargué un juego para el móvil y no funciona bien. He reclamado a la empresa y me dice que, como no pagué un precio, no tengo derecho a exigir una solución en garantía. ¿Es esto legal?",
+      "respuesta": "No necesariamente. La garantía de contenidos y servicios digitales puede aplicarse aunque no hayas pagado dinero, si a cambio facilitaste datos personales o la empresa los trata para fines distintos de suministrar el contenido o cumplir obligaciones legales. En ese caso, si el juego no funciona correctamente, puedes exigir que lo pongan en conformidad, por ejemplo corrigiendo el fallo o facilitando una actualización. Si no se soluciona, no es posible hacerlo o el incumplimiento es importante, podrías pedir la resolución del contrato cuando proceda.",
       "subcategoria": "Garantías",
       "keywords": [
-        "descargué",
         "juego",
         "móvil",
-        "funciona",
-        "reclamado",
+        "contenido",
+        "digital",
+        "garantía",
+        "datos",
+        "personales",
+        "reclamación",
         "empresa"
       ]
     },
     {
       "pregunta": "¿Puedo reclamar si un contenido digital funciona mal por culpa de la instalación?",
-      "respuesta": "Sí. Si el fallo se debe a una instalación incorrecta o a instrucciones erróneas del proveedor, tengo derecho a que solucionen el problema dentro del periodo de garantía.",
+      "respuesta": "Sí, si el fallo se debe a una instalación incorrecta realizada por la empresa o bajo su responsabilidad, o a instrucciones de instalación incorrectas facilitadas por ella. En ese caso, se considera una falta de conformidad y puedes exigir que solucionen el problema conforme a la garantía aplicable al contenido o servicio digital.",
       "subcategoria": "Garantías",
       "keywords": [
-        "instalación",
-        "reclamar",
         "contenido",
         "digital",
-        "funciona",
-        "culpa"
+        "instalación",
+        "fallo",
+        "instrucciones",
+        "proveedor",
+        "garantía",
+        "conformidad",
+        "reclamación"
       ]
     },
     {
-      "pregunta": "Se acercan los 3 años desde que compré una videoconsola y la he tenido que llevar a reparar cuatro veces ¿se tiene en cuenta ese tiempo que la han estado reparando?",
-      "respuesta": "Sí. Durante la reparación, el plazo de garantía se suspende y solo vuelve a contar cuando me devuelvan el artículo arreglado.",
+      "pregunta": "Se acercan los 3 años desde que compré una videoconsola y la he tenido que llevar a reparar cuatro veces. ¿Se tiene en cuenta ese tiempo que la han estado reparando?",
+      "respuesta": "Sí. El plazo de garantía se suspende desde que pones el producto a disposición del vendedor para reparar la falta de conformidad hasta que te lo devuelven ya reparado. Además, si la videoconsola ha tenido que repararse varias veces y el problema continúa, puedes reclamar otra solución, como la sustitución, una rebaja del precio o la resolución del contrato, según las circunstancias.",
       "subcategoria": "Garantías",
       "keywords": [
-        "acercan",
-        "años",
-        "compré",
         "videoconsola",
-        "tenido",
-        "llevar"
+        "garantía",
+        "reparación",
+        "plazo",
+        "suspensión",
+        "vendedor",
+        "sustitución",
+        "rebaja",
+        "devolución"
       ]
     },
     {
       "pregunta": "¿Tengo garantía sobre la reparación realizada en mi producto?",
-      "respuesta": "Sí. La reparación cuenta con su propia garantía de seis meses, asegurando que el arreglo esté protegido.",
+      "respuesta": "Sí. Si el producto se repara en aplicación de la garantía legal, el plazo de garantía queda suspendido mientras dura la reparación. Además, durante el año siguiente a la entrega del producto ya reparado, si reaparece el mismo defecto o uno con el mismo origen, se presume que se trata de la misma falta de conformidad, salvo prueba en contrario.",
       "subcategoria": "Garantías",
       "keywords": [
         "garantía",
         "reparación",
-        "realizada",
         "producto",
-        "cuenta",
-        "propia"
+        "plazo",
+        "año",
+        "fallo",
+        "conformidad",
+        "reclamación"
       ]
     },
     {
-      "pregunta": "He llevado un ordenador a reparar en garantía, pero sigue fallando, ¿puedo reclamar otra solución?",
-      "respuesta": "Sí. Si no se puede reparar correctamente o sigue dando problemas, puedes pedir la sustitución y si no acceden, o hecha esta, siguen los problemas, podrás elegir entre una rebaja del precio o la devolución del dinero.",
+      "pregunta": "He llevado un ordenador a reparar en garantía, pero sigue fallando. ¿Puedo reclamar otra solución?",
+      "respuesta": "Sí. Si la reparación no ha solucionado el problema y aparece una falta de conformidad después de ese intento de puesta en conformidad, puedes exigir una rebaja del precio o la resolución del contrato, salvo que para esta última la falta sea de escasa importancia. También puedes optar por otra medida de puesta en conformidad, como la sustitución, cuando resulte procedente. No tienes que aceptar indefinidamente sucesivos intentos de reparación.",
       "subcategoria": "Garantías",
       "keywords": [
-        "reparar",
-        "sigue",
-        "problemas",
-        "llevado",
         "ordenador",
+        "garantía",
+        "reparación",
+        "fallo",
+        "sustitución",
+        "rebaja",
+        "resolución",
+        "devolución",
+        "conformidad"
+      ]
+    },
+    {
+      "pregunta": "¿Qué debo revisar antes de comprar por internet?",
+      "respuesta": "Antes de comprar por internet conviene comprobar, al menos, quién vende el producto, sus datos de contacto, el precio total con impuestos y gastos incluidos, los plazos de entrega, los medios de pago, las condiciones de devolución, el derecho de desistimiento cuando exista y la garantía legal. Si compras en un marketplace o plataforma, revisa si el vendedor es una empresa o un particular, porque si es un particular no se aplican los derechos de consumo frente a ese vendedor. Si la web no identifica claramente a la empresa o al vendedor, desconfía.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "compra online",
+        "internet",
+        "aviso legal",
+        "vendedor",
+        "precio",
+        "entrega",
+        "devolución",
+        "desistimiento",
         "garantía"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es un marketplace?",
+      "respuesta": "Un marketplace o plataforma de venta en línea es una página web o aplicación que permite comprar productos o contratar servicios ofrecidos por distintos vendedores. En algunos casos, la plataforma solo actúa como intermediaria entre comprador y vendedor. En otros, además de permitir ventas de terceros, también vende sus propios productos directamente. Por eso es importante comprobar en cada compra quién es el vendedor real.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "marketplace",
+        "plataforma",
+        "venta online",
+        "vendedor",
+        "intermediario",
+        "terceros",
+        "productos",
+        "servicios"
+      ]
+    },
+    {
+      "pregunta": "He entrado en una página web y, al interesarme por un producto, he visto que está “vendido por...” y figura un nombre que no es el de la página web. ¿Entonces no me está vendiendo el producto la empresa de la página web?",
+      "respuesta": "Probablemente no. Si el producto aparece como “vendido por” otra empresa o persona, normalmente la página web actúa como marketplace o plataforma intermediaria, y el vendedor es quien aparece indicado en el anuncio, en la confirmación de compra o en la factura. Aun así, la plataforma puede tener obligaciones propias de información, atención al cliente o gestión de incidencias, según el servicio que preste y lo que haya ofrecido al consumidor.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "vendido por",
+        "marketplace",
+        "plataforma",
+        "vendedor",
+        "intermediario",
+        "factura",
+        "confirmación compra",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Compré una aspiradora a través de un marketplace y se ha estropeado a los dos meses. ¿A quién tengo que reclamar?",
+      "respuesta": "Debes reclamar al vendedor que figura en la compra, normalmente identificado como “vendido por” y recogido en la confirmación del pedido o en la factura. Si el vendedor es una empresa, se aplica la garantía legal de los productos. También puedes contactar con la plataforma, especialmente si ofrece un sistema de atención al cliente, mediación o garantía propia, pero la responsabilidad principal por la falta de conformidad del producto corresponde al vendedor.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "aspiradora",
+        "marketplace",
+        "avería",
+        "garantía legal",
+        "vendedor",
+        "plataforma",
+        "reclamación",
+        "factura",
+        "particular"
+      ]
+    },
+    {
+      "pregunta": "¿Qué obligaciones de información tienen los marketplaces o plataformas de venta en línea?",
+      "respuesta": "Los marketplaces deben facilitar información clara antes de la compra. Entre otras cuestiones, deben indicar los principales criterios que determinan el orden de los resultados de búsqueda, si quien vende es una empresa o un particular según la declaración realizada por ese vendedor y, cuando proceda, cómo se reparten las obligaciones entre la plataforma y el vendedor. Si el vendedor es un particular, deben advertir de que la normativa de protección de las personas consumidoras no se aplica al contrato. También deben informar, cuando corresponda, de las garantías o seguros que ofrezca la propia plataforma y de los mecanismos de resolución de conflictos disponibles.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "marketplace",
+        "plataforma",
+        "información",
+        "vendedor",
+        "particular",
+        "empresa",
+        "resultados búsqueda",
+        "garantía",
+        "desistimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a recibir un ticket o justificante de compra en una tienda física?",
+      "respuesta": "Sí. La tienda debe entregarte un justificante de la compra, como un ticket o factura simplificada, donde consten los datos básicos de la operación. Ese documento es importante para reclamar, ejercer la garantía o acreditar la fecha de compra. Si necesitas una factura completa, puedes solicitarla, aunque pueden pedirte los datos fiscales necesarios para emitirla.",
+      "subcategoria": "Compra en tienda física",
+      "keywords": [
+        "ticket",
+        "factura",
+        "justificante",
+        "compra",
+        "tienda",
+        "garantía",
+        "reclamación",
+        "prueba"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si una tienda física no me da hoja de reclamaciones?",
+      "respuesta": "Puedes reclamar igualmente por otros medios que dejen constancia, como correo electrónico, burofax o escrito dirigido a la empresa. Además, puedes comunicar a los servicios de consumo de tu comunidad autónoma que el establecimiento no tenía o no quiso facilitar hojas de reclamaciones. La obligación concreta de disponer de hojas de reclamaciones y su formato varía por comunidad autónoma.",
+      "subcategoria": "Compra en tienda física",
+      "keywords": [
+        "hoja",
+        "reclamaciones",
+        "tienda",
+        "consumo",
+        "comunidad",
+        "autónoma",
+        "empresa",
+        "queja"
+      ]
+    },
+    {
+      "pregunta": "Si reservo un producto en una tienda y dejo una señal, ¿puedo recuperarla si me arrepiento?",
+      "respuesta": "Si reservas un producto en una tienda física, no tienes con carácter general derecho a cancelar la compra por simple arrepentimiento. Las consecuencias sobre la señal dependerán de lo pactado, pero las condiciones deben ser claras y no pueden ser abusivas. Por ejemplo, puede ser abusiva una cláusula que permita al comercio quedarse con la señal si tú renuncias sin prever una compensación equivalente si es el comercio quien renuncia. Si la tienda incumple lo acordado, puedes reclamar la devolución de la cantidad entregada y los demás derechos que correspondan.",
+      "subcategoria": "Compra en tienda física",
+      "keywords": [
+        "reserva",
+        "señal",
+        "tienda",
+        "devolución",
+        "producto",
+        "arrepentimiento",
+        "condiciones",
+        "incumplimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una tienda venderme un producto de exposición como si fuera nuevo?",
+      "respuesta": "Una tienda puede vender un producto de exposición, pero no debe ocultar desperfectos, desgaste, falta de accesorios u otras características que se aparten de lo que razonablemente cabe esperar del producto. Si existe alguna de esas diferencias, debe informarte específicamente antes de la compra y debes aceptarla de forma expresa y por separado. En todo caso, si compras a una empresa, el producto mantiene la garantía legal respecto de las faltas de conformidad que no te hayan sido comunicadas y aceptadas de esa forma.",
+      "subcategoria": "Compra en tienda física",
+      "keywords": [
+        "exposición",
+        "producto",
+        "nuevo",
+        "reacondicionado",
+        "defecto",
+        "información",
+        "garantía",
+        "tienda"
+      ]
+    },
+    {
+      "pregunta": "¿Tienen la misma garantía los productos comprados en rebajas, saldo u outlet?",
+      "respuesta": "Sí. Un producto no pierde la garantía legal por venderse en rebajas, promoción u outlet. Si se vende con un desperfecto o característica concreta que se aparta de lo normalmente exigible, esa circunstancia debe haberte sido comunicada específicamente y debes haberla aceptado de forma expresa y separada para que después no puedas reclamar por ella. Si se trata de un producto de segunda mano, puede pactarse un plazo de garantía inferior a 3 años, pero nunca inferior a 1 año.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "garantía",
+        "rebajas",
+        "outlet",
+        "saldo",
+        "defecto",
+        "producto",
+        "tienda",
+        "promoción"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si compro un producto y después se descubre que es inseguro o ha sido retirado del mercado?",
+      "respuesta": "Debes dejar de usar el producto si existe un riesgo para la seguridad y seguir las instrucciones de retirada o recuperación. En estos casos, el responsable de la retirada debe ofrecerte una solución gratuita y, con carácter general, permitirte elegir entre al menos dos opciones: reparación, sustitución por un producto seguro o reembolso. Si el producto te ha causado daños, también puedes reclamar la indemnización que corresponda. Puedes informar del producto inseguro a las autoridades competentes.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "producto",
+        "inseguro",
+        "retirada",
+        "mercado",
+        "seguridad",
+        "fabricante",
+        "reembolso",
+        "daños"
+      ]
+    },
+    {
+      "pregunta": "Si compro por internet, ¿qué pasa si el botón final de compra no deja claro que voy a pagar?",
+      "respuesta": "En una compra online, la empresa debe dejar claro en el momento final que el pedido implica una obligación de pago, por ejemplo con una expresión como “pedido con obligación de pago” u otra equivalente. Si el botón o paso final no informa claramente de esa obligación, no quedarás obligado por el contrato o pedido.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "botón",
+        "pedido",
+        "pago",
+        "internet",
+        "compra",
+        "contrato",
+        "obligación",
+        "web"
+      ]
+    },
+    {
+      "pregunta": "¿Me pueden cobrar suplementos en una compra online si venían marcados por defecto?",
+      "respuesta": "No. La empresa no puede obtener tu consentimiento para pagos adicionales mediante casillas premarcadas o servicios añadidos por defecto. Todo pago extra debe ser aceptado expresamente por la persona consumidora. Si te han cobrado un suplemento que no aceptaste expresamente, tienes derecho a que te lo reembolsen.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "suplementos",
+        "casillas",
+        "premarcadas",
+        "compra",
+        "online",
+        "pago",
+        "devolución",
+        "servicios"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo que pagar gastos adicionales si la web no me informó de ellos antes de comprar?",
+      "respuesta": "No. Antes de contratar, la empresa debe informar del precio total, incluidos impuestos, gastos de envío y cualquier otro gasto adicional. Si no puede calcularlos de antemano, debe advertir claramente que pueden existir. Si no te informó de esos gastos antes de la compra, no tienes obligación de abonarlos.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "gastos",
+        "adicionales",
+        "precio",
+        "envío",
+        "internet",
+        "compra",
+        "información",
+        "pago"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo ejercer el desistimiento antes de que me llegue el producto comprado por internet?",
+      "respuesta": "Sí. Aunque el plazo de desistimiento empieza normalmente cuando recibes el producto, puedes comunicar tu decisión de desistir antes de la entrega. Conviene hacerlo por un medio que deje constancia. Si el producto ya se ha enviado, puede que tengas que seguir las instrucciones de devolución y asumir los gastos directos de devolución si la empresa te informó previamente de ello.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "desistimiento",
+        "antes",
+        "entrega",
+        "producto",
+        "internet",
+        "devolución",
+        "plazo",
+        "compra"
+      ]
+    },
+    {
+      "pregunta": "¿Cuánto tiempo tiene la tienda online para devolverme el dinero si desisto?",
+      "respuesta": "La empresa debe devolverte el dinero sin demora indebida y, como máximo, en 14 días naturales desde que le informas de tu decisión de desistir. Puede retener el reembolso hasta recibir el producto o hasta que acredites que lo has devuelto, salvo que se haya ofrecido a recogerlo. Si se retrasa injustificadamente, puedes reclamar.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "reembolso",
+        "dinero",
+        "desistimiento",
+        "tienda",
+        "online",
+        "plazo",
+        "devolución",
+        "producto"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo usar el producto comprado por internet antes de devolverlo por desistimiento?",
+      "respuesta": "Puedes manipular el producto solo lo necesario para comprobar su naturaleza, características y funcionamiento, como harías razonablemente en una tienda. Si lo usas más de lo necesario y pierde valor, la empresa puede reclamarte o descontarte esa pérdida de valor, siempre que te hubiera informado correctamente del derecho de desistimiento.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "uso",
+        "producto",
+        "desistimiento",
+        "devolución",
+        "internet",
+        "valor",
+        "manipulación",
+        "tienda"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo desistir de un servicio contratado por internet si la empresa ya ha empezado a prestarlo?",
+      "respuesta": "Depende. Si pediste expresamente que el servicio empezara durante el plazo de desistimiento y la empresa te informó correctamente de las consecuencias, puede exigirte el pago proporcional de la parte ya prestada si desistes. Si no solicitaste expresamente ese inicio o no te facilitó la información legalmente exigida, no tendrás que pagar esa parte. Si el servicio se ha ejecutado completamente, solo perderás el derecho de desistimiento si consentiste previamente su ejecución y reconociste que lo perderías una vez completado.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "servicio",
+        "internet",
+        "desistimiento",
+        "ejecución",
+        "consentimiento",
+        "pago",
+        "proporcional",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "¿Qué derechos tengo si la tienda online cancela mi pedido después de haberlo pagado porque dice que no tiene stock?",
+      "respuesta": "Si la tienda no puede entregar el producto porque no está disponible, debe informarte y devolverte sin demora indebida todo lo que hayas pagado. Si se retrasa injustificadamente en la devolución, puedes reclamar el doble de la cantidad adeudada, además de los daños y perjuicios que correspondan. Si la tienda anunció el producto sin disponer de existencias razonables y sin advertirlo, también podría tratarse de una práctica comercial engañosa.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "pedido",
+        "cancelación",
+        "stock",
+        "tienda",
+        "online",
+        "reembolso",
+        "oferta",
+        "existencias"
+      ]
+    },
+    {
+      "pregunta": "¿La web debe decirme si las opiniones de otros compradores son reales?",
+      "respuesta": "Sí. Si una web muestra opiniones de consumidores, debe informarte de si garantiza que proceden de personas que realmente han comprado o utilizado el producto y explicar de forma clara cómo procesa las reseñas. Además, las reseñas deben referirse a productos o servicios adquiridos o utilizados en los 30 días anteriores a su publicación. Está prohibido que una empresa añada o encargue reseñas falsas, las distorsione o afirme que proceden de compradores reales sin tomar medidas razonables para comprobarlo.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "opiniones",
+        "reseñas",
+        "compradores",
+        "web",
+        "producto",
+        "falsas",
+        "información",
+        "consumidores"
+      ]
+    },
+    {
+      "pregunta": "¿La tienda online debe avisarme si el precio se ha personalizado automáticamente para mí?",
+      "respuesta": "Sí. Si el precio se ha personalizado mediante decisiones automatizadas, la empresa debe informarte de forma clara antes de contratar. Esto no significa que todo precio variable sea ilegal, pero la persona consumidora debe saber si el precio que ve se ha adaptado específicamente usando sistemas automatizados.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "precio",
+        "personalizado",
+        "automatizado",
+        "tienda",
+        "online",
+        "información",
+        "algoritmo",
+        "compra"
+      ]
+    },
+    {
+      "pregunta": "¿Qué ocurre si compro por redes sociales a una cuenta que vende productos?",
+      "respuesta": "Debes comprobar quién vende realmente: si es una empresa o profesional, se aplica la normativa de consumo aunque la venta se haga por una red social. Deben informarte de su identidad, precio total, condiciones, desistimiento y garantía. Si es un particular que vende de forma ocasional, no se aplican las mismas normas de consumo, aunque podrían existir acciones civiles. Si la cuenta no identifica al vendedor, conviene desconfiar.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "redes",
+        "sociales",
+        "compra",
+        "vendedor",
+        "empresa",
+        "particular",
+        "desistimiento",
+        "garantía"
+      ]
+    },
+    {
+      "pregunta": "Si compro en una web extranjera, ¿me pueden cobrar aduanas o impuestos que no aparecían en el precio?",
+      "respuesta": "Si el producto se envía desde fuera de la Unión Europea, pueden aplicarse IVA, derechos de aduana u otros gastos de gestión. La empresa debe informarte antes de comprar de los gastos adicionales que puedan corresponder o, si no pueden calcularse de antemano, advertirte claramente de que pueden existir. Si no te informó, puedes reclamar, aunque los impuestos o derechos exigibles por las autoridades aduaneras pueden seguir teniendo que pagarse.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "aduanas",
+        "impuestos",
+        "aranceles",
+        "web",
+        "extranjera",
+        "precio",
+        "gastos",
+        "unión",
+        "europea"
+      ]
+    },
+    {
+      "pregunta": "¿Qué pasa si el vendedor que vino a mi casa no me entregó copia del contrato?",
+      "respuesta": "En una compra fuera de establecimiento, la empresa debe entregarte una copia del contrato firmado o la confirmación del contrato en papel o, si aceptas, en otro soporte duradero. Si no lo hace, el contrato puede ser anulado a petición tuya; la empresa no puede invocar ese incumplimiento en su propio beneficio, salvo que sea exclusivamente imputable a la persona consumidora. Además, si no te informó correctamente sobre el derecho de desistimiento, el plazo para desistir puede ampliarse.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "contrato",
+        "copia",
+        "domicilio",
+        "fuera",
+        "establecimiento",
+        "desistimiento",
+        "empresa",
+        "soporte"
+      ]
+    },
+    {
+      "pregunta": "¿Puede la empresa empezar a prestar un servicio contratado en mi casa antes de que termine el plazo de desistimiento?",
+      "respuesta": "Sí, pero solo si tú pides expresamente que el servicio empiece antes de que termine el plazo de desistimiento y esa petición queda recogida por escrito o en otro formato que puedas conservar, como un correo electrónico. Si después desistes, la empresa puede cobrarte la parte proporcional del servicio ya prestado, siempre que te hubiera informado correctamente. Si el servicio se completa durante ese plazo, solo perderás el derecho a desistir si también declaraste que conocías que lo perderías una vez ejecutado por completo.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "servicio",
+        "domicilio",
+        "desistimiento",
+        "inicio",
+        "plazo",
+        "consentimiento",
+        "pago",
+        "empresa"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo que pagar algo si desisto de una compra hecha en mi domicilio?",
+      "respuesta": "En principio, desistir no tiene penalización. Puedes tener que pagar los gastos directos de devolución si la empresa te informó previamente de que te correspondía asumirlos; si no lo hizo, no debe exigírtelos. Además, si el contrato se celebró fuera del establecimiento y los bienes se entregaron en tu domicilio en ese momento, la empresa deberá recogerlos a su cargo cuando, por su naturaleza, no puedan devolverse por correo.",
+      "subcategoria": "Compra fuera de establecimiento",
+      "keywords": [
+        "desistimiento",
+        "domicilio",
+        "gastos",
+        "devolución",
+        "recogida",
+        "empresa",
+        "producto",
+        "penalización"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si una empresa me envía un producto que no he pedido y luego me exige pagarlo?",
+      "respuesta": "No tienes obligación de pagar ni de devolver productos o servicios que no hayas solicitado. La falta de respuesta no significa aceptación. Si la empresa insiste en cobrarte, puedes reclamar y ponerlo en conocimiento de los servicios de consumo.",
+      "subcategoria": "Compra a distancia",
+      "keywords": [
+        "producto",
+        "no",
+        "pedido",
+        "pago",
+        "envío",
+        "empresa",
+        "reclamación",
+        "consumo"
+      ]
+    },
+    {
+      "pregunta": "¿Necesito conservar el embalaje original para reclamar la garantía?",
+      "respuesta": "No. Con carácter general, la empresa no puede negarte la garantía legal solo porque no conserves la caja o el embalaje original. Para ejercerla, lo relevante es acreditar la compra y comunicar la falta de conformidad del producto. Distinto es que, en cambios o devoluciones voluntarias ofrecidos por la empresa al margen de la garantía legal, pueda establecer condiciones como conservar el embalaje, siempre que las haya informado previamente y de forma clara.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "embalaje",
+        "caja",
+        "garantía",
+        "producto",
+        "tienda",
+        "devolución",
+        "compra",
+        "conformidad"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar la garantía si he perdido el ticket de compra?",
+      "respuesta": "Sí. Si has perdido el ticket, puedes reclamar la garantía si acreditas la compra por otros medios, como la factura, un justificante bancario, un correo de confirmación o cualquier otra prueba que permita identificar la operación. El ticket facilita la reclamación, pero no es el único medio válido para demostrar la compra.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "ticket",
+        "garantía",
+        "factura",
+        "prueba",
+        "compra",
+        "justificante",
+        "reclamación",
+        "producto"
+      ]
+    },
+    {
+      "pregunta": "¿Cuánto tiempo puede tardar la tienda en reparar o sustituir un producto en garantía?",
+      "respuesta": "La reparación o sustitución debe hacerse en un plazo razonable desde que la tienda conoce la falta de conformidad y sin mayores inconvenientes para la persona consumidora. La ley no fija un número exacto de días para todos los productos. Si la reparación se alarga de forma injustificada, puedes pedir otra solución, como sustitución, rebaja del precio o resolución del contrato, según el caso.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "reparación",
+        "sustitución",
+        "plazo",
+        "garantía",
+        "tienda",
+        "producto",
+        "retraso",
+        "solución"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a que me dejen un producto de sustitución mientras reparan el mío en garantía?",
+      "respuesta": "No existe una regla general que obligue siempre a la tienda a prestarte un producto de sustitución mientras dura la reparación. Puede estar previsto en una garantía comercial, en la política de la empresa o en normativa sectorial concreta. En todo caso, la reparación debe hacerse en un plazo razonable y sin inconvenientes importantes.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "producto",
+        "sustitución",
+        "reparación",
+        "garantía",
+        "préstamo",
+        "tienda",
+        "plazo",
+        "inconvenientes"
+      ]
+    },
+    {
+      "pregunta": "Si un producto en garantía tiene que desmontarse para repararlo o sustituirlo, ¿quién paga la retirada y la nueva instalación?",
+      "respuesta": "Si el producto fue instalado de forma coherente con su naturaleza y finalidad antes de aparecer el defecto, aunque lo instalaras tú mismo, la reparación o sustitución debe incluir la retirada del producto defectuoso y la instalación del reparado o sustituido, o la empresa debe asumir esos costes. Por ejemplo, puede ser relevante en electrodomésticos encastrados, muebles instalados o aparatos fijados a la vivienda.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "instalación",
+        "retirada",
+        "producto",
+        "defectuoso",
+        "garantía",
+        "costes",
+        "reparación",
+        "sustitución"
+      ]
+    },
+    {
+      "pregunta": "¿Puede la tienda negarse a la garantía diciendo que el fallo se debe al desgaste normal?",
+      "respuesta": "Puede negarse si el problema se debe realmente al desgaste normal, mal uso, falta de mantenimiento o daño causado por la persona consumidora. Pero no basta con afirmarlo de forma genérica. Si el fallo aparece dentro de los dos primeros años desde la entrega, se presume que ya existía al entregarse el producto, salvo que el vendedor pruebe lo contrario o que esa presunción sea incompatible con el producto o el defecto.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "desgaste",
+        "mal",
+        "uso",
+        "garantía",
+        "fallo",
+        "producto",
+        "prueba",
+        "vendedor"
+      ]
+    },
+    {
+      "pregunta": "¿Qué actualizaciones debe recibir un producto con elementos digitales, como un reloj inteligente o un electrodoméstico conectado?",
+      "respuesta": "La empresa debe suministrar las actualizaciones necesarias para que el producto siga siendo conforme, incluidas las de seguridad, durante el periodo que corresponda según el tipo de contrato y lo que razonablemente pueda esperar la persona consumidora. Debe informarte de esas actualizaciones. Si no las proporciona y el producto deja de funcionar correctamente o pierde seguridad, puedes reclamar conforme a la garantía.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "actualizaciones",
+        "producto",
+        "digital",
+        "seguridad",
+        "reloj",
+        "inteligente",
+        "garantía",
+        "conformidad"
+      ]
+    },
+    {
+      "pregunta": "¿Qué pasa si no instalo una actualización necesaria del producto digital o conectado?",
+      "respuesta": "Si la empresa te informó de la actualización y de las consecuencias de no instalarla, y no la instalas en un plazo razonable, la empresa puede no ser responsable de los fallos causados únicamente por la falta de esa actualización. En cambio, si no te informó correctamente o no pudiste instalarla correctamente por deficiencias en las instrucciones facilitadas, esta excepción no se aplica.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "actualización",
+        "producto",
+        "digital",
+        "instalar",
+        "garantía",
+        "fallos",
+        "información",
+        "conectado"
+      ]
+    },
+    {
+      "pregunta": "Si resuelvo el contrato de un contenido digital, ¿puedo recuperar los archivos o contenidos que he creado usando ese servicio?",
+      "respuesta": "Sí, salvo determinadas excepciones. Si resuelves el contrato por falta de conformidad de un contenido o servicio digital, tienes derecho a recuperar los contenidos que hayas creado o facilitado al usar el servicio, sin coste, en un plazo razonable y en un formato habitual y legible electrónicamente. Entre las excepciones están los contenidos que no tengan utilidad fuera del servicio o que hayan sido agregados con otros datos por la empresa y no puedan desagregarse, o solo puedan hacerlo con esfuerzos desproporcionados.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "contenido",
+        "digital",
+        "archivos",
+        "datos",
+        "servicio",
+        "resolución",
+        "contrato",
+        "recuperar"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar una indemnización si un producto defectuoso me causa daños?",
+      "respuesta": "Sí, si puedes acreditar el daño, el defecto y la relación entre ambos. Además de reclamar la garantía frente al vendedor, puede existir responsabilidad por daños causados por productos defectuosos, especialmente frente al productor. La reclamación de daños personales o materiales puede requerir prueba técnica y, si no hay acuerdo, normalmente se plantea por vía judicial.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "indemnización",
+        "daños",
+        "producto",
+        "defectuoso",
+        "garantía",
+        "productor",
+        "prueba",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué diferencia hay entre que un producto no sea conforme y que simplemente no me guste?",
+      "respuesta": "La diferencia está en si el producto cumple o no con lo contratado. Si presenta un defecto, no coincide con lo anunciado o no reúne las características o prestaciones que razonablemente cabía esperar, puede existir una falta de conformidad y puedes ejercer los derechos de garantía. Si el producto es conforme pero simplemente no te gusta o has cambiado de opinión, no existe un derecho general a devolverlo cuando lo compras en una tienda física, salvo que la propia tienda ofrezca esa posibilidad. En las compras a distancia, en cambio, normalmente puedes ejercer el derecho de desistimiento dentro del plazo legal, salvo las excepciones previstas.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "conformidad",
+        "producto",
+        "defecto",
+        "gusto",
+        "arrepentimiento",
+        "garantía",
+        "desistimiento",
+        "devolución"
+      ]
+    },
+    {
+      "pregunta": "¿Puede la tienda obligarme a aceptar un vale en lugar de devolverme el dinero cuando el producto está defectuoso?",
+      "respuesta": "No. Si el producto no es conforme, la tienda no puede sustituir tus derechos legales por un vale. Según el caso, podrás exigir la reparación o sustitución y, cuando proceda, una rebaja del precio o la resolución del contrato. Si tienes derecho a un reembolso, debe hacerse por el mismo medio de pago utilizado, salvo que aceptes expresamente otro medio que no te suponga costes adicionales; la empresa no puede imponerte un vale.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "vale",
+        "defectuoso",
+        "producto",
+        "garantía",
+        "dinero",
+        "devolución",
+        "tienda",
+        "reparación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué ocurre si la reparación en garantía me causa gastos, como transporte o envío del producto?",
+      "respuesta": "La reparación o sustitución cubierta por la garantía legal debe ser gratuita para la persona consumidora. Esa gratuidad incluye los gastos necesarios para poner el producto en conformidad, como envío, transporte, mano de obra y materiales. La empresa no puede exigirte que asumas esos costes cuando correspondan a una reparación o sustitución cubierta por la garantía legal.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "gastos",
+        "transporte",
+        "envío",
+        "reparación",
+        "sustitución",
+        "garantía",
+        "producto",
+        "gratuidad"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar la garantía de un producto comprado en otro país de la Unión Europea?",
+      "respuesta": "Sí. Si resides en España y compras a un vendedor de otro país de la Unión Europea que dirige su actividad comercial a España, la normativa aplicable no depende simplemente de dónde esté domiciliado el vendedor: con carácter general, se mantienen las normas imperativas de protección que te reconoce la legislación española. Es diferente, por ejemplo, si durante un viaje compras directamente en una tienda local que no dirige su actividad a España, supuesto en el que pueden aplicarse las normas del país de compra. En caso de conflicto con un vendedor de otro Estado miembro, reclama primero al vendedor y, si no obtienes una solución satisfactoria, puedes solicitar ayuda al Centro Europeo del Consumidor en España.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "garantía",
+        "unión",
+        "europea",
+        "producto",
+        "país",
+        "vendedor",
+        "reclamación",
+        "centro"
+      ]
+    },
+    {
+      "pregunta": "¿Puede la tienda decir que la garantía empieza desde la fecha de factura si el producto me lo entregaron después?",
+      "respuesta": "La garantía legal de los bienes se cuenta desde la entrega del producto, no necesariamente desde la fecha de factura si son fechas distintas. Por eso conviene conservar cualquier prueba de la entrega, como albarán, correo de entrega o justificante del transportista.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "garantía",
+        "fecha",
+        "factura",
+        "entrega",
+        "producto",
+        "plazo",
+        "albarán",
+        "prueba"
+      ]
+    },
+    {
+      "pregunta": "¿Qué derechos tengo si el producto de sustitución que me dan en garantía también falla?",
+      "respuesta": "Si el producto que te han dado en sustitución también presenta una falta de conformidad, puedes volver a reclamar al vendedor. Al haber aparecido una falta de conformidad después de un intento de poner el producto en conformidad, puedes exigir una rebaja del precio o la resolución del contrato, salvo que esta última no proceda por ser la falta de escasa importancia. También puedes optar por una nueva reparación o sustitución cuando resulte procedente.",
+      "subcategoria": "Garantías",
+      "keywords": [
+        "sustitución",
+        "producto",
+        "garantía",
+        "fallo",
+        "reparación",
+        "rebaja",
+        "resolución",
+        "vendedor"
       ]
     }
   ]

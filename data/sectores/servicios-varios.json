@@ -1,980 +1,1769 @@
 {
   "sector": "Servicios varios",
-  "total_preguntas": 75,
+  "total_preguntas": 111,
+  "generado": "2026-09-08T16:46:37",
   "preguntas": [
     {
-      "pregunta": "Contraté con una empresa la mudanza de mi despacho profesional y había una cláusula que es contraria a la normativa del derecho de consumo ¿puedo hacer una reclamación?",
-      "respuesta": "No. Al contratar la mudanza en el contexto de una actividad empresarial, no actúas como persona consumidora. Por tanto, no se te aplican los derechos previstos en la normativa de consumo.",
+      "pregunta": "Contraté con una empresa la mudanza de mi despacho profesional y había una cláusula contraria a la normativa de consumo. ¿Puedo reclamar?",
+      "respuesta": "Si contrataste la mudanza para tu despacho profesional, en principio no actúas como persona consumidora, porque el servicio está vinculado a tu actividad empresarial o profesional. Por tanto, no podrías reclamar aplicando la normativa de consumo ni invocar derechos propios de las personas consumidoras, como el control de cláusulas abusivas. No obstante, sí podrías reclamar por otras vías, por ejemplo si la empresa incumple el contrato o la normativa aplicable al transporte o a las mudanzas.",
       "subcategoria": "Mudanzas",
       "keywords": [
         "mudanza",
-        "normativa",
+        "despacho",
+        "profesional",
+        "empresa",
         "consumo",
-        "contraté",
-        "empresa",
-        "despacho"
+        "reclamación",
+        "cláusula",
+        "contrato"
       ]
     },
     {
-      "pregunta": "He contratado con una empresa la mudanza de mi casa ¿Qué servicios puedo exigir?",
-      "respuesta": "Depende de lo que hayas contratado, puede incluir desde la recogida y el transporte hacia el nuevo destino, hasta el embalaje, desmontaje, montaje y transporte de todas las pertenencias. La empresa está obligada a informare, si lo solicitas antes de la realización del servicio, de los precios y tarifas de sus servicios.",
+      "pregunta": "He contratado con una empresa la mudanza de mi casa. ¿Qué servicios puedo exigir?",
+      "respuesta": "Puedes exigir el transporte y el traslado de los objetos hasta el lugar de destino. Además, salvo que se haya pactado expresamente lo contrario, corresponden a la empresa las operaciones de carga y descarga y, en los mismos términos, armar, desarmar, embalar, desembalar y colocar los bienes en el lugar que indiques. Antes de iniciar la mudanza, la empresa debe presentarte un presupuesto escrito en el que consten los servicios que prestará, su coste, el coste del propio presupuesto y el precio total de la mudanza.",
       "subcategoria": "Mudanzas",
       "keywords": [
-        "contratado",
-        "empresa",
-        "servicios",
-        "transporte",
-        "mudanza",
-        "casa"
-      ]
-    },
-    {
-      "pregunta": "Quiero contratar con una empresa la mudanza de mi casa y me ha dicho que tengo que contratar un seguro por si se producen daños y que si no, ellos no se hacen responsables ¿es legal?",
-      "respuesta": "No, la empresa de mudanzas será responsable de pérdida o deterioro de los productos durante la prestación del servicio.",
-      "subcategoria": "Mudanzas",
-      "keywords": [
-        "contratar",
-        "empresa",
-        "quiero",
         "mudanza",
         "casa",
-        "seguro"
-      ]
-    },
-    {
-      "pregunta": "¿Qué debe contener la información previa a facilitar por la empresa de mudanzas a un particular para la prestación del servicio?",
-      "respuesta": "Al menos contendrá: el nombre, domicilio y número de identificación fiscal de la empresa; nombre y domicilio del cliente; fecha y lugar de recepción y entrega de los objetos; existencia de objetos cuyo transporte esté sujeto a regulación especial; tipo de mercancía y número de objetos a cargar; indicación sobre la necesidad o no de utilizar embalajes especiales, de tener que realizar desmontaje, montaje o colocación de muebles; precio desglosado del servicio contratado, impuestos incluidos y el seguro que cubra los posibles desperfectos en los muebles.",
-      "subcategoria": "Mudanzas",
-      "keywords": [
-        "objetos",
         "empresa",
-        "servicio",
-        "nombre",
-        "domicilio",
-        "número"
+        "servicios",
+        "presupuesto",
+        "contrato",
+        "transporte",
+        "embalaje",
+        "montaje"
       ]
     },
     {
-      "pregunta": "Hace seis días me hicieron una mudanza y al deshacer las cajas para colocarlas en casa he descubierto que me rompieron un elemento que estaba en una caja ¿puedo reclamar?",
-      "respuesta": "Si, concluida la mudanza, dispones de siete días para reclamar los daños que no eran visibles cuando se realizó la mudanza.",
+      "pregunta": "Quiero contratar con una empresa la mudanza de mi casa y me ha dicho que tengo que contratar un seguro por si se producen daños y que, si no lo hago, ellos no se hacen responsables. ¿Es legal?",
+      "respuesta": "No. La empresa de mudanzas no puede liberarse de su responsabilidad por el hecho de que no contrates un seguro. La empresa responde de las pérdidas o daños en los bienes en los términos establecidos legalmente, con independencia de que contrates o no un seguro adicional. Debe informarte de la posibilidad de contratar ese seguro, pero su contratación es una cobertura adicional y no sustituye ni elimina la responsabilidad de la empresa.",
       "subcategoria": "Mudanzas",
       "keywords": [
         "mudanza",
-        "días",
-        "reclamar",
-        "hace",
-        "seis",
-        "hicieron"
-      ]
-    },
-    {
-      "pregunta": "¿Puede eximir su responsabilidad una empresa de mudanzas en algún caso?",
-      "respuesta": "Si, si se da alguno de los siguientes supuestos:<ul><li>Deficiencias en el embalaje o marcado de los bienes realizado por el usuario.</li><li>Manipulación efectuada por el usuario.</li><li>Cuando se transporten animales vivos o plantas.</li><li>La carga o descarga de bienes cuya dimensión o peso no sea adecuado para los medios de transporte acordados, siempre que la empresa le haya avisado del riesgo de daños en estos y aún así el usuario haya insistido en la realización de la misma.</li><li>Falsedad o incorrección en la información proporcionada.</li><li>Naturaleza propia de los bienes objeto de la mudanza.</li></ul>",
-      "subcategoria": "Mudanzas",
-      "keywords": [
-        "bienes",
-        "usuario",
-        "empresa",
-        "eximir",
+        "seguro",
+        "daños",
         "responsabilidad",
-        "mudanzas"
+        "empresa",
+        "indemnización",
+        "embalaje",
+        "pérdida",
+        "deterioro"
       ]
     },
     {
-      "pregunta": "He tenido un problema con una empresa de mudanzas porque me ha perdido unos objetos y no se quiere responsabilizar ¿Qué puedo hacer?",
-      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como puede ser a través de una hoja de reclamaciones, un correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En primer lugar debes reclamar a la empresa de mudanzas con la que contrataste. > Puedes hacerlo por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de transportes, obligatorio para la entidad, salvo que el imorte de la reclamación supere 15.000 euros o haya indicado previamente, en el contrato, que rechaza esta vía para resolver reclamaciones. Esta información debe aparecer en la web de la entidad y en el contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Consumo de la Comunidad Autónoma donde se encuentre la sede de la entidad. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador. > **[",
+      "pregunta": "¿Qué información y documentación debe facilitarme la empresa antes de realizar la mudanza?",
+      "respuesta": "Antes de iniciar la mudanza, la empresa debe presentarte un presupuesto escrito en el que consten los servicios que se prestarán, su coste, el coste del propio presupuesto y el precio total de la mudanza, indicando, en su caso, si están incluidos los gastos derivados de trámites administrativos o permisos necesarios. También debe informarte de la posibilidad de contratar un seguro que cubra daños en los bienes transportados. Si no existe un documento que identifique los bienes objeto de la mudanza, cualquiera de las partes puede exigir, antes del traslado, la realización y aceptación de un inventario.",
       "subcategoria": "Mudanzas",
       "keywords": [
+        "mudanza",
+        "información",
+        "presupuesto",
+        "servicios",
+        "precio",
+        "permisos",
+        "seguro",
+        "inventario",
+        "contratación"
+      ]
+    },
+    {
+      "pregunta": "Hace seis días me hicieron una mudanza y, al deshacer las cajas para colocarlas en casa, he descubierto que me rompieron un objeto que estaba en una caja. ¿Puedo reclamar?",
+      "respuesta": "Sí. Si el daño no era visible en el momento de la entrega, debes comunicarlo por escrito a la empresa dentro de los siete días siguientes al de la entrega, descontando domingos y festivos. Si eres una persona consumidora y la empresa no te informó antes de la entrega, por escrito y de forma clara y destacada, sobre cómo y en qué plazo debías comunicar esos daños y sobre las consecuencias de no hacerlo, esa regla de extinción no se aplica.",
+      "subcategoria": "Mudanzas",
+      "keywords": [
+        "mudanza",
+        "daños",
+        "cajas",
+        "reclamar",
+        "entrega",
+        "plazo",
+        "escrito",
+        "desperfectos",
+        "objetos"
+      ]
+    },
+    {
+      "pregunta": "¿Puede quedar exonerada de responsabilidad una empresa de mudanzas en algún caso?",
+      "respuesta": "Sí, pero no de forma automática. La empresa puede beneficiarse de una presunción de exoneración si prueba que, atendidas las circunstancias del caso, la pérdida o el daño pudo resultar verosímilmente de determinados riesgos previstos legalmente, como deficiencias en el embalaje o marcado realizado por el cliente, manipulación efectuada por este, información falsa o incorrecta, transporte de animales vivos o plantas, la propia naturaleza de los bienes o determinadas operaciones de carga o descarga sobre las que la empresa hubiera advertido del riesgo. La persona que reclama puede, no obstante, probar que el daño no fue causado, total o parcialmente, por esos riesgos.",
+      "subcategoria": "Mudanzas",
+      "keywords": [
+        "mudanza",
+        "responsabilidad",
+        "exoneración",
+        "daños",
+        "pérdida",
+        "embalaje",
+        "manipulación",
+        "plantas",
+        "animales",
+        "cliente"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con una empresa de mudanzas porque me ha perdido unos objetos y no se quiere responsabilizar. ¿Qué puedo hacer?",
+      "respuesta": "En primer lugar, reclama por escrito a la empresa de mudanzas con la que contrataste, explicando qué objetos se han perdido, su valor aproximado y qué solución solicitas. Utiliza un medio que permita acreditar la reclamación, como burofax, correo certificado, correo electrónico o la hoja de reclamaciones. La regulación concreta de las hojas de reclamaciones puede variar según la comunidad autónoma. Si la empresa no responde en el plazo máximo de quince días o la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo o a una asociación de consumidores. También puedes acudir a la Junta Arbitral del Transporte: si la reclamación no supera los 15.000 euros, se presume que las partes aceptaron este arbitraje, salvo que alguna hubiera manifestado expresamente su oposición antes de iniciarse el servicio. Además, puedes acudir a los tribunales; si reclamas hasta 2.000 euros, no necesitas abogado ni procurador.",
+      "subcategoria": "Mudanzas",
+      "keywords": [
+        "mudanza",
+        "objetos",
+        "pérdida",
         "reclamación",
         "empresa",
-        "entidad",
-        "correo",
         "consumo",
-        "puedes"
+        "omic",
+        "arbitraje",
+        "transporte",
+        "juzgado"
       ]
     },
     {
       "pregunta": "¿Qué es la enseñanza no reglada?",
-      "respuesta": "Es aquella que se imparte en centros privados y que conlleva la obtención de un título sin valor oficial.",
+      "respuesta": "La enseñanza no reglada es la formación que no forma parte de las enseñanzas oficiales y que, por sí sola, no conduce a la obtención de un título oficial con validez académica. Puede impartirse por academias, centros privados u otras entidades, por ejemplo en cursos de idiomas, preparación de oposiciones, informática o formación especializada. La información y publicidad del curso deben ser claras y no inducir a pensar que permite obtener un título oficial cuando no sea así. Además, la normativa autonómica puede establecer obligaciones específicas de información sobre el carácter no oficial de estas enseñanzas.",
       "subcategoria": "Academias",
       "keywords": [
         "enseñanza",
-        "reglada",
-        "imparte",
-        "centros",
-        "privados",
-        "conlleva"
-      ]
-    },
-    {
-      "pregunta": "¿Qué Administración es competente para regular la enseñanza no reglada?",
-      "respuesta": "En España, los derechos de los usuarios en la enseñanza no reglada se regulan principalmente a nivel autonómico, ya que la educación no reglada no está incluida en la educación obligatoria ni en los niveles oficialmente regulados por el Estado. Cada comunidad autónoma establece normas sobre centros, cursos, inscripción, información al alumnado y reclamaciones. Solo algunas disposiciones generales de protección al consumidor y de contratos son de legislación estatal, pero la organización, homologación y control de los cursos es competencia autonómica.",
-      "subcategoria": "Academias",
-      "keywords": [
-        "reglada",
-        "enseñanza",
-        "educación",
-        "cursos",
-        "administración",
-        "competente"
-      ]
-    },
-    {
-      "pregunta": "Me matriculé en un curso de inglés en el que me dijeron que obtendría un título oficial pero no es así ¿Puedo reclamar?",
-      "respuesta": "Sí. La ley obliga a que se proporcione información completa sobre precios, duración, contenidos y condiciones de contratación antes de formalizar la inscripción.",
-      "subcategoria": "Academias",
-      "keywords": [
-        "matriculé",
-        "curso",
-        "inglés",
-        "dijeron",
-        "obtendría",
-        "título"
-      ]
-    },
-    {
-      "pregunta": "Contraté un curso de informática directamente en la academia y no me han mandado un contrato ¿es legal?",
-      "respuesta": "No, la academia debe formalizar un contrato contigo antes de iniciar el curso, incluyendo, las condiciones y los derechos y obligaciones de las partes. Además, tienes derecho a recibir un recibo o factura por cada pago realizado y, al finalizar, un certificado de asistencia y aprovechamiento del curso.",
-      "subcategoria": "Academias",
-      "keywords": [
-        "curso",
+        "no reglada",
         "academia",
-        "contrato",
-        "contraté",
-        "informática",
-        "directamente"
-      ]
-    },
-    {
-      "pregunta": "Contraté un curso de estética por internet, pero me lo he pensado mejor y no quiero hacerlo finalmente ¿qué puedo hacer?",
-      "respuesta": "Tienes derecho a anular el contrato, sin necesidad de justificar su decisión, durante los catorce días siguientes a la celebración del mismo o desde la recepción del material, en su caso.",
-      "subcategoria": "Academias",
-      "keywords": [
-        "contraté",
         "curso",
-        "estética",
-        "internet",
-        "pensado",
-        "mejor"
-      ]
-    },
-    {
-      "pregunta": "Contraté un curso de jardinería por internet, y me han ofrecido la posibilidad de financiarlo ¿qué sucede si la Academia desaparece?",
-      "respuesta": "El crédito está expresamente vinculado al contrato de enseñanza, por tanto, si la academia interrumpe el curso antes de lo previsto, no tendrás que seguir pagando el préstamo.",
-      "subcategoria": "Academias",
-      "keywords": [
-        "curso",
-        "academia",
-        "contraté",
-        "jardinería",
-        "internet",
-        "ofrecido"
-      ]
-    },
-    {
-      "pregunta": "Contraté un curso semi presencial de preparación de oposiciones, pero han cambiado el sistema y determinado que será todo online ¿qué puedo hacer?",
-      "respuesta": "Tienes derecho a resolver el contrato con el reembolso de las cantidades aportadas.",
-      "subcategoria": "Academias",
-      "keywords": [
-        "contraté",
-        "curso",
-        "semi",
-        "presencial",
-        "preparación",
-        "oposiciones"
-      ]
-    },
-    {
-      "pregunta": "Contraté un curso de cocinero y han cambiado los horarios establecidos de las clases. Al reclamar la devolución de mi dinero me han dicho que había una cláusula en el contrato que les permitía cambiar las condiciones del curso ¿es legal?",
-      "respuesta": "No, sería una cláusula abusiva por desequilibro entre las partes y se debería tener por no puesta.",
-      "subcategoria": "Academias",
-      "keywords": [
-        "curso",
-        "cláusula",
-        "contraté",
-        "cocinero",
-        "cambiado",
-        "horarios"
-      ]
-    },
-    {
-      "pregunta": "He tenido un problema con una academia de inglés porque me dijeron que el curso iba a durar 2 años y finalmente ha sido solo 1 ¿Qué puedo hacer?",
-      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como puede ser a través de una hoja de reclamaciones, un correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la academia no responde o la respuesta no es satisfactoria puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En primer lugar debes reclamar a la academia con la que contrataste el curso: > Puedes hacerlo por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de consumo -voluntario para la entidad salvo que esté adherida- Esta información debe aparecer en la web de la entidad y en el contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Consumo de tu Comunidad Autónoma. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador. > **[",
-      "subcategoria": "Academias",
-      "keywords": [
-        "reclamación",
-        "consumo",
-        "entidad",
-        "academia",
-        "correo",
-        "puedes"
-      ]
-    },
-    {
-      "pregunta": "Llevé mi taxi al taller para que procedieran a su reparación ¿puedo hacer una reclamación de consumo como persona consumidora?",
-      "respuesta": "No. Al contratar dedicar el vehículo a una actividad empresarial, no actúas como persona consumidora y, por lo tanto, no se te aplican los derechos previstos en la normativa de consumo.",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "consumo",
-        "persona",
-        "consumidora",
-        "llevé",
-        "taxi",
-        "taller"
-      ]
-    },
-    {
-      "pregunta": "¿Es obligatorio que los talleres de reparación de vehículos tengan una placa informativa en la fachada?",
-      "respuesta": "Si, Los talleres legalmente clasificados deben mostrar en un lugar visible una placa-distintivo según el modelo oficial. La placa es metálica, cuadrada de 48 cm de lado con vértices redondeados y fondo azul, dividida en tres franjas: la superior para las ramas de actividad, la intermedia para las especialidades y la inferior para las siglas de la provincia y el número de identificación del taller, sin que este número sea requisito para iniciar la actividad.",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "placa",
-        "talleres",
-        "actividad",
-        "número",
-        "obligatorio",
-        "reparación"
-      ]
-    },
-    {
-      "pregunta": "¿Puede un taller poner el nombre de una marca si no es un taller oficial?",
-      "respuesta": "No, si no son talleres oficiales, tienen prohibida la ostentación de referencias a marcas, tanto en el exterior como en el interior del taller, que puedan inducir a confusión o error a la clientela, respecto a la vinculación citada.",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "taller",
-        "nombre",
-        "marca",
+        "formación",
+        "título",
         "oficial",
-        "talleres",
-        "oficiales"
-      ]
-    },
-    {
-      "pregunta": "¿Puede un taller poner piezas de repuesto usadas?",
-      "respuesta": "Los talleres deben utilizar piezas nuevas y adecuadas al modelo del vehículo, salvo que el cliente acepte por escrito piezas reacondicionadas, reconstruidas o usadas bajo condiciones específicas y con garantía.",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "piezas",
-        "usadas",
-        "taller",
-        "repuesto",
-        "talleres",
-        "utilizar"
-      ]
-    },
-    {
-      "pregunta": "Llevé mi coche a un taller y me han dicho que han sustituido el cárter ¿Tengo derecho a que me den la pieza antigua?",
-      "respuesta": "Si, los talleres deben entregar las piezas sustituidas si se les solicita. Además, deben justificar el origen y precio de los repuestos, y evitar reemplazos innecesarios que encarezcan o dañen el vehículo.",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "llevé",
-        "coche",
-        "taller",
-        "sustituido",
-        "cárter",
-        "derecho"
-      ]
-    },
-    {
-      "pregunta": "Llevé mi coche a un taller y estuvieron 45 minutos reparándolo, pero me han cobrado una hora de mano de obra ¿es legal?",
-      "respuesta": "No, no pueden aplicar un redondeo sino cobrar el tiempo efectivamente dedicado a la reparación.",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "llevé",
-        "coche",
-        "taller",
-        "estuvieron",
-        "minutos",
-        "reparándolo"
-      ]
-    },
-    {
-      "pregunta": "Llevé el coche al taller y han comenzado la reparación sin que yo haya aceptado el presupuesto ¿es legal?",
-      "respuesta": "No, tienes derecho a recibir un presupuesto escrito con una validez mínima de doce días hábiles, y la reparación solo puede iniciarse tras su aceptación o si renuncias expresamente a que se realice.",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "reparación",
-        "presupuesto",
-        "llevé",
-        "coche",
-        "taller",
-        "comenzado"
-      ]
-    },
-    {
-      "pregunta": "¿Puede cobrarme un taller gastos de estancia de mi coche en sus instalaciones?",
-      "respuesta": "Solo si el coche permanece en el taller más de tres días hábiles después de haber sido notificado el presupuesto o terminada la reparación.",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "taller",
-        "coche",
-        "cobrarme",
-        "gastos",
-        "estancia",
-        "instalaciones"
-      ]
-    },
-    {
-      "pregunta": "Llevé mi moto a reparar al taller y a los dos meses, ha vuelto a aparecer la misma avería ¿qué puedo hacer?",
-      "respuesta": "Todas las reparaciones o instalaciones realizadas en un taller están cubiertas por una garantía mínima durante 3 meses o 2.000 kilómetros (lo que suceda antes). La garantía incluye materiales, mano de obra y todos los gastos derivados, como transporte del vehículo o desplazamiento de operarios, así como impuestos asociados.",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "taller",
-        "meses",
-        "garantía",
-        "llevé",
-        "moto",
-        "reparar"
-      ]
-    },
-    {
-      "pregunta": "He tenido un problema con un taller porque me hizo un presupuesto de reparación que no ha respetado puesto que me ha cobrado más, al decir que posteriormente vio otros defectos en el coche ¿Qué puedo hacer?",
-      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como puede ser a través de una hoja de reclamaciones, un correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si el taller no responde o la respuesta no es satisfactoria puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En primer lugar debes reclamar al taller: > Puedes pedir una hora de reclamaciones, o reclamr por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de consumo -voluntario para la entidad salvo que esté adherida- Esta información debe aparecer en la web de la entidad y en el contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Consumo de la Comunidad Autónoma donde se encuentre el taller. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador. > **[",
-      "subcategoria": "Reparaciones de vehículos",
-      "keywords": [
-        "reclamación",
-        "taller",
-        "consumo",
-        "entidad",
-        "correo",
-        "puedes"
-      ]
-    },
-    {
-      "pregunta": "¿Qué son los Servicios de Asistencia Técnica (SAT)?",
-      "respuesta": "Son establecimientos o profesionales que se dedican a reparar, mantener e instalar electrodomésticos y aparatos electrónicos, ofreciendo sus servicios tanto a domicilio como en sus locales.",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "servicios",
-        "asistencia",
-        "técnica",
-        "establecimientos",
-        "profesionales",
-        "dedican"
-      ]
-    },
-    {
-      "pregunta": "¿Puede un SAT rechazar la reparación de un electrodoméstico que les lleve?",
-      "respuesta": "Debe atenderse a la clientela sin discriminación alguna, si no pueden realizar la reparación por cualquier razón técnica, deben informar al usuario por escrito, explicando los motivos. Además, los SAT oficiales de marca no estarán obligados a la reparación de aparatos de marcas distintas a las que representan o no hayan sido legalmente importados.",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "reparación",
-        "rechazar",
-        "electrodoméstico",
-        "lleve",
-        "atenderse",
-        "clientela"
-      ]
-    },
-    {
-      "pregunta": "¿Tengo derecho a un presupuesto antes de que reparen mi aparato en un SAT?",
-      "respuesta": "Sí, tienes derecho a que te entreguen un presupuesto previo por escrito, con una validez mínima de 30 días desde que te lo comunican. El presupuesto debe incluir: los datos del SAT y tuyos, marca, modelo y número de serie del aparato, motivo de la reparación, diagnóstico de la avería, costes de servicio y piezas, fechas previstas de entrega, firma del responsable del SAT, espacio para tu aceptación y el tiempo de validez del presupuesto.",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "presupuesto",
-        "derecho",
-        "aparato",
         "validez",
-        "antes",
-        "reparen"
-      ]
-    },
-    {
-      "pregunta": "¿Qué sucede si pido un presupuesto a un SAT y no acepto la reparación",
-      "respuesta": "Pueden cobrar si lo tienen previsto en un aviso en la tienda o web. El importe máximo a cobrar depende del tipo de aparato:<ul><li>Pequeños aparatos: 15 minutos del valor del tiempo de trabajo.</li><li>Línea blanca: 30 minutos.</li><li>Línea marrón y electrónica: 60 minutos.</li></ul>",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "minutos",
-        "cobrar",
-        "línea",
-        "sucede",
-        "pido",
-        "presupuesto"
-      ]
-    },
-    {
-      "pregunta": "¿Qué pasa si durante la reparación de un electrodoméstico en un SAT aparecen averías ocultas?",
-      "respuesta": "Te deben informar y, si había un presupuesto inicial, elaborarte uno adicional para tu conformidad. Si renunciaste al presupuesto previo, te deben comunicar la reparación adicional, respetando los límites porcentuales según el valor del aparato (10%, 8% o 6%). Si se superan esos límites, te deben ofrecer un nuevo presupuesto.",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "presupuesto",
-        "reparación",
-        "adicional",
-        "límites",
-        "pasa",
-        "electrodoméstico"
-      ]
-    },
-    {
-      "pregunta": "¿Qué es el resguardo de depósito de los SAT y para qué sirve?",
-      "respuesta": "El resguardo acredita que entregaste el aparato al SAT y lo necesitas para recoger el presupuesto o tu aparato reparado. Debe contener: número de orden, datos del SAT y tuyos, descripción de daños y servicios, fecha de recepción, plazo de entrega y firmas del SAT y tuya.",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "resguardo",
-        "aparato",
-        "depósito",
-        "sirve",
-        "acredita",
-        "entregaste"
-      ]
-    },
-    {
-      "pregunta": "¿Pueden usar piezas usadas o no originales para reparar mi electrodoméstico en un SAT?",
-      "respuesta": "Solo pueden usarse si tú lo autorizas por escrito. Además, deben estar en perfectas condiciones y tener un precio inferior al de las piezas nuevas disponibles en el mercado.",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "piezas",
-        "usar",
-        "usadas",
-        "originales",
-        "reparar",
-        "electrodoméstico"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo quedarme con las piezas que sustituyan durante la reparación de mi electrodoméstico en un SAT?",
-      "respuesta": "Sí, puedes pedir que te entreguen las piezas retiradas al finalizar la reparación, y el SAT está obligado a dártelas, siempre que la reparación no esté cubierta por la garantía del aparato.",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "reparación",
-        "piezas",
-        "quedarme",
-        "sustituyan",
-        "electrodoméstico",
-        "puedes"
-      ]
-    },
-    {
-      "pregunta": "¿Durante cuánto tiempo deben estar disponibles los repuestos de mi aparato electrodoméstico reparado en un SAT?",
-      "respuesta": "Deben tener repuestos durante siete años para piezas funcionales (o cinco si el aparato es de bajo precio) y dos años para piezas estéticas, contados desde que se deja de fabricar el modelo. Además, los repuestos deben servirse en un máximo de un mes si son de aparatos importados y quince días si son nacionales.",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "repuestos",
-        "aparato",
-        "años",
-        "piezas",
-        "tiempo",
-        "disponibles"
-      ]
-    },
-    {
-      "pregunta": "¿Cuánto tiempo de garantía tengo sobre la reparación de un electrodoméstico en un SAT?",
-      "respuesta": "Tienes una garantía mínima de tres meses desde la entrega del electrodoméstico reparado, siempre que no haya sido manipulado por terceros. > Qué garantía tienen las piezas nuevas? > Cuando hablamos de una pieza que el reparador ha adquirido para instalarla o incorporar en tu aparato, tiene la garantía general de 3 años",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "garantía",
-        "electrodoméstico",
-        "tiempo",
-        "reparación",
-        "tienes",
-        "mínima"
-      ]
-    },
-    {
-      "pregunta": "¿La garantía sobre un producto reparado en un SAT cubre todos los gastos?",
-      "respuesta": "Sí, la garantía es total respecto a la reparación realizada. Cubre transporte, desplazamientos, piezas de repuesto, materiales e impuestos, siempre que la nueva avería esté relacionada con la reparación del SAT.",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "garantía",
-        "cubre",
-        "reparación",
-        "producto",
-        "reparado",
-        "gastos"
-      ]
-    },
-    {
-      "pregunta": "¿Qué puedo hacer si mi electrodoméstico vuelve a estropearse y no estoy de acuerdo con el SAT sobre si la avería está cubierta por la garantía?",
-      "respuesta": "Puedes elegir que repare el mismo SAT que te dio la garantía o acudir a otro SAT distinto, avisando antes al primero. Si tras la reparación sigue habiendo desacuerdo, deberás abonar el coste y luego podrás presentar una denuncia ante los servicios competentes. > En ese caso, tienes dos opciones: > -Pedirle al SAT que te repare la avería y si sigue habiendo conflicto sobre si esta nueva reparación queda cubierta o no por la garantía, abonar la reparación y reclamar; o, -Acudir a otro SAT, avisando previamente al primero, abonar la reparación y reclamar el importe al SAT original. Solicita una hoja de reclamaciones al SAT, y si no recibes respuesta satisfactoria en un mes, podrás acudir al arbitraje de consumo (no obligatorio para la entidad salvo que esté previamente adherida), o acudir a los juzgados",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "acudir",
-        "reparación",
-        "garantía",
-        "abonar",
-        "avería",
-        "cubierta"
-      ]
-    },
-    {
-      "pregunta": "He tenido un problema con un servicio de asistencia técnica porque reparó un televisor y al mes, ha tenido la misma avería ¿Qué puedo hacer?",
-      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como puede ser a través de una hoja de reclamaciones, un correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En primer lugar debes reclamar al SAT: > Puedes pedir una hora de reclamaciones, o reclamr por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de consumo -voluntario para la entidad salvo que esté adherida- Esta información debe aparecer en la web de la entidad y en el contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Consumo de la Comunidad Autónoma donde se encuentre el SAT. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador. > **[",
-      "subcategoria": "Reparaciones de electrodomésticos",
-      "keywords": [
-        "reclamación",
-        "consumo",
-        "entidad",
-        "empresa",
-        "correo",
-        "puedes"
-      ]
-    },
-    {
-      "pregunta": "¿Qué hay que entender por reparaciones en el hogar?",
-      "respuesta": "Incluye entre otros, cualquier obra o reparación de fontanería, albañilería, pintura, electricidad o carpintería, que realiza una empresa o un profesional en el domicilio de una persona consumidora.",
-      "subcategoria": "Reformas en el hogar",
-      "keywords": [
-        "entender",
-        "reparaciones",
-        "hogar",
-        "incluye",
-        "obra",
-        "reparación"
-      ]
-    },
-    {
-      "pregunta": "Contraté la reforma de mi oficina con una empresa de albañilería ¿puedo ejercer el derecho de desistimiento?",
-      "respuesta": "No. Al contratar el servicio en el contexto de una actividad empresarial, no actúas como consumidor y, por lo tanto, no se te aplican los derechos previstos en la normativa de consumo, como el derecho de desistimiento o las garantías específicas frente a cláusulas abusivas.",
-      "subcategoria": "Reformas en el hogar",
-      "keywords": [
-        "derecho",
-        "desistimiento",
-        "contraté",
-        "reforma",
-        "oficina",
-        "empresa"
-      ]
-    },
-    {
-      "pregunta": "¿Tengo derecho a recibir un presupuesto por escrito antes de contratar una reforma en el hogar?",
-      "respuesta": "Sí. Tienes derecho a recibir información previa, clara y escrita sobre el precio total, características del servicio y condiciones antes de contratar. El presupuesto, una vez aceptado, obliga a ambas partes.",
-      "subcategoria": "Reformas en el hogar",
-      "keywords": [
-        "derecho",
-        "recibir",
-        "presupuesto",
-        "antes",
-        "contratar",
-        "escrito"
-      ]
-    },
-    {
-      "pregunta": "¿Qué debe incluir obligatoriamente un presupuesto de reforma en el hogar?",
-      "respuesta": "Debe incluir al menos: identidad del profesional, descripción de los trabajos, materiales, precio total (con impuestos), duración estimada, condiciones de pago y garantías aplicables.",
-      "subcategoria": "Reformas en el hogar",
-      "keywords": [
-        "incluir",
-        "obligatoriamente",
-        "presupuesto",
-        "reforma",
-        "hogar",
-        "identidad"
-      ]
-    },
-    {
-      "pregunta": "¿Pueden incrementarme el presupuesto de una reforma una vez comenzada?",
-      "respuesta": "No, salvo que tú lo autorices expresamente. Cualquier modificación debe constar por escrito.",
-      "subcategoria": "Reformas en el hogar",
-      "keywords": [
-        "incrementarme",
-        "presupuesto",
-        "reforma",
-        "comenzada",
-        "salvo",
-        "autorices"
-      ]
-    },
-    {
-      "pregunta": "¿Estoy obligado a pagar si la reforma de mi hogar no cumple con lo contratado?",
-      "respuesta": "No. Si el resultado no es conforme al contrato, tienes derecho a exigir la corrección del servicio sin coste, una rebaja del precio o la resolución del contrato si el incumplimiento es grave.",
-      "subcategoria": "Reformas en el hogar",
-      "keywords": [
-        "contrato",
-        "obligado",
-        "pagar",
-        "reforma",
-        "hogar",
-        "cumple"
-      ]
-    },
-    {
-      "pregunta": "He tenido un problema con una empresa de reformas porque no ha cumplido los plazos acordados en el contrato ¿Qué puedo hacer?",
-      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como puede ser a través de una hoja de reclamaciones, un correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En primer lugar debes reclamar a la empresa: > Puedes pedir una hora de reclamaciones, o reclamr por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de consumo -voluntario para la entidad salvo que esté adherida- Esta información debe aparecer en la web de la entidad y en el contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Consumo de la Comunidad Autónoma donde se encuentre la entidad. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador. > **[",
-      "subcategoria": "Reformas en el hogar",
-      "keywords": [
-        "empresa",
-        "reclamación",
-        "entidad",
-        "consumo",
-        "correo",
-        "puedes"
-      ]
-    },
-    {
-      "pregunta": "¿Tengo derecho a que me entreguen un justificante cuando dejo mi vehículo en un aparcamiento?",
-      "respuesta": "Sí, deben darte un justificante en papel o en un soporte duradero, donde conste la identificación del vehículo y si has entregado las llaves.",
-      "subcategoria": "Aparcamientos",
-      "keywords": [
-        "justificante",
-        "vehículo",
-        "derecho",
-        "entreguen",
-        "dejo",
-        "aparcamiento"
-      ]
-    },
-    {
-      "pregunta": "¿Es el aparcamiento responsable de todos los objetos que lleve dentro del coche?",
-      "respuesta": "No. Solo está obligado a restituir el vehículo y los accesorios fijos y habituales. Los objetos no fijos, debes retirarlos tú o el aparcamiento no responderá por ellos salvo que el aparcamiento ofrezca un servicio especial de custodia, según el cual tú declaras los objetos al entrar y ellos aceptan conservarlos siguiendo las medidas de seguridad que te indiquen.",
-      "subcategoria": "Aparcamientos",
-      "keywords": [
-        "aparcamiento",
-        "objetos",
-        "fijos",
-        "responsable",
-        "lleve",
-        "dentro"
-      ]
-    },
-    {
-      "pregunta": "¿El aparcamiento debe mostrar claramente los precios y normas antes de que aparque?",
-      "respuesta": "Sí, debe indicar de forma visible los precios, horarios, normas de uso y si es habitual que te pidan dejar las llaves del vehículo.",
-      "subcategoria": "Aparcamientos",
-      "keywords": [
-        "precios",
-        "normas",
-        "aparcamiento",
-        "mostrar",
-        "claramente",
-        "antes"
-      ]
-    },
-    {
-      "pregunta": "¿Puede el titular de un aparcamiento retirar un vehículo que esté mucho tiempo estacionado en el mismo lugar?",
-      "respuesta": "Sí, si el vehículo permanece estacionado de forma continuada por más de seis meses y existen indicios de abandono, como desperfectos, imposibilidad de moverse por sí mismo, falta de matrícula o signos que indiquen desinterés del propietario.",
-      "subcategoria": "Aparcamientos",
-      "keywords": [
-        "vehículo",
-        "estacionado",
-        "titular",
-        "aparcamiento",
-        "retirar",
-        "esté"
-      ]
-    },
-    {
-      "pregunta": "Dejé mi coche estacionado 52 minutos y la empresa me facturó 1 hora ¿es esto legal? ¿qué puedo hacer?",
-      "respuesta": "No, debe cobrarme por el tiempo que he estacionado sin hacer un redondeo. Puedes presentar la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como puede ser a través de una hoja de reclamaciones, un correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En primer lugar debes reclamar a la entidad: > Puedes pedir una hora de reclamaciones, o reclamr por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de consumo -voluntario para la entidad salvo que esté adherida- Esta información debe aparecer en la web de la entidad y en el contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Consumo de la Comunidad Autónoma donde se encuentre la entidad. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador. > **[",
-      "subcategoria": "Aparcamientos",
-      "keywords": [
-        "entidad",
-        "reclamación",
-        "empresa",
-        "puedes",
-        "consumo",
-        "presentar"
-      ]
-    },
-    {
-      "pregunta": "¿Qué información deben facilitar los abogados a sus clientes antes de iniciar cualquier actuación profesional?",
-      "respuesta": "Deben proporcionar su nombre, número de identificación fiscal, Colegio de pertenencia, número de colegiado, domicilio profesional y medios de contacto, incluyendo correo electrónico. Si varios abogados participan, también deben identificar a todos los implicados y quién dirige el asunto.",
-      "subcategoria": "Servicios profesionales",
-      "keywords": [
-        "abogados",
-        "profesional",
-        "número",
-        "información",
-        "facilitar",
-        "clientes"
-      ]
-    },
-    {
-      "pregunta": "¿Qué es la hoja de encargo de un abogado y qué función tiene?",
-      "respuesta": "Es un documento que recoge toda la información relevante sobre el encargo profesional, incluyendo honorarios, costes, servicios a prestar y condiciones. Debe entregarse al cliente antes de iniciar la actuación y sirve como base contractual entre abogado y cliente.",
-      "subcategoria": "Servicios profesionales",
-      "keywords": [
-        "encargo",
-        "abogado",
-        "cliente",
-        "hoja",
-        "función",
-        "documento"
-      ]
-    },
-    {
-      "pregunta": "¿Qué información ofrecerán los Colegios de Abogados en sus páginas web sobre los abogados colegiados?",
-      "respuesta": "A través de la ventanilla única deben permitir el acceso al registro de colegiados y sociedades profesionales, vías de reclamación, códigos deontológicos, y datos de asociaciones de consumidores y usuarios para asistencia. 617. El precio o la oferta que anuncia en su página web es falsa o engañosa o ha sido incumplica ¿donde puede denunciar esto? > En caso de que detectes que las condiciones reales de un contrato (precio, características, etc.) no se ajustan a la oferta, puedes denunciarlo ante la Dirección General de Consumo de tu Comunidad Autónoma, y reclamar directamente > Puedes perdir una hoja de reclamaciones o reclamar por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de consumo -voluntario para la entidad salvo que esté adherida- Esta información debe aparecer en la web de la entidad y en el contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Consumo de la Comunidad Autónoma donde se encuentre la entidad o profesional. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -Puedes denunciar las malas prácticas en el Colegio profesional > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador.",
-      "subcategoria": "Servicios profesionales",
-      "keywords": [
-        "reclamación",
-        "entidad",
-        "puedes",
-        "consumo",
-        "reclamar",
         "información"
       ]
     },
     {
-      "pregunta": "¿Tengo derecho a que me expliquen mi diagnóstico y tratamiento en fisioterapia?",
-      "respuesta": "Sí, debes recibir información clara y comprensible sobre tu diagnóstico, pronóstico y las posibilidades terapéuticas de tu enfermedad.",
+      "pregunta": "¿Qué Administración es competente para regular la enseñanza no reglada?",
+      "respuesta": "La regulación de los derechos de las personas usuarias de academias y centros de enseñanza no reglada depende en gran medida de las comunidades autónomas. Por eso, las obligaciones concretas de información, publicidad, contratos, hojas de reclamaciones o control administrativo pueden variar según el lugar donde esté el centro o se preste el servicio. Además, se aplican las normas generales estatales de protección de las personas consumidoras y usuarias, publicidad, contratación y, en su caso, comercio electrónico. Si el curso se anuncia como oficial o vinculado a una titulación reconocida, también puede ser relevante la normativa educativa aplicable.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "enseñanza",
+        "no reglada",
+        "academias",
+        "competencia",
+        "comunidad autónoma",
+        "consumo",
+        "publicidad",
+        "contratos",
+        "titulación"
+      ]
+    },
+    {
+      "pregunta": "Me matriculé en un curso de inglés en el que me dijeron que obtendría un título oficial, pero no es así. ¿Puedo reclamar?",
+      "respuesta": "Sí. Si antes de matricularte te informaron o publicitaron que obtendrías un título oficial y finalmente el curso no lo permite, puedes reclamar por incumplimiento de lo ofrecido y, en su caso, por información engañosa. Según las circunstancias y la importancia de ese incumplimiento, puedes solicitar la devolución total o parcial del importe pagado y, si acreditas daños o perjuicios derivados de él, la correspondiente indemnización. Reclama primero por escrito al centro o academia. Si no te dan una solución, puedes acudir a los servicios públicos de consumo, a una asociación de consumidores, al arbitraje de consumo si la empresa está adherida o acepta someterse a él, o a los tribunales. La normativa específica sobre academias y enseñanza no reglada puede variar según la comunidad autónoma.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "curso",
+        "inglés",
+        "academia",
+        "título",
+        "oficial",
+        "publicidad",
+        "engaño",
+        "matrícula",
+        "reclamación",
+        "devolución"
+      ]
+    },
+    {
+      "pregunta": "Contraté un curso de informática directamente en la academia y no me han dado un contrato. ¿Es legal?",
+      "respuesta": "No necesariamente tienen que entregarte un documento denominado formalmente \"contrato\", pero sí deben facilitarte un recibo, copia o documento acreditativo en el que consten las condiciones esenciales de lo contratado. Además, antes de contratar deben informarte de forma clara sobre las características principales del curso, su duración, precio, forma de pago y demás condiciones relevantes. La normativa autonómica sobre enseñanza no reglada puede exigir, además, la formalización por escrito del contrato o establecer contenidos documentales específicos.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "curso",
+        "informática",
+        "academia",
+        "contrato",
+        "enseñanza no reglada",
+        "información",
+        "precio",
+        "pagos",
+        "certificado"
+      ]
+    },
+    {
+      "pregunta": "Contraté un curso de estética por internet, pero me lo he pensado mejor y finalmente no quiero hacerlo. ¿Qué puedo hacer?",
+      "respuesta": "Si contrataste el curso por internet como persona consumidora, en principio puedes desistir del contrato durante los 14 días naturales siguientes a su celebración, sin tener que justificar tu decisión. Si solicitaste expresamente que el curso comenzara durante ese plazo, puedes seguir desistiendo mientras el servicio no se haya prestado completamente, aunque la academia puede exigirte el pago proporcional de la parte ya prestada, siempre que se hayan cumplido los requisitos legales de información. El derecho solo se pierde por la ejecución completa del servicio cuando esta haya comenzado con tu consentimiento expreso y se te haya informado de que, una vez ejecutado íntegramente, perderías el derecho de desistimiento.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "curso",
+        "estética",
+        "internet",
+        "desistimiento",
+        "plazo",
+        "academia",
+        "servicios",
+        "material",
+        "devolución",
+        "consumidor"
+      ]
+    },
+    {
+      "pregunta": "Contraté un curso de jardinería por internet y me ofrecieron financiarlo. ¿Qué sucede si la academia desaparece?",
+      "respuesta": "Depende de cómo se haya contratado la financiación. Si el préstamo es un crédito vinculado al curso, es decir, sirve exclusivamente para financiar ese curso y ambos contratos forman una unidad comercial, puedes reclamar también frente a la entidad financiadora si la academia no presta el curso o lo interrumpe. Antes debes reclamar a la academia por un medio que permita acreditarlo. Si no obtienes una solución, puedes oponer frente a la financiadora los mismos derechos que tendrías frente a la academia y pedir que no te sigan cobrando por un servicio no prestado. Si el préstamo no está vinculado al curso, la situación es más compleja y habría que revisar el contrato de financiación.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "curso",
+        "jardinería",
+        "academia",
+        "financiación",
+        "crédito vinculado",
+        "préstamo",
+        "desaparición",
+        "reclamación",
+        "servicio",
+        "cobros"
+      ]
+    },
+    {
+      "pregunta": "Contraté un curso semipresencial de preparación de oposiciones, pero han cambiado el sistema y ahora será todo online. ¿Qué puedo hacer?",
+      "respuesta": "Si contrataste un curso semipresencial y la academia lo cambia unilateralmente a un formato totalmente online, puede estar modificando de forma sustancial una condición de lo contratado. Puedes reclamar que se respeten las condiciones pactadas o, si el cambio es suficientemente relevante, solicitar la resolución del contrato y la devolución de las cantidades que corresponda. El alcance de la devolución dependerá de las circunstancias y de las prestaciones ya recibidas; si el cambio frustra la finalidad del curso contratado, podría proceder una devolución mayor o, en su caso, total. La normativa autonómica sobre academias puede establecer obligaciones adicionales.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "curso",
+        "semipresencial",
+        "oposiciones",
+        "online",
+        "academia",
+        "modificación",
+        "contrato",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Contraté un curso de cocina y han cambiado los horarios establecidos de las clases. Al reclamar la devolución de mi dinero me han dicho que había una cláusula en el contrato que les permitía cambiar las condiciones del curso. ¿Es legal?",
+      "respuesta": "Las cláusulas que reservan al empresario la facultad de modificar unilateralmente el contrato pueden ser abusivas si no se basan en motivos válidos especificados en el propio contrato. Si el cambio de horario no está justificado conforme a una cláusula válida y altera de forma importante lo contratado, puedes reclamar que se mantengan las condiciones pactadas o, si el incumplimiento es suficientemente relevante, solicitar la resolución del contrato y la devolución de las cantidades que corresponda según las circunstancias.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "curso",
+        "cocina",
+        "academia",
+        "horarios",
+        "cláusula abusiva",
+        "condiciones",
+        "contrato",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con una academia de inglés porque me dijeron que el curso iba a durar 2 años y finalmente ha durado solo 1. ¿Qué puedo hacer?",
+      "respuesta": "Si la academia te informó de que el curso duraría 2 años y finalmente solo ha durado 1, puedes reclamar por incumplimiento de lo contratado y, en su caso, por información engañosa. Reclama primero por escrito a la academia, indicando qué se te ofreció, qué se ha prestado realmente y qué solución solicitas. Puedes exigir que se cumplan las condiciones pactadas o, si el incumplimiento es suficientemente relevante, solicitar la resolución del contrato y la devolución de las cantidades que correspondan. Si la academia no responde en el plazo máximo de 15 días o la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo, a una asociación de consumidores, al arbitraje de consumo si la empresa está adherida o lo acepta, o a los tribunales.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "academia",
+        "inglés",
+        "curso",
+        "duración",
+        "incumplimiento",
+        "publicidad",
+        "reclamación",
+        "devolución",
+        "consumo",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "Llevé mi taxi al taller para que lo repararan. ¿Puedo reclamar en consumo como persona consumidora?",
+      "respuesta": "No como persona consumidora, si la reparación del taxi está relacionada con tu actividad profesional o empresarial. En ese caso no tienes la condición de persona consumidora a efectos de la normativa general de consumo y no puedes invocar los derechos reservados específicamente a consumidores. No obstante, esto no significa que carezcas de derechos frente al taller: pueden seguir siendo aplicables la normativa específica sobre talleres de reparación, las condiciones del contrato y las reglas generales sobre responsabilidad por incumplimiento.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taxi",
+        "taller",
+        "reparación",
+        "consumo",
+        "persona consumidora",
+        "actividad profesional",
+        "contrato",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Es obligatorio que los talleres de reparación de vehículos tengan una placa informativa en la fachada?",
+      "respuesta": "Sí. Los talleres de reparación de vehículos deben mostrar en la fachada, en un lugar visible, una placa-distintivo que permita identificar su actividad, especialidades y datos de identificación. Esta placa ayuda a que la clientela sepa qué tipo de taller es y qué servicios puede prestar. Algunas comunidades autónomas pueden establecer requisitos adicionales o modelos específicos, por lo que conviene comprobar la normativa aplicable en cada territorio.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "vehículos",
+        "reparación",
+        "placa",
+        "distintivo",
+        "fachada",
+        "actividad",
+        "especialidades",
+        "identificación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un taller usar el nombre o el logotipo de una marca si no es un taller oficial?",
+      "respuesta": "No puede hacerlo si con ello induce a error sobre su relación con la marca. Un taller no oficial no debe usar nombres, logotipos, rótulos o referencias de una marca de forma que la clientela pueda pensar que es un taller oficial o autorizado cuando no lo es. Sí puede informar, de forma clara y no engañosa, de que repara vehículos de determinadas marcas, siempre que no aparente una vinculación oficial inexistente.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "marca",
+        "logotipo",
+        "oficial",
+        "autorizado",
+        "confusión",
+        "publicidad",
+        "clientela",
+        "reparación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un taller poner piezas de repuesto usadas?",
+      "respuesta": "Sí, pero solo en determinados casos. Como regla general, el taller debe utilizar piezas nuevas y adecuadas al modelo del vehículo. Para instalar piezas usadas necesita tu conformidad previa y por escrito y debe responsabilizarse también por escrito de que se encuentran en buen estado. Su utilización está permitida en los supuestos previstos legalmente, como una urgencia justificada, la falta de disponibilidad de piezas de modelos que hayan dejado de fabricarse u otra razón aceptada por ti, con las limitaciones establecidas para determinados elementos relacionados con la seguridad del vehículo.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "piezas",
+        "repuesto",
+        "usadas",
+        "reacondicionadas",
+        "reconstruidas",
+        "vehículo",
+        "seguridad",
+        "garantía",
+        "factura"
+      ]
+    },
+    {
+      "pregunta": "Llevé mi coche a un taller y me han dicho que han sustituido el cárter. ¿Tengo derecho a que me den la pieza antigua?",
+      "respuesta": "Sí. Al terminar la reparación, el taller debe presentarte y entregarte las piezas, elementos o conjuntos sustituidos, salvo que renuncies expresamente a recibirlos. Además, el taller debe tener a disposición del público documentación que justifique el origen y el precio de los repuestos utilizados, y no puede sustituir piezas de forma innecesaria si eso encarece la reparación o puede perjudicar al vehículo.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "coche",
+        "taller",
+        "cárter",
+        "pieza antigua",
+        "repuesto",
+        "sustitución",
+        "factura",
+        "reparación",
+        "origen",
+        "precio"
+      ]
+    },
+    {
+      "pregunta": "Llevé mi coche a un taller y estuvieron 45 minutos reparándolo, pero me han cobrado una hora de mano de obra. ¿Es legal?",
+      "respuesta": "No necesariamente. El taller debe entregarte una factura desglosada en la que figuren las operaciones realizadas y las horas de trabajo empleadas. Si te cobra una hora únicamente por redondear al alza un trabajo que ha durado 45 minutos, puedes reclamar ese exceso. No obstante, para determinadas operaciones pueden existir tiempos de trabajo establecidos en tablas o baremos que sirven para valorar si la facturación es adecuada, por lo que conviene comprobar el presupuesto, la factura y, en su caso, la tabla de tiempos aplicable.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "coche",
+        "taller",
+        "mano obra",
+        "factura",
+        "redondeo",
+        "tiempo",
+        "tarifa",
+        "presupuesto",
+        "reparación"
+      ]
+    },
+    {
+      "pregunta": "Llevé el coche al taller y han comenzado la reparación sin que yo haya aceptado el presupuesto. ¿Es legal?",
+      "respuesta": "No, salvo que hubieras renunciado de forma expresa y fehaciente a que se elaborara presupuesto. Como regla general, tienes derecho a recibir un presupuesto escrito, con una validez mínima de 12 días hábiles, y el taller solo puede iniciar la reparación cuando lo aceptes o cuando hayas renunciado válidamente al presupuesto. Si durante la reparación aparecen averías o defectos ocultos, el taller debe comunicártelo y pedir tu conformidad expresa antes de repararlos.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "coche",
+        "taller",
+        "reparación",
+        "presupuesto",
+        "aceptación",
+        "renuncia",
+        "avería",
+        "defectos ocultos",
+        "consentimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Puede cobrarme un taller gastos de estancia de mi coche en sus instalaciones?",
+      "respuesta": "Sí, pero solo en condiciones concretas. Una vez confeccionado el presupuesto o terminada la reparación y comunicada esta circunstancia, el taller puede cobrar gastos de estancia si transcurren 3 días hábiles sin que te pronuncies sobre la aceptación o rechazo del presupuesto o, en su caso, sin que retires el vehículo. Solo puede cobrar esos gastos por los días que excedan de ese plazo y mientras el vehículo permanezca en locales bajo custodia del taller.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "coche",
+        "gastos estancia",
+        "presupuesto",
+        "reparación",
+        "retirada",
+        "plazo",
+        "días hábiles",
+        "custodia"
+      ]
+    },
+    {
+      "pregunta": "Llevé mi moto a reparar al taller y, a los dos meses, ha vuelto a aparecer la misma avería. ¿Qué puedo hacer?",
+      "respuesta": "Si la avería afecta a la parte reparada y aparece dentro del plazo de garantía, debes comunicarlo al taller para que la repare gratuitamente. En una moto de uso particular, la garantía mínima de la reparación es de 3 meses o 2.000 kilómetros recorridos, lo que ocurra antes, desde la entrega del vehículo. La garantía incluye materiales, mano de obra y los gastos necesarios de la nueva reparación.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "moto",
+        "taller",
+        "reparación",
+        "garantía",
+        "avería",
+        "plazo",
+        "kilómetros",
+        "mano obra",
+        "materiales",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con un taller porque hizo un presupuesto de reparación que no ha respetado y me ha cobrado más, alegando que después vio otros defectos en el coche. ¿Qué puedo hacer?",
+      "respuesta": "El taller no puede cobrarte reparaciones adicionales no autorizadas. Si durante la reparación aparecen averías o defectos ocultos no incluidos en el presupuesto inicial, debe comunicártelos en un plazo máximo de 48 horas, indicando su importe, y solo puede repararlos si das tu conformidad expresa. Si te ha cobrado trabajos que no autorizaste, reclama por escrito al taller y solicita la devolución de las cantidades correspondientes, conservando el presupuesto y la factura desglosada. Si no responde en el plazo máximo de 15 días o la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo, a una asociación de consumidores, al arbitraje de consumo si el taller está adherido o lo acepta, o a los tribunales.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "presupuesto",
+        "reparación",
+        "defectos ocultos",
+        "factura",
+        "reclamación",
+        "consumo",
+        "omic",
+        "arbitraje",
+        "juzgado"
+      ]
+    },
+    {
+      "pregunta": "¿Qué son los Servicios de Asistencia Técnica (SAT)?",
+      "respuesta": "Los Servicios de Asistencia Técnica, o SAT, son establecimientos o profesionales que se dedican a reparar, instalar, conservar o mantener aparatos de uso doméstico, como electrodomésticos y determinados aparatos electrónicos. Pueden prestar el servicio en sus propios locales o en el domicilio de la persona usuaria. Algunos son servicios oficiales de una marca y otros son servicios independientes.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "servicio asistencia técnica",
+        "sat",
+        "electrodomésticos",
+        "aparatos domésticos",
+        "reparación",
+        "instalación",
+        "mantenimiento",
+        "servicio oficial",
+        "domicilio"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un SAT rechazar la reparación de un electrodoméstico que le lleve?",
+      "respuesta": "En general, un SAT debe admitir las solicitudes de reparación y atender a las personas usuarias sin discriminación, salvo que exista una causa justificada. Si no puede realizar una reparación, debe informarte previamente y por escrito, indicando los motivos. Los SAT oficiales de marca no están obligados a reparar aparatos de otras marcas ni aparatos que no hayan sido importados legalmente, pero sí deben reparar los de la marca y gama que representan cuando anuncien claramente que prestan ese servicio, con independencia del establecimiento o lugar donde se compraron.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "electrodoméstico",
+        "reparación",
+        "rechazo",
+        "marca",
+        "servicio oficial",
+        "piezas",
+        "información",
+        "consumo"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a un presupuesto antes de que reparen mi aparato en un SAT?",
+      "respuesta": "Sí. Antes de reparar el aparato, tienes derecho a un presupuesto previo por escrito, salvo que renuncies a él expresamente y por escrito. El presupuesto debe tener una validez mínima de 30 días desde que te lo comuniquen y debe incluir, entre otros datos, la identificación del SAT y de la persona usuaria, la marca, modelo y número de serie del aparato, el motivo de la reparación, el diagnóstico de la avería, los pagos que debas realizar, la fecha prevista de entrega, la firma de la persona responsable del SAT, un espacio para tu aceptación y el periodo de validez del presupuesto.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "presupuesto",
+        "reparación",
+        "aparato",
+        "electrodoméstico",
+        "validez",
+        "diagnóstico",
+        "aceptación",
+        "renuncia",
+        "precio"
+      ]
+    },
+    {
+      "pregunta": "¿Qué sucede si pido un presupuesto a un SAT y no acepto la reparación?",
+      "respuesta": "Si pides un presupuesto y después no aceptas la reparación, el SAT puede cobrarte su elaboración. El importe máximo es el equivalente a 15 minutos del precio de la hora de trabajo para pequeños aparatos, 30 minutos para aparatos de línea blanca y 60 minutos para aparatos de línea marrón o electrónica. El SAT debe informarte previamente del precio o de la forma en que se calculará. Si el servicio se presta a domicilio, también puede cobrar el desplazamiento en las condiciones legalmente previstas.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "presupuesto",
+        "reparación",
+        "gastos",
+        "pequeños aparatos",
+        "línea blanca",
+        "línea marrón",
+        "electrónica",
+        "desplazamiento"
+      ]
+    },
+    {
+      "pregunta": "¿Qué pasa si durante la reparación de un electrodoméstico en un SAT aparecen averías ocultas?",
+      "respuesta": "El SAT debe informarte lo antes posible. Si ya existía un presupuesto, debe elaborar otro adicional para la avería o defecto oculto y obtener tu conformidad antes de repararlo. Si habías renunciado por escrito al presupuesto previo, debe comunicarte la nueva avería y, si el coste adicional supera los límites establecidos legalmente, volver a ofrecerte la elaboración de un presupuesto. Esos límites son el 10 % del valor del aparato si este no supera aproximadamente 60,10 euros, el 8 % si está entre 60,10 y 300,51 euros y el 6 % si supera esta última cantidad, valorando el aparato como si hubiera que comprarlo nuevo en el mercado.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "electrodoméstico",
+        "avería oculta",
+        "presupuesto",
+        "reparación",
+        "conformidad",
+        "coste",
+        "valor",
+        "renuncia"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es el resguardo de depósito de los SAT y para qué sirve?",
+      "respuesta": "El resguardo de depósito es el documento que acredita que has entregado el aparato al SAT. Sirve para recoger el presupuesto o retirar el aparato reparado. Debe incluir, al menos, el número de orden, la marca, modelo y número de serie del aparato, los datos del SAT y de la persona usuaria, la descripción de los daños visibles o presuntas averías, la fecha de recepción, el plazo previsto de entrega del presupuesto o del aparato reparado y las firmas del SAT y de la persona usuaria. Si existe un presupuesto firmado por ambas partes, ese presupuesto puede servir como resguardo de depósito.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "resguardo",
+        "depósito",
+        "aparato",
+        "presupuesto",
+        "reparación",
+        "entrega",
+        "retirada",
+        "firma",
+        "avería"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden usar piezas usadas o no originales para reparar mi electrodoméstico en un SAT?",
+      "respuesta": "Sí, pero solo si lo autorizas por escrito. Como regla general, las piezas deben ser nuevas. El SAT solo puede usar piezas usadas, recuperadas o no originales si das tu consentimiento por escrito, si están en perfectas condiciones para el uso al que se destinan y si tienen un precio más bajo que las piezas nuevas, cuando estas existan en el mercado. Además, el SAT debe poder justificar el origen, la naturaleza y el precio de las piezas utilizadas.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "piezas",
+        "usadas",
+        "recuperadas",
+        "no originales",
+        "electrodoméstico",
+        "autorización",
+        "precio",
+        "reparación",
+        "repuestos"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo quedarme con las piezas que sustituyan durante la reparación de mi electrodoméstico en un SAT?",
+      "respuesta": "Sí. Al terminar la reparación, el SAT debe ofrecerte las piezas sustituidas y entregártelas si las quieres, salvo que la reparación esté cubierta por la garantía del aparato. Esta entrega te permite comprobar qué se ha cambiado y conservar una prueba de la reparación realizada.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "piezas",
+        "sustituidas",
+        "electrodoméstico",
+        "reparación",
+        "garantía",
+        "entrega",
+        "repuestos",
+        "prueba"
+      ]
+    },
+    {
+      "pregunta": "¿Durante cuánto tiempo deben estar disponibles los repuestos de mi electrodoméstico?",
+      "respuesta": "Con carácter general, el productor debe garantizar la existencia de repuestos durante un plazo mínimo de 10 años desde la fecha en que el electrodoméstico deje de fabricarse. Además, para determinados tipos de aparatos existe normativa europea específica que establece obligaciones adicionales sobre las piezas que deben estar disponibles, durante cuánto tiempo y para quiénes.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "repuestos",
+        "electrodoméstico",
+        "piezas",
+        "funcionales",
+        "estéticas",
+        "disponibilidad",
+        "plazo",
+        "fabricación",
+        "importación",
+        "sat"
+      ]
+    },
+    {
+      "pregunta": "¿Cuánto tiempo de garantía tengo sobre la reparación de un electrodoméstico en un SAT?",
+      "respuesta": "La reparación realizada por un SAT tiene una garantía mínima de 3 meses desde la fecha de entrega del aparato reparado. La garantía cubre la reparación efectuada y tiene validez mientras el aparato no sea manipulado o reparado por terceros. No puede exigirse una nueva reparación con cargo a la garantía si la avería se debe a un uso inadecuado o a una causa de fuerza mayor, circunstancias que deberá probar el SAT. Todo ello se entiende sin perjuicio de otros derechos que puedan corresponderte respecto de las piezas o bienes suministrados.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "garantía",
+        "reparación",
+        "electrodoméstico",
+        "plazo",
+        "entrega",
+        "piezas",
+        "manipulación",
+        "terceros"
+      ]
+    },
+    {
+      "pregunta": "¿La garantía sobre un producto reparado en un SAT cubre todos los gastos?",
+      "respuesta": "Sí, pero solo respecto de la reparación realizada y de la avería cubierta por esa garantía. Durante el plazo de garantía, si reaparece el defecto reparado o surge una avería relacionada con la reparación, el SAT debe repararla gratuitamente, incluida la mano de obra, las piezas de repuesto, los materiales y los impuestos. También cubre los gastos de transporte y desplazamiento necesarios cuando correspondan a conceptos que ya se hubieran abonado en la factura de la reparación anterior. No cubre averías nuevas o ajenas a la reparación anterior, ni daños causados por mal uso o por manipulaciones de terceros.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "garantía",
+        "reparación",
+        "gastos",
+        "piezas",
+        "mano obra",
+        "transporte",
+        "desplazamiento",
+        "avería"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si mi electrodoméstico vuelve a estropearse y no estoy de acuerdo con el SAT sobre si la avería está cubierta por la garantía?",
+      "respuesta": "Si no estás de acuerdo con el SAT sobre si una nueva avería está cubierta por la garantía de la reparación, puedes optar por acudir al propio SAT garante o a otro SAT. Si eliges otro, debes comunicarlo previamente al SAT que dio la garantía con antelación suficiente para que pueda intervenir en la nueva reparación. Si, una vez realizada, sigue existiendo desacuerdo sobre la cobertura, deberás abonar su importe y podrás reclamarlo posteriormente. Conserva el presupuesto, la factura, los informes técnicos y las demás pruebas disponibles. Reclama primero por escrito al SAT y, si no responde en el plazo máximo de 15 días o la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo, al arbitraje de consumo si procede o a los tribunales.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "garantía",
+        "avería",
+        "electrodoméstico",
+        "reclamación",
+        "factura",
+        "informe técnico",
+        "consumo",
+        "arbitraje",
+        "juzgado"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con un servicio de asistencia técnica porque reparó un televisor y, al mes, ha vuelto a tener la misma avería. ¿Qué puedo hacer?",
+      "respuesta": "Si la misma avería reaparece al mes, se encuentra dentro del plazo mínimo de garantía de la reparación, que es de 3 meses desde la entrega del aparato reparado. Reclama por escrito al SAT y pide que repare gratuitamente el televisor. Conserva el resguardo de depósito, el presupuesto, la factura y cualquier comunicación relacionada con la reparación. Si el SAT no responde en el plazo máximo de 15 días o la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo, a una asociación de consumidores, al arbitraje de consumo si el SAT está adherido o lo acepta, o a los tribunales.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "televisor",
+        "garantía",
+        "reparación",
+        "avería",
+        "reclamación",
+        "factura",
+        "consumo",
+        "omic",
+        "juzgado"
+      ]
+    },
+    {
+      "pregunta": "¿Qué se entiende por reparaciones en el hogar?",
+      "respuesta": "Son los trabajos de reparación, mantenimiento, conservación o pequeñas obras que una empresa o profesional realiza en el domicilio de una persona consumidora. Pueden incluir, entre otros, servicios de fontanería, electricidad, albañilería, pintura, carpintería, cerrajería, cristalería o reparación de instalaciones domésticas. La regulación concreta y las obligaciones documentales pueden variar según la comunidad autónoma y el tipo de servicio.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "reparaciones hogar",
+        "domicilio",
+        "fontanería",
+        "electricidad",
+        "albañilería",
+        "pintura",
+        "carpintería",
+        "empresa",
+        "profesional"
+      ]
+    },
+    {
+      "pregunta": "Contraté la reforma de mi oficina con una empresa de albañilería. ¿Puedo ejercer el derecho de desistimiento?",
+      "respuesta": "No, si contrataste la reforma para una oficina vinculada a tu actividad empresarial o profesional. En ese caso no actúas como persona consumidora y no se aplican los derechos específicos de la normativa de consumo, como el derecho de desistimiento previsto para determinados contratos celebrados por personas consumidoras. Aun así, puedes reclamar por otras vías si la empresa incumple el contrato, realiza mal la obra o te cobra conceptos no pactados.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "reforma",
+        "oficina",
+        "albañilería",
+        "desistimiento",
+        "persona consumidora",
+        "actividad profesional",
+        "contrato",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a recibir un presupuesto por escrito antes de contratar una reforma en el hogar?",
+      "respuesta": "La obligación concreta de entregarte un presupuesto por escrito puede depender de la normativa aplicable en cada comunidad autónoma y del tipo de servicio. En todo caso, antes de contratar la empresa o profesional debe facilitarte información clara sobre los trabajos que se van a realizar, el precio total o, si no puede calcularse de antemano, la forma en que se determinará, así como las demás condiciones relevantes del servicio. Cuando exista un presupuesto y lo aceptes, sus condiciones pasan a formar parte de lo contratado.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "reforma",
+        "hogar",
+        "presupuesto",
+        "precio",
+        "materiales",
+        "contratación",
+        "información",
+        "condiciones",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "¿Qué debe incluir un presupuesto de reforma en el hogar?",
+      "respuesta": "El contenido obligatorio de un presupuesto de reforma puede variar según la normativa de cada comunidad autónoma. En todo caso, antes de contratar debes recibir información clara sobre la identidad de la empresa o profesional, las características principales de los trabajos, el precio total con impuestos o la forma de calcularlo cuando no pueda determinarse de antemano, y las condiciones relevantes de pago y ejecución. La normativa autonómica puede exigir que el presupuesto escrito incluya además otros datos, como los materiales, fechas o plazos de ejecución, periodo de validez y otros conceptos asociados al servicio.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "presupuesto",
+        "reforma",
+        "hogar",
+        "empresa",
+        "trabajos",
+        "materiales",
+        "precio",
+        "impuestos",
+        "garantías",
+        "plazo"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden incrementarme el presupuesto de una reforma una vez comenzada?",
+      "respuesta": "No pueden aumentarte el precio de forma unilateral. Si durante la reforma aparecen trabajos adicionales o cambios no incluidos en el presupuesto aceptado que supongan un coste adicional, la empresa debe informarte antes de realizarlos y obtener tu consentimiento expreso. Es recomendable que esa autorización quede por escrito para evitar problemas de prueba. Si no has aceptado esos trabajos o costes adicionales, puedes reclamar las cantidades que te hayan cobrado por ellos, sin perjuicio de lo que establezca la normativa autonómica aplicable.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "reforma",
+        "presupuesto",
+        "precio",
+        "incremento",
+        "trabajos adicionales",
+        "aceptación",
+        "autorización",
+        "contrato",
+        "costes"
+      ]
+    },
+    {
+      "pregunta": "¿Estoy obligado a pagar si la reforma de mi hogar no cumple con lo contratado?",
+      "respuesta": "Si la reforma no se ajusta a lo contratado, puedes exigir a la empresa que subsane los defectos o cumpla correctamente lo pactado y, si el incumplimiento es suficientemente grave, solicitar la resolución del contrato y la devolución de las cantidades que correspondan. También puedes reclamar los daños y perjuicios que puedas acreditar. La existencia de defectos no significa necesariamente que puedas dejar de pagar todo el precio: dependerá de la importancia del incumplimiento, de los trabajos correctamente realizados y de las condiciones de pago acordadas. Conviene reclamar por escrito y conservar el presupuesto, la factura, fotografías y cualquier informe técnico.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "reforma",
+        "hogar",
+        "incumplimiento",
+        "defectos",
+        "contrato",
+        "corrección",
+        "rebaja",
+        "resolución",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He tenido un problema con una empresa de reformas porque no ha cumplido los plazos acordados en el contrato. ¿Qué puedo hacer?",
+      "respuesta": "Si la empresa no ha cumplido los plazos pactados, puedes reclamar por incumplimiento del contrato. Reclama primero por escrito, indicando el plazo acordado, el retraso producido y qué solución solicitas, como que finalice la obra en un plazo concreto o, si el incumplimiento es suficientemente grave, la resolución del contrato y la devolución de las cantidades que correspondan. También puedes reclamar los daños y perjuicios derivados del retraso que puedas acreditar. Si la empresa no responde en el plazo máximo de 15 días o la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo, a una asociación de consumidores, al arbitraje de consumo si la empresa está adherida o lo acepta, o a los tribunales.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "reforma",
+        "empresa",
+        "plazos",
+        "incumplimiento",
+        "contrato",
+        "reclamación",
+        "devolución",
+        "indemnización",
+        "consumo",
+        "juzgado"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a que me entreguen un justificante cuando dejo mi vehículo en un aparcamiento?",
+      "respuesta": "Sí. El aparcamiento debe entregarte un justificante o resguardo, en papel o en otro soporte duradero, en el que conste la identificación del vehículo y si has entregado o no las llaves, salvo las excepciones previstas legalmente para determinados aparcamientos de uso exclusivo de clientes. En los aparcamientos de estacionamiento rotatorio, el justificante debe indicar además el día, la hora y el minuto de entrada.",
+      "subcategoria": "Aparcamientos",
+      "keywords": [
+        "aparcamiento",
+        "vehículo",
+        "justificante",
+        "resguardo",
+        "matrícula",
+        "llaves",
+        "entrada",
+        "hora",
+        "precio"
+      ]
+    },
+    {
+      "pregunta": "¿Es el aparcamiento responsable de todos los objetos que lleve dentro del coche?",
+      "respuesta": "No. Como regla general, el aparcamiento debe restituir el vehículo en el estado en que fue entregado y responde de los componentes y accesorios incorporados de forma fija e inseparable que sean habituales y ordinarios en ese tipo de vehículo. No responde de los objetos o efectos personales que dejes en su interior, salvo que ofrezca un servicio especial de custodia. En ese caso, debes declarar expresamente los objetos al entrar, el aparcamiento debe aceptar su custodia y debes cumplir las medidas de seguridad que te indique.",
+      "subcategoria": "Aparcamientos",
+      "keywords": [
+        "aparcamiento",
+        "objetos",
+        "vehículo",
+        "coche",
+        "responsabilidad",
+        "accesorios",
+        "custodia",
+        "efectos personales",
+        "llaves"
+      ]
+    },
+    {
+      "pregunta": "¿El aparcamiento debe mostrar claramente los precios y normas antes de que aparque?",
+      "respuesta": "Sí. Antes de contratar el servicio, el aparcamiento debe mostrar de forma visible y clara los precios, horarios y normas de uso y funcionamiento. También debe informar si, por las características del aparcamiento, es habitual o necesario dejar las llaves del vehículo. Esta información debe estar disponible para que puedas conocer las condiciones antes de aparcar.",
+      "subcategoria": "Aparcamientos",
+      "keywords": [
+        "aparcamiento",
+        "precios",
+        "normas",
+        "horarios",
+        "información",
+        "vehículo",
+        "llaves",
+        "condiciones",
+        "servicio"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el titular de un aparcamiento retirar un vehículo que esté mucho tiempo estacionado en el mismo lugar?",
+      "respuesta": "Sí, pero no puede retirarlo por su cuenta sin seguir el procedimiento legal. El titular del aparcamiento puede iniciar el procedimiento previsto para la retirada del vehículo cuando lleve más de 6 meses estacionado de forma continuada en el mismo lugar y existan indicios que permitan presumir racionalmente su abandono, como desperfectos que impidan moverlo por sus propios medios, falta de placas de matrícula u otros signos externos de desinterés de su propietario. Corresponde al titular del aparcamiento probar tanto el abandono como el transcurso de los 6 meses.",
+      "subcategoria": "Aparcamientos",
+      "keywords": [
+        "aparcamiento",
+        "vehículo",
+        "retirada",
+        "estacionado",
+        "abandono",
+        "seis meses",
+        "desperfectos",
+        "matrícula",
+        "gastos"
+      ]
+    },
+    {
+      "pregunta": "Dejé mi coche estacionado 52 minutos y la empresa me facturó 1 hora. ¿Es legal? ¿Qué puedo hacer?",
+      "respuesta": "Si se trata de un aparcamiento de estacionamiento rotatorio, no. El precio debe calcularse por minuto de estacionamiento y no pueden aplicarse redondeos a unidades de tiempo que no hayas utilizado. Reclama por escrito a la empresa y solicita la devolución del importe cobrado indebidamente, conservando el justificante de entrada, el ticket de pago y la información sobre las tarifas. Si no responde en el plazo máximo de 15 días o la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo, a una asociación de consumidores, al arbitraje de consumo si la empresa está adherida o lo acepta, o a los tribunales.",
+      "subcategoria": "Aparcamientos",
+      "keywords": [
+        "aparcamiento",
+        "coche",
+        "facturación",
+        "redondeo",
+        "tiempo real",
+        "ticket",
+        "reclamación",
+        "consumo",
+        "devolución",
+        "tarifa"
+      ]
+    },
+    {
+      "pregunta": "¿Qué información deben facilitar los abogados a sus clientes antes de iniciar cualquier actuación profesional?",
+      "respuesta": "Antes de iniciar su actuación profesional, el abogado debe informarte de su identidad, número de identificación fiscal, Colegio de la Abogacía al que pertenece, número de colegiado, domicilio profesional y medios de contacto. También debe informarte sobre la viabilidad del asunto, los honorarios y costes de su actuación y las posibles consecuencias de una condena en costas, incluida su cuantía aproximada. La información sobre honorarios y costes debe facilitarse mediante una hoja de encargo o un medio equivalente. Si intervienen varios abogados de una misma sociedad u organización, tienes derecho a conocer su identidad y quién asume la dirección del asunto.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
-        "diagnóstico",
-        "derecho",
-        "expliquen",
-        "tratamiento",
+        "abogado",
+        "cliente",
+        "información",
+        "colegio",
+        "colegiado",
+        "honorarios",
+        "encargo",
+        "gastos",
+        "contacto"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es la hoja de encargo de un abogado y qué función tiene?",
+      "respuesta": "La hoja de encargo es el documento en el que se recogen las condiciones del servicio profesional que prestará el abogado, como el objeto del encargo, las actuaciones previstas y los honorarios y costes. Sirve para dejar claras las condiciones de la relación profesional y facilitar la prueba de lo acordado. Antes de iniciar su actuación, el abogado debe facilitarte la información legalmente exigida, preferentemente mediante una hoja de encargo, y debe informarte de sus honorarios y costes mediante esta o un medio equivalente.",
+      "subcategoria": "Servicios profesionales",
+      "keywords": [
+        "hoja encargo",
+        "abogado",
+        "cliente",
+        "honorarios",
+        "servicios",
+        "gastos",
+        "contrato",
+        "condiciones",
+        "actuaciones"
+      ]
+    },
+    {
+      "pregunta": "¿Qué información ofrecen los Colegios de la Abogacía en sus páginas web sobre los abogados colegiados?",
+      "respuesta": "A través de la ventanilla única, los Colegios de la Abogacía deben facilitar el acceso al registro de colegiados y sociedades profesionales. También deben ofrecer información sobre las vías de reclamación y recursos que pueden utilizar los consumidores y usuarios, los códigos deontológicos aplicables y los datos de asociaciones u organizaciones de consumidores a las que se pueda acudir para recibir asistencia.",
+      "subcategoria": "Servicios profesionales",
+      "keywords": [
+        "colegio abogacía",
+        "abogados",
+        "colegiados",
+        "ventanilla única",
+        "registro",
+        "sociedades profesionales",
+        "reclamación",
+        "código deontológico",
+        "consumidores"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a que me expliquen mi diagnóstico y tratamiento en fisioterapia?",
+      "respuesta": "Sí. Como paciente, tienes derecho a recibir información clara, comprensible y suficiente sobre la valoración o diagnóstico fisioterapéutico, el tratamiento propuesto, sus objetivos, beneficios, riesgos relevantes y alternativas razonables. También puedes hacer preguntas antes de aceptar el tratamiento. Si se trata de una actuación sanitaria que requiere consentimiento informado, deben explicarte en qué consiste y pedir tu consentimiento en los términos previstos por la normativa sanitaria aplicable.",
+      "subcategoria": "Servicios profesionales",
+      "keywords": [
         "fisioterapia",
-        "debes"
+        "diagnóstico",
+        "tratamiento",
+        "paciente",
+        "información",
+        "consentimiento",
+        "riesgos",
+        "alternativas",
+        "derechos"
       ]
     },
     {
       "pregunta": "¿Necesito dar mi consentimiento antes de recibir un tratamiento fisioterápico?",
-      "respuesta": "Sí, el fisioterapeuta debe obtener tu consentimiento antes de iniciar cualquier tratamiento.",
+      "respuesta": "Sí. Antes de iniciar un tratamiento fisioterápico, deben informarte de forma clara y comprensible sobre la actuación propuesta, su finalidad, sus riesgos y consecuencias, para que puedas aceptarla o rechazarla libremente. El consentimiento es verbal como regla general, pero debe prestarse por escrito cuando se trate de procedimientos invasivos o de actuaciones que supongan riesgos o inconvenientes de notoria y previsible repercusión negativa sobre tu salud. También puedes revocar libremente tu consentimiento en cualquier momento.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
         "consentimiento",
-        "antes",
+        "fisioterapia",
         "tratamiento",
-        "necesito",
-        "recibir",
-        "fisioterápico"
+        "información",
+        "paciente",
+        "riesgos",
+        "alternativas",
+        "rechazo",
+        "salud"
       ]
     },
     {
       "pregunta": "¿Puedo solicitar un informe o certificado sobre mi tratamiento de fisioterapia?",
-      "respuesta": "Sí, tienes derecho a recibir un certificado o informe del fisioterapeuta que detalle tu valoración y la asistencia prestada.",
+      "respuesta": "Tienes derecho a acceder a tu historia clínica y a obtener copia de los datos y documentos que figuren en ella, con los límites previstos legalmente. También puedes solicitar certificados acreditativos de tu estado de salud. La emisión de otros informes específicos sobre la valoración, el tratamiento o la evolución puede depender de la documentación clínica existente y de la normativa sanitaria aplicable.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
         "informe",
         "certificado",
-        "solicitar",
-        "tratamiento",
         "fisioterapia",
-        "tienes"
+        "tratamiento",
+        "historia clínica",
+        "documentación",
+        "paciente",
+        "asistencia",
+        "datos"
       ]
     },
     {
-      "pregunta": "¿Qué puedo hacer si el fisioterapeuta, abogado u odontólogo incumple los principios básicos de actuación profesional?",
-      "respuesta": "Puedes presentar una queja ante su Colegio Profesional que tramitará y evaluará tu reclamación. Al margen de esto, puedes presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €.",
+      "pregunta": "¿Qué puedo hacer si un fisioterapeuta, abogado u odontólogo incumple los principios básicos de actuación profesional?",
+      "respuesta": "Puedes presentar una queja o reclamación ante el Colegio Profesional correspondiente, que podrá valorar si se han incumplido las normas profesionales o deontológicas y, en su caso, adoptar las medidas que procedan. Si además has sufrido un perjuicio, puedes reclamar al profesional o, cuando corresponda, al centro, despacho o empresa responsable. Los servicios públicos de consumo pueden intervenir cuando exista una relación de consumo y la controversia afecte a aspectos contractuales o económicos; las cuestiones estrictamente sanitarias o deontológicas pueden corresponder a otras autoridades o al Colegio Profesional. La vía colegial puede tener consecuencias disciplinarias, pero no sustituye a las vías para reclamar una indemnización por los daños sufridos.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
-        "abogado",
         "profesional",
-        "puedes",
-        "presentar",
         "fisioterapeuta",
-        "odontólogo"
+        "abogado",
+        "odontólogo",
+        "colegio profesional",
+        "queja",
+        "reclamación",
+        "deontología",
+        "indemnización",
+        "tribunales"
       ]
     },
     {
       "pregunta": "¿Qué información debo recibir antes de aceptar un tratamiento odontológico?",
-      "respuesta": "Debes ser informado claramente sobre el diagnóstico, las opciones de tratamiento, riesgos, beneficios, efectos secundarios y coste. Solo tras recibir esta información podrás dar tu consentimiento informado.",
+      "respuesta": "Antes de aceptar un tratamiento odontológico, deben informarte de forma clara y comprensible sobre el diagnóstico, las opciones de tratamiento, los objetivos, beneficios, riesgos relevantes, posibles efectos secundarios, alternativas razonables y consecuencias de no tratarte. También deben informarte del coste previsto, especialmente si se trata de una clínica privada. Con esa información podrás decidir libremente si aceptas o rechazas el tratamiento.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
-        "información",
-        "recibir",
+        "odontología",
         "tratamiento",
-        "informado",
-        "antes",
-        "aceptar"
+        "diagnóstico",
+        "información",
+        "riesgos",
+        "beneficios",
+        "alternativas",
+        "coste",
+        "consentimiento"
       ]
     },
     {
       "pregunta": "¿Cómo funciona el consentimiento informado en odontología?",
-      "respuesta": "El consentimiento suele ser verbal, pero para intervenciones quirúrgicas o actos invasivos debe entregarse un documento escrito con suficiente antelación para que puedas leerlo, evaluarlo y decidir.",
+      "respuesta": "En odontología, el consentimiento informado significa que debes recibir información comprensible sobre el tratamiento y aceptarlo libremente antes de que se realice. En actuaciones sencillas puede prestarse verbalmente. Sin embargo, debe constar por escrito en intervenciones quirúrgicas, procedimientos diagnósticos o terapéuticos invasivos y, en general, cuando el tratamiento pueda suponer riesgos o inconvenientes relevantes para tu salud. Deben darte tiempo suficiente para leer la información, hacer preguntas y decidir.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
-        "consentimiento",
-        "funciona",
-        "informado",
+        "consentimiento informado",
         "odontología",
-        "suele",
-        "verbal"
+        "tratamiento",
+        "paciente",
+        "información",
+        "intervención",
+        "riesgos",
+        "documento",
+        "decisión"
       ]
     },
     {
       "pregunta": "¿Tengo derecho a la continuidad asistencial si cambio de dentista?",
-      "respuesta": "Sí, el nuevo dentista debe poder acceder a tu historial y continuar la atención sin interrupciones.",
+      "respuesta": "Si cambias de dentista, tienes derecho a acceder a tu historia clínica y a obtener copia de la documentación necesaria para facilitar la continuidad de tu atención, con los límites previstos legalmente. Puedes entregar esa documentación al nuevo dentista o autorizar su acceso cuando proceda. El cambio de profesional no permite al nuevo dentista acceder automáticamente a tu historial sin tu autorización o sin otra base legal que lo permita.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
         "dentista",
-        "derecho",
-        "continuidad",
-        "asistencial",
-        "cambio",
-        "acceder"
+        "continuidad asistencial",
+        "historia clínica",
+        "documentación",
+        "tratamiento dental",
+        "protección datos",
+        "consentimiento",
+        "clínica",
+        "paciente"
       ]
     },
     {
-      "pregunta": "He decidido financiar mi tratamiento dental ¿Puedo escoger la entidad que me dé la financiación o me tengo que quedar con la que me ofrece la clínica?",
-      "respuesta": "Puedes elegir la entidad financiera. Si el crédito se tramita a través de la clínica, conviene que quede vinculado expresamente al servicio para no tener que seguir pagando en caso de interrupción del tratamiento.",
+      "pregunta": "He decidido financiar mi tratamiento dental. ¿Puedo escoger la entidad que me dé la financiación o me tengo que quedar con la que me ofrece la clínica?",
+      "respuesta": "Puedes escoger la entidad financiera y no tienes obligación de aceptar la financiación que te ofrezca la clínica. Antes de firmar, compara el coste total, intereses, comisiones, plazo, cuotas y consecuencias si el tratamiento no se presta correctamente. Si el préstamo se tramita a través de la clínica y sirve exclusivamente para financiar ese tratamiento, puede tratarse de un crédito vinculado. En ese caso, si la clínica no presta el servicio o interrumpe el tratamiento y no te da solución tras reclamarle, podrías ejercer determinados derechos también frente a la entidad financiadora. Conviene conservar el contrato del tratamiento, el contrato de financiación y toda la documentación entregada.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
-        "tratamiento",
-        "entidad",
+        "tratamiento dental",
+        "financiación",
+        "entidad financiera",
         "clínica",
-        "decidido",
-        "financiar",
-        "dental"
+        "crédito vinculado",
+        "préstamo",
+        "cuotas",
+        "reclamación",
+        "contrato"
       ]
     },
     {
       "pregunta": "¿Qué garantía tienen los productos sanitarios, prótesis o aparatos dentales?",
-      "respuesta": "Tienen una garantía de tres años desde su entrega.",
+      "respuesta": "Cuando una prótesis, aparato u otro producto sanitario se suministra como un bien a una persona consumidora, se aplica con carácter general la garantía legal de conformidad de 3 años desde su entrega, también cuando se haya fabricado específicamente para el paciente. Esta garantía se refiere a defectos o faltas de conformidad del producto y no significa que cualquier problema o evolución clínica durante ese periodo esté automáticamente cubierto. Los aspectos relacionados con la correcta realización del tratamiento y la actuación profesional se rigen además por la normativa sanitaria y las reglas de responsabilidad aplicables.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
         "garantía",
-        "productos",
-        "sanitarios",
-        "prótesis",
-        "aparatos",
-        "dentales"
+        "productos sanitarios",
+        "prótesis dental",
+        "aparato dental",
+        "tratamiento",
+        "clínica",
+        "conformidad",
+        "defecto",
+        "seguridad",
+        "trazabilidad"
       ]
     },
     {
       "pregunta": "¿Puedo solicitar documentación del fabricante sobre los productos que me van a implantar en una clínica odontológica?",
-      "respuesta": "Sí, tienes derecho a recibir información sobre la composición del producto para poder reclamar la garantía si fuera necesario.",
+      "respuesta": "Sí, aunque la documentación que deben facilitarte depende del tipo de producto sanitario. En los productos sanitarios a medida, la declaración elaborada por el fabricante conforme a la normativa debe estar a disposición del paciente. Además, para los productos implantables sujetos a la obligación de tarjeta de implante, el centro sanitario debe entregarte la información que permita identificar el producto y al fabricante, así como los datos necesarios para su trazabilidad y seguridad, junto con la tarjeta de implante cumplimentada. Determinados productos dentales están exceptuados legalmente de esta obligación específica de tarjeta de implante.",
       "subcategoria": "Servicios profesionales",
       "keywords": [
-        "solicitar",
         "documentación",
         "fabricante",
-        "productos",
-        "implantar",
+        "implante",
+        "clínica odontológica",
+        "producto sanitario",
+        "trazabilidad",
+        "lote",
+        "serie",
+        "seguridad",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a recibir mi historia clínica dental completa?",
+      "respuesta": "Sí. Puedes solicitar el acceso a tu historia clínica dental y obtener copia de la documentación que forme parte de ella, como informes, pruebas, diagnósticos, tratamientos realizados, consentimientos informados y documentación relevante para el seguimiento de tu atención. Este derecho tiene los límites previstos en la normativa sanitaria y de protección de datos, por ejemplo respecto de anotaciones subjetivas de profesionales o datos de terceras personas. La clínica debe facilitarte el acceso por un medio adecuado y conservar la historia clínica durante el plazo legal aplicable.",
+      "subcategoria": "Servicios profesionales",
+      "keywords": [
+        "historia clínica",
+        "dental",
+        "paciente",
+        "documentación",
+        "informes",
+        "pruebas",
+        "tratamiento",
+        "consentimiento",
+        "protección datos",
         "clínica"
       ]
     },
     {
-      "pregunta": "¿Tengo derecho a recibir mi historial clínico dental completo?",
-      "respuesta": "Sí, puedes solicitar y recibir tu historial clínico para conocer tu información médica y seguimiento de los tratamientos. **[",
-      "subcategoria": "Servicios profesionales",
-      "keywords": [
-        "recibir",
-        "historial",
-        "clínico",
-        "derecho",
-        "dental",
-        "completo"
-      ]
-    },
-    {
-      "pregunta": "¿Qué pueden hacer los usuarios en caso de incumplimiento de los servicios postales?",
-      "respuesta": "Presentar quejas y reclamaciones ante los operadores, quienes deben resolverlas en un máximo de un mes mediante procedimientos públicos, gratuitos y no discriminatorios.",
+      "pregunta": "¿Qué pueden hacer las personas usuarias en caso de incumplimiento de los servicios postales?",
+      "respuesta": "Puedes presentar una queja o reclamación ante el operador postal por pérdida, robo, destrucción, deterioro, retraso u otro incumplimiento relacionado con el servicio. El operador debe disponer de procedimientos sencillos, gratuitos y no discriminatorios, darte un justificante de la reclamación y resolverla en el plazo máximo de un mes desde su presentación. Si el servicio está incluido en el ámbito del servicio postal universal y la respuesta no es satisfactoria o no recibes respuesta en ese plazo, puedes reclamar ante la Subdirección General de Régimen Postal del Ministerio de Transportes y Movilidad Sostenible, siempre que no hayas sometido el asunto al arbitraje de consumo. Esta reclamación debe presentarse en el plazo máximo de un mes desde la respuesta del operador o desde que finalizó su plazo para responder.",
       "subcategoria": "Servicios postales",
       "keywords": [
+        "servicios postales",
         "usuarios",
+        "reclamación",
+        "queja",
+        "operador postal",
         "incumplimiento",
-        "servicios",
-        "postales",
-        "presentar",
-        "quejas"
+        "plazo",
+        "indemnización",
+        "servicio universal"
       ]
     },
     {
-      "pregunta": "¿Qué derecho tiene un remitente si su envío certificado se pierde, se destruye o se deteriora?",
-      "respuesta": "Derecho a percibir una indemnización predeterminada por el operador, proporcional al valor declarado.",
+      "pregunta": "¿Qué derecho tiene el remitente si su envío certificado se pierde, se destruye o se deteriora?",
+      "respuesta": "Salvo caso de fuerza mayor, el remitente tiene derecho a una indemnización si un envío certificado se pierde, es robado, se destruye o se deteriora. En los envíos certificados, la indemnización es una cantidad predeterminada por el operador postal y debe ser, al menos, equivalente al importe pagado por el servicio contratado. Si el envío era con valor declarado, la indemnización se calcula en relación con el valor declarado y el daño causado. En defecto del remitente, o si este lo solicita, puede ser indemnizado el destinatario.",
       "subcategoria": "Servicios postales",
       "keywords": [
-        "derecho",
+        "envío certificado",
         "remitente",
-        "envío",
-        "certificado",
-        "pierde",
-        "destruye"
+        "indemnización",
+        "pérdida",
+        "robo",
+        "destrucción",
+        "deterioro",
+        "valor declarado",
+        "operador postal"
       ]
     },
     {
       "pregunta": "¿Qué se entiende por servicio postal y quiénes pueden prestarlo?",
-      "respuesta": "Se entiende por servicio postal la recogida, admisión, clasificación, transporte, distribución y entrega de cualquier carta de hasta 2 kg o paquete hasta 20 kg (ordinario, certificado o con valor declarado), y puede ser realizado por Correos como operador designado o por una compañía privada.",
+      "respuesta": "Un servicio postal es cualquiera de las actividades consistentes en la recogida, admisión, clasificación, transporte, distribución o entrega de envíos postales. Pueden prestarlo operadores postales habilitados conforme a la normativa postal. Correos es el operador designado para prestar el servicio postal universal, pero también pueden operar empresas privadas en régimen de libre competencia cuando cumplan los requisitos legales. No debe confundirse el concepto general de servicio postal con el servicio postal universal, que garantiza determinados envíos, como cartas y tarjetas postales de hasta 2 kg y paquetes postales de hasta 20 kg, en condiciones de calidad y precio asequible.",
       "subcategoria": "Servicios postales",
       "keywords": [
-        "entiende",
-        "servicio",
-        "postal",
-        "quiénes",
-        "prestarlo",
-        "recogida"
+        "servicio postal",
+        "operador postal",
+        "correos",
+        "empresa privada",
+        "servicio universal",
+        "envíos postales",
+        "cartas",
+        "paquetes",
+        "habilitación"
       ]
     },
     {
       "pregunta": "¿Qué servicios pueden ofrecer Correos y otras empresas de mensajería fuera del servicio postal universal?",
-      "respuesta": "Pueden ofrecer servicios de precio libre y en régimen de libre competencia, como: distribución urgente o con plazo comprometido de documentos, correspondencia o paquetería; envío de cartas de más de 2 kg o paquetes de más de 20 kg; y servicios postales con valores añadidos al servicio universal, como recogida a domicilio o entrega exclusiva al destinatario.",
+      "respuesta": "Fuera del servicio postal universal, Correos y otros operadores pueden ofrecer servicios en régimen de libre competencia y con precios libres, respetando la normativa postal y de consumo. Pueden ser, por ejemplo, servicios urgentes, entregas con plazo comprometido, recogida a domicilio, seguimiento avanzado del envío, entrega exclusiva al destinatario, logística, paquetería comercial u otros servicios con prestaciones adicionales. Las condiciones, precios, indemnizaciones y plazos deben informarse de forma clara antes de contratar.",
       "subcategoria": "Servicios postales",
       "keywords": [
-        "servicios",
-        "ofrecer",
-        "servicio",
-        "universal",
-        "libre",
-        "correos"
+        "correos",
+        "mensajería",
+        "servicio postal",
+        "servicio universal",
+        "precio libre",
+        "paquetería",
+        "entrega urgente",
+        "recogida domicilio",
+        "información"
       ]
     },
     {
-      "pregunta": "¿Cuándo y cómo pueden la clientela obtener una indemnización por envíos postales?",
-      "respuesta": "Pueden obtener indemnización cuando un envío certificado o con valor declarado se pierde, es robado, se destruye o se deteriora. Para envíos certificados, se paga una cantidad predeterminada por el operador; para envíos con valor declarado, la indemnización debe ser al menos equivalente a la cantidad declarada. En el caso de Correos, la compensación económica para el servicio postal universal está predeterminada y disponible en su página web.",
+      "pregunta": "¿Cuándo y cómo puede obtenerse una indemnización por envíos postales?",
+      "respuesta": "Salvo caso de fuerza mayor, puedes obtener una indemnización cuando un envío certificado o con valor declarado se pierde, es robado, se destruye o se deteriora. En los envíos certificados, la indemnización es una cantidad predeterminada por el operador postal; en los envíos con valor declarado, se calcula en relación con el valor declarado y el daño causado. En todo caso, debe ser al menos equivalente al importe pagado por el servicio postal contratado. Con carácter general, dispones de un plazo máximo de 6 meses desde la admisión del envío para reclamar al operador, que debe resolver en un mes y, si reconoce la indemnización, abonarla en el plazo máximo de otro mes. Para los envíos internacionales pueden aplicarse los plazos establecidos en los convenios internacionales. Si el servicio está incluido en el servicio postal universal y no recibes respuesta en plazo o esta no es satisfactoria, puedes reclamar ante la Subdirección General de Régimen Postal, salvo que hayas acudido al arbitraje de consumo.",
       "subcategoria": "Servicios postales",
       "keywords": [
         "indemnización",
-        "envíos",
-        "obtener",
-        "valor",
-        "declarado",
-        "cantidad"
+        "envío postal",
+        "certificado",
+        "valor declarado",
+        "pérdida",
+        "robo",
+        "deterioro",
+        "reclamación",
+        "operador postal",
+        "servicio universal"
       ]
     },
     {
-      "pregunta": "¿Cómo deben ser los trámites de reclamación y la información sobre indemnizaciones?",
-      "respuesta": "La información sobre indemnizaciones, vías de reclamación y procedimientos debe ser clara y accesible en oficinas o puntos de información. Los trámites deben ser sencillos, gratuitos y resolverse en un plazo máximo de un mes, siendo recomendable conservar el recibo de presentación de la reclamación.",
+      "pregunta": "¿Cómo deben ser los trámites de reclamación y la información sobre indemnizaciones en servicios postales?",
+      "respuesta": "Los operadores postales deben informar de forma clara y accesible sobre las vías para reclamar, los procedimientos disponibles, las indemnizaciones aplicables y los plazos de presentación, resolución y, en su caso, pago de la indemnización. Los trámites para ejercer el derecho a reclamar deben estar expuestos en todas sus oficinas o puntos de atención al usuario. Los procedimientos deben ser sencillos, gratuitos y no discriminatorios y, con carácter general, la reclamación debe resolverse en el plazo máximo de un mes. Al presentarla, el operador debe entregarte siempre un recibo o número de referencia que permita acreditar su presentación y consultar su estado. En los envíos internacionales pueden aplicarse los plazos establecidos en los convenios internacionales.",
       "subcategoria": "Servicios postales",
       "keywords": [
+        "servicios postales",
         "reclamación",
+        "indemnización",
+        "operador postal",
         "información",
-        "trámites",
-        "indemnizaciones",
-        "vías",
-        "procedimientos"
+        "procedimiento",
+        "plazo",
+        "oficinas",
+        "justificante"
       ]
     },
     {
       "pregunta": "¿Qué derechos y obligaciones existen respecto a los envíos no entregados o que no pueden devolverse?",
-      "respuesta": "La legislación protege los envíos no entregados y establece que las empresas de mensajería deben seguir reglas sobre procedimiento, depósito, reclamación y eventual destrucción de los envíos, garantizando que estos casos se gestionen de forma ordenada y transparente.",
+      "respuesta": "Si un envío no puede entregarse, el operador puede devolverlo al remitente, cuando conste su dirección, o comunicarle la imposibilidad de entrega en un plazo máximo de 5 días. Si opta por comunicarlo, el remitente dispone de 15 días para recuperar el envío o modificar la dirección, abonando en este último caso los gastos correspondientes. Si transcurre ese plazo sin actuar, el envío se considera abandonado, pero con carácter general debe mantenerse en depósito durante otros 3 meses, periodo en el que todavía puede ser recuperado por quien tenga derecho a él. Transcurrido ese plazo puede considerarse caducado y recibir el tratamiento previsto legalmente, que varía, entre otros factores, según tenga o no valor declarado.",
       "subcategoria": "Servicios postales",
       "keywords": [
-        "envíos",
-        "entregados",
-        "derechos",
-        "obligaciones",
-        "existen",
-        "devolverse"
+        "envíos postales",
+        "no entregados",
+        "devolución",
+        "remitente",
+        "destinatario",
+        "operador postal",
+        "custodia",
+        "reclamación",
+        "servicio universal"
       ]
     },
     {
       "pregunta": "¿Qué obligaciones tiene Correos como operador del servicio postal universal?",
-      "respuesta": "Correos debe garantizar la cobertura en todo el territorio español, incluido el medio rural, ajustarse a precios estipulados y realizar diariamente la recogida y entrega en los buzones de lunes a viernes, intentando la entrega incluso si la dirección es incompleta.",
+      "respuesta": "Como operador designado del servicio postal universal, Correos debe garantizar la prestación de los servicios incluidos en ese servicio en todo el territorio español, con cobertura adecuada, calidad determinada y precios asequibles, transparentes y no discriminatorios. Con carácter general, debe realizar la recogida y distribución de los envíos incluidos en el servicio postal universal todos los días laborables, de lunes a viernes, salvo excepciones justificadas. También debe garantizar la admisión, transporte y entrega de los envíos incluidos en el servicio, facilitar información clara sobre condiciones, precios y reclamaciones, y cumplir los plazos y estándares de calidad aplicables.",
       "subcategoria": "Servicios postales",
       "keywords": [
         "correos",
+        "servicio postal universal",
+        "operador designado",
+        "cobertura",
+        "precios",
+        "recogida",
         "entrega",
-        "obligaciones",
-        "operador",
-        "servicio",
-        "postal"
+        "calidad",
+        "reclamaciones"
       ]
     },
     {
       "pregunta": "¿Cómo debe entregarse la correspondencia y quién puede recibirla?",
-      "respuesta": "La correspondencia debe entregarse al destinatario o a la persona que este autorice; cualquier persona que se encuentre en el domicilio, se identifique y se haga cargo del envío se considera autorizada. Los envíos ordinarios se depositan en el buzón.",
+      "respuesta": "Los envíos ordinarios se entregan normalmente en el buzón domiciliario o en el lugar habilitado para la recepción de correspondencia. Los envíos que exigen entrega personal, como certificados o notificaciones, deben entregarse al destinatario o a una persona autorizada conforme a las condiciones del servicio. En el domicilio, puede recibir el envío una persona que se encuentre allí, se identifique y se haga cargo de él, salvo que el tipo de envío exija entrega exclusiva al destinatario o existan reglas especiales, por ejemplo en notificaciones administrativas.",
       "subcategoria": "Servicios postales",
       "keywords": [
-        "entregarse",
         "correspondencia",
-        "persona",
-        "quién",
-        "recibirla",
-        "destinatario"
+        "entrega",
+        "destinatario",
+        "buzón",
+        "envío ordinario",
+        "certificado",
+        "persona autorizada",
+        "domicilio",
+        "notificación"
       ]
     },
     {
-      "pregunta": "He tenido un problema con una empresa de paquetería porque ha perdido un envío ¿Qué puedo hacer?",
-      "respuesta": "Presenta la reclamación directamente a la empresa por un medio que permita acreditar la recepción, como puede ser a través de una hoja de reclamaciones, un correo postal con acuse, email, o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria puedes intentar acudir a un sistema alternativo de resolución de conflictos como es la Junta Arbitral de Transporte si la empresa acepta y la reclamación no supera los 15.000 €. Como última opción, puedes presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €. En primer lugar debes reclamar a la empresa transportista: > Puedes perdir una hoja de reclamaciones, hacerlo por correo postal -certificado con acuse de recibo o burofax-, correo electrónico o a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles/cuentas de usuario en la web de la entidad, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero en su caso, solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, cuentas con las siguientes opciones: > -Contacta con una asociación de personas consumidoras > - Presenta una reclamación en la OMIC de tu domicilio > -Acude al arbitraje de transportes, obligatorio para la entidad, salvo que el importe de la reclamación supere 15.000 euros o haya indicado previamente, en el contrato, que rechaza esta vía para resolver reclamaciones. Esta información debe aparecer en la web de la entidad y en el contrato. Reclamar por esta vías es gratuito para las personas consumidoras, y la resolución será vinculante para las partes y no recurrible, finalizando así el procedimiento. > -Puedes presentar una denuncia ante la Dirección General de Turismo de la Comunidad Autónoma donde se encuentre el Hotel. Esta no podrá resolver sobre tu reclamación pero sí sancionar a la empresa. > -Si el hotel se encuentra en otro Estado de la Unión, puedes contactar con el Centro Europeo del Consumidor, que te ayudará con tu reclamación en el país donde se encuentra el hotel. > -También puede utilizar la vía judicial, o en caso de que las anteriores no hayan solucionado el problema. En este caso, si la reclamación no supera 2000 euros, no necesitarás abogado ni procurador. 641. He tenido un problema con una empresa de paquetería porque me ha llega el envío estropeado ¿Qué puedo hacer? En este caso, te recomendamos que notifiques lo antes posible el problema, para evitar que te responsabilicen del daño. Reclama de forma conjunta al vendedor y al transportista, ya que desconocemos donde se ha producido el problema. El vendedor será el responsable de que el producto llegue en perfectas condiciones, aunque el daño se haya materializado durante el transporte. Aporta fotografías del estado del producto. > Puedes reclamar la entrega de un producto nuevo, su reparación o la devolución del importe pagado",
+      "pregunta": "He tenido un problema con una empresa de paquetería porque ha perdido un envío. ¿Qué puedo hacer?",
+      "respuesta": "Si contrataste directamente el envío con la empresa de paquetería, reclama por escrito al operador indicando el número de seguimiento, fecha de envío, contenido, valor aproximado y qué solución solicitas. Si actúa como operador postal, debe resolver tu reclamación en el plazo máximo de un mes. Si, en cambio, el envío perdido corresponde a una compra realizada a una empresa, reclama al vendedor, ya que este responde con carácter general de que el producto llegue hasta que tú o un tercero indicado por ti lo recibáis, salvo que hayas contratado por tu cuenta un transportista distinto de los ofrecidos por el vendedor. Si no obtienes una solución, puedes acudir a los servicios públicos de consumo o al arbitraje de consumo y, cuando se trate de un servicio incluido en el servicio postal universal, a la Subdirección General de Régimen Postal.",
       "subcategoria": "Servicios postales",
       "keywords": [
+        "paquetería",
+        "envío perdido",
+        "operador postal",
+        "transportista",
         "reclamación",
+        "seguimiento",
+        "indemnización",
+        "vendedor",
+        "consumo",
+        "arbitraje"
+      ]
+    },
+    {
+      "pregunta": "¿Tiene la empresa de mudanzas que hacer inventario de los bienes que va a transportar?",
+      "respuesta": "No necesariamente. Si no existe ya un documento que identifique los bienes objeto de la mudanza, cualquiera de las partes puede exigir a la otra, antes de iniciar el traslado, que se realice y acepte un inventario. Este documento resulta especialmente útil para acreditar qué bienes se entregaron a la empresa si posteriormente se producen pérdidas o daños.",
+      "subcategoria": "Mudanzas",
+      "keywords": [
+        "mudanza",
+        "inventario",
+        "bienes",
+        "objetos",
+        "valor",
+        "pérdida",
+        "daños",
+        "prueba"
+      ]
+    },
+    {
+      "pregunta": "¿Hay un límite a la indemnización si la empresa de mudanzas pierde o rompe mis cosas?",
+      "respuesta": "Sí. Con carácter general, la responsabilidad de la empresa por pérdida o daños en los bienes transportados está limitada a veinte veces el IPREM diario por cada metro cúbico del espacio de carga necesario para realizar la mudanza. Este límite puede no aplicarse en determinados supuestos previstos legalmente, por ejemplo si la empresa incumplió su obligación de informarte sobre la posibilidad de contratar un seguro o si el daño se produjo mediante una actuación dolosa o especialmente grave en los términos establecidos por la ley. También pueden existir declaraciones de valor o pactos que modifiquen el límite aplicable.",
+      "subcategoria": "Mudanzas",
+      "keywords": [
+        "mudanza",
+        "indemnización",
+        "límite",
+        "daños",
+        "pérdida",
+        "valor",
+        "seguro",
+        "responsabilidad"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si la empresa de mudanzas llega tarde o no realiza la mudanza el día pactado?",
+      "respuesta": "Si la empresa incumple la fecha o el horario pactados, puedes reclamar. Cuando exista un pacto expreso previo sobre el día y la hora, o una hora límite, para poner el vehículo a disposición y la empresa incumpla ese plazo, puedes desistir de esa expedición y buscar inmediatamente otro porteador. Si el retraso es imputable a la empresa, también puedes reclamar los perjuicios que puedas acreditar. Si la mudanza finalmente se realiza con retraso y quieres reclamar una indemnización por ese motivo, debes formular una reserva por escrito al porteador en los 21 días contados desde el día siguiente a la entrega. Conserva el presupuesto, el contrato, las comunicaciones y los justificantes de los gastos ocasionados.",
+      "subcategoria": "Mudanzas",
+      "keywords": [
+        "mudanza",
+        "retraso",
+        "fecha",
+        "incumplimiento",
+        "contrato",
+        "gastos",
+        "compensación",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede la empresa de mudanzas cobrarme más por dificultades no previstas, como falta de ascensor o necesidad de grúa?",
+      "respuesta": "La empresa no puede incrementar unilateralmente el precio pactado. Si aparece una dificultad que exige trabajos o costes adicionales no incluidos en el presupuesto, debe informarte y, cuando supongan un pago adicional, obtener tu consentimiento en los términos legalmente exigidos. La empresa debe además solicitar antes de la mudanza información sobre circunstancias relevantes, como las condiciones de acceso. Si el coste adicional deriva de información incorrecta facilitada por ti, habrá que valorar lo pactado, la información que te solicitó la empresa y los gastos realmente ocasionados.",
+      "subcategoria": "Mudanzas",
+      "keywords": [
+        "mudanza",
+        "precio",
+        "coste adicional",
+        "grúa",
+        "ascensor",
+        "presupuesto",
+        "conformidad",
+        "accesos"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo cancelar una mudanza contratada antes de que se realice?",
+      "respuesta": "Depende de cómo y para cuándo se haya contratado. Si la mudanza está prevista para una fecha o un periodo de ejecución concretos, no se aplica el derecho legal de desistimiento previsto para los contratos a distancia o fuera del establecimiento, porque la ley excluye en esos casos el transporte de bienes. Si no concurre esa excepción, puede existir derecho de desistimiento conforme a las reglas generales. Cuando no exista ese derecho y canceles la mudanza, habrá que atender al contrato y a la Ley 15/2009: con carácter general, si el cargador no entrega los bienes al porteador en el lugar y tiempo pactados, debe indemnizarle con una cantidad equivalente al precio del transporte previsto o bien ofrecerle inmediatamente otro transporte de características similares, salvo que exista un pacto válido distinto. Las condiciones contractuales impuestas a una persona consumidora no pueden ser abusivas.",
+      "subcategoria": "Mudanzas",
+      "keywords": [
+        "mudanza",
+        "cancelación",
+        "desistimiento",
+        "contrato",
+        "internet",
+        "domicilio",
+        "gastos",
+        "servicio"
+      ]
+    },
+    {
+      "pregunta": "¿La publicidad de una academia sobre salidas laborales, bolsa de empleo o prácticas es vinculante?",
+      "respuesta": "Sí. El contenido concreto de la oferta, promoción y publicidad forma parte de lo exigible aunque no figure después expresamente en el contrato. Si la academia anuncia, por ejemplo, prácticas garantizadas, acceso a una determinada bolsa de empleo o características concretas de la formación, debe cumplir lo ofrecido. La publicidad debe además ser veraz y no inducir a error. No obstante, una referencia general a las salidas profesionales de un curso no supone por sí sola una garantía de obtener un empleo. Conviene conservar folletos, capturas de pantalla, correos y mensajes que acrediten lo anunciado.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "academia",
+        "publicidad",
+        "salidas laborales",
+        "prácticas",
+        "bolsa empleo",
+        "engaño",
+        "contrato",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué ocurre si la academia cambia al profesorado o el nivel del curso no coincide con lo anunciado?",
+      "respuesta": "Si el profesorado, el nivel, el método o los contenidos se ofrecieron como características concretas del curso, la academia debe respetar lo contratado y lo anunciado. Una sustitución puntual y justificada de un profesor no implica necesariamente un incumplimiento si no altera de forma relevante el servicio, pero si el cambio es sustancial o el nivel o los contenidos no se corresponden con lo ofrecido, puedes exigir el cumplimiento de lo pactado y, si el incumplimiento es suficientemente grave, solicitar la resolución del contrato y la devolución de las cantidades que correspondan. También puedes reclamar los daños y perjuicios que puedas acreditar.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "academia",
+        "profesorado",
+        "nivel",
+        "curso",
+        "contenidos",
+        "publicidad",
+        "incumplimiento",
+        "devolución"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una academia cobrarme material didáctico obligatorio si no me informó antes de ese coste?",
+      "respuesta": "Antes de contratar, la academia debe informarte de forma clara del precio total del curso y de los costes adicionales obligatorios, como libros, licencias digitales, exámenes, tasas o material didáctico. Si algún coste no puede calcularse razonablemente de antemano, debe informarte de cómo se determinará y de que tendrás que abonarlo. Si un coste obligatorio no te fue informado previamente, puedes reclamar su cobro.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "academia",
+        "material didáctico",
+        "precio",
+        "costes",
+        "libros",
+        "licencia digital",
+        "información",
+        "curso"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si una academia cierra antes de terminar el curso?",
+      "respuesta": "Puedes reclamar la devolución de la parte del curso no prestada y, si acreditas daños adicionales, la compensación que corresponda. Reclama por escrito a la academia o a la entidad responsable. Si el curso se financió mediante un crédito vinculado, también puedes reclamar frente a la entidad financiadora tras reclamar a la academia sin obtener solución. Si la empresa está en concurso o ha desaparecido, la recuperación del dinero puede ser más difícil y puede ser necesario comunicar el crédito en el procedimiento correspondiente. También puedes acudir a consumo o a los tribunales.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "academia",
+        "cierre",
+        "curso",
+        "devolución",
+        "financiación",
+        "crédito vinculado",
+        "concurso",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a factura o justificante de pago en una academia?",
+      "respuesta": "Sí. La academia debe entregarte un recibo, copia o documento acreditativo de la contratación y de los pagos realizados. Además, como persona consumidora tienes derecho a recibir la factura en papel sin coste adicional; la factura electrónica requiere tu consentimiento expreso. Estos documentos son importantes para acreditar lo contratado y pagado y para ejercer posteriormente tus derechos frente a la academia o, en su caso, una entidad financiadora.",
+      "subcategoria": "Academias",
+      "keywords": [
+        "academia",
+        "factura",
+        "justificante",
+        "pago",
+        "recibo",
+        "curso",
+        "reclamación",
+        "documentación"
+      ]
+    },
+    {
+      "pregunta": "¿Tiene el taller que darme un resguardo cuando dejo el coche o la moto para reparar?",
+      "respuesta": "Sí. Siempre que el vehículo quede depositado en el taller, ya sea para elaborar un presupuesto o para realizar una reparación previamente aceptada, deben entregarte un resguardo de depósito. Si existe un presupuesto firmado por ambas partes, este puede hacer las veces de resguardo. El documento debe identificar al taller, al usuario y al vehículo, incluidos matrícula y kilometraje, indicar para qué se deposita, describir los trabajos cuando proceda y señalar la fecha prevista de entrega. Es importante conservarlo para retirar el vehículo y acreditar las condiciones en que quedó depositado.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "resguardo",
+        "depósito",
+        "vehículo",
+        "coche",
+        "moto",
+        "reparación",
+        "prueba"
+      ]
+    },
+    {
+      "pregunta": "¿Qué debe incluir la factura de un taller de reparación de vehículos?",
+      "respuesta": "La factura del taller debe estar debidamente desglosada y especificar los cargos realizados, las operaciones efectuadas, las piezas o elementos utilizados, las horas de trabajo empleadas y el importe correspondiente a cada concepto, además de los datos exigidos por la normativa de facturación. Si aparecen conceptos que no entiendes, que no estaban presupuestados o que no autorizaste, puedes pedir aclaraciones y, en su caso, reclamar. En determinados supuestos, la normativa exige además que se hagan constar en la factura advertencias específicas relacionadas con la reparación.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "factura",
+        "vehículo",
+        "reparación",
+        "mano obra",
+        "piezas",
+        "impuestos",
+        "garantía"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el taller cobrarme por hacer un presupuesto si luego no acepto la reparación?",
+      "respuesta": "Sí, la elaboración del presupuesto puede tener un coste, de acuerdo con la normativa aplicable. El taller debe informarte previamente del precio o de la forma de calcularlo. Si no aceptas el presupuesto, debe devolverte el vehículo en condiciones análogas a aquellas en las que lo entregaste antes de su elaboración. La regulación concreta del coste del presupuesto puede variar según la comunidad autónoma.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "presupuesto",
+        "cobro",
+        "diagnóstico",
+        "vehículo",
+        "reparación",
+        "información",
+        "rechazo"
+      ]
+    },
+    {
+      "pregunta": "¿Debe el taller tener expuestos sus precios y horarios?",
+      "respuesta": "El taller debe facilitarte información clara sobre el precio del servicio antes de contratar. Si tiene fijado previamente un precio para un determinado servicio, debe poner a tu disposición su precio completo; si no existe un precio previamente determinado, puedes solicitar el precio, la forma de calcularlo o un presupuesto suficientemente detallado. Las obligaciones concretas de exponer precios, horarios u otra información en el establecimiento pueden depender de la normativa de cada comunidad autónoma.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "precios",
+        "horarios",
+        "mano obra",
+        "información",
+        "cartel",
+        "reclamaciones",
+        "cliente"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el taller probar el coche en carretera después de repararlo?",
+      "respuesta": "Puede hacerlo si la prueba es necesaria para diagnosticar o comprobar la reparación y está justificada por el tipo de avería. Debe actuar con diligencia y responder por los daños que cause por culpa o negligencia durante la custodia o prueba del vehículo. Si no quieres que se realice una prueba o quieres limitarla, conviene dejarlo por escrito, aunque en algunos casos el taller puede necesitarla para verificar la seguridad o el resultado de la reparación.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "prueba carretera",
+        "vehículo",
+        "diagnóstico",
+        "reparación",
+        "daños",
+        "custodia",
+        "responsabilidad"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si el taller me entrega el vehículo con daños que no tenía al dejarlo?",
+      "respuesta": "Reclama cuanto antes y deja constancia por escrito. Aporta el resguardo de depósito, fotografías, factura, presupuesto y cualquier prueba del estado anterior del vehículo. El taller debe responder si el daño se produjo mientras el vehículo estaba bajo su custodia o durante la reparación, salvo que pruebe que no le es imputable. Si no se soluciona, puedes acudir a consumo, arbitraje si procede o a los tribunales.",
+      "subcategoria": "Reparaciones de vehículos",
+      "keywords": [
+        "taller",
+        "daños",
+        "vehículo",
+        "custodia",
+        "resguardo",
+        "fotografías",
+        "reclamación",
+        "responsabilidad"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un SAT cobrarme desplazamiento aunque no repare el electrodoméstico?",
+      "respuesta": "Sí. Si el SAT acude a tu domicilio para revisar o reparar el aparato, puede cobrarte el desplazamiento aunque finalmente no se realice la reparación, siempre que te haya informado previamente del precio o de la forma de calcularlo. Por el mismo servicio solo puede cobrar un desplazamiento, aunque sean necesarias varias visitas o el servicio afecte a varios aparatos, y no puede cobrarlo si el técnico acude y tú estás ausente. El gasto de desplazamiento debe aparecer reflejado en la factura.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "desplazamiento",
+        "domicilio",
+        "presupuesto",
+        "cobro",
+        "electrodoméstico",
+        "factura",
+        "información"
+      ]
+    },
+    {
+      "pregunta": "¿Qué debe incluir la factura de un SAT después de reparar mi electrodoméstico?",
+      "respuesta": "La factura debe estar desglosada e indicar las operaciones realizadas, las piezas de repuesto utilizadas, el tiempo de mano de obra empleado y el importe de cada concepto. También debe reflejar los gastos de desplazamiento, transporte u otros que se facturen e incluir, entre otros datos, la identificación del SAT y de la persona usuaria, la marca y modelo del aparato, la fecha y la firma de la persona responsable del SAT. Si incluye trabajos o conceptos que no aceptaste o no entiendes, puedes pedir aclaraciones y, en su caso, reclamar.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "factura",
+        "electrodoméstico",
+        "reparación",
+        "piezas",
+        "mano obra",
+        "desplazamiento",
+        "garantía"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo desistir de una reparación de electrodoméstico contratada por internet o por teléfono?",
+      "respuesta": "Si contrataste la reparación por internet o por teléfono, en principio tienes derecho a desistir en el plazo de 14 días naturales. Si solicitaste expresamente que el servicio comenzara durante ese plazo, puedes seguir desistiendo mientras la reparación no se haya completado, aunque el SAT puede cobrarte la parte proporcional ya prestada si se cumplieron los requisitos legales. El derecho se pierde cuando el servicio se ha ejecutado completamente con tu consentimiento expreso y habiendo sido informado de esa consecuencia. No obstante, el derecho de desistimiento no se aplica cuando solicitas específicamente una visita para realizar una reparación o mantenimiento urgente, sin perjuicio de los servicios adicionales que puedan contratarse durante esa visita.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "desistimiento",
+        "reparación",
+        "internet",
+        "teléfono",
+        "electrodoméstico",
+        "plazo",
+        "servicio"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo puedo saber si un servicio técnico es oficial de la marca?",
+      "respuesta": "Antes de contratar, comprueba si el SAT se presenta como servicio oficial, autorizado o colaborador de una marca y pide que lo acredite. Un servicio técnico independiente puede reparar aparatos de una marca, pero no debe usar nombres, logotipos o publicidad que te hagan creer que es oficial si no lo es. Si contrataste pensando que era oficial por una publicidad confusa, puedes reclamar por información engañosa.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "servicio oficial",
+        "marca",
+        "autorizado",
+        "publicidad",
+        "engaño",
+        "electrodoméstico",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un SAT llevarse mi electrodoméstico al taller sin darme un documento?",
+      "respuesta": "No. Si el SAT se lleva el electrodoméstico y este queda depositado en sus instalaciones, debe entregarte un resguardo de depósito. En él deben constar, entre otros datos, la identificación del aparato, del SAT y de la persona usuaria, los daños visibles, presuntas averías o servicios que se van a realizar, la fecha de recepción y el plazo previsto de entrega. Si existe un presupuesto firmado por ambas partes, este puede hacer las veces de resguardo.",
+      "subcategoria": "Reparaciones de electrodomésticos",
+      "keywords": [
+        "sat",
+        "resguardo",
+        "depósito",
+        "electrodoméstico",
+        "retirada",
+        "taller",
+        "documento",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho de desistimiento si contrato una reforma en mi casa por internet, por teléfono o en mi domicilio?",
+      "respuesta": "Si contrataste la reforma por internet, por teléfono o fuera del establecimiento de la empresa, en principio tienes derecho a desistir sin necesidad de justificar tu decisión. El plazo general es de 14 días naturales, aunque se amplía a 30 días si el contrato se celebró durante una visita no solicitada de la empresa a tu domicilio. Si solicitaste expresamente que la obra comenzara durante el plazo de desistimiento, la empresa puede cobrarte la parte proporcional ya ejecutada si se cumplieron los requisitos legales; si el servicio se completa íntegramente con tu consentimiento expreso y habiendo sido informado de que perderías entonces el derecho, este puede extinguirse. Existe además una excepción específica para reparaciones o trabajos de mantenimiento urgentes que hayas solicitado expresamente.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "reforma",
+        "desistimiento",
+        "internet",
+        "teléfono",
+        "domicilio",
+        "contrato",
+        "plazo",
+        "obra"
+      ]
+    },
+    {
+      "pregunta": "¿Debe la empresa de reformas entregarme factura?",
+      "respuesta": "Sí. Como persona consumidora tienes derecho a recibir factura por la reforma, en la que deben constar los datos exigidos legalmente, la descripción de los trabajos realizados, el precio, los impuestos aplicables y el importe total. Tienes derecho a recibirla en papel sin coste adicional; la factura electrónica requiere tu consentimiento expreso. Los anticipos o señales que entregues también deben quedar debidamente documentados. Conserva la factura y los justificantes de pago, ya que son importantes para acreditar lo contratado y reclamar si surge algún problema.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "reforma",
+        "factura",
+        "justificante",
+        "pago",
+        "anticipo",
+        "materiales",
+        "impuestos",
+        "garantía"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa de reformas subcontratar a otros profesionales sin avisarme?",
+      "respuesta": "En principio, una empresa puede recurrir a otros profesionales o subcontratas para realizar la reforma, salvo que se haya pactado que determinadas tareas las ejecutará personalmente un profesional concreto o que existan otras limitaciones aplicables. En todo caso, la empresa con la que contrataste sigue siendo responsable frente a ti del cumplimiento correcto de lo acordado y no puede utilizar la subcontratación para modificar unilateralmente el precio, los plazos, la calidad u otras condiciones del contrato.",
+      "subcategoria": "Reformas en el hogar",
+      "keywords": [
+        "reforma",
+        "subcontratación",
         "empresa",
-        "puedes",
-        "problema",
-        "entidad",
-        "reclamaciones"
+        "profesionales",
+        "responsabilidad",
+        "contrato",
+        "calidad",
+        "plazos"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si el aparcamiento me entrega el coche con golpes o daños?",
+      "respuesta": "Reclama cuanto antes al aparcamiento y, si es posible, deja constancia de los daños antes de retirar el vehículo. Conserva el justificante de entrada, el ticket, fotografías y cualquier otra prueba del estado del coche. El aparcamiento debe devolverte el vehículo en el estado en que fue entregado y responde por los daños y perjuicios derivados del incumplimiento de sus obligaciones. Si no obtienes una solución, puedes acudir a los servicios públicos de consumo, al arbitraje de consumo si procede o a los tribunales.",
+      "subcategoria": "Aparcamientos",
+      "keywords": [
+        "aparcamiento",
+        "daños",
+        "golpes",
+        "vehículo",
+        "ticket",
+        "justificante",
+        "reclamación",
+        "responsabilidad"
+      ]
+    },
+    {
+      "pregunta": "¿Qué pasa si pierdo el ticket o justificante del aparcamiento?",
+      "respuesta": "Si pierdes el ticket o justificante, el aparcamiento puede pedirte que acredites tu derecho sobre el vehículo antes de permitirte retirarlo. La pérdida del ticket no autoriza por sí sola a cobrarte cualquier cantidad y la ley no establece una tarifa específica para este supuesto. En los aparcamientos rotatorios, el precio del estacionamiento se calcula por minuto de uso efectivo. Cualquier coste adicional asociado a la pérdida del justificante debe haberte sido informado previamente y no puede ser abusivo. Si te cobran una cantidad que consideras injustificada o desproporcionada, puedes reclamar.",
+      "subcategoria": "Aparcamientos",
+      "keywords": [
+        "aparcamiento",
+        "ticket",
+        "justificante",
+        "pérdida",
+        "precio",
+        "vehículo",
+        "tiempo",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un aparcamiento quedarse con mi coche hasta que pague?",
+      "respuesta": "Sí, la normativa del contrato de aparcamiento reconoce al titular del aparcamiento un derecho de retención sobre el vehículo como garantía del pago del precio del servicio. Esto no le permite cobrar cantidades indebidas ni aplicar condiciones abusivas. Si no estás de acuerdo con el importe, puedes pedir factura o justificante, pagar dejando constancia de tu disconformidad y reclamar después la devolución de lo cobrado indebidamente.",
+      "subcategoria": "Aparcamientos",
+      "keywords": [
+        "aparcamiento",
+        "vehículo",
+        "retención",
+        "pago",
+        "precio",
+        "factura",
+        "reclamación",
+        "disconformidad"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un abogado cobrarme una provisión de fondos antes de empezar el asunto?",
+      "respuesta": "Sí, un abogado puede pedir una provisión de fondos, que es una cantidad anticipada para cubrir honorarios o gastos previsibles. Debe informarte con claridad de su finalidad, importe y forma de imputación. Es recomendable que conste en la hoja de encargo. Si finalmente no se realiza todo el trabajo previsto, puedes pedir liquidación de lo efectivamente realizado y devolución de las cantidades que no correspondan.",
+      "subcategoria": "Servicios profesionales",
+      "keywords": [
+        "abogado",
+        "provisión fondos",
+        "honorarios",
+        "gastos",
+        "hoja encargo",
+        "anticipo",
+        "devolución",
+        "liquidación"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo cambiar de abogado durante un procedimiento?",
+      "respuesta": "Sí, puedes cambiar de abogado si lo deseas. Debes comunicarlo y designar un nuevo profesional, procurando no perjudicar plazos o actuaciones pendientes. El abogado anterior debe facilitar la continuidad del asunto y entregar la documentación necesaria, sin perjuicio de que pueda reclamar los honorarios devengados por el trabajo realizado. Si existe un procedimiento judicial en curso, el cambio debe hacerse respetando las reglas procesales aplicables.",
+      "subcategoria": "Servicios profesionales",
+      "keywords": [
+        "abogado",
+        "cambio",
+        "procedimiento",
+        "documentación",
+        "honorarios",
+        "plazos",
+        "cliente",
+        "continuidad"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si una clínica dental cierra antes de terminar mi tratamiento?",
+      "respuesta": "Puedes reclamar la devolución de la parte del tratamiento no prestada y la entrega de tu historia clínica y documentación del tratamiento. Si el tratamiento estaba financiado mediante un crédito vinculado, reclama primero a la clínica y, si no obtienes solución, también puedes dirigirte a la entidad financiera para pedir que no te sigan cobrando por un servicio no prestado. Si la clínica está en concurso o ha desaparecido, la recuperación del dinero puede ser más difícil. También puedes acudir a consumo, al Colegio Profesional si procede o a los tribunales.",
+      "subcategoria": "Servicios profesionales",
+      "keywords": [
+        "clínica dental",
+        "cierre",
+        "tratamiento",
+        "devolución",
+        "historia clínica",
+        "financiación",
+        "crédito vinculado",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una clínica dental cobrarme un presupuesto o primera visita si no contrato el tratamiento?",
+      "respuesta": "Puede cobrarlo si te informó previamente de que la primera visita, diagnóstico, pruebas o presupuesto tenían coste y de cuál era su importe o forma de cálculo. Si se anunció como gratuito o no se informó del coste antes de prestarlo, no debería cobrarse después. En todo caso, deben darte factura por cualquier cantidad pagada.",
+      "subcategoria": "Servicios profesionales",
+      "keywords": [
+        "clínica dental",
+        "presupuesto",
+        "primera visita",
+        "diagnóstico",
+        "coste",
+        "información",
+        "factura",
+        "tratamiento"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar si un tratamiento dental queda mal hecho?",
+      "respuesta": "Sí, puedes reclamar si el tratamiento no se ajusta a lo contratado o informado, se ha realizado de forma incorrecta o existe una actuación profesional contraria a la buena práctica sanitaria. Un resultado insatisfactorio no significa por sí solo que exista mala praxis. Según las circunstancias, puedes reclamar que se subsane el problema, la devolución de las cantidades que correspondan o una indemnización por los daños que puedas acreditar. Conserva el presupuesto, los consentimientos informados, las facturas, la historia clínica y cualquier informe de otro profesional, ya que determinar si existió mala praxis puede requerir una valoración técnica o pericial.",
+      "subcategoria": "Servicios profesionales",
+      "keywords": [
+        "tratamiento dental",
+        "mala praxis",
+        "clínica",
+        "reclamación",
+        "devolución",
+        "indemnización",
+        "historia clínica",
+        "informe"
+      ]
+    },
+    {
+      "pregunta": "¿Qué plazo tengo para reclamar a una empresa postal por pérdida, retraso o daño de un envío?",
+      "respuesta": "Con carácter general, dispones de un plazo máximo de 6 meses desde la admisión del envío para presentar una reclamación ante el operador postal por pérdida, retraso, deterioro u otros incumplimientos del servicio. Si se trata de un envío internacional, pueden aplicarse los plazos establecidos en los convenios internacionales correspondientes. Conserva el justificante de envío, el número de seguimiento y cualquier prueba de la incidencia. El operador debe darte un recibo o referencia de la reclamación y resolverla en el plazo máximo de un mes.",
+      "subcategoria": "Servicios postales",
+      "keywords": [
+        "servicios postales",
+        "plazo",
+        "reclamación",
+        "pérdida",
+        "retraso",
+        "daño",
+        "envío",
+        "seguimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Quién responde si el paquete que compré por internet llega dañado o no llega?",
+      "respuesta": "Si compraste a una empresa como persona consumidora, normalmente el vendedor responde de que el producto llegue correctamente. Si el paquete se pierde o llega dañado durante el transporte, reclama al vendedor y conserva fotografías, embalaje, factura y número de seguimiento. El vendedor no puede trasladarte sin más al transportista, salvo que tú hubieras elegido un transportista distinto de los ofrecidos por el vendedor. Además, también puedes comunicar la incidencia a la empresa de transporte para dejar constancia.",
+      "subcategoria": "Servicios postales",
+      "keywords": [
+        "compra internet",
+        "paquete",
+        "dañado",
+        "pérdida",
+        "vendedor",
+        "transportista",
+        "entrega",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar si un envío postal llega tarde?",
+      "respuesta": "Sí, puedes reclamar al operador si el retraso incumple el plazo comprometido o las condiciones contratadas. En servicios ordinarios puede no existir una fecha exacta garantizada, por lo que la reclamación dependerá de la información facilitada y del tipo de servicio. En servicios urgentes o con plazo garantizado, el retraso puede dar derecho a devolución del precio, indemnización o compensación según las condiciones contratadas y la normativa aplicable. Conserva justificantes y reclama por escrito.",
+      "subcategoria": "Servicios postales",
+      "keywords": [
+        "envío postal",
+        "retraso",
+        "plazo",
+        "urgente",
+        "indemnización",
+        "devolución",
+        "operador",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden obligarme a recoger un paquete en una oficina o punto de recogida si pagué entrega a domicilio?",
+      "respuesta": "Depende del tipo de envío y de las condiciones contratadas. Como regla general, los envíos postales deben entregarse en la dirección indicada, pero pueden ponerse a disposición en una oficina o punto de recogida cuando no haya sido posible entregarlos por ausencia u otra causa justificada. Además, en determinados envíos ordinarios que no pueden depositarse en el buzón por sus dimensiones, la normativa permite dejar un aviso para su recogida en oficina. Si se trata de una compra online y el vendedor te ofreció específicamente entrega a domicilio, puedes reclamarle si la entrega no se ha realizado conforme a lo contratado.",
+      "subcategoria": "Servicios postales",
+      "keywords": [
+        "paquete",
+        "entrega domicilio",
+        "punto recogida",
+        "oficina",
+        "aviso",
+        "operador",
+        "reclamación",
+        "compra online"
       ]
     }
   ]

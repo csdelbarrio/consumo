@@ -1,317 +1,845 @@
 {
   "sector": "Protección de datos personales",
-  "total_preguntas": 24,
+  "total_preguntas": 54,
+  "generado": "2026-09-04T12:56:26",
   "preguntas": [
     {
       "pregunta": "¿Cómo puede obtener una empresa mis datos personales?",
-      "respuesta": "De dos maneras: de forma directa, cuando tú los proporcionas voluntariamente, y de forma indirecta, cuando los reciben de otras empresas o fuentes externas. En este último caso, la empresa debe informarte claramente de dónde provienen esos datos.",
+      "respuesta": "Una empresa puede obtener tus datos directamente de ti, por ejemplo cuando rellenas un formulario, haces una compra o contratas un servicio. También puede obtenerlos de forma indirecta, por ejemplo a través de otra empresa, una plataforma, una fuente de acceso público o datos generados por el uso de un servicio, siempre que exista una base jurídica que permita su tratamiento. Si no obtiene los datos directamente de ti, debe informarte, con carácter general, de las categorías de datos que trata y de dónde proceden, además del resto de información exigida sobre el tratamiento.",
       "subcategoria": "General",
       "keywords": [
         "empresa",
         "datos",
-        "obtener",
         "personales",
-        "maneras",
-        "directa"
+        "formulario",
+        "compra",
+        "servicio",
+        "origen",
+        "tratamiento",
+        "información"
       ]
     },
     {
-      "pregunta": "¿Qué información debe facilitarme una empresa que quiera mis datos personales?",
-      "respuesta": "Debe indicarte quién es el responsable del tratamiento de tus datos, para qué los va a usar, cómo puedes ejercer tus derechos (consultar, modificar o eliminar tus datos) y tu derecho a oponerte si se usan de forma automatizada para tomar decisiones sobre ti. Si los datos se obtienen de un tercero, también deben informarte del tipo de datos recogidos y de su origen.",
+      "pregunta": "¿Qué información debe facilitarme una empresa que quiera tratar mis datos personales?",
+      "respuesta": "Debe informarte, de forma clara, sobre quién es el responsable del tratamiento, para qué usará tus datos, cuál es la base legal que le permite tratarlos, durante cuánto tiempo los conservará, si los comunicará a terceros, si habrá transferencias internacionales y cómo puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad. También debe informarte de tu derecho a retirar el consentimiento, si el tratamiento se basa en él, y de tu derecho a reclamar ante la Agencia Española de Protección de Datos. Si va a tomar decisiones automatizadas que produzcan efectos jurídicos sobre ti o te afecten significativamente de modo similar, debe informarte también sobre ello. Si los datos no los obtiene directamente de ti, debe indicarte además su origen y las categorías de datos tratadas.",
       "subcategoria": "General",
       "keywords": [
         "datos",
+        "personales",
         "información",
-        "facilitarme",
-        "empresa",
-        "quiera",
-        "personales"
+        "responsable",
+        "tratamiento",
+        "derechos",
+        "consentimiento",
+        "origen",
+        "reclamación",
+        "aepd"
       ]
     },
     {
-      "pregunta": "Quiero contratar un curso online de inglés ¿Qué datos puede pedirme la empresa?",
-      "respuesta": "Solo te podrán solicitar aquellos datos que sean estrictamente necesarios para llevar a cabo la finalidad para la que te los solicita, la prestación del curso. De esta forma, por ejemplo, no podrán solicitarte datos relacionados con tu religión, creencia, orientación sexual, etc., sino que bastaría con datos como tu nombre, apellidos o dirección de email.",
+      "pregunta": "Quiero contratar un curso online de inglés. ¿Qué datos puede pedirme la empresa?",
+      "respuesta": "Para contratar y prestar el curso, la empresa debe limitar los datos que te pide a los que sean adecuados, pertinentes y necesarios para esa finalidad. Por ejemplo, puede necesitar tu nombre, apellidos, correo electrónico, datos de acceso a la plataforma y datos necesarios para gestionar el pago. En principio, no debería necesitar categorías especiales de datos, como datos sobre tu salud, religión, orientación sexual o creencias, cuyo tratamiento está sujeto a requisitos especialmente estrictos y normalmente no será necesario para contratar un curso de inglés.",
       "subcategoria": "General",
       "keywords": [
-        "datos",
         "curso",
-        "podrán",
-        "quiero",
-        "contratar",
-        "online"
+        "online",
+        "inglés",
+        "datos",
+        "empresa",
+        "necesarios",
+        "pago",
+        "correo",
+        "sensibles"
       ]
     },
     {
-      "pregunta": "Recibo constantes anuncios por email ¿a qué se debe?",
-      "respuesta": "Recibes publicidad porque puede haber una relación previa con la empresa y te ofrecieron la opción de rechazarla. Si no existe esa relación o no diste tu consentimiento, solo pueden enviarte publicidad si la has aceptado expresamente y si no es así, podrás reclamar.",
+      "pregunta": "Recibo constantes anuncios por email. ¿A qué se debe?",
+      "respuesta": "Puede deberse a que diste tu consentimiento para recibir publicidad o a que ya eras cliente de esa empresa. En este último caso, puede enviarte por correo electrónico publicidad de sus propios productos o servicios similares a los que contrataste, siempre que haya obtenido tus datos de contacto de forma lícita. Debe ofrecerte una forma sencilla y gratuita de oponerte tanto al recoger tus datos como en cada comunicación comercial. Si no autorizaste esos envíos y tampoco se cumplen esas condiciones, puedes pedir que dejen de enviártelos y reclamar si continúan.",
       "subcategoria": "General",
       "keywords": [
         "publicidad",
-        "relación",
-        "recibo",
-        "constantes",
+        "email",
         "anuncios",
-        "email"
+        "consentimiento",
+        "cliente",
+        "baja",
+        "oposición",
+        "reclamación",
+        "comunicaciones"
       ]
     },
     {
       "pregunta": "¿Qué derechos tengo sobre mis datos personales?",
-      "respuesta": "Tienes derecho a acceder, rectificar, suprimir, limitar el tratamiento, oponerte y portar tus datos a otra empresa.",
+      "respuesta": "Tienes derecho a acceder a tus datos, rectificarlos si son incorrectos, pedir su supresión, limitar su tratamiento, oponerte a determinados usos y solicitar la portabilidad, es decir, recibir tus datos en un formato que permita trasladarlos a otra entidad, cuando se cumplan los requisitos previstos para cada derecho. También tienes derecho, en determinados casos, a no ser objeto de decisiones basadas únicamente en tratamientos automatizados que produzcan efectos jurídicos sobre ti o te afecten significativamente de modo similar. Además, puedes retirar tu consentimiento cuando el tratamiento se base en él y reclamar ante la Agencia Española de Protección de Datos si consideras que se han vulnerado tus derechos.",
       "subcategoria": "General",
       "keywords": [
         "datos",
-        "derechos",
         "personales",
-        "tienes",
-        "derecho",
-        "acceder"
+        "acceso",
+        "rectificación",
+        "supresión",
+        "oposición",
+        "limitación",
+        "portabilidad",
+        "consentimiento",
+        "aepd"
       ]
     },
     {
-      "pregunta": "Di mi consentimiento para recibir publicidad de una perfumería, pero me he aburrido porque me llegan muchos correos electrónicos ¿qué puedo hacer?",
-      "respuesta": "Podrás retirar tu consentimiento en cualquier momento. Además, deberá ser igual de sencillo revocarlo que darlo: por ejemplo, el simple envío de un correo electrónico sin ningún tipo de carga adicional o mediante un enlace.",
+      "pregunta": "Di mi consentimiento para recibir publicidad de una perfumería, pero ya no quiero recibir sus correos electrónicos. ¿Qué puedo hacer?",
+      "respuesta": "Puedes retirar tu consentimiento en cualquier momento. Retirarlo debe ser tan fácil como darlo y la empresa debe ofrecerte un procedimiento sencillo y gratuito para hacerlo. En los correos electrónicos comerciales debe incluirse una dirección de correo electrónico u otra dirección electrónica válida en la que puedas comunicar que ya no deseas recibirlos.",
       "subcategoria": "General",
       "keywords": [
         "consentimiento",
-        "recibir",
         "publicidad",
         "perfumería",
-        "aburrido",
-        "llegan"
+        "correo electrónico",
+        "retirada",
+        "baja",
+        "oposición",
+        "comunicaciones",
+        "email"
       ]
     },
     {
-      "pregunta": "Recibo muchas llamadas de una compañía telefónica y me dicen que es debido a que di mi autorización, aunque no lo recuerdo ¿qué puedo hacer?",
-      "respuesta": "Puedes ejercer el llamado derecho de acceso y solicitar a la compañía toda la información tuya de la que dispone. Ahora bien, si solicitas que la información te sea facilitada por otro medio distinto al ofrecido por el responsable y tuviera un sobrecoste, podrías tener que acarrear con dicho gasto.",
+      "pregunta": "Recibo muchas llamadas de una compañía telefónica y me dicen que es porque di mi autorización, aunque no lo recuerdo. ¿Qué puedo hacer?",
+      "respuesta": "Si la compañía afirma que diste tu consentimiento para recibir llamadas comerciales, puedes pedirle información sobre el tratamiento de tus datos y, si ese tratamiento se basa en tu consentimiento, la empresa debe poder demostrar que lo prestaste. En cualquier caso, puedes retirar ese consentimiento o ejercer tu derecho de oposición para dejar de recibir llamadas comerciales, incluso manifestándolo durante la propia llamada. Si la llamada da lugar a una contratación telefónica, se entiende que no existe consentimiento para realizarla si este no fue obtenido o renovado expresamente en los dos años anteriores.",
       "subcategoria": "General",
       "keywords": [
-        "compañía",
-        "información",
-        "recibo",
-        "muchas",
         "llamadas",
-        "telefónica"
+        "comerciales",
+        "consentimiento",
+        "autorización",
+        "oposición",
+        "compañía",
+        "teléfono",
+        "publicidad",
+        "contratación",
+        "dos años"
       ]
     },
     {
-      "pregunta": "Tuve muchos problemas con un seguro y no quiero que tengan mis datos una vez que cancelé el contrato, ¿qué puedo hacer?",
-      "respuesta": "Puedes ejercer el llamado derecho de supresión y solicitar a la compañía que borre tus datos cuando ya no sean necesarios, pero la eliminación no siempre es inmediata. La empresa puede mantenerlos bloqueados por motivos legales o de interés público antes de borrarlos definitivamente.",
+      "pregunta": "Tuve problemas con mi seguro y, una vez cancelado el contrato, no quiero que la aseguradora siga teniendo mis datos. ¿Puedo pedir que los borre?",
+      "respuesta": "Sí. Puedes ejercer tu derecho de supresión y pedir a la aseguradora que elimine tus datos cuando ya no sean necesarios para la finalidad para la que fueron recogidos. No obstante, la finalización del contrato no implica que todos los datos deban borrarse inmediatamente: la aseguradora puede tener que conservar determinados datos para cumplir obligaciones legales o atender posibles reclamaciones. Cuando proceda su supresión, los datos deberán quedar bloqueados durante los plazos legalmente exigibles y no podrán utilizarse para otras finalidades.",
       "subcategoria": "General",
       "keywords": [
-        "datos",
-        "tuve",
-        "muchos",
-        "problemas",
         "seguro",
-        "quiero"
+        "aseguradora",
+        "datos",
+        "supresión",
+        "cancelación",
+        "contrato",
+        "bloqueo",
+        "conservación",
+        "reclamaciones"
       ]
     },
     {
       "pregunta": "¿Puedo trasladar mis datos de una empresa a otra?",
-      "respuesta": "Sí, puedes pedir que te entreguen tus datos o que los transfieran a otra empresa si los diste con tu consentimiento o para un contrato, siempre que sea técnicamente posible.",
+      "respuesta": "Sí, en determinados casos. Puedes pedir que te entreguen los datos personales que hayas facilitado a una empresa, en un formato estructurado, de uso común y lectura mecánica, cuando el tratamiento se base en tu consentimiento o en un contrato y se realice por medios automatizados. También puedes pedir que esos datos se transmitan directamente a otra empresa cuando sea técnicamente posible.",
       "subcategoria": "General",
       "keywords": [
         "datos",
+        "portabilidad",
         "empresa",
-        "trasladar",
-        "puedes",
-        "pedir",
-        "entreguen"
+        "transferencia",
+        "consentimiento",
+        "contrato",
+        "automatizado",
+        "formato",
+        "transmisión"
       ]
     },
     {
-      "pregunta": "¿Qué plazo tiene una empresa para dar cumplir con lo que le solicito cuando ejerzo el derecho de supresión, acceso, rectificación y otros de la normativa de protección de datos?",
-      "respuesta": "La empresa debe responder a tus solicitudes de derechos de forma gratuita y en un máximo de un mes. Puede ampliar el plazo dos meses si es complejo, avisándote. Si las solicitudes son repetitivas o excesivas, puede cobrar una cantidad razonable o negarse a atenderlas.",
+      "pregunta": "¿Qué plazo tiene una empresa para responder cuando ejerzo mis derechos de acceso, rectificación, supresión u otros derechos de protección de datos?",
+      "respuesta": "La empresa debe atender tu solicitud sin dilación indebida y, en todo caso, informarte de las actuaciones realizadas en el plazo de un mes desde que la recibe. Cuando sea necesario por la complejidad y el número de solicitudes, puede ampliar ese plazo otros dos meses, pero debe informarte de la prórroga y de sus motivos dentro del primer mes. El ejercicio de estos derechos es gratuito. Solo si la empresa demuestra que una solicitud es manifiestamente infundada o excesiva, especialmente por su carácter repetitivo, podrá cobrar un canon razonable basado en los costes administrativos o negarse a actuar.",
       "subcategoria": "General",
       "keywords": [
         "plazo",
-        "empresa",
-        "solicitudes",
-        "cumplir",
-        "solicito",
-        "ejerzo"
-      ]
-    },
-    {
-      "pregunta": "¿Puede la tienda online compartir mis datos con otras empresas?",
-      "respuesta": "Pueden hacerlo cuando sea necesario para prestar un servicio, como enviar un pedido, o por obligaciones legales, como ante Hacienda. La empresa debe informarte sobre estas comunicaciones y a quién se envían tus datos. No podrán hacerlo para una finalidad diferente para la que se captaron.",
-      "subcategoria": "General",
-      "keywords": [
-        "datos",
-        "hacerlo",
-        "tienda",
-        "online",
-        "compartir",
-        "empresas"
-      ]
-    },
-    {
-      "pregunta": "¿Durante cuánto tiempo puede mantener una empresa a la que compré un ordenador mis datos personales?",
-      "respuesta": "Solo se pueden conservar mientras sean necesarios. La tienda debe eliminarlos o bloquearlos cuando ya no se usen, aunque puedes pedir su supresión en cualquier momento. En algunos casos se pueden mantener bloqueados por motivos legales o de responsabilidad.",
-      "subcategoria": "General",
-      "keywords": [
-        "mantener",
-        "tiempo",
-        "empresa",
-        "compré",
-        "ordenador",
-        "datos"
-      ]
-    },
-    {
-      "pregunta": "Ejercí el derecho de supresión de mis datos ante una empresa hace más de 6 meses y no me han respondido ¿Qué puedo hacer?",
-      "respuesta": "Puedes dirigirte a la Agencia Española de Protección de Datos y reclamar, ya se trate de una empresa ubicada en España o en cualquier otro país. Además, también existe la opción de poder acudir directamente a la vía judicial.",
-      "subcategoria": "General",
-      "keywords": [
-        "datos",
-        "empresa",
-        "ejercí",
-        "derecho",
-        "supresión",
-        "hace"
-      ]
-    },
-    {
-      "pregunta": "¿Qué son las listas de exclusión publicitaria y puedo registrarme en ellas?",
-      "respuesta": "En España, la Lista Robinson es el único registro oficial para evitar publicidad no deseada. Es gratuito, fácil de usar y permite indicar los canales (correo, teléfono o email) por los que no quieres recibir anuncios. Las empresas deben consultarla antes de enviar publicidad.",
-      "subcategoria": "General",
-      "keywords": [
-        "publicidad",
-        "listas",
-        "exclusión",
-        "publicitaria",
-        "registrarme",
-        "españa"
-      ]
-    },
-    {
-      "pregunta": "Quiero ejercer mi derecho de acceso y pedir a una empresa que diga qué datos personales míos tiene ¿Cómo tengo que hacerlo?",
-      "respuesta": "Debes enviar una comunicación dirigida al responsable del tratamiento con tu nombre y copia de tu DNI. Es responsabilidad de la empresa darte respuesta en un mes.",
-      "subcategoria": "General",
-      "keywords": [
-        "empresa",
-        "quiero",
-        "ejercer",
-        "derecho",
+        "derechos",
         "acceso",
-        "pedir"
+        "rectificación",
+        "supresión",
+        "solicitud",
+        "un mes",
+        "prórroga",
+        "gratuito",
+        "excesiva"
       ]
     },
     {
-      "pregunta": "Tenía un préstamo hipotecario con un banco y me ha dicho que se lo ha cedido a otra empresa ¿es esto legal?",
-      "respuesta": "Si, salvo que estableciera la prohibición de cesión de créditos en el contrato de préstamo que firmaras con el banco no es obligatorio que tu aceptes, pero si que te lo tienen que comunicar.",
+      "pregunta": "El banco con el que tengo un préstamo hipotecario me ha comunicado que ha cedido el crédito a otra empresa. ¿Es legal?",
+      "respuesta": "Sí. En general, el banco puede ceder el crédito hipotecario a otra entidad sin que sea necesario tu consentimiento, salvo que el contrato o la ley dispongan otra cosa. La cesión no puede aumentar tus obligaciones ni modificar por sí sola las condiciones del préstamo: el nuevo acreedor ocupa la posición del anterior respecto del crédito cedido. Debes conocer la cesión y quién es el nuevo acreedor para saber a quién debes realizar los pagos; si pagas al acreedor anterior antes de tener conocimiento de la cesión, ese pago te libera de la obligación.",
       "subcategoria": "General",
       "keywords": [
         "préstamo",
-        "banco",
-        "tenía",
         "hipotecario",
-        "cedido",
-        "empresa"
+        "banco",
+        "cesión",
+        "crédito",
+        "acreedor",
+        "empresa",
+        "contrato",
+        "derechos"
       ]
     },
     {
       "pregunta": "¿Qué es un registro de morosos?",
-      "respuesta": "Los registros de morosos, también conocidos como ficheros de solvencia patrimonial o sistemas de información crediticia, son registros que recogen datos de impago y a los que acuden a veces las empresas por ejemplo antes de decidir si nos dan un crédito.",
-      "subcategoria": "General",
-      "keywords": [
-        "morosos",
-        "registros",
-        "registro",
-        "conocidos",
-        "ficheros",
-        "solvencia"
-      ]
-    },
-    {
-      "pregunta": "¿Qué requisitos hay para que incluyan mis datos en un registro de morosos?",
-      "respuesta": "La deuda debe ser real, ya vencida, exigible y no pagada. Además, hay que indicar de dónde proviene y su importe, y debe haberse hecho un requerimiento de pago previo. No se puede incluir a alguien en un registro de morosos antes de cuatro meses desde el inicio del impago, y la deuda mínima para personas físicas es de 50 euros.",
+      "respuesta": "Un registro de morosos, también conocido como fichero de morosos o sistema de información crediticia, es una base de datos en la que pueden incluirse datos sobre el impago de determinadas deudas dinerarias, financieras o de crédito. Algunas empresas consultan estos sistemas para valorar la solvencia o el riesgo de impago antes de conceder financiación o contratar determinados servicios. La inclusión de una deuda está sometida a requisitos legales y no puede hacerse por cualquier deuda ni de cualquier manera.",
       "subcategoria": "General",
       "keywords": [
         "registro",
         "morosos",
+        "fichero",
+        "solvencia",
+        "crediticia",
         "deuda",
-        "requisitos",
-        "incluyan",
-        "datos"
-      ]
-    },
-    {
-      "pregunta": "¿Cómo puedo saber si estoy en un registro de morosos?",
-      "respuesta": "Puedes consultarlo en la página web del registro de morosos y también puedes solicitar que te lo digan ejerciendo un derecho de acceso.",
-      "subcategoria": "General",
-      "keywords": [
-        "registro",
-        "morosos",
-        "puedes",
-        "consultarlo",
-        "página",
-        "solicitar"
-      ]
-    },
-    {
-      "pregunta": "¿Cómo puedo salir de un registro de morosos?",
-      "respuesta": "Pagando la deuda, porque hayan transcurrido cinco años desde que se me incluyó sin que se me haya vuelto a pedir el pago, o si demuestro que la deuda no es cierta.",
-      "subcategoria": "General",
-      "keywords": [
-        "deuda",
-        "salir",
-        "registro",
-        "morosos",
-        "pagando",
-        "transcurrido"
-      ]
-    },
-    {
-      "pregunta": "¿Ante quién puedo reclamar si se metieron mis datos en un archivo de morosos de manera errónea?",
-      "respuesta": "Ante la Agencia Española de Protección de Datos que podrá ponerles una multa, y si quiero una indemnización por los perjuicios causados, tendré que acudir a los tribunales ordinarios de justicia.",
-      "subcategoria": "General",
-      "keywords": [
-        "datos",
-        "quién",
-        "reclamar",
-        "metieron",
-        "archivo",
-        "morosos"
-      ]
-    },
-    {
-      "pregunta": "¿Qué pasa si mis datos se filtran o son robados por un tercero?",
-      "respuesta": "La empresa debe informarte del incidente y tomar medidas para minimizar riesgos; también puedes denunciarlo ante la autoridad de protección de datos.",
-      "subcategoria": "General",
-      "keywords": [
-        "datos",
-        "pasa",
-        "filtran",
-        "robados",
-        "tercero",
+        "impago",
+        "financiación",
         "empresa"
       ]
     },
     {
+      "pregunta": "¿Qué requisitos hay para que incluyan mis datos en un registro de morosos?",
+      "respuesta": "La deuda debe ser cierta, vencida, exigible e impagada, y su existencia o cuantía no debe estar siendo objeto de una reclamación administrativa o judicial ni de un procedimiento alternativo de resolución de disputas vinculante. Además, la cuantía del principal de la deuda no puede ser inferior a 50 euros, el acreedor debe haberte informado previamente de la posibilidad de inclusión en estos sistemas y debe haberte requerido el pago antes de comunicar tus datos. Una vez comunicada la deuda, el propio sistema de información crediticia debe notificarte la inclusión e informarte de tus derechos.",
+      "subcategoria": "General",
+      "keywords": [
+        "registro",
+        "morosos",
+        "deuda",
+        "impago",
+        "requisitos",
+        "pago",
+        "acreedor",
+        "información",
+        "plazo"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo puedo saber si estoy en un registro de morosos?",
+      "respuesta": "Puedes ejercer tu derecho de acceso ante el responsable del registro o sistema de información crediticia para que te indique si tiene datos sobre ti y te facilite la información correspondiente, como la deuda por la que has sido incluido y la entidad que comunicó tus datos. Además, cuando tus datos se incorporan a uno de estos sistemas, su responsable debe notificarte la inclusión e informarte de tus derechos.",
+      "subcategoria": "General",
+      "keywords": [
+        "registro",
+        "morosos",
+        "derecho",
+        "acceso",
+        "datos",
+        "deuda",
+        "acreedor",
+        "identidad",
+        "información"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo puedo salir de un registro de morosos?",
+      "respuesta": "Si pagas la deuda, los datos relativos a ella deben suprimirse del registro. También puedes solicitar su rectificación o supresión si la deuda no existe, es incorrecta o no se cumplían los requisitos legales para incluirte. Además, los datos no pueden mantenerse más de cinco años desde la fecha de vencimiento de la obligación. Si, pese a ello, continúas incluido, puedes ejercer tus derechos ante el responsable del registro y, si no atiende correctamente tu solicitud, reclamar ante la Agencia Española de Protección de Datos.",
+      "subcategoria": "General",
+      "keywords": [
+        "registro",
+        "morosos",
+        "salir",
+        "deuda",
+        "pago",
+        "supresión",
+        "rectificación",
+        "plazo",
+        "aepd"
+      ]
+    },
+    {
+      "pregunta": "¿Ante quién puedo reclamar si han incluido mis datos en un archivo de morosos de manera errónea?",
+      "respuesta": "Puedes solicitar la rectificación o supresión de tus datos ante la empresa que comunicó la deuda y ante el responsable del registro. Si consideras que la inclusión ha incumplido la normativa de protección de datos, también puedes presentar una reclamación ante la Agencia Española de Protección de Datos. Si además has sufrido daños y quieres solicitar una indemnización, deberás reclamarla por vía judicial.",
+      "subcategoria": "General",
+      "keywords": [
+        "datos",
+        "archivo",
+        "morosos",
+        "registro",
+        "rectificación",
+        "supresión",
+        "aepd",
+        "indemnización",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué pasa si mis datos se filtran o son robados por un tercero?",
+      "respuesta": "La empresa u organización responsable debe valorar la brecha de seguridad y adoptar medidas para reducir sus posibles consecuencias. Si es probable que suponga un riesgo para tus derechos y libertades, debe notificarla a la autoridad de protección de datos competente. Además, si puede entrañar un alto riesgo para ti, debe informarte sin dilación indebida para que puedas adoptar las medidas necesarias para protegerte. Si consideras que tus datos no se han protegido adecuadamente o que no se han cumplido estas obligaciones, puedes reclamar ante la Agencia Española de Protección de Datos.",
+      "subcategoria": "General",
+      "keywords": [
+        "datos",
+        "filtración",
+        "robo",
+        "brecha",
+        "seguridad",
+        "empresa",
+        "aepd",
+        "riesgo",
+        "reclamación"
+      ]
+    },
+    {
       "pregunta": "¿Cómo sé si una página web es segura antes de dar mis datos?",
-      "respuesta": "Debes comprobar que use HTTPS, que al lado aparezca un candado cerrado, que tenga política de privacidad clara y que sea un sitio de confianza.",
+      "respuesta": "Comprueba que la dirección de la web sea correcta y que utilice HTTPS, pero ten en cuenta que el candado o el uso de HTTPS no garantizan por sí solos que la página sea legítima o fiable. Revisa también que identifique claramente a la empresa u organización responsable, que incluya información legal y una política de privacidad clara y que disponga de medios de contacto verificables. Si la dirección resulta extraña, faltan datos básicos de identificación o existen otros indicios sospechosos, evita facilitar información personal.",
       "subcategoria": "General",
       "keywords": [
         "página",
+        "web",
         "segura",
-        "antes",
         "datos",
-        "debes",
-        "comprobar"
+        "https",
+        "privacidad",
+        "aviso",
+        "legal",
+        "empresa"
       ]
     },
     {
       "pregunta": "Compré un billete de avión y me equivoqué en una letra de mi apellido. Al llamar a la compañía, me dicen que la corrección cuesta 50 euros. ¿Es legal que me cobren por ello?",
-      "respuesta": "No. Según ha declarado la Agencia Española de Protección de Datos (AEPD), si el error es una simple errata o un fallo tipográfico u ortográfico al comprar el billete, el pasajero tiene derecho a rectificar sus datos personales sin que se le pueda cobrar.",
+      "respuesta": "No, si se trata de una simple errata o error tipográfico en los datos de la misma persona pasajera. Puedes ejercer tu derecho de rectificación y la compañía no puede cobrarte una penalización por corregir ese dato. Es distinto si lo que pretendes no es corregir un error, sino cambiar la identidad de la persona que va a viajar; en ese caso no se trata del ejercicio del derecho de rectificación y pueden aplicarse las condiciones del billete.",
       "subcategoria": "General",
       "keywords": [
         "billete",
-        "datos",
-        "compré",
         "avión",
-        "equivoqué",
-        "letra"
+        "apellido",
+        "errata",
+        "rectificación",
+        "datos",
+        "aerolínea",
+        "pasajero",
+        "cobro"
+      ]
+    },
+    {
+      "pregunta": "¿Puede la tienda online compartir mis datos con otras empresas?",
+      "respuesta": "Sí, pero debe existir una base jurídica que lo permita. Por ejemplo, puede facilitar los datos necesarios a una empresa de transporte para entregar el pedido, a un proveedor de servicios de pago para gestionar el cobro o a una Administración pública cuando exista una obligación legal. La tienda debe informarte de la finalidad del tratamiento y de los destinatarios o categorías de destinatarios de tus datos. No puede utilizarlos o comunicarlos libremente para una finalidad distinta: ese nuevo tratamiento debe ser compatible con la finalidad inicial o contar con una base jurídica que lo permita y, en determinados casos, puede requerir tu consentimiento.",
+      "subcategoria": "General",
+      "keywords": [
+        "datos",
+        "tienda online",
+        "compartir",
+        "empresas",
+        "cesión",
+        "destinatarios",
+        "transporte",
+        "publicidad",
+        "consentimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Durante cuánto tiempo puede mantener una empresa a la que compré un ordenador mis datos personales?",
+      "respuesta": "La empresa solo puede conservar tus datos durante el tiempo necesario para las finalidades para las que se recogieron, por ejemplo para gestionar la compra, la garantía, la facturación o posibles responsabilidades. Puedes solicitar su supresión cuando ya no sean necesarios, aunque determinados datos pueden tener que conservarse si existe una obligación legal o son necesarios para atender posibles reclamaciones. Cuando proceda su supresión, deberán mantenerse bloqueados durante los plazos legalmente exigibles y, una vez transcurridos, eliminarse definitivamente.",
+      "subcategoria": "General",
+      "keywords": [
+        "datos",
+        "conservación",
+        "empresa",
+        "ordenador",
+        "supresión",
+        "bloqueo",
+        "garantía",
+        "factura",
+        "reclamaciones"
+      ]
+    },
+    {
+      "pregunta": "Ejercí el derecho de supresión de mis datos ante una empresa hace más de seis meses y no me han respondido. ¿Qué puedo hacer?",
+      "respuesta": "Puedes presentar una reclamación ante la Agencia Española de Protección de Datos. La empresa debe responder, como regla general, en el plazo de un mes desde que recibe tu solicitud; este plazo puede ampliarse otros dos meses cuando sea necesario por la complejidad o el número de solicitudes, pero debe informarte de la ampliación y de sus motivos dentro del primer mes. Si el tratamiento está sometido al RGPD, también puedes reclamar ante la AEPD aunque la empresa esté establecida en otro país, sin perjuicio de los mecanismos de cooperación entre autoridades de protección de datos que puedan resultar aplicables. También puedes acudir a la vía judicial para hacer valer tus derechos.",
+      "subcategoria": "General",
+      "keywords": [
+        "supresión",
+        "datos",
+        "empresa",
+        "plazo",
+        "respuesta",
+        "reclamación",
+        "aepd",
+        "indemnización",
+        "tribunales"
+      ]
+    },
+    {
+      "pregunta": "¿Qué son las listas de exclusión publicitaria y puedo registrarme en ellas?",
+      "respuesta": "Las listas de exclusión publicitaria son sistemas en los que puedes inscribirte de forma gratuita y voluntaria para indicar que no quieres recibir publicidad por determinados canales, como llamadas telefónicas, correo postal o correo electrónico. En España existen sistemas como la Lista Robinson o la Lista Stop Publicidad. Las empresas que realicen campañas de publicidad deben consultar los sistemas de exclusión que puedan afectarles y respetar la oposición de las personas inscritas, salvo en los supuestos legalmente previstos. Ten en cuenta que la inscripción empieza a ser efectiva a partir del segundo mes.",
+      "subcategoria": "General",
+      "keywords": [
+        "publicidad",
+        "lista robinson",
+        "exclusión publicitaria",
+        "teléfono",
+        "correo electrónico",
+        "sms",
+        "oposición",
+        "datos",
+        "consentimiento"
+      ]
+    },
+    {
+      "pregunta": "Quiero ejercer mi derecho de acceso y pedir a una empresa que me diga qué datos personales míos tiene. ¿Cómo tengo que hacerlo?",
+      "respuesta": "Debes dirigir una solicitud al responsable del tratamiento. La empresa debe informarte de los medios disponibles para ejercer tus derechos y estos deben ser accesibles, pero no puede denegar tu solicitud por el solo hecho de que utilices otro medio. Tienes que identificarte de forma suficiente, aunque no es necesario aportar siempre una copia del DNI; si la empresa tiene dudas razonables sobre tu identidad, podrá pedirte información adicional para comprobarla. Como regla general, debe responder a tu solicitud en el plazo de un mes.",
+      "subcategoria": "General",
+      "keywords": [
+        "derecho acceso",
+        "datos",
+        "empresa",
+        "responsable tratamiento",
+        "solicitud",
+        "identidad",
+        "dni",
+        "plazo",
+        "respuesta"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa obligarme a aceptar publicidad para poder comprar o contratar un servicio?",
+      "respuesta": "No puede condicionar la compra o la prestación de un servicio a que consientas el uso de tus datos para fines publicitarios que no sean necesarios para ejecutar el contrato. Si la empresa necesita tu consentimiento para enviarte publicidad, este debe prestarse de forma libre, específica, informada e inequívoca y diferenciarse de la aceptación del contrato. Esto no impide que la empresa trate, sin necesidad de tu consentimiento, los datos que sean necesarios para gestionar la compra o prestar el servicio cuando exista otra base jurídica que lo permita.",
+      "subcategoria": "Consentimiento y publicidad",
+      "keywords": [
+        "consentimiento",
+        "publicidad",
+        "compra",
+        "servicio",
+        "empresa",
+        "datos",
+        "contratación",
+        "libre"
+      ]
+    },
+    {
+      "pregunta": "¿Es válido que una casilla para aceptar publicidad o cesión de datos venga marcada por defecto?",
+      "respuesta": "No. Para que el consentimiento sea válido debe existir una acción afirmativa clara de la persona interesada. El silencio, la inacción o las casillas premarcadas no sirven como consentimiento válido. Si la empresa quiere usar tus datos para publicidad o cederlos a terceros, debe pedirte una aceptación clara y separada cuando sea necesario.",
+      "subcategoria": "Consentimiento y publicidad",
+      "keywords": [
+        "casilla",
+        "premarcada",
+        "consentimiento",
+        "publicidad",
+        "cesión",
+        "datos",
+        "empresa",
+        "aceptación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa seguir usando mis datos para publicidad después de retirar el consentimiento?",
+      "respuesta": "Si el uso de tus datos para enviarte publicidad se basaba en tu consentimiento, la empresa debe dejar de utilizarlos para esa finalidad cuando lo retires. La retirada del consentimiento no afecta a la licitud de lo realizado anteriormente. Además, puedes oponerte en cualquier momento al tratamiento de tus datos con fines de publicidad directa y, una vez ejercido este derecho, tus datos no podrán seguir utilizándose para esos fines.",
+      "subcategoria": "Consentimiento y publicidad",
+      "keywords": [
+        "retirada",
+        "consentimiento",
+        "publicidad",
+        "datos",
+        "empresa",
+        "tratamiento",
+        "oposición",
+        "finalidad"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa enviarme publicidad por SMS, WhatsApp u otras aplicaciones de mensajería?",
+      "respuesta": "Como regla general, una empresa solo puede enviarte publicidad por SMS, WhatsApp u otros medios electrónicos equivalentes si la has solicitado o autorizado previamente. No obstante, si ya eres cliente, puede enviarte publicidad de productos o servicios de su propia empresa similares a los que contrataste, siempre que haya obtenido lícitamente tus datos de contacto. En este caso debe haberte ofrecido una forma sencilla y gratuita de oponerte tanto al recoger tus datos como en cada comunicación comercial.",
+      "subcategoria": "Consentimiento y publicidad",
+      "keywords": [
+        "sms",
+        "whatsapp",
+        "publicidad",
+        "mensajería",
+        "consentimiento",
+        "cliente",
+        "baja",
+        "oposición"
+      ]
+    },
+    {
+      "pregunta": "¿Qué son las cookies y cuándo puede una web instalarlas en mi dispositivo?",
+      "respuesta": "Las cookies son archivos o identificadores que una web puede almacenar o utilizar en tu dispositivo para recordar información, ofrecer determinadas funcionalidades o conocer tu navegación. Las cookies necesarias para permitir la navegación o prestar un servicio que hayas solicitado pueden utilizarse sin pedir tu consentimiento. Para otras finalidades, como la publicidad o el seguimiento de tu comportamiento, la web debe informarte y obtener previamente tu consentimiento. Determinadas cookies de medición de audiencia también pueden estar exentas de consentimiento si cumplen los requisitos establecidos para ello.",
+      "subcategoria": "Cookies y seguimiento online",
+      "keywords": [
+        "cookies",
+        "web",
+        "dispositivo",
+        "consentimiento",
+        "publicidad",
+        "análisis",
+        "seguimiento",
+        "privacidad"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una web impedirme entrar si no acepto cookies publicitarias?",
+      "respuesta": "No siempre. Una web no puede obligarte simplemente a aceptar cookies que requieren consentimiento sin ofrecerte una alternativa. Puede haber casos en los que rechazar esas cookies limite o impida el acceso al servicio, siempre que se te informe claramente y se ofrezca una alternativa genuinamente equivalente que no requiera aceptarlas; esa alternativa puede ser de pago. No obstante, la validez de los modelos de «aceptar o pagar» debe analizarse en cada caso y está especialmente limitada en el caso de grandes plataformas en línea.",
+      "subcategoria": "Cookies y seguimiento online",
+      "keywords": [
+        "cookies",
+        "publicitarias",
+        "rechazar",
+        "web",
+        "acceso",
+        "consentimiento",
+        "pago",
+        "seguimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una tienda online usar mis datos para mostrarme precios personalizados?",
+      "respuesta": "Sí, una tienda online puede personalizar el precio mediante decisiones automatizadas si cumple la normativa aplicable al tratamiento de tus datos y a la protección de las personas consumidoras. Cuando lo haga, debe informarte de forma clara antes de contratar de que el precio ha sido personalizado y de los parámetros utilizados para esa personalización. Además, el precio debe mantenerse invariable durante todo el proceso de compra y los parámetros empleados no pueden ser discriminatorios ni explotar situaciones de urgencia o necesidad. Esto es distinto de los precios dinámicos que cambian, por ejemplo, según la demanda y se aplican de forma general, sin adaptarse específicamente a una persona consumidora.",
+      "subcategoria": "Decisiones automatizadas y perfiles",
+      "keywords": [
+        "precio",
+        "personalizado",
+        "tienda",
+        "online",
+        "datos",
+        "automatizado",
+        "perfil",
+        "información"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si una empresa toma una decisión importante sobre mí usando solo un algoritmo?",
+      "respuesta": "Como regla general, tienes derecho a no ser objeto de una decisión basada únicamente en un tratamiento automatizado que produzca efectos jurídicos sobre ti o te afecte significativamente de forma similar. Existen algunas excepciones previstas legalmente, pero en esos casos deben respetarse las garantías correspondientes. Cuando proceda, puedes pedir intervención humana, expresar tu punto de vista e impugnar la decisión, además de solicitar información significativa sobre cómo se ha tomado y sus consecuencias. Si consideras que se han vulnerado tus derechos, puedes reclamar ante la Agencia Española de Protección de Datos.",
+      "subcategoria": "Decisiones automatizadas y perfiles",
+      "keywords": [
+        "algoritmo",
+        "decisión",
+        "automatizada",
+        "perfil",
+        "financiación",
+        "seguro",
+        "empresa",
+        "derechos",
+        "aepd"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa grabar una llamada telefónica conmigo?",
+      "respuesta": "Sí, una empresa puede grabar una llamada si tiene una base jurídica que lo permita y cumple las obligaciones de protección de datos. Debe informarte de que la llamada está siendo grabada y facilitarte la información correspondiente sobre el tratamiento de tus datos, incluida su finalidad.",
+      "subcategoria": "Grabaciones y atención telefónica",
+      "keywords": [
+        "llamada",
+        "grabación",
+        "teléfono",
+        "empresa",
+        "consentimiento",
+        "información",
+        "atención",
+        "cliente"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo pedir una copia de una llamada grabada con una empresa?",
+      "respuesta": "Sí. Si la empresa conserva la grabación y en ella aparecen tus datos personales o tu voz, puedes ejercer el derecho de acceso y obtener una copia de los datos personales objeto de tratamiento. Cuando sea necesario para que puedas ejercer efectivamente tus derechos, esa copia puede implicar facilitar la grabación o partes de ella. La empresa debe tener en cuenta los derechos y libertades de terceras personas, pero no puede utilizar su presencia en la llamada para privarte sin más de tu derecho de acceso.",
+      "subcategoria": "Grabaciones y atención telefónica",
+      "keywords": [
+        "llamada",
+        "grabada",
+        "copia",
+        "acceso",
+        "voz",
+        "empresa",
+        "datos",
+        "transcripción"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una tienda grabarme con cámaras de videovigilancia?",
+      "respuesta": "Sí. Una tienda puede utilizar cámaras de videovigilancia para proteger la seguridad de las personas, los bienes y sus instalaciones, pero debe informar de su existencia mediante un cartel visible y facilitar la información sobre el tratamiento de las imágenes y el ejercicio de tus derechos. Las cámaras deben limitarse a las zonas necesarias y no pueden instalarse en espacios especialmente protegidos por la intimidad, como baños o vestuarios. Como regla general, las imágenes deben suprimirse en el plazo máximo de un mes, salvo que sea necesario conservarlas para acreditar hechos que afecten a personas, bienes o instalaciones.",
+      "subcategoria": "Videovigilancia",
+      "keywords": [
+        "videovigilancia",
+        "cámaras",
+        "tienda",
+        "grabación",
+        "seguridad",
+        "cartel",
+        "imágenes",
+        "conservación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una tienda usar reconocimiento facial para identificarme?",
+      "respuesta": "El reconocimiento facial utilizado para identificarte de manera unívoca implica el tratamiento de datos biométricos, que están especialmente protegidos. Como regla general, su tratamiento está prohibido salvo que concurra alguna de las excepciones previstas en la normativa. Por ejemplo, si una tienda quisiera utilizar reconocimiento facial con fines comerciales basándose en tu consentimiento, este tendría que ser explícito y libre y no podría captar ni identificar mediante este sistema a personas que no lo hayan prestado. Además, el uso de esta tecnología debe ser necesario y proporcionado para la finalidad perseguida.",
+      "subcategoria": "Biometría",
+      "keywords": [
+        "reconocimiento",
+        "facial",
+        "biometría",
+        "tienda",
+        "clientes",
+        "identificación",
+        "datos",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede un gimnasio o una empresa obligarme a usar la huella dactilar para entrar?",
+      "respuesta": "En general, un gimnasio o una empresa no puede obligarte a utilizar la huella dactilar para acceder si puede utilizarse un medio alternativo menos invasivo. La huella empleada para identificarte o autenticarte es un dato biométrico especialmente protegido y su tratamiento exige cumplir requisitos reforzados de necesidad, proporcionalidad y licitud. Si el sistema se basa en tu consentimiento, este debe ser libre y debe ofrecerse una alternativa de acceso que no implique utilizar datos biométricos y que no te perjudique por elegirla.",
+      "subcategoria": "Biometría",
+      "keywords": [
+        "huella",
+        "dactilar",
+        "gimnasio",
+        "biometría",
+        "acceso",
+        "empresa",
+        "alternativa",
+        "datos"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa pedirme una copia del DNI para hacer una compra o ejercer mis derechos?",
+      "respuesta": "Depende. La empresa puede pedirte que acredites tu identidad cuando sea necesario, pero no debería pedir una copia del DNI de forma automática si puede identificarte por medios menos invasivos. Para ejercer derechos de protección de datos, solo debe pedir la información necesaria para confirmar quién eres. En algunos sectores pueden existir obligaciones específicas de identificación, pero deben aplicarse de forma proporcionada.",
+      "subcategoria": "Identificación y documentación",
+      "keywords": [
+        "dni",
+        "copia",
+        "identidad",
+        "empresa",
+        "compra",
+        "derechos",
+        "datos",
+        "documentación"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una app pedirme acceso a mis contactos, fotos, cámara o micrófono?",
+      "respuesta": "Sí, una app puede solicitar acceso a tus contactos, fotos, cámara o micrófono, pero debe informarte de para qué necesita cada permiso y limitar el acceso a los datos necesarios para esa finalidad. Puede ser necesario habilitar un permiso para utilizar una función concreta, por ejemplo la cámara para hacer o subir una foto, pero si el acceso no es necesario para el servicio o la función que quieres utilizar, no debería condicionarse a él el uso de funcionalidades no relacionadas. Cuando el tratamiento requiera tu consentimiento, este debe ser libre y puedes retirarlo.",
+      "subcategoria": "Aplicaciones y permisos",
+      "keywords": [
+        "app",
+        "permisos",
+        "contactos",
+        "fotos",
+        "cámara",
+        "micrófono",
+        "datos",
+        "servicio"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una aplicación recoger mi ubicación aunque no sea necesaria para el servicio?",
+      "respuesta": "Si la ubicación no es necesaria para prestar el servicio principal, la aplicación no debe presentarla como obligatoria para utilizar funciones que no dependen de ella. Puede tratar tu ubicación para otras finalidades si te informa claramente y cuenta con una base jurídica válida; para usos como publicidad personalizada o seguimiento, normalmente necesitará tu consentimiento. El permiso que das desde el dispositivo permite técnicamente acceder a la ubicación, pero no sustituye las obligaciones de protección de datos. Puedes retirar ese permiso en cualquier momento desde la configuración del dispositivo.",
+      "subcategoria": "Aplicaciones y permisos",
+      "keywords": [
+        "ubicación",
+        "geolocalización",
+        "app",
+        "permiso",
+        "publicidad",
+        "seguimiento",
+        "consentimiento",
+        "datos"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa guardar los datos de mi tarjeta bancaria para futuras compras?",
+      "respuesta": "Si la empresa quiere conservar los datos de tu tarjeta únicamente para facilitar futuras compras, debe pedirte previamente un consentimiento libre, específico, informado e inequívoco. No puede presumirlo por el hecho de que hayas realizado una compra ni condicionar la operación a que aceptes guardar la tarjeta. Puedes retirar ese consentimiento en cualquier momento y, en ese caso, los datos conservados para esa finalidad deben eliminarse. Esto no impide que puedan conservarse otros datos relativos a la operación cuando exista una obligación legal que lo justifique.",
+      "subcategoria": "Pagos y datos financieros",
+      "keywords": [
+        "tarjeta",
+        "bancaria",
+        "pago",
+        "datos",
+        "empresa",
+        "compras",
+        "seguridad",
+        "supresión"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una tarjeta de fidelización del supermercado analizar mis compras para hacerme ofertas?",
+      "respuesta": "Sí puede analizar tus compras si tiene una base legal válida y te ha informado claramente de esa finalidad. Si usa tus datos para enviarte ofertas personalizadas o elaborar perfiles de consumo, debe explicarlo de forma comprensible. Puedes oponerte al uso de tus datos con fines de marketing directo y, cuando el tratamiento se base en tu consentimiento, retirarlo en cualquier momento.",
+      "subcategoria": "Publicidad y perfiles comerciales",
+      "keywords": [
+        "tarjeta",
+        "fidelización",
+        "supermercado",
+        "compras",
+        "ofertas",
+        "perfil",
+        "publicidad",
+        "oposición"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa transferir mis datos personales fuera del Espacio Económico Europeo?",
+      "respuesta": "Sí, pero debe cumplir las condiciones previstas en la normativa de protección de datos. La transferencia puede realizarse, por ejemplo, si el país de destino ofrece un nivel de protección considerado adecuado por la Comisión Europea o si se han establecido garantías adecuadas, como cláusulas contractuales tipo. En determinados supuestos también existen excepciones específicas previstas en el RGPD. La empresa debe informarte de la transferencia internacional y, cuando corresponda, de las garantías utilizadas.",
+      "subcategoria": "Transferencias internacionales",
+      "keywords": [
+        "transferencia",
+        "internacional",
+        "datos",
+        "espacio económico europeo",
+        "eee",
+        "garantías",
+        "empresa",
+        "información"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si una empresa publica mi foto o mi nombre en internet sin permiso?",
+      "respuesta": "Puedes pedir a la empresa que retire la publicación y que deje de tratar esos datos si no tiene una base legal válida. Si la publicación afecta a tu imagen, honor o intimidad, también pueden entrar en juego otros derechos además de la protección de datos. Si no retiran el contenido o no responden, puedes reclamar ante la Agencia Española de Protección de Datos y, en su caso, acudir a la vía judicial.",
+      "subcategoria": "Internet y redes sociales",
+      "keywords": [
+        "foto",
+        "nombre",
+        "internet",
+        "empresa",
+        "retirada",
+        "imagen",
+        "datos",
+        "aepd"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo pedir que Google u otro buscador deje de mostrar resultados con mi nombre?",
+      "respuesta": "Sí, puedes ejercer el llamado derecho al olvido ante el buscador para que deje de mostrar determinados resultados al buscar tu nombre, cuando la información sea inadecuada, no pertinente, excesiva, desactualizada o ya no esté justificada. No siempre se concede: debe valorarse el equilibrio entre tu protección de datos y otros derechos, como la libertad de información, especialmente si existe interés público.",
+      "subcategoria": "Internet y redes sociales",
+      "keywords": [
+        "derecho",
+        "olvido",
+        "buscador",
+        "google",
+        "nombre",
+        "resultados",
+        "internet",
+        "información"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa publicar una reseña mía con mi nombre completo?",
+      "respuesta": "Si publicas una reseña, la empresa o plataforma puede tratar los datos necesarios para mostrarla si cuenta con una base jurídica válida y te ha informado adecuadamente. La publicación de tu nombre completo, imagen u otros datos personales debe ser necesaria y proporcionada para esa finalidad; no puede utilizarlos para fines distintos, como publicidad adicional, sin una base jurídica que lo permita. Si consideras que se han publicado más datos de los necesarios o que se están utilizando indebidamente, puedes ejercer los derechos que correspondan, como oposición o supresión.",
+      "subcategoria": "Internet y redes sociales",
+      "keywords": [
+        "reseña",
+        "nombre",
+        "empresa",
+        "publicación",
+        "plataforma",
+        "anonimización",
+        "datos",
+        "privacidad"
+      ]
+    },
+    {
+      "pregunta": "¿A partir de qué edad puede un menor dar consentimiento para que una app trate sus datos?",
+      "respuesta": "En España, como regla general, los menores pueden consentir por sí mismos el tratamiento de sus datos personales a partir de los 14 años. Si son menores de 14 años, normalmente será necesario el consentimiento de sus padres, madres o representantes legales. En todo caso, la información dirigida a menores debe darse en un lenguaje claro y comprensible para ellos.",
+      "subcategoria": "Menores",
+      "keywords": [
+        "menor",
+        "edad",
+        "consentimiento",
+        "app",
+        "datos",
+        "padres",
+        "representantes",
+        "españa"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa tratar datos de salud, religión, orientación sexual u otros datos sensibles?",
+      "respuesta": "Estos datos tienen una protección especial y, con carácter general, está prohibido tratarlos salvo que concurra alguna de las excepciones previstas en la normativa. Según el caso, puede exigirse un consentimiento explícito o puede existir una habilitación legal u otro supuesto que permita el tratamiento. En España, el consentimiento por sí solo no basta cuando la finalidad principal sea identificar la ideología, afiliación sindical, religión, orientación sexual, creencias u origen racial o étnico de una persona. En todo caso, la empresa debe limitar el tratamiento a los datos necesarios para la finalidad perseguida y cumplir las garantías aplicables.",
+      "subcategoria": "Datos especialmente protegidos",
+      "keywords": [
+        "datos",
+        "sensibles",
+        "salud",
+        "religión",
+        "orientación",
+        "sexual",
+        "consentimiento",
+        "empresa"
+      ]
+    },
+    {
+      "pregunta": "¿Debo reclamar primero ante la empresa antes de acudir a la Agencia Española de Protección de Datos?",
+      "respuesta": "Si tu reclamación se refiere al ejercicio de un derecho de protección de datos, como acceso, rectificación, supresión u oposición, debes haberlo ejercido previamente ante la empresa o entidad responsable. Si no responde en el plazo legal, que con carácter general es de un mes, o consideras que su respuesta no es adecuada, puedes reclamar ante la Agencia Española de Protección de Datos. En cambio, si reclamas por otro posible incumplimiento de la normativa de protección de datos, puedes acudir directamente a la AEPD aportando las pruebas o indicios de que dispongas.",
+      "subcategoria": "Reclamaciones",
+      "keywords": [
+        "reclamación",
+        "empresa",
+        "aepd",
+        "derechos",
+        "plazo",
+        "respuesta",
+        "datos",
+        "pruebas"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo pedir una indemnización si una empresa usa mal mis datos personales?",
+      "respuesta": "Sí, si has sufrido daños materiales o morales por una infracción de la normativa de protección de datos, puedes reclamar una indemnización. La Agencia Española de Protección de Datos puede sancionar y ordenar medidas correctoras, pero la indemnización normalmente debe reclamarse ante los tribunales, salvo que se alcance un acuerdo con la empresa.",
+      "subcategoria": "Reclamaciones",
+      "keywords": [
+        "indemnización",
+        "daños",
+        "datos",
+        "empresa",
+        "aepd",
+        "tribunales",
+        "reclamación",
+        "sanción"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si alguien usa mis datos para contratar un servicio o hacer una compra en mi nombre?",
+      "respuesta": "Conviene comunicarlo cuanto antes a la empresa para negar la contratación, pedir información sobre el origen de los datos y solicitar la supresión o rectificación cuando proceda. También conviene conservar pruebas y, si hay indicios de suplantación de identidad o fraude, puedes denunciarlo ante las Fuerzas y Cuerpos de Seguridad. Además, puedes reclamar ante la Agencia Española de Protección de Datos si la empresa trató tus datos sin base legal o no actuó correctamente.",
+      "subcategoria": "Suplantación de identidad",
+      "keywords": [
+        "suplantación",
+        "identidad",
+        "datos",
+        "contrato",
+        "compra",
+        "fraude",
+        "denuncia",
+        "aepd"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa cambiar su política de privacidad y usar mis datos para finalidades nuevas?",
+      "respuesta": "Una empresa puede actualizar su política de privacidad, pero ese cambio no le permite por sí solo utilizar tus datos para nuevas finalidades. Si quiere tratarlos para una finalidad distinta de aquella para la que los recogió, debe informarte previamente. Cuando esa nueva finalidad no sea compatible con la inicial, deberá contar además con una base jurídica que permita el nuevo tratamiento y, si necesita tu consentimiento, deberá pedirlo antes de empezar a utilizar los datos para esa finalidad.",
+      "subcategoria": "Información y transparencia",
+      "keywords": [
+        "política",
+        "privacidad",
+        "finalidad",
+        "datos",
+        "empresa",
+        "consentimiento",
+        "oposición",
+        "supresión"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es el delegado de protección de datos y cuándo puedo dirigirme a él?",
+      "respuesta": "El delegado de protección de datos es una persona o entidad que asesora y supervisa el cumplimiento de la normativa de protección de datos dentro de algunas organizaciones. No todas las empresas están obligadas a tenerlo. Si existe, puedes dirigirte a él para plantear dudas o reclamaciones sobre el tratamiento de tus datos. Sus datos de contacto deben estar disponibles de forma clara.",
+      "subcategoria": "Reclamaciones",
+      "keywords": [
+        "delegado",
+        "protección",
+        "datos",
+        "empresa",
+        "consulta",
+        "reclamación",
+        "contacto",
+        "organización"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa negarse a atender mi solicitud de datos porque dice que es repetitiva o abusiva?",
+      "respuesta": "Sí, pero solo en casos justificados. Si una solicitud es manifiestamente infundada o excesiva, especialmente por su carácter repetitivo, la empresa puede cobrar un canon razonable basado en los costes administrativos o negarse a actuar. Corresponde a la empresa demostrar que la solicitud tiene ese carácter. No puede utilizar esta excepción de forma automática para no atender tus derechos de protección de datos.",
+      "subcategoria": "Ejercicio de derechos",
+      "keywords": [
+        "solicitud",
+        "datos",
+        "repetitiva",
+        "abusiva",
+        "empresa",
+        "derechos",
+        "canon",
+        "negativa"
       ]
     }
   ]

@@ -1,36 +1,44 @@
 {
   "sector": "Suministros",
-  "total_preguntas": 106,
+  "total_preguntas": 137,
+  "generado": "2026-09-22T16:29:46",
   "preguntas": [
     {
-      "pregunta": "Mi empresa sufrió una interrupción del suministro eléctrico y no han atendido mi reclamación ¿Puedo acudir a la Junta Arbitral de Consumo?",
-      "respuesta": "No, como empresa no te aplican los derechos de consumidores ni puedes acudir a la Junta Arbitral de Consumo. Cualquier compensación debe gestionarse según el contrato con el proveedor y la normativa aplicable a negocios y deberás acudir a los tribunales ordinarios de justicia para ser resarcido.",
+      "pregunta": "Mi empresa sufrió una interrupción del suministro eléctrico y no han atendido mi reclamación. ¿Puedo acudir a la Junta Arbitral de Consumo?",
+      "respuesta": "Si el suministro estaba contratado para una actividad empresarial o profesional, no se trata de una relación de consumo y no puedes acudir a la Junta Arbitral de Consumo. Esto no impide que te amparen los derechos que reconoce la normativa eléctrica a los consumidores de energía: ante una interrupción puedes reclamar a la comercializadora o a la distribuidora, según corresponda, y existe derecho a indemnización en los términos previstos por la normativa sobre calidad y continuidad del suministro. Si la reclamación no se resuelve, podrán utilizarse, cuando proceda, los procedimientos administrativos establecidos por la comunidad autónoma o acudir a los tribunales.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "acudir",
         "empresa",
-        "junta",
-        "arbitral",
-        "consumo",
-        "sufrió"
+        "interrupción",
+        "suministro",
+        "eléctrico",
+        "reclamación",
+        "junta arbitral",
+        "comercializadora",
+        "distribuidora",
+        "compensación",
+        "tribunales"
       ]
     },
     {
-      "pregunta": "¿Cuál es la diferencia entre la empresa comercializadora y la distribuidora de la electricidad?",
-      "respuesta": "La empresa distribuidora se encarga de llevar la electricidad hasta los puntos de consumo, construir y mantener las redes y equipos como los contadores. La empresa comercializadora compra la energía para venderla a los usuarios finales, firma el contrato de suministro, envía las facturas y paga a la distribuidora los peajes de acceso a las redes.",
+      "pregunta": "¿Cuál es la diferencia entre la empresa comercializadora y la distribuidora de electricidad?",
+      "respuesta": "La distribuidora es la empresa que lleva la electricidad hasta los puntos de consumo, mantiene la red, gestiona averías de la red y equipos como los contadores, y actúa en una zona geográfica concreta. No la elige la persona consumidora. La comercializadora es la empresa con la que contratas la luz: te vende la energía, te factura y gestiona la relación contractual contigo.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "empresa",
-        "distribuidora",
         "comercializadora",
+        "distribuidora",
         "electricidad",
-        "redes",
-        "cuál"
+        "contrato",
+        "factura",
+        "red",
+        "contador",
+        "avería",
+        "suministro"
       ]
     },
     {
       "pregunta": "¿Puedo escoger mi empresa distribuidora de luz?",
-      "respuesta": "No, la persona consumidora no puede elegir su distribuidora de electricidad. Las distribuidoras tienen asignadas zonas geográficas concretas y son las únicas autorizadas para operar en ellas.",
+      "respuesta": "No, la persona consumidora no puede elegir su distribuidora de electricidad. La distribuidora viene determinada por la red a la que está conectado el punto de suministro, por lo que no puede cambiarse libremente como sí puede hacerse con la comercializadora.",
       "subcategoria": "Electricidad",
       "keywords": [
         "distribuidora",
@@ -43,691 +51,475 @@
     },
     {
       "pregunta": "¿Puedo escoger mi empresa comercializadora de luz?",
-      "respuesta": "Si, la persona consumidora puede elegir quien es su empresa comercializadora (la que le factura y vende la energía).",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "empresa",
-        "comercializadora",
-        "escoger",
-        "persona",
-        "consumidora",
-        "elegir"
-      ]
-    },
-    {
-      "pregunta": "¿Qué opciones tengo para elegir comercializadora de la luz?",
-      "respuesta": "Puedes elegir entre una comercializadora de mercado libre o una Comercializadora de Último Recurso (CUR) también llamada Comercializadora de Referencia https://sede.cnmc.gob.es/listado/censo/10 La comercializadora de mercado libre es una empresa que ofrece tarifas y condiciones propias, pudiendo incluir descuentos, permanencias, servicios adicionales o precios fijos o variables según el contrato. La comercializadora de último recurso (CUR), en cambio, ofrece la tarifa regulada (PVPC) cuyo precio se fija, en parte, por normativa (costes fijos) y, en parte, a partir de la oferta y la demanda de energía en cada momento. El PVPC solo puede ser ofrecido por algunas empresas autorizadas y sus precios se actualizan según el mercado eléctrico diario (oferta y demanda), sin ofertas ni servicios añadidos.",
+      "respuesta": "Sí. La persona consumidora puede elegir libremente su empresa comercializadora de electricidad, que es la empresa que le vende la energía y le factura. Puede contratar en el mercado libre o, si cumple los requisitos, en el mercado regulado a través de una comercializadora de referencia.",
       "subcategoria": "Electricidad",
       "keywords": [
         "comercializadora",
-        "mercado",
+        "luz",
+        "electricidad",
         "elegir",
-        "libre",
-        "último",
-        "recurso"
-      ]
-    },
-    {
-      "pregunta": "¿Quién fija el precio que pago en mercado libre? ¿y en mercado regulado?",
-      "respuesta": "En el mercado libre, el precio depende de las condiciones que se establezcan en el contrato libremente pactadas por las partes. En el mercado reglado el precio se fija por el gobierno que lo fija se fija tomando como referencia el importe del kilovatio (kW) según su cotización diaria en el mercado mayorista.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "mercado",
-        "fija",
-        "precio",
-        "libre",
-        "quién",
-        "pago"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo escoger libremente entre ir al mercado libre o al mercado regulado?",
-      "respuesta": "Si, salvo que la potencia a contratar sea superior a 10 kW. Puedes elergir entre contratar con una comercializadora de referencia o de último recuros la tarifa de Precio Voluntario para el peque Además, si quieres que se te aplique el bono social, tendrás que estar en mercado regulado. Si, salvo que la potencia a contratar sea superior a 10 kW. Puedes elergir entre contratar la tarifa Precio Voluntario para el Pequeño Consumidor (PVPC), con una comercializadora de referencia o Comercializador de Último Recurso (CUR) , cuyo precio se fija de acuerdo con una serie de normas, esto es, el mercado regulado; o contratar con una comercializadora del libre mercado, que tienen libertad para ofercer cualquier tipo de contrato, precio y condiciones, incluso la contratación de ambos suministros (luz y gas). > Es muy importante saber, para saber qué tipo de contrato tienes, que las eléctricas tradicionales no pueden ofrecen la tarifa PVPC. Esta las ofrecen Comercializadoras de Referencia o CUR, que son parte de las electricas tradicionales pero con otros nombres > Además, si quieres que se te aplique el bono social, tendrás que estar en mercado regulado, tarifa PVPC. > Consulta el listado de las CUR en la web de la CNMC > https://sede.cnmc.gob.es/listado/censo/10",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "mercado",
-        "contratar",
-        "regulado",
-        "tarifa",
-        "precio",
-        "comercializadora"
-      ]
-    },
-    {
-      "pregunta": "He comprado una casa de nueva construcción y quiero dar de alta el suministro ¿Qué tengo que hacer?",
-      "respuesta": "Tienes que disponer del boletín eléctrico de la vivienda y hacer un contrato de acceso a la red de la distribuidora en la zona y un contrato de suministro con la comercializadora. Tendrás que pagar los derechos de acometida, incluyendo los derechos de extensión y acceso a red, así como los derechos de enganche, verificación y actuación en equipos de medida.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "derechos",
-        "suministro",
-        "contrato",
-        "acceso",
-        "comprado",
-        "casa"
-      ]
-    },
-    {
-      "pregunta": "¿Qué son los derechos de acceso, extensión, acometida, enganche y verificación en el suministro eléctrico?",
-      "respuesta": "Son pagos regulados que se aplican al solicitar, modificar o verificar un suministro eléctrico:<ul><li>Acceso: por conectarse y usar la capacidad de la red.</li><li>Extensión: por ampliar o reforzar la red para dar suministro.</li><li>Acometida: por construir o adaptar la conexión física al inmueble.</li><li>Enganche: por activar el suministro y conectar la instalación al contador.</li><li>Verificación: por inspeccionar que la instalación y los equipos cumplen la normativa y funcionan correctamente.</li></ul>",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "suministro",
-        "acceso",
-        "extensión",
-        "acometida",
-        "enganche",
-        "verificación"
-      ]
-    },
-    {
-      "pregunta": "He comprado una vivienda de segunda mano y quiero dar de alta el suministro eléctrico porque el anterior propietario lo dio de baja, ¿qué debo hacer?",
-      "respuesta": "Debes contratar el acceso a la red con la distribuidora de tu zona y firmar un contrato de suministro con la comercializadora que elijas. Tendrás que pagar los derechos de acceso (pago por conectarse a la red eléctrica y usar su capacidad) y, si han caducado, también los de extensión (pago por ampliar o reforzar la red para poder dar el suministro). Si cambias la potencia contratada, pagarás los derechos correspondientes al aumento, siempre que no superes la potencia máxima permitida. En ese caso, solo deberás abonar los derechos de verificación: pagos regulados que se aplican cuando se realiza una inspección o comprobación de la instalación eléctrica o de los equipos de medida (contador, interruptores, etc.) para garantizar que cumplen la normativa y funcionan correctamente; y, obtener un nuevo boletín eléctrico.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "suministro",
-        "derechos",
-        "eléctrico",
-        "acceso",
-        "pago",
-        "eléctrica"
-      ]
-    },
-    {
-      "pregunta": "He comprado una vivienda de segunda mano y el anterior propietario no dio de baja el suministro el suministro eléctrico, ¿qué debo hacer?",
-      "respuesta": "Debes realizar un nuevo contrato de acceso con la distribuidora de tu zona y un contrato de suministro con la comercializadora que elijas. Al continuar con el contrato existente, solo tendrás que pagar derechos de acceso (pago por conectarse a la red eléctrica y usar su capacidad) y extensión (pago por ampliar o reforzar la red para poder dar el suministro) si aumentas la potencia contratada, o los derechos por actuación en el contador si la reduces.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "suministro",
-        "contrato",
-        "acceso",
-        "derechos",
-        "pago",
-        "comprado"
-      ]
-    },
-    {
-      "pregunta": "Contacté con una comercializadora para dar de alta el suministro en mi casa, pero me lo ha denegado porque dicen que figuro como deudor de un contrato anterior. ¿Es esto legal?",
-      "respuesta": "Lo será en el caso de que se haya declarado mediante sentencia judicial firme que el consumidor es deudor con cualquier empresa distribuidora por una cuantía superior a 150,25 €, o cuando las instalaciones eléctricas no cumplen las condiciones técnicas y de seguridad reglamentarias.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "deudor",
-        "contacté",
-        "comercializadora",
-        "alta",
-        "suministro",
-        "casa"
-      ]
-    },
-    {
-      "pregunta": "¿Qué es el bono social?",
-      "respuesta": "Es un [descuento en la factura de la electricidad](https://www.boe.es/buscar/act.php?id=BOE-A-2017-11505&p=20181006&tn=1#a1), al que pueden acogerse los usuarios que estén en el Precio Voluntario para el Pequeño Consumidor (PVPC), esto es, en el mercado regulado, y sean considerados consumidores vulnerables, los vulnerables severos y los que estén en riesgo de exclusión social.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "social",
-        "estén",
-        "vulnerables",
-        "bono",
-        "descuento",
-        "factura"
-      ]
-    },
-    {
-      "pregunta": "¿Cuáles son los elementos de una factura de electricidad?",
-      "respuesta": "Tiene los siguientes componentes: A) Variables:<ul><li>Potencia contratada: Es el máximo de electricidad que se puede usar al mismo tiempo en una vivienda.</li><li>Peaje de acceso: Son los costes que se pagan por usar la red eléctrica para transportar y distribuir la energía hasta el hogar.</li><li>Alquiler de equipos de medida y control: Es el importe que se paga por el uso de los contadores que registran el consumo eléctrico. B) Fijos:</li><li>Energía consumida: representa la energía que consume la vivienda en el periodo de la factura.</li></ul>",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "energía",
+        "mercado libre",
+        "mercado regulado",
         "factura",
-        "electricidad",
-        "usar",
-        "vivienda",
-        "cuáles"
-      ]
-    },
-    {
-      "pregunta": "¿Qué debe aparecer en la factura de la electricidad?",
-      "respuesta": "La factura de la luz debe incluir los datos del cliente y del contrato, número de factura y fechas del periodo de facturación, consumo en kWh y lecturas del contador, los términos de energía y potencia contratada, impuestos y alquiler de contador si corresponde, el Código CUPS, la tarifa de acceso y peajes regulados, información de contacto de la compañía y un histórico de consumos para comparar meses o años anteriores.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "factura",
-        "contador",
-        "aparecer",
-        "electricidad",
-        "incluir",
-        "datos"
-      ]
-    },
-    {
-      "pregunta": "¿Cuánto dura el contrato de suministro eléctrico?",
-      "respuesta": "Dura un año y se renueva automáticamente, salvo que el consumidor avise con 5 días hábiles de antelación para darse de baja. No obstante, se puede cancelar en cualquier momento, siempre que se comunique la baja con al menos 5 días hábiles de antelación.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "dura",
-        "días",
-        "hábiles",
-        "antelación",
-        "baja",
         "contrato"
       ]
     },
     {
-      "pregunta": "¿Puedo cambiar la tarifa o la potencia contratada sin coste adicional?",
-      "respuesta": "Sí. Puede modificarse una vez al año. Si se hace más veces, la comercializadora puede negarse o cobrar un coste adicional (artículo 79.6 Real Decreto 1955/2000, de 1 de diciembre, por el que se regulan las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de instalaciones de energía eléctrica).",
+      "pregunta": "¿Qué opciones tengo para elegir comercializadora de luz?",
+      "respuesta": "Puedes contratar la luz en el mercado libre o, si cumples los requisitos, acogerte al Precio Voluntario para el Pequeño Consumidor (PVPC). En el mercado libre, las comercializadoras ofrecen sus propias tarifas y condiciones, que pueden incluir precios fijos o variables, descuentos o servicios adicionales. El PVPC es un precio regulado que solo puede contratarse con una comercializadora de referencia por titulares que sean personas físicas o microempresas, en puntos de suministro a una tensión no superior a 1 kV y con una potencia contratada igual o inferior a 10 kW en cada período horario. Antes de contratar, conviene comparar el precio, la duración, los servicios añadidos, las condiciones de revisión y, cuando proceda legalmente, las posibles penalizaciones por rescisión anticipada.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "coste",
-        "adicional",
-        "cambiar",
+        "comercializadora",
+        "luz",
+        "mercado libre",
+        "mercado regulado",
+        "pvpc",
+        "comercializadora referencia",
         "tarifa",
         "potencia",
-        "contratada"
+        "permanencia",
+        "contrato"
       ]
     },
     {
-      "pregunta": "¿Puedo pasar del mercado libre al mercado regulado?",
-      "respuesta": "Sí. El cambio es posible, pero una vez en el mercado regulado se debe permanecer al menos un año antes de volver al libre.",
+      "pregunta": "No tenía fondos en el banco y no pagué la factura. ¿Puede la compañía de electricidad cortarme la luz inmediatamente?",
+      "respuesta": "No. Si eres una persona física y el suministro corresponde a tu vivienda habitual, la compañía debe respetar el procedimiento y los plazos legalmente establecidos antes de suspender el suministro por impago. En los suministros con una potencia contratada igual o inferior a 10 kW, estas garantías se aplican tanto en el mercado regulado como en el mercado libre. Además, hasta el 31 de diciembre de 2026 no puede suspenderse el suministro a quienes tengan reconocida la condición de consumidor vulnerable, vulnerable severo o en riesgo de exclusión social. Tampoco pueden suspenderse los suministros declarados esenciales, como aquellos necesarios para alimentar un equipo médico indispensable para mantener con vida a una persona.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "mercado",
-        "libre",
-        "regulado",
-        "cambio",
-        "posible",
-        "permanecer"
-      ]
-    },
-    {
-      "pregunta": "¿Cada cuánto tiempo me tienen que mandar la factura de la electricidad?",
-      "respuesta": "Para facturas con una potencia contratada inferior a 15 kW se emite y cobra mensualmente.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "tiempo",
-        "mandar",
-        "factura",
-        "electricidad",
-        "facturas",
-        "potencia"
-      ]
-    },
-    {
-      "pregunta": "¿Puede la compañía de electricidad mandarme una factura en la que el consumo se basa en lecturas estimadas?",
-      "respuesta": "Desde enero de 2019, todos los contadores tienen capacidad para telemedida y telegestión, lo que permite que la lectura del contador se realice de manera remota, y sea real. Sin embargo, en los hogares en los que sigue habiendo contadores analógicos, es posible que estas se produzcan cuando el técnico no haya tenido acceso a la lectura por difícil acceso del contador o ausencia de las personas en la vivienda. También es posible que se produzca por un cambio de contador. Otro supuesto que permite a las eléctricas las lecturas estimadas es cuando el contador de luz está estropeado y no marca el consumo de manera adecuada.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "contador",
-        "consumo",
-        "lecturas",
-        "estimadas",
-        "contadores",
-        "permite"
-      ]
-    },
-    {
-      "pregunta": "No tenía fondos en el banco y no pagué la factura ¿Puede la compañía de electricidad cortarme la luz inmediatamente?",
-      "respuesta": "Si estás en el mercado regulado, la comercializadora debe esperar al menos dos meses desde que te haya notificado oficialmente el impago. > Si estás en el mercado libre, los plazos y condiciones para cortar el suministro por impago dependen de lo que se establezca en el contrato firmado. > Si estás en riesgo de exclusión social o requieres de un equipo médico de soporte vital en su vivienda no se te podrá cortar la luz.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "estás",
-        "mercado",
         "impago",
-        "cortar",
-        "tenía",
-        "fondos"
+        "corte suministro",
+        "electricidad",
+        "mercado regulado",
+        "mercado libre",
+        "requerimiento pago",
+        "riesgo exclusión",
+        "soporte vital"
       ]
     },
     {
-      "pregunta": "¿Qué actuaciones debe tomar la compañía eléctrica si va a interrumpir el suministro por obras?",
-      "respuesta": "Debe informar con una antelación mínima de 24 horas a través de carteles situados en lugares visibles y a través de dos de los medios de mayor difusión de la provincia, indicando la fecha y la hora del inicio y finalización de la interrupción.",
+      "pregunta": "¿Qué debe hacer la distribuidora si va a interrumpir el suministro por obras?",
+      "respuesta": "Si se trata de una interrupción programada por obras, mantenimiento o mejora de la red, la distribuidora debe solicitar previamente autorización al órgano competente de la comunidad autónoma y avisar a las personas afectadas con al menos 24 horas de antelación. El aviso debe indicar la fecha y hora previstas de inicio y finalización y difundirse por los medios establecidos legalmente, incluidos carteles visibles, medios de comunicación escritos y digitales y la página web de la distribuidora. Además, si has facilitado tu teléfono o correo electrónico, deberá comunicarte también la interrupción por esos medios.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "actuaciones",
-        "tomar",
-        "compañía",
-        "eléctrica",
-        "interrumpir",
-        "suministro"
+        "interrupción",
+        "suministro eléctrico",
+        "obras",
+        "mantenimiento",
+        "distribuidora",
+        "aviso",
+        "antelación",
+        "avería"
       ]
     },
     {
-      "pregunta": "La compañía eléctrica me acusa de manipular el contador ¿Puedo solicitar pruebas que acrediten esto?",
-      "respuesta": "Sí. Puedes pedir a la distribuidora el informe de inspección con la fecha, hora, nombre y firma del técnico que realizó la revisión.",
+      "pregunta": "La compañía eléctrica me acusa de manipular el contador. ¿Puedo solicitar pruebas?",
+      "respuesta": "Sí. Puedes reclamar ante la distribuidora y solicitar información y la documentación en la que se basa la supuesta manipulación. La distribuidora debe poner en conocimiento de los sujetos afectados cualquier manipulación o alteración detectada en los equipos de medida. Además, tienes derecho a solicitar al órgano competente de la Administración la comprobación y verificación del contador. Si la supuesta manipulación ha dado lugar a una regularización de la factura, la comercializadora debe poner a tu disposición los datos necesarios para comprobar cómo se han calculado los importes facturados.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "compañía",
-        "eléctrica",
-        "acusa",
-        "manipular",
+        "manipulación contador",
         "contador",
-        "solicitar"
+        "pruebas",
+        "distribuidora",
+        "inspección",
+        "informe",
+        "refacturación",
+        "reclamación"
       ]
     },
     {
       "pregunta": "¿Qué debo hacer si no estoy conforme con la acusación de manipulación del contador?",
-      "respuesta": "Debes presentar una reclamación ante el organismo competente de la tu Comunidad Autónoma y pedir la suspensión del corte de suministro por impago.",
+      "respuesta": "Si no estás conforme, reclama primero ante la distribuidora y solicita que revise la actuación y la documentación en la que se basa la supuesta manipulación. Si también discrepas de una factura o regularización derivada de ella, puedes reclamar ante la comercializadora. Además, tienes derecho a solicitar al órgano competente de la Administración la comprobación y verificación del contador. Si la reclamación no se resuelve satisfactoriamente, puedes acudir a las demás vías de reclamación que resulten aplicables.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "conforme",
-        "acusación",
-        "manipulación",
-        "contador",
-        "debes",
-        "presentar"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo pedir una verificación independiente del contador si se me acusa de manipularlo?",
-      "respuesta": "Sí. Puedes solicitar a un laboratorio verificador de contadores que compruebe si tu contador funciona correctamente y no ha sido manipulado.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "contador",
-        "pedir",
-        "verificación",
-        "independiente",
-        "acusa",
-        "manipularlo"
+        "manipulación contador",
+        "reclamación",
+        "distribuidora",
+        "comercializadora",
+        "corte suministro",
+        "facturación",
+        "comunidad autónoma",
+        "consumo"
       ]
     },
     {
       "pregunta": "¿A quién debo acudir si tengo problemas con la lectura, la potencia o el acceso al suministro, o si mi comercializadora en mercado libre no me aplica los descuentos prometidos?",
-      "respuesta": "Depende del tipo de problema:<ul><li>Para cuestiones técnicas relacionadas con la lectura del contador, > la potencia o el acceso al suministro, debes acudir al organismo > de Industria de tu Comunidad Autónoma, que gestiona reclamaciones > sobre control y medida del consumo.</li><li>Para problemas con descuentos no aplicados por tu comercializadora > en mercado libre, debes dirigirte a tu asociación de consumidores > o a los servicios públicos de consumo de tu localidad o Comunidad > Autónoma.</li></ul>",
+      "respuesta": "Depende del problema. Si se refiere a la lectura del contador, al equipo de medida o a una cuestión técnica de acceso a la red, reclama primero ante la distribuidora o, cuando corresponda, a través de tu comercializadora. Si la reclamación no se resuelve, puedes acudir al órgano competente en materia de energía de tu comunidad autónoma cuando exista un procedimiento administrativo para este tipo de controversias. Si el problema es que una comercializadora de mercado libre no aplica un descuento u otra condición prevista en el contrato, reclama primero ante la comercializadora y, si no se soluciona, puedes acudir a los servicios públicos de consumo o a las demás vías de resolución de conflictos disponibles.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "acudir",
-        "problemas",
+        "reclamación",
         "lectura",
         "potencia",
         "acceso",
-        "suministro"
+        "suministro",
+        "distribuidora",
+        "comercializadora",
+        "descuentos",
+        "consumo"
       ]
     },
     {
-      "pregunta": "Ha venido una persona a mi casa, diciendo que es de la compañía eléctrica y que no se me factura de forma adecuada ¿es esto legal?",
-      "respuesta": "No, desde octubre de 2018, las comercializadoras no pueden publicitar sus productos ni llevar a cabo contrataciones de sus servicios directamente en los domicilios de los consumidores.",
+      "pregunta": "Ha venido una persona a mi casa diciendo que es de la compañía eléctrica y que no se me factura de forma adecuada. ¿Es legal?",
+      "respuesta": "Si se trata de una visita comercial no solicitada para ofrecerte un contrato, cambiarte de tarifa o modificar las condiciones de tu suministro, no está permitida. Las comercializadoras no pueden realizar publicidad ni contratar directamente en el domicilio salvo que hayas solicitado expresamente y por iniciativa propia recibir esa visita. Esta prohibición no afecta a las actuaciones técnicas que pueda realizar la distribuidora o personal autorizado, por ejemplo para la lectura, revisión o sustitución del contador.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "venido",
-        "persona",
-        "casa",
-        "diciendo",
-        "compañía",
-        "eléctrica"
+        "visita domicilio",
+        "comercializadora",
+        "contratación",
+        "tarifa",
+        "factura",
+        "distribuidora",
+        "contador",
+        "datos personales"
       ]
     },
     {
-      "pregunta": "Ayer se fue la luz y se me han estropeado los alimentos de la nevera ¿tengo derecho a reclamar?",
-      "respuesta": "Si la distribuidora no cumple los niveles de calidad del servicio, corresponde una compensación automática en la factura del primer trimestre del año siguiente. A parte de esto, si has tenido daños, debes formalizar una reclamación presentando documentación como facturas o fotos, y una estimación del valor de los bienes dañados.",
+      "pregunta": "Ayer se fue la luz y se me han estropeado los alimentos de la nevera. ¿Tengo derecho a reclamar?",
+      "respuesta": "Sí, puedes reclamar. Si la distribuidora incumple los niveles de continuidad del suministro establecidos legalmente, corresponde aplicar el descuento previsto en la normativa en la facturación del primer trimestre del año siguiente. Además, si ese incumplimiento te ha causado daños, como alimentos estropeados, puedes reclamar su indemnización acreditando tanto el daño como su relación con la interrupción. Conviene conservar fotografías, justificantes de compra y cualquier otra prueba disponible. La reclamación debe dirigirse a la distribuidora y, si existe discrepancia sobre el cumplimiento de los niveles de calidad, puede intervenir el órgano competente de tu comunidad autónoma.",
       "subcategoria": "Electricidad",
       "keywords": [
-        "ayer",
-        "estropeado",
+        "corte luz",
+        "avería",
         "alimentos",
         "nevera",
-        "derecho",
-        "reclamar"
-      ]
-    },
-    {
-      "pregunta": "He recibido una factura de luz y no estoy de acuerdo con lo que se me está cobrando porque no se aplica un descuento al que se había comprometido la comercializadora ¿cómo puedo reclamar?",
-      "respuesta": "Presenta la reclamación directamente ante el servicio de atención al cliente de la comercializadora por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir al organismo de tu comunidad autónoma con competencias en industria. Finalmente, también puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo si la empresa lo acepta o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €, siendo estas dos últimas vías incompatibles, o se acude a un arbitraje o a se pone una demanda judicial. > En primer lugar debes reclamar ante tu comercializadora. > Puedes hacerlo solicitando una hoja de reclamaciones, por correo postal o electrónico, a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles de usuario en la web, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero si la utilizas solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de 5 días hábiles, puedes acudir al arbitraje de consumo o sistema alternativo de resolución de conflictos al que esté adherida tu comercializadora. Esta información está recogida en el contrato, en la factura, y en su web. > La resolución arbitral o del organismo de resolución de conflictos es vinculante y de obligado cumplimiento para las partes, pone fin al procedimiento y no es recurrible.",
-      "subcategoria": "Electricidad",
-      "keywords": [
-        "comercializadora",
-        "puedes",
-        "resolución",
-        "organismo",
-        "consumo",
-        "acudir"
-      ]
-    },
-    {
-      "pregunta": "He recibido una factura de luz y no estoy de acuerdo con la lectura que han hecho del contador ¿cómo puedo reclamar?",
-      "respuesta": "Presenta la reclamación directamente ante el servicio de atención al cliente de la distribuidora, o a la comercializadora pidiendo que se lo traslade a la distribuidora por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir al organismo de tu comunidad autónoma con competencias en industria. Finalmente, también puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo si la empresa lo acepta o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €, siendo estas dos últimas vías incompatibles, o se acude a un arbitraje o a se pone una demanda judicial. > **",
-      "subcategoria": "Electricidad",
-      "keywords": [
+        "daños",
+        "compensación",
         "distribuidora",
-        "organismo",
-        "consumo",
-        "empresa",
-        "puedes",
-        "acudir"
+        "reclamación",
+        "factura"
       ]
     },
     {
-      "pregunta": "Contraté gas natural para mi despacho. ¿Tengo derecho a la reconexión gratuita si hay un corte por impago antiguo?",
-      "respuesta": "No, la legislación de consumo no se aplica a empresas. La reconexión dependerá de las condiciones contractuales establecidas entre la empresa y el proveedor de gas.",
+      "pregunta": "He recibido una factura de luz y no estoy de acuerdo con lo que se me cobra porque no se aplica un descuento prometido por la comercializadora. ¿Cómo puedo reclamar?",
+      "respuesta": "Reclama primero ante el servicio de atención al cliente de la comercializadora, explicando el problema y aportando, si es posible, el contrato, la oferta y la factura en la que no se ha aplicado el descuento. La empresa debe facilitarte un número de referencia de la reclamación. Cuando la reclamación se refiere a una factura emitida, el plazo máximo de atención es de 5 días hábiles para usuarios con menos de 15 kW contratados y de 15 días hábiles para el resto. Si la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo o a un sistema de resolución alternativa, incluido el arbitraje de consumo cuando la empresa esté adherida o acepte someterse a él. También puedes acudir al órgano competente en materia de energía de tu comunidad autónoma cuando exista un procedimiento administrativo aplicable a este tipo de reclamaciones, sin perjuicio de la vía judicial.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "factura",
+        "descuento",
+        "comercializadora",
+        "reclamación",
+        "atención cliente",
+        "arbitraje",
+        "consumo",
+        "demanda",
+        "mercado libre"
+      ]
+    },
+    {
+      "pregunta": "He recibido una factura de luz y no estoy de acuerdo con la lectura del contador. ¿Cómo puedo reclamar?",
+      "respuesta": "Puedes reclamar directamente ante la distribuidora, que es la responsable de la lectura del contador, o plantear la incidencia a través de tu comercializadora. La empresa debe facilitarte un número de referencia de la reclamación. Para reclamaciones relativas a la medida del consumo o a facturas emitidas, el plazo máximo de atención es de 5 días hábiles para usuarios con menos de 15 kW contratados y de 15 días hábiles para el resto. Si la reclamación no se resuelve, puedes acudir al órgano competente en materia de energía o industria de tu comunidad autónoma cuando exista un procedimiento administrativo aplicable. Además, si dudas del correcto funcionamiento del contador, tienes derecho a solicitar a dicho órgano su comprobación y verificación.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "factura",
+        "lectura contador",
+        "contador",
+        "distribuidora",
+        "comercializadora",
+        "reclamación",
+        "consumo",
+        "energía",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "Contraté gas natural para mi despacho. ¿Tengo derecho a la reconexión gratuita si hay un corte por un impago antiguo?",
+      "respuesta": "Si contrataste el gas para un despacho o actividad profesional, no actúas como consumidor a efectos de la normativa general de protección de consumidores, aunque sí te resulta aplicable la normativa sectorial del suministro de gas. Si el corte por impago está justificado y te es imputable, la reconexión no es gratuita: deberás abonar una cantidad equivalente al doble de los derechos de enganche vigentes. Si, en cambio, la deuda corresponde a otra persona o a un contrato anterior del que no eras titular, reclama ante la empresa y pide que justifique por qué te exige su pago o condiciona a él la reconexión.",
       "subcategoria": "Gas",
       "keywords": [
-        "reconexión",
-        "contraté",
-        "natural",
+        "gas natural",
         "despacho",
-        "derecho",
-        "gratuita"
+        "reconexión",
+        "impago",
+        "corte suministro",
+        "actividad profesional",
+        "contrato",
+        "deuda"
       ]
     },
     {
       "pregunta": "¿Cuál es la diferencia entre la empresa comercializadora y la distribuidora del gas?",
-      "respuesta": "La empresa distribuidora se encarga de llevar el gas a través de las redes de distribución, hasta los puntos de consumo. La empresa comercializadora es la encargada de vender el gas al usuario que haya suscrito el contrato de suministro, y de enviarle las facturas al cobro.",
+      "respuesta": "La distribuidora es la empresa responsable de la red de gas en una zona concreta. Se encarga de llevar el gas hasta los puntos de suministro, realizar lecturas cuando corresponda, mantener la red y garantizar la calidad y seguridad del suministro. No puedes elegirla, porque depende del lugar donde esté la vivienda o local. La comercializadora es la empresa con la que contratas el gas, la que te vende la energía y la que normalmente te envía las facturas. La comercializadora sí puede elegirse, dentro de las empresas que ofrezcan servicio en tu zona.",
       "subcategoria": "Gas",
       "keywords": [
-        "empresa",
         "comercializadora",
         "distribuidora",
-        "cuál",
-        "diferencia",
-        "encarga"
+        "gas",
+        "red",
+        "factura",
+        "contrato",
+        "lectura",
+        "suministro"
       ]
     },
     {
-      "pregunta": "¿Qué hace la empresa instaladora de gas?",
-      "respuesta": "Es la empresa habilitada para ejecutar, mantener y reparar determinadas instalaciones de gas, puede ser una empresa o un trabajador autónomo. Deben estar habilitadas y comunicar el inicio de su actividad en el órgano de la comunidad autónoma con competencias en industria.",
+      "pregunta": "¿Qué hace una empresa instaladora de gas?",
+      "respuesta": "Una empresa instaladora de gas es una persona física o jurídica habilitada para realizar, dentro de los límites correspondientes a su categoría, actividades de montaje, reparación, mantenimiento y control periódico de instalaciones de gas. Para ejercer legalmente debe cumplir los requisitos técnicos establecidos y, antes de iniciar su actividad, presentar una declaración responsable ante el órgano competente de la comunidad autónoma. Los instaladores de gas que realizan estos trabajos deben estar capacitados para su categoría y desarrollar su actividad en el seno de una empresa instaladora habilitada.",
       "subcategoria": "Gas",
       "keywords": [
-        "empresa",
-        "hace",
-        "instaladora",
-        "habilitada",
-        "ejecutar",
-        "mantener"
+        "empresa instaladora",
+        "gas",
+        "instalación",
+        "mantenimiento",
+        "reparación",
+        "habilitación",
+        "industria",
+        "comunidad autónoma"
       ]
     },
     {
       "pregunta": "¿Qué tipos de gas existen según la forma de suministrarlo?",
-      "respuesta": "Podemos diferenciar tres tipos de suministro:<ul><li>El suministro canalizado, que consiste en el transporte del gas hacia las viviendas o industrias a través de redes de tuberías, siendo el método más habitual para el gas natural.</li><li>El suministro a granel, en el que el gas se almacena en un depósito o tanque fijo instalado en el lugar de consumo y se reposta periódicamente mediante un camión cisterna.</li><li>El suministro envasado se realiza mediante cilindros portátiles o bombonas que contienen gas GLP.</li></ul>",
+      "respuesta": "Según la forma de suministro, pueden distinguirse principalmente tres modalidades:\n- Gas canalizado: llega a la vivienda o local a través de una red de tuberías. Es la forma habitual de suministro de gas natural.\n- Gas a granel: se almacena en un depósito o tanque fijo situado en el lugar de consumo y se repone periódicamente, normalmente mediante camión cisterna. Suele utilizarse para gases licuados del petróleo, como propano.\n- Gas envasado: se suministra en recipientes portátiles, como bombonas o cilindros, habitualmente de butano o propano.",
       "subcategoria": "Gas",
       "keywords": [
+        "gas",
         "suministro",
-        "tipos",
-        "existen",
-        "suministrarlo",
-        "podemos",
-        "diferenciar"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo escoger mi empresa distribuidora de gas canalizado?",
-      "respuesta": "No. La distribuidora es la que gestiona la red física (tuberías, contadores y suministro) en una zona concreta y su asignación depende del territorio. Cada área geográfica tiene una distribuidora designada que se encarga del mantenimiento y la calidad del servicio.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "distribuidora",
-        "escoger",
-        "empresa",
         "canalizado",
-        "gestiona",
-        "física"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo escoger mi empresa comercializadora de gas canalizado?",
-      "respuesta": "Si, la persona consumidora puede elegir quien es su empresa comercializadora, que es la que te factura el consumo, te ofrece tarifas y con la que firmas el contrato.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "empresa",
-        "comercializadora",
-        "escoger",
-        "canalizado",
-        "persona",
-        "consumidora"
-      ]
-    },
-    {
-      "pregunta": "¿Qué opciones tengo para elegir empresa comercializadora de gas canalizado?",
-      "respuesta": "Si tienes gas canalizado, puedes elegir entre dos opciones de comercialización. La primera es el mercado regulado, donde puedes acogerte a la tarifa de último recurso (TUR) si tu consumo anual no supera los 50.000 kWh y la red de suministro tiene una presión igual o menor a 4 bar. En este caso, el contrato dura un año y se renueva automáticamente, aunque puedes darte de baja en cualquier momento avisando con seis días hábiles de antelación. > La segunda opción es el mercado liberalizado, en el que puedes contratar con cualquier empresa comercializadora autorizada. Estos contratos incluyen las condiciones de suministro, seguridad, calidad, facturación, y formas de resolver conflictos. En este mercado, las compañías suelen ofrecer distintas tarifas, como una tarifa plana o una basada en la potencia contratada y el consumo realizado.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "puedes",
-        "mercado",
-        "opciones",
-        "elegir",
-        "empresa",
-        "comercializadora"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo contratar con la comercializadora de gas canalizado por teléfono?",
-      "respuesta": "Sí, pero la empresa debe grabar la conversación en la que das tu consentimiento para realizar el alta, asignarte un número de solicitud y conservar la grabación como prueba. Después, la compañía debe enviarte el contrato por escrito con todas las condiciones, y dispones de 14 días naturales para desistir sin penalización ni necesidad de justificar tu decisión.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "contratar",
-        "comercializadora",
-        "canalizado",
-        "teléfono",
-        "empresa",
-        "grabar"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo contratar con la comercializadora de gas canalizado por internet?",
-      "respuesta": "Sí. Tu conformidad puede darse mediante firma digital avanzada, en cuyo caso los datos quedan registrados electrónicamente, o sin firma digital avanzada, quedando la solicitud guardada en un registro electrónico con un número de referencia que el cliente puede descargar e imprimir. En ambos casos, la empresa debe enviarte el contrato por escrito, y dispones de 14 días naturales para desistir sin coste ni necesidad de dar explicaciones.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "firma",
-        "digital",
-        "avanzada",
-        "contratar",
-        "comercializadora",
-        "canalizado"
-      ]
-    },
-    {
-      "pregunta": "¿Son libres los precios de la bombona de gas butano?",
-      "respuesta": "En general los precios son libres, excepto para los envases de 8 a 20 kg, cuyo precio máximo está regulado por el Gobierno e incluye tanto el combustible como el suministro a domicilio.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "libres",
-        "precios",
+        "granel",
+        "envasado",
         "bombona",
-        "butano",
-        "general",
-        "excepto"
-      ]
-    },
-    {
-      "pregunta": "He contratado el suministro de gas para bombona de butano en mi casa ¿Puede la empresa cobrarme algo de inicio?",
-      "respuesta": "Sí. La empresa puede exigirte los derechos de alta y fianza para garantizar el uso correcto y la devolución de envases y equipos.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "empresa",
-        "contratado",
-        "suministro",
-        "bombona",
-        "butano",
-        "casa"
-      ]
-    },
-    {
-      "pregunta": "¿Quién es responsable de realizar las lecturas del gas?",
-      "respuesta": "La empresa distribuidora es responsable de realizar las lecturas del contador. Si no es posible hacerla, pueden emitir facturas con lecturas estimadas, pero deben regularizarse anualmente para ajustar el cobro al consumo real.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "lecturas",
-        "responsable",
-        "realizar",
-        "quién",
-        "empresa",
-        "distribuidora"
-      ]
-    },
-    {
-      "pregunta": "¿Cada cuánto deben mandarme la factura de gas?",
-      "respuesta": "La factura puede ser mensual o bimestral y se calcula en base a las lecturas del contador. También se puede acordar una cuota fija mensual basada en consumos históricos o estimaciones, que se regulariza al final del año según el consumo real.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "factura",
-        "mensual",
-        "mandarme",
-        "bimestral",
-        "calcula",
-        "base"
-      ]
-    },
-    {
-      "pregunta": "¿Se pueden pactar otras condiciones de facturación de gas diferentes a el envío cada mes o cada dos meses?",
-      "respuesta": "Sí. En el mercado libre, la empresa comercializadora y el usuario pueden acordar cualquier otra forma de facturación diferente a la establecida en el mercado regulado.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "facturación",
-        "mercado",
-        "pactar",
-        "condiciones",
-        "diferentes",
-        "envío"
-      ]
-    },
-    {
-      "pregunta": "¿Qué debe aparecer en la factura del gas?",
-      "respuesta": "La factura de gas incluye en su parte delantera información como el número de factura y fecha, datos del abonado (nombre, NIF, domicilio, número de contrato y referencias), periodo de facturación y consumo en metros cúbicos convertido a kWh. También se detallan el impuesto sobre hidrocarburos, el término fijo por disponer del servicio, el alquiler del contador si no es propiedad del cliente, el IVA y los datos de contacto de la compañía. > En la parte trasera aparecen el Código Universal de Punto de Suministro (CUPS), la tarifa de acceso que se paga a la distribuidora, la cuantía del peaje regulado, las lecturas del contador con fechas y método de obtención, y el consumo calculado en kWh. Además, se incluye un histórico gráfico de los consumos de los últimos 24 meses para que el usuario pueda compararlos.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "factura",
-        "incluye",
-        "número",
-        "datos",
-        "consumo",
-        "contador"
-      ]
-    },
-    {
-      "pregunta": "¿Cómo puedo pagar la factura del gas?",
-      "respuesta": "Por domiciliación bancaria, en las oficinas de la empresa suministradora (o en quien esta delegue) o en la cuenta corriente que se señale. > En caso de que vivas en una zona geográfica con dificultades para utilizar estos sistemas, puedes pagar mediante giro postal u otro medio similar.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "pagar",
-        "factura",
-        "domiciliación",
-        "bancaria",
-        "oficinas",
-        "empresa"
-      ]
-    },
-    {
-      "pregunta": "¿Es obligatorio que contrate el mantenimiento para instalaciones domésticas de gas canalizado de menos de 70 kW?",
-      "respuesta": "No. No es necesario que suscribas un contrato de mantenimiento en este tipo de instalaciones, pero tendrás que mantenerla conforme a las operaciones y periodicidades contenidas en el programa de mantenimiento preventivo establecido en el \"Manual de uso y mantenimiento\" cuando este exista y tendrás que abonar el coste que conlleve.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "mantenimiento",
-        "instalaciones",
-        "tendrás",
-        "obligatorio",
-        "contrate",
-        "domésticas"
-      ]
-    },
-    {
-      "pregunta": "¿Es obligatorio que contrate el mantenimiento para mi depósito de gas?",
-      "respuesta": "Si, los consumidores de gas envasado a granel deben tener un contrato de mantenimiento con una [empresa instaladora de gas habilitada](https://gestiona.comunidad.madrid/remp_consulta_web/run/j/FormBuscarEmpresasAutorizadas.icm), con servicio de urgencias permanente, que se encargue del mantenimiento y control periódico de las instalaciones. La empresa debe dejar constancia de cada actuación en el libro de mantenimiento.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "mantenimiento",
-        "empresa",
-        "obligatorio",
-        "contrate",
-        "depósito",
-        "consumidores"
-      ]
-    },
-    {
-      "pregunta": "¿Es obligatorio que contrate el mantenimiento para mi suministro de gas mediante bombonas de butano?",
-      "respuesta": "No, aunque debes mantenerlo en condiciones de seguridad.",
-      "subcategoria": "Gas",
-      "keywords": [
-        "obligatorio",
-        "contrate",
-        "mantenimiento",
-        "suministro",
-        "bombonas",
+        "propano",
         "butano"
       ]
     },
     {
-      "pregunta": "¿Me pueden suspender el suministro de gas si no pago?",
-      "respuesta": "Sí, si no pagas tras dos meses desde el requerimiento, la empresa puede aplicar intereses y, después de cuatro meses, interrumpir tu servicio.",
+      "pregunta": "¿Puedo escoger mi empresa distribuidora de gas canalizado?",
+      "respuesta": "No. La distribuidora de gas canalizado viene determinada por la red a la que está conectado el punto de suministro, por lo que no puedes cambiarla libremente. La distribuidora se encarga de gestionar y mantener esa red, realizar las lecturas de los contadores y determinadas actuaciones técnicas relacionadas con el suministro. Lo que sí puedes elegir es la comercializadora con la que contratas el gas.",
       "subcategoria": "Gas",
       "keywords": [
-        "meses",
-        "suspender",
-        "suministro",
+        "distribuidora",
+        "gas canalizado",
+        "zona",
+        "red",
+        "contador",
+        "comercializadora",
+        "contrato",
+        "suministro"
+      ]
+    },
+    {
+      "pregunta": "He contratado el suministro de gas en bombona de butano para mi casa. ¿Puede la empresa cobrarme algo al inicio?",
+      "respuesta": "Sí. En el suministro de gases licuados del petróleo envasados, como las bombonas de butano, la empresa puede exigir derechos de alta y una fianza para garantizar el uso correcto y la devolución de los envases y equipos que ponga a tu disposición. La suma de los derechos de alta y de las fianzas no puede superar el resultado de multiplicar el número de envases contratados por su coste unitario en la fecha en que se formalice el contrato.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "bombona",
+        "butano",
+        "alta",
+        "fianza",
+        "envases",
+        "depósito",
+        "contrato",
+        "devolución"
+      ]
+    },
+    {
+      "pregunta": "¿Quién es responsable de realizar las lecturas del gas?",
+      "respuesta": "En el gas canalizado, la empresa distribuidora es la responsable de realizar la lectura del contador y de ponerla a disposición del consumidor y de la comercializadora que le suministra. Si por causas ajenas a la distribuidora no puede realizarse la lectura, debe ofrecerte medios para que puedas comunicarla. Si tampoco facilitas la lectura, la distribuidora puede estimar el consumo, que deberá regularizarse posteriormente sobre la base de una lectura real, como mínimo una vez al año. Si no estás de acuerdo con una lectura o estimación, puedes reclamar ante la distribuidora o plantear la incidencia a través de tu comercializadora.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "lectura",
+        "contador",
+        "gas canalizado",
+        "distribuidora",
+        "comercializadora",
+        "factura",
+        "lectura estimada",
+        "regularización"
+      ]
+    },
+    {
+      "pregunta": "¿Cada cuánto deben enviarme la factura de gas?",
+      "respuesta": "En el gas canalizado, la periodicidad de la facturación depende del tipo de contrato. Si tienes contratada la Tarifa de Último Recurso (TUR), la factura debe emitirse mensual o bimestralmente. Si estás en el mercado libre, la periodicidad se rige por las condiciones establecidas en tu contrato de suministro. Con independencia de ello, la factura debe indicar el período facturado y las lecturas del contador correspondientes. La lectura del contador se realiza mensualmente para consumos superiores a 100.000 kWh al año y, para el resto, con periodicidad mensual o bimestral.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "factura",
+        "gas canalizado",
+        "mensual",
+        "bimestral",
+        "tur",
+        "mercado libre",
+        "cuota fija",
+        "regularización"
+      ]
+    },
+    {
+      "pregunta": "¿Qué debe aparecer en la factura del gas?",
+      "respuesta": "La factura del gas debe permitirte identificar el suministro, conocer tu consumo y comprobar cómo se ha calculado el importe. Debe incluir, entre otros datos, el Código Universal de Punto de Suministro (CUPS), la fecha de emisión, el período facturado, las lecturas del contador y si son reales o estimadas, el consumo facturado, las tarifas aplicadas y los factores utilizados para convertir el consumo a kWh. También debe recoger, cuando corresponda, las regularizaciones realizadas, la tarifa de acceso, un histórico de consumo, el teléfono de urgencias de la distribuidora y los datos de contacto para consultas y reclamaciones.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "factura",
+        "gas",
+        "cups",
+        "contador",
+        "lectura",
+        "consumo",
+        "kwh",
+        "peaje",
+        "impuestos",
+        "reclamaciones"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo puedo pagar la factura del gas?",
+      "respuesta": "Tienes derecho a escoger libremente el modo de pago sin que se produzca una discriminación indebida entre consumidores. Las modalidades disponibles deben estar claramente indicadas en las condiciones del suministro y cualquier diferencia entre ellas debe responder a los costes que cada sistema suponga para la comercializadora. Entre los medios de pago puede ofrecerse la domiciliación bancaria y, según la empresa y el contrato, otros sistemas como transferencia, ingreso en cuenta u otros medios equivalentes.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "factura",
+        "gas",
         "pago",
-        "pagas",
-        "requerimiento"
+        "domiciliación",
+        "transferencia",
+        "oficinas",
+        "comercializadora",
+        "giro postal"
       ]
     },
     {
-      "pregunta": "¿Pueden cortarme el suministro en festivos o días sin atención al cliente?",
-      "respuesta": "No, no pueden cortarte el suministro en festivos, en días sin servicio de atención o en la víspera de estos días, para que siempre haya posibilidad de restablecerlo.",
+      "pregunta": "¿Es obligatorio contratar el mantenimiento para instalaciones domésticas de gas canalizado de menos de 70 kW?",
+      "respuesta": "No es obligatorio suscribir un contrato de mantenimiento para una instalación térmica doméstica de hasta 70 kW, pero sí debes realizar el mantenimiento obligatorio mediante una empresa mantenedora habilitada y con las periodicidades establecidas en la normativa y, en su caso, en el Manual de Uso y Mantenimiento. Esto es distinto de la inspección periódica de la instalación de gas canalizado, que también es obligatoria y se realiza, con carácter general, cada cinco años.",
       "subcategoria": "Gas",
       "keywords": [
-        "días",
-        "suministro",
-        "festivos",
-        "atención",
-        "cortarme",
-        "cliente"
+        "mantenimiento",
+        "gas canalizado",
+        "instalación doméstica",
+        "70 kw",
+        "seguridad",
+        "inspección periódica",
+        "manual",
+        "comunidad autónoma"
       ]
     },
     {
-      "pregunta": "¿Tengo que pagar yo la reconexión si cortan el gas por impago?",
-      "respuesta": "Sí, si el corte se debe a tu impago, la reconexión corre por tu cuenta y equivale al doble de los derechos de enganche, mientras que los gastos de desconexión los asume la empresa.",
+      "pregunta": "¿Es obligatorio contratar el mantenimiento para mi depósito de gas?",
+      "respuesta": "Sí. Si tienes una instalación de gas licuado del petróleo (GLP) a granel con depósito fijo, debes disponer de un contrato de mantenimiento con una empresa instaladora de gas que cuente con un servicio permanente de atención de urgencias. La empresa se encargará del mantenimiento y de las revisiones periódicas que correspondan y deberá dejar constancia de las actuaciones realizadas en el Libro de Mantenimiento o archivo documental de la instalación.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "depósito gas",
+        "gas granel",
+        "mantenimiento",
+        "empresa instaladora",
+        "habilitada",
+        "revisión",
+        "seguridad",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "¿Es obligatorio contratar el mantenimiento para mi suministro de gas mediante bombonas de butano?",
+      "respuesta": "No es obligatorio contratar un servicio permanente de mantenimiento para el suministro mediante bombonas de butano. No obstante, debes conservar la instalación en condiciones de seguridad y, con carácter general, encargar a una empresa instaladora de gas su revisión periódica cada cinco años. Esta revisión no es obligatoria cuando se trate de un único envase de GLP de menos de 15 kg conectado mediante tubería flexible o directamente a un único aparato de gas móvil.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "bombonas",
+        "butano",
+        "mantenimiento",
+        "instalación",
+        "seguridad",
+        "revisión",
+        "empresa instaladora",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "¿Me pueden suspender el suministro de gas si no pago?",
+      "respuesta": "Sí, aunque no en cualquier momento ni de cualquier forma. En el mercado libre, las condiciones para suspender el suministro por impago deben estar previstas en el contrato. Cuando resulte aplicable el procedimiento reglado de suspensión por impago, deben haber transcurrido al menos dos meses desde que se te haya requerido fehacientemente el pago y el requerimiento debe advertirte de la posible interrupción. Además, hasta el 31 de diciembre de 2026 no puede suspenderse el suministro de gas natural a quienes tengan reconocida la condición de consumidor vulnerable, vulnerable severo o en riesgo de exclusión social en los términos previstos legalmente.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "impago",
+        "suspensión",
+        "suministro gas",
+        "corte",
+        "requerimiento",
+        "mercado regulado",
+        "mercado libre",
+        "vulnerabilidad"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cortarme el suministro de gas en festivos o días sin atención al cliente?",
+      "respuesta": "En los supuestos sometidos al procedimiento reglado de suspensión por impago, no puede fijarse el corte para un día festivo, un día en el que no exista servicio de atención al cliente comercial y técnica que permita reponer el suministro, ni para la víspera de esos días. En los contratos de mercado libre, las condiciones de suspensión por impago se rigen también por lo establecido en el contrato.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "corte",
+        "suministro gas",
+        "impago",
+        "festivos",
+        "atención cliente",
+        "reposición",
+        "seguridad",
+        "avería"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo que pagar yo la reconexión si me cortan el gas por impago?",
+      "respuesta": "Sí, si el corte está justificado y te es imputable. En ese caso, la reconexión corre por tu cuenta y deberás abonar una cantidad equivalente al doble de los derechos de enganche vigentes. Los gastos derivados de la suspensión del suministro corresponden a la distribuidora. Si consideras que el corte no estaba justificado o que no te era imputable, puedes reclamar ante la empresa.",
       "subcategoria": "Gas",
       "keywords": [
         "reconexión",
+        "gas",
         "impago",
-        "pagar",
-        "cortan",
         "corte",
-        "corre"
+        "derechos enganche",
+        "distribuidora",
+        "reclamación",
+        "comunidad autónoma"
       ]
     },
     {
-      "pregunta": "Una empresa instaladora de gas autorizada ha realizado una revisión, me han dado la factura, pero no el certificado de revisión ¿están obligados a dármelo, o es suficiente con la factura?",
-      "respuesta": "Si están obligados a darte el Certificado de revisión periódica si lo has solicitado. La factura no vale como certificado de garantía y seguridad.",
+      "pregunta": "Una empresa instaladora de gas autorizada ha realizado una revisión y me ha dado la factura, pero no el certificado de revisión. ¿Está obligada a dármelo o es suficiente con la factura?",
+      "respuesta": "Si se trata de una inspección o revisión periódica obligatoria, la factura no sustituye al documento que acredita su resultado. Si el resultado es favorable, deben entregarte el correspondiente certificado de inspección o revisión. Si se detectan anomalías, deben entregarte un informe en el que consten los defectos detectados y, cuando proceda, el plazo para corregirlos. Esta documentación debe entregarse aunque no la hayas solicitado expresamente.",
       "subcategoria": "Gas",
       "keywords": [
-        "revisión",
-        "factura",
+        "revisión gas",
         "certificado",
-        "obligados",
-        "empresa",
-        "instaladora"
+        "factura",
+        "empresa instaladora",
+        "instalación",
+        "anomalías",
+        "seguridad",
+        "comunidad autónoma"
       ]
     },
     {
-      "pregunta": "¿Cuánto tardarán en restablecerme el suministro de gas si ya pagué la deuda",
-      "respuesta": "Te lo tienen que restablecer en un máximo de 48 horas tras abonar la deuda, los intereses y la reconexión; si el corte duró más de dos meses, tendrás que dar de alta un nuevo contrato.",
+      "pregunta": "¿Cuánto tardarán en restablecerme el suministro de gas si ya pagué la deuda?",
+      "respuesta": "Si el contrato sigue vigente, el suministro debe restablecerse como máximo en las 48 horas siguientes al pago de la deuda y de la cantidad que corresponda por la reconexión. Ten en cuenta que, en los contratos de consumidores con derecho a la Tarifa de Último Recurso (TUR), la interrupción del suministro durante más de dos meses desde la suspensión es causa de resolución del contrato, por lo que puede ser necesario formalizar uno nuevo.",
       "subcategoria": "Gas",
       "keywords": [
+        "restablecimiento",
+        "suministro gas",
         "deuda",
-        "tardarán",
-        "restablecerme",
-        "suministro",
-        "pagué",
-        "restablecer"
+        "reconexión",
+        "48 horas",
+        "impago",
+        "contrato",
+        "justificante"
       ]
     },
     {
-      "pregunta": "¿Puede la compañía de gas impedirme cambiar la tarifa que contraté hace un año?",
-      "respuesta": "No, siempre que hayas pasado al menos un año desde tu último cambio voluntario o que no haya modificaciones en la estructura tarifaria, puedes solicitar el cambio según las condiciones de tu contrato (artículo 37.6 Real Decreto 1434/2002, de 27 de diciembre, por el que se regulan las actividades de transporte, distribución, comercialización, suministro y procedimientos de autorización de instalaciones de gas natural).",
+      "pregunta": "¿Puede mi comercializadora impedirme cambiar la tarifa de gas que tengo contratada?",
+      "respuesta": "Si estás en el mercado libre, la normativa no reconoce con carácter general un derecho a exigir a tu comercializadora el cambio de una oferta o tarifa contratada por otra distinta; habrá que atender a las condiciones de tu contrato y de la nueva oferta. Esto es diferente de cambiar de comercializadora: tienes derecho a elegir y cambiar de suministrador sin coste. Si la comercializadora modifica las condiciones del contrato, debe informarte previamente y respetar los derechos de información y rescisión previstos legalmente.",
       "subcategoria": "Gas",
       "keywords": [
-        "cambio",
-        "compañía",
-        "impedirme",
-        "cambiar",
         "tarifa",
-        "contraté"
+        "gas",
+        "cambio",
+        "contrato",
+        "mercado libre",
+        "permanencia",
+        "penalización",
+        "caudal"
       ]
     },
     {
-      "pregunta": "Ha venido a mi casa una persona que dice que es de la empresa de gas y va a hacer una revisión que tendré que pagarle en efectivo ¿es legal?",
-      "respuesta": "No, la compañía debe avisarte anticipadamente y te cobrará mediante cargo en la factura, no en efectivo.",
+      "pregunta": "Ha venido a mi casa una persona que dice que es de la empresa de gas y quiere hacer una revisión que tendré que pagarle en efectivo. ¿Es legal?",
+      "respuesta": "Si se trata de la inspección periódica obligatoria de una instalación de gas canalizado, no debes pagarla en efectivo a la persona que acuda a tu domicilio. La distribuidora debe avisarte previamente de que corresponde realizar la inspección y puedes elegir que la haga la propia distribuidora o una empresa instaladora de gas habilitada. En ambos casos, el coste de la inspección se cobra a través de la factura de la comercializadora. Esta regla no se aplica necesariamente a otros trabajos de mantenimiento o reparación que hayas contratado por tu cuenta.",
       "subcategoria": "Gas",
       "keywords": [
+        "revisión gas",
         "efectivo",
-        "venido",
-        "casa",
-        "persona",
-        "dice",
-        "empresa"
+        "visita domicilio",
+        "inspección periódica",
+        "distribuidora",
+        "empresa instaladora",
+        "factura",
+        "fraude"
       ]
     },
     {
@@ -744,640 +536,1561 @@
       ]
     },
     {
-      "pregunta": "He recibido una factura de gas y no estoy de acuerdo con lo que se me está cobrando porque no se aplica un descuento al que se había comprometido la comercializadora ¿cómo puedo reclamar?",
-      "respuesta": "Presenta la reclamación directamente ante el servicio de atención al cliente de la comercializadora por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir al organismo de tu comunidad autónoma con competencias en industria. Finalmente, también puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo si la empresa lo acepta o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €, siendo estas dos últimas vías incompatibles, o se acude a un arbitraje o a se pone una demanda judicial. > En primer lugar debes reclamar ante tu comercializadora de gas. > Puedes hacerlo solicitando una hoja de reclamaciones, por correo postal o electrónico, a través de las herramientas digitales que utilice la entidad en su relación con los usuarios (formularios web, perfiles de usuario en la web, apps, redes sociales, etc.). No se recomienda la vía telefónica, pero si la utilizas solicita un justificante de tu reclamación y un número de referencia. > En caso de no obtener una respuesta satisfactoria en el plazo de un mes, puedes acudir al arbitraje de consumo o sistema alternativo de resolución de conflictos al que esté adherida tu comercializadora. Esta información está recogida en el contrato, en la factura, y en su web. > La resolución arbitral o del organismo de resolución de conflictos es vinculante y de obligado cumplimiento para las partes, pone fin al procedimiento y no es recurrible.",
+      "pregunta": "He recibido una factura de gas y no estoy de acuerdo con lo que se me cobra porque no se aplica un descuento prometido por la comercializadora. ¿Cómo puedo reclamar?",
+      "respuesta": "Reclama primero ante el servicio de atención al cliente de la comercializadora, explicando el problema y aportando, si es posible, el contrato, la oferta, la factura y cualquier prueba del descuento prometido. Conviene utilizar un medio que permita dejar constancia de la reclamación y conservar su número de referencia o justificante. Si la respuesta no es satisfactoria, puedes acudir a los servicios públicos de consumo o a un sistema de resolución alternativa de conflictos, incluido el arbitraje de consumo cuando la empresa esté adherida o acepte someterse a él. También puedes acudir, en su caso, a la vía judicial.",
       "subcategoria": "Gas",
       "keywords": [
+        "factura",
+        "gas",
+        "descuento",
         "comercializadora",
-        "puedes",
-        "resolución",
-        "organismo",
+        "reclamación",
+        "atención cliente",
         "consumo",
-        "acudir"
+        "arbitraje",
+        "demanda"
       ]
     },
     {
-      "pregunta": "He recibido una factura de gas y no estoy de acuerdo con la lectura que han hecho del contador ¿cómo puedo reclamar?",
-      "respuesta": "Presenta la reclamación directamente ante el servicio de atención al cliente de la distribuidora, o a la comercializadora pidiendo que se lo traslade a la distribuidora por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir al organismo de tu comunidad autónoma con competencias en industria. Finalmente, también puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo si la empresa lo acepta o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €, siendo estas dos últimas vías incompatibles, o se acude a un arbitraje o a se pone una demanda judicial. > **",
+      "pregunta": "He recibido una factura de gas y no estoy de acuerdo con la lectura del contador. ¿Cómo puedo reclamar?",
+      "respuesta": "Puedes reclamar ante la distribuidora, que es la responsable de realizar la lectura del contador, y, si esa lectura se ha trasladado a tu factura, también ante la comercializadora. Aporta la factura y, si es posible, una fotografía o lectura actual del contador. Si la reclamación afecta a la facturación o a tus derechos como consumidor, también puedes acudir a los servicios públicos de consumo. Si lo que cuestionas es el correcto funcionamiento del contador, puedes solicitar su comprobación y verificación al órgano competente en materia de energía o industria de tu comunidad autónoma.",
       "subcategoria": "Gas",
       "keywords": [
+        "factura",
+        "gas",
+        "lectura contador",
+        "contador",
         "distribuidora",
-        "organismo",
+        "comercializadora",
+        "reclamación",
         "consumo",
-        "empresa",
-        "puedes",
-        "acudir"
+        "comunidad autónoma"
       ]
     },
     {
-      "pregunta": "Si como empresa quiero suspender temporalmente el servicio de agua, ¿puedo aplicar los derechos de usuario doméstico?",
-      "respuesta": "No, porque los derechos de usuarios de agua recogidos en la legislación de consumidores solo protegen a personas físicas. Las empresas deben negociar las condiciones de suspensión directamente con la compañía suministradora.",
+      "pregunta": "Si tengo contratado el agua para una empresa o actividad profesional, ¿puedo aplicar los derechos de un usuario doméstico?",
+      "respuesta": "Si el suministro de agua está contratado para una actividad empresarial o profesional, no se aplican con carácter general los derechos que la normativa de consumo reconoce a las personas consumidoras ni puede darse por supuesto que se apliquen las mismas condiciones que a un suministro doméstico. Por ejemplo, las condiciones para suspender temporalmente el servicio y volver a activarlo dependerán de la normativa autonómica o local aplicable, del reglamento u ordenanza del servicio y de las condiciones correspondientes a ese tipo de suministro.",
       "subcategoria": "Agua",
       "keywords": [
         "agua",
-        "derechos",
         "empresa",
-        "quiero",
-        "suspender",
-        "temporalmente"
-      ]
-    },
-    {
-      "pregunta": "¿Dónde se regulan los derechos de los usuarios de agua?",
-      "respuesta": "Los derechos fundamentales que se refieren a la continuidad del suministro o la facturación clara derivan de normativa estatal. Asuntos como tarifas, gestión del suministro, calidad del servicio y procedimientos de reclamación se regulan mediante normativa de las comunidades autónomas y de los municipios.",
-      "subcategoria": "Agua",
-      "keywords": [
-        "regulan",
-        "derechos",
+        "usuario doméstico",
         "suministro",
-        "normativa",
-        "usuarios",
-        "agua"
+        "actividad profesional",
+        "ordenanza",
+        "municipio",
+        "consumo",
+        "comunidad autónoma"
       ]
     },
     {
-      "pregunta": "¿Cada cuánto tiempo tienen que mandarme la factura del agua?",
-      "respuesta": "Depende de donde residas. La ley estatal establece que la lectura debe ser regular, pero la frecuencia concreta (mensual, bimestral o trimestral) puede estar definida por decisiones de la comunidad autónoma u ordenanzas locales.",
+      "pregunta": "¿Dónde se regulan los derechos de los usuarios del agua?",
+      "respuesta": "Los derechos de las personas usuarias del servicio de agua se regulan en varias normas. Hay normativa estatal sobre aspectos generales, como la calidad del agua de consumo, la protección de las personas consumidoras y las bases del régimen local. Pero muchas cuestiones prácticas, como tarifas, altas y bajas, facturación, cortes de suministro, bonificaciones, reclamaciones o calidad del servicio, suelen estar reguladas por normas autonómicas, ordenanzas municipales y reglamentos del servicio de agua de cada municipio. Por eso, para conocer tus derechos concretos, conviene revisar la normativa de tu ayuntamiento o entidad suministradora y, en su caso, la normativa de tu comunidad autónoma.",
       "subcategoria": "Agua",
       "keywords": [
-        "tiempo",
-        "mandarme",
+        "agua",
+        "usuarios",
+        "derechos",
+        "normativa estatal",
+        "comunidad autónoma",
+        "municipio",
+        "ordenanza",
+        "facturación",
+        "suministro"
+      ]
+    },
+    {
+      "pregunta": "¿Cada cuánto tiempo tienen que enviarme la factura del agua?",
+      "respuesta": "Depende de dónde vivas y de lo que establezca el reglamento u ordenanza del servicio de agua de tu municipio, así como la normativa autonómica aplicable. La factura puede ser mensual, bimestral, trimestral u otra periodicidad prevista por la normativa o por las condiciones del servicio. La empresa o entidad suministradora debe informarte claramente del periodo facturado, de las lecturas del contador y de los conceptos que te cobra.",
+      "subcategoria": "Agua",
+      "keywords": [
         "factura",
         "agua",
-        "depende",
-        "residas"
+        "periodicidad",
+        "municipio",
+        "ordenanza",
+        "comunidad autónoma",
+        "contador",
+        "lectura",
+        "suministro"
       ]
     },
     {
       "pregunta": "¿Cómo puedo saber si puedo acceder a una bonificación o tarifa social en mi factura del agua?",
-      "respuesta": "Depende de donde residas. Algunas comunidades ofrecen descuentos a familias numerosas, pensionistas o personas en riesgo de exclusión. La cuantía, requisitos y procedimiento dependen de lo que diga esa normativa autonómica.",
+      "respuesta": "Depende de dónde vivas. Las bonificaciones, tarifas sociales o ayudas en la factura del agua suelen regularse en ordenanzas municipales, reglamentos del servicio, normas autonómicas o programas específicos de la entidad suministradora. Pueden estar dirigidas, por ejemplo, a familias numerosas, hogares con bajos ingresos, pensionistas, personas en situación de vulnerabilidad o unidades familiares con circunstancias especiales, pero los requisitos varían. Para comprobarlo, consulta a tu ayuntamiento, a la empresa o entidad suministradora y a los servicios sociales municipales. También revisa la factura o la web de la entidad, donde suelen aparecer las tarifas y posibles bonificaciones.",
       "subcategoria": "Agua",
       "keywords": [
-        "acceder",
         "bonificación",
-        "tarifa",
-        "social",
+        "tarifa social",
+        "agua",
         "factura",
-        "agua"
+        "vulnerabilidad",
+        "familia numerosa",
+        "ayuntamiento",
+        "servicios sociales",
+        "suministradora"
       ]
     },
     {
-      "pregunta": "Cada poco tiempo tengo corte en el suministro del agua ¿es esto legal?",
-      "respuesta": "No, el suministro debe ser constante y seguro, salvo interrupciones justificadas por mantenimiento, averías o fuerza mayor.",
+      "pregunta": "Cada poco tiempo tengo cortes en el suministro de agua. ¿Es legal?",
+      "respuesta": "El suministro de agua debe prestarse conforme a las condiciones establecidas en la normativa y en el reglamento del servicio, pero puede interrumpirse de forma justificada, por ejemplo, por averías, obras, razones sanitarias o situaciones de sequía o escasez que obliguen a establecer restricciones temporales. Si los cortes son frecuentes, puedes pedir a la empresa o entidad suministradora información sobre su causa, duración y las medidas adoptadas. Cuando una interrupción continuada supera las 24 horas, la normativa estatal la considera una incidencia que debe gestionarse conforme a las reglas sobre suministro de agua de consumo. Si no obtienes una respuesta satisfactoria, puedes reclamar ante el ayuntamiento y, en su caso, ante los servicios de consumo o el órgano autonómico competente.",
       "subcategoria": "Agua",
       "keywords": [
+        "cortes",
+        "agua",
         "suministro",
-        "poco",
-        "tiempo",
-        "corte",
-        "agua",
-        "legal"
+        "avería",
+        "mantenimiento",
+        "reclamación",
+        "ayuntamiento",
+        "comunidad autónoma",
+        "compensación"
       ]
     },
     {
-      "pregunta": "Últimamente el agua que sale de los grifos de mi casa huele mal ¿qué puedo hacer?",
-      "respuesta": "Si el agua no cumple con los estándares de potabilidad o presenta problemas, puedes presentar una reclamación ante la empresa suministradora o ante la autoridad competente.",
+      "pregunta": "Últimamente el agua que sale de los grifos de mi casa huele mal. ¿Qué puedo hacer?",
+      "respuesta": "Comunícalo cuanto antes a la empresa o entidad suministradora y al ayuntamiento, indicando desde cuándo ocurre y si afecta a toda la vivienda o solo a algún grifo. Si existe sospecha de que el agua puede no ser apta para el consumo, sigue las indicaciones que facilite la autoridad sanitaria y, mientras se aclara la situación, evita utilizarla para beber o cocinar. Si el problema persiste, puedes reclamar ante el ayuntamiento o la autoridad sanitaria competente y, cuando afecte a la prestación del servicio o a la atención recibida, también ante los servicios de consumo.",
       "subcategoria": "Agua",
       "keywords": [
         "agua",
-        "últimamente",
-        "sale",
+        "olor",
         "grifos",
-        "casa",
-        "huele"
-      ]
-    },
-    {
-      "pregunta": "Tengo entendido que en la factura del agua se cobran diferentes conceptos, ¿puedo exigir a la compañía a qué me informe al respecto?",
-      "respuesta": "Sí. La empresa debe informarte de la tarifa de abastecimiento, saneamiento, depuración y otros conceptos, explicando cómo se determina cada coste.",
-      "subcategoria": "Agua",
-      "keywords": [
-        "conceptos",
-        "entendido",
-        "factura",
-        "agua",
-        "cobran",
-        "diferentes"
-      ]
-    },
-    {
-      "pregunta": "La compañía del agua me cortó el suministro por impago ¿En qué plazo de tiempo tienen que devolverme el servicio?",
-      "respuesta": "Tras el pago de la cantidad adeudada y, si procede, de los gastos de reconexión, el servicio debe restablecerse en un plazo razonable (normalmente 48 horas).",
-      "subcategoria": "Agua",
-      "keywords": [
-        "plazo",
-        "servicio",
-        "compañía",
-        "agua",
-        "cortó",
-        "suministro"
-      ]
-    },
-    {
-      "pregunta": "La compañía del agua me ha escrito diciendo que van a cambiar las condiciones del contrato ¿es legal?",
-      "respuesta": "Tienen que notificártelo con antelación suficiente, y si no estás de acuerdo, puedes rescindir el contrato sin coste.",
-      "subcategoria": "Agua",
-      "keywords": [
-        "contrato",
-        "compañía",
-        "agua",
-        "escrito",
-        "diciendo",
-        "cambiar"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo solicitar la revisión de mi factura de agua si creo que hay un error?",
-      "respuesta": "Sí. Tienes derecho a que la empresa revise la factura y, en caso de error, a recibir la devolución o compensación correspondiente.",
-      "subcategoria": "Agua",
-      "keywords": [
-        "factura",
-        "error",
-        "solicitar",
-        "revisión",
-        "agua",
-        "creo"
-      ]
-    },
-    {
-      "pregunta": "¿Tengo derecho a recibir agua potable, aunque resida en un municipio rural de solo 20 habitantes?",
-      "respuesta": "Sí. El suministro de agua es un derecho básico y debe garantizarse a todos los consumidores, independientemente del lugar de residencia.",
-      "subcategoria": "Agua",
-      "keywords": [
-        "derecho",
-        "agua",
-        "recibir",
-        "potable",
-        "resida",
-        "municipio"
+        "potabilidad",
+        "suministradora",
+        "ayuntamiento",
+        "autoridad sanitaria",
+        "reclamación",
+        "salud"
       ]
     },
     {
       "pregunta": "¿Puedo cambiar de empresa suministradora de agua?",
-      "respuesta": "Sí, cuando exista libre competencia en tu municipio, y respetando los procedimientos de notificación y plazos establecidos.",
+      "respuesta": "En general, no. El suministro de agua suele ser un servicio municipal prestado directamente por el ayuntamiento, por una empresa pública, por una concesionaria o por otra entidad gestora designada. Por eso, normalmente no puedes elegir libremente otra empresa suministradora como ocurre en electricidad o gas. Las condiciones del servicio, las tarifas, las altas, las bajas y las reclamaciones se regulan por la ordenanza o reglamento del servicio de tu municipio y, en su caso, por la normativa autonómica aplicable.",
       "subcategoria": "Agua",
       "keywords": [
-        "cambiar",
-        "empresa",
+        "agua",
+        "empresa suministradora",
+        "cambio",
+        "municipio",
+        "ayuntamiento",
+        "concesionaria",
+        "ordenanza",
+        "servicio público"
+      ]
+    },
+    {
+      "pregunta": "Tengo un problema con el servicio de agua. ¿Cómo puedo reclamar?",
+      "respuesta": "Reclama primero ante la entidad que presta o gestiona el servicio, por un medio que permita dejar constancia. Si el servicio lo presta directamente el ayuntamiento, debes dirigirte al propio ayuntamiento; si lo gestiona una empresa pública o concesionaria, reclama ante esa entidad y, si no se resuelve, también puedes dirigirte al ayuntamiento como titular del servicio. Cuando la controversia afecte a tus derechos como consumidor, por ejemplo a la facturación, la información o la atención recibida, puedes acudir además a los servicios públicos de consumo. Las vías posteriores dependerán de quién preste el servicio y de la naturaleza del problema.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "agua",
+        "reclamación",
         "suministradora",
-        "agua",
-        "exista",
-        "libre"
-      ]
-    },
-    {
-      "pregunta": "Dejé de pagar un recibo de agua y me cortaron el suministro un domingo ¿es esto legal?",
-      "respuesta": "No. Las interrupciones por impago o mantenimiento no pueden realizarse en días en los que no haya servicio de atención al cliente.",
-      "subcategoria": "Agua",
-      "keywords": [
-        "dejé",
-        "pagar",
-        "recibo",
-        "agua",
-        "cortaron",
-        "suministro"
-      ]
-    },
-    {
-      "pregunta": "Tengo un problema con la compañía del agua ¿cómo puedo reclamar?",
-      "respuesta": "Presenta la reclamación directamente ante el servicio de atención al cliente de la compañía por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo si la empresa lo acepta o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €, siendo estas dos últimas vías incompatibles, o se acude a un arbitraje o a se pone una demanda judicial. > **",
-      "subcategoria": "Agua",
-      "keywords": [
-        "compañía",
+        "ayuntamiento",
+        "factura",
+        "contador",
         "consumo",
-        "empresa",
         "arbitraje",
-        "demanda",
-        "judicial"
+        "demanda"
       ]
     },
     {
-      "pregunta": "Me di de alta en un contrato de telecomunicaciones como autónomo y quiero ejercer el derecho de desistimiento ¿es posible?",
-      "respuesta": "No, no puedes ejercer el derecho de desistimiento como autónomo, porque este derecho solo está reconocido para consumidores, es decir, personas físicas que contratan para fines ajenos a su actividad profesional o empresarial.",
+      "pregunta": "Me di de alta en un contrato de telecomunicaciones como autónomo y quiero ejercer el derecho de desistimiento. ¿Es posible?",
+      "respuesta": "Si contrataste el servicio para tu actividad profesional o empresarial, no tienes el derecho de desistimiento previsto con carácter general para las personas consumidoras en los contratos a distancia o fuera de establecimiento. El hecho de ser autónomo no es determinante por sí solo: si contrataste el servicio para fines personales y ajenos a tu actividad profesional, puedes tener la condición de consumidor y, cuando proceda, ejercer el derecho de desistimiento. Todo ello se entiende sin perjuicio de los derechos específicos que la normativa de telecomunicaciones reconoce también a determinados usuarios profesionales.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "derecho",
+        "telecomunicaciones",
         "autónomo",
-        "ejercer",
         "desistimiento",
-        "alta",
+        "contrato",
+        "consumidor",
+        "actividad profesional",
+        "permanencia",
+        "penalización"
+      ]
+    },
+    {
+      "pregunta": "He recibido un SMS diciendo que tengo una factura pendiente y con un enlace para pagarla. ¿Qué debo hacer?",
+      "respuesta": "No pulses el enlace ni facilites datos personales o bancarios hasta comprobar que el mensaje es auténtico. Verifica la supuesta deuda accediendo por tu cuenta a la web o aplicación oficial de la compañía o contactando con ella a través de sus canales oficiales. Si la deuda existe pero no estás de acuerdo con ella, puedes presentar una reclamación de facturación ante la compañía. Si el mensaje es falso o se está suplantando a la empresa, conserva el SMS como prueba y puedes denunciar el posible fraude ante la Policía Nacional o la Guardia Civil. Si has facilitado datos bancarios o realizado un pago, contacta también cuanto antes con tu entidad bancaria.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "sms",
+        "fraude",
+        "factura",
+        "enlace",
+        "phishing",
+        "suplantación",
+        "banco",
+        "policía",
+        "incibe"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo ver las condiciones generales antes de contratar un servicio de telefonía móvil por internet?",
+      "respuesta": "Sí. Las condiciones generales deben estar publicadas en un lugar fácilmente accesible de la página web de la empresa y, antes de contratar, deben facilitarte de forma clara y comprensible la información esencial sobre el servicio y las condiciones del contrato. Esta información debe proporcionarse en un soporte que puedas conservar o en un documento fácilmente descargable. Además, antes de celebrar el contrato deben facilitarte gratuitamente un resumen con sus elementos principales, como el precio, las características del servicio, la duración y las condiciones de resolución.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "condiciones generales",
+        "telefonía móvil",
+        "contratación internet",
+        "información previa",
+        "precio",
+        "permanencia",
+        "desistimiento",
         "contrato"
       ]
     },
     {
-      "pregunta": "Recibí un SMS diciendo que debía pagar una factura pendiente con un enlace para hacerlo. ¿Puedo denunciarlo como problema de facturación?",
-      "respuesta": "No, porque probablemente es un fraude. No accedas al enlace ni facilites información personal. Guarda el mensaje y denúncialo a las autoridades competentes (Policía, Juzgado de lo penal o Guardia Civil).",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "enlace",
-        "recibí",
-        "diciendo",
-        "debía",
-        "pagar",
-        "factura"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo ver las condiciones generales previas a la contratación de un servicio de telefonía móvil si contrato por internet?",
-      "respuesta": "Sí. Las condiciones deben estar expuestas en un lugar visible y accesible dentro de la página web de la empresa.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "condiciones",
-        "generales",
-        "previas",
-        "contratación",
-        "servicio",
-        "telefonía"
-      ]
-    },
-    {
       "pregunta": "¿Me pueden cobrar por pedir las condiciones generales de un servicio de internet antes de contratar?",
-      "respuesta": "No. La empresa está obligada a facilitártelas por escrito sin que te suponga ningún coste adicional.",
+      "respuesta": "No. La empresa debe permitirte consultar gratuitamente sus condiciones generales y, si solicitas recibirlas por escrito, no puede cobrarte por ello. Además, antes de contratar debe facilitarte la información precontractual exigida y un resumen del contrato de forma gratuita, en un formato que puedas conservar o descargar fácilmente.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "cobrar",
-        "pedir",
-        "condiciones",
-        "generales",
-        "servicio",
-        "internet"
-      ]
-    },
-    {
-      "pregunta": "He contratado un servicio de internet + teléfono + televisión en una tienda ¿Tengo derecho a que me den una copia de contrato?",
-      "respuesta": "Sí. Cuando firmas el contrato en un establecimiento, se te entrega una copia en el momento de la firma para que la conserves.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "copia",
+        "condiciones generales",
+        "internet",
+        "coste",
+        "información previa",
+        "soporte duradero",
         "contrato",
-        "contratado",
-        "servicio",
-        "internet",
-        "teléfono"
+        "empresa",
+        "contratación"
       ]
     },
     {
-      "pregunta": "¿He contratado un servicio de internet + teléfono + televisión por internet ¿Tengo derecho a que me den una copia de contrato?",
-      "respuesta": "Sí. La empresa debe enviarte una copia en formato duradero en un plazo razonable y siempre antes de que comience la prestación del servicio.",
+      "pregunta": "He contratado un servicio de internet, teléfono y televisión en una tienda. ¿Tengo derecho a que me den una copia del contrato?",
+      "respuesta": "Sí. Al contratar como consumidor tienes derecho a recibir un recibo, copia o documento acreditativo que recoja las condiciones esenciales de la contratación y, cuando se utilicen, las condiciones generales aceptadas. Además, antes de contratar la empresa debe facilitarte gratuitamente un resumen del contrato con sus principales condiciones, como los servicios incluidos, el precio, la duración y las condiciones de resolución.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "servicio",
-        "internet",
+        "contrato",
         "copia",
-        "contratado",
+        "internet",
         "teléfono",
-        "televisión"
+        "televisión",
+        "tienda",
+        "soporte duradero",
+        "permanencia"
       ]
     },
     {
-      "pregunta": "¿Puedo finalizar mi contrato de telefonía e internet cuándo quiera?",
-      "respuesta": "Sí. Solo necesitas avisar al operador por el medio establecido en el contrato con al menos dos días hábiles de antelación. Si firmaste un compromiso de permanencia por ejemplo por adquirir un terminal, se te podría solicitar la devolución de unos importes siempre que sean justificado y proporcionales.",
+      "pregunta": "He contratado un servicio de internet, teléfono y televisión por internet. ¿Tengo derecho a que me den una copia del contrato?",
+      "respuesta": "Sí. En una contratación por internet, la empresa debe enviarte la confirmación del contrato en un soporte duradero, como un correo electrónico o un documento descargable, en un plazo razonable y, como tarde, antes de que empiece la prestación del servicio. Esa confirmación debe recoger las condiciones contratadas. Además, al tratarse de una contratación a distancia, normalmente dispones de 14 días naturales para desistir sin justificar tu decisión, salvo excepciones previstas en la normativa.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
         "contrato",
-        "finalizar",
+        "internet",
+        "teléfono",
+        "televisión",
+        "contratación internet",
+        "soporte duradero",
+        "copia",
+        "desistimiento"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo finalizar mi contrato de telefonía e internet cuando quiera?",
+      "respuesta": "Sí. Puedes darte de baja en cualquier momento comunicándolo al operador con una antelación mínima de dos días hábiles. El operador debe permitirte solicitar la baja por la misma vía por la que contrataste y, en todo caso, por teléfono, y debe facilitarte un número de referencia o justificante de la gestión. La baja en sí no puede suponer un coste, aunque, si tienes un compromiso de permanencia vigente, puede aplicarse la penalización prevista en el contrato, que deberá ser proporcional al tiempo de permanencia que quede por cumplir.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "baja",
         "telefonía",
         "internet",
-        "quiera",
-        "necesitas"
-      ]
-    },
-    {
-      "pregunta": "¿Qué se considera un cobro justificado y proporcional por incumplir un compromiso de permanencia?",
-      "respuesta": "Sí por ejemplo al contratar el servicio te dan gratis un móvil valorado en 200 euros y te imponen un compromiso de permanencia de 20 meses, será proporcional que, si te vas a los 10 meses, te exijan 100 euros y si te vas quedando un mes, 10 euros.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "euros",
-        "proporcional",
-        "compromiso",
+        "contrato",
+        "operador",
+        "2 días hábiles",
         "permanencia",
-        "meses",
-        "considera"
-      ]
-    },
-    {
-      "pregunta": "¿Me debe informar mi compañía de teléfono sobre cambios en las condiciones del contrato?",
-      "respuesta": "Sí. El operador debe comunicar cualquier modificación, como cambios de tarifa, con al menos un mes de antelación e informarte de tu derecho a resolver el contrato sin penalización si no aceptas los cambios.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "cambios",
-        "contrato",
-        "informar",
-        "compañía",
-        "teléfono",
-        "condiciones"
-      ]
-    },
-    {
-      "pregunta": "¿Cada cuánto tiempo debe mi compañía de telefonía enviarme la factura?",
-      "respuesta": "Generalmente es mensual, no obstante, la periodicidad no está definida legalmente, por lo que dependerá de la que establezca el operador de telefonía con el que se contrate.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "telefonía",
-        "tiempo",
-        "compañía",
-        "enviarme",
-        "factura",
-        "generalmente"
-      ]
-    },
-    {
-      "pregunta": "He recibido mi factura telefónica ¿Qué conceptos deben aparecer dentro del servicio telefónico?",
-      "respuesta": "- El período de facturación.:<ul><li>La cuota mensual fija, el precio de la línea y el del aparato, si es de alquiler (en telefonía fija).</li><li>Otros cargos mensuales fijos, en el caso de que se tengan contratados, (ejemplo- el servicio de contestador).</li><li>El consumo, que debe especificar tanto el tipo de llamadas efectuadas (metropolitanas, nacionales, internacionales, a móviles o a servicios de tarificación adicional) así como el número de minutos hablados y el coste de cada llamada.</li><li>Total, facturado e impuestos indirectos (IVA).</li><li>Importe total de la factura, impuestos incluidos.</li></ul>",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "factura",
-        "servicio",
-        "fija",
-        "total",
-        "impuestos",
-        "recibido"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo solicitar que se suspenda mi servicio de telefonía o Internet temporalmente?",
-      "respuesta": "Sí. Puedes pedir que se suspenda el servicio entre 1 y 3 meses (máximo 90 días al año). Durante ese tiempo, el operador deducirá de la cuota la parte proporcional correspondiente.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "suspenda",
-        "servicio",
-        "solicitar",
-        "telefonía",
-        "internet",
-        "temporalmente"
+        "penalización",
+        "justificante"
       ]
     },
     {
       "pregunta": "¿Pueden suspenderme el servicio de telefonía por no pagar la factura?",
-      "respuesta": "Sí. Si no pagas total o parcialmente la factura un mes después de su recepción, el operador puede suspender el servicio, notificándotelo con al menos 15 días de antelación y no pudiendo suspenderte en día festivo o fin de semana. Se mantendrá el servicio telefónico para todas las llamadas entrantes, pero no podrás hacer llamadas.",
+      "respuesta": "Sí. Con carácter general, si el retraso total o parcial en el pago supera un mes, el operador puede suspender temporalmente el servicio previo aviso. En el caso de la telefonía fija existen garantías adicionales: el aviso debe realizarse con al menos 15 días de antelación, la suspensión no puede efectuarse en día inhábil y deben mantenerse las llamadas entrantes, salvo las de cobro revertido, y las llamadas salientes a servicios de urgencia. Para otros servicios, como la telefonía móvil, deben tenerse en cuenta además las condiciones previstas en el contrato.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "servicio",
+        "suspensión",
+        "telefonía",
+        "impago",
         "factura",
-        "llamadas",
-        "suspenderme",
-        "telefonía",
-        "pagar"
-      ]
-    },
-    {
-      "pregunta": "¿Cuándo se restablece el servicio de telefonía suspendido si ya he pagado la deuda?",
-      "respuesta": "El operador debe restablecer el servicio durante el siguiente día laborable tras confirmar que se ha abonado el importe pendiente.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "servicio",
-        "restablece",
-        "telefonía",
-        "suspendido",
-        "pagado",
-        "deuda"
-      ]
-    },
-    {
-      "pregunta": "¿Tengo derecho a indemnización si se interrumpe mi servicio de telefonía o Internet por culpa del operador?",
-      "respuesta": "Sí. Si la interrupción es imputable al operador, recibirás una compensación calculada según el tiempo de corte y la media de consumo de los últimos tres meses. Si supera un euro, se abonará automáticamente en la siguiente factura.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
         "operador",
-        "derecho",
+        "preaviso",
+        "llamadas entrantes",
+        "emergencias"
+      ]
+    },
+    {
+      "pregunta": "¿Cuándo se restablece el servicio de telefonía fija suspendido si ya he pagado la deuda?",
+      "respuesta": "Si te han suspendido el servicio de telefonía fija por impago, el operador debe restablecerlo dentro del día laborable siguiente a aquel en que tenga constancia de que has pagado la cantidad pendiente.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "restablecimiento",
+        "telefonía",
+        "suspensión",
+        "deuda",
+        "pago",
+        "operador",
+        "día laborable",
+        "justificante"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a indemnización si se interrumpe mi servicio de telefonía o internet por culpa del operador?",
+      "respuesta": "Sí. Si se interrumpe el servicio, tienes derecho a las compensaciones previstas en la normativa. En telefonía, la indemnización se calcula teniendo en cuenta la duración de la interrupción y los importes facturados o la cuota mensual, y debe abonarse automáticamente en la factura siguiente cuando supere un euro. En internet, corresponde la devolución proporcional de la cuota y demás cantidades fijas correspondientes al tiempo en que el servicio no estuvo disponible; si la interrupción supera seis horas, continuas o discontinuas, entre las 8:00 y las 22:00, la compensación debe aplicarse automáticamente. Estas compensaciones se entienden sin perjuicio de la posible reclamación de otros daños que procedan.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
         "indemnización",
-        "interrumpe",
-        "servicio",
-        "telefonía"
+        "interrupción",
+        "telefonía",
+        "internet",
+        "operador",
+        "compensación",
+        "factura",
+        "avería"
       ]
     },
     {
       "pregunta": "¿Puedo solicitar la desconexión de las llamadas internacionales de mi línea telefónica?",
-      "respuesta": "Sí. Los operadores deben garantizar tu derecho a desconectar servicios como llamadas internacionales o los servicios de tarificación adicional en un plazo máximo de 10 días desde que se lo solicitas. Tu derecho a desconectar debe aparecer reflejado en la factura.",
+      "respuesta": "Sí. Puedes solicitar al operador la desconexión de determinados servicios, entre ellos las llamadas internacionales y los servicios de tarificación adicional. El operador debe realizar la desconexión en un plazo máximo de 10 días desde que recibe tu solicitud. Si no lo hace en ese plazo por una causa que no te sea imputable, los costes posteriores derivados del servicio cuya desconexión solicitaste serán a cargo del operador. La factura debe informarte periódicamente de este derecho.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "llamadas",
-        "internacionales",
-        "derecho",
-        "desconectar",
-        "servicios",
-        "solicitar"
-      ]
-    },
-    {
-      "pregunta": "¿Qué son los servicios de tarificación adicional y mensajes premium?",
-      "respuesta": "Son servicios que se cobran aparte de las llamadas y mensajes habituales. Se emplean, por ejemplo, para suscripciones a noticias, contenido para adultos o llamadas especiales, y pueden hacer que la factura del usuario sea mucho más alta.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "servicios",
-        "mensajes",
-        "llamadas",
-        "tarificación",
-        "adicional",
-        "premium"
-      ]
-    },
-    {
-      "pregunta": "¿Puedo pedir la desconexión de los servicios de tarificación adicional y de los sms premium?",
-      "respuesta": "Sí. Cualquier titular de línea fija o móvil puede solicitar a su operador el bloqueo de llamadas a números de tarificación especial (901, 902, 905, 806, 807, etc.) y el bloqueo de envío y recepción de SMS Premium (5XXX, 2XXX, 8XXX).",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "tarificación",
-        "premium",
-        "bloqueo",
-        "pedir",
         "desconexión",
-        "servicios"
+        "llamadas internacionales",
+        "tarificación adicional",
+        "operador",
+        "10 días",
+        "factura",
+        "cargos",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué son los servicios de tarificación adicional y los mensajes premium?",
+      "respuesta": "Son servicios que tienen un coste añadido respecto de las llamadas, mensajes o datos ordinarios. Pueden incluir, por ejemplo, llamadas a determinados números de precio especial, concursos, votaciones, suscripciones, contenidos digitales, entretenimiento o servicios para adultos. Los mensajes premium son SMS o MMS de coste superior al habitual, normalmente asociados a suscripciones o contenidos. Estos servicios deben informarte claramente del precio y de las condiciones antes de contratarse o usarse. Si aparecen cargos que no reconoces, reclama al operador y solicita la desconexión de estos servicios para evitar nuevos cobros.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "tarificación adicional",
+        "mensajes premium",
+        "sms premium",
+        "coste",
+        "suscripciones",
+        "contenidos",
+        "operador",
+        "desconexión",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo pedir la desconexión de los servicios de tarificación adicional y de los SMS premium?",
+      "respuesta": "Sí. La persona titular de una línea fija o móvil puede solicitar al operador la desconexión o bloqueo de los servicios de tarificación adicional y de los servicios de mensajes premium para evitar cargos no deseados. Esto incluye, por ejemplo, llamadas a determinados números de tarificación adicional, como los que empiezan por 803, 806, 807 o 905, y servicios de SMS o MMS premium. Conviene pedirlo por un medio que deje constancia y solicitar confirmación de que el bloqueo se ha activado. No todos los números especiales son servicios de tarificación adicional: por ejemplo, los 901 y 902 tienen un régimen distinto.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "tarificación adicional",
+        "sms premium",
+        "bloqueo",
+        "desconexión",
+        "operador",
+        "línea móvil",
+        "línea fija",
+        "cargos"
       ]
     },
     {
       "pregunta": "¿Por qué números empiezan las llamadas de tarificación adicional?",
-      "respuesta": "- 905: llamadas masivas, utilizadas para servicios con gran volumen de llamadas en un periodo determinado, como programas de televisión, concursos, sondeos o servicios profesionales.:<ul><li>807: servicios profesionales, como consultas de abogados, notarios y otros expertos.</li><li>803: líneas de contenido adulto, incluyendo juegos de azar, servicios eróticos o de contacto.</li><li>907: servicios a través de internet, que pueden ofrecer entretenimiento, contenido adulto o servicios profesionales.</li><li>806: servicios de ocio y entretenimiento, que incluyen predicciones astrológicas, esotéricas y otros contenidos similares.</li></ul>",
+      "respuesta": "Los principales números de tarificación adicional comienzan por 803, para servicios dirigidos a adultos; 806, para servicios de ocio y entretenimiento; 807, para servicios profesionales, empresariales o de información; y 905, para determinados servicios de llamadas masivas, como televoto, entretenimiento o servicios profesionales. Estos servicios están sujetos a obligaciones específicas de información sobre su precio y sobre el prestador del servicio. Si no quieres poder utilizarlos, puedes solicitar a tu operador su desconexión.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "servicios",
+        "tarificación adicional",
+        "803",
+        "806",
+        "807",
+        "905",
         "llamadas",
-        "profesionales",
-        "contenido",
-        "adulto",
-        "entretenimiento"
+        "precio",
+        "bloqueo"
       ]
     },
     {
       "pregunta": "¿Cuáles son los números de los SMS premium?",
-      "respuesta": "Los números de estos mensajes tienen cinco, seis o siete cifras. Los distintos rangos de numeración se usan según el tipo de servicio y su coste máximo:<ul><li>Los que empiezan por 99: corresponden a servicios de contenido adulto, con un coste máximo de 6 euros por mensaje enviado, informativo o de confirmación.</li><li>Los que empiezan por 79: son servicios de suscripción, con un coste por mensaje recibido de hasta 1,2 euros.</li><li>Los que empiezan por 3: se usan para servicios diversos, con un coste por mensaje enviado, informativo o de confirmación entre 1,2 y 6 euros.</li><li>Los que empiezan por 2: se destinan a concursos, votaciones y similares, con un coste máximo de 1,2 euros; el subrango 280AB se reserva para campañas benéficas o solidarias.</li></ul>",
+      "respuesta": "Los SMS o MMS premium utilizan numeraciones cortas específicas. Los principales rangos son:\n- Los que empiezan por 2: servicios con un precio de hasta 1,20 euros.\n- Los que empiezan por 3: servicios con un precio superior a 1,20 euros y de hasta 6 euros.\n- Los que empiezan por 79: servicios de suscripción, con un precio de hasta 1,20 euros por mensaje recibido.\n- Los que empiezan por 99: servicios exclusivos para adultos, con un precio de hasta 6 euros.\n\nEstos límites se refieren a precios antes de impuestos. Además, el subrango 280 está reservado a campañas benéficas o solidarias.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "coste",
-        "empiezan",
-        "euros",
-        "máximo",
-        "servicios",
-        "mensaje"
+        "sms premium",
+        "mms premium",
+        "numeración",
+        "suscripción",
+        "precio",
+        "baja",
+        "bloqueo",
+        "reclamación"
       ]
     },
     {
       "pregunta": "¿Cuáles son los números de los servicios especiales de llamada?",
-      "respuesta": "- El 112 es totalmente gratuito y se utiliza para emergencias.:<ul><li>Los números que comienzan por 900 y 800 también son totalmente gratuitos para el usuario.</li><li>Los que empiezan por 901 tienen facturación compartida, de manera que el coste se divide entre quien llama y quien recibe la llamada.</li><li>Por otro lado, los números que empiezan por 902 tienen un coste superior al de una llamada local, similar al de una llamada provincial. En estos casos, el operador debe informar claramente del precio de la llamada, incluyendo el establecimiento de la llamada, el coste por minuto, impuestos incluidos y si la llamada está cubierta por tarifas planas o cuotas fijas.</li></ul>",
+      "respuesta": "Algunos números tienen condiciones especiales de precio o uso:\n- 112: es gratuito y se utiliza para emergencias.\n- 800 y 900: son gratuitos para quien llama.\n- 901: el coste se reparte entre quien llama y quien recibe la llamada, según las condiciones aplicables.\n- 902: el coste lo paga quien llama y puede ser superior al de una llamada ordinaria, especialmente si se llama desde un móvil o si no está incluido en la tarifa plana.\n- 803, 806, 807 y 905: suelen ser servicios de tarificación adicional y pueden tener costes elevados.\nEl operador o la empresa que usa estos números debe informar claramente del precio cuando corresponda. Para la atención al cliente, no pueden obligarte a utilizar un número que te suponga un coste superior al de una llamada a una línea fija geográfica o móvil estándar. Si se ofrece una línea de tarificación especial, deben facilitarte también, en igualdad de condiciones, un número geográfico o móvil alternativo.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "llamada",
-        "números",
+        "números especiales",
+        "112",
+        "900",
+        "901",
+        "902",
+        "tarificación adicional",
         "coste",
-        "totalmente",
-        "empiezan",
-        "cuáles"
+        "atención cliente"
       ]
     },
     {
-      "pregunta": "He recibido la factura del teléfono y tengo llamadas a un servicio de tarificación adicional que no he hecho ¿cómo puedo reclamar?",
-      "respuesta": "Primero solicita a tu operadora la factura desglosada y págala para evitar cortes del servicio. Formaliza la reclamación ante el Servicio de Atención al cliente de la compañía y en el caso de que no sea atendida, contacta con la Comisión Nacional de Servicios de Tarificación Adicional para identificar la empresa responsable de los envíos y presentar la reclamación.",
+      "pregunta": "He recibido la factura del teléfono y tengo llamadas a un servicio de tarificación adicional que no he hecho. ¿Cómo puedo reclamar?",
+      "respuesta": "Solicita al operador una factura desglosada y reclama los cargos de tarificación adicional que no reconoces. Para evitar la suspensión del servicio telefónico ordinario, puedes pagar la parte de la factura correspondiente a ese servicio, excluyendo la remuneración del servicio de tarificación adicional, aunque ello no elimina la deuda discutida. También puedes solicitar el bloqueo de estos servicios. Si el operador no responde en el plazo de un mes o la respuesta no es satisfactoria, puedes acudir a la Oficina de Atención al Usuario de Telecomunicaciones.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "servicio",
         "factura",
-        "tarificación",
-        "adicional",
+        "tarificación adicional",
+        "llamadas",
         "reclamación",
-        "recibido"
+        "operador",
+        "factura detallada",
+        "bloqueo",
+        "telecomunicaciones",
+        "consumo"
       ]
     },
     {
       "pregunta": "¿Cuál es la diferencia entre llamadas internacionales y llamadas en roaming?",
-      "respuesta": "Las llamadas internacionales se efectúan desde un número español hacia otro país, sin importar dónde te encuentres. Las llamadas en roaming, en cambio, se realizan cuando estás en el extranjero usando tu número habitual en España. Cada servicio tiene sus propias tarifas y condiciones que deben ser respetadas por el operador.",
+      "respuesta": "Una llamada internacional es, en general, una llamada realizada desde España a un número extranjero. El roaming o itinerancia se produce cuando usas tu móvil español estando físicamente en otro país, ya sea para llamar, recibir llamadas, enviar mensajes o usar datos. No es lo mismo llamar desde España a otro país que usar tu móvil español mientras estás de viaje fuera de España. Las tarifas y reglas aplicables pueden ser distintas. Dentro de la Unión Europea y del Espacio Económico Europeo existen reglas específicas para el roaming y para las comunicaciones internacionales dentro de la UE.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "llamadas",
-        "internacionales",
+        "llamadas internacionales",
         "roaming",
-        "número",
-        "cuál",
-        "diferencia"
-      ]
-    },
-    {
-      "pregunta": "Quiero llamar desde España a mi primo que vive en Chile ¿qué precio tiene la llamada?",
-      "respuesta": "Al ser una llamada fuera de la UE, tienes que consultar el precio a tu compañía.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "precio",
-        "llamada",
-        "quiero",
-        "llamar",
-        "españa",
-        "primo"
-      ]
-    },
-    {
-      "pregunta": "¿Qué es el roaming y cómo funciona dentro de la Unión Europea?",
-      "respuesta": "El roaming o itinerancia internacional permite usar tu móvil en el extranjero conservando tu número habitual, para llamadas, mensajes y datos. Dentro de la UE, no se aplican recargos por llamadas, mensajes o datos siempre que la estancia sea temporal (menos de cuatro meses), de modo que pagas lo mismo que en tu país. En países fuera de la UE, los precios dependen de la tarifa que establezca tu operador, por lo que conviene informarse antes de viajar.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "roaming",
-        "dentro",
-        "llamadas",
-        "mensajes",
-        "datos",
-        "funciona"
-      ]
-    },
-    {
-      "pregunta": "Quiero cambiar de compañía de telefonía conservando mi número de teléfono, ¿qué tengo que hacer?",
-      "respuesta": "Al solicitar la portabilidad para mantener tu número, se inicia el cambio de operador y se da de baja el contrato anterior. Puedes autorizarlo por escrito, teléfono o internet; normalmente se completa en un día hábil, salvo que se requiera un elemento físico como una SIM o instalación, en cuyo caso el plazo depende de su entrega, pero no supera los 30 días. Antes de empezar el servicio, debes recibir el contrato con todas las condiciones. Si la solicitud se hace por teléfono, el consentimiento debe grabarse mediante una empresa independiente, y el operador debe enviarte por escrito el contrato y la verificación de la llamada.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "teléfono",
-        "contrato",
-        "número",
-        "operador",
-        "escrito",
-        "quiero"
-      ]
-    },
-    {
-      "pregunta": "Inicié una portabilidad, pero mi operador me hizo una buena oferta para quedarme, ¿puedo cancelar la portabilidad?",
-      "respuesta": "Puedes cancelar la portabilidad antes de que se haga efectiva en 1 día, o desistir del contrato en los 14 días posteriores a su firma, aunque podrían aplicarse costes de instalación, días de servicio usados o penalizaciones proporcionales si existe compromiso de permanencia. Siempre es recomendable revisar el contrato, especialmente si la portabilidad se realiza en tienda.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "portabilidad",
-        "cancelar",
-        "contrato",
-        "días",
-        "inicié",
+        "itinerancia",
+        "móvil",
+        "extranjero",
+        "tarifas",
+        "unión europea",
         "operador"
       ]
     },
     {
-      "pregunta": "¿Cuál es la diferencia entre cancelar una portabilidad y ejercer el derecho de desistimiento?",
-      "respuesta": "La cancelación de la portabilidad permite anular el cambio de operador y mantener el contrato con la compañía anterior, si se solicita dentro de un día desde el inicio del proceso. Por su parte, el derecho de desistimiento permite cancelar un contrato en un plazo de 14 días sin coste, salvo por los servicios ya prestados, y no garantiza volver al operador previo ni bajo el mismo contrato.",
+      "pregunta": "Quiero llamar desde España a mi primo que vive en Chile. ¿Qué precio tiene la llamada?",
+      "respuesta": "Al ser una llamada desde España a un país de fuera de la Unión Europea y del Espacio Económico Europeo, el precio depende de la tarifa de tu operador. Antes de llamar, consulta si tu contrato incluye llamadas internacionales a Chile, el precio por minuto, el establecimiento de llamada y los impuestos. También puedes valorar alternativas como bonos internacionales, llamadas por internet o aplicaciones de mensajería, revisando siempre si consumen datos móviles.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "contrato",
-        "cancelar",
+        "llamada internacional",
+        "chile",
+        "precio",
+        "operador",
+        "tarifa",
+        "establecimiento llamada",
+        "bono internacional",
+        "datos"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es el roaming y cómo funciona dentro de la Unión Europea?",
+      "respuesta": "El roaming o itinerancia permite usar tu móvil cuando viajas temporalmente a otro país, manteniendo tu número habitual para llamadas, mensajes y datos. Dentro de la Unión Europea se aplica, con carácter general, la regla de \"roam like at home\": puedes utilizar tu tarifa nacional sin recargos adicionales, dentro de los límites de uso razonable. El mismo régimen se aplica en Islandia, Liechtenstein y Noruega y, desde 2026, también en Ucrania y Moldavia. En los demás países, los precios dependen de tu operador, por lo que conviene consultarlos antes de viajar.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "roaming",
+        "itinerancia",
+        "unión europea",
+        "espacio económico europeo",
+        "datos",
+        "llamadas",
+        "mensajes",
+        "uso razonable",
+        "recargos"
+      ]
+    },
+    {
+      "pregunta": "Quiero cambiar de compañía de telefonía conservando mi número. ¿Qué tengo que hacer?",
+      "respuesta": "Debes solicitar la portabilidad al nuevo operador, que será el encargado de gestionar el cambio con tu compañía actual. Antes de contratar debe informarte de las condiciones del servicio y de la fecha prevista para el cambio. El número debe quedar activado con el nuevo operador, como máximo, en el plazo de un día hábil desde la fecha acordada contigo, y la pérdida de servicio durante el proceso no puede superar un día hábil. Si tienes contratados otros servicios en un paquete, comprueba también cómo les afecta el cambio de operador.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
         "portabilidad",
-        "derecho",
+        "número",
+        "operador",
+        "telefonía",
+        "contrato",
+        "sim",
+        "permanencia",
         "desistimiento",
-        "permite"
+        "servicio"
       ]
     },
     {
-      "pregunta": "¿Qué es la Comisión de supervisión de los servicios de tarificación adicional?",
-      "respuesta": "###### Es un órgano interministerial del Ministerio de Industria, Turismo y Comercio encargado de elaborar, aprobar y modificar el Código de Conducta de los servicios de tarificación adicional, supervisar su cumplimiento por operadores y prestadores, y presentar un informe público anual sobre sus actividades.",
+      "pregunta": "Inicié una portabilidad, pero mi operador me hizo una buena oferta para quedarme. ¿Puedo cancelar la portabilidad?",
+      "respuesta": "Sí, siempre que la portabilidad todavía pueda cancelarse dentro del plazo previsto. Debes solicitarlo al nuevo operador, que debe permitirte hacerlo por los canales habilitados para contratar, sin cobrarte por la cancelación y facilitándote un justificante. En la portabilidad móvil, el plazo termina actualmente a las 14:00 del día anterior al cambio; en la fija, el operador debe informarte del límite aplicable, que en el procedimiento habitual es a las 19:00 del día anterior. Si la portabilidad ya se ha realizado, tendrás que solicitar una nueva portabilidad si quieres volver a tu anterior compañía.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "servicios",
-        "tarificación",
-        "adicional",
-        "comisión",
-        "supervisión",
-        "######"
+        "portabilidad",
+        "cancelación",
+        "operador",
+        "oferta",
+        "desistimiento",
+        "tienda",
+        "contrato",
+        "permanencia",
+        "penalización"
       ]
     },
     {
-      "pregunta": "¿Qué es la [Oficina de Atención al Usuario de Telecomunicaciones](https://usuariosteleco.mineco.gob.es/Paginas/Index.aspx) ?",
-      "respuesta": "###### Es un organismo público que depende del Ministerio de Asuntos Económicos y Transformación Digital y protege los derechos de los usuarios de servicios de telecomunicaciones en España. Entre sus misiones, recibe y gestiona reclamaciones cuando no se han solucionado con la operadora; informa y asesora sobre derechos y obligaciones de los consumidores y actúa como mediador entre usuarios y empresas de telecomunicaciones.",
+      "pregunta": "¿Cuál es la diferencia entre cancelar una portabilidad y ejercer el derecho de desistimiento?",
+      "respuesta": "Cancelar una portabilidad significa detener el cambio de operador antes de que se haga efectivo. El derecho de desistimiento, en cambio, permite dejar sin efecto determinados contratos celebrados a distancia o fuera del establecimiento, normalmente dentro de los 14 días naturales siguientes a su celebración. Desistir del contrato no cancela automáticamente una portabilidad que ya se haya realizado ni garantiza volver al operador anterior con las mismas condiciones. Si pediste expresamente que el servicio comenzara durante el plazo de desistimiento, pueden cobrarte la parte proporcional del servicio que ya se haya prestado.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "telecomunicaciones",
-        "derechos",
-        "usuarios",
+        "portabilidad",
+        "cancelación",
+        "desistimiento",
+        "operador",
+        "contrato",
+        "14 días",
+        "número",
+        "costes",
+        "servicio"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es la Oficina de Atención al Usuario de Telecomunicaciones?",
+      "respuesta": "Es una unidad de la Administración General del Estado que informa sobre los derechos de los usuarios de telecomunicaciones y tramita reclamaciones sobre cuestiones como facturación, altas y bajas, portabilidad, interrupciones del servicio o incumplimiento de ofertas. Para acudir a ella debes haber reclamado previamente ante el operador. Si no responde en el plazo de un mes o la respuesta no es satisfactoria, puedes presentar una reclamación ante la Oficina.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
         "oficina",
-        "atención",
-        "usuario"
+        "telecomunicaciones",
+        "usuarios",
+        "reclamaciones",
+        "operador",
+        "facturación",
+        "portabilidad",
+        "derechos"
       ]
     },
     {
-      "pregunta": "Tuve un problema de facturación con mi compañía telefónica, fui a arbitraje y obtuve un laudo desestimatorio ¿Puedo acudir al Juzgado?",
-      "respuesta": "No. Si el conflicto se resolvió por la vía del arbitraje de consumo, el laudo es vinculante y excluye la posibilidad de acudir a los tribunales ordinarios. Solo podrías impugnarlo ante el juzgado si existiera un defecto de forma, vulneración de derechos fundamentales o irregularidades graves en el procedimiento arbitral.",
+      "pregunta": "Tuve un problema de facturación con mi compañía telefónica, fui a arbitraje y obtuve un laudo desestimatorio. ¿Puedo acudir al juzgado?",
+      "respuesta": "No puedes acudir a los tribunales para que vuelvan a resolver el mismo conflicto, porque el laudo arbitral es vinculante y produce efectos de cosa juzgada. Sí puede solicitarse su anulación ante el Tribunal Superior de Justicia competente, pero únicamente por las causas tasadas previstas legalmente, como determinados defectos del procedimiento, indefensión o vulneración del orden público, y no simplemente porque el resultado haya sido desfavorable.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
         "arbitraje",
         "laudo",
-        "acudir",
-        "juzgado",
-        "tuve",
-        "problema"
-      ]
-    },
-    {
-      "pregunta": "Tuve un problema de facturación con mi compañía telefónica, pedí un arbitraje, pero no está adherida ¿qué puedo hacer?",
-      "respuesta": "Puedes acudir a la [Oficina de Atención al Usuario de Telecomunicaciones](https://usuariosteleco.mineco.gob.es/Paginas/Index.aspx) o al Juzgado.",
-      "subcategoria": "Teléfono e internet",
-      "keywords": [
-        "tuve",
-        "problema",
         "facturación",
-        "compañía",
-        "telefónica",
-        "pedí"
+        "telefonía",
+        "juzgado",
+        "anulación",
+        "operador",
+        "reclamación"
       ]
     },
     {
-      "pregunta": "He recibido una factura de internet y no estoy de acuerdo con lo que se me está cobrando porque no se aplica un descuento al que se había comprometido la compañía ¿cómo puedo reclamar?",
-      "respuesta": "Presenta la reclamación directamente ante el servicio de atención al cliente de la compañía por un medio que permita acreditar la recepción, como correo postal con acuse, email, teléfono o redes sociales, o hazlo con ayuda de un organismo público de consumo (municipal, provincial o autonómico) o de una asociación de consumidores. Si la empresa no responde o la respuesta no es satisfactoria, puedes acudir a la [Oficina de Atención al Usuario de Telecomunicaciones](https://usuariosteleco.mineco.gob.es/Paginas/Index.aspx). Finalmente, también puedes intentar acudir a un sistema alternativo de resolución de conflictos como el arbitraje de consumo si la empresa lo acepta o presentar una demanda judicial, incluso sin abogado, si el importe es menor de 2.000 €, siendo estas dos últimas vías incompatibles, o se acude a un arbitraje o a se pone una demanda judicial.",
+      "pregunta": "Tuve un problema de facturación con mi compañía telefónica, pedí un arbitraje, pero la empresa no está adherida. ¿Qué puedo hacer?",
+      "respuesta": "Si la empresa no está adherida al arbitraje de consumo y tampoco acepta someterse al arbitraje para tu caso concreto, esa vía no podrá continuar. Puedes acudir a la Oficina de Atención al Usuario de Telecomunicaciones, siempre que hayas reclamado previamente ante el operador, o utilizar las demás vías de reclamación que correspondan, incluidos los servicios públicos de consumo o la vía judicial.",
       "subcategoria": "Teléfono e internet",
       "keywords": [
-        "compañía",
-        "atención",
+        "facturación",
+        "telefonía",
+        "arbitraje",
+        "operador",
+        "oficina telecomunicaciones",
+        "consumo",
+        "demanda",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "He recibido una factura de internet y no estoy de acuerdo con lo que se me cobra porque no se aplica un descuento prometido por la compañía. ¿Cómo puedo reclamar?",
+      "respuesta": "Reclama primero ante el operador, aportando la factura y, si es posible, el contrato, la oferta o cualquier prueba del descuento prometido. Hazlo por un medio que permita dejar constancia de la reclamación y conserva el número de referencia o justificante. Si el operador no responde en el plazo de un mes o la respuesta no es satisfactoria, puedes acudir a la Oficina de Atención al Usuario de Telecomunicaciones. También puedes acudir a los servicios públicos de consumo y, cuando proceda, al arbitraje de consumo o a la vía judicial.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "factura",
+        "internet",
+        "descuento",
+        "operador",
+        "reclamación",
+        "atención cliente",
+        "telecomunicaciones",
+        "consumo",
+        "arbitraje"
+      ]
+    },
+    {
+      "pregunta": "¿Quién fija el precio que pago en el mercado libre y en el mercado regulado?",
+      "respuesta": "En el mercado libre, el precio depende de la oferta que contrates con la comercializadora y de las condiciones pactadas en el contrato. En el mercado regulado se aplica el Precio Voluntario para el Pequeño Consumidor (PVPC), que no fija libremente la comercializadora, sino que se calcula conforme a una metodología regulada. El PVPC tiene en cuenta, entre otros conceptos, el coste de la energía, los peajes de transporte y distribución, los cargos y los costes de comercialización regulados.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "mercado libre",
+        "mercado regulado",
+        "pvpc",
+        "precio",
+        "comercializadora",
+        "referencia",
+        "contrato",
+        "electricidad"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo escoger libremente entre el mercado libre y el mercado regulado?",
+      "respuesta": "Sí, siempre que cumplas los requisitos para contratar el Precio Voluntario para el Pequeño Consumidor (PVPC). Pueden acogerse al PVPC las personas físicas y las microempresas con suministros a una tensión no superior a 1 kV y una potencia contratada igual o inferior a 10 kW en cada período horario. El PVPC solo puede contratarse con una comercializadora de referencia. Si no cumples estos requisitos, tendrás que contratar en el mercado libre. Además, para acceder al bono social eléctrico debes tener contratado el PVPC y cumplir los demás requisitos establecidos para ser consumidor vulnerable.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "mercado libre",
+        "mercado regulado",
+        "pvpc",
+        "potencia",
+        "bono social",
+        "comercializadora",
+        "referencia",
+        "factura"
+      ]
+    },
+    {
+      "pregunta": "He comprado una casa de nueva construcción y quiero dar de alta el suministro eléctrico. ¿Qué tengo que hacer?",
+      "respuesta": "Debes disponer del Certificado de Instalación Eléctrica, también llamado boletín eléctrico, y contratar el suministro con la comercializadora que elijas. Normalmente, la comercializadora tramita con la distribuidora de la zona el acceso a la red. Al tratarse de una vivienda nueva, tendrás que pagar los derechos regulados que correspondan, como los derechos de extensión y acceso, y también los de enganche, verificación o actuación sobre equipos de medida cuando proceda. La distribuidora es la empresa responsable de la red en tu zona, pero puedes elegir libremente la comercializadora con la que contratar la electricidad.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "alta",
+        "suministro",
+        "vivienda nueva",
+        "boletín eléctrico",
+        "distribuidora",
+        "comercializadora",
+        "derechos",
+        "acceso",
+        "enganche"
+      ]
+    },
+    {
+      "pregunta": "¿Qué son los derechos de acceso, extensión, acometida, enganche y verificación en el suministro eléctrico?",
+      "respuesta": "Son pagos regulados que pueden aplicarse al dar de alta o modificar un suministro eléctrico. No todos se cobran en todos los casos:\n\n- Derechos de acometida: son la categoría que engloba los derechos de extensión y de acceso.\n- Derechos de extensión: corresponden a las instalaciones de nueva extensión de red que debe realizar la distribuidora para atender determinados nuevos suministros o aumentos de potencia.\n- Derechos de acceso: se pagan por la incorporación a la red de un nuevo suministro o por un aumento de potencia.\n- Derechos de enganche: corresponden a la operación de conectar eléctricamente la instalación a la red de distribución.\n- Derechos de verificación: corresponden, cuando procedan, a la comprobación por la distribuidora de que la instalación cumple las condiciones técnicas y de seguridad exigibles.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "derechos",
+        "acceso",
+        "extensión",
+        "acometida",
+        "enganche",
+        "verificación",
+        "suministro",
+        "electricidad"
+      ]
+    },
+    {
+      "pregunta": "He comprado una vivienda de segunda mano y quiero dar de alta el suministro eléctrico porque el anterior propietario lo dio de baja. ¿Qué debo hacer?",
+      "respuesta": "Debes solicitar una nueva alta del suministro. Para ello, elige una comercializadora y facilita los datos de la vivienda, tus datos como titular, la potencia que quieres contratar y, si te lo piden, el Certificado de Instalación Eléctrica o boletín eléctrico. La comercializadora suele tramitar el alta con la distribuidora de la zona. Tendrás que pagar los derechos regulados que correspondan, normalmente acceso y enganche, y también extensión si los derechos anteriores han caducado o si se solicita una potencia superior a la reconocida para la instalación. Si aumentas la potencia, se pagan los derechos correspondientes al aumento. La distribuidora puede exigir un boletín actualizado si la instalación no acredita que cumple las condiciones técnicas o si se solicita una potencia superior a la admitida. Algunos aspectos de la documentación exigible pueden variar según la comunidad autónoma y la práctica de la distribuidora.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "vivienda segunda mano",
+        "alta",
+        "suministro eléctrico",
+        "boletín eléctrico",
+        "distribuidora",
+        "comercializadora",
+        "derechos acceso",
+        "derechos extensión",
+        "potencia"
+      ]
+    },
+    {
+      "pregunta": "He comprado una vivienda de segunda mano y el anterior propietario no dio de baja el suministro eléctrico. ¿Qué debo hacer?",
+      "respuesta": "Si el suministro sigue activo, no necesitas darlo de alta de nuevo, sino poner el contrato a tu nombre. Puedes solicitar el cambio de titularidad a la comercializadora y no deben cobrarte por la expedición del nuevo contrato ni puedes quedar obligado a pagar las deudas del anterior titular. Si además quieres cambiar de comercializadora o modificar la potencia contratada, puedes solicitarlo, aunque en este último caso pueden aplicarse los derechos regulados que correspondan.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "vivienda segunda mano",
+        "cambio titularidad",
+        "suministro eléctrico",
+        "comercializadora",
+        "distribuidora",
+        "potencia",
+        "derechos",
+        "verificación"
+      ]
+    },
+    {
+      "pregunta": "Contacté con una comercializadora para dar de alta el suministro en mi casa, pero me lo ha denegado porque dicen que figuro como deudor de un contrato anterior. ¿Es esto legal?",
+      "respuesta": "Una deuda anterior puede impedir la contratación en determinados casos, pero la empresa debe poder justificar el motivo. Por ejemplo, una comercializadora de referencia puede negarse a contratar el PVPC si un contrato anterior fue resuelto por impago o existe un procedimiento de suspensión por falta de pago, siempre que la deuda sea cierta, vencida y exigible. También puede denegarse el acceso a la red si existe una sentencia judicial firme que te declare deudor de una distribuidora y se cumplen los demás requisitos establecidos legalmente. Si la deuda no es tuya o no estás de acuerdo con la denegación, pide que te indiquen por escrito su causa y presenta una reclamación. Si tienes la condición de consumidor vulnerable, existen además protecciones específicas frente a la suspensión del suministro.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "deuda",
+        "suministro",
+        "alta",
+        "comercializadora",
+        "distribuidora",
+        "sentencia firme",
+        "instalación eléctrica",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es el bono social eléctrico?",
+      "respuesta": "El bono social eléctrico es un descuento regulado en la factura de la luz para determinados consumidores vulnerables. Para solicitarlo debes ser una persona física, tener contratado el suministro de tu vivienda habitual con la tarifa regulada Precio Voluntario para el Pequeño Consumidor (PVPC), a través de una comercializadora de referencia, y cumplir los requisitos económicos, familiares o personales establecidos en la normativa. Se distinguen diferentes situaciones de vulnerabilidad, entre ellas la de consumidor vulnerable, vulnerable severo y en riesgo de exclusión social.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "bono social",
+        "electricidad",
+        "factura",
+        "descuento",
+        "pvpc",
+        "comercializadora referencia",
+        "consumidor vulnerable",
+        "riesgo exclusión"
+      ]
+    },
+    {
+      "pregunta": "¿Cuáles son los principales conceptos de una factura de electricidad?",
+      "respuesta": "Los principales conceptos que pagas en una factura eléctrica suelen ser:\n- Término de potencia: importe fijo vinculado a la potencia contratada, es decir, la cantidad máxima de electricidad que puedes usar al mismo tiempo.\n- Término de energía: importe variable según la electricidad consumida durante el periodo facturado, medida en kWh.\n- Peajes y cargos: importes regulados incluidos en la factura para cubrir, entre otros, costes de redes y otros costes del sistema eléctrico.\n- Alquiler del contador: importe que se paga si el equipo de medida no es de tu propiedad.\n- Impuestos: tributos aplicables a la factura eléctrica.\n- Servicios adicionales: solo deben cobrarse si los has contratado, por ejemplo mantenimiento u otros servicios complementarios.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "factura",
+        "electricidad",
+        "potencia",
+        "energía",
+        "kwh",
+        "peajes",
+        "cargos",
+        "contador",
+        "impuestos"
+      ]
+    },
+    {
+      "pregunta": "¿Qué debe aparecer en la factura de la electricidad?",
+      "respuesta": "La factura eléctrica debe permitirte saber quién te factura, qué contrato tienes, cuánto has consumido y por qué conceptos pagas. Debe incluir, entre otros datos, la identificación del titular y de la comercializadora, el número de factura, el periodo facturado, el CUPS, la potencia contratada, la tarifa o peaje de acceso, las lecturas del contador, el consumo en kWh, los precios aplicados, los impuestos, el alquiler del contador si corresponde, el importe total y la forma de pago. También debe incluir información útil para comparar consumos, datos de contacto de la comercializadora y de la distribuidora, e información para presentar reclamaciones.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "factura",
+        "electricidad",
+        "cups",
+        "contador",
+        "consumo",
+        "potencia",
+        "peaje",
+        "impuestos",
+        "reclamaciones"
+      ]
+    },
+    {
+      "pregunta": "¿Cuánto dura el contrato de suministro eléctrico?",
+      "respuesta": "Con carácter general, el contrato de suministro eléctrico tiene una duración anual y se prorroga automáticamente por periodos iguales, aunque pueden pactarse otras duraciones. Si eres una persona física con un suministro acogido al peaje 2.0TD (el habitual en viviendas y pequeños suministros, con una potencia contratada de hasta 15 kW), puedes resolver el contrato en cualquier momento sin penalización, salvo en determinados contratos a precio fijo antes de su primera prórroga anual. Si lo que quieres es dar de baja definitivamente el suministro, debes comunicarlo con al menos cinco días hábiles de antelación.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "contrato",
+        "suministro eléctrico",
+        "duración",
+        "prórroga",
+        "baja",
+        "penalización",
+        "precio fijo",
+        "tarifa 2.0td"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo cambiar la tarifa o la potencia contratada sin coste adicional?",
+      "respuesta": "Depende del cambio. Cambiar de comercializadora u oferta no supone por sí mismo un coste, aunque en determinados contratos a precio fijo puede existir una penalización por cancelación anticipada. Cambiar la potencia contratada es distinto: como regla general, deben haber transcurrido al menos doce meses desde la última modificación y pueden aplicarse los costes regulados correspondientes. Si aumentas la potencia, pueden cobrarse los derechos que procedan; si la reduces, solo pueden aplicarse los costes regulados asociados a las actuaciones necesarias.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "tarifa",
+        "potencia",
+        "comercializadora",
+        "distribuidora",
+        "coste",
+        "derechos",
+        "permanencia",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo pasar del mercado libre al mercado regulado?",
+      "respuesta": "Sí, siempre que cumplas los requisitos para contratar el PVPC: ser una persona física o microempresa, tener un suministro a una tensión no superior a 1 kV y una potencia contratada igual o inferior a 10 kW en cada periodo horario. El cambio se realiza contratando con una comercializadora de referencia y no supone un coste adicional si mantienes las condiciones técnicas del suministro, sin perjuicio de las posibles penalizaciones previstas para determinados contratos a precio fijo. Si acreditas los requisitos para ser consumidor vulnerable, el cambio al PVPC debe realizarse sin penalización ni coste adicional.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "mercado libre",
+        "mercado regulado",
+        "pvpc",
+        "comercializadora referencia",
+        "potencia",
+        "cambio",
+        "permanencia",
+        "penalización"
+      ]
+    },
+    {
+      "pregunta": "¿Cada cuánto tiempo me tienen que enviar la factura de la electricidad?",
+      "respuesta": "Con carácter general, la lectura del contador y la facturación se realizan mensualmente y deben basarse en lecturas reales. Si no se dispone de contador con lectura remota por causas no imputables a la distribuidora o al encargado de lectura, la lectura y la facturación pueden ser bimestrales. En el mercado libre, el contrato puede prever otras condiciones de facturación, pero al menos una vez al año debe facturarse sobre la base del consumo real.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "factura",
+        "electricidad",
+        "periodicidad",
+        "mensual",
+        "bimestral",
+        "contador",
+        "lectura",
+        "consumo real"
+      ]
+    },
+    {
+      "pregunta": "¿Puede la compañía de electricidad mandarme una factura basada en lecturas estimadas?",
+      "respuesta": "Sí, pero solo en determinados casos. Con carácter general, la factura debe basarse en lecturas reales. Si no puede accederse al contador, el encargado de la lectura debe dejarte un aviso indicando cómo puedes facilitarla. Si no comunicas la lectura en el plazo de 10 días hábiles, podrá estimarse el consumo conforme al procedimiento establecido. Un fallo en la lectura remota no permite mantener indefinidamente lecturas estimadas: debe intentarse obtener una lectura real por otros medios.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "factura estimada",
+        "lectura real",
+        "contador",
+        "consumo",
+        "distribuidora",
+        "telemedida",
+        "regularización",
+        "electricidad"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo escoger mi empresa comercializadora de gas canalizado?",
+      "respuesta": "Sí. Puedes elegir la empresa comercializadora de gas canalizado con la que quieres contratar entre las que ofrezcan suministro para tu punto. La comercializadora es la empresa que te vende el gas, te ofrece la tarifa, firma el contrato contigo y normalmente te factura. Lo que no puedes elegir es la distribuidora, que depende de la red a la que esté conectado el suministro.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "comercializadora",
+        "gas canalizado",
+        "contrato",
+        "tarifa",
+        "factura",
+        "distribuidora",
+        "zona",
+        "suministro"
+      ]
+    },
+    {
+      "pregunta": "¿Qué opciones tengo para elegir empresa comercializadora de gas canalizado?",
+      "respuesta": "Si tienes gas canalizado, puedes contratar en el mercado regulado o en el mercado libre. En el mercado regulado puedes acogerte a la Tarifa de Último Recurso (TUR) si cumples los requisitos previstos en la normativa, entre ellos que el suministro tenga presión igual o inferior a 4 bar y que el consumo anual sea inferior a 50.000 kWh, salvo reglas específicas para comunidades de propietarios. En este caso, contratas con una comercializadora de último recurso. En el mercado libre puedes contratar con cualquier comercializadora que ofrezca servicio en tu zona. Las condiciones, precios, descuentos, servicios adicionales, duración, penalizaciones y forma de facturación dependerán de lo que establezca el contrato. En gas no se habla normalmente de potencia contratada como en electricidad, sino de consumo, tarifa o peaje aplicable y término fijo y variable.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "gas canalizado",
+        "mercado regulado",
+        "mercado libre",
+        "tur",
+        "comercializadora",
+        "consumo anual",
+        "contrato",
+        "tarifa",
+        "peaje"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo contratar gas canalizado por teléfono?",
+      "respuesta": "Sí, puedes contratar gas por teléfono. Si eres tú quien contacta con la comercializadora, la contratación puede formalizarse por esa vía y la empresa debe dejar constancia de tu consentimiento.\n\nSi es la comercializadora quien te llama para ofrecerte un contrato, debe respetar las normas sobre llamadas comerciales no solicitadas. Además, tu aceptación durante la llamada no basta para quedar vinculado: la empresa debe remitirte la oferta y tú debes aceptarla mediante firma o por escrito, por ejemplo por correo electrónico o SMS.\n\nComo consumidor, dispones con carácter general de 14 días naturales para desistir del contrato.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "contratación telefónica",
+        "gas canalizado",
+        "consentimiento",
+        "contrato",
+        "soporte duradero",
+        "desistimiento",
+        "comercializadora",
+        "suministro"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo contratar gas canalizado por internet?",
+      "respuesta": "Sí. Puedes contratar gas canalizado por internet. La solicitud debe quedar registrada electrónicamente y la comercializadora debe asignarle un número de referencia que puedas conservar. Antes de contratar debe facilitarte las condiciones esenciales y posteriormente enviarte la confirmación del contrato en un soporte duradero. Como consumidor, dispones con carácter general de 14 días naturales para desistir. Si solicitas expresamente que el suministro comience durante ese plazo, pueden cobrarte la parte proporcional ya suministrada.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "contratación internet",
+        "gas canalizado",
+        "contrato",
+        "firma electrónica",
+        "soporte duradero",
+        "desistimiento",
+        "comercializadora",
+        "facturación"
+      ]
+    },
+    {
+      "pregunta": "¿Son libres los precios de la bombona de gas butano?",
+      "respuesta": "No todos los precios son libres. La bombona tradicional de butano de 12,5 kg está sujeta a un precio máximo regulado, que se revisa periódicamente. Otros tipos de bombonas, especialmente determinados envases ligeros, pueden tener precio libre. Por tanto, el precio aplicable depende del tipo y características del envase.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "bombona",
+        "butano",
+        "precio",
+        "glp",
+        "envase",
+        "regulado",
+        "precio máximo",
+        "suministro"
+      ]
+    },
+    {
+      "pregunta": "Tengo entendido que en la factura del agua se cobran diferentes conceptos. ¿Puedo exigir a la compañía que me informe al respecto?",
+      "respuesta": "Sí. La factura debe permitirte entender qué conceptos se te cobran y cómo se calculan. Según el municipio y la comunidad autónoma, pueden aparecer conceptos como abastecimiento de agua, saneamiento, alcantarillado, depuración, cánones autonómicos, alquiler o conservación del contador, cuotas fijas, consumo por tramos u otros conceptos aprobados en la ordenanza o normativa aplicable. Puedes pedir a la empresa o entidad suministradora que te explique la factura y también consultar las tarifas aprobadas por tu ayuntamiento o por la administración competente.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "factura",
+        "agua",
+        "conceptos",
+        "tarifa",
+        "abastecimiento",
+        "saneamiento",
+        "depuración",
+        "ordenanza",
+        "contador"
+      ]
+    },
+    {
+      "pregunta": "La compañía del agua me ha escrito diciendo que van a cambiar las condiciones del contrato. ¿Es legal?",
+      "respuesta": "Depende del tipo de cambio. Muchas condiciones del suministro de agua, como las tarifas o determinadas reglas del servicio, están fijadas por ordenanzas, reglamentos o decisiones de la administración competente y pueden modificarse conforme a esas normas. Si, en cambio, la empresa pretende modificar una condición del contrato por su propia decisión, debe existir una base contractual y legal que lo permita. Si no estás de acuerdo con el cambio, pide que te indiquen su fundamento y, si es necesario, reclama ante la entidad suministradora, el ayuntamiento o los servicios de consumo.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "agua",
+        "contrato",
+        "condiciones",
+        "modificación",
+        "tarifas",
+        "ordenanza",
+        "ayuntamiento",
+        "reclamación",
+        "suministro"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo solicitar la revisión de mi factura de agua si creo que hay un error?",
+      "respuesta": "Sí. Puedes pedir a la empresa o entidad suministradora que revise la factura si crees que hay un error en la lectura del contador, el consumo, la tarifa aplicada, los periodos facturados o cualquier otro concepto. Presenta la reclamación por un medio que deje constancia y aporta la factura, fotografías del contador si las tienes y una explicación del error. Si se confirma que ha habido un cobro indebido, deben corregir la factura y devolverte o compensarte la cantidad que corresponda. Si no responden o no estás conforme, puedes acudir al ayuntamiento, al organismo autonómico competente o a los servicios de consumo, según el caso.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "factura",
+        "agua",
+        "error",
+        "revisión",
+        "contador",
+        "lectura",
+        "consumo",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo derecho a recibir agua potable aunque resida en un municipio rural de solo 20 habitantes?",
+      "respuesta": "Sí. El abastecimiento domiciliario de agua potable es un servicio que debe prestarse en todos los municipios, con independencia de su número de habitantes, y el agua suministrada debe cumplir los requisitos de calidad sanitaria establecidos. Si se trata de una vivienda aislada o no conectada a la red municipal, la forma concreta de garantizar el acceso puede depender de la normativa y de las circunstancias del lugar.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "agua potable",
+        "municipio rural",
+        "abastecimiento",
+        "ayuntamiento",
+        "calidad",
+        "salud",
+        "autoridad sanitaria",
+        "suministro",
+        "vivienda"
+      ]
+    },
+    {
+      "pregunta": "¿Qué se considera un cobro justificado y proporcional por incumplir un compromiso de permanencia?",
+      "respuesta": "La penalización debe estar prevista en el contrato y ser proporcional al tiempo de permanencia que quede por cumplir. Por ejemplo, si se ha pactado una penalización máxima de 200 euros asociada a una permanencia de 20 meses, si te das de baja cuando quedan 10 meses la penalización no debería superar 100 euros, y si solo queda un mes, 10 euros. No pueden cobrarte la misma cantidad con independencia del tiempo de permanencia ya cumplido.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "permanencia",
+        "penalización",
+        "proporcional",
+        "contrato",
+        "móvil",
+        "beneficio",
+        "baja",
+        "operador"
+      ]
+    },
+    {
+      "pregunta": "¿Me debe informar mi compañía de teléfono sobre cambios en las condiciones del contrato?",
+      "respuesta": "Sí. El operador debe comunicarte cualquier cambio en las condiciones del contrato con al menos un mes de antelación e informarte de tu derecho a resolverlo sin coste adicional si no aceptas las nuevas condiciones. Dispones de un mes desde la comunicación para hacerlo. Este derecho no se aplica si el cambio es exclusivamente beneficioso para ti, es meramente administrativo y no te perjudica o viene impuesto por una norma.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "cambios",
+        "contrato",
+        "telefonía",
+        "operador",
+        "tarifa",
+        "preaviso",
+        "baja",
+        "penalización"
+      ]
+    },
+    {
+      "pregunta": "¿Cada cuánto tiempo debe enviarme la factura mi compañía de telefonía?",
+      "respuesta": "Lo habitual es que la factura sea mensual, pero la normativa no establece una periodicidad general para todos los servicios de telefonía, por lo que debes comprobar la prevista en tu contrato. En todo caso, tienes derecho a recibir una factura en la que aparezcan diferenciados los conceptos que se te cobran. Si utilizas una modalidad de prepago, tienes derecho a obtener información equivalente sobre tus consumos y cargos.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "factura",
+        "telefonía",
+        "periodicidad",
+        "mensual",
+        "contrato",
+        "consumo",
+        "prepago",
+        "desglose"
+      ]
+    },
+    {
+      "pregunta": "He recibido mi factura telefónica. ¿Qué conceptos deben aparecer?",
+      "respuesta": "La factura debe permitirte comprobar qué se te cobra y por qué. Debe incluir, entre otros datos, el periodo de facturación, la cuota mensual fija, otros cargos fijos o no recurrentes, el consumo facturado, los impuestos y el importe total. En la facturación detallada del servicio telefónico deben aparecer también, cuando corresponda, datos de las comunicaciones realizadas, como el número llamado, la fecha y hora, la duración, la tarifa aplicada y su coste.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "factura",
+        "telefonía",
+        "operador",
+        "periodo",
+        "cuotas",
+        "consumo",
+        "impuestos",
+        "tarificación adicional",
+        "servicios"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo solicitar que se suspenda temporalmente mi servicio de telefonía fija?",
+      "respuesta": "Sí. Puedes solicitar gratuitamente la suspensión temporal del servicio de telefonía fija por un periodo de entre uno y tres meses, con un máximo de 90 días por año natural. Durante ese tiempo, debe descontarse de la cuota de abono la mitad de la parte proporcional correspondiente al periodo de suspensión.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "suspensión temporal",
+        "telefonía",
+        "internet",
+        "operador",
+        "cuota",
+        "90 días",
+        "contrato",
+        "descuento"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo puedo solicitar el bono social eléctrico?",
+      "respuesta": "Debes solicitarlo a una comercializadora de referencia y presentar el formulario correspondiente junto con la documentación necesaria para acreditar que cumples los requisitos. Para beneficiarte del bono social debes ser una persona física, ser titular del suministro de tu vivienda habitual, cumplir los requisitos para ser consumidor vulnerable y tener contratado el PVPC. Si todavía estás en el mercado libre, puedes solicitar el bono social aceptando al mismo tiempo el cambio al PVPC con la comercializadora de referencia.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "bono social",
+        "electricidad",
+        "pvpc",
+        "comercializadora referencia",
+        "vulnerabilidad",
+        "solicitud",
+        "documentación",
+        "descuento"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden incluirme en la factura de la luz un servicio de mantenimiento o un seguro que no he contratado?",
+      "respuesta": "No. La comercializadora no puede cobrarte servicios adicionales, como mantenimiento, asistencia urgente, seguros o revisiones, si no los has contratado de forma clara y expresa. Si aparecen en la factura cargos que no reconoces, reclama por escrito a la comercializadora, pide copia del contrato o de la aceptación del servicio y solicita la devolución de los importes cobrados indebidamente. Si no te responden o no estás conforme, puedes acudir a los servicios públicos de consumo o a las vías de reclamación que correspondan.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "servicios adicionales",
+        "mantenimiento",
+        "seguro",
+        "factura",
+        "comercializadora",
+        "cobro indebido",
+        "reclamación",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "Me han cambiado de comercializadora de luz sin mi permiso. ¿Qué puedo hacer?",
+      "respuesta": "Reclama a la nueva comercializadora y pide que acredite tu consentimiento para el cambio. Si el cambio se realizó sin tu consentimiento, deben restituir el suministro a tu comercializadora anterior y al contrato que tenías antes del cambio, sin que tengas que asumir los gastos ocasionados por el cambio indebido. También puedes reclamar los daños y perjuicios que te haya causado. Si no se resuelve, puedes acudir al órgano competente en materia de energía de tu comunidad autónoma y, cuando corresponda, a los servicios públicos de consumo.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "cambio comercializadora",
+        "contratación no solicitada",
+        "luz",
+        "consentimiento",
+        "factura",
+        "anulación",
+        "reclamación",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "Contraté la luz por teléfono o por internet. ¿Puedo desistir del contrato?",
+      "respuesta": "Si contrataste como persona consumidora a distancia, por teléfono o por internet, normalmente tienes 14 días naturales para desistir sin tener que justificar la decisión. La empresa debe informarte de este derecho y facilitarte la forma de ejercerlo. Si pediste expresamente que el suministro comenzara durante ese plazo, pueden cobrarte la parte proporcional del servicio efectivamente prestado hasta el desistimiento. Si contrataste en una tienda, no existe con carácter general derecho legal de desistimiento, salvo que la empresa lo reconozca contractualmente.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "desistimiento",
+        "contratación distancia",
+        "teléfono",
+        "internet",
+        "luz",
+        "14 días",
+        "suministro",
+        "contrato"
+      ]
+    },
+    {
+      "pregunta": "¿Puede mi comercializadora cambiar el precio o las condiciones de mi contrato de luz en mercado libre?",
+      "respuesta": "La comercializadora no puede modificar unilateralmente las condiciones de tu contrato. Si pretende cambiarlas, debe comunicártelo por escrito, de forma separada de la factura y con al menos un mes de antelación, e informarte de tu derecho a resolver el contrato sin coste.\n\nEsto es distinto de una revisión de precio que ya estuviera prevista en el contrato mediante criterios claros y objetivos. En ese caso, la comercializadora debe informarte de la revisión, de sus motivos y de su alcance con al menos un mes de antelación. En los contratos a precio fijo no pueden incluirse cláusulas que permitan revisar el precio durante su vigencia.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "mercado libre",
+        "precio",
+        "condiciones",
+        "modificación",
+        "contrato",
+        "penalización",
+        "comercializadora",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Una subida de tensión me ha estropeado electrodomésticos. ¿Puedo reclamar?",
+      "respuesta": "Sí. Si los daños se deben a una incidencia en la red o a un incumplimiento de la calidad del suministro, puedes reclamar. Conserva pruebas como fotografías, informes técnicos y facturas de reparación o sustitución, e indica la fecha y hora aproximadas de la incidencia. Reclama ante tu comercializadora o distribuidora; si reclamas a la comercializadora, puedes pedirle que te represente frente a la distribuidora en la reclamación sobre la calidad del suministro. Si no se resuelve, puedes acudir a las vías administrativas, de consumo o judiciales que correspondan.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "subida tensión",
+        "electrodomésticos",
+        "daños",
+        "calidad suministro",
+        "distribuidora",
+        "reclamación",
+        "factura",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es el CUPS y por qué aparece en mi factura de luz?",
+      "respuesta": "El CUPS es el Código Universal de Punto de Suministro y sirve para identificar de forma única tu punto de suministro eléctrico, con independencia de quién sea su titular o la comercializadora con la que tengas contratado el servicio. Se utiliza habitualmente para identificar el suministro en trámites como cambios de comercializadora, modificaciones del contrato o reclamaciones. No es lo mismo que el número de contrato ni que el número del contador.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "cups",
+        "factura",
+        "punto suministro",
+        "contador",
+        "contrato",
+        "comercializadora",
+        "cambio compañía",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es el autoconsumo eléctrico con compensación de excedentes?",
+      "respuesta": "El autoconsumo permite utilizar electricidad generada por una instalación propia o compartida, por ejemplo mediante placas solares. Si te acoges al mecanismo de compensación de excedentes, la electricidad que produces, no consumes y viertes a la red se valora económicamente y se descuenta del coste de la energía que has consumido de la red durante ese periodo de facturación. La compensación tiene un límite: el valor de los excedentes no puede superar el valor de la energía consumida de la red en ese periodo.",
+      "subcategoria": "Electricidad",
+      "keywords": [
+        "autoconsumo",
+        "placas solares",
+        "excedentes",
+        "compensación",
+        "factura",
+        "instalación",
+        "contrato",
+        "electricidad"
+      ]
+    },
+    {
+      "pregunta": "¿Cada cuánto debe hacerse la inspección periódica de una instalación de gas canalizado?",
+      "respuesta": "La instalación de gas canalizado debe pasar una inspección periódica cada cinco años. La distribuidora debe avisarte de que corresponde realizarla con al menos tres meses de antelación. Puedes elegir que la inspección la realice la propia distribuidora o una empresa instaladora de gas habilitada con categoría suficiente.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "inspección periódica",
+        "gas canalizado",
+        "instalación",
+        "seguridad",
+        "distribuidora",
+        "empresa instaladora",
+        "comunidad autónoma",
+        "aviso"
+      ]
+    },
+    {
+      "pregunta": "¿Quién paga la inspección periódica del gas y cómo se cobra?",
+      "respuesta": "El coste de la inspección periódica corresponde al titular del contrato de suministro y se cobra a través de la factura de la comercializadora de gas, tanto si la inspección la realiza la distribuidora como si eliges una empresa instaladora habilitada. Por tanto, no debes pagar en efectivo al técnico durante la visita. El importe puede depender de quién realice la inspección y de la regulación aplicable en tu comunidad autónoma.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "inspección gas",
+        "coste",
+        "factura",
+        "distribuidora",
+        "empresa instaladora",
+        "efectivo",
+        "certificado",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "He comprado o alquilado una vivienda y quiero dar de alta el gas canalizado. ¿Qué debo hacer?",
+      "respuesta": "Si el suministro sigue activo, normalmente basta con contratar el gas o cambiar la titularidad. Si está dado de baja, debes contratar con una comercializadora para que se tramite la puesta en servicio con la distribuidora. La instalación debe disponer de la documentación técnica exigible y, si ha permanecido sin suministro durante más de un año, la distribuidora realizará las comprobaciones previstas antes de reactivarla. Pueden cobrarse los derechos regulados de alta y, cuando proceda, de acometida.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "alta gas",
+        "vivienda",
+        "contrato",
+        "certificado instalación",
+        "comercializadora",
+        "distribuidora",
+        "derechos",
+        "inspección"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo cambiar de comercializadora de gas sin que me corten el suministro?",
+      "respuesta": "Sí. Tienes derecho a cambiar de comercializadora de gas sin coste y el cambio no debe implicar una interrupción del suministro. La distribuidora y la red a la que está conectada tu vivienda siguen siendo las mismas; lo que cambia es la empresa que te vende y factura el gas. Si durante el proceso se produce una incidencia o una facturación incorrecta, puedes presentar una reclamación.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "cambio comercializadora",
+        "gas",
+        "suministro",
+        "distribuidora",
+        "contrato",
+        "permanencia",
+        "penalización",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Me han cambiado de comercializadora de gas sin mi permiso. ¿Cómo reclamo?",
+      "respuesta": "Reclama a la nueva comercializadora y pídele que acredite tu consentimiento para el cambio, ya que debe conservar la documentación que demuestre tu voluntad de cambiar de suministrador. Si no autorizaste el cambio, solicita que se corrija y reclama cualquier facturación indebida que haya generado. También puedes contactar con tu comercializadora anterior para gestionar la vuelta. Si no se resuelve, puedes acudir a los servicios públicos de consumo y, cuando proceda, al órgano competente en materia de energía de tu comunidad autónoma.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "cambio comercializadora",
+        "gas",
+        "contratación no solicitada",
+        "consentimiento",
+        "factura",
+        "anulación",
+        "reclamación",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "¿Qué es el bono social térmico? ¿tengo que solicitarlo a mi compañía de gas?",
+      "respuesta": "El bono social térmico es una ayuda económica destinada a compensar parte de los gastos de calefacción, agua caliente sanitaria o cocina de consumidores vulnerables. No es una tarifa ni un descuento en la factura del gas y no se solicita a la comercializadora de gas. Son beneficiarias las personas que tenían reconocido el bono social eléctrico a 31 de diciembre del año anterior, y su gestión y pago corresponden a las comunidades autónomas y ciudades autónomas.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "bono social térmico",
+        "gas",
+        "calefacción",
+        "agua caliente",
+        "vulnerabilidad",
+        "bono social eléctrico",
+        "comunidad autónoma",
+        "ayuda"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cobrarme un servicio de mantenimiento de gas que no he contratado?",
+      "respuesta": "No. No pueden cobrarte servicios adicionales de mantenimiento, asistencia, revisiones o seguros si no los has contratado de forma expresa. Si aparece un cargo que no reconoces, reclama a la empresa y pídele que acredite que aceptaste ese servicio; corresponde a la empresa demostrarlo. Si no existe consentimiento, puedes solicitar la baja del servicio y la devolución de las cantidades cobradas. Esto no debe confundirse con las inspecciones o revisiones de seguridad que sean obligatorias por ley.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "mantenimiento",
+        "gas",
+        "servicio adicional",
+        "cobro indebido",
+        "contrato",
+        "revisión",
+        "factura",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo reclamar si una bombona de butano está defectuosa o pierde gas?",
+      "respuesta": "Sí. Si detectas una fuga o algún defecto en la bombona o en su válvula, no intentes repararla ni manipularla. Evita llamas, chispas o accionar interruptores eléctricos y avisa a la empresa suministradora para que adopte las medidas necesarias y, en su caso, sustituya el envase. Si existe un riesgo inmediato, contacta con los servicios de emergencia. Si el defecto te ha causado daños, conserva las pruebas, porque puedes reclamar la indemnización que corresponda.",
+      "subcategoria": "Gas",
+      "keywords": [
+        "bombona",
+        "butano",
+        "fuga",
+        "seguridad",
+        "defecto",
+        "sustitución",
+        "suministradora",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo doy de alta el suministro de agua en una vivienda?",
+      "respuesta": "Primero comprueba si el suministro está activo. Si lo está, puede bastar con solicitar un cambio de titularidad. Si está dado de baja, debes solicitar el alta a la empresa o entidad que gestione el servicio de agua en tu municipio. La documentación necesaria, los derechos de alta, las posibles fianzas y demás condiciones dependen del reglamento u ordenanza del servicio, por lo que pueden variar según el municipio y la comunidad autónoma.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "alta agua",
+        "vivienda",
+        "suministro",
+        "ayuntamiento",
+        "suministradora",
+        "contador",
+        "fianza",
+        "ordenanza"
+      ]
+    },
+    {
+      "pregunta": "Vivo de alquiler. ¿Quién debe figurar como titular del contrato de agua?",
+      "respuesta": "No existe una regla estatal general que obligue a que el contrato de agua figure a nombre del propietario o del inquilino. La posibilidad de cambiar la titularidad y los requisitos para hacerlo dependen de las normas del servicio de agua de cada municipio. No obstante, si el consumo de agua está individualizado mediante contador, su coste corresponde al arrendatario. Conviene revisar también lo previsto en el contrato de alquiler.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "alquiler",
+        "agua",
+        "titular",
+        "contrato",
+        "inquilino",
+        "propietario",
+        "factura",
+        "municipio"
+      ]
+    },
+    {
+      "pregunta": "La factura del agua se ha disparado por una fuga oculta en mi vivienda. ¿Puedo pedir una reducción o revisión?",
+      "respuesta": "Sí, puedes solicitar la revisión de la factura y aportar pruebas de la fuga, del consumo anormal y de su reparación. Algunas normas autonómicas u ordenanzas municipales prevén reducciones, bonificaciones o recálculos cuando se producen fugas ocultas, pero no existe una regla estatal que garantice siempre una reducción. Consulta las condiciones del servicio de agua de tu municipio y, si no estás conforme con la respuesta, presenta una reclamación.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "fuga oculta",
+        "factura",
+        "agua",
+        "consumo anómalo",
+        "revisión",
+        "bonificación",
+        "ordenanza",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Puedo pedir que revisen o verifiquen mi contador de agua?",
+      "respuesta": "Sí. Si sospechas que el contador mide incorrectamente, puedes solicitar a la empresa o entidad suministradora que compruebe el equipo. El procedimiento para realizar la comprobación, sus posibles costes y quién debe asumirlos dependen de la normativa aplicable y del reglamento del servicio. Conserva las facturas y, si es posible, fotografías o lecturas del contador que permitan acreditar la incidencia. Si se confirma un error de medición, puedes solicitar que se corrija la facturación afectada.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "contador",
+        "agua",
+        "verificación",
+        "lectura",
+        "factura",
+        "revisión",
+        "ordenanza",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cortarme el agua si estoy en situación de vulnerabilidad?",
+      "respuesta": "Hasta el 31 de diciembre de 2026 no puede suspenderse el suministro de agua a quienes tengan reconocida la condición de consumidor vulnerable, vulnerable severo o en riesgo de exclusión social en los términos establecidos legalmente. Para acreditar esta situación ante la suministradora de agua puede presentarse la última factura de electricidad en la que conste la percepción del bono social. Además, pueden existir otras medidas de protección, ayudas o tarifas sociales previstas por tu comunidad autónoma o municipio.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "vulnerabilidad",
+        "corte agua",
+        "servicios sociales",
+        "tarifa social",
+        "ayuntamiento",
+        "suministro",
+        "impago",
+        "comunidad autónoma"
+      ]
+    },
+    {
+      "pregunta": "Han declarado que el agua de mi zona no es apta para consumo. ¿Qué derechos tengo?",
+      "respuesta": "La autoridad sanitaria debe valorar el riesgo e informar de las recomendaciones que debes seguir. El ayuntamiento o la entidad responsable del suministro debe adoptar las medidas necesarias para corregir la incidencia e informar a la población sobre el problema, las restricciones de uso y las medidas adoptadas. En función de la gravedad y duración de la situación, puede ser necesario establecer un suministro alternativo.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "agua no apta",
+        "potabilidad",
+        "salud",
+        "autoridad sanitaria",
+        "ayuntamiento",
+        "información",
+        "suministro alternativo",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cobrarme una cuota fija o un consumo mínimo de agua aunque consuma poco?",
+      "respuesta": "Sí, puede existir una cuota fija u otros importes independientes del consumo real si están previstos en la tarifa, ordenanza o reglamento aplicable al servicio. También pueden existir bloques de consumo, cánones u otros conceptos. La factura y la información del servicio deben permitirte conocer estos conceptos y la estructura de la tarifa. Si crees que se te está aplicando incorrectamente, puedes pedir su revisión y consultar la normativa aplicable en tu municipio o comunidad autónoma.",
+      "subcategoria": "Agua",
+      "keywords": [
+        "cuota fija",
+        "consumo mínimo",
+        "agua",
+        "tarifa",
+        "ordenanza",
+        "factura",
+        "canon",
+        "revisión"
+      ]
+    },
+    {
+      "pregunta": "Contraté teléfono o internet por teléfono o por internet. ¿Tengo derecho a desistir?",
+      "respuesta": "Sí, si contrataste como persona consumidora a distancia, normalmente tienes 14 días naturales para desistir sin justificar tu decisión. La empresa debe informarte de este derecho y facilitarte el ejercicio. Si pediste expresamente que el servicio empezara durante ese plazo, pueden cobrarte la parte proporcional del servicio ya prestado. Si recibiste equipos, como router o decodificador, deberás devolverlos en las condiciones indicadas. Si contrataste en tienda, no existe con carácter general derecho legal de desistimiento, salvo que la empresa lo reconozca.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "desistimiento",
+        "telefonía",
+        "internet",
+        "contratación distancia",
+        "14 días",
+        "router",
+        "tienda",
+        "servicio"
+      ]
+    },
+    {
+      "pregunta": "Me han contratado una línea o una portabilidad sin mi consentimiento. ¿Qué puedo hacer?",
+      "respuesta": "Reclama al operador responsable del alta o del cambio y pídele que acredite tu consentimiento para la contratación o portabilidad. Si no lo autorizaste, solicita que se corrija el cambio y que se anulen las facturas, cuotas o deudas generadas indebidamente. Si el operador no responde en el plazo de un mes o la respuesta no es satisfactoria, puedes reclamar ante la Oficina de Atención al Usuario de Telecomunicaciones. También puedes acudir, cuando corresponda, a los servicios públicos de consumo.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "contratación no solicitada",
+        "portabilidad",
+        "consentimiento",
+        "operador",
+        "línea",
+        "factura",
+        "reclamación",
+        "telecomunicaciones"
+      ]
+    },
+    {
+      "pregunta": "Mi conexión a internet es mucho más lenta que la velocidad contratada. ¿Puedo reclamar?",
+      "respuesta": "Sí. En los servicios de internet fijo, el contrato debe indicar, entre otras, la velocidad mínima, la normalmente disponible y la máxima. Si la velocidad real presenta de forma continuada o recurrente diferencias significativas respecto de la comprometida, puedes reclamar al operador. Conserva varias mediciones realizadas en distintos momentos y revisa las condiciones de velocidad que figuran en tu contrato. Ten en cuenta que las mediciones realizadas por wifi pueden verse afectadas por el router, la distancia, interferencias u otros factores ajenos a la conexión contratada.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "velocidad internet",
+        "fibra",
+        "wifi",
+        "operador",
+        "contrato",
+        "medición",
+        "reclamación",
+        "incumplimiento"
+      ]
+    },
+    {
+      "pregunta": "El operador no viene a instalar la fibra o retrasa la instalación. ¿Puedo reclamar?",
+      "respuesta": "Sí. El contrato debe indicar el plazo al que se compromete el operador para realizar la conexión inicial y las consecuencias de su incumplimiento. Si ese plazo se supera, puedes reclamar al operador y exigir, cuando corresponda, la compensación prevista. Conserva el contrato, los justificantes de la solicitud y las citas o comunicaciones sobre la instalación. Si no recibes una respuesta satisfactoria, puedes acudir a la Oficina de Atención al Usuario de Telecomunicaciones.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "instalación",
+        "fibra",
+        "retraso",
+        "operador",
+        "cita técnica",
+        "contrato",
+        "cobertura",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "Me he dado de baja y el operador sigue cobrándome facturas. ¿Qué puedo hacer?",
+      "respuesta": "Reclama al operador y aporta el justificante de la baja, su número de referencia y la fecha en que la solicitaste. La baja debe hacerse efectiva como máximo transcurridos dos días hábiles y el operador no puede seguir facturándote el servicio después de esa fecha por causas que no te sean imputables. Solicita la anulación y devolución de los importes cobrados indebidamente. Si el operador no responde en un mes o la respuesta no es satisfactoria, puedes acudir a la Oficina de Atención al Usuario de Telecomunicaciones.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "baja",
+        "facturas",
+        "cobro indebido",
+        "operador",
+        "justificante",
+        "deuda",
+        "devolución",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Tengo que devolver el router, el decodificador o los equipos cuando me doy de baja?",
+      "respuesta": "Depende de las condiciones en las que te entregaron los equipos. Si son de tu propiedad, no tienes que devolverlos; si fueron cedidos o alquilados por el operador, el contrato puede obligarte a devolverlos al terminar el servicio. Comprueba el plazo y el procedimiento de devolución y conserva siempre el justificante. Si el operador te cobra por no devolver un equipo, debe poder acreditar que esa obligación y sus consecuencias estaban previstas en el contrato.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "router",
+        "decodificador",
+        "equipos",
+        "baja",
+        "devolución",
+        "operador",
+        "contrato",
+        "penalización"
+      ]
+    },
+    {
+      "pregunta": "¿Puede una empresa obligarme a llamar a un 902 para atención al cliente?",
+      "respuesta": "No. Si una empresa utiliza un número de tarificación especial para atención al cliente, debe facilitarte también, en igualdad de condiciones, un número geográfico o móvil alternativo. Además, la atención telefónica no puede suponerte un coste superior al de una llamada a una línea fija geográfica o móvil estándar. En el caso de los operadores de telecomunicaciones, el servicio de atención a la clientela debe prestarse sin cobrarte un importe adicional por ese servicio.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "902",
+        "atención cliente",
+        "coste llamada",
+        "reclamación",
         "consumo",
         "empresa",
-        "puedes",
-        "acudir"
+        "operador",
+        "teléfono"
+      ]
+    },
+    {
+      "pregunta": "Voy a viajar a un país donde no se aplica el roaming sin recargos. ¿Cómo evito una factura muy alta?",
+      "respuesta": "Antes de viajar, consulta las tarifas de llamadas, mensajes y datos del país de destino y valora contratar un bono específico o desactivar los datos en itinerancia. Para el consumo de datos, el operador debe ofrecerte un límite de gasto que, por defecto, no puede superar 50 euros por período de facturación mensual sin IVA, salvo que hayas elegido otro límite. Debe avisarte cuando te acerques a ese importe y detener el servicio de datos al alcanzarlo, salvo que autorices continuar. Esta protección puede no aplicarse si la red extranjera impide controlar el consumo en tiempo real, pero en ese caso el operador debe informarte.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "roaming",
+        "fuera zona roaming",
+        "datos",
+        "viaje",
+        "factura",
+        "tarifa",
+        "límite consumo",
+        "operador"
+      ]
+    },
+    {
+      "pregunta": "¿Qué puedo hacer si no tengo cobertura móvil en casa aunque el operador me aseguró que sí la tendría?",
+      "respuesta": "Puedes reclamar si contrataste el servicio basándote en una información concreta del operador sobre la cobertura disponible en tu domicilio y esa prestación no se cumple. Conserva la publicidad, capturas del mapa de cobertura o comunicaciones que recibiste antes de contratar. Ten en cuenta que la cobertura móvil puede variar, especialmente dentro de los edificios. Si el operador no soluciona el problema y existe un incumplimiento de las condiciones ofrecidas, podrás reclamar las medidas que correspondan, incluida, cuando proceda, la resolución del contrato sin penalización.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "cobertura móvil",
+        "operador",
+        "contrato",
+        "información",
+        "reclamación",
+        "baja",
+        "penalización",
+        "servicio"
+      ]
+    },
+    {
+      "pregunta": "¿Puede el operador imponerme permanencia si solo cambio de tarifa?",
+      "respuesta": "Cambiar de tarifa no implica por sí solo aceptar un nuevo compromiso de permanencia. Para que exista, debe formar parte de las nuevas condiciones que aceptes y el operador debe informarte previamente de su duración y de las consecuencias de cancelarlo antes de tiempo. Si no aceptaste una nueva permanencia, puedes reclamar. Si existe y decides darte de baja antes de que termine, la penalización debe ser proporcional al tiempo que quede por cumplir.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "permanencia",
+        "cambio tarifa",
+        "operador",
+        "penalización",
+        "descuento",
+        "terminal",
+        "contrato",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Cómo reclamo ante la Oficina de Atención al Usuario de Telecomunicaciones?",
+      "respuesta": "Primero debes reclamar ante tu operador en el plazo de un mes desde que tengas conocimiento del hecho que motiva la reclamación y conservar el número de referencia o justificante. Si el operador no responde en el plazo de un mes desde que recibió tu reclamación o la respuesta no es satisfactoria, puedes acudir a la Oficina de Atención al Usuario de Telecomunicaciones. Dispones de tres meses desde la respuesta del operador o desde que termina el plazo que tenía para contestarte. En la reclamación explica lo sucedido y aporta las facturas, contratos, comunicaciones y demás pruebas que consideres relevantes.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "oficina telecomunicaciones",
+        "reclamación",
+        "operador",
+        "factura",
+        "contrato",
+        "portabilidad",
+        "baja",
+        "plazo"
+      ]
+    },
+    {
+      "pregunta": "¿Pueden cobrarme por recibir la factura telefónica en papel?",
+      "respuesta": "No. Como consumidor tienes derecho a recibir la factura en papel y la empresa no puede cobrarte ninguna cantidad por ello. La factura electrónica solo puede sustituir a la de papel si has dado previamente tu consentimiento expreso, y puedes retirar ese consentimiento posteriormente.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "factura papel",
+        "telefonía",
+        "internet",
+        "coste",
+        "operador",
+        "información",
+        "facturación",
+        "reclamación"
+      ]
+    },
+    {
+      "pregunta": "¿Qué pasa si mi paquete de internet, móvil y televisión cambia y eliminan canales o contenidos que contraté?",
+      "respuesta": "Si el canal o contenido formaba parte de las condiciones que contrataste y su eliminación supone una modificación del contrato, el operador debe informarte con al menos un mes de antelación y comunicarte tu derecho a resolverlo sin coste adicional si no aceptas el cambio. Si tienes derecho a resolver el servicio de televisión por falta de conformidad o incumplimiento, puedes resolver también el resto de servicios incluidos en el mismo paquete. Comprueba el contrato, el resumen contractual y la oferta o publicidad que recibiste al contratar para acreditar qué contenidos estaban incluidos.",
+      "subcategoria": "Teléfono e internet",
+      "keywords": [
+        "paquete",
+        "televisión",
+        "internet",
+        "contenidos",
+        "canales",
+        "modificación",
+        "contrato",
+        "baja"
       ]
     }
   ]

@@ -63,10 +63,12 @@
                             <div id="explicacionContainer"></div>
                             <!-- Opciones (Sí/No, Banca/Seguros, etc.) se muestran aquí -->
                             <div id="opcionesContainer"></div>
-                            <p class="mensaje-inicial">Describe tu consulta o selecciona un sector:</p>
-                            <div class="search-box">
-                                <input type="text" class="search-input" id="searchInput" placeholder="Ej: Me han cobrado de más en la factura de la luz...">
-                                <button class="search-btn" onclick="buscarConsulta()">Buscar</button>
+                            <div id="bloqueBusqueda">
+                                <p class="mensaje-inicial">Describe tu consulta o selecciona un sector:</p>
+                                <div class="search-box">
+                                    <input type="text" class="search-input" id="searchInput" placeholder="Ej: Me han cobrado de más en la factura de la luz...">
+                                    <button class="search-btn" onclick="buscarConsulta()">Buscar</button>
+                                </div>
                             </div>
                             <!-- Resultados de búsqueda justo debajo -->
                             <div id="searchResults" class="search-results"></div>

@@ -169,6 +169,7 @@ function cargarSectores() {
 // BÚSQUEDA
 // ============================================
 function mostrarBusquedaInicial() {
+    colocarBuscador(false);
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
     const btnVolver = document.getElementById('btnVolver');
@@ -309,6 +310,7 @@ function buscarConsultaFija(query, resultsContainer) {
 }
 
 function mostrarRespuestaBusqueda(sector, index) {
+    colocarBuscador(false);
     console.log('mostrarRespuestaBusqueda llamada con:', sector, index);
     
     // Validar que existen los datos ANTES de modificar el DOM
@@ -450,6 +452,7 @@ function mostrarRespuestaBusqueda(sector, index) {
 // NAVEGACIÓN POR SECTORES
 // ============================================
 function iniciarPorSector(nombreSector) {
+    colocarBuscador(false);
     const sector = SECTORES.find(s => s.nombre === nombreSector);
     if (!sector) return;
     
@@ -533,6 +536,7 @@ function mostrarPreguntasPopularesSector(nombreSector) {
 
 // Función para mostrar todas las preguntas de un sector
 function mostrarTodasPreguntasSector(nombreSector) {
+    colocarBuscador(false);
     const searchResults = document.getElementById('searchResults');
     if (!searchResults || !BASE_CONOCIMIENTO[nombreSector]) return;
     
@@ -563,6 +567,7 @@ function mostrarTodasPreguntasSector(nombreSector) {
 }
 
 function mostrarPreguntaConFAQs(nodo, sectorNombre) {
+    colocarBuscador(false);
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const opcionesContainer = document.getElementById('opcionesContainer');
     const explicacionContainer = document.getElementById('explicacionContainer');
@@ -628,6 +633,7 @@ function mostrarPreguntaConFAQs(nodo, sectorNombre) {
 }
 
 function mostrarPregunta(nodo) {
+    colocarBuscador(false);
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
     const opcionesContainer = document.getElementById('opcionesContainer');
@@ -710,6 +716,7 @@ function navegarArbol(respuesta) {
 }
 
 function mostrarFAQ(sector, index) {
+    colocarBuscador(false);
     // Validar que existen los datos ANTES de modificar el DOM
     if (!BASE_CONOCIMIENTO[sector] || !BASE_CONOCIMIENTO[sector][index]) {
         console.error('FAQ no encontrada:', sector, index);
@@ -840,6 +847,24 @@ function mostrarFAQ(sector, index) {
     window.faqsActuales = BASE_CONOCIMIENTO[sector];
 }
 
+// Coloca el buscador arriba (navegación normal) o al final (tras una solución)
+function colocarBuscador(abajo) {
+    const bloque = document.getElementById('bloqueBusqueda');
+    if (!bloque) return;
+    const mensaje = bloque.querySelector('.mensaje-inicial');
+    if (abajo) {
+        const contenido = document.getElementById('contenidoArea');
+        if (contenido) contenido.after(bloque);
+        bloque.classList.add('bloque-busqueda--abajo');
+        if (mensaje) mensaje.textContent = '¿Tienes otra consulta? Descríbela aquí:';
+    } else {
+        const resultados = document.getElementById('searchResults');
+        if (resultados) resultados.before(bloque);
+        bloque.classList.remove('bloque-busqueda--abajo');
+        if (mensaje) mensaje.textContent = 'Describe tu consulta o selecciona un sector:';
+    }
+}
+
 function escaparHTML(texto) {
     return String(texto)
         .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
@@ -847,6 +872,7 @@ function escaparHTML(texto) {
 }
 
 function mostrarSolucion(nodo) {
+    colocarBuscador(true);
     const preguntaEl = document.getElementById('preguntaPrincipal');
     const contenido = document.getElementById('contenidoArea');
     const opcionesContainer = document.getElementById('opcionesContainer');
@@ -953,6 +979,7 @@ function volverAtras() {
 }
 
 function reiniciar() {
+    colocarBuscador(false);
     document.querySelectorAll('.sector-btn').forEach(btn => {
         btn.classList.remove('active');
     });

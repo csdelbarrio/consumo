@@ -592,3 +592,10 @@
     outline: 3px solid var(--color-primary);
     outline-offset: 2px;
 }
+
+/* Buscador al final de una solución */
+.bloque-busqueda--abajo {
+    max-width: 800px;
+    margin: 0 auto var(--spacing-xl);
+    padding: 0 30px;
+}
